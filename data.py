@@ -92,14 +92,6 @@ party_leaders = {
     "PP": "Maxime Bernier"
 }
 
-# party_seats = {
-#     "LIB": 157,
-#     "CON": 121,
-#     "NDP": 24,
-#     "GRN": 3,
-#     "BQ": 32,
-# }
-
 incumbent = {"LIB"}
 
 party_positions = {
