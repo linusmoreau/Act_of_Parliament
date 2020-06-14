@@ -809,7 +809,8 @@ class SliderButton(Button):
             if not pygame.mouse.get_pressed()[0]:
                 self.state = NORMAL_STATE
                 self.update()
-            move = mouse[0] - self.mouse_loc
+            if self.min - self.radius <= mouse[0] <= self.max + self.radius:
+                move = mouse[0] - self.mouse_loc
         if move is not None:
             if self.loc + move > self.max:
                 self.loc = self.max
