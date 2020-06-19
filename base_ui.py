@@ -5,6 +5,7 @@ import string
 import math
 import functools
 import date_translator
+import ctypes
 
 CENTER = 0
 TOPLEFT = 1
@@ -54,8 +55,9 @@ text_capture = []
 os.environ['SDL_VIDEO_WINDOW_POS'] = '1'
 pygame.init()
 monitor_info = pygame.display.Info()
-screen_width = int(monitor_info.current_w / 1.25)
-screen_height = int(monitor_info.current_h / 1.25)
+scale_factor = ctypes.windll.shcore.GetScaleFactorForDevice(0) / 100
+screen_width = int(monitor_info.current_w / scale_factor)
+screen_height = int(monitor_info.current_h / scale_factor)
 screen_dimensions = (screen_width, screen_height)
 screen_dimension_ratio = screen_width / screen_height
 screen_center = (screen_width / 2, screen_height / 2)
