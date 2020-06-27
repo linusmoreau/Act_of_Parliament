@@ -895,40 +895,6 @@ class Text(Widget):
             self.surface.set_colorkey(self.background_colour)
         self.surface.blit(surface, (0, 0))
 
-    # def det_dim(self, width, font_width):
-    #     rows = 1
-    #     col = 0
-    #     if width is None:
-    #         columns = 1
-    #         for char in self.text:
-    #             if char == '\n':
-    #                 rows += 1
-    #                 col = 0
-    #             else:
-    #                 col += 1
-    #                 if col > columns:
-    #                     columns = col
-    #     else:
-    #         columns = int(width / font_width)
-    #         for i, char in enumerate(self.text):
-    #             if col == 0 and char == ' ':
-    #                 continue
-    #             elif col == columns - 1 and len(self.text) > i + 1:
-    #                 if self.text[i + 1] != '\n':
-    #                     rows += 1
-    #                     for j in range(columns):
-    #                         if self.text[i - j + 1] == ' ':
-    #                             col = j - 1
-    #                             break
-    #                     else:
-    #                         col = 0
-    #             elif char == "\n":
-    #                 rows += 1
-    #                 col = 0
-    #             else:
-    #                 col += 1
-    #     return rows, columns
-
     def multiline_surface(self, width, background):
         lines = []
         pos = 0
@@ -974,56 +940,6 @@ class Text(Widget):
                 dest_x = 0
             surface.blit(subsurface, (dest_x, i * self.char_height))
         return surface
-
-    # def multiline_surface(self, width, background):
-    #     allocated = False
-    #     rows, columns = self.det_dim(width, self.char_width)
-    #     self.rows = rows
-    #     self.columns = columns
-    #     surface = pygame.Surface((columns * self.char_width, rows * self.char_height))
-    #     surface.fill(background)
-    #     surface.set_colorkey(background)
-    #     point = 0
-    #     for row in range(rows):
-    #         if point == len(self.text):
-    #             break
-    #         if self.text[point] == ' ':
-    #             point += 1
-    #         if len(self.text) > point + columns:
-    #             text = self.text[point:point + columns]
-    #             if '\n' in text:
-    #                 text = self.text[point:point + text.index("\n")]
-    #                 point += 1
-    #             elif self.text[point + columns] == '\n':
-    #                 point += 1
-    #             elif self.text[point + columns] != ' ':
-    #                 for i in range(len(text) - 1, -1, -1):
-    #                     if text[i] == ' ':
-    #                         text = self.text[point:point + i]
-    #                         break
-    #         else:
-    #             text = self.text[point:]
-    #             if '\n' in text:
-    #                 text = self.text[point:point + text.index("\n")]
-    #                 point += 1
-    #         subsurface = self.style.render(text, True, self.colour, self.background_colour)
-    #         dest_x = 0
-    #         if self.justify == CENTER:
-    #             dest_x = (surface.get_width() - subsurface.get_width()) / 2
-    #         elif self.justify == RIGHT:
-    #             dest_x = surface.get_width() - subsurface.get_width()
-    #         surface.blit(subsurface, (dest_x, row * self.char_height))
-    #         if type(self.parent).__name__ == "TextInput":
-    #             if point <= self.parent.cursor_pos <= point + len(text) and not allocated:
-    #                 if self.parent.cursor_pos == point + len(text) and self.text[point + len(text) - 1] == '\n':
-    #                     self.parent.cursor_row = row + 1
-    #                     self.parent.cursor_col = 0
-    #                 else:
-    #                     self.parent.cursor_row = row
-    #                     self.parent.cursor_col = self.parent.cursor_pos - point
-    #                 allocated = True
-    #         point += len(text)
-    #     return surface
 
 
 class BaseToolTip(Widget):
