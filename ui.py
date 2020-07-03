@@ -7,6 +7,9 @@ import threading
 from base_ui import *
 from collections import OrderedDict
 
+display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
+MENU_WIDTH = screen_width / 4
+
 
 class Music:
     channel = None
@@ -139,11 +142,14 @@ class Confirmation(PopUp):
 
 class HierarchyButtonDisplay(ScrollButtonDisplay):
 
-    def __init__(self, position, area, categories, align=TOPLEFT, step=50, edge=DEFAULT_EDGE, colour=light_grey,
+    def __init__(self, position, area, categories, align=TOPLEFT, step=None, edge=DEFAULT_EDGE, colour=light_grey,
                  deselect=True):
         """categories is an ordered dictionary"""
         self.categories = categories
-        self.step = step
+        if step is None:
+            self.step = Button.default_height
+        else:
+            self.step = step
         self.deselect = deselect
         super().__init__(position, area, self.step * len(categories), align=align, edge=edge, button_size=self.step,
                          colour=colour)
@@ -236,7 +242,9 @@ def flatten(buttons):
 
 class PartiesButtonDisplay(ScrollButtonDisplay):
 
-    def __init__(self, position, area, parties, align=TOPLEFT, step=DEFAULT_SIZE, edge=DEFAULT_EDGE):
+    def __init__(self, position, area, parties, align=TOPLEFT, step=None, edge=DEFAULT_EDGE):
+        if step is None:
+            step = Button.default_height
         self.parties = parties
         order = sorted(list(parties), key=lambda party: parties[party].seats, reverse=True)
 
@@ -572,8 +580,8 @@ class PersonTag(BaseToolTip):
 
 
 class PersonCard(PopUp):
-    width = 400
-    height = 600
+    width = int(screen_width / 4)
+    height = int(screen_height / 2)
     instances = []
 
     def __init__(self, visual):
@@ -676,7 +684,7 @@ class PageParliament:
         set_up_page("parliament", toolbar=True)
         PageParliament.loc = loc
         self.incumbent = data.incumbent
-        self.radius = 14
+        self.radius = round(screen_width / 128)
         self.gap = 2
         self.step = self.radius * 2 + self.gap
         self.mps = []
@@ -704,8 +712,8 @@ class PageParliament:
         dist = MENU_WIDTH / 8
         w = MENU_WIDTH * 3 / 4
         spacing = screen_height / 32
-        button_size = 90
-        s_button_size = 50
+        button_size = Button.default_height * 7 / 5
+        s_button_size = Button.default_height * 3 / 4
 
         gov = SelectButton((MENU_WIDTH / 2, display_rect.centery - spacing / 2), (MENU_WIDTH / 2, s_button_size),
               align=BOTTOM, label="Government", parent=self, exclusive=True, deselectable=False)
@@ -767,7 +775,7 @@ class PageParliament:
                              parent=disp, exclusive=True, deselectable=False)
 
             bill_tag = Text("Bill C-" + str(bill.num), (b.rect.left + 8, b.rect.top + 4), align=TOPLEFT,
-                            background_colour=b.normal_colour, font_size=20)
+                            background_colour=b.normal_colour, font_size=int(BASE_FONT_SIZE * 5 / 4))
             b.components.append(bill_tag)
 
             bill_name = Text(bill.name, bill_tag.rect.bottomleft, align=TOPLEFT, background_colour=b.normal_colour)
@@ -1102,7 +1110,7 @@ class PagePolicy(PageListBase):
     def first_page(self):
         PagePolicy.loc = None
         self.new_page()
-        msg = Text("No policy selected", (self.mid_x, screen_height / 2), font_size=24)
+        msg = Text("No policy selected", (self.mid_x, screen_height / 2), font_size=TITLE_SIZE)
         self.components.append(msg)
         msg.show()
 
@@ -1184,6 +1192,7 @@ class PageBills(PageListBase):
         PageBills.loc = loc
         self.bill = None
         self.propose_b = None
+        self.progress_disp = None
 
         self.first_page()
         self.set_up_list()
@@ -1193,7 +1202,7 @@ class PageBills(PageListBase):
     def set_up_list(self):
         x = MENU_WIDTH / 8
         w = MENU_WIDTH * 3 / 4
-        button_size = 100
+        button_size = screen_height / 9
         contents = sorted(list(logic.bills.values()), key=lambda bill: bill.id_num, reverse=True)
         self.button_disp = \
             ScrollButtonDisplay((x, screen_height / 8 + ToolBar.height), (w, screen_height * 3 / 4 - ToolBar.height),
@@ -1264,6 +1273,11 @@ class PageBills(PageListBase):
         self.components.append(self.propose_b)
         self.progress_check()
 
+        self.progress_disp = BillProgress(self.bill,
+                                          (self.propose_b.rect.centerx, self.propose_b.rect.top - display_rect.h / 16),
+                                          align=BOTTOM, parent=self)
+        self.components.append(self.progress_disp)
+
         for w in self.components:
             w.show()
 
@@ -1295,9 +1309,46 @@ class PageBills(PageListBase):
     def first_page(self):
         PageBills.loc = None
         self.new_page()
-        msg = Text("No bill selected", (self.mid_x, screen_height / 2), font_size=24)
+        msg = Text("No bill selected", (self.mid_x, screen_height / 2), font_size=TITLE_SIZE)
         self.components.append(msg)
         msg.show()
+
+
+class BillProgress(Widget):
+
+    def __init__(self, bill, pos, align=TOPLEFT, parent=None):
+        self.stage = logic.bills[bill].stage
+        width = display_rect.w / 32
+        height = display_rect.h / 2
+        area = (width, height)
+        super().__init__(pos, area, align=align, parent=parent)
+        self.surface.set_colorkey(white)
+        self.surface.fill(white)
+        rod = pygame.Rect((0, 0), (self.rect.w / 4, self.rect.h * 3 / 4))
+        rod.center = (width / 2, height / 2)
+        pygame.draw.rect(self.surface, grey, rod)
+
+        num = len(logic.Bill.stages) - 1
+        stagger = rod.height / (num - 1)
+        r = int(width / 4)
+        r2 = int(r * 2 / 3)
+        if r2 < 1:
+            r2 = r
+        for i in range(num):
+            x = rod.centerx
+            y = round(rod.bottom - stagger * i)
+            if i < self.stage:
+                colour = green
+            elif i == self.stage:
+                colour = (255, 255, 0)
+            else:
+                colour = (255, 0, 0)
+            pygame.gfxdraw.aacircle(self.surface, x, y, r, grey)
+            pygame.gfxdraw.filled_circle(self.surface, x, y, r, grey)
+            pygame.gfxdraw.aacircle(self.surface, x, y, r2, colour)
+            pygame.gfxdraw.filled_circle(self.surface, x, y, r2, colour)
+            text = Text(logic.Bill.stages[i], (self.rect.x + x - r * 2, self.rect.y + y), align=RIGHT)
+            self.extensions.append(text)
 
 
 class PageStatistics(PageListBase):
@@ -1377,11 +1428,9 @@ class PageTitle:
             "credits": make_credits_pop_up,
             "quit": terminate
         }
-        button_height = 60
-        button_width = 180
         for i, button in enumerate(buttons):
-            b = Button((screen_width / 2, screen_height / 4 * 2 + i * button_height * 3 / 2),
-                       (button_width, button_height), align=CENTER, label=data.names[button])
+            b = Button((screen_width / 2, screen_height / 4 * 2 + i * Button.default_height * 3 / 2),
+                       align=CENTER, label=data.names[button])
             if button_functions[button] is not None:
                 b.callback(button_functions[button])
             b.show()
@@ -1394,7 +1443,7 @@ class PageSelection:
         self.display = PartiesButtonDisplay((screen_width / 4, screen_height * 2 / 5),
                        (screen_width / 3, screen_height * 2 / 3), logic.parties, align=CENTER)
         self.display.show()
-        select_button = Button((screen_width / 4, screen_height * 7 / 8), (180, 60),
+        select_button = Button((screen_width / 4, screen_height * 7 / 8),
                                align=CENTER, label="Select")
         select_button.callback(self.set_up)
         select_button.show()
@@ -1423,16 +1472,15 @@ class PageSettings:
             "menu": return_to_menu,
             "quit": terminate
         }
-        button_height = 60
-        button_width = 180
         for i, button in enumerate(buttons):
-            b = Button((screen_width / 2, screen_height / 8 * 2 + ToolBar.instance.rect.h + i * button_height * 3 / 2),
-                       (button_width, button_height), align=CENTER, label=data.names[button])
+            b = Button((screen_width / 2, screen_height / 8 * 2 + ToolBar.instance.rect.h + i *
+                        Button.default_height * 3 / 2),
+                       align=CENTER, label=data.names[button])
             if button_functions[button] is not None:
                 b.callback(button_functions[button])
             b.show()
         base = text_size(BASE_FONT_SIZE)
-        size = 16
+        size = screen_width / 96
         Music.channel.make_slider((screen_width / 4, screen_height / 2), (screen_width / 8, size))
         Music.channel.show_playing((screen_width * 3 / 16, screen_height / 2 + base[1]),
                                    screen_width * 3 / 16, align=TOPLEFT)

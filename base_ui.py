@@ -1,3 +1,5 @@
+from typing import List, Any
+
 import pygame
 import pygame.gfxdraw
 import os
@@ -22,19 +24,6 @@ HIGHLIGHT_STATE = 1
 PRESS_STATE = 2
 SELECT_STATE = 3
 DISABLE_STATE = 4
-
-BUTTON_SCROLL = 1
-SCROLL_SPEED = 5
-SCROLL_SENSITIVITY = 20
-SCROLL_RESISTANCE = 0.92
-DEFAULT_SIZE = 100
-DEFAULT_EDGE = 12
-FONT_ASPECT = 0.42
-TOOLTIP_OFFSET = 20
-BASE_FONT_SIZE = 16
-TITLE_SIZE = 40
-SHADOW = 3
-DEFAULT_FONT = 'mongolianbaiti'
 
 black = (0, 0, 0)
 white = (255, 255, 255)
@@ -61,14 +50,23 @@ screen_height = int(monitor_info.current_h / scale_factor)
 screen_dimensions = (screen_width, screen_height)
 screen_dimension_ratio = screen_width / screen_height
 screen_center = (screen_width / 2, screen_height / 2)
-display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
 screen_rect = pygame.Rect((0, 0), screen_dimensions)
 pygame.display.set_icon(pygame.transform.scale((pygame.image.load("images/ballot.png")), (32, 32)))
 
 screen = pygame.display.set_mode(screen_dimensions, pygame.NOFRAME)
 clock = pygame.time.Clock()
 
-MENU_WIDTH = screen_width / 4
+BUTTON_SCROLL = 1
+SCROLL_SPEED = 5
+SCROLL_SENSITIVITY = int(screen_height / 64)
+SCROLL_RESISTANCE = 0.92
+DEFAULT_EDGE = round(screen_width / 128)
+FONT_ASPECT = 0.42
+TOOLTIP_OFFSET = int(screen_width / 64)
+BASE_FONT_SIZE = round(screen_width / 96)
+TITLE_SIZE = BASE_FONT_SIZE * 2
+SHADOW = round(screen_height / 288)
+DEFAULT_FONT = 'mongolianbaiti'
 
 
 class Widget:
@@ -153,7 +151,7 @@ class Widget:
         contain = self.contain_rect
         seen = True
         surface = self.get_surface()
-        if container is display_rect or container.contains(self.rect):
+        if container is screen_rect or container.contains(self.rect):
             screen.blit(surface, self.rect)
         elif container.colliderect(self.rect):
             visible = pygame.Rect((0, 0), (self.rect.w, self.rect.h))
@@ -306,7 +304,7 @@ class Widget:
 
     def move_to(self, pos, align=TOPLEFT):
         rel_pos = []
-        dif = [self.contain_rect.left - self.rect.left, self.contain_rect.top - self.rect.top]
+        dif: List[Any] = [self.contain_rect.left - self.rect.left, self.contain_rect.top - self.rect.top]
         for component in self.components + self.extensions:
             rel_pos.append([component.rect.left - self.rect.left, component.rect.top - self.rect.top])
         self.align(align, pos)
@@ -330,12 +328,15 @@ class Widget:
 
 class Button(Widget):
     buttons = []
+    default_height = int(screen_height / 14)
+    default_width = int(screen_width / 9)
 
-    def __init__(self, position, area=(120, 50), align=TOPLEFT, label=None, label_size=BASE_FONT_SIZE,
-                 parent=None, border_thickness=1, border_colour=black, colour=grey, threed=True):
+    def __init__(self, position, area=None, align=TOPLEFT, label=None, label_size=BASE_FONT_SIZE, parent=None,
+                 border_thickness=1, border_colour=black, colour=grey, threed=True):
+        if area is None:
+            area = (self.default_width, self.default_height)
         self.surface = pygame.Surface(area)
         super().__init__(position, area, align, self.surface, parent=parent)
-
         if border_thickness == 0:
             self.borders = False
         else:
@@ -589,7 +590,7 @@ class ScrollBar(Widget):
         c_range = self.rect.h - 2 * self.marg
         self.scale = c_range / self.parent.total_size
         cursor_height = round(self.scale * self.parent.contain_rect.h)
-        min_height = 20
+        min_height = int(screen_height / 48)
         if cursor_height < min_height:
             self.scale = self.scale * (c_range - min_height) / (c_range - cursor_height)
             cursor_height = min_height
@@ -1040,7 +1041,7 @@ class ScrollDisplayBase(Widget):
 
     def set_scroll_bar(self):
         scroll_bar = ScrollBar((self.contain_rect.right, self.contain_rect.top),
-                               (10, self.contain_rect.h), self)
+                               (DEFAULT_EDGE, self.contain_rect.h), self)
         self.extensions.append(scroll_bar)
         self.scroll_bar = scroll_bar
 
