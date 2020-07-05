@@ -2,7 +2,7 @@ import logic
 import random
 import data
 import toolkit
-import main
+import Act_of_Parliament
 import threading
 from base_ui import *
 from collections import OrderedDict
@@ -585,10 +585,10 @@ class PersonCard(PopUp):
     instances = []
 
     def __init__(self, visual):
-        if main.GRAPHICS == 0:
+        if Act_of_Parliament.GRAPHICS == 0:
             opacity = 255
             colour = (20, 20, 20)
-        elif main.GRAPHICS == 1:
+        elif Act_of_Parliament.GRAPHICS == 1:
             opacity = 240
             colour = black
         else:
@@ -602,10 +602,12 @@ class PersonCard(PopUp):
         self.person = self.visual.person
 
         margin = 20
-        name = Text(self.person.name, (margin, margin), 24, align=TOPLEFT, colour=white, background_colour=colour)
+        name = Text(self.person.name, (margin, margin), int(BASE_FONT_SIZE * 5 / 4), align=TOPLEFT, colour=white,
+                    background_colour=colour)
         self.surface.blit(name.surface, name.rect)
 
-        riding = Button((self.rect.right - 2 * margin, self.rect.top + margin - SHADOW), (80, name.rect.h),
+        riding = Button((self.rect.right - 2 * margin, self.rect.top + margin - SHADOW),
+                        (int(Button.default_width / 2), int(Button.default_height / 2)),
                         align=TOPRIGHT, label=self.person.riding)
         self.components.append(riding)
 
@@ -684,7 +686,7 @@ class PageParliament:
         set_up_page("parliament", toolbar=True)
         PageParliament.loc = loc
         self.incumbent = data.incumbent
-        self.radius = round(screen_width / 128)
+        self.radius = int(screen_width / 128) + 1
         self.gap = 2
         self.step = self.radius * 2 + self.gap
         self.mps = []
@@ -1416,8 +1418,8 @@ class PageTitle:
     def __init__(self):
         set_up_page("title", toolbar=False)
 
-        self.title = Text(main.GAME_TITLE, (screen_width / 2, screen_height / 4), font_size=screen_height // 8,
-                          align=CENTER)
+        self.title = Text(Act_of_Parliament.GAME_TITLE, (screen_width / 2, screen_height / 4),
+                          font_size=screen_height // 8, align=CENTER)
         self.title.show()
 
         buttons = ["new game", "load", "credits", "quit"]
@@ -1537,9 +1539,9 @@ class ToolBar(Widget):
 
     def __init__(self):
         super().__init__((0, 0), (self.width, self.height), default_alpha=255)
-        if main.GRAPHICS == 0:
+        if Act_of_Parliament.GRAPHICS == 0:
             self.surface.fill(light_grey)
-        elif main.GRAPHICS == 1:
+        elif Act_of_Parliament.GRAPHICS == 1:
             self.surface.fill(black)
             self.surface.set_alpha(32)
 
@@ -1602,8 +1604,8 @@ class ToolBar(Widget):
         self.forw_button.set_tooltip("Return to next page")
         self.components.append(self.forw_button)
 
-        self.turn_txt = Text("Turn: " + str(data.game_state["turn"]), (9 / 2 * self.unit_size, self.height / 2), 24,
-                        background_colour=light_grey, parent=self, align=LEFT)
+        self.turn_txt = Text("Turn: " + str(data.game_state["turn"]), (9 / 2 * self.unit_size, self.height / 2),
+                             int(BASE_FONT_SIZE * 5 / 4), background_colour=light_grey, parent=self, align=LEFT)
         self.components.append(self.turn_txt)
 
         self.date_txt = Text(data.game_state["date"], self.turn_txt.rect.bottomleft, align=TOPLEFT, parent=self,
@@ -1811,7 +1813,7 @@ def get_all_wids():
 
 
 def game_loop():
-    pygame.display.set_caption(main.GAME_TITLE)
+    pygame.display.set_caption(Act_of_Parliament.GAME_TITLE)
     Music(list(data.soundtrack.keys()))
     PageTitle()
     while True:
@@ -1829,7 +1831,7 @@ def game_loop():
         all_wids = get_all_wids()
         for event in pygame.event.get():
             if event.type == pygame.QUIT or \
-                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and main.TESTING):
+                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and Act_of_Parliament.TESTING):
                 terminate()
             elif event.type == pygame.USEREVENT:
                 Music.channel.new_track()

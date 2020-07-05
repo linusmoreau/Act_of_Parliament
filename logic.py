@@ -139,7 +139,7 @@ class Person:
                         age = round(random.gauss(70, 10))
                     else:
                         age = random.randrange(18, 60)
-                    birthdate = date_translator.random_date(int(game_state["date"].split('/')[0]) - age)
+                    birthdate = date_translator.random_date(int(game_state["date"].split('-')[0]) - age)
                     age = date_translator.age(birthdate, game_state["date"])
                     if age >= 18:
                         break
@@ -235,7 +235,7 @@ class ParliamentMember(Person):
         if birthdate is None:
             while True:
                 age = round(random.gauss(50, 10))
-                birthdate = date_translator.random_date(int(game_state["date"].split('/')[0]) - age)
+                birthdate = date_translator.random_date(int(game_state["date"].split('-')[0]) - age)
                 age = date_translator.age(birthdate, game_state["date"])
                 if age >= 18:
                     break

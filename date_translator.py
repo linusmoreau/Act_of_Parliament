@@ -6,7 +6,7 @@ months = {1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "Jun
 
 
 def get_date(dif, initial_date):
-    init_day = initial_date.split('/')
+    init_day = initial_date.split('-')
     year = int(init_day[0])
     month = int(init_day[1])
     day = int(init_day[2])
@@ -34,7 +34,7 @@ def get_date(dif, initial_date):
             day += get_month_length(month, year)
         else:
             break
-    return str(year) + '/' + str(month).rjust(2, '0') + '/' + str(day).rjust(2, '0')
+    return str(year) + '-' + str(month).rjust(2, '0') + '-' + str(day).rjust(2, '0')
 
 
 def get_month_length(month, year):
@@ -59,7 +59,7 @@ def leap_year(year):
 
 
 def date_as_text(date):
-    date = date.split('/')
+    date = date.split('-')
     year = int(date[0])
     month = int(date[1])
     day = int(date[2])
@@ -67,8 +67,8 @@ def date_as_text(date):
 
 
 def age(birthdate, currentdate):
-    currentdate = currentdate.split('/')
-    birthdate = birthdate.split('/')
+    currentdate = currentdate.split('-')
+    birthdate = birthdate.split('-')
     years = int(currentdate[0]) - int(birthdate[0])
     if currentdate[1] < birthdate[1] or (currentdate[1] == birthdate[1] and currentdate[2] < birthdate[2]):
         years -= 1
@@ -78,11 +78,11 @@ def age(birthdate, currentdate):
 def random_date(year):
     month = random.randrange(1, 13)
     day = random.randrange(1, get_month_length(month, year))
-    return str(year) + '/' + str(month) + '/' + str(day)
+    return str(year) + '-' + str(month) + '-' + str(day)
 
 
 def between(start, end, date):
-    dates = [start.split('/'), end.split('/'), date.split('/')]
+    dates = [start.split('-'), end.split('-'), date.split('-')]
     for i in range(len(dates)):
         dates[i] = dates[i][0] * 10000 + dates[i][1] + 100 + dates[i][2]
     if dates[0] < dates[2] <= dates[1]:
@@ -92,9 +92,9 @@ def between(start, end, date):
 
 
 if __name__ == "__main__":
-    init_date = "2020/04/12"
+    init_date = "2020-04-12"
     dif = random.randint(-100000, 100000)
     date = get_date(dif, init_date)
     print(date)
     print(date_as_text(date))
-    print(age("2002/09/05", "2020/04/30"))
+    print(age("2002-09-05", "2020-04-30"))

@@ -1,8 +1,9 @@
 from typing import List, Any
 
+import os
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
 import pygame.gfxdraw
-import os
 import string
 import math
 import functools
@@ -60,12 +61,12 @@ BUTTON_SCROLL = 1
 SCROLL_SPEED = 5
 SCROLL_SENSITIVITY = int(screen_height / 64)
 SCROLL_RESISTANCE = 0.92
-DEFAULT_EDGE = round(screen_width / 128)
+DEFAULT_EDGE = int(screen_width / 128)
 FONT_ASPECT = 0.42
 TOOLTIP_OFFSET = int(screen_width / 64)
-BASE_FONT_SIZE = round(screen_width / 96)
+BASE_FONT_SIZE = int(screen_width / 96)
 TITLE_SIZE = BASE_FONT_SIZE * 2
-SHADOW = round(screen_height / 288)
+SHADOW = round(screen_height / 432) + 1
 DEFAULT_FONT = 'mongolianbaiti'
 
 
@@ -1041,7 +1042,7 @@ class ScrollDisplayBase(Widget):
 
     def set_scroll_bar(self):
         scroll_bar = ScrollBar((self.contain_rect.right, self.contain_rect.top),
-                               (DEFAULT_EDGE, self.contain_rect.h), self)
+                               (DEFAULT_EDGE - 1, self.contain_rect.h), self)
         self.extensions.append(scroll_bar)
         self.scroll_bar = scroll_bar
 
@@ -1151,9 +1152,9 @@ class GraphDisplay(Widget):
         self.y_min = y_min
         self.y_max = y_max
         self.max_y_max = max_y_max
-        self.heading_font_size = 24
+        self.heading_font_size = int(BASE_FONT_SIZE * 3 / 2)
         self.heading_font_width, self.heading_font_height = text_size(self.heading_font_size)
-        self.title_font_size = 32
+        self.title_font_size = TITLE_SIZE
         self.title_font_width, self.title_font_height = text_size(self.title_font_size)
         self.colours = colours
 
@@ -1305,7 +1306,7 @@ class GraphDisplay(Widget):
             tip.surface.set_alpha(200)
             tips.append(tip)
 
-            r = 5
+            r = int(screen_height / 180) + 1
             s = Widget((round(x), round(y_pos)), (2 * r + 1, 2 * r + 1), align=CENTER)
             s.surface.fill(white)
             s.surface.set_colorkey(white)
@@ -1645,7 +1646,7 @@ class PopUp(Widget):
         self.rel = None
         super().__init__(pos, area, surface=surface, align=align, default_alpha=opacity, appearing=appearing)
         if close:
-            size = 20
+            size = screen_height / 40 + 1
             close_b = Button((self.rect.right, self.rect.top), (size, size), align=TOPRIGHT,
                              colour=(200, 20, 20), border_thickness=2, parent=self, threed=False,
                              border_colour=gold)

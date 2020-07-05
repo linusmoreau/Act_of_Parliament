@@ -9,7 +9,7 @@ region_tags = province_tags + territory_tags
 number_of_seats = 338
 scale = 5000
 turn_length = 7
-default_game_state = {"player": None, "parliament": 43, "turn": 1, "date": "2019/10/28"}
+default_game_state = {"player": None, "parliament": 43, "turn": 1, "date": "2019-10-28"}
 game_state = default_game_state.copy()
 
 private_orders_length = 10  # 30 in reality
@@ -321,7 +321,7 @@ credit = "Directed, designed, and programmed by: Linus Moreau\n\n" \
          "All music by Kevin Macleod and available at incompetech.com.\n" \
          "Licensed under Creative Commons: By Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)\n\n" \
          "Written in Python 3.7 with the pygame module using the IDE PyCharm. Freezing into executable done using " \
-         "PyInstaller"
+         "PyInstaller."
 
 # The following are purely for testing purposes
 
