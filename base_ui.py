@@ -839,7 +839,8 @@ class Text(Widget):
     def __init__(self, text, position, font_size=BASE_FONT_SIZE, font=DEFAULT_FONT, align=CENTER,
                  width=None, height=None,
                  appearing=False, colour=black, background_colour=white, solid_background=False, default_alpha=255,
-                 multiline=False, justify=LEFT, parent=None, margin=0, catchable=False, bold=False):
+                 multiline=False, justify=LEFT, parent=None, margin=0, catchable=False, bold=False, italic=False,
+                 underline=False):
         self.text = text
         self.font_size = font_size
         self.font = font
@@ -852,10 +853,14 @@ class Text(Widget):
         self.margin = margin
         self.parent = parent
         self.solid_background = solid_background
+        self.bold = bold
+        self.italic = italic
+        self.underline = underline
 
         self.char_height = text_size(self.font_size, self.font)[1]
 
-        self.style = pygame.font.SysFont(self.font, self.font_size, bold=bold)
+        self.style = pygame.font.SysFont(self.font, self.font_size, bold=self.bold, italic=self.italic)
+        self.style.set_underline(self.underline)
 
         self.make_surface()
         area = (self.surface.get_width(), self.surface.get_height())
@@ -864,7 +869,10 @@ class Text(Widget):
 
     def make_surface(self):
         if not self.multiline or len(self.text) < 1:
-            surface = self.style.render(self.text, True, self.colour, self.background_colour)
+            if "</" in self.text and "/>" in self.text:
+                surface = self.multisurface_line(self.text)
+            else:
+                surface = self.style.render(self.text, True, self.colour, self.background_colour)
         else:
             surface = self.multiline_surface(self.width, self.background_colour)
         self.surface = pygame.Surface((surface.get_width() + self.margin * 2,
@@ -896,6 +904,135 @@ class Text(Widget):
         if not self.solid_background:
             self.surface.set_colorkey(self.background_colour)
         self.surface.blit(surface, (0, 0))
+
+    def multisurface_line(self, text, **kwargs):
+        font = kwargs.get("font", self.font)
+        bold = kwargs.get("bold", self.bold)
+        italic = kwargs.get("italic", self.italic)
+        colour = kwargs.get("colour", self.colour)
+        underline = kwargs.get("underline", self.underline)
+
+        command_secs = []
+        # command_secs: [[beg, end], [beg, end], [beg, end], etc.]
+        for i in range(len(text) - 1):
+            if text[i] + text[i + 1] == "</":
+                command_secs.append([i])
+            elif text[i] + text[i + 1] == "/>":
+                command_secs[-1].append(i + 1)
+
+        # Assembling displayed text and commands to effect to the text
+        commands = []   # [{'c': (200, 100, 10), 'i': True}, etc.]
+        texts = []      # [0: "Hello", 25: "Bob", etc.]
+        point = 0
+        order = []
+        for sec in command_secs:
+            if point != sec[0]:
+                texts.append(text[point:sec[0]])
+                order.append(0)
+            point = sec[0]
+            sets = text[sec[0] + 2:sec[1] - 1].split('-')
+            comm = {}
+            for st in sets:
+                if st == '':
+                    continue
+                elem = st.split()
+                for i, el in enumerate(elem):
+                    elem[i] = el.lower()
+                if elem[0] in ["font", 'f']:
+                    elem[0] = 'f'
+                    if len(elem) < 2 or elem[1] in ["default", 'd'] or elem[1] not in pygame.font.get_fonts():
+                        elem[1] = self.font
+                elif elem[0] in ["colour", 'c']:
+                    elem[0] = 'c'
+                    if len(elem) < 2 or elem[1] in ["default", 'd']:
+                        elem[1] = self.colour
+                    else:
+                        str_colour = ''.join(elem[1][1:-1].split()).split(',')
+                        elem[1] = tuple([int(val) for val in str_colour])
+                elif elem[0] in ["italic", 'i']:
+                    elem[0] = 'i'
+                    if len(elem) < 2:
+                        elem.append(2)
+                    elif elem[1] in ["true", 't']:
+                        elem[1] = True
+                    elif elem[1] in ["false", 'f']:
+                        elem[1] = False
+                    elif elem[1] in ["default", 'd']:
+                        elem[1] = self.italic
+                elif elem[0] in ["bold", 'b']:
+                    elem[0] = 'b'
+                    if len(elem) < 2:
+                        elem.append(2)
+                    elif elem[1] in ["true", 't']:
+                        elem[1] = True
+                    elif elem[1] in ["false", 'f']:
+                        elem[1] = False
+                    elif elem[1] in ["default", 'd']:
+                        elem[1] = self.bold
+                elif elem[0] in ["underline", 'u']:
+                    elem[0] = 'u'
+                    if len(elem) < 2:
+                        elem.append(2)
+                    elif elem[1] in ["true", 't']:
+                        elem[1] = True
+                    elif elem[1] in ["false", 'f']:
+                        elem[1] = False
+                    elif elem[1] in ["default", 'd']:
+                        elem[1] = self.underline
+                comm[elem[0]] = elem[1]
+                point = sec[1] + 1
+            commands.append(comm)
+            order.append(1)
+        texts.append(text[point:])
+        order.append(0)
+
+        # Building the surfaces based off the above information
+        surfaces = []
+        widths = []
+        text_point = 0
+        comm_point = 0
+        for t in order:
+            if t == 1:
+                command = commands[comm_point]
+                for prov in command:
+                    change = command[prov]
+                    if prov == 'f':
+                        font = change
+                    elif prov == 'c':
+                        colour = change
+                    elif prov in 'iub':
+                        if change == 2:
+                            if prov == 'i':
+                                change = (italic is False)
+                            elif prov == 'u':
+                                change = (underline is False)
+                            elif prov == 'b':
+                                change = (bold is False)
+                        if prov == 'i':
+                            italic = change
+                        elif prov == 'u':
+                            underline = change
+                        elif prov == 'b':
+                            bold = change
+                comm_point += 1
+            elif t == 0:
+                style = pygame.font.SysFont(font, self.font_size, bold=bold, italic=italic)
+                style.set_underline(underline)
+                surf = style.render(texts[text_point], True, colour, self.background_colour)
+                widths.append(surf.get_width())
+                surfaces.append(surf)
+                text_point += 1
+
+        # Putting the surfaces together into one
+        height = surfaces[0].get_height()
+        surface = pygame.Surface((sum(widths), height))
+        surface.fill(self.background_colour)
+        surface.set_colorkey(self.background_colour)
+        point = 0
+        for i, surf in enumerate(surfaces):
+            surface.blit(surf, (point, 0))
+            point += widths[i]
+        return surface
 
     def multiline_surface(self, width, background):
         lines = []
