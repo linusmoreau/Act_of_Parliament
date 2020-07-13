@@ -316,10 +316,11 @@ soundtrack = {
     "sound/poppers-and-prosecco.mp3": "Poppers and Prosecco"
 }
 
-credit = "Directed, designed, and programmed by: Linus Moreau\n\n" \
-         "Icons from Icons8 and are available at icons8.com.\n\n" \
+credit = "Directed, designed, and programmed by: </-c (212,175,55)/>Linus Moreau</-c d/>.\n\n" \
+         "Icons from </-c (212,175,55)/>Icons8</-c d/> and are available at icons8.com.\n\n" \
          "All music by Kevin Macleod and available at incompetech.com.\n" \
-         "Licensed under Creative Commons: By Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)\n\n" \
+         "Licensed under Creative Commons: By Attribution 3.0 (</-u/>" \
+         "http://creativecommons.org/licenses/by/3.0/</-u/>)\n\n" \
          "Written in Python 3.7 with the pygame module using the IDE PyCharm. Freezing into executable done using " \
          "PyInstaller."
 

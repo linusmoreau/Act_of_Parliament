@@ -870,7 +870,7 @@ class Text(Widget):
     def make_surface(self):
         if not self.multiline or len(self.text) < 1:
             if "</" in self.text and "/>" in self.text:
-                surface = self.multisurface_line(self.text)
+                surface = self.multisurface_line(self.text)[0]
             else:
                 surface = self.style.render(self.text, True, self.colour, self.background_colour)
         else:
@@ -905,13 +905,7 @@ class Text(Widget):
             self.surface.set_colorkey(self.background_colour)
         self.surface.blit(surface, (0, 0))
 
-    def multisurface_line(self, text, **kwargs):
-        font = kwargs.get("font", self.font)
-        bold = kwargs.get("bold", self.bold)
-        italic = kwargs.get("italic", self.italic)
-        colour = kwargs.get("colour", self.colour)
-        underline = kwargs.get("underline", self.underline)
-
+    def assemble_commands(self, text):
         command_secs = []
         # command_secs: [[beg, end], [beg, end], [beg, end], etc.]
         for i in range(len(text) - 1):
@@ -921,8 +915,8 @@ class Text(Widget):
                 command_secs[-1].append(i + 1)
 
         # Assembling displayed text and commands to effect to the text
-        commands = []   # [{'c': (200, 100, 10), 'i': True}, etc.]
-        texts = []      # [0: "Hello", 25: "Bob", etc.]
+        commands = []  # [{'c': (200, 100, 10), 'i': True}, etc.]
+        texts = []  # [0: "Hello", 25: "Bob", etc.]
         point = 0
         order = []
         for sec in command_secs:
@@ -985,6 +979,16 @@ class Text(Widget):
             order.append(1)
         texts.append(text[point:])
         order.append(0)
+        return order, texts, commands, command_secs
+
+    def multisurface_line(self, text, **kwargs):
+        font = kwargs.get("font", self.font)
+        bold = kwargs.get("bold", self.bold)
+        italic = kwargs.get("italic", self.italic)
+        colour = kwargs.get("colour", self.colour)
+        underline = kwargs.get("underline", self.underline)
+
+        order, texts, commands, command_secs = self.assemble_commands(text)
 
         # Building the surfaces based off the above information
         surfaces = []
@@ -1032,34 +1036,72 @@ class Text(Widget):
         for i, surf in enumerate(surfaces):
             surface.blit(surf, (point, 0))
             point += widths[i]
-        return surface
+        return surface, font, bold, italic, colour, underline
 
     def multiline_surface(self, width, background):
+        og_text = self.text
+        font = self.font
+        bold = self.bold
+        italic = self.italic
+        order, texts, commands, command_secs = self.assemble_commands(og_text)
         lines = []
         pos = 0
+        comm_point = 0
         line = ''
+        newline = None
         line_width = 0
-        while pos < len(self.text):
-            char = self.text[pos]
+        while pos < len(og_text):
+            if newline is not None:
+                line = newline
+                newline = None
+            if comm_point < len(command_secs) and command_secs[comm_point][0] == pos:
+                command = commands[comm_point]
+                for prov in command:
+                    change = command[prov]
+                    if prov == 'f':
+                        font = change
+                    elif prov in 'ib':
+                        if change == 2:
+                            if prov == 'i':
+                                change = (italic is False)
+                            elif prov == 'b':
+                                change = (bold is False)
+                        if prov == 'i':
+                            italic = change
+                        elif prov == 'b':
+                            bold = change
+                line += og_text[command_secs[comm_point][0]:command_secs[comm_point][1] + 1]
+                pos = command_secs[comm_point][1] + 1
+                if pos >= len(og_text):
+                    break
+                comm_point += 1
+            char = og_text[pos]
             if char == '\n':
                 lines.append(line)
                 line = ''
                 line_width = 0
             else:
                 line += char
-                line_width += text_size(self.font_size, self.font, txt=char)[0]
+                line_width += text_size(self.font_size, font, txt=char, bold=bold, italic=italic)[0]
                 if line_width > width:
                     if char == ' ':
                         line = line[:-1]
                     else:
+                        in_command = False
                         for i in range(len(line) - 1, -1, -1):
-                            if line[i] == ' ':
-                                pos = pos - (len(line) - (i + 1))
-                                line = line[:i + 1]
-                                break
+                            if not in_command:
+                                if line[i] == ' ':
+                                    newline = line[i + 1:]
+                                    line = line[:i + 1]
+                                    break
+                            if i > 0:
+                                if line[i - 1] + line[i] == "/>":
+                                    in_command = True
+                                if line[i - 1] + line[i] == "</":
+                                    in_command = False
                         else:
+                            newline = line[-1]
                             line = line[:-1]
-                            pos -= 1
                     lines.append(line)
                     line = ''
                     line_width = 0
@@ -1069,8 +1111,17 @@ class Text(Widget):
         surface = pygame.Surface((width, height))
         surface.fill(background)
         surface.set_colorkey(background)
+        font = self.font
+        bold = self.bold
+        italic = self.italic
+        colour = self.colour
+        underline = self.underline
         for i, line in enumerate(lines):
-            subsurface = self.style.render(line, True, self.colour, self.background_colour)
+            subsurface, font, bold, italic, colour, underline = \
+                self.multisurface_line(line, font=font, bold=bold, italic=italic, colour=colour,
+                                       underline=underline)
+            style = pygame.font.SysFont(font, self.font_size, bold=bold, italic=italic)
+            style.set_underline(underline)
             if self.justify == CENTER:
                 dest_x = (surface.get_width() - subsurface.get_width()) / 2
             elif self.justify == RIGHT:
@@ -1881,12 +1932,12 @@ def fade_colour(colour, amount=64):
 text_sizes = {}
 
 
-def text_size(font_size, font=DEFAULT_FONT, txt='M'):
-    if (font, font_size, txt) in text_sizes:
-        font_width, font_height = text_sizes[(font, font_size, txt)]
+def text_size(font_size, font=DEFAULT_FONT, txt='M', bold=False, italic=False):
+    if (font, font_size, txt, bold, italic) in text_sizes:
+        font_width, font_height = text_sizes[(font, font_size, txt, bold, italic)]
     else:
-        font_width, font_height = pygame.font.SysFont(font, font_size).size(txt)
-        text_sizes[(font, font_size, txt)] = (font_width, font_height)
+        font_width, font_height = pygame.font.SysFont(font, font_size, bold, italic).size(txt)
+        text_sizes[(font, font_size, txt, bold, italic)] = (font_width, font_height)
     return font_width, font_height
 
 
