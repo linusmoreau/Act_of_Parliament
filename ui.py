@@ -1770,10 +1770,10 @@ def make_credits_pop_up():
     width = popup.rect.width * 3 / 4
     contents = Text(credit, (popup.rect.center[0], popup.rect.y + popup.rect.height / 8 + text_size(TITLE_SIZE)[1]),
                     width=width, parent=popup, multiline=True, colour=white,
-                    background_colour=black, align=TOP)
+                    background_colour=black, align=TOP, catchable=True)
     display = ScrollDisplay([contents], contents.rect.topleft,
                             (width, popup.rect.height * 3 / 4 - text_size(TITLE_SIZE)[1]),
-                            total_size=contents.rect.h)
+                            total_size=contents.rect.h, parent=popup)
     popup.components.append(display)
 
 

@@ -317,10 +317,12 @@ soundtrack = {
 }
 
 credit = "Directed, designed, and programmed by: </-c (212,175,55)/>Linus Moreau</-c d/>.\n\n" \
-         "Icons from </-c (212,175,55)/>Icons8</-c d/> and are available at icons8.com.\n\n" \
-         "All music by Kevin Macleod and available at incompetech.com.\n" \
-         "Licensed under Creative Commons: By Attribution 3.0 (</-u/>" \
-         "http://creativecommons.org/licenses/by/3.0/</-u/>)\n\n" \
+         "Icons are from </-c (212,175,55)/>Icons8</-c d/> and are available at " \
+         "</-c (150,150,255) -u -h/>icons8.com</-c d -u -h/>.\n\n" \
+         "All music is by </-c (212,175,55)/>Kevin Macleod</-c d/>.\n" \
+         "Licensed under Creative Commons by Attribution 3.0 " \
+         "(</-c (150,150,255) -u -h/>creativecommons.org/licenses/by/3.0/</-c d -u -h/>)\n" \
+         "Available at </-c (150,150,255) -u -h/>incompetech.com/</-c d -u -h/>.\n\n" \
          "Written in Python 3.7 with the pygame module using the IDE PyCharm. Freezing into executable done using " \
          "PyInstaller."
 

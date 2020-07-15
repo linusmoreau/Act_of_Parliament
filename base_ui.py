@@ -9,6 +9,7 @@ import math
 import functools
 import date_translator
 import ctypes
+import webbrowser
 
 CENTER = 0
 TOPLEFT = 1
@@ -68,6 +69,11 @@ BASE_FONT_SIZE = int(screen_width / 96)
 TITLE_SIZE = BASE_FONT_SIZE * 2
 SHADOW = round(screen_height / 432) + 1
 DEFAULT_FONT = 'mongolianbaiti'
+# pygame.mouse.set_cursor((16, 19), (0, 0),
+#                         (128, 0, 192, 0, 160, 0, 144, 0, 136, 0, 132, 0, 130, 0, 129, 0, 128, 128, 128, 64, 128, 32,
+#                          128, 16, 129, 240, 137, 0, 148, 128, 164, 128, 194, 64, 2, 64, 1, 128),
+#                         (128, 0, 192, 0, 224, 0, 240, 0, 248, 0, 252, 0, 254, 0, 255, 0, 255, 128, 255, 192, 255, 224,
+#                          255, 240, 255, 240, 255, 0, 247, 128, 231, 128, 195, 192, 3, 192, 1, 128))
 
 
 class Widget:
@@ -333,7 +339,7 @@ class Button(Widget):
     default_width = int(screen_width / 9)
 
     def __init__(self, position, area=None, align=TOPLEFT, label=None, label_size=BASE_FONT_SIZE, parent=None,
-                 border_thickness=1, border_colour=black, colour=grey, threed=True):
+                 border_thickness=1, border_colour=black, colour=grey, threed=True, visible=True):
         if area is None:
             area = (self.default_width, self.default_height)
         self.surface = pygame.Surface(area)
@@ -351,6 +357,7 @@ class Button(Widget):
         self.normal_colour = colour
         self.press_colour = None
         self.highlight_colour = None
+        self.visible = visible
 
         self.current_label = None
         self.label_size = label_size
@@ -438,29 +445,33 @@ class Button(Widget):
             self.tooltip_display = None
 
     def update(self):
-        self.update_colours()
+        if self.visible:
+            self.update_colours()
 
-        if self.state is DISABLE_STATE:
-            self.surface.fill(self.colours[NORMAL_STATE])
+            if self.state is DISABLE_STATE:
+                self.surface.fill(self.colours[NORMAL_STATE])
+            else:
+                self.surface.fill(self.colours[self.state])
+
+            if self.state in [PRESS_STATE, SELECT_STATE, DISABLE_STATE] and not self.pressed and self.threed:
+                self.move(y=SHADOW)
+                self.pressed = True
+                self.extensions.remove(self.shadow)
+            elif self.state not in [PRESS_STATE, SELECT_STATE] and self.pressed and self.threed:
+                self.move(y=-SHADOW)
+                self.pressed = False
+                self.shadow.rect.topleft = self.rect.bottomleft
+                self.extensions.append(self.shadow)
+
+            if self.borders:
+                self.draw_borders(self.border_thickness)
+
+            if self.tooltip_display is not None and not self.on_top(pygame.mouse.get_pos()):
+                self.tooltip_display.hide()
+                self.tooltip_display = None
         else:
-            self.surface.fill(self.colours[self.state])
-
-        if self.state in [PRESS_STATE, SELECT_STATE, DISABLE_STATE] and not self.pressed and self.threed:
-            self.move(y=SHADOW)
-            self.pressed = True
-            self.extensions.remove(self.shadow)
-        elif self.state not in [PRESS_STATE, SELECT_STATE] and self.pressed and self.threed:
-            self.move(y=-SHADOW)
-            self.pressed = False
-            self.shadow.rect.topleft = self.rect.bottomleft
-            self.extensions.append(self.shadow)
-
-        if self.borders:
-            self.draw_borders(self.border_thickness)
-
-        if self.tooltip_display is not None and not self.on_top(pygame.mouse.get_pos()):
-            self.tooltip_display.hide()
-            self.tooltip_display = None
+            self.surface.fill(white)
+            self.surface.set_colorkey(white)
 
         Widget.change = True
 
@@ -840,7 +851,14 @@ class Text(Widget):
                  width=None, height=None,
                  appearing=False, colour=black, background_colour=white, solid_background=False, default_alpha=255,
                  multiline=False, justify=LEFT, parent=None, margin=0, catchable=False, bold=False, italic=False,
-                 underline=False):
+                 underline=False, hyperlink=None):
+        area = [1, 1]
+        if width is not None:
+            area[0] = width
+        if height is not None:
+            area[1] = height
+        super().__init__(position, area, align=align, appearing=appearing,
+                         default_alpha=default_alpha, parent=parent, catchable=catchable)
         self.text = text
         self.font_size = font_size
         self.font = font
@@ -851,21 +869,18 @@ class Text(Widget):
         self.height = height
         self.background_colour = background_colour
         self.margin = margin
-        self.parent = parent
         self.solid_background = solid_background
         self.bold = bold
         self.italic = italic
         self.underline = underline
+        self.hyperlink = hyperlink
 
         self.char_height = text_size(self.font_size, self.font)[1]
 
         self.style = pygame.font.SysFont(self.font, self.font_size, bold=self.bold, italic=self.italic)
         self.style.set_underline(self.underline)
 
-        self.make_surface()
-        area = (self.surface.get_width(), self.surface.get_height())
-        super().__init__(position, area, surface=self.surface, align=align, appearing=appearing,
-                         default_alpha=default_alpha, parent=parent, catchable=catchable)
+        self.update(text=self.text, align=align, pos=position)
 
     def make_surface(self):
         if not self.multiline or len(self.text) < 1:
@@ -882,30 +897,32 @@ class Text(Widget):
             self.surface.set_colorkey(self.background_colour)
         self.surface.blit(surface, (self.margin, self.margin))
 
+    def handle(self, event, mouse):
+        if self.in_container(mouse):
+            for c in self.components:
+                if c.handle(event, mouse):
+                    return True
+        for e in self.components:
+            e.handle(event, mouse)
+        return False
+
     def update(self, text=None, align=None, pos=None):
         if text is not None:
             self.text = text
             self.make_surface()
-            if align is not None:
-                self.rect = self.surface.get_rect()
-                self.contain_rect = self.rect.copy()
-                self.align(align, pos)
-        if not self.multiline or len(self.text) < 1:
-            surface = self.style.render(self.text, True, self.colour)
-            if type(self.parent).__name__ == "TextInput":
-                self.parent.cursor_row = 0
-                self.parent.cursor_col = self.parent.cursor_pos
-        else:
-            surface = self.multiline_surface(self.width, self.background_colour)
-        self.rect.width = surface.get_width()
-        self.rect.height = surface.get_height()
-        self.surface = pygame.Surface((self.rect.width, self.rect.height))
-        self.surface.fill(self.background_colour)
-        if not self.solid_background:
-            self.surface.set_colorkey(self.background_colour)
-        self.surface.blit(surface, (0, 0))
+        if align is not None:
+            self.rect = self.surface.get_rect()
+            self.contain_rect = self.rect.copy()
+            self.align(align, pos)
+        if type(self.parent).__name__ == "TextInput":
+            self.parent.cursor_row = 0
+            self.parent.cursor_col = self.parent.cursor_pos
+        self.rect.width = self.surface.get_width()
+        self.rect.height = self.surface.get_height()
+        self.contain_rect = self.rect.copy()
+        self.transparency()
 
-    def assemble_commands(self, text):
+    def det_command_secs(self, text):
         command_secs = []
         # command_secs: [[beg, end], [beg, end], [beg, end], etc.]
         for i in range(len(text) - 1):
@@ -913,7 +930,10 @@ class Text(Widget):
                 command_secs.append([i])
             elif text[i] + text[i + 1] == "/>":
                 command_secs[-1].append(i + 1)
+        return command_secs
 
+    def assemble_commands(self, text):
+        command_secs = self.det_command_secs(text)
         # Assembling displayed text and commands to effect to the text
         commands = []  # [{'c': (200, 100, 10), 'i': True}, etc.]
         texts = []  # [0: "Hello", 25: "Bob", etc.]
@@ -943,6 +963,10 @@ class Text(Widget):
                     else:
                         str_colour = ''.join(elem[1][1:-1].split()).split(',')
                         elem[1] = tuple([int(val) for val in str_colour])
+                elif elem[0] in ["hyperlink", 'h']:
+                    elem[0] = 'h'
+                    if len(elem) < 2:
+                        elem.append(2)
                 elif elem[0] in ["italic", 'i']:
                     elem[0] = 'i'
                     if len(elem) < 2:
@@ -987,6 +1011,13 @@ class Text(Widget):
         italic = kwargs.get("italic", self.italic)
         colour = kwargs.get("colour", self.colour)
         underline = kwargs.get("underline", self.underline)
+        hyperlink = kwargs.get("hyperlink", self.hyperlink)
+        if hyperlink is not None:
+            b1 = 0
+        else:
+            b1 = None
+        b2 = None
+        line = kwargs.get("line", 0)
 
         order, texts, commands, command_secs = self.assemble_commands(text)
 
@@ -1018,6 +1049,27 @@ class Text(Widget):
                             underline = change
                         elif prov == 'b':
                             bold = change
+                    elif prov == 'h':
+                        if b1 is None:
+                            b1 = sum(widths)
+                            if change == 2:
+                                hyperlink = "https://" + texts[text_point]
+                            else:
+                                hyperlink = change
+                        elif b2 is None:
+                            b2 = sum(widths)
+                            b = Button((self.rect.x + b1, self.rect.y + line * self.char_height),
+                                       (b2 - b1, self.char_height), parent=self, border_thickness=0, threed=False,
+                                       visible=False)
+                            b.callback(functools.partial(webbrowser.open, hyperlink))
+                            self.components.append(b)
+                            if change != 2:
+                                b1 = b2
+                                hyperlink = change
+                            else:
+                                b1 = None
+                                hyperlink = None
+                            b2 = None
                 comm_point += 1
             elif t == 0:
                 style = pygame.font.SysFont(font, self.font_size, bold=bold, italic=italic)
@@ -1036,7 +1088,7 @@ class Text(Widget):
         for i, surf in enumerate(surfaces):
             surface.blit(surf, (point, 0))
             point += widths[i]
-        return surface, font, bold, italic, colour, underline
+        return surface, font, bold, italic, colour, underline, hyperlink
 
     def multiline_surface(self, width, background):
         og_text = self.text
@@ -1054,6 +1106,11 @@ class Text(Widget):
             if newline is not None:
                 line = newline
                 newline = None
+                local_secs = self.det_command_secs(line)
+                visible_txt = line
+                for i in range(len(local_secs) - 1, -1, -1):
+                    visible_txt = visible_txt[0:local_secs[i][0]] + visible_txt[local_secs[i][1] + 1:]
+                line_width = text_size(self.font_size, font, txt=visible_txt, bold=bold, italic=italic)[0]
             if comm_point < len(command_secs) and command_secs[comm_point][0] == pos:
                 command = commands[comm_point]
                 for prov in command:
@@ -1116,10 +1173,11 @@ class Text(Widget):
         italic = self.italic
         colour = self.colour
         underline = self.underline
+        hyperlink = self.hyperlink
         for i, line in enumerate(lines):
-            subsurface, font, bold, italic, colour, underline = \
+            subsurface, font, bold, italic, colour, underline, hyperlink = \
                 self.multisurface_line(line, font=font, bold=bold, italic=italic, colour=colour,
-                                       underline=underline)
+                                       underline=underline, hyperlink=hyperlink, line=i)
             style = pygame.font.SysFont(font, self.font_size, bold=bold, italic=italic)
             style.set_underline(underline)
             if self.justify == CENTER:
@@ -1768,8 +1826,7 @@ class TextInput(Widget):
 
     def update(self):
         self.surface = self.base_surface.copy()
-        self.text_surface.text = self.text
-        self.text_surface.update()
+        self.text_surface.update(self.text)
 
         if self.multiline:
             if self.text_surface.rect.height > self.contain_rect.height:
