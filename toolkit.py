@@ -25,3 +25,15 @@ def capitalize(string):
     if 97 <= ord(string[0]) <= 122:
         string = chr(ord(string[0]) - 32) + string[1:]
     return string
+
+
+def translate_bool_string(string, default=None):
+    if string in ["true", 't']:
+        out = True
+    elif string in ["false", 'f']:
+        out = False
+    elif string in ["default", 'd']:
+        out = default
+    else:
+        out = None
+    return out

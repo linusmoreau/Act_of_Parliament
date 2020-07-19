@@ -10,6 +10,7 @@ import functools
 import date_translator
 import ctypes
 import webbrowser
+import toolkit
 
 CENTER = 0
 TOPLEFT = 1
@@ -846,6 +847,7 @@ class SliderButton(Button):
 
 
 class Text(Widget):
+    bref = {'f': "font", 'b': "bold", 'i': "italic", 'c': "colour", 'u': "underline", 'h': "hyperlink"}
 
     def __init__(self, text, position, font_size=BASE_FONT_SIZE, font=DEFAULT_FONT, align=CENTER,
                  width=None, height=None,
@@ -874,6 +876,8 @@ class Text(Widget):
         self.italic = italic
         self.underline = underline
         self.hyperlink = hyperlink
+        self.features = {"font": self.font, "bold": self.bold, "italic": self.italic, "colour": self.colour,
+                         "underline": self.underline, "hyperlink": self.hyperlink}
 
         self.char_height = text_size(self.font_size, self.font)[1]
 
@@ -922,7 +926,8 @@ class Text(Widget):
         self.contain_rect = self.rect.copy()
         self.transparency()
 
-    def det_command_secs(self, text):
+    @staticmethod
+    def det_command_secs(text):
         command_secs = []
         # command_secs: [[beg, end], [beg, end], [beg, end], etc.]
         for i in range(len(text) - 1):
@@ -967,36 +972,12 @@ class Text(Widget):
                     elem[0] = 'h'
                     if len(elem) < 2:
                         elem.append(2)
-                elif elem[0] in ["italic", 'i']:
-                    elem[0] = 'i'
+                elif elem[0] in ["italic", 'i', "bold", 'b', "underline", 'u']:
+                    elem[0] = elem[0][0]
                     if len(elem) < 2:
                         elem.append(2)
-                    elif elem[1] in ["true", 't']:
-                        elem[1] = True
-                    elif elem[1] in ["false", 'f']:
-                        elem[1] = False
-                    elif elem[1] in ["default", 'd']:
-                        elem[1] = self.italic
-                elif elem[0] in ["bold", 'b']:
-                    elem[0] = 'b'
-                    if len(elem) < 2:
-                        elem.append(2)
-                    elif elem[1] in ["true", 't']:
-                        elem[1] = True
-                    elif elem[1] in ["false", 'f']:
-                        elem[1] = False
-                    elif elem[1] in ["default", 'd']:
-                        elem[1] = self.bold
-                elif elem[0] in ["underline", 'u']:
-                    elem[0] = 'u'
-                    if len(elem) < 2:
-                        elem.append(2)
-                    elif elem[1] in ["true", 't']:
-                        elem[1] = True
-                    elif elem[1] in ["false", 'f']:
-                        elem[1] = False
-                    elif elem[1] in ["default", 'd']:
-                        elem[1] = self.underline
+                    else:
+                        elem[1] = toolkit.translate_bool_string(elem[1], self.features[self.bref[elem[0]]])
                 comm[elem[0]] = elem[1]
                 point = sec[1] + 1
             commands.append(comm)
@@ -1006,13 +987,15 @@ class Text(Widget):
         return order, texts, commands, command_secs
 
     def multisurface_line(self, text, **kwargs):
-        font = kwargs.get("font", self.font)
-        bold = kwargs.get("bold", self.bold)
-        italic = kwargs.get("italic", self.italic)
-        colour = kwargs.get("colour", self.colour)
-        underline = kwargs.get("underline", self.underline)
-        hyperlink = kwargs.get("hyperlink", self.hyperlink)
-        if hyperlink is not None:
+        features = {
+            "font": kwargs.get("font", self.font),
+            "bold": kwargs.get("bold", self.bold),
+            "italic": kwargs.get("italic", self.italic),
+            "colour": kwargs.get("colour", self.colour),
+            "underline": kwargs.get("unerline", self.underline),
+            "hyperlink": kwargs.get("hyperlink", self.hyperlink)
+        }
+        if features["hyperlink"] is not None:
             b1 = 0
         else:
             b1 = None
@@ -1031,50 +1014,37 @@ class Text(Widget):
                 command = commands[comm_point]
                 for prov in command:
                     change = command[prov]
-                    if prov == 'f':
-                        font = change
-                    elif prov == 'c':
-                        colour = change
-                    elif prov in 'iub':
-                        if change == 2:
-                            if prov == 'i':
-                                change = (italic is False)
-                            elif prov == 'u':
-                                change = (underline is False)
-                            elif prov == 'b':
-                                change = (bold is False)
-                        if prov == 'i':
-                            italic = change
-                        elif prov == 'u':
-                            underline = change
-                        elif prov == 'b':
-                            bold = change
-                    elif prov == 'h':
+                    if prov == 'h':
                         if b1 is None:
                             b1 = sum(widths)
                             if change == 2:
-                                hyperlink = "https://" + texts[text_point]
+                                features["hyperlink"] = "https://" + texts[text_point]
                             else:
-                                hyperlink = change
+                                features["hyperlink"] = change
                         elif b2 is None:
                             b2 = sum(widths)
                             b = Button((self.rect.x + b1, self.rect.y + line * self.char_height),
                                        (b2 - b1, self.char_height), parent=self, border_thickness=0, threed=False,
                                        visible=False)
-                            b.callback(functools.partial(webbrowser.open, hyperlink))
+                            b.callback(functools.partial(webbrowser.open, features["hyperlink"]))
                             self.components.append(b)
                             if change != 2:
                                 b1 = b2
-                                hyperlink = change
+                                features["hyperlink"] = change
                             else:
                                 b1 = None
-                                hyperlink = None
+                                features["hyperlink"] = None
                             b2 = None
+                    elif change == 2:
+                        features[self.bref[prov]] = (features[self.bref[prov]] is False)
+                    else:
+                        features[self.bref[prov]] = change
                 comm_point += 1
             elif t == 0:
-                style = pygame.font.SysFont(font, self.font_size, bold=bold, italic=italic)
-                style.set_underline(underline)
-                surf = style.render(texts[text_point], True, colour, self.background_colour)
+                style = pygame.font.SysFont(features["font"], self.font_size,
+                                            bold=features["bold"], italic=features["italic"])
+                style.set_underline(features["underline"])
+                surf = style.render(texts[text_point], True, features["colour"], self.background_colour)
                 widths.append(surf.get_width())
                 surfaces.append(surf)
                 text_point += 1
@@ -1088,13 +1058,11 @@ class Text(Widget):
         for i, surf in enumerate(surfaces):
             surface.blit(surf, (point, 0))
             point += widths[i]
-        return surface, font, bold, italic, colour, underline, hyperlink
+        return surface, features
 
     def multiline_surface(self, width, background):
         og_text = self.text
-        font = self.font
-        bold = self.bold
-        italic = self.italic
+        features = self.features.copy()
         order, texts, commands, command_secs = self.assemble_commands(og_text)
         lines = []
         pos = 0
@@ -1110,23 +1078,17 @@ class Text(Widget):
                 visible_txt = line
                 for i in range(len(local_secs) - 1, -1, -1):
                     visible_txt = visible_txt[0:local_secs[i][0]] + visible_txt[local_secs[i][1] + 1:]
-                line_width = text_size(self.font_size, font, txt=visible_txt, bold=bold, italic=italic)[0]
+                line_width = text_size(self.font_size, features["font"], txt=visible_txt,
+                                       bold=features["bold"], italic=features["italic"])[0]
             if comm_point < len(command_secs) and command_secs[comm_point][0] == pos:
                 command = commands[comm_point]
                 for prov in command:
                     change = command[prov]
-                    if prov == 'f':
-                        font = change
-                    elif prov in 'ib':
+                    if prov in 'fib':
                         if change == 2:
-                            if prov == 'i':
-                                change = (italic is False)
-                            elif prov == 'b':
-                                change = (bold is False)
-                        if prov == 'i':
-                            italic = change
-                        elif prov == 'b':
-                            bold = change
+                            features[self.bref[prov]] = (features[self.bref[prov]] is False)
+                        else:
+                            features[self.bref[prov]] = change
                 line += og_text[command_secs[comm_point][0]:command_secs[comm_point][1] + 1]
                 pos = command_secs[comm_point][1] + 1
                 if pos >= len(og_text):
@@ -1139,7 +1101,8 @@ class Text(Widget):
                 line_width = 0
             else:
                 line += char
-                line_width += text_size(self.font_size, font, txt=char, bold=bold, italic=italic)[0]
+                line_width += text_size(self.font_size, features["font"], txt=char,
+                                        bold=features["bold"], italic=features["italic"])[0]
                 if line_width > width:
                     if char == ' ':
                         line = line[:-1]
@@ -1168,18 +1131,15 @@ class Text(Widget):
         surface = pygame.Surface((width, height))
         surface.fill(background)
         surface.set_colorkey(background)
-        font = self.font
-        bold = self.bold
-        italic = self.italic
-        colour = self.colour
-        underline = self.underline
-        hyperlink = self.hyperlink
+        features = self.features.copy()
         for i, line in enumerate(lines):
-            subsurface, font, bold, italic, colour, underline, hyperlink = \
-                self.multisurface_line(line, font=font, bold=bold, italic=italic, colour=colour,
-                                       underline=underline, hyperlink=hyperlink, line=i)
-            style = pygame.font.SysFont(font, self.font_size, bold=bold, italic=italic)
-            style.set_underline(underline)
+            subsurface, features = \
+                self.multisurface_line(line, font=features["font"], bold=features["bold"], italic=features["italic"],
+                                       colour=features["colour"], underline=features["underline"],
+                                       hyperlink=features["hyperlink"], line=i)
+            style = pygame.font.SysFont(features["font"], self.font_size, bold=features["bold"],
+                                        italic=features["italic"])
+            style.set_underline(features["underline"])
             if self.justify == CENTER:
                 dest_x = (surface.get_width() - subsurface.get_width()) / 2
             elif self.justify == RIGHT:
