@@ -1,7 +1,6 @@
 import logic
 import random
 import data
-import toolkit
 import Act_of_Parliament
 import threading
 from base_ui import *
@@ -201,7 +200,6 @@ class HierarchyButtonDisplay(ScrollButtonDisplay):
                 self.components.remove(b)
             if b in Button.buttons:
                 Button.buttons.remove(b)
-
         self.total_size = len(self.visible_buttons) * self.step + SHADOW
         if self.scroll_bar in self.extensions:
             self.extensions.remove(self.scroll_bar)
@@ -214,9 +212,9 @@ class HierarchyButtonDisplay(ScrollButtonDisplay):
                     b.move(y=SHADOW)
             self.components.append(b)
             Button.buttons.append(b)
-        if self.total_size < self.contain_rect.h:
-            if self.visible_buttons[-1].rect.bottom < self.contain_rect.bottom:
-                self.overshot_down()
+        if self.total_size - self.scroll_pos < self.contain_rect.h and \
+                self.visible_buttons[-1].rect.bottom < self.contain_rect.bottom:
+            self.overshot_down()
         Widget.change = True
 
     def expand(self, wid):
@@ -791,7 +789,8 @@ class PageParliament:
             b.components.append(bill_stage)
 
             vote_num = logic.vote_num(vote)
-            result = Text("Yea: " + str(vote_num['Yea']) + " Nay: " + str(vote_num['Nay']),
+            result = Text("Yea: " + "</-c (0,140,0)/>" + str(vote_num['Yea']) + "</-c d/> " +
+                          "Nay: " + "</-c (200,0,0)/>" + str(vote_num['Nay']),
                           bill_stage.rect.bottomleft, align=TOPLEFT, background_colour=b.normal_colour)
             b.components.append(result)
 
