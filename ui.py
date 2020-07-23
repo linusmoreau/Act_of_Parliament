@@ -9,6 +9,9 @@ from collections import OrderedDict
 display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
 MENU_WIDTH = screen_width / 4
 
+if not os.path.exists("saves"):
+    os.makedirs("saves")
+
 
 class Music:
     channel = None
