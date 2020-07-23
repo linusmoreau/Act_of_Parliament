@@ -80,6 +80,8 @@ DEFAULT_FONT = 'mongolianbaiti'
 class Widget:
     change = False
     alpha_rate = 5
+    cursor_type = 0
+    new_cursor_type = 0
 
     def __init__(self, position, area, align=TOPLEFT, surface=None, default_alpha=255, appearing=False, parent=None,
                  catchable=True):
@@ -133,6 +135,7 @@ class Widget:
     def catch(self, mouse):
         if self.catchable:
             if self.on_top(mouse):
+                Widget.new_cursor_type = 0
                 if self.in_container(mouse):
                     for i in range(len(self.components)):
                         if self.components[-(i + 1)].catch(mouse):
@@ -421,6 +424,7 @@ class Button(Widget):
                 if c.catch(mouse):
                     break
             else:
+                Widget.new_cursor_type = 1
                 if self.tooltip is not None:
                     if self.tooltip_display is None:
                         self.tooltip_display = ToolTip(self.tooltip, (mouse[0], mouse[1] + TOOLTIP_OFFSET))
@@ -1438,6 +1442,7 @@ class GraphDisplay(Widget):
 
     def catch(self, mouse):
         if self.on_top(mouse):
+            Widget.new_cursor_type = 0
             if self.graph_rect.y < mouse[1] < self.graph_rect.y + self.graph_rect.h:
                 self.moment(mouse)
                 return True

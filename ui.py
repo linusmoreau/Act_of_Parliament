@@ -441,6 +441,7 @@ class PersonDisplay(SelectButton):
 
     def catch(self, mouse):
         if self.on_top(mouse):
+            Widget.new_cursor_type = 1
             if self.tooltip_display is None:
                 self.tooltip_display = PersonTag(self.person, (mouse[0], mouse[1] + TOOLTIP_OFFSET), parent=self)
                 self.tooltip_display.show()
@@ -1812,6 +1813,9 @@ def get_all_wids():
 
 
 def game_loop():
+    frame = None
+    hand_cursor = pygame.transform.scale(pygame.image.load("images/hand_cursor.png"), (16, 16))
+
     pygame.display.set_caption(Act_of_Parliament.GAME_TITLE)
     Music(list(data.soundtrack.keys()))
     PageTitle()
@@ -1826,6 +1830,13 @@ def game_loop():
         else:
             for w in set(Button.buttons) | set(widgets):
                 w.no_focus()
+            Widget.new_cursor_type = 0
+        if Widget.cursor_type != Widget.new_cursor_type:
+            Widget.cursor_type = Widget.new_cursor_type
+            if Widget.cursor_type == 0:
+                pygame.mouse.set_visible(True)
+            elif Widget.cursor_type == 1:
+                pygame.mouse.set_visible(False)
 
         all_wids = get_all_wids()
         for event in pygame.event.get():
@@ -1849,13 +1860,22 @@ def game_loop():
         for widget in all_wids:
             widget.animate()
 
+        mouse = pygame.mouse.get_pos()
         all_wids = get_all_wids()
         if Widget.change:
             screen.blit(background, (0, 0))
             for widget in all_wids:
                 widget.display()
+            frame = screen.copy()
+            if Widget.cursor_type == 1:
+                screen.blit(hand_cursor, (mouse[0] - 6, mouse[1]))
             pygame.display.flip()
             Widget.change = False
+        elif Widget.cursor_type == 1:
+            screen.blit(frame, (0, 0))
+            frame = screen.copy()
+            screen.blit(hand_cursor, (mouse[0] - 6, mouse[1]))
+            pygame.display.flip()
 
         clock.tick(60)
 
