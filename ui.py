@@ -9,7 +9,11 @@ from collections import OrderedDict
 display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
 MENU_WIDTH = screen_width / 4
 
-if not os.path.exists("saves"):
+cursor_size = 16
+point_pos = 6
+hand_cursor = pygame.transform.scale(pygame.image.load("images/hand_cursor.png"), (cursor_size, cursor_size))
+
+if not os.path.isdir("saves"):
     os.makedirs("saves")
 
 
@@ -1811,13 +1815,20 @@ def terminate():
     raise SystemExit
 
 
+def show_hand_cursor(mouse):
+    x = mouse[0] - point_pos
+    if x < 0:
+        screen.blit(hand_cursor, (0, mouse[1]), pygame.Rect((-x, 0), (cursor_size + x, cursor_size)))
+    else:
+        screen.blit(hand_cursor, (mouse[0] - point_pos, mouse[1]))
+
+
 def get_all_wids():
     return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances
 
 
 def game_loop():
     frame = None
-    hand_cursor = pygame.transform.scale(pygame.image.load("images/hand_cursor.png"), (16, 16))
 
     pygame.display.set_caption(Act_of_Parliament.GAME_TITLE)
     Music(list(data.soundtrack.keys()))
@@ -1871,13 +1882,13 @@ def game_loop():
                 widget.display()
             frame = screen.copy()
             if Widget.cursor_type == 1:
-                screen.blit(hand_cursor, (mouse[0] - 6, mouse[1]))
+                show_hand_cursor(mouse)
             pygame.display.flip()
             Widget.change = False
         elif Widget.cursor_type == 1:
             screen.blit(frame, (0, 0))
             frame = screen.copy()
-            screen.blit(hand_cursor, (mouse[0] - 6, mouse[1]))
+            show_hand_cursor(mouse)
             pygame.display.flip()
 
         clock.tick(60)
