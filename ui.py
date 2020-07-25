@@ -21,7 +21,7 @@ class Music:
     channel = None
 
     def __init__(self, track):
-        self.soundtrack = random.shuffle(track)
+        self.soundtrack = track
         self.track_num = 0
         self.volume = 0.1
         self.min = 0.01
@@ -107,7 +107,7 @@ class Music:
             self.playing = self.soundtrack[self.track_num]
             self.track_num += 1
         except IndexError:
-            self.soundtrack = random.shuffle(self.soundtrack)
+            random.shuffle(self.soundtrack)
             self.playing = self.soundtrack[0]
             self.track_num = 1
         pygame.mixer.music.load(self.playing)
