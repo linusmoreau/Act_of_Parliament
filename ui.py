@@ -1559,8 +1559,8 @@ class ToolBar(Widget):
         self.components = []
         self.select_buttons = []
 
-        utilities = ["parliament", "policy", "bills", "cabinet", "budget", "data", "parties", "promises", "ballot",
-                     "events", "settings"]
+        utilities = ["parliament", "policy", "bills", "cabinet", "budget", "data", "parties", "promises",
+                     "map", "ballot", "events", "settings"]
         utilities.reverse()
 
         images = {
@@ -1575,7 +1575,8 @@ class ToolBar(Widget):
             "parties": "images/hierarchy.png",
             "promises": "images/promise.png",
             "events": "images/event.png",
-            "bills": "images/policy.png"
+            "bills": "images/policy.png",
+            "map": "images/map.png"
         }
 
         tooltips = {
@@ -1590,7 +1591,8 @@ class ToolBar(Widget):
             "settings": "Settings",
             "promises": "Promises",
             "events": "Events",
-            "bills": "Drafted Legislation"
+            "bills": "Drafted Legislation",
+            "map": "Electoral Districts"
         }
 
         self.back_button = Button((3 / 2 * self.unit_size, self.height / 2), (self.unit_size, self.unit_size),
@@ -1838,6 +1840,7 @@ def game_loop():
     Music(list(data.soundtrack.keys()))
     PageTitle()
     while True:
+        cursor_change = False
         all_wids = get_all_wids()
         mouse = pygame.mouse.get_pos()
         for i in range(len(all_wids)):
@@ -1850,6 +1853,7 @@ def game_loop():
                 w.no_focus()
             Widget.new_cursor_type = 0
         if Widget.cursor_type != Widget.new_cursor_type:
+            cursor_change = True
             Widget.cursor_type = Widget.new_cursor_type
             if Widget.cursor_type == 0:
                 pygame.mouse.set_visible(True)
@@ -1859,7 +1863,7 @@ def game_loop():
         all_wids = get_all_wids()
         for event in pygame.event.get():
             if event.type == pygame.QUIT or \
-                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and Act_of_Parliament.TESTING):
+                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and Act_of_Parliament.DEBUG):
                 terminate()
             elif event.type == pygame.USEREVENT:
                 Music.channel.new_track()
@@ -1871,7 +1875,7 @@ def game_loop():
                 for i in range(len(all_wids)):
                     if len(all_wids) > i:
                         w = all_wids[-(i + 1)]
-                        if w.handle(event, pygame.mouse.get_pos()):
+                        if w.handle(event, mouse):
                             break
 
         all_wids = get_all_wids()
@@ -1887,13 +1891,14 @@ def game_loop():
             frame = screen.copy()
             if Widget.cursor_type == 1:
                 show_hand_cursor(mouse)
-            pygame.display.flip()
             Widget.change = False
         elif Widget.cursor_type == 1:
             screen.blit(frame, (0, 0))
             frame = screen.copy()
             show_hand_cursor(mouse)
-            pygame.display.flip()
+        elif cursor_change:
+            screen.blit(frame, (0, 0))
+        pygame.display.flip()
 
         clock.tick(60)
 
@@ -1914,7 +1919,8 @@ pages = {
     "selection": PageSelection,
     "promises": functools.partial(PageWIP, 'promises'),
     "events": functools.partial(PageWIP, 'events'),
-    "bills": PageBills
+    "bills": PageBills,
+    "map": functools.partial(PageWIP, 'map')
 }
 
 if __name__ == "__main__":

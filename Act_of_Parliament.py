@@ -1,5 +1,5 @@
 import ui
-TESTING = True
+DEBUG = True
 GAME_TITLE = "Act of Parliament"
 GRAPHICS = 0
 
