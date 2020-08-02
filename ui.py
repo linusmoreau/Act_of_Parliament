@@ -1617,12 +1617,14 @@ class ToolBar(Widget):
         self.forw_button.set_tooltip("Return to next page")
         self.components.append(self.forw_button)
 
-        self.turn_txt = Text("Turn: " + str(data.game_state["turn"]), (9 / 2 * self.unit_size, self.height / 2),
-                             int(BASE_FONT_SIZE * 5 / 4), background_colour=light_grey, parent=self, align=LEFT)
+        self.turn_txt = Text("Turn: " + str(data.game_state["turn"]),
+                             (9 / 2 * self.unit_size, self.forw_button.rect.top),
+                             int(BASE_FONT_SIZE * 1.5), background_colour=light_grey, parent=self, align=TOPLEFT)
         self.components.append(self.turn_txt)
 
-        self.date_txt = Text(data.game_state["date"], self.turn_txt.rect.bottomleft, align=TOPLEFT, parent=self,
-                             background_colour=light_grey)
+        self.date_txt = Text(data.game_state["date"], (self.turn_txt.rect.left, self.forw_button.rect.bottom),
+                             align=BOTTOMLEFT, parent=self, background_colour=light_grey,
+                             font_size=int(BASE_FONT_SIZE * 1.2))
         self.components.append(self.date_txt)
 
         self.turn_button = Button((self.width - 3 / 2 * self.unit_size, self.height / 2),

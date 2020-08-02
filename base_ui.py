@@ -857,7 +857,7 @@ class Text(Widget):
                  width=None, height=None,
                  appearing=False, colour=black, background_colour=white, solid_background=False, default_alpha=255,
                  multiline=False, justify=LEFT, parent=None, margin=0, catchable=False, bold=False, italic=False,
-                 underline=False, hyperlink=None):
+                 underline=False, hyperlink=None, in_func=None, funcs=None):
         area = [1, 1]
         if width is not None:
             area[0] = width
@@ -880,8 +880,10 @@ class Text(Widget):
         self.italic = italic
         self.underline = underline
         self.hyperlink = hyperlink
+        self.in_func = in_func
         self.features = {"font": self.font, "bold": self.bold, "italic": self.italic, "colour": self.colour,
-                         "underline": self.underline, "hyperlink": self.hyperlink}
+                         "underline": self.underline, "hyperlink": self.hyperlink, "func": self.in_func}
+        self.funcs = funcs
 
         self.char_height = text_size(self.font_size, self.font)[1]
 
@@ -948,6 +950,7 @@ class Text(Widget):
         texts = []  # [0: "Hello", 25: "Bob", etc.]
         point = 0
         order = []
+        funcs = self.funcs.copy()
         for sec in command_secs:
             if point != sec[0]:
                 texts.append(text[point:sec[0]])
@@ -982,6 +985,9 @@ class Text(Widget):
                         elem.append(2)
                     else:
                         elem[1] = toolkit.translate_bool_string(elem[1], self.features[self.bref[elem[0]]])
+                elif elem[0] in ["function", "func", "fc"]:
+                    elem[0] = "fc"
+                    elem.append(funcs.pop[0])
                 comm[elem[0]] = elem[1]
                 point = sec[1] + 1
             commands.append(comm)
@@ -997,13 +1003,19 @@ class Text(Widget):
             "italic": kwargs.get("italic", self.italic),
             "colour": kwargs.get("colour", self.colour),
             "underline": kwargs.get("unerline", self.underline),
-            "hyperlink": kwargs.get("hyperlink", self.hyperlink)
+            "hyperlink": kwargs.get("hyperlink", self.hyperlink),
+            "func": kwargs.get("in_func", self.in_func)
         }
         if features["hyperlink"] is not None:
-            b1 = 0
+            h1 = 0
         else:
-            b1 = None
-        b2 = None
+            h1 = None
+        h2 = None
+        if features["func"] is not None:
+            f1 = 0
+        else:
+            f1 = None
+        f2 = None
         line = kwargs.get("line", 0)
 
         order, texts, commands, command_secs = self.assemble_commands(text)
@@ -1019,26 +1031,40 @@ class Text(Widget):
                 for prov in command:
                     change = command[prov]
                     if prov == 'h':
-                        if b1 is None:
-                            b1 = sum(widths)
+                        if h1 is None:
+                            h1 = sum(widths)
                             if change == 2:
                                 features["hyperlink"] = "https://" + texts[text_point]
                             else:
                                 features["hyperlink"] = change
-                        elif b2 is None:
-                            b2 = sum(widths)
-                            b = Button((self.rect.x + b1, self.rect.y + line * self.char_height),
-                                       (b2 - b1, self.char_height), parent=self, border_thickness=0, threed=False,
+                        elif h2 is None:
+                            h2 = sum(widths)
+                            b = Button((self.rect.x + h1, self.rect.y + line * self.char_height),
+                                       (h2 - h1, self.char_height), parent=self, border_thickness=0, threed=False,
                                        visible=False)
                             b.callback(functools.partial(webbrowser.open, features["hyperlink"]))
                             self.components.append(b)
                             if change != 2:
-                                b1 = b2
+                                h1 = h2
                                 features["hyperlink"] = change
                             else:
-                                b1 = None
+                                h1 = None
                                 features["hyperlink"] = None
-                            b2 = None
+                            h2 = None
+                    elif prov == 'fc':
+                        if f1 is None:
+                            f1 = sum(widths)
+                            features["func"] = change
+                        elif f2 is None:
+                            f2 = sum(widths)
+                            b = Button((self.rect.x + h1, self.rect.y + line * self.char_height),
+                                       (h2 - h1, self.char_height), parent=self, border_thickness=0, threed=False,
+                                       visible=False)
+                            b.callback(features["func"])
+                            self.components.append(b)
+                            features["func"] = None
+                            h1 = None
+                            h2 = None
                     elif change == 2:
                         features[self.bref[prov]] = (features[self.bref[prov]] is False)
                     else:
@@ -1140,7 +1166,7 @@ class Text(Widget):
             subsurface, features = \
                 self.multisurface_line(line, font=features["font"], bold=features["bold"], italic=features["italic"],
                                        colour=features["colour"], underline=features["underline"],
-                                       hyperlink=features["hyperlink"], line=i)
+                                       hyperlink=features["hyperlink"], in_func=features["func"], line=i)
             style = pygame.font.SysFont(features["font"], self.font_size, bold=features["bold"],
                                         italic=features["italic"])
             style.set_underline(features["underline"])

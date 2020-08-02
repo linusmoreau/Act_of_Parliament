@@ -103,7 +103,7 @@ class Person:
 
     def __init__(self, region, riding, values, values_importance, radicalism, party=None, name=None, gender=None,
                  age=None, background=None, language=None, supports=None, best_opinion=None, voted=False,
-                 id_num=None, titles=None, birthdate=None):
+                 id_num=None, titles=None, birthdate=None, skills=None, modifiers=None):
         if id_num is None:
             self.id_num = Person.id_num
             Person.id_num += 1
@@ -113,10 +113,18 @@ class Person:
                 Person.id_num = self.id_num + 1
             else:
                 Person.id_num += 1
+        if skills is None:
+            skills = {"administrative": random.randint(0, 10),
+                      "publicity": random.randint(0, 10),
+                      "social": random.randint(0, 10)}
+        if modifiers is None:
+            modifiers = []
         self.region = region
         self.riding = riding
         self.values = values
         self.values_importance = values_importance
+        self.base_skills = skills
+        self.modifiers = modifiers
 
         self.radicalism = radicalism
         if type(party).__name__ == "str":
@@ -225,6 +233,15 @@ class Person:
         else:
             self.voted = False
         return self.voted
+
+    def skill(self, skill):
+        modifier = 0
+        for mod in self.modifiers:
+            try:
+                modifier += mod[skill]
+            except IndexError:
+                continue
+        return self.base_skills[skill] + modifier
 
 
 class ParliamentMember(Person):
@@ -532,9 +549,10 @@ class Riding:
 
 
 class Bill:
+    sponsor: ParliamentMember
     id_num = 0
     nums = {"gov": 1, "member": 201, "private": 1001}
-    cost_multiplier = 1
+    cost_multiplier = 20
     stages = ["Drafting", "First Reading", "Second Reading", "Committee", "Third Reading", "Senate", "Royal Assent",
               "Passed"]
 
@@ -638,9 +656,7 @@ class Bill:
             success = False
             stage = Bill.stages[self.stage]
             if stage == "Drafting":
-                self.draft_progress += 1
-                # todo draft progress should be increased by legislative ability of author
-                # print(self.draft_progress, self.draft_cost)
+                self.draft_progress += self.sponsor.skill("administrative")
                 if self.draft_progress >= self.draft_cost:
                     success = True
             elif stage == "First Reading":
