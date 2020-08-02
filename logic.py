@@ -100,6 +100,8 @@ def clear_data():
 
 class Person:
     id_num = 0
+    actions = ["Hold Conference", "Eject from Party", "Invite to Party", "Make Promise", "Grant Position",
+               "Revoke Position"]
 
     def __init__(self, region, riding, values, values_importance, radicalism, party=None, name=None, gender=None,
                  age=None, background=None, language=None, supports=None, best_opinion=None, voted=False,

@@ -593,6 +593,7 @@ class PersonCard(PopUp):
     width = int(screen_width / 4)
     height = int(screen_height / 2)
     instances = []
+    actions_panel_width = width / 2
 
     def __init__(self, visual):
         if Act_of_Parliament.GRAPHICS == 0:
@@ -610,6 +611,14 @@ class PersonCard(PopUp):
         super().__init__(pos, (self.width, self.height), surface=surface, opacity=opacity)
         self.visual = visual
         self.person = self.visual.person
+
+        self.action_toggle = Button((self.rect.right, self.rect.top + self.rect.h / 4),
+                                    (self.rect.w / 16, self.rect.h / 8),
+                                    parent=self, label='>', threed=False)
+        self.action_toggle.set_tooltip("Open Actions Panel")
+        self.action_toggle.callback(self.open_actions_panel)
+        self.extensions.append(self.action_toggle)
+        self.action_panel = None
 
         margin = 20
         name = Text(self.person.name, (margin, margin), int(BASE_FONT_SIZE * 5 / 4), align=TOPLEFT, colour=white,
@@ -633,6 +642,32 @@ class PersonCard(PopUp):
         self.components.append(beliefs)
 
         PersonCard.instances.append(self)
+
+    def open_actions_panel(self):
+        self.action_toggle.move(x=self.actions_panel_width)
+        self.action_toggle.reset_callbacks()
+        self.action_toggle.callback(self.close_actions_panel)
+        self.action_toggle.label('<')
+        self.action_toggle.set_tooltip("Close Actions Panel")
+
+        button_size = int(self.rect.h / 10)
+        self.action_panel = ScrollButtonDisplay(self.rect.topright, (self.actions_panel_width, self.rect.h * 3 / 4),
+                            total_size=len(self.person.actions) * button_size, align=TOPLEFT,
+                            button_size=button_size, parent=self, edge=0)
+        for i, action in enumerate(self.person.actions):
+            b = SelectButton((self.action_panel.contain_rect.left,
+                              self.action_panel.contain_rect.top + i * button_size),
+                             (self.action_panel.contain_rect.w, button_size), parent=self.action_panel, label=action)
+            self.action_panel.components.append(b)
+        self.extensions.append(self.action_panel)
+
+    def close_actions_panel(self):
+        self.action_toggle.move(x=-self.actions_panel_width)
+        self.action_toggle.reset_callbacks()
+        self.action_toggle.callback(self.open_actions_panel)
+        self.action_toggle.label('>')
+        self.action_toggle.set_tooltip("Open Actions Panel")
+        self.extensions.remove(self.action_panel)
 
     def descriptors(self, pos, area, colour, char_h):
         descriptors = [self.person.age, self.person.gender, self.person.background, self.person.language,

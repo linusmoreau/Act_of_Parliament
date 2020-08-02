@@ -199,7 +199,7 @@ class Widget:
                 limit = self.parent.contain_rect
             except AttributeError:
                 return container
-            if limit.contains(container):
+            if self in self.parent.extensions or limit.contains(container):
                 return self.parent.actual_container(container)
             elif container.contains(limit) or container.colliderect(limit):
                 if limit.bottom < container.bottom:
