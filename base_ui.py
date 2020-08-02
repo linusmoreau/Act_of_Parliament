@@ -952,7 +952,7 @@ class Text(Widget):
         texts = []  # [0: "Hello", 25: "Bob", etc.]
         point = 0
         order = []
-        funcs = self.funcs.copy()
+        funcs: List[Any] = self.funcs.copy()
         for sec in command_secs:
             if point != sec[0]:
                 texts.append(text[point:sec[0]])
@@ -989,7 +989,7 @@ class Text(Widget):
                         elem[1] = toolkit.translate_bool_string(elem[1], self.features[self.bref[elem[0]]])
                 elif elem[0] in ["function", "func", "fc"]:
                     elem[0] = "fc"
-                    elem.append(funcs.pop[0])
+                    elem.append(funcs.pop(0))
                 comm[elem[0]] = elem[1]
                 point = sec[1] + 1
             commands.append(comm)
