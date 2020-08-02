@@ -883,6 +883,8 @@ class Text(Widget):
         self.in_func = in_func
         self.features = {"font": self.font, "bold": self.bold, "italic": self.italic, "colour": self.colour,
                          "underline": self.underline, "hyperlink": self.hyperlink, "func": self.in_func}
+        if funcs is None:
+            funcs = []
         self.funcs = funcs
 
         self.char_height = text_size(self.font_size, self.font)[1]
