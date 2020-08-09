@@ -70,11 +70,11 @@ BASE_FONT_SIZE = int(screen_width / 96)
 TITLE_SIZE = BASE_FONT_SIZE * 2
 SHADOW = round(screen_height / 432) + 1
 DEFAULT_FONT = 'mongolianbaiti'
-# pygame.mouse.set_cursor((16, 19), (0, 0),
-#                         (128, 0, 192, 0, 160, 0, 144, 0, 136, 0, 132, 0, 130, 0, 129, 0, 128, 128, 128, 64, 128, 32,
-#                          128, 16, 129, 240, 137, 0, 148, 128, 164, 128, 194, 64, 2, 64, 1, 128),
-#                         (128, 0, 192, 0, 224, 0, 240, 0, 248, 0, 252, 0, 254, 0, 255, 0, 255, 128, 255, 192, 255, 224,
-#                          255, 240, 255, 240, 255, 0, 247, 128, 231, 128, 195, 192, 3, 192, 1, 128))
+pygame.mouse.set_cursor((16, 19), (0, 0),
+                        (128, 0, 192, 0, 160, 0, 144, 0, 136, 0, 132, 0, 130, 0, 129, 0, 128, 128, 128, 64, 128, 32,
+                         128, 16, 129, 240, 137, 0, 148, 128, 164, 128, 194, 64, 2, 64, 1, 128),
+                        (128, 0, 192, 0, 224, 0, 240, 0, 248, 0, 252, 0, 254, 0, 255, 0, 255, 128, 255, 192, 255, 224,
+                         255, 240, 255, 240, 255, 0, 247, 128, 231, 128, 195, 192, 3, 192, 1, 128))
 
 
 class Widget:
@@ -341,6 +341,7 @@ class Button(Widget):
     buttons = []
     default_height = int(screen_height / 14)
     default_width = int(screen_width / 9)
+    focus = None
 
     def __init__(self, position, area=None, align=TOPLEFT, label=None, label_size=BASE_FONT_SIZE, parent=None,
                  border_thickness=1, border_colour=black, colour=grey, threed=True, visible=True):
@@ -376,7 +377,7 @@ class Button(Widget):
             self.extensions.append(self.shadow)
 
         self.funcs = []
-        self.tooltip = None
+        self._tooltip = None
         self.tooltip_display = None
 
         self.sheet = Widget(self.rect.topleft, self.rect.size, parent=self, default_alpha=150, catchable=False)
@@ -418,6 +419,9 @@ class Button(Widget):
     def reset_callbacks(self):
         self.funcs.clear()
 
+    def make_tooltip(self, mouse):
+        return ToolTip(self._tooltip, (mouse[0], mouse[1] + TOOLTIP_OFFSET))
+
     def catch(self, mouse):
         if self.on_top(mouse):
             for c in self.components:
@@ -425,18 +429,17 @@ class Button(Widget):
                     break
             else:
                 Widget.new_cursor_type = 1
-                if self.tooltip is not None:
-                    if self.tooltip_display is None:
-                        self.tooltip_display = ToolTip(self.tooltip, (mouse[0], mouse[1] + TOOLTIP_OFFSET))
-                        self.tooltip_display.show()
-                    else:
-                        self.tooltip_display.update(mouse)
-                for b in Button.buttons:
-                    if b is not self:
-                        b.no_focus()
+                if self.tooltip_display is None:
+                    self.tooltip_display = self.make_tooltip(mouse)
+                    self.tooltip_display.show()
+                else:
+                    self.tooltip_display.update(mouse)
                 if self.state is NORMAL_STATE:
                     self.state = HIGHLIGHT_STATE
                     self.update()
+                if Button.focus is not None and Button.focus is not self:
+                    Button.focus.no_focus()
+                Button.focus = self
             return True
         else:
             return False
@@ -448,6 +451,8 @@ class Button(Widget):
         if self.tooltip_display is not None:
             self.tooltip_display.hide()
             self.tooltip_display = None
+        if Button.focus is self:
+            Button.focus = None
 
     def update(self):
         if self.visible:
@@ -538,16 +543,56 @@ class Button(Widget):
         super().hide()
 
     def set_tooltip(self, tip=None):
-        self.tooltip = tip
+        self._tooltip = tip
+
+
+class CircleButton(Button):
+
+    def __init__(self, position, radius, align=CENTER, parent=None,
+                 border_thickness=2, border_colour=black, colour=grey, **kwargs):
+        self.radius = radius
+        if "threed" in kwargs:
+            kwargs.pop("threed")
+        if "area" in kwargs:
+            kwargs.pop("area")
+        super().__init__(position, area=(radius * 2, radius * 2), align=align, parent=parent, colour=colour,
+                         border_thickness=border_thickness, border_colour=border_colour, threed=False, **kwargs)
+
+    def on_top(self, pos):
+        if ((pos[0] - self.rect.centerx) ** 2 + (pos[1] - self.rect.centery) ** 2) ** (1 / 2) < self.radius:
+            return True
+        else:
+            return False
+
+    def update(self):
+        self.update_colours()
+        self.surface.fill(white)
+        r = self.radius - 1
+        if self.state is SELECT_STATE:
+            pygame.gfxdraw.aacircle(self.surface, r, r, r, gold)
+            pygame.gfxdraw.filled_circle(self.surface, r, r, r, gold)
+            pygame.gfxdraw.aacircle(self.surface, r, r, r - 2, self.colours[self.state])
+            pygame.gfxdraw.filled_circle(self.surface, r, r, r - 2, self.colours[self.state])
+        else:
+            if self.border_thickness > 0:
+                pygame.gfxdraw.aacircle(self.surface, r, r, r, self.border_colour)
+                pygame.gfxdraw.filled_circle(self.surface, r, r, r, self.border_colour)
+            pygame.gfxdraw.filled_circle(self.surface, r, r, r - self.border_thickness, self.colours[self.state])
+            pygame.gfxdraw.aacircle(self.surface, r, r, r - self.border_thickness, self.colours[self.state])
+        if self.tooltip_display is not None and not self.on_top(pygame.mouse.get_pos()):
+            self.tooltip_display.hide()
+            self.tooltip_display = None
+        Widget.change = True
 
 
 class SelectButton(Button):
 
     def __init__(self, position, area, align=TOPLEFT, label=None, label_size=BASE_FONT_SIZE,
-                 parent=None, border_thickness=1, colour=grey,
-                 threed=True, deselectable=True, select_thic=2, exclusive=True):
+                 parent=None, border_thickness=1, border_colour=black, colour=grey,
+                 threed=True, deselectable=True, select_thic=2, exclusive=True, **kwargs):
         super().__init__(position, area, align=align, label=label, label_size=label_size,
-                         parent=parent, border_thickness=border_thickness, colour=colour, threed=threed)
+                         parent=parent, border_thickness=border_thickness, border_colour=border_colour,
+                         colour=colour, threed=threed, **kwargs)
         self.deselectable = deselectable
         self.select_thic = select_thic
         self.exclusive = exclusive
@@ -596,6 +641,15 @@ class SelectButton(Button):
                 func(self)
             else:
                 func()
+
+
+class CircleSelectButton(CircleButton, SelectButton):
+
+    def __init__(self, position, radius, parent=None, align=CENTER, **kwargs):
+        self.radius = radius
+        if "area" not in kwargs:
+            kwargs["area"] = (radius * 2, radius * 2)
+        super().__init__(position, radius=radius, parent=parent, align=align, **kwargs)
 
 
 class ScrollBar(Widget):

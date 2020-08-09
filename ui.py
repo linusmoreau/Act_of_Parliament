@@ -421,16 +421,15 @@ class SavesButton(SelectButton):
         popup.components.append(popup.scroll_list)
 
 
-class PersonDisplay(SelectButton):
+class PersonDisplay(CircleSelectButton):
     velocity = 5
     default_alpha = 255
     alpha_rate = 5
 
     def __init__(self, position, radius, person, parent=None, appearing=False, card=None):
-        self.radius = radius
-        self.card = None
-        super().__init__(position, (radius * 2, radius * 2), align=TOPLEFT, parent=parent,
-                         threed=False, exclusive=False)
+        self.card = card
+        super().__init__(position, radius=radius, align=CENTER, border_thickness=0,
+                         parent=parent, threed=False, exclusive=False)
         if card is not None:
             self.state = SELECT_STATE
             self.card = card
@@ -450,45 +449,13 @@ class PersonDisplay(SelectButton):
     def make_card(self):
         self.card = PersonCard(self)
 
-    def catch(self, mouse):
-        if self.on_top(mouse):
-            Widget.new_cursor_type = 1
-            if self.tooltip_display is None:
-                self.tooltip_display = PersonTag(self.person, (mouse[0], mouse[1] + TOOLTIP_OFFSET), parent=self)
-                self.tooltip_display.show()
-            else:
-                self.tooltip_display.update(mouse)
-            for b in Button.buttons:
-                if b is not self:
-                    b.no_focus()
-            return True
-        else:
-            return False
-
-    def on_top(self, pos):
-        if ((pos[0] - self.rect.centerx) ** 2 + (pos[1] - self.rect.centery) ** 2) ** (1 / 2) < self.radius:
-            return True
-        else:
-            return False
+    def make_tooltip(self, mouse):
+        return PersonTag(self.person, (mouse[0], mouse[1] + TOOLTIP_OFFSET), parent=self)
 
     def update(self):
-        self.update_colours()
-        self.surface.fill(white)
-        r = self.radius - 1
-        if self.state is SELECT_STATE:
-            pygame.gfxdraw.aacircle(self.surface, r, r, r, gold)
-            pygame.gfxdraw.filled_circle(self.surface, r, r, r, gold)
-            pygame.gfxdraw.aacircle(self.surface, r, r, r - 2, self.colours[self.state])
-            pygame.gfxdraw.filled_circle(self.surface, r, r, r - 2, self.colours[self.state])
-        else:
-            pygame.gfxdraw.filled_circle(self.surface, r, r, r, self.colours[self.state])
-            pygame.gfxdraw.aacircle(self.surface, r, r, r, self.colours[self.state])
-        if self.tooltip_display is not None and not self.on_top(pygame.mouse.get_pos()):
-            self.tooltip_display.hide()
-            self.tooltip_display = None
+        super().update()
         if self.card is not None and self.state is not SELECT_STATE:
             self.card.close()
-        Widget.change = True
 
     def animate(self):
         if self.dest != self.rect.topleft:
@@ -653,11 +620,12 @@ class PersonCard(PopUp):
         button_size = int(self.rect.h / 10)
         self.action_panel = ScrollButtonDisplay(self.rect.topright, (self.actions_panel_width, self.rect.h * 3 / 4),
                             total_size=len(self.person.actions) * button_size, align=TOPLEFT,
-                            button_size=button_size, parent=self, edge=0)
+                            button_size=button_size, parent=self, edge=0, colour=black)
         for i, action in enumerate(self.person.actions):
             b = SelectButton((self.action_panel.contain_rect.left,
                               self.action_panel.contain_rect.top + i * button_size),
                              (self.action_panel.contain_rect.w, button_size), parent=self.action_panel, label=action)
+            self.action_panel.select_buttons.append(b)
             self.action_panel.components.append(b)
         self.extensions.append(self.action_panel)
 
@@ -1886,8 +1854,10 @@ def game_loop():
                 if w.catch(mouse):
                     break
         else:
-            for w in set(Button.buttons) | set(widgets):
+            for w in set(widgets):
                 w.no_focus()
+            if Button.focus is not None:
+                Button.focus.no_focus()
             Widget.new_cursor_type = 0
         if Widget.cursor_type != Widget.new_cursor_type:
             cursor_change = True
