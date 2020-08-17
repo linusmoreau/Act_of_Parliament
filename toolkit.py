@@ -31,7 +31,7 @@ def entitle(title):
     syncategorematics = {'a', 'an', 'the', 'for', 'and', 'nor', 'but', 'or', 'yet', 'so', 'as', 'at', 'by', 'in', 'of',
                          'on', 'per', 'to', 'with', 'into'}
     title = str(title)
-    title.replace('_', ' ')
+    title = title.replace('_', ' ')
     words = title.split()
     title = capitalize(words.pop(0))
     for word in words:
