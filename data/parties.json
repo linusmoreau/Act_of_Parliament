@@ -1,0 +1,117 @@
+{
+  "LIB": {
+    "name": "Liberal Party",
+    "isincumbent": true,
+    "colour": [215, 25, 32],
+    "leader": {
+      "name": "Justin Trudeau"
+    },
+    "values": {
+      "finance": 10,
+      "public_services": 10,
+      "welfare": -20,
+      "economy": 20,
+      "foreign": -30,
+      "environment": -20,
+      "transport": -40,
+      "justice": -20,
+      "electoral": 50
+    }
+  },
+  "CON": {
+    "name": "Conservative Party",
+    "isincumbent": false,
+    "colour": [26, 71, 130],
+    "leader": {
+      "name": "Andrew Scheer"
+    },
+    "values": {
+      "finance": 20,
+      "public_services": 30,
+      "welfare": 30,
+      "economy": 40,
+      "foreign": 20,
+      "environment": 50,
+      "transport": 40,
+      "justice": 30,
+      "electoral": 50
+    }
+  },
+  "NDP": {
+    "name": "New Democratic Party",
+    "isincumbent": false,
+    "colour": [243, 112, 33],
+    "leader": {
+      "name": "Jagmeet Singh"
+    },
+    "values": {
+      "finance": -20,
+      "public_services": -40,
+      "welfare": -30,
+      "economy": -20,
+      "foreign": -50,
+      "environment": -50,
+      "transport": -50,
+      "justice": -40,
+      "electoral": -50
+    }
+  },
+  "GRN": {
+    "name": "Green Party",
+    "isincumbent": false,
+    "colour": [61, 155, 53],
+    "leader": {
+      "name": "Elizabeth May"
+    },
+    "values": {
+      "finance": 10,
+      "public_services": -10,
+      "welfare": -40,
+      "economy": -10,
+      "foreign": -60,
+      "environment": -70,
+      "transport": -50,
+      "justice": -20,
+      "electoral": -50
+    }
+  },
+  "BQ": {
+    "name": "Bloc Qu\\u00c3\\u00a9b\\u00c3\\u00a9cois",
+    "isincumbent": false,
+    "on_ballot": ["QC"],
+    "colour": [51, 178, 204],
+    "leader": {
+      "name": "Yves-Fran\\u00c3\\u00a7ois Blanchet"
+    },
+    "values": {
+      "finance": -10,
+      "public_services": -40,
+      "welfare": -20,
+      "economy": -20,
+      "foreign": 10,
+      "environment": -50,
+      "transport": -30,
+      "justice": -10,
+      "electoral": -20
+    }
+  },
+  "PP": {
+    "name": "People's Party",
+    "isincumbent": false,
+    "colour": [78, 81, 128],
+    "leader": {
+      "name": "Maxime Bernier"
+    },
+    "values": {
+      "finance": 50,
+      "public_services": 50,
+      "welfare": 60,
+      "economy": 80,
+      "foreign": 40,
+      "environment": 80,
+      "transport": 70,
+      "justice": 40,
+      "electoral": 0
+    }
+  }
+}

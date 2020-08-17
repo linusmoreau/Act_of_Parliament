@@ -1,0 +1,18 @@
+{
+  "game_title": "Act of Parliament",
+  "date": "2019-10-28",
+  "parliament": 43,
+  "soundtrack": {
+    "night-in-venice.mp3": "Night In Venice",
+    "lobby-time.mp3": "Lobby Time",
+    "george-street-shuffle.mp3": "George Street Shuffle",
+    "in-your-arms.mp3": "In Your Arms",
+    "opportunity-walks.mp3": "Opportunity Walks",
+    "no-good-layabout.mp3": "No Good Layabout",
+    "poppers-and-prosecco.mp3": "Poppers and Prosecco"
+  },
+  "names": {
+    "party_support": "Party Opinion Polls",
+    "national": "National"
+  }
+}

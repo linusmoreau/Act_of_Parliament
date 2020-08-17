@@ -1,9 +1,10 @@
-from data import *
+import data
 import CAN_names as Names
 import json
 import os
 import toolkit
 import date_translator
+import random
 from typing import Dict
 
 
@@ -18,17 +19,18 @@ class Encoder(json.JSONEncoder):
 
 
 def make_save(f_name):
-    save_doc = {"parties": [parties[p] for p in parties],
-                "regions": [regions[r] for r in regions],
-                "ridings": [ridings[r] for r in ridings],
-                "persons": [persons[p] for p in persons],
+    save_doc = {"parties": list(parties.values()),
+                "regions": list(regions.values()),
+                "ridings": list(ridings.values()),
+                "persons": list(persons.values()),
+                "policies": list(policies.values()),
                 "bills": [bills[b] for b in bills],
-                "votes": votes,
-                "vote_subjects": vote_subjects,
-                "game_state": game_state,
-                "laws": laws,
-                "opinion_polls": opinion_polls,
-                "order_paper": order_paper}
+                "votes": data.votes,
+                "vote_subjects": data.vote_subjects,
+                "game_state": data.game_state,
+                "laws": get_laws(),
+                "opinion_polls": data.opinion_polls,
+                "order_paper": data.order_paper}
     f = open("saves/" + f_name, "w+")
     f.write(json.dumps(save_doc, cls=Encoder, separators=(',', ':')))
     f.close()
@@ -45,15 +47,17 @@ def load_save(f_name):
         load_doc = json.load(f)
         f.close()
         for attr, val in load_doc["game_state"].items():
-            game_state[attr] = val
+            data.game_state[attr] = val
         for obj in load_doc["parties"]:
             Party(**obj)
         for obj in load_doc["regions"]:
-            Region(loaded=True, **obj)
+            Region(**obj)
         for obj in load_doc["ridings"]:
-            Riding(loaded=True, **obj)
+            Riding(**obj)
         for obj in load_doc["bills"]:
             Bill(**obj)
+        for obj in load_doc["policies"]:
+            Policy(**obj)
         for obj in load_doc["persons"]:
             obj_type = obj.pop("type")
             if obj_type == "ParliamentMember":
@@ -61,12 +65,12 @@ def load_save(f_name):
             else:
                 Person(**obj)
         for vote in load_doc["votes"]:
-            votes.append(reformat_data(vote))
-        vote_subjects.extend(load_doc["vote_subjects"])
+            data.votes.append(reformat_data(vote))
+        data.vote_subjects.extend(load_doc["vote_subjects"])
         for key, value in load_doc["opinion_polls"].items():
-            opinion_polls[key] = reformat_data(value)
+            data.opinion_polls[key] = reformat_data(value)
         for i, construct in enumerate(load_doc["order_paper"]):
-            order_paper[i].extend(construct)
+            data.order_paper[i].extend(construct)
 
 
 def reformat_data(data):
@@ -96,6 +100,18 @@ def clear_data():
     Bill.nums = {'gov': 1, 'member': 201, 'private': 1001}
     for dat in all_data:
         dat.clear()
+
+
+class Policy:
+
+    def __init__(self, tag, area, **kwargs):
+        self.tag = tag
+        self.area = area
+        self.name = kwargs.get("name", "Policy Name")
+        self.desc = kwargs.get("desc", None)
+        self.effects = kwargs.get("effects", None)
+        self.current_law = kwargs.get("current_law", 0)
+        policies[self.tag] = self
 
 
 class Person:
@@ -149,12 +165,12 @@ class Person:
                         age = round(random.gauss(70, 10))
                     else:
                         age = random.randrange(18, 60)
-                    birthdate = date_translator.random_date(int(game_state["date"].split('-')[0]) - age)
-                    age = date_translator.age(birthdate, game_state["date"])
+                    birthdate = date_translator.random_date(int(data.game_state["date"].split('-')[0]) - age)
+                    age = date_translator.age(birthdate, data.game_state["date"])
                     if age >= 18:
                         break
         else:
-            age = date_translator.age(birthdate, game_state["date"])
+            age = date_translator.age(birthdate, data.game_state["date"])
         self.birthdate = birthdate
         self.age = age
 
@@ -165,16 +181,17 @@ class Person:
 
         if background is None or language is None:
             rand = random.random()
-            if rand < language_demo[self.region]["other"]:
+            demo = regions[self.region].demo
+            if rand < demo["other"]:
                 self.background = "other"
-                rand = rand / language_demo[self.region]["other"]
-                if rand < language_demo[self.region]["french"]:
+                rand = rand / demo["other"]
+                if rand < demo["french"]:
                     self.language = "french"
                 else:
                     self.language = "english"
             else:
-                rand += language_demo[self.region]["other"]
-                if rand < language_demo[self.region]["french"]:
+                rand += demo["other"]
+                if rand < demo["french"]:
                     self.background = "french"
                     self.language = "french"
                 else:
@@ -200,7 +217,7 @@ class Person:
         return attr
 
     def do_turn(self):
-        new_age = date_translator.age(self.birthdate, game_state["date"])
+        new_age = date_translator.age(self.birthdate, data.game_state["date"])
         self.age = new_age
 
     def consider_parties(self, ballot):  # ballot is the tags (strings) of what parties are available in the region
@@ -254,12 +271,12 @@ class ParliamentMember(Person):
         if birthdate is None:
             while True:
                 age = round(random.gauss(50, 10))
-                birthdate = date_translator.random_date(int(game_state["date"].split('-')[0]) - age)
-                age = date_translator.age(birthdate, game_state["date"])
+                birthdate = date_translator.random_date(int(data.game_state["date"].split('-')[0]) - age)
+                age = date_translator.age(birthdate, data.game_state["date"])
                 if age >= 18:
                     break
         else:
-            age = date_translator.age(birthdate, game_state["date"])
+            age = date_translator.age(birthdate, data.game_state["date"])
         kwargs["age"] = age
         super().__init__(region, riding, values, values_importance, radicalism, party, name=name, gender=gender,
                          birthdate=birthdate, background=background, language=language, **kwargs)
@@ -307,7 +324,7 @@ class ParliamentMember(Person):
                 party_pressure = -(100 - self.radicalism) * self.party.discipline
         factors["Party Pressure"] = party_pressure
         for provision in bill.provisions:
-            for issue, policy_list in policies.items():
+            for issue, policy_list in data.policies.items():
                 if provision in policy_list:
                     belief = self.values[issue]
                     belief_import = self.values_importance[issue]
@@ -315,20 +332,20 @@ class ParliamentMember(Person):
             else:
                 belief = 0
                 belief_import = 0
-            current_difference = abs(belief - laws[provision])
+            current_difference = abs(belief - policies[provision].current_law)
             proposed_difference = abs(belief - bill.provisions[provision])
             opinion = round((current_difference - proposed_difference) * belief_import)
             if opinion > 0:
                 key = "Right direction"
             elif opinion < 0:
-                if laws[provision] < belief < bill.provisions[provision] or \
-                        laws[provision] > belief > bill.provisions[provision]:
+                if policies[provision].current_law < belief < bill.provisions[provision] or \
+                        policies[provision].current_law > belief > bill.provisions[provision]:
                     key = "Goes too far"
                 else:
                     key = "Wrong direction"
             else:
                 key = "Indifferent"
-            key = names[provision] + " (" + key + ")"
+            key = policies[provision].name + " (" + key + ")"
             factors[key] = opinion
         return factors
 
@@ -365,31 +382,34 @@ class ParliamentMember(Person):
 
 class Party:
 
-    def __init__(self, tag, name, on_ballot, values, **kwargs):
-        self.popular_vote = None
+    def __init__(self, tag, name, **kwargs):
         self.tag = tag
         self.seats = 0
         self.name = name
-        # self.incumbent = incumbent
-        self.values = values
+        self.values = kwargs["values"]
+        self.isincumbent = kwargs.get("isincumbent", False)
         if "values_importance" not in kwargs:
             self.values_importance = {}
             for value in self.values:
                 self.values_importance[value] = round(random.random(), 1)
         else:
             self.values_importance = kwargs["values_importance"]
-        self.on_ballot = on_ballot
-        if "discipline" not in kwargs:
-            self.discipline = 0
-        else:
-            self.discipline = kwargs["discipline"]
-        if "bill_support" not in kwargs:
-            self.bill_support = {}
-        else:
-            self.bill_support = kwargs["bill_support"]
+        for value in data.all_values:
+            if value not in self.values:
+                laws = list(get_area_laws(value).values())
+                self.values[value] = round(sum(laws) / len(laws))
+                self.values_importance[value] = 0
+
+        self.on_ballot = kwargs.get("on_ballot", get_all_regions())
+        self.discipline = kwargs.get("discipline", 0)
+        self.bill_support = kwargs.get("bill_support", {})
+        self.colour = tuple(kwargs.get("colour", (200, 200, 200)))
+        data.colours[self.tag] = self.colour
         self.politicians = []
         self.members = []
         # self.leader = None
+        self.popular_vote = None
+        # todo create a history system for past elections
         parties[self.tag] = self
 
     def json_dump(self):
@@ -410,15 +430,14 @@ class Party:
 
 class Region:
 
-    def __init__(self, tag, num_of_districts, population, seat_distribution=None, loaded=False, **kwargs):
+    def __init__(self, tag, population, seat_dist, **kwargs):
         self.tag = tag
-        self.num_of_districts = num_of_districts
+        self.num_of_districts = sum(list(seat_dist.values()))
         self.population = int(population)
-        self.simulated = int(population / scale)
-        self.ballot = []
-        for p in parties:
-            if self.tag in parties[p].on_ballot:
-                self.ballot.append(p)
+        self.name = kwargs.get("name", "Province Name")
+        self.demo = kwargs.get("language_demo", {"english": 1})
+        self.simulated = int(population / data.settings['scale'])
+        self.ballot = [p for p in parties if self.tag in parties[p].on_ballot]
 
         self.ridings = {}
         self.total_votes = 0
@@ -427,11 +446,9 @@ class Region:
 
         regions[self.tag] = self
 
-        if loaded:
-            self.vote_history = kwargs["vote_history"]
-        else:
-            self.vote_history = {}
-            self.gen_ridings(seat_distribution)
+        self.vote_history = kwargs.get("vote_history", {})
+        if len(self.ridings) == 0:
+            self.gen_ridings(seat_dist)
 
     def json_dump(self):
         attr = self.__dict__.copy()
@@ -469,14 +486,10 @@ class Region:
 
         return self.vote_totals, self.riding_wins
 
-    # def display_results(self):
-    #     display.popular_vote(self.vote_totals, self.total_votes, self.simulated, scale)
-    #     display.seat_wins(self.riding_wins, self.num_of_districts)
-
 
 class Riding:
 
-    def __init__(self, region, tag, population, ballot, incumbent, loaded=False, **kwargs):
+    def __init__(self, region, tag, population, ballot, incumbent, **kwargs):
         self.region = region
         self.tag = tag
         self.ballot = ballot
@@ -491,14 +504,11 @@ class Riding:
         regions[self.region].ridings[self.tag] = self
         ridings[self.tag] = self
 
-        if loaded:
-            self.values = kwargs["values"]
-            self.vote_history = kwargs["vote_history"]
-        else:
-            self.values = parties[self.incumbent].values.copy()
-            self.vote_history = {}
+        self.values = kwargs.get("values", parties[self.incumbent].values.copy())
+        self.vote_history = kwargs.get("vote_history", {})
+        if len(self.persons) == 0:
             self.gen_population()
-            if laws["electsys"] == 100:
+            if policies["electsys"].current_law == 100:
                 self.set_mp()
 
     def json_dump(self):
@@ -509,7 +519,7 @@ class Riding:
         return attr
 
     def gen_population(self):
-        d = individual_differential
+        d = data.settings['individual_differential']
         for i in range(self.population):
             values, values_importance, radicalism = self.gen_beliefs(self.values, d)
             Person(self.region, self.tag, values, values_importance, radicalism)
@@ -522,7 +532,7 @@ class Riding:
     @staticmethod
     def gen_beliefs(base, d):
         values = {}
-        for value in all_values:
+        for value in data.all_values:
             pos = round(random.gauss(base[value], d))
             if pos > 100:
                 pos = 100
@@ -532,7 +542,7 @@ class Riding:
         values_importance = {}
         for value in values:
             values_importance[value] = round(random.random(), 1)
-        radicalism = base_radicalism
+        radicalism = data.settings['base_radicalism']
         return values, values_importance, radicalism
 
     def election(self):
@@ -560,7 +570,7 @@ class Bill:
 
     '''provisions in {subject: position, subject: position, etc.} format'''
 
-    def __init__(self, sponsor, provisions, kind, parliament=game_state["parliament"], name=None, **kwargs):
+    def __init__(self, sponsor, provisions, kind, parliament=data.game_state["parliament"], name=None, **kwargs):
         self.sponsor = sponsor
         self.provisions = provisions
         self.kind = kind
@@ -589,7 +599,7 @@ class Bill:
                     Bill.nums[self.kind] = self.num + 1
 
         if name is None:
-            self.name = names[self.main_provision] + " Act"
+            self.name = policies[self.main_provision].name + " Act"
             self.find_duplicates(1)
         else:
             self.name = name
@@ -627,10 +637,10 @@ class Bill:
         return attr
 
     def in_queue(self):
-        if self.id_num in imminent_progress or \
+        if self.id_num in data.imminent_progress or \
                 self.id_num in politicians[self.sponsor].bwfc or \
-                self.id_num in government_orders or \
-                self.id_num in order_of_precedence:
+                self.id_num in data.government_orders or \
+                self.id_num in data.order_of_precedence:
             return True
         else:
             return False
@@ -644,14 +654,14 @@ class Bill:
             if self.sponsor not in cabinet:
                 sponsor.bwfc.append(self.id_num)
             else:
-                government_orders.append(self.id_num)
+                data.government_orders.append(self.id_num)
         elif stage == "Third Reading":
             if self.sponsor not in cabinet:
-                order_of_precedence.append(self.id_num)
+                data.order_of_precedence.append(self.id_num)
             else:
-                government_orders.append(self.id_num)
+                data.government_orders.append(self.id_num)
         else:
-            imminent_progress.append(self.id_num)
+            data.imminent_progress.append(self.id_num)
 
     def progress(self):
         if not self.dead:
@@ -714,7 +724,7 @@ class Bill:
 
     def royal_assent(self):
         for subject in self.provisions:
-            laws[subject] = self.provisions[subject]
+            policies[subject].current_law = self.provisions[subject]
         return True
 
 
@@ -736,14 +746,11 @@ def election():
     for p in popular_vote:
         parties[p].popular_vote = popular_vote[p]
         total_votes += parties[p].popular_vote
-    if laws["electsys"] == 100:
+    if policies["electsys"].current_law == 100:
         elect_fptp(riding_wins)
-    elif laws["electsys"] < 100:
-        elect_prop(popular_vote, total_votes)
-    # display.popular_vote(popular_vote, total_votes, len(persons), scale)
-    # display.seats(parties, number_of_seats)
-    # display.seat_wins(riding_wins, number_of_seats)
-    game_state["parliament"] += 1
+    # elif policies["electsys"].current_law < 100:
+    #     elect_prop(popular_vote, total_votes)
+    data.game_state["parliament"] += 1
     new_parliament()
 
 
@@ -752,24 +759,26 @@ def elect_fptp(riding_wins):
         parties[p].seats = riding_wins[p]
 
 
-def elect_prop(popular_vote, total_votes):
-    votes_per_seat = int(sum(popular_vote.values()) / number_of_seats)
-    for x in range(number_of_seats):
-        tally = {}
-        for p in parties:
-            if popular_vote[p] > int(total_votes * laws["cutoff"]):
-                tally[p] = 0
-        for p in parties:
-            if p in tally:
-                tally[p] = popular_vote[p] - parties[p].seats * votes_per_seat
-        parties[toolkit.largest_in_dictionary(tally)].seats += 1
+# todo rework proportional representation along with different versions of it
+# def elect_prop(popular_vote, total_votes):
+#     votes_per_seat = int(sum(popular_vote.values()) / data.number_of_seats)
+#     for x in range(data.number_of_seats):
+#         tally = {}
+#         for p in parties:
+#             # if popular_vote[p] > int(total_votes * policies["cutoff"]):
+#             tally[p] = 0
+#         for p in parties:
+#             if p in tally:
+#                 tally[p] = popular_vote[p] - parties[p].seats * votes_per_seat
+#         parties[toolkit.largest_in_dictionary(tally)].seats += 1
 
 
 def vote(bill, number, hypothetical=False):
     vote = {"Yea": {}, "Nay": {}}
-    for party in house_parties:
-        vote["Yea"][party] = {}
-        vote["Nay"][party] = {}
+    for tag, party in parties.items():
+        if party.seats > 0:
+            vote["Yea"][tag] = {}
+            vote["Nay"][tag] = {}
     for p in politicians.values():
         if number == 1:
             reason = p.first_vote(bill)
@@ -780,14 +789,13 @@ def vote(bill, number, hypothetical=False):
         else:
             vote["Nay"][p.party.tag][p.id_num] = reason
     if not hypothetical:
-        votes.append(vote)
-        vote_subjects.append((bill.id_num, number))
+        data.votes.append(vote)
+        data.vote_subjects.append((bill.id_num, number))
     num = vote_num(vote)
     if num["Yea"] > num["Nay"]:
         passed = True
     else:
         passed = False
-    # display.vote_result(num["Yea"], num["Nay"], passed)
     return passed, vote
 
 
@@ -867,11 +875,11 @@ def det_importance(pos):
     return imp
 
 
-def compare_pops(region):
+def get_population(region):
     if region == "national":
-        return sum(list(population_dist.values()))
-    elif region in population_dist:
-        return population_dist[region]
+        return sum([region.population for region in regions.values()])
+    elif region in regions:
+        return regions[region].population
     else:
         return 0
 
@@ -879,12 +887,43 @@ def compare_pops(region):
 def add_poll():
     poll_results = do_poll()
     for region in poll_results:
-        if region not in opinion_polls["party_support"]:
-            opinion_polls["party_support"][region] = {}
+        if region not in data.opinion_polls["party_support"]:
+            data.opinion_polls["party_support"][region] = {}
         for party in poll_results[region]:
-            if party not in opinion_polls["party_support"][region]:
-                opinion_polls["party_support"][region][party] = {}
-            opinion_polls["party_support"][region][party][game_state["turn"] - 1] = poll_results[region][party]
+            if party not in data.opinion_polls["party_support"][region]:
+                data.opinion_polls["party_support"][region][party] = {}
+            data.opinion_polls["party_support"][region][party][data.game_state["turn"] - 1] = \
+                poll_results[region][party]
+
+
+def get_laws():
+    laws_list = {}
+    for tag, policy in policies.items():
+        laws_list[tag] = policy.current_law
+    return laws_list
+
+
+def get_house_parties():
+    return [tag for tag, party in parties.items() if party.seats > 0]
+
+
+def get_incumbents():
+    return [tag for tag, party in parties.items() if party.isincumbent]
+
+
+def get_area_laws(area):
+    laws = {}
+    for tag, policy in policies.values():
+        if policy.area == area:
+            laws[tag] = policy.current_law
+    return laws
+
+
+def get_all_regions():
+    if len(regions) > 0:
+        return list(regions.keys())
+    else:
+        return list(data.regions.keys())
 
 
 def get_politician(id_num):
@@ -901,8 +940,8 @@ def replenish_oop(eligible, num, times):
         over = False
     else:
         over = True
-    for i in range(len(LCPMB)):
-        id_num = LCPMB.pop(0)
+    for i in range(len(data.LCPMB)):
+        id_num = data.LCPMB.pop(0)
         if (len(politicians[id_num].bwfc) == times and eligible.count(id_num) < times) or \
                 len(politicians[id_num].bwfc) > times:
             eligible.append(id_num)
@@ -920,27 +959,27 @@ def replenish_oop(eligible, num, times):
 
 def end_turn():
     # This is the end of the turn
-    if len(government_orders) > 0:
-        bills[government_orders.pop(0)].progress()
+    if len(data.government_orders) > 0:
+        bills[data.government_orders.pop(0)].progress()
 
-    if len(order_of_precedence) <= private_orders_length / 2:
-        num = private_orders_length - len(order_of_precedence)
+    if len(data.order_of_precedence) <= data.settings['private_orders_length'] / 2:
+        num = data.settings['private_orders_length'] - len(data.order_of_precedence)
         eligible = replenish_oop([], num, 1)
         if len(eligible) < num:
             num = len(eligible)
         for i in range(num):
             bill = politicians[eligible[i]].select_bwfc()
             politicians[eligible[i]].bwfc.remove(bill)
-            order_of_precedence.append(bill)
-    if len(order_of_precedence) > 0:
-        bills[order_of_precedence.pop(0)].progress()
+            data.order_of_precedence.append(bill)
+    if len(data.order_of_precedence) > 0:
+        bills[data.order_of_precedence.pop(0)].progress()
 
-    for bill_id in imminent_progress:
+    for bill_id in data.imminent_progress:
         bills[bill_id].progress()
-    imminent_progress.clear()
+    data.imminent_progress.clear()
 
-    game_state["turn"] += 1
-    game_state["date"] = date_translator.get_date(turn_length, game_state["date"])
+    data.game_state["turn"] += 1
+    data.game_state["date"] = date_translator.get_date(data.settings['turn_length'], data.game_state["date"])
 
     start_turn()
 
@@ -960,29 +999,32 @@ def establish_pol():
     random.shuffle(mps)
     for mp in mps:
         if mp not in cabinet:
-            LCPMB.append(mp.id_num)
+            data.LCPMB.append(mp.id_num)
 
 
 def new_parliament():
-    government_orders.clear()
-    LCPMB.clear()
+    data.government_orders.clear()
+    data.LCPMB.clear()
     establish_pol()
-    order_of_precedence.clear()
+    data.order_of_precedence.clear()
     for b in bills.values():
         b.reset()
 
 
 def init_game():
     clear_data()
-    for entry, value in default_game_state.items():
-        game_state[entry] = value
-    for party in party_tags:
-        Party(party, party_names[party], party_constituencies[party], party_positions[party])
-    for region in region_tags:
-        Region(region, region_seats[region], population_dist[region], seat_dist[region])
-    for kind in poll_types:
-        opinion_polls[kind] = {}
-    game_state["player"] = random.choice(list(politicians.keys()))
+    for entry, value in data.default_game_state.items():
+        data.game_state[entry] = value
+    for area, policy_list in data.policies.items():
+        for tag in policy_list:
+            Policy(tag, area, **policy_list[tag])
+    for tag, attr in data.parties.items():
+        Party(tag, **attr)
+    for tag, attr in data.regions.items():
+        Region(tag, **attr)
+    for kind in data.poll_types:
+        data.opinion_polls[kind] = {}
+    data.game_state["player"] = random.choice(list(politicians.keys()))
     # player = politicians[game_state["player"]]
     # print(player.name, player.age, player.party.tag)
     new_parliament()
@@ -997,6 +1039,7 @@ persons: Dict[int, Person] = {}  # keys are id_num
 regions: Dict[str, Region] = {}  # keys are postal code
 ridings: Dict[str, Riding] = {}  # keys are region's postal code + district number
 bills: Dict[int, Bill] = {}  # keys are id_num
+policies: Dict[str, Policy] = {}     # keys are policy tags
 
-all_data = [parties, politicians, former_politicians, persons, regions, ridings, bills, votes, vote_subjects,
-            page_history, game_state, opinion_polls, government_orders, LCPMB, order_of_precedence, imminent_progress]
+all_data = [parties, politicians, former_politicians, persons, regions, ridings, bills, policies]
+all_data.extend(data.containers)

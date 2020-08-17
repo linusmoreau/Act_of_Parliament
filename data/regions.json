@@ -1,0 +1,212 @@
+{
+  "BC": {
+    "name": "British Columbia",
+    "isprovince": true,
+    "population": 5105576,
+    "seat_dist": {
+      "LIB": 12,
+      "CON": 17,
+      "NDP": 11,
+      "GRN": 2
+    },
+    "min_seats": 28,
+    "senate_seats": 6,
+    "language_demo": {
+      "english": 0.705,
+      "french": 0.012,
+      "other": 0.283
+    }
+  },
+  "AB": {
+    "name": "Alberta",
+    "isprovince": true,
+    "population": 4395586,
+    "seat_dist": {
+      "CON": 33,
+      "NDP": 1
+    },
+    "min_seats": 21,
+    "senate_seats": 6,
+    "language_demo": {
+      "english": 0.747,
+      "french": 0.018,
+      "other": 0.235
+    }
+  },
+  "SK": {
+    "name": "Saskatchewan",
+    "isprovince": true,
+    "population": 1178657,
+    "seat_dist": {
+      "CON": 14
+    },
+    "min_seats": 14,
+    "senate_seats": 6,
+    "language_demo": {
+      "english": 0.857,
+      "french": 0.017,
+      "other": 0.126
+    }
+  },
+  "MB": {
+    "name": "Manitoba",
+    "isprovince": true,
+    "population": 1373859,
+    "seat_dist": {
+      "LIB": 4,
+      "CON": 7,
+      "NDP": 3
+    },
+    "min_seats": 14,
+    "senate_seats": 6,
+    "language_demo": {
+      "english": 0.75,
+      "french": 0.039,
+      "other": 0.211
+    }
+  },
+  "ON": {
+    "name": "Ontario",
+    "isprovince": true,
+    "population": 14659616,
+    "seat_dist": {
+      "LIB": 79,
+      "CON": 36,
+      "NDP": 6
+    },
+    "min_seats": 95,
+    "senate_seats": 24,
+    "language_demo": {
+      "english": 0.669,
+      "french": 0.037,
+      "other": 0.294
+    }
+  },
+  "QC": {
+    "name": "Qu\u00e9bec",
+    "isprovince": true,
+    "population": 8522800,
+    "seat_dist": {
+      "LIB": 35,
+      "CON": 10,
+      "BQ": 32,
+      "NDP": 1
+    },
+    "min_seats": 75,
+    "senate_seats": 24,
+    "language_demo": {
+      "english": 0.076,
+      "french": 0.78,
+      "other": 0.144
+    }
+  },
+  "NB": {
+    "name": "New Brunswick",
+    "isprovince": true,
+    "population": 780021,
+    "seat_dist": {
+      "LIB": 6,
+      "CON": 3,
+      "GRN": 1
+    },
+    "min_seats": 10,
+    "senate_seats": 10,
+    "language_demo": {
+      "english": 0.656,
+      "french": 0.319,
+      "other": 0.025
+    }
+  },
+  "NS": {
+    "name": "Nova Scotia",
+    "isprovince": true,
+    "population": 976768,
+    "seat_dist": {
+      "LIB": 10,
+      "CON": 1
+    },
+    "min_seats": 11,
+    "senate_seats": 10,
+    "language_demo": {
+      "english": 0.925,
+      "french": 0.034,
+      "other": 0.041
+    }
+  },
+  "NL": {
+    "name": "Newfoundland and Labrador",
+    "isprovince": true,
+    "population": 521922,
+    "seat_dist": {
+      "LIB": 6,
+      "NDP": 1
+    },
+    "min_seats": 7,
+    "senate_seats": 6,
+    "language_demo": {
+      "english": 0.977,
+      "french": 0.004,
+      "other": 0.019
+    }
+  },
+  "PE": {
+    "name": "Prince Edward Island",
+    "isprovince": true,
+    "population": 157901,
+    "seat_dist": {
+      "LIB": 4
+    },
+    "min_seats": 4,
+    "senate_seats": 4,
+    "language_demo": {
+      "english": 0.938,
+      "french": 0.04,
+      "other": 0.022
+    }
+  },
+  "YT": {
+    "name": "Yukon Territory",
+    "isprovince": false,
+    "population": 41022,
+    "seat_dist": {
+      "LIB": 1
+    },
+    "min_seats": 1,
+    "senate_seats": 1,
+    "language_demo": {
+      "english": 0.857,
+      "french": 0.037,
+      "other": 0.106
+    }
+  },
+  "NT": {
+    "name": "Northwest Territories",
+    "isprovince": false,
+    "population": 44895,
+    "seat_dist": {
+      "LIB": 1
+    },
+    "min_seats": 1,
+    "senate_seats": 1,
+    "language_demo": {
+      "english": 0.775,
+      "french": 0.024,
+      "other": 0.201
+    }
+  },
+  "NU": {
+    "name": "Nunavut",
+    "isprovince": false,
+    "population": 38873,
+    "seat_dist": {
+      "NDP": 1
+    },
+    "min_seats": 1,
+    "senate_seats": 1,
+    "language_demo": {
+      "english": 0.268,
+      "french": 0.013,
+      "other": 0.719
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "colours": {
+    "far-left": [200, 10, 10],
+    "left": [255, 0, 0],
+    "centre-left": [255, 40, 100],
+    "centre": [212, 175, 55],
+    "centre-right": [150, 200, 255],
+    "right": [0, 0, 255],
+    "far-right": [10, 10, 200]
+  },
+  "policies": {
+    "finance": {
+      "income_tax": {
+        "name": "Income Tax"
+      },
+      "sales_tax": {
+        "name": "Sales Tax"
+      },
+      "property_tax": {
+        "name": "Property Tax"
+      },
+      "capital_gains": {
+        "name": "Capital Gains Tax"
+      },
+      "carbon_tax": {
+        "name": "Carbon Tax"
+      },
+      "automation_tax": {
+        "name": "Automation Tax"
+      },
+      "wealth_tax": {
+        "name": "Wealth Tax"
+      },
+      "resource_tax": {
+        "name": "Natural Resource Tax"
+      },
+      "corporate_tax": {
+        "name": "Corporate Income Tax"
+      }
+    },
+    "public_services": {
+      "health": {
+        "name": "Healthcare"
+      },
+      "education": {
+        "name": "Education"
+      },
+      "housing": {
+        "name": "Public Housing"
+      }
+    },
+    "welfare": {
+      "pensions": {
+        "name": "Pensions"
+      },
+      "retirement": {
+        "name": "Retirement Age"
+      },
+      "ei": {
+        "name": "Employment Insurance"
+      },
+      "basic_income": {
+        "name": "Universal Basic Income"
+      },
+      "disability_benefits": {
+        "name": "Disability Benefits"
+      }
+    },
+    "economy": {
+      "minwage": {
+        "name": "Minimum Wage"
+      },
+      "labour_rights": {
+        "name": "Labour Rights"
+      },
+      "consumer_rights": {
+        "name": "Consumer Rights"
+      },
+      "financial_reg": {
+        "name": "Financial Regulation"
+      }
+    },
+    "foreign": {
+      "border": {
+        "name": "Border Controls"
+      },
+      "immigration_quota": {
+        "name": "Immigration Quota"
+      },
+      "work-visas": {
+        "name": "Work-Visas"
+      },
+      "military": {
+        "name": "Military"
+      },
+      "diplomatic_stance": {
+        "name": "Diplomatic Stance"
+      },
+      "trade": {
+        "name": "Tariffs"
+      },
+      "foreign_aid": {
+        "name": "Foreign Aid"
+      }
+    },
+    "environment": {
+      "aircare": {
+        "name": "Air Management"
+      },
+      "watercare": {
+        "name": "Water Management"
+      },
+      "wastecare": {
+        "name": "Waste Management"
+      },
+      "parks": {
+        "name": "Park Management"
+      },
+      "ecoprojects": {
+        "name": "Environmental Projects"
+      }
+    },
+    "transport": {
+      "rail": {
+        "name": "Rail"
+      },
+      "bus": {
+        "name": "Buses"
+      },
+      "roads": {
+        "name": "Road Construction"
+      },
+      "flight": {
+        "name": "Air Travel"
+      },
+      "cars": {
+        "name": "Car Ownership Incentives"
+      }
+    },
+    "justice": {
+      "prisons": {
+        "name": "Prisons"
+      },
+      "police": {
+        "name": "Police Service"
+      },
+      "punishment": {
+        "name": "Criminal Sentencing"
+      },
+      "legal_aid": {
+        "name": "Legal Aid"
+      },
+      "guns": {
+        "name": "Firearm Regulation"
+      },
+      "drugs": {
+        "name": "Drug Regulation"
+      },
+      "prostitution": {
+        "name": "Prostitution"
+      },
+      "euthanasia": {
+        "name": "Euthanasia"
+      },
+      "abortion": {
+        "name": "Abortion"
+      },
+      "lgbt": {
+        "name": "LGBTQ+ Rights",
+        "desc": "Legal standing of lesbian, gay, bisexual, transgendered, and other persons with non-standard sexual or gender identities.",
+        "effects": "Restrictions on LGBTQ+ rights please some traditionalist conservatives while alienating those within the community. On the other hand, positive discrimination is supported by some liberals but can be deemed as unfair by the wider population."
+      }
+    },
+    "electoral": {
+      "voteage": {
+        "name": "Voting Age"
+      },
+      "voteid": {
+        "name": "Voting ID"
+      },
+      "electsys": {
+        "name": "Electoral System",
+        "current_law": 100
+      },
+      "electfunds": {
+        "name": "Public Funding for Elections"
+      },
+      "maxdon": {
+        "name": "Maximum Contribution"
+      }
+    }
+  }
+}

@@ -19,6 +19,7 @@ if not os.path.isdir("saves"):
 
 class Music:
     channel = None
+    file_path = "sound/"
 
     def __init__(self, track):
         self.soundtrack = track
@@ -110,7 +111,7 @@ class Music:
             random.shuffle(self.soundtrack)
             self.playing = self.soundtrack[0]
             self.track_num = 1
-        pygame.mixer.music.load(self.playing)
+        pygame.mixer.music.load(Music.file_path + self.playing)
         pygame.mixer.music.play()
         if self.showing in widgets:
             self.show_playing(self.showing.rect.topleft, self.showing.rect.w)
@@ -153,7 +154,7 @@ class Confirmation(PopUp):
 class HierarchyButtonDisplay(ScrollButtonDisplay):
 
     def __init__(self, position, area, categories, align=TOPLEFT, step=None, edge=DEFAULT_EDGE, colour=light_grey,
-                 deselect=True):
+                 deselect=True, button_labels=None):
         """categories is an ordered dictionary"""
         self.categories = categories
         if step is None:
@@ -164,6 +165,10 @@ class HierarchyButtonDisplay(ScrollButtonDisplay):
         super().__init__(position, area, self.step * len(categories), align=align, edge=edge, button_size=self.step,
                          colour=colour)
         self.button_tags = {}
+        if button_labels is None:
+            self.button_labels = {}
+        else:
+            self.button_labels = button_labels
         self.buttons = self.gen_buttons(categories)
         self.all_buttons = flatten(self.buttons)
         self.visible_buttons = list(self.buttons.keys())
@@ -177,8 +182,12 @@ class HierarchyButtonDisplay(ScrollButtonDisplay):
                 b = Button((self.contain_rect.left, self.contain_rect.top + i * self.step),
                     (self.contain_rect.w, self.step), parent=self)
                 b.normal_colour = fade_colour((100, 100, 200), 200)
+                if button_tag in self.button_labels:
+                    text = self.button_labels[button_tag]
+                else:
+                    text = toolkit.entitle(button_tag.split('/')[-1])
                 b.components.append(
-                    Text(data.names[button_tag], b.rect.center, font_size=BASE_FONT_SIZE, align=CENTER,
+                    Text(text, b.rect.center, font_size=BASE_FONT_SIZE, align=CENTER,
                          colour=font_colour, background_colour=b.normal_colour)
                 )
                 b.callback(b.expand)
@@ -188,8 +197,12 @@ class HierarchyButtonDisplay(ScrollButtonDisplay):
                 b = SelectButton((self.contain_rect.left, self.contain_rect.top + i * self.step),
                     (self.contain_rect.w, self.step), parent=self, deselectable=self.deselect)
                 b.normal_colour = fade_colour((200, 200, 100), 200)
+                if button_tag in self.button_labels:
+                    text = self.button_labels[button_tag]
+                else:
+                    text = toolkit.entitle(button_tag.split('/')[-1])
                 b.components.append(
-                    Text(data.names[categories[button_tag]["label"]], b.rect.center, font_size=BASE_FONT_SIZE,
+                    Text(text, b.rect.center, font_size=BASE_FONT_SIZE,
                          align=CENTER, colour=font_colour, background_colour=b.normal_colour)
                 )
                 if categories[button_tag] is not None:
@@ -443,7 +456,7 @@ class PersonDisplay(CircleSelectButton):
         else:
             self.surface.set_alpha(self.default_alpha)
         self.callback(self.make_card)
-        self.normal_colour = data.colours[self.person.party.tag]
+        self.normal_colour = self.person.party.colour
         self.update()
 
     def make_card(self):
@@ -563,10 +576,10 @@ class PersonCard(PopUp):
     actions_panel_width = width / 2
 
     def __init__(self, visual):
-        if Act_of_Parliament.GRAPHICS == 0:
+        if data.settings['graphics'] == 0:
             opacity = 255
             colour = (20, 20, 20)
-        elif Act_of_Parliament.GRAPHICS == 1:
+        elif data.settings['graphics'] == 1:
             opacity = 240
             colour = black
         else:
@@ -648,7 +661,7 @@ class PersonCard(PopUp):
         cont.surface.set_colorkey(black)
         for i in range(len(descriptors)):
             if desc_names[i] == "Party":
-                desc_colour = logic.colours[self.person.party.tag]
+                desc_colour = self.person.party.colour
             else:
                 desc_colour = gold
             self.draw_descriptor(cont, toolkit.capitalize(descriptors[i]), desc_names[i], (x, y), desc_colour,
@@ -670,7 +683,7 @@ class PersonCard(PopUp):
             else:
                 bold = False
             msg = toolkit.capitalize(pol_pos) + ' (' + str(self.person.values[belief]) + ')'
-            self.draw_descriptor(cont, msg, data.names[belief], (x, y), data.colours[pol_pos], background=colour,
+            self.draw_descriptor(cont, msg, toolkit.entitle(belief), (x, y), data.colours[pol_pos], background=colour,
                                  bold=bold)
             y += char_h
         display = ScrollDisplay([cont], pos, area, total_size=total_size, parent=self)
@@ -698,7 +711,7 @@ class PageParliament:
     def __init__(self, loc='gov'):
         set_up_page("parliament", toolbar=True)
         PageParliament.loc = loc
-        self.incumbent = data.incumbent
+        self.incumbent = [tag for tag, party in logic.parties.items() if party.isincumbent]
         self.radius = int(screen_width / 128) + 1
         self.gap = 2
         self.step = self.radius * 2 + self.gap
@@ -840,7 +853,7 @@ class PageParliament:
         for side in self.vote_order:
             for party in self.vote_order[side]:
                 self.vote_order[side][party] = sorted(self.vote_order[side][party],
-                                                      key=lambda p: logic.politicians[p].seniority)
+                                                      key=lambda p: logic.get_politician(p).seniority)
 
     def det_rows(self, vote_num):
         if vote_num["Yea"] >= vote_num["Nay"]:
@@ -858,7 +871,8 @@ class PageParliament:
 
     def det_order(self, vote):
         member_order = [[] for _ in range(self.row_num)]
-        for party in sorted(data.house_parties, key=lambda party: len(self.vote_order[vote][party]), reverse=True):
+        for party in sorted(logic.get_house_parties(), key=lambda party: len(self.vote_order[vote][party]),
+                            reverse=True):
             for row in range(self.row_num):
                 columns = int(len(self.vote_order[vote][party]) / self.row_num)
                 for col in range(columns):
@@ -874,9 +888,10 @@ class PageParliament:
 
     def gov_as_vote(self):
         vote = {"Yea": {}, "Nay": {}}
-        for party in data.house_parties:
-            vote["Yea"][party] = []
-            vote["Nay"][party] = []
+        for tag, party in logic.parties.items():
+            if party.seats > 0:
+                vote["Yea"][tag] = []
+                vote["Nay"][tag] = []
         for member in logic.politicians.values():
             if member.party.tag in self.incumbent:
                 vote["Yea"][member.party.tag].append(member.id_num)
@@ -962,13 +977,13 @@ class PageParliament:
             for col in range(len(self.yea_order[row])):
                 x = int(self.rect.x + self.step * col)
                 y = int(self.rect.y + (self.rect.h + self.radius * 5) / 2 + self.step * row)
-                person = logic.politicians[self.yea_order[row][col]]
+                person = logic.get_politician(self.yea_order[row][col])
                 self.set_dest(x, y, person)
         for row in range(len(self.nay_order)):
             for col in range(len(self.nay_order[row])):
                 x = int(self.rect.x + self.step * col)
                 y = int(self.rect.y + (self.rect.h - self.radius * 5) / 2 - 2 * self.radius - self.step * row)
-                person = logic.politicians[self.nay_order[row][col]]
+                person = logic.get_politician(self.nay_order[row][col])
                 self.set_dest(x, y, person)
 
     def provincial(self):
@@ -977,7 +992,7 @@ class PageParliament:
             heading.disappearing = True
         prov_col = 0
         prov_row = 0
-        not_done = data.region_tags
+        not_done = list(logic.regions.keys())
         while len(not_done) > 0:
             not_done, prov_col, prov_row = self.provincial_placement(not_done, prov_col, prov_row, new_row=False)
             not_done, prov_col, prov_row = self.provincial_placement(not_done, prov_col, prov_row, new_row=True)
@@ -1119,8 +1134,12 @@ class PagePolicy(PageListBase):
             categories[category] = layer
         x = MENU_WIDTH / 8
         w = MENU_WIDTH * 3 / 4
+        labels = {}
+        for tag, policy in logic.policies.items():
+            labels[policy.area + '/' + tag] = policy.name
         self.button_disp = HierarchyButtonDisplay((x, screen_height / 8 + ToolBar.height),
-                                                  (w, screen_height * 3 / 4 - ToolBar.height), categories)
+                                                  (w, screen_height * 3 / 4 - ToolBar.height), categories,
+                                                  button_labels=labels)
         self.button_disp.show()
 
     def first_page(self):
@@ -1136,24 +1155,26 @@ class PagePolicy(PageListBase):
         self.new_page()
         marg = display_rect.w / 16
         width = screen_width - self.x - 2 * marg
-        self.policy_pos = data.laws[self.policy]
+        self.policy_pos = logic.policies[self.policy].current_law
         self.orig_pos = self.policy_pos
-        if self.policy in data.policy_attr:
-            self.set_up_name(data.policy_attr[self.policy]["name"])
-            desc = Text("Description:\n" + data.policy_attr[self.policy]["desc"],
+
+        policy = logic.policies[self.policy]
+        if policy.name is not None:
+            self.set_up_name(policy.name)
+        if policy.desc is not None:
+            desc = Text("Description:\n" + policy.desc,
                         (self.x + marg, display_rect.top + display_rect.h / 6), width=width,
                         align=TOPLEFT, multiline=True)
             desc_display = ScrollDisplay([desc], desc.rect.topleft, (width, display_rect.h / 6), total_size=desc.rect.h)
             self.components.append(desc_display)
-
-            effects = Text("Effects:\n" + data.policy_attr[self.policy]["effects"],
+        if policy.effects is not None:
+            effects = Text("Effects:\n" + policy.effects,
                            (self.x + marg, display_rect.top + display_rect.h / 3), width=width,
                            align=TOPLEFT, multiline=True)
             effects_display = ScrollDisplay([effects], effects.rect.topleft, (width, display_rect.h / 6),
                                             total_size=effects.rect.h)
             self.components.append(effects_display)
-        else:
-            self.set_up_name(data.names[self.policy])
+        if policy.desc is None or policy.effects is None:
             msg = Text("Page is work-in-progress", (self.mid_x, screen_height / 2), font_size=24, align=CENTER)
             self.components.append(msg)
 
@@ -1318,7 +1339,8 @@ class PageBills(PageListBase):
 
     @staticmethod
     def show_provision(prov, policy_pos, pos, size):
-        txt = data.names[prov] + ': ' + str(policy_pos) + '\n' + 'Current: ' + str(data.laws[prov])
+        txt = logic.policies[prov].name + ': ' + str(policy_pos) + '\n' + \
+              'Current: ' + str(logic.policies[prov].current_law)
         display = Text(txt, pos, align=TOPLEFT, width=size[0], height=size[1], multiline=True)
         return display
 
@@ -1393,10 +1415,13 @@ class PageStatistics(PageListBase):
                 break
         else:
             kwargs = {}
-        title = data.names[split_tag[-1]] + ' ' + data.names[split_tag[0]]
+        try:
+            title = logic.regions[split_tag[-1]].name + " Party Support"
+        except KeyError:
+            title = toolkit.entitle(split_tag[-1] + ' ' + split_tag[0])
         graph = GraphDisplay((screen_width / 4, ToolBar.height), (screen_width * 3 / 4, screen_height - ToolBar.height),
                 data.opinion_polls[split_tag[0]][split_tag[1]], title=title, colours=data.colours,
-                initial_date=data.default_game_state["date"], turn_length=data.turn_length, **kwargs)
+                initial_date=data.default_game_state["date"], turn_length=data.settings['turn_length'], **kwargs)
         self.components.append(graph)
 
         for w in self.components:
@@ -1416,14 +1441,20 @@ class PageStatistics(PageListBase):
         # order = sorted(data.opinion_polls.keys())
         categories = OrderedDict()
         layer = OrderedDict()
-        for region in sorted(list(data.opinion_polls["party_support"].keys()), key=logic.compare_pops, reverse=True):
-            layer["party_support" + '/' + region] = {"funcs": [self.update], "label": region}
+        labels = {}
+        for region in sorted(list(data.opinion_polls["party_support"].keys()), key=logic.get_population, reverse=True):
+            tag = "party_support" + '/' + region
+            layer[tag] = {"funcs": [self.update], "label": region}
+            try:
+                labels[tag] = logic.regions[region].name
+            except KeyError:
+                pass
         categories["party_support"] = layer
         x = MENU_WIDTH / 8
         w = MENU_WIDTH * 3 / 4
         self.button_disp = HierarchyButtonDisplay((x, screen_height / 8 + ToolBar.height),
                                                   (w, screen_height * 3 / 4 - ToolBar.height), categories,
-                                                  deselect=False)
+                                                  deselect=False, button_labels=labels)
         self.button_disp.show()
 
 
@@ -1446,7 +1477,7 @@ class PageTitle:
         }
         for i, button in enumerate(buttons):
             b = Button((screen_width / 2, screen_height / 4 * 2 + i * Button.default_height * 3 / 2),
-                       align=CENTER, label=data.names[button])
+                       align=CENTER, label=toolkit.entitle(button))
             if button_functions[button] is not None:
                 b.callback(button_functions[button])
             b.show()
@@ -1488,10 +1519,19 @@ class PageSettings:
             "menu": return_to_menu,
             "quit": terminate
         }
+        button_labels = {
+            "resume": "Resume",
+            "save": "Save",
+            "load": "Load Save",
+            "credits": "Credits",
+            "menu": "Return to Menu",
+            "quit": "Quit",
+            "new game": "New Game",
+        }
         for i, button in enumerate(buttons):
             b = Button((screen_width / 2, screen_height / 8 * 2 + ToolBar.instance.rect.h + i *
                         Button.default_height * 3 / 2),
-                       align=CENTER, label=data.names[button])
+                       align=CENTER, label=button_labels[button])
             if button_functions[button] is not None:
                 b.callback(button_functions[button])
             b.show()
@@ -1870,7 +1910,7 @@ def game_loop():
         all_wids = get_all_wids()
         for event in pygame.event.get():
             if event.type == pygame.QUIT or \
-                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and Act_of_Parliament.DEBUG):
+                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and data.settings['debug']):
                 terminate()
             elif event.type == pygame.USEREVENT:
                 Music.channel.new_track()
