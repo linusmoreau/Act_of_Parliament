@@ -143,8 +143,9 @@ class Widget:
                 for i in range(len(self.extensions)):
                     if self.extensions[-(i + 1)].catch(mouse):
                         return True
-                for b in Button.buttons:
-                    b.no_focus()
+                if Button.focus is not None:
+                    Button.focus.no_focus()
+                    Button.focus = None
                 return True
             else:
                 for i in range(len(self.extensions)):
@@ -153,7 +154,10 @@ class Widget:
         return False
 
     def no_focus(self):
-        pass
+        for c in self.components:
+            c.no_focus()
+        for e in self.extensions:
+            e.no_focus()
 
     def get_surface(self):
         return self.surface
@@ -278,14 +282,14 @@ class Widget:
             c.appeared()
 
     def on_top(self, pos):
-        if self.rect.x <= pos[0] <= self.rect.x + self.rect.w and self.rect.y <= pos[1] <= self.rect.y + self.rect.h:
+        if self.rect.left <= pos[0] <= self.rect.right and self.rect.top <= pos[1] <= self.rect.bottom:
             return True
         else:
             return False
 
     def in_container(self, pos):
-        if self.contain_rect.x <= pos[0] <= self.contain_rect.x + self.contain_rect.w and \
-                self.contain_rect.y <= pos[1] <= self.contain_rect.y + self.contain_rect.h:
+        if self.contain_rect.left <= pos[0] <= self.contain_rect.right and \
+                self.contain_rect.top <= pos[1] <= self.contain_rect.bottom:
             return True
         else:
             return False
@@ -420,6 +424,8 @@ class Button(Widget):
         self.funcs.clear()
 
     def make_tooltip(self, mouse):
+        if self._tooltip is None:
+            return None
         return ToolTip(self._tooltip, (mouse[0], mouse[1] + TOOLTIP_OFFSET))
 
     def catch(self, mouse):
@@ -431,7 +437,8 @@ class Button(Widget):
                 Widget.new_cursor_type = 1
                 if self.tooltip_display is None:
                     self.tooltip_display = self.make_tooltip(mouse)
-                    self.tooltip_display.show()
+                    if self.tooltip_display is not None:
+                        self.tooltip_display.show()
                 else:
                     self.tooltip_display.update(mouse)
                 if self.state is NORMAL_STATE:
@@ -619,8 +626,6 @@ class SelectButton(Button):
                         elif self.deselectable:
                             self.state = HIGHLIGHT_STATE
                             self.call_release_funcs()
-                    if self.state is not SELECT_STATE:
-                        self.state = HIGHLIGHT_STATE
                     if state != self.state:
                         self.update()
             return True
@@ -1528,15 +1533,11 @@ class GraphDisplay(Widget):
             if self.graph_rect.y < mouse[1] < self.graph_rect.y + self.graph_rect.h:
                 self.moment(mouse)
                 return True
-            elif self.at_line in self.components:
-                self.components.remove(self.at_line)
-                self.at_line = None
+            else:
+                self.no_focus()
             return False
 
     def no_focus(self):
-        # if self.at_line in self.components:
-        #     self.components.remove(self.at_line)
-        #     self.at_line = None
         self.moment((self.graph_rect.right, 0))
         Widget.change = True
 
