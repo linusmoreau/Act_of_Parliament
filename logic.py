@@ -51,9 +51,9 @@ def load_save(f_name):
         for obj in load_doc["parties"]:
             Party(**obj)
         for obj in load_doc["regions"]:
-            Region(**obj)
+            Region(loaded=True, **obj)
         for obj in load_doc["ridings"]:
-            Riding(**obj)
+            Riding(loaded=True, **obj)
         for obj in load_doc["bills"]:
             Bill(**obj)
         for obj in load_doc["policies"]:
@@ -129,7 +129,7 @@ class Person(CustomObject):
 
     def __init__(self, region, riding, values, values_importance, radicalism, party=None, name=None, gender=None,
                  age=None, background=None, language=None, supports=None, best_opinion=None, voted=False,
-                 id_num=None, titles=None, birthdate=None, skills=None, modifiers=None):
+                 id_num=None, titles=None, birthdate=None, base_skills=None, modifiers=None):
         if id_num is None:
             self.id_num = Person.id_num
             Person.id_num += 1
@@ -139,8 +139,8 @@ class Person(CustomObject):
                 Person.id_num = self.id_num + 1
             else:
                 Person.id_num += 1
-        if skills is None:
-            skills = {"administrative": random.randint(0, 10),
+        if base_skills is None:
+            base_skills = {"administrative": random.randint(0, 10),
                       "publicity": random.randint(0, 10),
                       "social": random.randint(0, 10)}
         if modifiers is None:
@@ -149,7 +149,7 @@ class Person(CustomObject):
         self.riding = riding
         self.values = values
         self.values_importance = values_importance
-        self.base_skills = skills
+        self.base_skills = base_skills
         self.modifiers = modifiers
 
         self.radicalism = radicalism
@@ -436,9 +436,8 @@ class Party(CustomObject):
 
 class Region(CustomObject):
 
-    def __init__(self, tag, population, seat_dist, **kwargs):
+    def __init__(self, tag, population, loaded=False, **kwargs):
         self.tag = tag
-        self.num_of_districts = sum(list(seat_dist.values()))
         self.population = int(population)
         self.name = kwargs.get("name", "Province Name")
         self.demo = kwargs.get("language_demo", {"english": 1})
@@ -453,8 +452,12 @@ class Region(CustomObject):
         regions[self.tag] = self
 
         self.vote_history = kwargs.get("vote_history", {})
-        if len(self.ridings) == 0:
+        if not loaded:
+            seat_dist = kwargs["seat_dist"]
             self.gen_ridings(seat_dist)
+            self.num_of_districts = sum(list(seat_dist.values()))
+        else:
+            self.num_of_districts = kwargs["num_of_districts"]
 
     def json_dump(self):
         attr = super().json_dump()
@@ -494,7 +497,7 @@ class Region(CustomObject):
 
 class Riding(CustomObject):
 
-    def __init__(self, region, tag, population, ballot, incumbent, **kwargs):
+    def __init__(self, region, tag, population, ballot, incumbent, loaded=False, **kwargs):
         self.region = region
         self.tag = tag
         self.ballot = ballot
@@ -511,7 +514,7 @@ class Riding(CustomObject):
 
         self.values = kwargs.get("values", parties[self.incumbent].values.copy())
         self.vote_history = kwargs.get("vote_history", {})
-        if len(self.persons) == 0:
+        if not loaded:
             self.gen_population()
             if policies["electsys"].current_law == 100:
                 self.set_mp()
