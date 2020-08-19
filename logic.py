@@ -12,7 +12,7 @@ class Encoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, set):
             return list(obj)
-        elif isinstance(obj, (Person, Party, ParliamentMember, Riding, Region, Bill)):
+        elif isinstance(obj, (Person, Party, ParliamentMember, Riding, Region, Bill, Policy)):
             return obj.json_dump()
         else:
             return super().default(obj)
@@ -24,7 +24,7 @@ def make_save(f_name):
                 "ridings": list(ridings.values()),
                 "persons": list(persons.values()),
                 "policies": list(policies.values()),
-                "bills": [bills[b] for b in bills],
+                "bills": list(bills.values()),
                 "votes": data.votes,
                 "vote_subjects": data.vote_subjects,
                 "game_state": data.game_state,
@@ -102,7 +102,15 @@ def clear_data():
         dat.clear()
 
 
-class Policy:
+class CustomObject:
+
+    def json_dump(self):
+        attr = self.__dict__.copy()
+        attr["type"] = type(self).__name__
+        return attr
+
+
+class Policy(CustomObject):
 
     def __init__(self, tag, area, **kwargs):
         self.tag = tag
@@ -114,7 +122,7 @@ class Policy:
         policies[self.tag] = self
 
 
-class Person:
+class Person(CustomObject):
     id_num = 0
     actions = ["Hold Conference", "Eject from Party", "Invite to Party", "Make Promise", "Grant Position",
                "Revoke Position"]
@@ -210,8 +218,7 @@ class Person:
         persons[self.id_num] = self
 
     def json_dump(self):
-        attr = self.__dict__.copy()
-        attr["type"] = type(self).__name__
+        attr = super().json_dump()
         if attr["party"] is not None:
             attr["party"] = attr["party"].tag
         return attr
@@ -380,7 +387,7 @@ class ParliamentMember(Person):
         # return factors
 
 
-class Party:
+class Party(CustomObject):
 
     def __init__(self, tag, name, **kwargs):
         self.tag = tag
@@ -413,8 +420,7 @@ class Party:
         parties[self.tag] = self
 
     def json_dump(self):
-        attr = self.__dict__.copy()
-        attr["type"] = type(self).__name__
+        attr = super().json_dump()
         del attr["politicians"]
         del attr["members"]
         return attr
@@ -428,7 +434,7 @@ class Party:
     #     self.bill_support = self.leader.bill_support
 
 
-class Region:
+class Region(CustomObject):
 
     def __init__(self, tag, population, seat_dist, **kwargs):
         self.tag = tag
@@ -451,8 +457,7 @@ class Region:
             self.gen_ridings(seat_dist)
 
     def json_dump(self):
-        attr = self.__dict__.copy()
-        attr["type"] = type(self).__name__
+        attr = super().json_dump()
         del attr["ridings"]
         return attr
 
@@ -487,7 +492,7 @@ class Region:
         return self.vote_totals, self.riding_wins
 
 
-class Riding:
+class Riding(CustomObject):
 
     def __init__(self, region, tag, population, ballot, incumbent, **kwargs):
         self.region = region
@@ -512,8 +517,7 @@ class Riding:
                 self.set_mp()
 
     def json_dump(self):
-        attr = self.__dict__.copy()
-        attr["type"] = type(self).__name__
+        attr = super().json_dump()
         del attr["persons"]
         del attr["mp"]
         return attr
@@ -560,11 +564,11 @@ class Riding:
         return self.vote_totals, self.winner
 
 
-class Bill:
-    sponsor: ParliamentMember
+class Bill(CustomObject):
+    sponsor: int
     id_num = 0
     nums = {"gov": 1, "member": 201, "private": 1001}
-    cost_multiplier = 20
+    cost_multiplier = 5
     stages = ["Drafting", "First Reading", "Second Reading", "Committee", "Third Reading", "Senate", "Royal Assent",
               "Passed"]
 
@@ -631,11 +635,6 @@ class Bill:
         draft_cost *= self.cost_multiplier
         return draft_cost
 
-    def json_dump(self):
-        attr = self.__dict__.copy()
-        attr["type"] = type(self).__name__
-        return attr
-
     def in_queue(self):
         if self.id_num in data.imminent_progress or \
                 self.id_num in politicians[self.sponsor].bwfc or \
@@ -668,7 +667,7 @@ class Bill:
             success = False
             stage = Bill.stages[self.stage]
             if stage == "Drafting":
-                self.draft_progress += self.sponsor.skill("administrative")
+                self.draft_progress += politicians[self.sponsor].skill("administrative")
                 if self.draft_progress >= self.draft_cost:
                     success = True
             elif stage == "First Reading":
