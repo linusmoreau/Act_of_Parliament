@@ -76,12 +76,12 @@
     }
   },
   "BQ": {
-    "name": "Bloc Qu\\u00c3\\u00a9b\\u00c3\\u00a9cois",
+    "name": "Bloc Qu\u00e9b\u00e9cois",
     "isincumbent": false,
     "on_ballot": ["QC"],
     "colour": [51, 178, 204],
     "leader": {
-      "name": "Yves-Fran\\u00c3\\u00a7ois Blanchet"
+      "name": "Yves-Fran\u00c7ois Blanchet"
     },
     "values": {
       "finance": -10,
