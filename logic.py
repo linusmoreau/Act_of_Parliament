@@ -454,8 +454,8 @@ class Region(CustomObject):
         self.vote_history = kwargs.get("vote_history", {})
         if not loaded:
             seat_dist = kwargs["seat_dist"]
-            self.gen_ridings(seat_dist)
             self.num_of_districts = sum(list(seat_dist.values()))
+            self.gen_ridings(seat_dist)
         else:
             self.num_of_districts = kwargs["num_of_districts"]
 
