@@ -664,7 +664,7 @@ class PersonCard(PopUp):
                 desc_colour = self.person.party.colour
             else:
                 desc_colour = gold
-            self.draw_descriptor(cont, toolkit.capitalize(descriptors[i]), desc_names[i], (x, y), desc_colour,
+            self.draw_descriptor(cont, toolkit.entitle(descriptors[i]), desc_names[i], (x, y), desc_colour,
                                  background=colour)
             y += char_h
         display = ScrollDisplay([cont], pos, area, total_size=total_size, parent=self)
