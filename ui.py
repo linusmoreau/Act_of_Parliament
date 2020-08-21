@@ -1,7 +1,6 @@
 import logic
 import random
 import data
-import Act_of_Parliament
 import threading
 from base_ui import *
 from collections import OrderedDict
@@ -1463,7 +1462,7 @@ class PageTitle:
     def __init__(self):
         set_up_page("title", toolbar=False)
 
-        self.title = Text(Act_of_Parliament.GAME_TITLE, (screen_width / 2, screen_height / 4),
+        self.title = Text(data.game_title, (screen_width / 2, screen_height / 4),
                           font_size=screen_height // 8, align=CENTER)
         self.title.show()
 
@@ -1593,9 +1592,9 @@ class ToolBar(Widget):
 
     def __init__(self):
         super().__init__((0, 0), (self.width, self.height), default_alpha=255)
-        if Act_of_Parliament.GRAPHICS == 0:
+        if data.settings["graphics"] == 0:
             self.surface.fill(light_grey)
-        elif Act_of_Parliament.GRAPHICS == 1:
+        elif data.settings["graphics"] == 1:
             self.surface.fill(black)
             self.surface.set_alpha(32)
 
@@ -1881,7 +1880,7 @@ def get_all_wids():
 def game_loop():
     frame = None
 
-    pygame.display.set_caption(Act_of_Parliament.GAME_TITLE)
+    pygame.display.set_caption(data.game_title)
     Music(list(data.soundtrack.keys()))
     PageTitle()
     while True:
@@ -1971,7 +1970,5 @@ pages = {
 }
 
 if __name__ == "__main__":
-    PageTitle()
     game_loop()
-    pygame.quit()
-    quit()
+    terminate()
