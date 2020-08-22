@@ -1883,29 +1883,28 @@ def game_loop():
     pygame.display.set_caption(data.game_title)
     Music(list(data.soundtrack.keys()))
     PageTitle()
+    old_mouse = pygame.mouse.get_pos()
     while True:
         cursor_change = False
         all_wids = get_all_wids()
         mouse = pygame.mouse.get_pos()
-        for i in range(len(all_wids)):
-            if len(all_wids) > i:
-                w = all_wids[-(i + 1)]
-                if w.catch(mouse):
-                    break
-        else:
-            for w in set(widgets):
-                w.no_focus()
-            if Button.focus is not None:
-                Button.focus.no_focus()
-            Widget.new_cursor_type = 0
-        if Widget.cursor_type != Widget.new_cursor_type:
-            cursor_change = True
-            Widget.cursor_type = Widget.new_cursor_type
-            if Widget.cursor_type == 0:
-                pygame.mouse.set_visible(True)
-            elif Widget.cursor_type == 1:
-                pygame.mouse.set_visible(False)
 
+        # catch mouse
+        if mouse != old_mouse:
+            old_mouse = mouse
+            for i in range(len(all_wids)):
+                if len(all_wids) > i:
+                    w = all_wids[-(i + 1)]
+                    if w.catch(mouse):
+                        break
+            else:
+                for w in set(widgets):
+                    w.no_focus()
+                if Button.focus is not None:
+                    Button.focus.no_focus()
+                Widget.new_cursor_type = 0
+
+        # handle events
         all_wids = get_all_wids()
         for event in pygame.event.get():
             if event.type == pygame.QUIT or \
@@ -1924,11 +1923,21 @@ def game_loop():
                         if w.handle(event, mouse):
                             break
 
+        # animate
         all_wids = get_all_wids()
         for widget in all_wids:
             widget.animate()
 
-        mouse = pygame.mouse.get_pos()
+        # check cursor type
+        if Widget.cursor_type != Widget.new_cursor_type:
+            cursor_change = True
+            Widget.cursor_type = Widget.new_cursor_type
+            if Widget.cursor_type == 0:
+                pygame.mouse.set_visible(True)
+            elif Widget.cursor_type == 1:
+                pygame.mouse.set_visible(False)
+
+        # display
         all_wids = get_all_wids()
         if Widget.change:
             screen.blit(background, (0, 0))
