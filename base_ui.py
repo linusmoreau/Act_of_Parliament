@@ -398,6 +398,7 @@ class Button(Widget):
                     if c.handle(event, mouse):
                         break
                 else:
+                    Widget.new_cursor_type = 1
                     if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed()[0]:
                         self.state = PRESS_STATE
                     elif event.type == pygame.MOUSEBUTTONUP and self.state is PRESS_STATE and \
