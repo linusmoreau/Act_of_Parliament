@@ -1878,15 +1878,33 @@ def get_all_wids():
 
 
 def game_loop():
-    frame = None
-
     pygame.display.set_caption(data.game_title)
     Music(list(data.soundtrack.keys()))
     PageTitle()
     old_mouse = pygame.mouse.get_pos()
+    frame = None
     while True:
         cursor_change = False
         mouse = pygame.mouse.get_pos()
+
+        # handle events
+        all_wids = get_all_wids()
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT or \
+                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and data.settings['debug']):
+                terminate()
+            elif event.type == pygame.USEREVENT:
+                Music.channel.new_track()
+            elif event.type == pygame.KEYDOWN and len(text_capture) > 0:
+                for i in range(len(text_capture)):
+                    if text_capture[-(i + 1)].handle(event, pygame.mouse.get_pos()):
+                        break
+            else:
+                for i in range(len(all_wids)):
+                    if len(all_wids) > i:
+                        w = all_wids[-(i + 1)]
+                        if w.handle(event, mouse):
+                            break
 
         # animate
         all_wids = get_all_wids()
@@ -1908,25 +1926,6 @@ def game_loop():
                     Button.focus.no_focus()
                 Widget.new_cursor_type = 0
 
-        # handle events
-        all_wids = get_all_wids()
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT or \
-                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and data.settings['debug']):
-                terminate()
-            elif event.type == pygame.USEREVENT:
-                Music.channel.new_track()
-            elif event.type == pygame.KEYDOWN and len(text_capture) > 0:
-                for i in range(len(text_capture)):
-                    if text_capture[-(i + 1)].handle(event, pygame.mouse.get_pos()):
-                        break
-            else:
-                for i in range(len(all_wids)):
-                    if len(all_wids) > i:
-                        w = all_wids[-(i + 1)]
-                        if w.handle(event, mouse):
-                            break
-
         # check cursor type
         if Widget.cursor_type != Widget.new_cursor_type:
             cursor_change = True
@@ -1945,17 +1944,16 @@ def game_loop():
             frame = screen.copy()
             if Widget.cursor_type == 1:
                 show_hand_cursor(mouse)
+            pygame.display.update()
             Widget.change = False
-            pygame.display.flip()
         elif old_mouse != mouse:
             if Widget.cursor_type == 1:
                 screen.blit(frame, (0, 0))
                 show_hand_cursor(mouse)
-                pygame.display.update([pygame.Rect((old_mouse[0] - point_pos, old_mouse[1]), (cursor_size, cursor_size)),
-                                       pygame.Rect((mouse[0] - point_pos, mouse[1]), (cursor_size, cursor_size))])
+                pygame.display.update()
             elif Widget.cursor_type == 0 and cursor_change:
                 screen.blit(frame, (0, 0))
-                pygame.display.update(pygame.Rect((old_mouse[0] - point_pos, old_mouse[1]), (cursor_size, cursor_size)))
+                pygame.display.update()
         old_mouse = mouse
 
         clock.tick(60)
