@@ -1926,8 +1926,6 @@ def game_loop():
                         w = all_wids[-(i + 1)]
                         if w.handle(event, mouse):
                             break
-                else:
-                    Widget.new_cursor_type = 0
 
         # check cursor type
         if Widget.cursor_type != Widget.new_cursor_type:
@@ -1949,15 +1947,15 @@ def game_loop():
                 show_hand_cursor(mouse)
             Widget.change = False
             pygame.display.flip()
-        elif Widget.cursor_type == 1 and old_mouse != mouse:
-            screen.blit(frame, (0, 0))
-            show_hand_cursor(mouse)
-            pygame.display.update([pygame.Rect((old_mouse[0] - point_pos, old_mouse[1]), (cursor_size, cursor_size)),
-                                   pygame.Rect((mouse[0] - point_pos, mouse[1]), (cursor_size, cursor_size))])
-            pygame.display.flip()
-        elif cursor_change:
-            screen.blit(frame, (0, 0))
-            pygame.display.update(pygame.Rect((old_mouse[0] - point_pos, old_mouse[1]), (cursor_size, cursor_size)))
+        elif old_mouse != mouse:
+            if Widget.cursor_type == 1:
+                screen.blit(frame, (0, 0))
+                show_hand_cursor(mouse)
+                pygame.display.update([pygame.Rect((old_mouse[0] - point_pos, old_mouse[1]), (cursor_size, cursor_size)),
+                                       pygame.Rect((mouse[0] - point_pos, mouse[1]), (cursor_size, cursor_size))])
+            elif Widget.cursor_type == 0 and cursor_change:
+                screen.blit(frame, (0, 0))
+                pygame.display.update(pygame.Rect((old_mouse[0] - point_pos, old_mouse[1]), (cursor_size, cursor_size)))
         old_mouse = mouse
 
         clock.tick(60)

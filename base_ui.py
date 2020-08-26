@@ -135,7 +135,6 @@ class Widget:
     def catch(self, mouse):
         if self.catchable:
             if self.on_top(mouse):
-                Widget.new_cursor_type = 0
                 if self.in_container(mouse):
                     for i in range(len(self.components)):
                         if self.components[-(i + 1)].catch(mouse):
@@ -146,6 +145,7 @@ class Widget:
                 if Button.focus is not None:
                     Button.focus.no_focus()
                     Button.focus = None
+                Widget.new_cursor_type = 0
                 return True
             else:
                 for i in range(len(self.extensions)):
@@ -398,7 +398,6 @@ class Button(Widget):
                     if c.handle(event, mouse):
                         break
                 else:
-                    Widget.new_cursor_type = 1
                     if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed()[0]:
                         self.state = PRESS_STATE
                     elif event.type == pygame.MOUSEBUTTONUP and self.state is PRESS_STATE and \
