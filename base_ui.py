@@ -434,7 +434,8 @@ class Button(Widget):
                 if c.catch(mouse):
                     break
             else:
-                Widget.new_cursor_type = 1
+                if not self.visible:
+                    Widget.new_cursor_type = 1
                 if self.tooltip_display is None:
                     self.tooltip_display = self.make_tooltip(mouse)
                     if self.tooltip_display is not None:
