@@ -747,8 +747,11 @@ class ScrollCursor(Button):
             if not pygame.mouse.get_pressed()[0]:
                 self.state = NORMAL_STATE
                 self.update()
-            move += (mouse[1] - self.y_loc) / (self.parent.rect.h - 2 * self.parent.marg - self.rect.h) * \
-                    (self.subject.total_size - self.subject.contain_rect.h)
+            amount = (mouse[1] - self.y_loc) / (self.parent.rect.h - 2 * self.parent.marg - self.rect.h) * \
+                     (self.subject.total_size - self.subject.contain_rect.h)
+            if (amount > 0 and mouse[1] > self.parent.rect.top + self.parent.rect.w) or \
+                    (amount < 0 and mouse[1] < self.parent.rect.bottom - self.parent.rect.w):
+                move += amount
             self.subject.scrolling(move)
             self.y_loc = mouse[1]
         elif move != 0:
