@@ -100,6 +100,8 @@ class Widget:
         self.alignment = align
         self.align(align, position)
         self.contain_rect = self.rect.copy()
+        self._tooltip = None
+        self.tooltip_display = None
         self.components = []
         self.extensions = []
         self.transparency()
@@ -143,6 +145,12 @@ class Widget:
                 if self.extensions[-(i + 1)].catch(mouse):
                     return True
             if self.catchable:
+                if self.tooltip_display is None:
+                    self.tooltip_display = self.make_tooltip(mouse)
+                    if self.tooltip_display is not None:
+                        self.tooltip_display.show()
+                else:
+                    self.tooltip_display.update(mouse)
                 if Button.focus is not None:
                     Button.focus.no_focus()
                     Button.focus = None
@@ -314,28 +322,51 @@ class Widget:
         widgets.remove(self)
         Widget.change = True
 
-    def move_to(self, pos, align=TOPLEFT):
+    def move_to(self, pos, align=None):
+        orig_pos = self.rect.topleft
         rel_pos = []
-        dif: List[Any] = [self.contain_rect.left - self.rect.left, self.contain_rect.top - self.rect.top]
+        dif = [self.contain_rect.left - self.rect.left, self.contain_rect.top - self.rect.top]
         for component in self.components + self.extensions:
             rel_pos.append([component.rect.left - self.rect.left, component.rect.top - self.rect.top])
-        self.align(align, pos)
-        self.contain_rect.left = self.rect.left + dif[0]
-        self.contain_rect.top = self.rect.top + dif[1]
-        for i, component in enumerate(self.components + self.extensions):
-            component.move_to([pos[0] + rel_pos[i][0], pos[1] + rel_pos[i][1]])
-        Widget.change = True
+        if align is None:
+            self.align(self.alignment, pos)
+        else:
+            self.align(align, pos)
+        if self.rect.topleft != orig_pos:
+            self.contain_rect.left = self.rect.left + dif[0]
+            self.contain_rect.top = self.rect.top + dif[1]
+            for i, component in enumerate(self.components + self.extensions):
+                component.move_to([pos[0] + rel_pos[i][0], pos[1] + rel_pos[i][1]])
+            Widget.change = True
 
     def move(self, x=0, y=0):
-        self.rect.x += x
-        self.rect.y += y
-        self.contain_rect.x += x
-        self.contain_rect.y += y
-        for c in self.components:
-            c.move(x, y)
-        for e in self.extensions:
-            e.move(x, y)
-        Widget.change = True
+        if x != 0 or y != 0:
+            self.rect.x += x
+            self.rect.y += y
+            self.contain_rect.x += x
+            self.contain_rect.y += y
+            for c in self.components:
+                c.move(x, y)
+            for e in self.extensions:
+                e.move(x, y)
+            Widget.change = True
+
+    def set_tooltip(self, tip=None):
+        self._tooltip = tip
+
+    def make_tooltip(self, mouse):
+        if self._tooltip is None:
+            return None
+        elif type(self._tooltip).__name__ == 'str':
+            return ToolTip(self._tooltip, (mouse[0], mouse[1] + TOOLTIP_OFFSET))
+        else:
+            return self._tooltip
+
+    def get_width(self):
+        return self.rect.w
+
+    def get_height(self):
+        return self.rect.h
 
 
 class Button(Widget):
@@ -378,8 +409,6 @@ class Button(Widget):
             self.extensions.append(self.shadow)
 
         self.funcs = []
-        self._tooltip = None
-        self.tooltip_display = None
 
         self.sheet = Widget(self.rect.topleft, self.rect.size, parent=self, default_alpha=150, catchable=False)
         self.sheet.surface.fill(grey)
@@ -419,11 +448,6 @@ class Button(Widget):
 
     def reset_callbacks(self):
         self.funcs.clear()
-
-    def make_tooltip(self, mouse):
-        if self._tooltip is None:
-            return None
-        return ToolTip(self._tooltip, (mouse[0], mouse[1] + TOOLTIP_OFFSET))
 
     def catch(self, mouse):
         if self.on_top(mouse):
@@ -546,9 +570,6 @@ class Button(Widget):
             self.tooltip_display.hide()
             self.tooltip_display = None
         super().hide()
-
-    def set_tooltip(self, tip=None):
-        self._tooltip = tip
 
 
 class CircleButton(Button):
