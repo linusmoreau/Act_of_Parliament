@@ -604,14 +604,9 @@ class PersonCard(PopUp):
                     background_colour=colour)
         self.surface.blit(name.surface, name.rect)
 
-        riding = Button((self.rect.right - 2 * margin, self.rect.top + margin - SHADOW),
-                        (int(Button.default_width / 2), int(Button.default_height / 2)),
-                        align=TOPRIGHT, label=self.person.riding)
-        self.components.append(riding)
-
         char_h = text_size(BASE_FONT_SIZE)[1]
         pos = (self.rect.x + margin, self.rect.y + name.rect.bottom + margin)
-        area = (self.rect.w - 2 * margin, char_h * 5)
+        area = (self.rect.w - 2 * margin, char_h * 6)
         descriptors = self.descriptors(pos, area, colour, char_h)
         self.components.append(descriptors)
 
@@ -630,7 +625,11 @@ class PersonCard(PopUp):
         self.action_toggle.set_tooltip("Close Actions Panel")
 
         button_size = int(self.rect.h / 10)
-        self.action_panel = ScrollButtonDisplay(self.rect.topright, (self.actions_panel_width, self.rect.h * 3 / 4),
+        if self.rect.h * 3 / 4 > button_size * len(self.person.actions) + SHADOW:
+            height = button_size * len(self.person.actions) + SHADOW
+        else:
+            height = self.rect.h * 3 / 4
+        self.action_panel = ScrollButtonDisplay(self.rect.topright, (self.actions_panel_width, height),
                             total_size=len(self.person.actions) * button_size, align=TOPLEFT,
                             button_size=button_size, parent=self, edge=0, colour=black)
         for i, action in enumerate(self.person.actions):
@@ -651,20 +650,27 @@ class PersonCard(PopUp):
 
     def descriptors(self, pos, area, colour, char_h):
         descriptors = [self.person.age, self.person.gender, self.person.background, self.person.language,
-                       self.person.party.name]
-        desc_names = ["Age", "Gender", "Background", "Language", "Party"]
+                       self.person.party.name, self.person.riding]
+        desc_names = ["Age", "Gender", "Background", "Language", "Party", "Riding"]
         x = 0
         y = 0
         total_size = char_h * len(descriptors)
         cont = Widget(pos, (area[0], total_size))
         cont.surface.set_colorkey(black)
         for i in range(len(descriptors)):
+            if desc_names[i] == "Riding":
+                written = descriptors[i]
+                riding = logic.ridings[self.person.riding]
+                func = functools.partial(PageRidings, riding.region + '/' + riding.tag)
+            else:
+                written = toolkit.entitle(descriptors[i])
+                func = None
             if desc_names[i] == "Party":
                 desc_colour = self.person.party.colour
             else:
                 desc_colour = gold
-            self.draw_descriptor(cont, toolkit.entitle(descriptors[i]), desc_names[i], (x, y), desc_colour,
-                                 background=colour)
+            self.draw_descriptor(cont, written, desc_names[i], (x, y), desc_colour,
+                                 background=colour, in_func=func)
             y += char_h
         display = ScrollDisplay([cont], pos, area, total_size=total_size, parent=self)
         return display
@@ -689,12 +695,17 @@ class PersonCard(PopUp):
         return display
 
     @staticmethod
-    def draw_descriptor(wid, descriptor, desc_name, pos, desc_colour=gold, background=black, bold=False):
+    def draw_descriptor(wid, descriptor, desc_name, pos, desc_colour=gold, background=black, bold=False, italic=False,
+                        underline=False, in_func=None):
         marker = Text(desc_name + ': ', pos, align=TOPLEFT, colour=white, background_colour=background)
         desc = Text(descriptor, marker.rect.topright, align=TOPLEFT, colour=desc_colour, background_colour=background,
-                    bold=bold)
+                    bold=bold, italic=italic, underline=underline, in_func=in_func)
         wid.surface.blit(marker.surface, marker.rect)
-        wid.surface.blit(desc.surface, desc.rect)
+        if in_func is None:
+            wid.surface.blit(desc.surface, desc.rect)
+        else:
+            desc.move(wid.rect.left, wid.rect.top)
+            wid.components.append(desc)
 
     def close(self):
         self.visual.state = NORMAL_STATE
@@ -1093,6 +1104,16 @@ class PageListBase:
             w.hide()
         self.components.clear()
 
+    def find_loc(self, loc):
+        if loc is not None:
+            self.display(loc)
+            b = self.button_disp.button_tags[loc]
+            b.state = SELECT_STATE
+            b.update()
+            while b.encaps is not None:
+                b = b.encaps
+                b.expand()
+
 
 class PagePolicy(PageListBase):
     loc = None
@@ -1111,16 +1132,6 @@ class PagePolicy(PageListBase):
         self.set_up_title("Policies")
         self.set_up_list()
         self.find_loc(loc)
-
-    def find_loc(self, loc):
-        if loc is not None:
-            self.display(loc)
-            b = self.button_disp.button_tags[loc]
-            b.state = SELECT_STATE
-            b.update()
-            while b.encaps is not None:
-                b = b.encaps
-                b.expand()
 
     def set_up_list(self):
         order = sorted(data.policies.keys())
@@ -1426,16 +1437,6 @@ class PageStatistics(PageListBase):
         for w in self.components:
             w.show()
 
-    def find_loc(self, loc):
-        if loc is not None:
-            self.display(loc)
-            b = self.button_disp.button_tags[loc]
-            b.state = SELECT_STATE
-            b.update()
-            while b.encaps is not None:
-                b = b.encaps
-                b.expand()
-
     def set_up_list(self):
         # order = sorted(data.opinion_polls.keys())
         categories = OrderedDict()
@@ -1451,9 +1452,38 @@ class PageStatistics(PageListBase):
         categories["party_support"] = layer
         x = MENU_WIDTH / 8
         w = MENU_WIDTH * 3 / 4
-        self.button_disp = HierarchyButtonDisplay((x, screen_height / 8 + ToolBar.height),
-                                                  (w, screen_height * 3 / 4 - ToolBar.height), categories,
-                                                  deselect=False, button_labels=labels)
+        self.button_disp = HierarchyButtonDisplay(
+            (x, screen_height / 8 + ToolBar.height), (w, screen_height * 3 / 4 - ToolBar.height), categories,
+            deselect=False, button_labels=labels)
+        self.button_disp.show()
+
+
+class PageRidings(PageListBase):
+    loc = None
+
+    def __init__(self, loc=None):
+        super().__init__("ridings")
+        PageRidings.loc = loc
+        self.set_up_title("Electoral Districts")
+        self.set_up_list()
+        self.find_loc(loc)
+
+    def set_up_list(self):
+        categories = OrderedDict()
+        labels = {}
+        for region in sorted(list(logic.regions.keys()), key=logic.get_population, reverse=True):
+            layer = OrderedDict()
+            for riding in logic.regions[region].ridings:
+                tag = region + '/' + riding
+                layer[tag] = {"funcs": [self.update], "label": riding}
+                labels[tag] = riding
+            labels[region] = logic.regions[region].name
+            categories[region] = layer
+        x = MENU_WIDTH / 8
+        w = MENU_WIDTH * 3 / 4
+        self.button_disp = HierarchyButtonDisplay(
+            (x, screen_height / 8 + ToolBar.height), (w, screen_height * 3 / 4 - ToolBar.height), categories,
+            deselect=False, button_labels=labels)
         self.button_disp.show()
 
 
@@ -1602,7 +1632,7 @@ class ToolBar(Widget):
         self.select_buttons = []
 
         utilities = ["parliament", "policy", "bills", "cabinet", "budget", "data", "parties", "promises",
-                     "map", "ballot", "events", "settings"]
+                     "ridings", "ballot", "events", "settings"]
         utilities.reverse()
 
         images = {
@@ -1618,7 +1648,7 @@ class ToolBar(Widget):
             "promises": "images/promise.png",
             "events": "images/event.png",
             "bills": "images/policy.png",
-            "map": "images/map.png"
+            "ridings": "images/map.png"
         }
 
         tooltips = {
@@ -1634,7 +1664,7 @@ class ToolBar(Widget):
             "promises": "Promises",
             "events": "Events",
             "bills": "Drafted Legislation",
-            "map": "Electoral Districts"
+            "ridings": "Electoral Districts"
         }
 
         self.back_button = Button((3 / 2 * self.unit_size, self.height / 2), (self.unit_size, self.unit_size),
@@ -1976,7 +2006,7 @@ pages = {
     "promises": functools.partial(PageWIP, 'promises'),
     "events": functools.partial(PageWIP, 'events'),
     "bills": PageBills,
-    "map": functools.partial(PageWIP, 'map')
+    "ridings": PageRidings
 }
 
 if __name__ == "__main__":

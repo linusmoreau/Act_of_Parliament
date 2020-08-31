@@ -84,7 +84,7 @@ class Widget:
     new_cursor_type = 0
 
     def __init__(self, position, area, align=TOPLEFT, surface=None, default_alpha=255, appearing=False, parent=None,
-                 catchable=True):
+                 catchable=True, no_catch=False):
         self.parent = parent
         if surface is None:
             self.surface = pygame.Surface(area)
@@ -94,6 +94,7 @@ class Widget:
         self.fading = appearing
         self.appearing = appearing
         self.catchable = catchable
+        self.no_catch = no_catch
         self.disappearing = False
         self.rect = self.surface.get_rect()
         self.alignment = align
@@ -133,24 +134,20 @@ class Widget:
         return False
 
     def catch(self, mouse):
-        if self.catchable:
-            if self.on_top(mouse):
-                if self.in_container(mouse):
-                    for i in range(len(self.components)):
-                        if self.components[-(i + 1)].catch(mouse):
-                            return True
-                for i in range(len(self.extensions)):
-                    if self.extensions[-(i + 1)].catch(mouse):
+        if not self.no_catch and self.on_top(mouse):
+            if self.in_container(mouse):
+                for i in range(len(self.components)):
+                    if self.components[-(i + 1)].catch(mouse):
                         return True
+            for i in range(len(self.extensions)):
+                if self.extensions[-(i + 1)].catch(mouse):
+                    return True
+            if self.catchable:
                 if Button.focus is not None:
                     Button.focus.no_focus()
                     Button.focus = None
                 Widget.new_cursor_type = 0
                 return True
-            else:
-                for i in range(len(self.extensions)):
-                    if self.extensions[-(i + 1)].catch(mouse):
-                        return True
         return False
 
     def no_focus(self):
@@ -959,10 +956,7 @@ class Text(Widget):
 
     def make_surface(self):
         if not self.multiline or len(self.text) < 1:
-            if "</" in self.text and "/>" in self.text:
-                surface = self.multisurface_line(self.text)[0]
-            else:
-                surface = self.style.render(self.text, True, self.colour, self.background_colour)
+            surface = self.make_line(self.text)[0]
         else:
             surface = self.multiline_surface(self.width, self.background_colour)
         self.surface = pygame.Surface((surface.get_width() + self.margin * 2,
@@ -1061,7 +1055,7 @@ class Text(Widget):
         order.append(0)
         return order, texts, commands, command_secs
 
-    def multisurface_line(self, text, **kwargs):
+    def make_line(self, text, **kwargs):
         features = {
             "font": kwargs.get("font", self.font),
             "bold": kwargs.get("bold", self.bold),
@@ -1104,11 +1098,7 @@ class Text(Widget):
                                 features["hyperlink"] = change
                         elif h2 is None:
                             h2 = sum(widths)
-                            b = Button((self.rect.x + h1, self.rect.y + line * self.char_height),
-                                       (h2 - h1, self.char_height), parent=self, border_thickness=0, threed=False,
-                                       visible=False)
-                            b.callback(functools.partial(webbrowser.open, features["hyperlink"]))
-                            self.components.append(b)
+                            self.make_text_button(h1, h2, line, prov, features)
                             if change != 2:
                                 h1 = h2
                                 features["hyperlink"] = change
@@ -1122,11 +1112,7 @@ class Text(Widget):
                             features["func"] = change
                         elif f2 is None:
                             f2 = sum(widths)
-                            b = Button((self.rect.x + h1, self.rect.y + line * self.char_height),
-                                       (h2 - h1, self.char_height), parent=self, border_thickness=0, threed=False,
-                                       visible=False)
-                            b.callback(features["func"])
-                            self.components.append(b)
+                            self.make_text_button(f1, f2, line, prov, features)
                             features["func"] = None
                             h1 = None
                             h2 = None
@@ -1143,6 +1129,12 @@ class Text(Widget):
                 widths.append(surf.get_width())
                 surfaces.append(surf)
                 text_point += 1
+        if h1 is not None and h2 is None:
+            h2 = sum(widths)
+            self.make_text_button(h1, h2, line, 'h', features)
+        if f1 is not None and f2 is None:
+            f2 = sum(widths)
+            self.make_text_button(f1, f2, line, 'fc', features)
 
         # Putting the surfaces together into one
         height = surfaces[0].get_height()
@@ -1154,6 +1146,16 @@ class Text(Widget):
             surface.blit(surf, (point, 0))
             point += widths[i]
         return surface, features
+
+    def make_text_button(self, start, end, line, kind, features):
+        b = Button((self.rect.x + start, self.rect.y + line * self.char_height),
+                   (end - start, self.char_height), parent=self, border_thickness=0, threed=False,
+                   visible=False)
+        if kind == 'fc':
+            b.callback(features["func"])
+        elif kind == 'h':
+            b.callback(functools.partial(webbrowser.open, features["hyperlink"]))
+        self.components.append(b)
 
     def multiline_surface(self, width, background):
         og_text = self.text
@@ -1229,9 +1231,9 @@ class Text(Widget):
         features = self.features.copy()
         for i, line in enumerate(lines):
             subsurface, features = \
-                self.multisurface_line(line, font=features["font"], bold=features["bold"], italic=features["italic"],
-                                       colour=features["colour"], underline=features["underline"],
-                                       hyperlink=features["hyperlink"], in_func=features["func"], line=i)
+                self.make_line(line, font=features["font"], bold=features["bold"], italic=features["italic"],
+                               colour=features["colour"], underline=features["underline"],
+                               hyperlink=features["hyperlink"], in_func=features["func"], line=i)
             style = pygame.font.SysFont(features["font"], self.font_size, bold=features["bold"],
                                         italic=features["italic"])
             style.set_underline(features["underline"])
