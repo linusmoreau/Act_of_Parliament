@@ -319,24 +319,26 @@ class Widget:
         Widget.change = True
 
     def hide(self):
-        widgets.remove(self)
-        Widget.change = True
+        try:
+            widgets.remove(self)
+            Widget.change = True
+        except ValueError:
+            pass
 
     def move_to(self, pos, align=None):
         orig_pos = self.rect.topleft
         rel_pos = []
-        dif = [self.contain_rect.left - self.rect.left, self.contain_rect.top - self.rect.top]
+        dif: List[int] = [self.contain_rect.left - self.rect.left, self.contain_rect.top - self.rect.top]
         for component in self.components + self.extensions:
             rel_pos.append([component.rect.left - self.rect.left, component.rect.top - self.rect.top])
         if align is None:
-            self.align(self.alignment, pos)
-        else:
-            self.align(align, pos)
+            align = self.alignment
+        self.align(align, pos)
         if self.rect.topleft != orig_pos:
             self.contain_rect.left = self.rect.left + dif[0]
             self.contain_rect.top = self.rect.top + dif[1]
             for i, component in enumerate(self.components + self.extensions):
-                component.move_to([pos[0] + rel_pos[i][0], pos[1] + rel_pos[i][1]])
+                component.move_to([pos[0] + rel_pos[i][0], pos[1] + rel_pos[i][1]], align)
             Widget.change = True
 
     def move(self, x=0, y=0):

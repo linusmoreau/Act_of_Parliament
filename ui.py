@@ -23,7 +23,7 @@ class Music:
     def __init__(self, track):
         self.soundtrack = track
         self.track_num = 0
-        self.volume = 0.1
+        self.volume = data.settings['volume']
         self.min = 0.01
         self.max = 1
         self.slider = None
@@ -661,7 +661,7 @@ class PersonCard(PopUp):
             if desc_names[i] == "Riding":
                 written = descriptors[i]
                 riding = logic.ridings[self.person.riding]
-                func = functools.partial(PageRidings, riding.region + '/' + riding.tag)
+                func = functools.partial(get_page, 'ridings', riding.region + '/' + riding.tag)
             else:
                 written = toolkit.entitle(descriptors[i])
                 func = None
@@ -718,10 +718,8 @@ class PersonCard(PopUp):
 class PageParliament:
     loc = None
 
-    def __init__(self, loc='gov'):
-        set_up_page("parliament", toolbar=True)
-        PageParliament.loc = loc
-        self.incumbent = [tag for tag, party in logic.parties.items() if party.isincumbent]
+    def __init__(self):
+        self.incumbent = []
         self.radius = int(screen_width / 128) + 1
         self.gap = 2
         self.step = self.radius * 2 + self.gap
@@ -736,7 +734,27 @@ class PageParliament:
         self.row_num = None
         self.yea_order = None
         self.nay_order = None
+        self.places = {}
+        self.select_buttons = []
+        pages["parliament"] = self
 
+    def clear(self):
+        self.mps.clear()
+        self.headings.clear()
+        self.display_vote = None
+        self.vote_reasons.clear()
+        self.vote_order = None
+        self.row_num = None
+        self.yea_order = None
+        self.nay_order = None
+        self.places.clear()
+        self.select_buttons.clear()
+
+    def open_page(self, loc='gov'):
+        self.clear()
+        set_up_page("parliament", toolbar=True)
+        PageParliament.loc = loc
+        self.incumbent = [tag for tag, party in logic.parties.items() if party.isincumbent]
         for person in logic.politicians.values():
             card = None
             for p in PersonCard.instances:
@@ -767,8 +785,8 @@ class PageParliament:
 
         disp_height = (display_rect.h - (spacing * 5) - (2 * s_button_size)) / 2
 
-        self.upcoming = self.set_up_upcoming((dist, gov.rect.top - spacing), (w, disp_height), button_size)
-        self.past = self.set_up_past((dist, provinces.rect.bottom + spacing), (w, disp_height), button_size)
+        self.set_up_upcoming((dist, gov.rect.top - spacing), (w, disp_height), button_size)
+        self.set_up_past((dist, provinces.rect.bottom + spacing), (w, disp_height), button_size)
 
         self.select_buttons = list(self.places.values())
 
@@ -1068,8 +1086,7 @@ class PageParliament:
 
 class PageListBase:
 
-    def __init__(self, page, toolbar=True):
-        set_up_page(page, toolbar)
+    def __init__(self):
         self.x = MENU_WIDTH
         self.w = screen_width - self.x
         self.mid_x = self.w / 2 + self.x
@@ -1118,8 +1135,18 @@ class PageListBase:
 class PagePolicy(PageListBase):
     loc = None
 
-    def __init__(self, loc=None):
-        super().__init__("policy", toolbar=True)
+    def __init__(self):
+        super().__init__()
+        self.policy = None
+        self.policy_pos = None
+        self.orig_pos = None
+        self.slider = None
+        self.reset = None
+        self.pos_txt = None
+        pages['policy'] = self
+
+    def open_page(self, loc=None):
+        set_up_page('policy')
         PagePolicy.loc = loc
         self.policy = None
         self.policy_pos = None
@@ -1127,7 +1154,6 @@ class PagePolicy(PageListBase):
         self.slider = None
         self.reset = None
         self.pos_txt = None
-
         self.first_page()
         self.set_up_title("Policies")
         self.set_up_list()
@@ -1220,7 +1246,7 @@ class PagePolicy(PageListBase):
         else:
             bill_type = 'member'
         bill = logic.Bill(player_id, {self.policy: self.policy_pos}, bill_type, data.game_state["parliament"])
-        PageBills(loc=bill.id_num)
+        pages['bills'].open_page(loc=bill.id_num)
 
     def update_slider(self):
         if self.slider is not None:
@@ -1234,8 +1260,14 @@ class PagePolicy(PageListBase):
 class PageBills(PageListBase):
     loc = None
 
-    def __init__(self, loc=None):
-        super().__init__("bills", toolbar=True)
+    def __init__(self):
+        super().__init__()
+        self.bill = None
+        self.propose_b = None
+        self.progress_disp = None
+
+    def open_page(self, loc=None):
+        set_up_page('bills')
         PageBills.loc = loc
         self.bill = None
         self.propose_b = None
@@ -1407,8 +1439,12 @@ class PageStatistics(PageListBase):
                           "y_title": "Support (%)", "leader": True, "time": True}
     }
 
-    def __init__(self, loc="party_support/national"):
-        super().__init__("data", True)
+    def __init__(self):
+        super().__init__()
+        pages['data'] = self
+
+    def open_page(self, loc="party_support/national"):
+        set_up_page('data')
         PageStatistics.loc = loc
         self.set_up_title("Statistics")
         self.set_up_list()
@@ -1461,12 +1497,17 @@ class PageStatistics(PageListBase):
 class PageRidings(PageListBase):
     loc = None
 
-    def __init__(self, loc=None):
-        super().__init__("ridings")
+    def __init__(self):
+        super().__init__()
+        self.set_up_list()
+        pages['ridings'] = self
+
+    def open_page(self, loc=None):
+        set_up_page('ridings')
         PageRidings.loc = loc
         self.set_up_title("Electoral Districts")
-        self.set_up_list()
         self.find_loc(loc)
+        self.button_disp.show()
 
     def set_up_list(self):
         categories = OrderedDict()
@@ -1484,12 +1525,15 @@ class PageRidings(PageListBase):
         self.button_disp = HierarchyButtonDisplay(
             (x, screen_height / 8 + ToolBar.height), (w, screen_height * 3 / 4 - ToolBar.height), categories,
             deselect=False, button_labels=labels)
-        self.button_disp.show()
 
 
 class PageTitle:
 
     def __init__(self):
+        self.title = None
+        pages['title'] = self
+
+    def open_page(self):
         set_up_page("title", toolbar=False)
 
         self.title = Text(data.game_title, (screen_width / 2, screen_height / 4),
@@ -1512,33 +1556,37 @@ class PageTitle:
             b.show()
 
 
-class PageSelection:
-
-    def __init__(self):
-        set_up_page("selection", toolbar=False)
-        self.display = PartiesButtonDisplay((screen_width / 4, screen_height * 2 / 5),
-                       (screen_width / 3, screen_height * 2 / 3), logic.parties, align=CENTER)
-        self.display.show()
-        select_button = Button((screen_width / 4, screen_height * 7 / 8),
-                               align=CENTER, label="Select")
-        select_button.callback(self.set_up)
-        select_button.show()
-
-    def set_up(self):
-        for b in self.display.components:
-            if b.state is SELECT_STATE:
-                set_up_first_page()
-                break
+# class PageSelection:
+#
+#     def __init__(self):
+#         set_up_page("selection", toolbar=False)
+#         self.display = PartiesButtonDisplay((screen_width / 4, screen_height * 2 / 5),
+#                        (screen_width / 3, screen_height * 2 / 3), logic.parties, align=CENTER)
+#         self.display.show()
+#         select_button = Button((screen_width / 4, screen_height * 7 / 8),
+#                                align=CENTER, label="Select")
+#         select_button.callback(self.set_up)
+#         select_button.show()
+#
+#     def set_up(self):
+#         for b in self.display.components:
+#             if b.state is SELECT_STATE:
+#                 set_up_first_page()
+#                 break
 
 
 class PageSettings:
     loc = None
 
-    def __init__(self, loc=None):
-        set_up_page("settings", toolbar=True)
+    def __init__(self):
+        self.title = None
+        pages['settings'] = self
+
+    def open_page(self, loc=None):
+        set_up_page("settings")
         PageSettings.loc = loc
-        title = Text("Settings", (screen_width / 2, screen_height / 8 + ToolBar.instance.rect.h), TITLE_SIZE)
-        title.show()
+        self.title = Text("Settings", (screen_width / 2, screen_height / 8 + ToolBar.instance.rect.h), TITLE_SIZE)
+        self.title.show()
         buttons = ["resume", "save", "load", "credits", "menu", "quit"]
         button_functions = {
             "resume": call_last_page,
@@ -1577,11 +1625,15 @@ class PageSettings:
 
 
 class PageWIP:
-    loc = None
 
-    def __init__(self, page, loc=None):
-        set_up_page(page, toolbar=True)
-        PageWIP.loc = loc
+    def __init__(self, page):
+        self.loc = None
+        self.page = page
+        pages[page] = self
+
+    def open_page(self, toolbar=True, loc=None):
+        set_up_page(self.page, toolbar=toolbar)
+        self.loc = loc
         msg = Text("Page is Work-in-Progress", screen_center, TITLE_SIZE)
         msg.show()
 
@@ -1631,9 +1683,9 @@ class ToolBar(Widget):
         self.components = []
         self.select_buttons = []
 
-        utilities = ["parliament", "policy", "bills", "cabinet", "budget", "data", "parties", "promises",
-                     "ridings", "ballot", "events", "settings"]
-        utilities.reverse()
+        self.utilities = ["parliament", "policy", "bills", "cabinet", "budget", "data", "parties", "promises",
+                          "ridings", "ballot", "events", "settings"]
+        self.utilities.reverse()
 
         images = {
             "parliament": "images/parliament.png",
@@ -1709,21 +1761,21 @@ class ToolBar(Widget):
         self.turn_button.set_tooltip("End Turn")
         self.components.append(self.turn_button)
 
-        for i in range(len(utilities)):
-            utility = utilities[i]
+        for i in range(len(self.utilities)):
+            utility = self.utilities[i]
             b = SelectButton((self.width - 3 / 2 * self.unit_size * (i + 2), self.height / 2),
                (self.unit_size, self.unit_size),
                align=CENTER, parent=self, deselectable=False)
             img = Image(b.rect.center, (b.rect.width * 3 / 4, b.rect.height * 3 / 4), images[utility])
             b.components.append(img)
-            b.callback(pages[utility])
+            b.callback(functools.partial(get_page, utility))
             b.set_tooltip(tooltips[utility])
             self.select_buttons.append(b)
         self.components.extend(self.select_buttons)
 
     def on_page(self):
-        for b in self.select_buttons:
-            if pages[page] in b.funcs:
+        for i, b in enumerate(self.select_buttons):
+            if current_page == self.utilities[i]:
                 b.state = SELECT_STATE
                 b.update()
                 for other in self.select_buttons:
@@ -1803,31 +1855,29 @@ def memoize_page(page, page_index):
 
 
 def call_last_page():
-    global page, page_index
+    global current_page, page_index
     if len(data.page_history) + page_index > 0:
-        memoize_page(page, page_index)
+        memoize_page(current_page, page_index)
         widgets.clear()
         page_index -= 1
-        page = data.page_history[page_index][0]
-        pages[page](data.page_history[page_index][1])
-        # ToolBar.instance.on_page()
+        current_page = data.page_history[page_index][0]
+        get_page(data.page_history[page_index][0], data.page_history[page_index][1])
 
 
 def call_next_page():
-    global page, page_index
+    global current_page, page_index
     if page_index < -1:
         widgets.clear()
         page_index += 1
-        page = data.page_history[page_index][0]
-        pages[page](data.page_history[page_index][1])
-        # ToolBar.instance.on_page()
+        current_page = data.page_history[page_index][0]
+        get_page(data.page_history[page_index][0], data.page_history[page_index][1])
 
 
 def set_up_page(set_page, toolbar=True):
-    global page, page_index
+    global current_page, page_index
     widgets.clear()
-    if page != set_page:
-        page = set_page
+    if current_page != set_page:
+        current_page = set_page
         recalled = False
     else:
         recalled = True
@@ -1838,7 +1888,7 @@ def set_up_page(set_page, toolbar=True):
             if page_index < -1:
                 data.page_history = data.page_history[:page_index + 1]
                 page_index = -1
-            data.page_history.append([page, None])
+            data.page_history.append([current_page, None])
         ToolBar.instance.show()
         ToolBar.instance.on_page()
 
@@ -1876,13 +1926,11 @@ def end_turn():
 
 def set_up_first_page():
     ToolBar.instance = ToolBar()
-    # bill = logic.Bill(None, {'economic': -40}, 'gov', 0)
-    # bill.progress()
-    # bill.progress()
-    # n_bill = logic.Bill(None, {'economic': -42}, 'gov', 0)
-    # n_bill.progress()
-    # n_bill.progress()
     PageParliament()
+    PageStatistics()
+    PagePolicy()
+    PageRidings()
+    pages['parliament'].open_page()
 
 
 def return_to_menu():
@@ -1911,6 +1959,8 @@ def game_loop():
     pygame.display.set_caption(data.game_title)
     Music(list(data.soundtrack.keys()))
     PageTitle()
+    PageSettings()
+    get_page('title')
     old_mouse = pygame.mouse.get_pos()
     frame = None
     while True:
@@ -1989,25 +2039,19 @@ def game_loop():
         clock.tick(60)
 
 
+def get_page(page, loc=None):
+    if page not in pages:
+        PageWIP(page)
+    if loc is not None:
+        pages[page].open_page(loc)
+    else:
+        pages[page].open_page()
+
+
 background = make_background()
-page = None
+current_page = None
 page_index = -1
-pages = {
-    "parliament": PageParliament,
-    "data": PageStatistics,
-    "budget": functools.partial(PageWIP, 'budget'),
-    "policy": PagePolicy,
-    "cabinet": functools.partial(PageWIP, 'cabinet'),
-    "ballot": functools.partial(PageWIP, 'ballot'),
-    "settings": PageSettings,
-    "parties": functools.partial(PageWIP, 'parties'),
-    "title": PageTitle,
-    "selection": PageSelection,
-    "promises": functools.partial(PageWIP, 'promises'),
-    "events": functools.partial(PageWIP, 'events'),
-    "bills": PageBills,
-    "ridings": PageRidings
-}
+pages = {}
 
 if __name__ == "__main__":
     game_loop()
