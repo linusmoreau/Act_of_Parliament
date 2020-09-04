@@ -753,7 +753,7 @@ class PageParliament:
     def open_page(self, loc='gov'):
         self.clear()
         set_up_page("parliament", toolbar=True)
-        PageParliament.loc = loc
+        self.loc = loc
         self.incumbent = [tag for tag, party in logic.parties.items() if party.isincumbent]
         for person in logic.politicians.values():
             card = None
@@ -873,9 +873,8 @@ class PageParliament:
                 b.state = NORMAL_STATE
                 b.update()
 
-    @staticmethod
-    def update_loc(vote_subject):
-        PageParliament.loc = str(vote_subject[0]) + '-' + str(vote_subject[1])
+    def update_loc(self, vote_subject):
+        self.loc = str(vote_subject[0]) + '-' + str(vote_subject[1])
 
     def sort_vote(self):
         for side in self.vote_order:
@@ -1258,17 +1257,18 @@ class PagePolicy(PageListBase):
 
 
 class PageBills(PageListBase):
-    loc = None
 
     def __init__(self):
         super().__init__()
         self.bill = None
+        self.loc = None
         self.propose_b = None
         self.progress_disp = None
+        pages['bills'] = self
 
     def open_page(self, loc=None):
         set_up_page('bills')
-        PageBills.loc = loc
+        self.loc = loc
         self.bill = None
         self.propose_b = None
         self.progress_disp = None
@@ -1313,7 +1313,7 @@ class PageBills(PageListBase):
 
     def display(self, tag):
         self.bill = tag
-        PageBills.loc = self.bill
+        self.loc = self.bill
         self.new_page()
 
         bill = logic.bills[self.bill]
@@ -1387,7 +1387,7 @@ class PageBills(PageListBase):
         return display
 
     def first_page(self):
-        PageBills.loc = None
+        self.loc = None
         self.new_page()
         msg = Text("No bill selected", (self.mid_x, screen_height / 2), font_size=TITLE_SIZE)
         self.components.append(msg)
@@ -1927,6 +1927,7 @@ def end_turn():
 def set_up_first_page():
     ToolBar.instance = ToolBar()
     PageParliament()
+    PageBills()
     PageStatistics()
     PagePolicy()
     PageRidings()
