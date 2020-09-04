@@ -8,9 +8,9 @@ from collections import OrderedDict
 display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
 MENU_WIDTH = screen_width / 4
 
-cursor_size = 16
-point_pos = 6
-hand_cursor = pygame.transform.scale(pygame.image.load("images/hand_cursor.png"), (cursor_size, cursor_size))
+# cursor_size = 20
+# point_pos = int(cursor_size / 3)
+# hand_cursor = pygame.transform.scale(pygame.image.load("images/hand_cursor.png"), (cursor_size, cursor_size))
 
 if not os.path.isdir("saves"):
     os.makedirs("saves")
@@ -1942,28 +1942,19 @@ def terminate():
     raise SystemExit
 
 
-def show_hand_cursor(mouse):
-    x = mouse[0] - point_pos
-    if x < 0:
-        screen.blit(hand_cursor, (0, mouse[1]), pygame.Rect((-x, 0), (cursor_size + x, cursor_size)))
-    else:
-        screen.blit(hand_cursor, (mouse[0] - point_pos, mouse[1]))
-
-
 def get_all_wids():
     return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances
 
 
 def game_loop():
+    set_cursor(0)
     pygame.display.set_caption(data.game_title)
     Music(list(data.soundtrack.keys()))
     PageTitle()
     PageSettings()
     get_page('title')
     old_mouse = pygame.mouse.get_pos()
-    frame = None
     while True:
-        cursor_change = False
         mouse = pygame.mouse.get_pos()
 
         # handle events
@@ -2007,12 +1998,11 @@ def game_loop():
 
         # check cursor type
         if Widget.cursor_type != Widget.new_cursor_type:
-            cursor_change = True
             Widget.cursor_type = Widget.new_cursor_type
             if Widget.cursor_type == 0:
-                pygame.mouse.set_visible(True)
+                set_cursor(0)
             elif Widget.cursor_type == 1:
-                pygame.mouse.set_visible(False)
+                set_cursor(1)
 
         # display
         all_wids = get_all_wids()
@@ -2020,19 +2010,8 @@ def game_loop():
             screen.blit(background, (0, 0))
             for widget in all_wids:
                 widget.display()
-            frame = screen.copy()
-            if Widget.cursor_type == 1:
-                show_hand_cursor(mouse)
             pygame.display.update()
             Widget.change = False
-        elif old_mouse != mouse:
-            if Widget.cursor_type == 1:
-                screen.blit(frame, (0, 0))
-                show_hand_cursor(mouse)
-                pygame.display.update()
-            elif Widget.cursor_type == 0 and cursor_change:
-                screen.blit(frame, (0, 0))
-                pygame.display.update()
         old_mouse = mouse
 
         clock.tick(60)
