@@ -59,7 +59,8 @@ pygame.display.set_icon(pygame.transform.scale((pygame.image.load("images/ballot
 screen = pygame.display.set_mode(screen_dimensions, pygame.NOFRAME)
 clock = pygame.time.Clock()
 
-BUTTON_SCROLL = 1
+BUTTON_SCROLL = 3
+SLIDER_SPEED = 1
 SCROLL_SPEED = 5
 SCROLL_SENSITIVITY = int(screen_height / 64)
 SCROLL_RESISTANCE = 0.92
@@ -699,15 +700,15 @@ class ScrollBar(Widget):
         img = Image(top.rect.center, (top.rect.w, top.rect.h), "images/play.png")
         img.surface = pygame.transform.rotate(img.surface, 90)
         top.components.append(img)
-        self.top = top
-        self.components.append(self.top)
+        self.top_b = top
+        self.components.append(self.top_b)
 
         bottom = Button(self.rect.bottomleft, (self.marg, self.marg), align=BOTTOMLEFT, threed=False)
         img = Image(bottom.rect.center, (bottom.rect.w, bottom.rect.h), "images/play.png")
         img.surface = pygame.transform.rotate(img.surface, 270)
         bottom.components.append(img)
-        self.bottom = bottom
-        self.components.append(self.bottom)
+        self.bottom_b = bottom
+        self.components.append(self.bottom_b)
 
     def handle(self, event, mouse):
         if self.on_top(mouse):
@@ -717,12 +718,12 @@ class ScrollBar(Widget):
             return True
         return False
 
-    def catch(self, mouse):
-        if self.bottom.state is PRESS_STATE:
+    def animate(self):
+        if self.bottom_b.state is PRESS_STATE:
             self.cursor.animate(BUTTON_SCROLL)
-        elif self.top.state is PRESS_STATE:
+        elif self.top_b.state is PRESS_STATE:
             self.cursor.animate(-BUTTON_SCROLL)
-        return super().catch(mouse)
+        super().animate()
 
 
 class ScrollCursor(Button):
@@ -811,15 +812,15 @@ class Slider(Widget):
         right = Button(self.rect.topright, (self.rect.h, self.rect.h), align=TOPRIGHT, threed=False)
         img = Image(right.rect.center, right.rect.size, "images/play.png")
         right.components.append(img)
-        self.right = right
-        self.components.append(self.right)
+        self.right_b = right
+        self.components.append(self.right_b)
 
         left = Button(self.rect.topleft, (self.rect.h, self.rect.h), align=TOPLEFT, threed=False)
         img = Image(left.rect.center, left.rect.size, "images/play.png")
         img.surface = pygame.transform.flip(img.surface, True, False)
         left.components.append(img)
-        self.left = left
-        self.components.append(self.left)
+        self.left_b = left
+        self.components.append(self.left_b)
 
     def get_value(self):
         v = ((self.slider.loc - self.slider.min) / (self.slider.max - self.slider.min)
@@ -842,12 +843,12 @@ class Slider(Widget):
             return True
         return False
 
-    def catch(self, mouse):
-        if self.left.state is PRESS_STATE:
-            self.slider.animate(-BUTTON_SCROLL)
-        elif self.right.state is PRESS_STATE:
-            self.slider.animate(BUTTON_SCROLL)
-        return super().catch(mouse)
+    def animate(self):
+        if self.left_b.state is PRESS_STATE:
+            self.slider.animate(-SLIDER_SPEED)
+        elif self.right_b.state is PRESS_STATE:
+            self.slider.animate(SLIDER_SPEED)
+        super().animate()
 
 
 class SliderButton(Button):
