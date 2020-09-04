@@ -716,9 +716,9 @@ class PersonCard(PopUp):
 
 
 class PageParliament:
-    loc = None
 
     def __init__(self):
+        self.loc = None
         self.incumbent = []
         self.radius = int(screen_width / 128) + 1
         self.gap = 2
@@ -958,7 +958,7 @@ class PageParliament:
         oppose.show()
 
     def gov(self):
-        PageParliament.loc = 'gov'
+        self.loc = 'gov'
         # Turn incumbency into vote format
         self.display_vote = None
         self.vote_order = self.gov_as_vote()
@@ -1014,7 +1014,7 @@ class PageParliament:
                 self.set_dest(x, y, person)
 
     def provincial(self):
-        PageParliament.loc = 'province'
+        self.loc = 'province'
         for heading in self.headings:
             heading.disappearing = True
         prov_col = 0
@@ -1132,10 +1132,10 @@ class PageListBase:
 
 
 class PagePolicy(PageListBase):
-    loc = None
 
     def __init__(self):
         super().__init__()
+        self.loc = None
         self.policy = None
         self.policy_pos = None
         self.orig_pos = None
@@ -1146,7 +1146,7 @@ class PagePolicy(PageListBase):
 
     def open_page(self, loc=None):
         set_up_page('policy')
-        PagePolicy.loc = loc
+        self.loc = loc
         self.policy = None
         self.policy_pos = None
         self.orig_pos = None
@@ -1178,14 +1178,14 @@ class PagePolicy(PageListBase):
         self.button_disp.show()
 
     def first_page(self):
-        PagePolicy.loc = None
+        self.loc = None
         self.new_page()
         msg = Text("No policy selected", (self.mid_x, screen_height / 2), font_size=TITLE_SIZE)
         self.components.append(msg)
         msg.show()
 
     def display(self, tag):
-        PagePolicy.loc = tag
+        self.loc = tag
         self.policy = tag.split('/')[-1]
         self.new_page()
         marg = display_rect.w / 16
@@ -1432,7 +1432,6 @@ class BillProgress(Widget):
 
 
 class PageStatistics(PageListBase):
-    loc = None
 
     parameters = {
         "party_support": {"x_min": None, "x_max": None, "y_min": 0, "y_max": None,
@@ -1441,17 +1440,18 @@ class PageStatistics(PageListBase):
 
     def __init__(self):
         super().__init__()
+        self.loc = None
         pages['data'] = self
 
     def open_page(self, loc="party_support/national"):
         set_up_page('data')
-        PageStatistics.loc = loc
+        self.loc = loc
         self.set_up_title("Statistics")
         self.set_up_list()
         self.find_loc(loc)
 
     def display(self, tag):
-        PageStatistics.loc = tag
+        self.loc = tag
         self.new_page()
 
         split_tag = tag.split('/')
@@ -1495,16 +1495,16 @@ class PageStatistics(PageListBase):
 
 
 class PageRidings(PageListBase):
-    loc = None
 
     def __init__(self):
         super().__init__()
+        self.loc = None
         self.set_up_list()
         pages['ridings'] = self
 
     def open_page(self, loc=None):
         set_up_page('ridings')
-        PageRidings.loc = loc
+        self.loc = loc
         self.set_up_title("Electoral Districts")
         self.find_loc(loc)
         self.button_disp.show()
@@ -1576,15 +1576,13 @@ class PageTitle:
 
 
 class PageSettings:
-    loc = None
 
     def __init__(self):
         self.title = None
         pages['settings'] = self
 
-    def open_page(self, loc=None):
+    def open_page(self):
         set_up_page("settings")
-        PageSettings.loc = loc
         self.title = Text("Settings", (screen_width / 2, screen_height / 8 + ToolBar.instance.rect.h), TITLE_SIZE)
         self.title.show()
         buttons = ["resume", "save", "load", "credits", "menu", "quit"]
