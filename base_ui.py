@@ -136,7 +136,7 @@ class Widget:
         return False
 
     def catch(self, mouse):
-        if not self.no_catch and self.on_top(mouse):
+        if not self.no_catch:
             if self.in_container(mouse):
                 for i in range(len(self.components)):
                     if self.components[-(i + 1)].catch(mouse):
@@ -144,7 +144,7 @@ class Widget:
             for i in range(len(self.extensions)):
                 if self.extensions[-(i + 1)].catch(mouse):
                     return True
-            if self.catchable:
+            if self.catchable and self.on_top(mouse):
                 if self.tooltip_display is None:
                     self.tooltip_display = self.make_tooltip(mouse)
                     if self.tooltip_display is not None:
