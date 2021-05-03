@@ -19,13 +19,15 @@ if not os.path.isdir("saves"):
 class Music:
     channel = None
     file_path = "sound/"
+    maximum = 1000
 
     def __init__(self, track):
         self.soundtrack = track
+        random.shuffle(self.soundtrack)
         self.track_num = 0
         self.volume = data.settings['volume']
-        self.min = 0.01
-        self.max = 1
+        self.min = 1
+        self.max = Music.maximum
         self.slider = None
         self.showing = None
         self.playing = None
@@ -36,21 +38,44 @@ class Music:
         pygame.mixer.init()
         # noinspection PyArgumentList
         pygame.mixer.music.set_endevent(pygame.USEREVENT)
-        pygame.mixer.music.set_volume(self.volume)
+        self.update_volume()
         self.new_track()
         Music.channel = self
 
+    def show_widget(self, x, y, base=None, w=None):
+        if base is None:
+            base = text_size(BASE_FONT_SIZE)
+        if w is None:
+            w = screen_width / 8
+        h = w / 12
+        x2 = x * 3 / 4
+        self.make_slider((x, y), (w, h))
+        self.show_playing((x2, y + base[1]), x2, align=TOPLEFT)
+        self.skip((x2 - base[0], y + h), (h, h), align=TOPRIGHT)
+        self.set_up_pause((x2 - base[0] - h * 3 / 2, y + h), (h, h), align=TOPRIGHT)
+        Text("Audio", (x, y - base[1]), align=BOTTOM).show()
+
+    def update_text(self):
+        text = str(int(self.volume))
+        if self.volume_txt is not None:
+            self.volume_txt.update(text, RIGHT, (self.slider.rect.left - 10, self.slider.rect.centery))
+        else:
+            self.volume_txt = Text(text, (self.slider.rect.left - 10, self.slider.rect.centery),
+                                   align=RIGHT, parent=self)
+        self.volume_txt.show()
+
+    def update_volume(self):
+        pygame.mixer.music.set_volume(self.volume / 1000)
+
     def make_slider(self, pos, area, align=CENTER, parent=None):
         if self.volume == 0:
-            point = 0.01
+            point = self.min
         else:
             point = self.volume
         self.slider = Slider(pos, area, self, point, align=align, parent=parent,
                              minimum=self.min, maximum=self.max, log=True)
         self.slider.show()
-        self.volume_txt = Text(str(round(self.volume, 3)), (self.slider.rect.left - 10, self.slider.rect.centery),
-                               align=RIGHT, parent=self)
-        self.volume_txt.show()
+        self.update_text()
 
     def show_playing(self, pos, width, align=TOPLEFT):
         if self.showing in widgets:
@@ -98,9 +123,8 @@ class Music:
                 self.volume = 0
             else:
                 self.volume = v
-            pygame.mixer.music.set_volume(self.volume)
-            self.volume_txt.update(str(round(self.volume, 3)), RIGHT,
-                                   (self.volume_txt.rect.right, self.volume_txt.rect.centery))
+            self.update_volume()
+            self.update_text()
 
     def new_track(self):
         try:
@@ -1554,6 +1578,7 @@ class PageTitle:
             if button_functions[button] is not None:
                 b.callback(button_functions[button])
             b.show()
+        Music.channel.show_widget(screen_width / 4, screen_height / 2)
 
 
 # class PageSelection:
@@ -1610,16 +1635,7 @@ class PageSettings:
             if button_functions[button] is not None:
                 b.callback(button_functions[button])
             b.show()
-        base = text_size(BASE_FONT_SIZE)
-        size = screen_width / 96
-        Music.channel.make_slider((screen_width / 4, screen_height / 2), (screen_width / 8, size))
-        Music.channel.show_playing((screen_width * 3 / 16, screen_height / 2 + base[1]),
-                                   screen_width * 3 / 16, align=TOPLEFT)
-        Music.channel.skip((screen_width * 3 / 16 - base[0], screen_height / 2 + size), (size, size),
-                           align=TOPRIGHT)
-        Music.channel.set_up_pause((screen_width * 3 / 16 - base[0] - size * 3 / 2, screen_height / 2 + size),
-                                   (size, size), align=TOPRIGHT)
-        Text("Audio", (screen_width / 4, screen_height / 2 - base[1]), align=BOTTOM).show()
+        Music.channel.show_widget(screen_width / 4, screen_height / 2)
 
 
 class PageWIP:
@@ -1893,7 +1909,7 @@ def set_up_page(set_page, toolbar=True):
 
 def make_credits_pop_up():
     width = screen_width / 3
-    height = screen_height / 3
+    height = screen_height / 2
     surf = pygame.Surface((width, height))
     surf.fill(black)
     credit = data.credit
@@ -1934,7 +1950,7 @@ def set_up_first_page():
 
 def return_to_menu():
     data.page_history.clear()
-    PageTitle()
+    pages['title'].open_page()
 
 
 def terminate():
