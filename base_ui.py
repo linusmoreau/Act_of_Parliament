@@ -8,7 +8,6 @@ import string
 import math
 import functools
 import date_translator
-import ctypes
 import webbrowser
 import toolkit
 
@@ -47,9 +46,8 @@ text_capture = []
 os.environ['SDL_VIDEO_WINDOW_POS'] = '1'
 pygame.init()
 monitor_info = pygame.display.Info()
-scale_factor = ctypes.windll.shcore.GetScaleFactorForDevice(0) / 100
-screen_width = int(monitor_info.current_w / scale_factor)
-screen_height = int(monitor_info.current_h / scale_factor)
+screen_width = int(monitor_info.current_w)
+screen_height = int(monitor_info.current_h)
 screen_dimensions = (screen_width, screen_height)
 screen_dimension_ratio = screen_width / screen_height
 screen_center = (screen_width / 2, screen_height / 2)
@@ -422,10 +420,10 @@ class Button(Widget):
                     if c.handle(event, mouse):
                         break
                 else:
-                    if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed()[0]:
+                    if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed(3)[0]:
                         self.state = PRESS_STATE
                     elif event.type == pygame.MOUSEBUTTONUP and self.state is PRESS_STATE and \
-                            not pygame.mouse.get_pressed()[0]:
+                            not pygame.mouse.get_pressed(3)[0]:
                         self.state = HIGHLIGHT_STATE
                         self.call_funcs()
                     if state != self.state:
@@ -631,7 +629,7 @@ class SelectButton(Button):
                     if c.handle(event, mouse):
                         break
                 else:
-                    if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed()[0]:
+                    if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed(3)[0]:
                         if self.state is not SELECT_STATE:
                             if self.parent is not None and self.exclusive:
                                 for comp in self.parent.select_buttons:
@@ -740,11 +738,12 @@ class ScrollCursor(Button):
     def handle(self, event, mouse):
         state = self.state
         if self.on_top(mouse):
-            if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed()[0] and self.state is not PRESS_STATE:
+            if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed(3)[0] and \
+                    self.state is not PRESS_STATE:
                 self.state = PRESS_STATE
                 self.y_loc = mouse[1]
             elif event.type == pygame.MOUSEBUTTONUP and self.state is PRESS_STATE and \
-                    not pygame.mouse.get_pressed()[0]:
+                    not pygame.mouse.get_pressed(3)[0]:
                 self.state = HIGHLIGHT_STATE
             if self.state is NORMAL_STATE:
                 self.state = HIGHLIGHT_STATE
@@ -760,7 +759,7 @@ class ScrollCursor(Button):
     def animate(self, move=0):
         mouse = pygame.mouse.get_pos()
         if self.y_loc is not None and self.state is PRESS_STATE:
-            if not pygame.mouse.get_pressed()[0]:
+            if not pygame.mouse.get_pressed(3)[0]:
                 self.state = NORMAL_STATE
                 self.update()
             amount = (mouse[1] - self.y_loc) / (self.parent.rect.h - 2 * self.parent.marg - self.rect.h) * \
@@ -863,12 +862,13 @@ class SliderButton(Button):
     def handle(self, event, mouse):
         state = self.state
         if self.on_top(mouse):
-            if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed()[0] and self.state is not PRESS_STATE:
+            if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed(3)[0] and \
+                    self.state is not PRESS_STATE:
                 self.state = PRESS_STATE
                 self.mouse_loc = mouse[0]
                 self.loc = self.rect.centerx
             elif event.type == pygame.MOUSEBUTTONUP and self.state is PRESS_STATE and \
-                    not pygame.mouse.get_pressed()[0]:
+                    not pygame.mouse.get_pressed(3)[0]:
                 self.state = HIGHLIGHT_STATE
             if self.state is NORMAL_STATE:
                 self.state = HIGHLIGHT_STATE
@@ -905,7 +905,7 @@ class SliderButton(Button):
     def animate(self, move=None):
         mouse = pygame.mouse.get_pos()
         if self.mouse_loc is not None and self.state is PRESS_STATE:
-            if not pygame.mouse.get_pressed()[0]:
+            if not pygame.mouse.get_pressed(3)[0]:
                 self.state = NORMAL_STATE
                 self.update()
             if self.min - self.radius <= mouse[0] <= self.max + self.radius:
@@ -1993,7 +1993,7 @@ class PopUp(Widget):
                 if c.handle(event, mouse):
                     break
             else:
-                if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed()[0] and not self.dragged and \
+                if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed(3)[0] and not self.dragged and \
                         self.moveable:
                     self.dragged = True
                     if PopUp.instances[-1] != self:
@@ -2001,7 +2001,7 @@ class PopUp(Widget):
                         PopUp.instances.append(self)
                         Widget.change = True
                     self.rel = [mouse[0] - self.rect.x, mouse[1] - self.rect.y]
-                elif event.type == pygame.MOUSEBUTTONUP and not pygame.mouse.get_pressed()[0] and self.dragged:
+                elif event.type == pygame.MOUSEBUTTONUP and not pygame.mouse.get_pressed(3)[0] and self.dragged:
                     self.dragged = False
             return True
         else:
