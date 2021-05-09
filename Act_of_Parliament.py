@@ -1,4 +1,4 @@
 import ui
 
 if __name__ == "__main__":
-    ui.game_loop()
+    ui.game_start()

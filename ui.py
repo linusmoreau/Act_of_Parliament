@@ -1491,7 +1491,7 @@ class PageStatistics(PageListBase):
             title = toolkit.entitle(split_tag[-1] + ' ' + split_tag[0])
         graph = GraphDisplay((screen_width / 4, ToolBar.height), (screen_width * 3 / 4, screen_height - ToolBar.height),
                 data.opinion_polls[split_tag[0]][split_tag[1]], title=title, colours=data.colours,
-                initial_date=data.default_game_state["date"], turn_length=data.settings['turn_length'], **kwargs)
+                initial_date=data.default_game_state["date"], step=data.settings['turn_length'], **kwargs)
         self.components.append(graph)
 
         for w in self.components:
@@ -1962,13 +1962,17 @@ def get_all_wids():
     return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances
 
 
-def game_loop():
+def game_start():
     set_cursor(0)
     pygame.display.set_caption(data.game_title)
     Music(list(data.soundtrack.keys()))
     PageTitle()
     PageSettings()
     get_page('title')
+    game_loop()
+
+
+def game_loop():
     old_mouse = pygame.mouse.get_pos()
     while True:
         mouse = pygame.mouse.get_pos()
