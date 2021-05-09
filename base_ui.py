@@ -1657,7 +1657,7 @@ class GraphDisplay(Widget):
                 colour = fade_colour(self.colours[line])
             else:
                 colour = white
-            tip = Text(str(round(y_val)), (x_pos, y_pos), align=alignment, colour=black,
+            tip = Text(str(round(float(y_val), 2 - self.y_mag)), (x_pos, y_pos), align=alignment, colour=black,
                        background_colour=colour, solid_background=True)
             tip.surface.set_alpha(200)
             tips.append(tip)
@@ -1685,7 +1685,7 @@ class GraphDisplay(Widget):
         y_pos = self.rect.y + self.top_margin + self.graph_rect.h / 12
         if self.leader and len(order) >= 2:
             line = order[-1]
-            dif = str(round(y_vals[line] - y_vals[order[-2]], 2 - self.y_mag))
+            dif = str(round(float(y_vals[line] - y_vals[order[-2]]), 2 - self.y_mag))
             if line in self.colours:
                 colour = fade_colour(self.colours[line])
             else:
