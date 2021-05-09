@@ -10,6 +10,7 @@ import functools
 import date_translator
 import webbrowser
 import toolkit
+import copy
 
 CENTER = 0
 TOPLEFT = 1
@@ -36,6 +37,7 @@ whitish = (250, 250, 250)
 gold = (212, 175, 55)
 green = (20, 200, 20)
 red = (255, 80, 80)
+yellow = (255, 255, 0)
 colour_ratio = 1.15
 faded_text = 150
 
@@ -1454,9 +1456,9 @@ class GraphDisplay(Widget):
 
     def __init__(self, position, area, dat, x_title=None, y_title=None, align=TOPLEFT,
                  x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, time=True,
-                 max_y_max=None, turn_length=None, initial_date=None):
+                 max_y_max=None, step=None, initial_date=None, loess=False):
         self.time = time
-        self.turn_length = turn_length
+        self.step = step
         self.initial_date = initial_date
         if colours is None:
             colours = {}
@@ -1479,6 +1481,7 @@ class GraphDisplay(Widget):
         self.title_font_size = TITLE_SIZE
         self.title_font_width, self.title_font_height = text_size(self.title_font_size)
         self.colours = colours
+        self.slopes = {}
 
         self.top_margin = self.rect.h / 12
         self.bottom_margin = self.rect.h / 12
@@ -1549,6 +1552,28 @@ class GraphDisplay(Widget):
         # Data points and curve connection
         self.sketch_curves()
 
+        # Determine slopes of segments
+        links = copy.deepcopy(self.dat)
+        for line in links:
+            s = {}
+            points = links[line]
+            if len(points) >= 2:
+                x1 = min(points.keys())
+                y1 = points[x1]
+                del points[x1]
+
+                while len(points) >= 1:
+                    x2 = min(points.keys())
+                    y2 = points[x2]
+                    del points[x2]
+
+                    slope = (y2 - y1) / (x2 - x1)
+                    s[x1] = slope
+
+                    x1 = x2
+                    y1 = y2
+            self.slopes[line] = s
+
         self.at_line = None
         self.no_focus()
 
@@ -1574,37 +1599,49 @@ class GraphDisplay(Widget):
             return False
 
     def moment(self, pos):
-        place = round((pos[0] - self.graph_rect.x) / self.x_scale)
+        place = (pos[0] - self.graph_rect.x) / self.x_scale
         if place < 0:
             place = 0
         elif place > self.x_max - self.x_min:
             place = self.x_max - self.x_min
         x = self.graph_rect.x + self.x_scale * place
+        y_vals = {}
+        for line in self.dat.keys():
+            y_vals[line] = self.get_val(line, place + self.x_min)
         if self.at_line is None:
             Widget.change = True
             surface = pygame.Surface((1, self.graph_rect.h))
             surface.fill(black)
             self.at_line = Widget((x, self.graph_rect.y), (1, self.graph_rect.h), surface=surface, default_alpha=50)
-            self.set_tool_tips(place, x)
+            self.set_tool_tips(place, x, y_vals)
             self.components.append(self.at_line)
         else:
             if self.at_line.rect.x != x:
                 Widget.change = True
                 self.at_line.rect.x = x
                 self.at_line.extensions.clear()
-                self.set_tool_tips(place, x)
+                self.set_tool_tips(place, x, y_vals)
                 if self.at_line not in self.components:
                     self.components.append(self.at_line)
 
-    def set_tool_tips(self, place, x):
-        x_val = place + self.x_min
-        present = []
-        for line in self.dat:
-            if x_val in self.dat[line]:
-                present.append(line)
-        order = sorted(present, key=lambda line: self.dat[line][x_val])
+    def get_val(self, line, x):
+        points = self.dat[line]
+        if x in points.keys():
+            ret = self.dat[line][x]
+        else:
+            bestx = None
+            for relx in points.keys():
+                if relx < x:
+                    if bestx is None or bestx < relx:
+                        bestx = relx
+            ret = points[bestx] + (x - bestx) * self.slopes[line][bestx]
+        return ret
 
-        self.show_leader(order, x, x_val)
+    def set_tool_tips(self, place, x, y_vals):
+        x_val = place + self.x_min
+        order = sorted(list(self.dat.keys()), key=lambda line: y_vals[line])
+
+        self.show_leader(order, x, x_val, y_vals)
 
         if 2 * place + self.x_min <= self.x_max:
             alignment = LEFT
@@ -1614,13 +1651,13 @@ class GraphDisplay(Widget):
             x_pos = x - 10
         tips = []
         for line in order:
-            y_pos = self.rect.y + self.rect.h - \
-                    ((self.dat[line][x_val] - self.y_min) * self.y_scale + self.bottom_margin)
+            y_val = y_vals[line]
+            y_pos = self.rect.y + self.rect.h - ((y_val - self.y_min) * self.y_scale + self.bottom_margin)
             if line in self.colours:
                 colour = fade_colour(self.colours[line])
             else:
                 colour = white
-            tip = Text(str(self.dat[line][x_val]), (x_pos, y_pos), align=alignment, colour=black,
+            tip = Text(str(round(y_val)), (x_pos, y_pos), align=alignment, colour=black,
                        background_colour=colour, solid_background=True)
             tip.surface.set_alpha(200)
             tips.append(tip)
@@ -1643,12 +1680,12 @@ class GraphDisplay(Widget):
                 break
         self.at_line.extensions.extend(tips)
 
-    def show_leader(self, order, x, x_val):
+    def show_leader(self, order, x, x_val, y_vals):
         lead = None
         y_pos = self.rect.y + self.top_margin + self.graph_rect.h / 12
         if self.leader and len(order) >= 2:
             line = order[-1]
-            dif = str(round(self.dat[line][x_val] - self.dat[order[-2]][x_val], 2 - self.y_mag))
+            dif = str(round(y_vals[line] - y_vals[order[-2]], 2 - self.y_mag))
             if line in self.colours:
                 colour = fade_colour(self.colours[line])
             else:
@@ -1658,9 +1695,9 @@ class GraphDisplay(Widget):
             lead.surface.set_alpha(200)
             self.at_line.extensions.append(lead)
         if self.time:
-            txt = date_translator.get_date(x_val * self.turn_length, self.initial_date)
+            txt = date_translator.get_date(round(x_val) * self.step, self.initial_date)
         else:
-            txt = str(x_val)
+            txt = str(round(x_val))
         if lead is not None:
             pos = (lead.rect.centerx, lead.rect.top)
         else:
@@ -1732,7 +1769,7 @@ class GraphDisplay(Widget):
             else:
                 alignment = TOP
             if self.time:
-                txt = date_translator.get_date(self.x_min + x * self.turn_length, self.initial_date)
+                txt = date_translator.get_date(self.x_min + x * self.step, self.initial_date)
             else:
                 txt = str(self.x_min + x)
             t = Text(txt, (self.graph_rect.left + x * self.x_scale, self.rect.y + zero_loc + 10), font_size=font_size,
@@ -1741,6 +1778,7 @@ class GraphDisplay(Widget):
                 t.rect.bottom -= font_size * FONT_ASPECT
             else:
                 t.rect.top += font_size * FONT_ASPECT
+            # t.surface = pygame.transform.rotate(t.surface, 90)
             self.components.append(t)
 
     def sketch_curves(self):
@@ -1764,6 +1802,7 @@ class GraphDisplay(Widget):
 
             # pygame.draw.aalines(self.surface, line_colour, False, points)
             # pygame.draw.lines(self.surface, line_colour, False, points, 2)
+        # todo Add a LOESS version of curve sketching
 
         self.legend(order)
 
