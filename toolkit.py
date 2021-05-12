@@ -1,4 +1,5 @@
 import random
+from typing import Dict, List, Set, Tuple, Any
 
 
 def round_up(num):
@@ -53,3 +54,27 @@ def translate_bool_string(string, default=None):
     else:
         out = None
     return out
+
+
+def rolling_average(dat: Dict[float, List[float]], breadth: float):
+    ndat = {}
+    relv: List[Tuple] = []
+    for x in sorted(list(dat.keys())):
+        for y in dat[x]:
+            relv.append((x, y))
+        cutoff: int = 0
+        for i, point in enumerate(relv):
+            if x - point[0] <= breadth:
+                cutoff = i
+                break
+        relv = relv[cutoff:]
+        ndat[x] = sum([p[1] for p in relv]) / len(relv)
+    return ndat
+
+
+def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float):
+    ndat = {}
+    for line, points in dat.items():
+        npoints = rolling_average(points, breadth)
+        ndat[line] = npoints
+    return ndat
