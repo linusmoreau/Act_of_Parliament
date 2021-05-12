@@ -1784,15 +1784,16 @@ class GraphDisplay(Widget):
     def sketch_data(self):
         for line, points in self.dat_points.items():
             if line in self.colours:
-                line_colour = tuple(list(self.colours[line])[:3] + [100])
+                colour = list(self.colours[line])[:3] + [120]
             else:
-                line_colour = (0, 0, 0, 100)
+                colour = [0, 0, 0, 120]
+
             for x, ys in points.items():
                 for y in ys:
                     p = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
                          int(self.rect.h - ((y - self.y_min) * self.y_scale + self.bottom_margin)))
-                    pygame.gfxdraw.aacircle(self.surface, p[0], p[1], 3, line_colour)
-                    pygame.gfxdraw.filled_circle(self.surface, p[0], p[1], 3, line_colour)
+                    pygame.gfxdraw.filled_circle(self.surface, p[0], p[1], 2, colour)
+                    pygame.gfxdraw.aacircle(self.surface, p[0], p[1], 2, colour)
 
     def sketch_curves(self):
         order = sorted(self.dat.keys(), key=lambda line: self.dat[line][max(self.dat[line].keys())])
@@ -1815,7 +1816,6 @@ class GraphDisplay(Widget):
 
             # pygame.draw.aalines(self.surface, line_colour, False, points)
             # pygame.draw.lines(self.surface, line_colour, False, points, 2)
-        # todo Add a LOESS version of curve sketching
 
         self.legend(order)
 
