@@ -37,6 +37,14 @@ def get_date(dif, initial_date):
     return str(year) + '-' + str(month).rjust(2, '0') + '-' + str(day).rjust(2, '0')
 
 
+# todo update to work for any large difference in dates
+def date_dif(idate, fdate, dif=0):
+    if idate == fdate:
+        return dif
+    else:
+        return date_dif(get_date(1, idate), fdate, dif=dif+1)
+
+
 def get_month_length(month, year):
     month_length = days_per_month[month]
     if month == 2 and leap_year(year):
@@ -66,6 +74,28 @@ def date_as_text(date):
     return months[month] + ' ' + str(day) + ', ' + str(year)
 
 
+def text_to_stnd(text: str, form: str):
+    if form == "mdy":
+        m, d, y = text.split()
+        for num, name in months.items():
+            if m == name or m == name[:3]:
+                m = num
+        return y + '-' + str(m).rjust(2, '0') + '-' + d.rjust(2, '0')
+    elif form == "dmy":
+        d, m, y = text.split()
+        for num, name in months.items():
+            if m == name or m == name[:3]:
+                m = num
+        return y + '-' + str(m).rjust(2, '0') + '-' + d.rjust(2, '0')
+    elif form == "ymd":
+        y, m, d = text.split()
+        for num, name in months.items():
+            if m == name or m == name[:3]:
+                m = num
+        return y + '-' + str(m).rjust(2, '0') + '-' + d.rjust(2, '0')
+    raise ValueError("Invalid form")
+
+
 def age(birthdate, currentdate):
     currentdate = currentdate.split('-')
     birthdate = birthdate.split('-')
@@ -93,8 +123,9 @@ def between(start, end, date):
 
 if __name__ == "__main__":
     init_date = "2020-04-12"
-    dif = random.randint(-100000, 100000)
-    date = get_date(dif, init_date)
-    print(date)
-    print(date_as_text(date))
-    print(age("2002-09-05", "2020-04-30"))
+    # dif = random.randint(-100000, 100000)
+    # date = get_date(dif, init_date)
+    # print(date)
+    # print(date_as_text(date))
+    # print(age("2002-09-05", "2020-04-30"))
+    # print(date_dif("1970-05-01", "2021-05-14"))
