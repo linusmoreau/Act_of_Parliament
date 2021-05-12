@@ -1,4 +1,4 @@
-from typing import List, Any
+from typing import Dict, List, Set, Tuple, Any
 
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
@@ -1456,7 +1456,7 @@ class GraphDisplay(Widget):
 
     def __init__(self, position, area, dat, x_title=None, y_title=None, align=TOPLEFT,
                  x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, time=True,
-                 max_y_max=None, step=None, initial_date=None, loess=False):
+                 max_y_max=None, step=None, initial_date=None, dat_points=None):
         self.time = time
         self.step = step
         self.initial_date = initial_date
@@ -1467,6 +1467,7 @@ class GraphDisplay(Widget):
         self.surface.fill(white)
         self.surface.set_colorkey(white)
         self.dat = dat
+        self.dat_points = dat_points
         self.x_title = x_title
         self.y_title = y_title
         self.title = title
@@ -1549,7 +1550,9 @@ class GraphDisplay(Widget):
         # Graph Axes
         self.sketch_axes()
 
-        # Data points and curve connection
+        # Data points and curve creation
+        if self.dat_points is not None:
+            self.sketch_data()
         self.sketch_curves()
 
         # Determine slopes of segments
@@ -1643,12 +1646,9 @@ class GraphDisplay(Widget):
 
         self.show_leader(order, x, x_val, y_vals)
 
-        if 2 * place + self.x_min <= self.x_max:
-            alignment = LEFT
-            x_pos = x + 10
-        else:
-            alignment = RIGHT
-            x_pos = x - 10
+        alignment = RIGHT
+        x_pos = x - 10
+
         tips = []
         for line in order:
             y_val = y_vals[line]
@@ -1780,6 +1780,19 @@ class GraphDisplay(Widget):
                 t.rect.top += font_size * FONT_ASPECT
             # t.surface = pygame.transform.rotate(t.surface, 90)
             self.components.append(t)
+
+    def sketch_data(self):
+        for line, points in self.dat_points.items():
+            if line in self.colours:
+                line_colour = tuple(list(self.colours[line])[:3] + [100])
+            else:
+                line_colour = (0, 0, 0, 100)
+            for x, ys in points.items():
+                for y in ys:
+                    p = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
+                         int(self.rect.h - ((y - self.y_min) * self.y_scale + self.bottom_margin)))
+                    pygame.gfxdraw.aacircle(self.surface, p[0], p[1], 3, line_colour)
+                    pygame.gfxdraw.filled_circle(self.surface, p[0], p[1], 3, line_colour)
 
     def sketch_curves(self):
         order = sorted(self.dat.keys(), key=lambda line: self.dat[line][max(self.dat[line].keys())])
