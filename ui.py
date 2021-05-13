@@ -1760,7 +1760,7 @@ class ToolBar(Widget):
                              int(BASE_FONT_SIZE * 1.5), background_colour=light_grey, parent=self, align=TOPLEFT)
         self.components.append(self.turn_txt)
 
-        self.date_txt = Text(data.game_state["date"], (self.turn_txt.rect.left, self.forw_button.rect.bottom),
+        self.date_txt = Text(data.game_state["date"].__repr__(), (self.turn_txt.rect.left, self.forw_button.rect.bottom),
                              align=BOTTOMLEFT, parent=self, background_colour=light_grey,
                              font_size=int(BASE_FONT_SIZE * 1.2))
         self.components.append(self.date_txt)
@@ -1811,7 +1811,7 @@ class ToolBar(Widget):
 
     def end_turn(self):
         self.turn_txt.update("Turn: " + str(data.game_state["turn"]))
-        self.date_txt.update(data.game_state["date"])
+        self.date_txt.update(data.game_state["date"].__repr__())
         self.turn_button.reset_callbacks()
         self.turn_button.callback(functools.partial(LoadingScreen, end_turn,
                                   threading.Thread(target=logic.end_turn, daemon=True)))

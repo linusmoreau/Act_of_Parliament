@@ -7,7 +7,8 @@ import pygame.gfxdraw
 import string
 import math
 import functools
-import date_translator
+import date_kit
+from date_kit import Date
 import webbrowser
 import toolkit
 import copy
@@ -1459,7 +1460,8 @@ class GraphDisplay(Widget):
                  max_y_max=None, step=None, initial_date=None, dat_points=None):
         self.time = time
         self.step = step
-        self.initial_date = initial_date
+        if self.time:
+            self.initial_date: Date = initial_date
         if colours is None:
             colours = {}
         surface = pygame.Surface(area)
@@ -1695,7 +1697,7 @@ class GraphDisplay(Widget):
             lead.surface.set_alpha(200)
             self.at_line.extensions.append(lead)
         if self.time:
-            txt = date_translator.get_date(round(x_val) * self.step, self.initial_date)
+            txt = self.initial_date.get_date(round(x_val * self.step)).__repr__()
         else:
             txt = str(round(x_val))
         if lead is not None:

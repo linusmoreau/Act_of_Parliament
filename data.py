@@ -1,4 +1,5 @@
 import json
+import date_kit
 from typing import Dict, List, Tuple
 
 
@@ -43,7 +44,8 @@ else:
     doc = json.load(f)
     f.close()
     game_title = doc["game_title"]
-    default_game_state = {"player": None, "parliament": doc["parliament"], "turn": 1, "date": doc["date"]}
+    date = date_kit.Date(text=doc['date'])
+    default_game_state = {"player": None, "parliament": doc["parliament"], "turn": 1, "date": date}
     game_state = default_game_state.copy()
     soundtrack = doc["soundtrack"]
 

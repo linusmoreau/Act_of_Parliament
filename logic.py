@@ -3,7 +3,7 @@ import CAN_names as Names
 import json
 import os
 import toolkit
-import date_translator
+import date_kit
 import random
 from typing import Dict
 
@@ -173,12 +173,12 @@ class Person(CustomObject):
                         age = round(random.gauss(70, 10))
                     else:
                         age = random.randrange(18, 60)
-                    birthdate = date_translator.random_date(int(data.game_state["date"].split('-')[0]) - age)
-                    age = date_translator.age(birthdate, data.game_state["date"])
+                    birthdate = date_kit.random_date(int(data.game_state["date"].year) - age)
+                    age = date_kit.age(birthdate, data.game_state["date"])
                     if age >= 18:
                         break
         else:
-            age = date_translator.age(birthdate, data.game_state["date"])
+            age = date_kit.age(birthdate, data.game_state["date"])
         self.birthdate = birthdate
         self.age = age
 
@@ -221,10 +221,12 @@ class Person(CustomObject):
         attr = super().json_dump()
         if attr["party"] is not None:
             attr["party"] = attr["party"].tag
+        if attr["birthdate"] is not None:
+            attr["birthdate"] = attr["birthdate"].__repr__()
         return attr
 
     def do_turn(self):
-        new_age = date_translator.age(self.birthdate, data.game_state["date"])
+        new_age = date_kit.age(self.birthdate, data.game_state["date"])
         self.age = new_age
 
     def consider_parties(self, ballot):  # ballot is the tags (strings) of what parties are available in the region
@@ -278,12 +280,12 @@ class ParliamentMember(Person):
         if birthdate is None:
             while True:
                 age = round(random.gauss(50, 10))
-                birthdate = date_translator.random_date(int(data.game_state["date"].split('-')[0]) - age)
-                age = date_translator.age(birthdate, data.game_state["date"])
+                birthdate = date_kit.random_date(int(data.game_state["date"].year) - age)
+                age = date_kit.age(birthdate, data.game_state["date"])
                 if age >= 18:
                     break
         else:
-            age = date_translator.age(birthdate, data.game_state["date"])
+            age = date_kit.age(birthdate, data.game_state["date"])
         kwargs["age"] = age
         super().__init__(region, riding, values, values_importance, radicalism, party, name=name, gender=gender,
                          birthdate=birthdate, background=background, language=language, **kwargs)
@@ -981,7 +983,7 @@ def end_turn():
     data.imminent_progress.clear()
 
     data.game_state["turn"] += 1
-    data.game_state["date"] = date_translator.get_date(data.settings['turn_length'], data.game_state["date"])
+    data.game_state["date"].change_date(data.settings['turn_length'])
 
     start_turn()
 
