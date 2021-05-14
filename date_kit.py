@@ -40,6 +40,9 @@ class Date:
     def __repr__(self):
         return str(self.year) + '-' + str(self.month).rjust(2, '0') + '-' + str(self.day).rjust(2, '0')
 
+    def copy(self):
+        return Date(self.year, self.month, self.day)
+
     def change_date(self, dif):
         self.year, self.month, self.day = self.fdif(dif)
 
@@ -56,6 +59,9 @@ class Date:
             return True
         else:
             return False
+
+    def day_of_year(self):
+        return sum([get_month_length(m, self.year) for m in range(1, self.month)]) + self.day
 
     def fdif(self, dif):
         year = self.year
@@ -148,12 +154,6 @@ def date_dif(idate: Date, fdate: Date) -> int:
 
 
 if __name__ == "__main__":
-    # init_date = "2020-04-12"
-    date = Date(2020, 4, 12)
+    date = Date(2020, 3, 1)
     print(date)
-    # dif = random.randint(-100000, 100000)
-    # date = get_date(dif, init_date)
-    # print(date)
-    # print(date_as_text(date))
-    # print(age("2002-09-05", "2020-04-30"))
-    # print(date_dif("1970-05-01", "2021-05-14"))
+    print(date.day_of_year())
