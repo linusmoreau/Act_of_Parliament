@@ -1730,11 +1730,6 @@ class GraphDisplay(Widget):
     def sketch_axes(self):
         zero_loc = None
 
-        # Draw y-axis
-        # pygame.draw.line(self.surface, black,
-        #                  (self.x_margin, self.y_margin + self.graph_rect.h),
-        #                  (self.x_margin, self.y_margin))
-
         # Draw y-axis intervals
         font_size = BASE_FONT_SIZE
         num = int((self.y_max - self.y_min) / self.y_step)
@@ -1751,6 +1746,67 @@ class GraphDisplay(Widget):
                              (self.left_margin + self.graph_rect.w,
                               self.graph_rect.h + self.top_margin - self.graph_rect.h / num * i))
 
+        # Draw x-axis intervals
+        step = 1
+        num = self.x_max - self.x_min
+        if self.y_max <= 0:
+            alignment = BOTTOM
+        else:
+            alignment = TOP
+        if self.time:
+            if num < 60:
+                unit = 'day'
+            elif num < 365 * 3:
+                num = num / 30
+                unit = 'month'
+            else:
+                num = num / 365
+                unit = 'year'
+            while num > 12:
+                step *= 2
+                num = num / 2
+            place = self.x_min
+            min_date = self.initial_date.get_date(place)
+            if unit == 'month':
+                if min_date != 1:
+                    place += date_kit.get_month_length(min_date.month, min_date.year) + 1 - min_date.day
+            elif unit == 'year':
+                if min_date.month != 1 or min_date.day != 1:
+                    place += date_kit.get_year_length(min_date.year) + 1 - min_date.day_of_year()
+            while place <= self.x_max:
+                date = self.initial_date.get_date(place)
+                if unit == 'month':
+                    txt = date_kit.months[date.month][:3] + ' ' + str(date.year)
+                elif unit == 'year':
+                    txt = str(date.year)
+                else:
+                    txt = date.__repr__()
+                pos = (self.graph_rect.left + (place - self.x_min) * self.x_scale, self.rect.y + zero_loc)
+                self.x_axis_label(txt, pos, alignment, font_size)
+                self.x_axis_mark(pos)
+                if unit == 'month':
+                    y = date.year
+                    m = date.month
+                    for i in range(step):
+                        if m > 12:
+                            m -= 12
+                            y += 1
+                        place += date_kit.get_month_length(m, y)
+                        m += 1
+                elif unit == 'year':
+                    place += sum([date_kit.get_year_length(date.year + i) for i in range(step)])
+                else:
+                    place += step
+        else:
+            while num > 12:
+                step *= 2
+                num = num / 2
+            for x in range(int(num) * step, -1, -step):
+                txt = str(self.x_min + x)
+                pos = (self.graph_rect.left + x * self.x_scale, self.rect.y + zero_loc)
+                self.x_axis_label(txt, pos, alignment, font_size)
+                self.x_axis_mark(pos)
+
         # Draw x-axis
         if self.y_min >= 0:
             zero_loc = self.top_margin + self.graph_rect.h  # Bottom
@@ -1759,29 +1815,19 @@ class GraphDisplay(Widget):
         pygame.draw.line(self.surface, black,
                          (self.left_margin, zero_loc), (self.left_margin + self.graph_rect.w, zero_loc))
 
-        # Draw x-axis intervals
-        step = 1
-        num = self.x_max - self.x_min
-        while num > 12:
-            step *= 2
-            num = num / 2
-        for x in range(int(num) * step, -1, -step):
-            if self.y_max <= 0:
-                alignment = BOTTOM
-            else:
-                alignment = TOP
-            if self.time:
-                txt = date_translator.get_date(self.x_min + x * self.step, self.initial_date)
-            else:
-                txt = str(self.x_min + x)
-            t = Text(txt, (self.graph_rect.left + x * self.x_scale, self.rect.y + zero_loc + 10), font_size=font_size,
-                     align=alignment)
-            if alignment == BOTTOM:
-                t.rect.bottom -= font_size * FONT_ASPECT
-            else:
-                t.rect.top += font_size * FONT_ASPECT
-            # t.surface = pygame.transform.rotate(t.surface, 90)
-            self.components.append(t)
+    def x_axis_label(self, txt, pos, alignment, font_size):
+        t = Text(txt, pos, font_size=font_size, align=alignment)
+        if alignment == BOTTOM:
+            t.rect.bottom -= font_size * FONT_ASPECT
+        else:
+            t.rect.top += font_size * FONT_ASPECT
+        # t.surface = pygame.transform.rotate(t.surface, 90)
+        self.components.append(t)
+
+    def x_axis_mark(self, pos):
+        pygame.draw.line(self.surface, light_grey,
+                         (pos[0], self.top_margin + self.graph_rect.h),
+                         (pos[0], self.top_margin))
 
     def sketch_data(self):
         for line, points in self.dat_points.items():
