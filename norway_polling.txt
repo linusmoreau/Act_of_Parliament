@@ -1,0 +1,5516 @@
+=== 2021 ===
+{{for|events during the year|2021 in Norway}}
+{| class="wikitable mw-collapsible sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:100px;" rowspan="2"| Polling firm
+! style="width:130px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br />size
+! style="width:30px;" rowspan="2"| {{abbr|Resp.|Response rate}}
+! class="unsortable" style="width:40px;"| [[Red Party (Norway)|R]]
+! class="unsortable" style="width:40px;"| [[Socialist Left Party (Norway)|SV]]
+! class="unsortable" style="width:40px;"| [[Green Party (Norway)|MDG]]
+! class="unsortable" style="width:40px;"| [[Labour Party (Norway)|Ap]]
+! class="unsortable" style="width:40px;"| [[Centre Party (Norway)|Sp]]
+! class="unsortable" style="width:40px;"| [[Liberal Party (Norway)|V]]
+! class="unsortable" style="width:40px;"| [[Christian Democratic Party (Norway)|KrF]]
+! class="unsortable" style="width:40px;"| [[Conservative Party (Norway)|H]]
+! class="unsortable" style="width:40px;"| [[Progress Party (Norway)|FrP]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{Red Party (Norway)/meta/color}};"|
+! style="background:{{Socialist Left Party (Norway)/meta/color}};"|
+! style="background:{{Green Party (Norway)/meta/color}};"|
+! style="background:{{Labour Party (Norway)/meta/color}};"|
+! style="background:{{Centre Party (Norway)/meta/color}};"|
+! style="background:{{Liberal Party (Norway)/meta/color}};"|
+! style="background:{{Christian Democratic Party (Norway)/meta/color}};"|
+! style="background:{{Conservative Party (Norway)/meta/color}};"|
+! style="background:{{Progress Party (Norway)/meta/color}};"|
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4333 Respons Analyse]
+|5–10 May 2021
+|1,001
+|–
+|4.0
+|8.0
+|4.2
+|21.5
+|18.3
+|3.6
+|4.1
+|style="background:#DCE7F3;"| '''22.0'''
+|10.8
+|3.5
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.5"| 0.5
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4330 Norfakta]
+|4–5 May 2021
+|1,000
+|–
+|4.2
+|8.0
+|3.8
+|style="background:#F7BDC5;"| '''24.4'''
+|14.8
+|3.9
+|3.9
+|23.9
+|10.0
+|3.1
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.5"| 0.5
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4328 Norstat]
+|27 April–3 May 2021
+|958
+|–
+|4.4
+|8.8
+|4.0
+|style="background:#F7BDC5;"| '''23.1'''
+|17.5
+|3.1
+|4.2
+|21.1
+|11.3
+|2.4
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="2.0"| 2.0
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4327 Kantar TNS]
+|26–30 Apr 2021
+|976
+|–
+|4.6
+|8.1
+|2.1
+|21.1
+|18.4
+|4.1
+|4.5
+|style="background:#DCE7F3;"| '''24.3'''
+|8.6
+|4.1
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="3.2"| 3.2
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4325 Ipsos MMI]
+|26–28 Apr 2021
+|1,000
+|73.0
+|4.5
+|8.5
+|3.9
+|style="background:#F7BDC5;"| '''23.5'''
+|17.5
+|3.7
+|4.0
+|20.4
+|9.5
+|4.5
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="3.1"| 3.1
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4324 Norstat]
+|20–24 Apr 2021
+|963
+|–
+|3.7
+|7.4
+|3.6
+|style="background:#F7BDC5;"| '''25.6'''
+|17.8
+|3.1
+|3.8
+|21.8
+|10.0
+|3.2
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="3.8"| 3.8
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4304 Norstat]
+|7–20 Apr 2021
+|11,413
+|–
+|3.7
+|7.0
+|3.9
+|23.3
+|17.1
+|2.9
+|3.4
+|style="background:#DCE7F3;"| '''24.7'''
+|11.1
+|3.0
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.4"| 1.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4302 Sentio]
+|13–19 Apr 2021
+|1,000
+|–
+|4.1
+|7.3
+|4.4
+|style="background:#F7BDC5;"| '''24.8'''
+|17.1
+|2.9
+|3.1
+|24.1
+|10.0
+|2.1
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.7"| 0.7
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4298 Opinion Perduco]
+| data-sort-value="2021-04-14"| 14 Apr 2021{{Efn|name=nofield}}
+|–
+|–
+|4.0
+|7.7
+|5.7
+|style="background:#F7BDC5;"| '''23.1'''
+|19.0
+|3.3
+|3.1
+|21.7
+|9.5
+|3.0
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="1.4"| 1.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4297 Respons Analyse]
+| data-sort-value="2021-04-12"| 7–12 Apr 2021
+|1,000
+|75.0
+|4.8
+|7.7
+|4.4
+|25.4
+|14.0
+|3.2
+|3.2
+|style="background:#DCE7F3;"| '''26.6'''
+|8.3
+|2.4
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.2"| 1.2
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4296 Norfakta]
+| data-sort-value="2021-04-07"| 6–7 Apr 2021
+|1,000
+|74.0
+|4.0
+|9.8
+|4.1
+|22.5
+|18.8
+|1.9
+|2.4
+|style="background:#DCE7F3;"| '''24.2'''
+|10.5
+|1.7
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.7"| 1.7
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4295 Kantar TNS]
+| data-sort-value="2021-04-07"| 29 Mar–7 Apr 2021
+|1,002
+|–
+|4.0
+|8.4
+|4.3
+|20.6
+|18.7
+|2.3
+|4.1
+|style="background:#DCE7F3;"| '''24.2'''
+|10.2
+|2.7
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.6"| 3.6
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4293 Norstat]
+| data-sort-value="2021-03-28"| 23–28 Mar 2021
+|968
+|–
+|3.8
+|6.9
+|4.9
+|23.3
+|16.6
+|4.0
+|3.2
+|style="background:#DCE7F3;"| '''25.2'''
+|10.2
+|1.8
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.9"| 1.9
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4287 Ipsos MMI]
+| data-sort-value="2021-03-22"| 22–24 Mar 2021
+|1,000
+|77.0
+|4.9
+|7.4
+|3.4
+|style="background:#F7BDC5;"| '''24.3'''
+|16.7
+|2.9
+|2.9
+|20.9
+|11.5
+|5.1
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="3.4"| 3.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4283 Norstat]
+| data-sort-value="2021-03-21"| 16–21 Mar 2021
+|961
+|–
+|4.1
+|7.5
+|3.3
+|20.5
+|20.5
+|2.4
+|4.1
+|style="background:#DCE7F3;"| '''23.8'''
+|9.9
+|4.1
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.3"| 3.3
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4275 Sentio]
+|data-sort-value="2021-03-14"| 9–14 Mar 2021
+|1,000
+|–
+|4.1
+|7.8
+|3.3
+|style="background:#F7BDC5;"| '''23.5'''
+|18.6
+|2.9
+|2.4
+|22.7
+|12.0
+|2.7
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.8"| 0.8
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4272 Respons Analyse]
+|data-sort-value="2021-03-10"| 5–10 Mar 2021
+|1,001
+|–
+|4.7
+|7.7
+|3.6
+|22.2
+|18.6
+|3.3
+|2.5
+|style="background:#DCE7F3;"| '''27.8'''
+|7.8
+|1.8
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-5.6"| 5.6
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4271 Opinion Perduco]
+|data-sort-value="2021-03-08"| 1–8 Mar 2021
+|966
+|72.0
+|4.9
+|7.8
+|4.1
+|22.7
+|20.7
+|2.2
+|2.9
+|style="background:#DCE7F3;"| '''22.8'''
+|9.2
+|2.6
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.1"| 0.1
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4270 Norfakta]
+|data-sort-value="2021-03-03"| 2–3 Mar 2021
+|1,000
+|–
+|3.8
+|7.5
+|3.5
+|style="background:#F7BDC5;"| '''24.3'''
+|17.7
+|3.9
+|2.7
+|23.9
+|10.0
+|2.9
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.4"| 0.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4269 Norstat]
+|data-sort-value="2021-02-28"| 22–28 Feb 2021
+|957
+|–
+|2.8
+|7.4
+|3.9
+|21.0
+|22.2
+|2.8
+|3.9
+|style="background:#DCE7F3;"| '''24.6'''
+|9.7
+|1.6
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.4"| 2.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4268 Kantar TNS]
+|data-sort-value="2021-02-26"| 22–26 Feb 2021
+|981
+|–
+|6.8
+|8.6
+|4.0
+|18.2
+|19.2
+|2.9
+|3.3
+|style="background:#DCE7F3;"| '''25.6'''
+|7.2
+|4.2
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-6.4"| 6.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4266 Ipsos MMI]
+|data-sort-value="2021-02-24"| 22–24 Feb 2021
+|1,000
+|75.5
+|2.7
+|7.8
+|3.7
+|20.3
+|17.7
+|4.6
+|3.3
+|style="background:#DCE7F3;"| '''23.1'''
+|12.9
+|3.9
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.8"| 2.8
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4264 Norstat]
+|data-sort-value="2021-02-21"| 15–21 Feb 2021
+|961
+|–
+|4.8
+|6.1
+|5.2
+|20.6
+|18.6
+|2.3
+|3.6
+|style="background:#DCE7F3;"| '''27.6'''
+|8.3
+|3.0
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-7.0"| 7.0
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4255 Sentio]
+|data-sort-value="2021-02-14"| 9–14 Feb 2021
+|1,000
+|–
+|3.8
+|8.6
+|4.7
+|21.0
+|18.4
+|2.7
+|3.3
+|style="background:#DCE7F3;"| '''26.9'''
+|7.5
+|3.0
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-5.9"| 5.9
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4246 Opinion Perduco]
+| data-sort-value="2021-02-08"| 1–8 Feb 2021
+|964
+|–
+|2.9
+|7.4
+|4.0
+|24.6
+|19.1
+|3.2
+|3.2
+|style="background:#DCE7F3;"| '''25.1'''
+|8.1
+|2.5
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.5"| 0.5
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4245 Norfakta]
+| data-sort-value="2021-02-03"| 2–3 Feb 2021
+|1,000
+|–
+|3.8
+|7.5
+|5.0
+|21.3
+|19.7
+|4.0
+|2.7
+|style="background:#DCE7F3;"| '''27.3'''
+|6.4
+|2.3
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-6.0"| 6.0
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4243 Respons Analyse]
+| data-sort-value="2021-02-02"| 27 Jan–2 Feb 2021
+|1,000
+|–
+|4.2
+|7.3
+|3.8
+|22.8
+|18.8
+|1.9
+|3.4
+|style="background:#DCE7F3;"| '''26.3'''
+|8.7
+|2.8
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.5"| 3.5
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4244 Norstat]
+| data-sort-value="2021-01-31"| 25–31 Jan 2021
+|945
+|74.7
+|3.9
+|8.3
+|4.8
+|20.7
+|21.9
+|2.4
+|3.5
+|style="background:#DCE7F3;"| '''22.8'''
+|8.3
+|3.3
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.9"| 0.9
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4242 Kantar TNS]
+| data-sort-value="2021-01-29"| 25–29 Jan 2021
+|974
+|76.2
+|5.2
+|5.9
+|5.0
+|20.0
+|19.9
+|4.2
+|2.8
+| style="background:#DCE7F3;"| '''25.3'''
+|7.7
+|4.1
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-5.3"| 5.3
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4241 Ipsos MMI]
+| data-sort-value="2021-01-27"| 25–27 Jan 2021
+|1,000
+|73.4
+|5.3
+|7.7
+|1.8
+|20.4
+|21.4
+|2.5
+|2.9
+| style="background:#DCE7F3;"| '''25.4'''
+|9.5
+|3.1
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-4.0"| 4.0
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4240 Norstat]
+| data-sort-value="2021-01-18"| 18–24 Jan 2021
+|954
+|–
+|3.8
+|7.6
+|3.0
+|24.2
+|19.6
+|1.6
+|2.7
+| style="background:#DCE7F3;"| '''25.6'''
+|10.0
+|1.9
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.4"| 1.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4237 Sentio]
+| data-sort-value="2021-01-16"| 12–16 Jan 2021
+|1,000
+|–
+|3.3
+|7.8
+|6.4
+|21.3
+|19.6
+|2.6
+|2.9
+| style="background:#DCE7F3;"| '''23.0'''
+|8.4
+|4.6
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.8"| 1.8
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4236 InFact]
+| data-sort-value="2021-01-13"| 13 Jan 2021
+|3,245
+|–
+|4.0
+|8.7
+|5.8
+|18.4
+|20.5
+|2.1
+|4.7
+| style="background:#DCE7F3;"| '''24.1'''
+|8.6
+|3.1
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.6"| 3.6
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4235 Opinion Perduco]
+| data-sort-value="2021-01-13"| 13 Jan 2021
+|–
+|–
+|4.4
+|8.0
+|3.4
+|19.0
+|20.1
+|2.7
+|3.4
+| style="background:#DCE7F3;"| '''26.9'''
+|9.8
+|2.3
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-6.8"| 6.8
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4234 Kantar TNS]
+| data-sort-value="2021-01-08"| 4–8 Jan 2021
+|976
+|–
+|5.3
+|7.6
+|3.4
+|22.4
+|21.7
+|2.3
+|3.3
+| style="background:#DCE7F3;"| '''24.2'''
+|7.4
+|2.2
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.8"| 1.8
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4233 Norfakta]
+| data-sort-value="2021-01-06"| 5–6 Jan 2021
+|1,001
+|78.0
+|3.1
+|8.2
+|4.5
+|17.5
+|22.6
+|2.7
+|3.4
+| style="background:#DCE7F3;"| '''24.3'''
+|11.1
+|2.6
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.7"| 1.7
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4232 Respons Analyse]
+| data-sort-value="2021-01-06"| 4–6 Jan 2021
+|1,000
+|–
+|3.4
+|7.7
+|3.8
+|20.5
+|19.2
+|3.4
+|3.4
+| style="background:#DCE7F3;"| '''26.5'''
+|9.3
+|2.8
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-6.0"| 6.0
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4231 Norstat]
+| data-sort-value="2021-01-02"| 28 Dec 2020–2 Jan 2021
+|962
+|–
+|3.7
+|8.9
+|3.9
+|20.1
+|21.3
+|2.5
+|3.7
+| style="background:#DCE7F3;"| '''22.6'''
+|11.3
+|2.0
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.3"| 1.3
+|- style="background:#E9E9E9;"
+|}
+=== 2020 ===
+{{for|events during the year|2020 in Norway}}
+{| class="wikitable mw-collapsible mw-collapsed sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:100px;" rowspan="2"| Polling firm
+! style="width:130px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br />size
+! style="width:30px;" rowspan="2"| {{abbr|Resp.|Response rate}}
+! class="unsortable" style="width:40px;"| [[Red Party (Norway)|R]]
+! class="unsortable" style="width:40px;"| [[Socialist Left Party (Norway)|SV]]
+! class="unsortable" style="width:40px;"| [[Green Party (Norway)|MDG]]
+! class="unsortable" style="width:40px;"| [[Labour Party (Norway)|Ap]]
+! class="unsortable" style="width:40px;"| [[Centre Party (Norway)|Sp]]
+! class="unsortable" style="width:40px;"| [[Liberal Party (Norway)|V]]
+! class="unsortable" style="width:40px;"| [[Christian Democratic Party (Norway)|KrF]]
+! class="unsortable" style="width:40px;"| [[Conservative Party (Norway)|H]]
+! class="unsortable" style="width:40px;"| [[Progress Party (Norway)|FrP]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{Red Party (Norway)/meta/color}};"|
+! style="background:{{Socialist Left Party (Norway)/meta/color}};"|
+! style="background:{{Green Party (Norway)/meta/color}};"|
+! style="background:{{Labour Party (Norway)/meta/color}};"|
+! style="background:{{Centre Party (Norway)/meta/color}};"|
+! style="background:{{Liberal Party (Norway)/meta/color}};"|
+! style="background:{{Christian Democratic Party (Norway)/meta/color}};"|
+! style="background:{{Conservative Party (Norway)/meta/color}};"|
+! style="background:{{Progress Party (Norway)/meta/color}};"|
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4227 Ipsos MMI]
+| data-sort-value="2020-12-16"| 14–16 Dec 2020
+|1,000
+|73.2
+|3.7
+|7.5
+|3.9
+|21.1
+| style="background:#BADECC;"| '''22.3'''
+|3.5
+|3.8
+|18.9
+|12.9
+|2.4
+|style="background:{{Centre Party (Norway)/meta/color}};color:white;" data-sort-value="-1.2"| 1.2
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4226 Norstat]
+| data-sort-value="2020-12-13"| 7–13 Dec 2020
+|952
+|–
+|3.3
+|8.0
+|3.8
+|21.4
+|21.3
+|3.1
+|3.8
+| style="background:#DCE7F3;"| '''21.8'''
+|12.1
+|1.4
+|style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.4"| 0.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4222 Opinion Perduco]
+| data-sort-value="2020-12-10"| 1–7 Dec 2020
+|962
+|72.0
+|3.8
+|6.9
+|4.5
+|21.8
+|22.2
+|2.4
+|3.4
+| style="background:#DCE7F3;"| '''22.9'''
+|10.9
+|1.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.7"| 0.7
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4219 Norfakta]
+| data-sort-value="2020-12-02"| 1–2 Dec 2020
+|1,000
+|81.0
+|4.1
+|7.1
+|4.3
+|21.1
+|20.1
+|2.9
+|2.6
+| style="background:#DCE7F3;"| '''23.0'''
+|12.4
+|2.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.9"| 1.9
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4216 Kantar TNS]
+| data-sort-value="2020-11-30"| 24–30 Nov 2020
+|984
+|81.0
+|6.4
+|8.1
+|4.0
+|20.4
+| style="background:#BADECC;"| '''22.1'''
+|4.0
+|3.3
+|20.2
+|8.8
+|2.8
+| style="background:{{Centre Party (Norway)/meta/color}};color:white;" data-sort-value="-1.7"| 1.7
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4217 Respons Analyse]
+| data-sort-value="2020-11-30"| 25–30 Nov 2020
+|1,000
+|–
+|3.7
+|8.1
+|4.5
+|20.3
+|20.5
+|4.1
+|3.8
+| style="background:#DCE7F3;"| '''22.9'''
+|10.9
+|1.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.4"| 2.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4218 Sentio]
+| data-sort-value="2020-11-29"| 24–29 Nov 2020
+|1,000
+|–
+|4.0
+|7.0
+|4.0
+|22.4
+|18.4
+|2.9
+|3.4
+| style="background:#DCE7F3;"| '''26.5'''
+|8.8
+|2.6
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-4.1"| 4.1
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4208 Ipsos MMI]
+| data-sort-value="2020-11-18"| 16–18 Nov 2020
+|1,000
+|70.2
+|3.1
+|7.4
+|5.3
+| style="background:#F7BDC5;"| '''21.5'''
+|18.6
+|4.6
+|3.4
+|20.4
+|11.9
+|3.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="1.1"| 1.1
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4207 Norstat]
+| data-sort-value="2020-11-15"| 9–15 Nov 2020
+|952
+|–
+|4.0
+|7.4
+|4.2
+|20.9
+|19.3
+|3.0
+|2.9
+| style="background:#DCE7F3;"| '''21.9'''
+|12.6
+|3.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.0"| 1.0
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4204 Opinion Perduco]
+| data-sort-value="2020-11-09"| 3–9 Nov 2020
+|969
+|–
+|4.2
+|8.1
+|5.0
+|20.4
+|17.8
+|3.4
+|4.2
+| style="background:#DCE7F3;"| '''24.6'''
+|10.9
+|1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-4.2"| 4.2
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4203 Norfakta]
+| data-sort-value="2020-11-04"| 3–4 Nov 2020
+|1,000
+|–
+|4.1
+|6.7
+|4.0
+|23.4
+|17.7
+|2.5
+|3.4
+| style="background:#DCE7F3;"| '''24.7'''
+|11.2
+|2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.3"| 1.3
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4202 Sentio]
+| data-sort-value="2020-11-03"| 27 Oct–3 Nov 2020
+|1,000
+|–
+|3.4
+|7.6
+|3.5
+|21.9
+|16.4
+|3.0
+|4.2
+| style="background:#DCE7F3;"| '''25.0'''
+|13.4
+|1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.1"| 3.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4200 Respons Analyse]
+| data-sort-value="2020-10-31"| 28–31 Oct 2020
+|1,000
+|–
+|4.1
+|5.7
+|4.9
+| style="background:#F7BDC5;"| '''22.0'''
+|18.9
+|3.9
+|3.5
+|21.6
+|13.9
+|1.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.4"| 0.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4201 Kantar TNS]
+| data-sort-value="2020-10-30"| 26–30 Oct 2020
+|986
+|79.2
+|4.9
+|7.8
+|4.0
+|20.5
+|19.8
+|4.1
+|2.8
+| style="background:#DCE7F3;"| '''22.1'''
+|11.5
+|2.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.6"| 1.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4199 Norstat]
+| data-sort-value="2020-10-25"| 20–25 Oct 2020
+|942
+|75.0
+|3.3
+|7.9
+|4.3
+|23.5
+|14.9
+|3.3
+|3.3
+| style="background:#DCE7F3;"| '''25.2'''
+|12.3
+|2.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.7"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4197 Ipsos MMI]
+| data-sort-value="2020-10-21"| 19–21 Oct 2020
+|1,000
+|72.6
+|5.4
+|6.3
+|4.7
+|19.5
+|17.8
+|2.6
+|3.7
+| style="background:#DCE7F3;"| '''22.3'''
+|12.7
+|5.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.8"| 2.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4196 Norstat]
+| data-sort-value="2020-10-18"| 12–18 Oct 2020
+|962
+|–
+|4.1
+|6.0
+|3.7
+|23.5
+|16.6
+|3.0
+|3.4
+| style="background:#DCE7F3;"| '''24.3'''
+|13.2
+|2.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.8"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4187 Sentio]
+| data-sort-value="2020-10-12"| 6–12 Oct 2020
+| 1,000
+| –
+| 3.3
+| 6.6
+| 4.2
+| 20.8
+| 19.8
+| 3.3
+| 3.5
+| style="background:#DCE7F3;"| '''23.6'''
+| 13.5
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.8"| 2.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4187 Norfakta]
+| data-sort-value="2020-10-07"| 6–7 Oct 2020
+| 1,001
+| 77.0
+| 4.4
+| 6.6
+| 5.6
+| 21.0
+| 17.0
+| 3.9
+| 3.4
+| style="background:#DCE7F3;"| '''22.9'''
+| 13.1
+| 2.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.9"| 1.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4186 Opinion Perduco]
+| data-sort-value="2020-10-04"| 29 Sep–4 Oct 2020
+| 955
+| –
+| 4.6
+| 7.3
+| 3.1
+| 22.0
+| 14.2
+| 4.2
+| 2.9
+| style="background:#DCE7F3;"| '''27.4'''
+| 12.5
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-5.4"| 5.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4185 Kantar TNS]
+| data-sort-value="2020-09-30"| 28 Sep–2 Oct 2020
+| 974
+| 73.2
+| 6.1
+| 7.2
+| 4.7
+| 18.4
+| 16.2
+| 4.3
+| 5.1
+| style="background:#DCE7F3;"| '''24.0'''
+| 12.8
+| 1.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-5.6"| 5.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4184 Respons Analyse]
+| data-sort-value="2020-09-30"| 28–30 Sep 2020
+| 1,001
+| –
+| 4.3
+| 8.1
+| 4.6
+| 22.7
+| 14.0
+| 3.6
+| 3.1
+| style="background:#DCE7F3;"| '''26.5'''
+| 11.6
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.8"| 3.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4183 Norstat]
+| data-sort-value="2020-09-27"| 21–27 Sep 2020
+| 956
+| 72.8
+| 5.2
+| 7.1
+| 4.9
+| 21.7
+| 13.1
+| 3.6
+| 3.0
+| style="background:#DCE7F3;"| '''24.1'''
+| 14.4
+| 2.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.4"| 2.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4182 Ipsos MMI]
+| data-sort-value="2020-09-25"| 21–25 Sep 2020
+| 713
+| –
+| 3.6
+| 8.4
+| 3.5
+| 22.4
+| 15.2
+| 3.6
+| 4.6
+| style="background:#DCE7F3;"| '''22.7'''
+| 13.9
+| 2.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.3"| 0.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4181 Norstat]
+| data-sort-value="2020-09-20"| 14–20 Sep 2020
+| 948
+| –
+| 3.4
+| 7.8
+| 4.2
+| 22.6
+| 14.3
+| 3.2
+| 4.1
+| style="background:#DCE7F3;"| '''25.3'''
+| 13.3
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.7"| 2.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4180 Sentio]
+| data-sort-value="2020-09-14"| 8–14 Sep 2020
+| 1,000
+| –
+| 4.0
+| 7.2
+| 4.3
+| 21.8
+| 14.6
+| 2.6
+| 3.5
+| style="background:#DCE7F3;"| '''24.8'''
+| 14.7
+| 2.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.0"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4170 Opinion Perduco]
+| data-sort-value="2020-09-07"| 1–7 Sep 2020
+| 975
+| –
+| 4.4
+| 6.9
+| 7.5
+| 19.9
+| 16.0
+| 2.5
+| 3.9
+| style="background:#DCE7F3;"| '''27.0'''
+| 10.3
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-7.1"| 7.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4165 Norfakta]
+| data-sort-value="2020-09-02"| 1–2 Sep 2020
+| 1,000
+| 78.0
+| 3.3
+| 8.1
+| 3.5
+| 24.7
+| 13.4
+| 2.9
+| 4.1
+| style="background:#DCE7F3;"| '''25.6'''
+| 12.8
+| 1.6
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.9"| 0.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4164 Kantar TNS]
+| data-sort-value="2020-09-01"| 25 Aug–1 Sep 2020
+| 1,182
+| 79.6
+| 5.5
+| 9.6
+| 5.7
+| style="background:#F7BDC5;"| '''24.7'''
+| 13.6
+| 3.2
+| 3.9
+| 19.6
+| 11.4
+| 2.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="5.1"| 5.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4161 Respons Analyse]
+| data-sort-value="2020-08-31"| 26–31 Aug 2020
+| 1,000
+| –
+| 3.9
+| 6.8
+| 4.5
+| 24.3
+| 14.7
+| 4.0
+| 3.3
+| style="background:#DCE7F3;"| '''24.8'''
+| 11.5
+| 2.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.5"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4162 Norstat]
+| data-sort-value="2020-08-31"| 24–31 Aug 2020
+| 944
+| –
+| 3.8
+| 8.1
+| 4.1
+| 24.0
+| 12.2
+| 3.4
+| 2.8
+| style="background:#DCE7F3;"| '''28.3'''
+| 11.4
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-4.3"| 4.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4160 Norstat]
+| data-sort-value="2020-08-23"| 17–23 Aug 2020
+| 952
+| –
+| 4.2
+| 7.9
+| 4.9
+| 24.0
+| 14.0
+| 3.2
+| 3.7
+| style="background:#DCE7F3;"| '''26.8'''
+| 9.7
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.8"| 2.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4158 Ipsos MMI]
+| data-sort-value="2020-08-19"| 17–19 Aug 2020
+| 1,000
+| 71.5
+| 4.4
+| 7.1
+| 5.8
+| style="background:#F7BDC5;"| '''24.8'''
+| 13.9
+| 3.1
+| 3.5
+| 24.3
+| 11.7
+| 1.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.5"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4157 Sentio]
+| data-sort-value="2020-08-16"| 11–16 Aug 2020
+| 1,000
+| –
+| 4.1
+| 8.0
+| 3.9
+| 23.1
+| 12.6
+| 2.1
+| 2.6
+| style="background:#DCE7F3;"| '''28.7'''
+| 12.8
+| 2.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-5.6"| 5.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4156 Respons Analyse]
+| data-sort-value="2020-08-11"| 6–11 Aug 2020
+| 1,001
+| –
+| 3.8
+| 7.6
+| 5.2
+| style="background:#F7BDC5;"| '''25.5'''
+| 14.4
+| 3.6
+| 3.9
+| 23.0
+| 10.4
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="2.5"| 2.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4155 Norstat]
+| data-sort-value="2020-08-10"| 4–10 Aug 2020
+| 950
+| –
+| 3.8
+| 6.8
+| 4.7
+| 24.2
+| 13.8
+| 2.8
+| 4.1
+| style="background:#DCE7F3;"| '''24.7'''
+| 13.0
+| 2.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.5"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4154 Kantar TNS]
+| data-sort-value="2020-08-07"| 4–7 Aug 2020
+| 980
+| 76.7
+| 4.6
+| 7.5
+| 5.2
+| style="background:#F7BDC5;"| '''25.4'''
+| 15.0
+| 2.3
+| 4.5
+| 25.0
+| 9.4
+| 1.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.4"| 0.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4153 Norfakta]
+| data-sort-value="2020-08-05"| 4–5 Aug 2020
+| 1,001
+| –
+| 4.1
+| 7.2
+| 6.1
+| style="background:#F7BDC5;"| '''26.6'''
+| 13.2
+| 2.5
+| 3.6
+| 23.5
+| 12.5
+| 0.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="3.1"| 3.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4152 InFact]
+| data-sort-value="2020-08-04"| 4 Aug 2020
+| 1,024
+| –
+| 5.8
+| 7.3
+| 5.4
+| 21.8
+| 14.1
+| 3.7
+| 5.2
+| style="background:#DCE7F3;"| '''25.1'''
+| 9.3
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.3"| 3.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4151 Opinion Perduco]
+| data-sort-value="2020-08-03"| 29 Jul–3 Aug 2020
+| 967
+| 72.0
+| 4.3
+| 6.1
+| 4.6
+| 24.6
+| 15.1
+| 3.1
+| 3.3
+| style="background:#DCE7F3;"| '''27.7'''
+| 9.8
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.1"| 3.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4150 Norfakta]
+| data-sort-value="2020-07-08"| 7–8 Jul 2020
+| 1,000
+| –
+| 4.2
+| 6.9
+| 4.9
+| style="background:#F7BDC5;"| '''27.3'''
+| 13.7
+| 3.5
+| 3.8
+| 23.9
+| 10.5
+| 1.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" | 3.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4148 Kantar TNS]
+| data-sort-value="2020-06-30"| 24–30 Jun 2020
+| 985
+| 78.6
+| 5.8
+| 8.1
+| 5.2
+| 20.8
+| 12.7
+| 2.9
+| 3.9
+| style="background:#DCE7F3;"| '''27.7'''
+| 10.6
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-6.9"| 6.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4146 Ipsos MMI]
+| data-sort-value="2020-06-24"| 22–24 Jun 2020
+| 1,000
+| –
+| 3.0
+| 8.2
+| 5.9
+| 25.0
+| 13.3
+| 3.1
+| 3.2
+| style="background:#DCE7F3;"| '''25.2'''
+| 11.0
+| 2.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.2"| 0.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4145 Norstat]
+| data-sort-value="2020-06-21"| 15–21 Jun 2020
+| 1,000
+| –
+| 4.9
+| 6.8
+| 4.8
+| style="background:#F7BDC5;"| '''24.9'''
+| 13.0
+| 2.7
+| 4.3
+| 24.8
+| 11.5
+| 2.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" | 0.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4144 Sentio]
+| data-sort-value="2020-06-13"| 9–13 Jun 2020
+| 1,000
+| –
+| 5.1
+| 6.9
+| 5.4
+| style="background:#F7BDC5;"| '''24.2'''
+| 14.0
+| 4.4
+| 2.5
+| style="background:#DCE7F3;"| '''24.2'''
+| 11.3
+| 2.0
+| data-sort-value="0"| Tie
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4142 Opinion Perduco]
+| data-sort-value="2020-06-08"| 2–8 Jun 2020
+| 969
+| 72.0
+| 4.3
+| 7.2
+| 5.6
+| style="background:#F7BDC5;"| '''25.2'''
+| 14.6
+| 3.5
+| 3.9
+| 24.4
+| 10.4
+| 0.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" | 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4140 Respons Analyse]
+| data-sort-value="2020-06-04"| 2–4 Jun 2020
+| 1,002
+| –
+| 4.7
+| 6.8
+| 5.3
+| 23.5
+| 14.5
+| 3.1
+| 3.7
+| style="background:#DCE7F3;"| '''24.2'''
+| 12.4
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.7"| 0.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4139 Norfakta]
+| data-sort-value="2020-06-03"| 2–3 Jun 2020
+| 1,002
+| –
+| 4.9
+| 7.2
+| 3.9
+| 23.5
+| 14.6
+| 3.0
+| 4.5
+| style="background:#DCE7F3;"| '''24.1'''
+| 12.3
+| 2.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.6"| 0.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4137 Norstat]
+| data-sort-value="2020-06-01"| 26 May–1 Jun 2020
+| 949
+| 72.9
+| 4.8
+| 6.9
+| 5.6
+| 23.4
+| 14.6
+| 2.4
+| 3.4
+| style="background:#DCE7F3;"| '''25.8'''
+| 12.0
+| 1.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.4"| 2.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4138 Kantar TNS]
+| data-sort-value="2020-05-29"| 25–29 May 2020
+| 982
+| 78.6
+| 4.7
+| 7.3
+| 4.8
+| 23.5
+| 13.8
+| 1.6
+| 3.5
+| style="background:#DCE7F3;"| '''27.3'''
+| 11.9
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-3.8"| 3.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4135 Ipsos MMI]
+| data-sort-value="2020-05-28"| 25–28 May 2020
+| 905
+| 77.6
+| 3.8
+| 7.6
+| 6.2
+| style="background:#F7BDC5;"| '''25.5'''
+| 13.0
+| 3.6
+| 2.6
+| 25.4
+| 10.0
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="0.1"| 0.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4134 Norstat]
+| data-sort-value="2020-05-25"| 19–25 May 2020
+| 957
+| –
+| 4.6
+| 5.5
+| 5.0
+| 25.8
+| 15.0
+| 2.0
+| 3.2
+| style="background:#DCE7F3;"| '''26.2'''
+| 12.1
+| 0.6
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.4"| 0.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4133 Sentio]
+| data-sort-value="2020-05-16"| 12–16 May 2020
+| 1,000
+| –
+| 3.3
+| 7.1
+| 4.4
+| 25.5
+| 13.5
+| 3.3
+| 4.0
+| style="background:#DCE7F3;"| '''26.0'''
+| 11.0
+| 2.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.5"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4131 Opinion Perduco]
+| data-sort-value="2020-05-10"| 5–10 May 2020
+| 970
+| –
+| 3.7
+| 6.6
+| 5.6
+| 26.7
+| 12.0
+| 2.7
+| 3.6
+| style="background:#DCE7F3;"| '''28.3'''
+| 9.6
+| 1.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.6"| 1.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4129 Norfakta]
+| data-sort-value="2020-05-06"| 5–6 May 2020
+| 1,000
+| 81.0
+| 4.3
+| 8.0
+| 4.4
+| 25.1
+| 13.5
+| 3.3
+| 4.1
+| style="background:#DCE7F3;"| '''26.9'''
+| 9.1
+| 1.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.8"| 1.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4128 Respons Analyse]
+| data-sort-value="2020-05-05"| 30 Apr–5 May 2020
+| 1,000
+| –
+| 3.5
+| 6.2
+| 5.0
+| style="background:#F7BDC5;"| '''27.0'''
+| 14.7
+| 3.0
+| 3.6
+| 26.5
+| 9.4
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4127 Norstat]
+| data-sort-value="2020-05-04"| 27 Apr–4 May 2020
+| 957
+| 74.4
+| 3.3
+| 6.6
+| 5.2
+| 24.7
+| 15.3
+| 3.1
+| 3.2
+| style="background:#DCE7F3;"| '''26.5'''
+| 10.1
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.8"| 1.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4126 Kantar TNS]
+| data-sort-value="2020-04-29"| 27–29 Apr 2020
+| 988
+| 72.9
+| 5.3
+| 5.6
+| 3.9
+| 26.8
+| 14.6
+| 3.4
+| 3.0
+| style="background:#DCE7F3;"| '''28.0'''
+| 8.0
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.2"| 1.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4125 Norstat]
+| data-sort-value="2020-04-26"| 20–26 Apr 2020
+| 955
+| –
+| 3.7
+| 6.6
+| 3.9
+| 24.6
+| 15.6
+| 3.3
+| 3.2
+| style="background:#DCE7F3;"| '''26.8'''
+| 11.4
+| 0.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.2"| 2.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4122 Ipsos MMI]
+| data-sort-value="2020-04-22"| 20–22 Apr 2020
+| 1,000
+| 72.4
+| 4.9
+| 8.5
+| 4.2
+| 24.5
+| 14.2
+| 3.1
+| 4.1
+| style="background:#DCE7F3;"| '''25.3'''
+| 9.7
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-0.8"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4121 Sentio]
+| data-sort-value="2020-04-20"| 14–20 Apr 2020
+| 1,000
+| –
+| 3.2
+| 6.5
+| 4.9
+| 24.5
+| 14.0
+| 3.3
+| 3.7
+| style="background:#DCE7F3;"| '''26.7'''
+| 12.0
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.9"| 1.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4120 Opinion Perduco]
+| data-sort-value="2020-04-05"| 31 Mar–5 Apr 2020
+| 1,000
+| –
+| 3.7
+| 5.9
+| 4.7
+| 25.7
+| 13.8
+| 2.9
+| 3.0
+| style="background:#DCE7F3;"| '''27.3'''
+| 11.6
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-1.6"| 1.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4119 Norfakta]
+| data-sort-value="2020-04-01"| 31 Mar–1 Apr 2020
+| 1,000
+| –
+| 2.5
+| 9.1
+| 5.0
+| 23.3
+| 14.7
+| 3.3
+| 4.1
+| style="background:#DCE7F3;"| '''25.9'''
+| 11.1
+| 1.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:white;" data-sort-value="-2.6"| 2.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4118 Respons Analyse]
+| data-sort-value="2020-04-01"| 26 Mar–1 Apr 2020
+| 1,000
+| –
+| 3.5
+| 7.3
+| 4.2
+| style="background:#F7BDC5;"| '''26.7'''
+| 13.5
+| 2.8
+| 3.2
+| 25.2
+| 12.4
+| 1.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4117 Kantar TNS]
+| data-sort-value="2020-03-31"| 25–31 Mar 2020
+| 980
+| 74.1
+| 3.8
+| 7.0
+| 4.6
+| style="background:#F7BDC5;"| '''24.8'''
+| 14.8
+| 2.3
+| 4.1
+| 24.6
+| 12.3
+| 1.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4116 Norstat]
+| data-sort-value="2020-03-29"| 23–29 Mar 2020
+| 953
+| 75.7
+| 3.7
+| 7.2
+| 3.7
+| style="background:#F7BDC5;"| '''25.7'''
+| 15.3
+| 3.6
+| 2.8
+| 24.9
+| 12.0
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4113 Norstat]
+| data-sort-value="2020-03-23"| 16–23 Mar 2020
+| 952
+| –
+| 4.1
+| 7.6
+| 3.8
+| style="background:#F7BDC5;"| '''26.7'''
+| 14.6
+| 2.2
+| 3.2
+| 23.3
+| 12.7
+| 2.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4112 Ipsos MMI]
+| data-sort-value="2020-03-20"| 18–20 Mar 2020
+| 1,000
+| 64.9
+| 4.7
+| 9.0
+| 4.4
+| style="background:#F7BDC5;"| '''24.9'''
+| 17.4
+| 2.6
+| 3.7
+| 20.8
+| 11.4
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4111 Sentio]
+| data-sort-value="2020-03-16"| 10–16 Mar 2020
+| 1,000
+| –
+| 2.7
+| 7.1
+| 7.3
+| style="background:#F7BDC5;"| '''24.3'''
+| 17.5
+| 3.4
+| 3.4
+| 18.8
+| 13.0
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4110 Opinion Perduco]
+| data-sort-value="2020-03-09"| 3–9 Mar 2020
+| 970
+| –
+| 3.9
+| 6.9
+| 6.7
+| style="background:#F7BDC5;"| '''24.0'''
+| 18.3
+| 3.5
+| 3.1
+| 18.8
+| 13.5
+| 1.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4109 Norfakta]
+| data-sort-value="2020-03-04"| 3–4 Mar 2020
+| 1,000
+| 78.0
+| 5.1
+| 7.0
+| 7.0
+| style="background:#F7BDC5;"| '''25.8'''
+| 15.9
+| 2.5
+| 2.9
+| 20.6
+| 12.0
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4107 Respons Analyse]
+| data-sort-value="2020-03-02"| 27 Feb–2 Mar 2020
+| 1,000
+| –
+| 5.4
+| 7.2
+| 5.1
+| style="background:#F7BDC5;"| '''24.9'''
+| 16.7
+| 3.3
+| 3.5
+| 17.9
+| 14.6
+| 1.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 7.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4108 Norstat]
+| data-sort-value="2020-03-02"| 24 Feb–2 Mar 2020
+| 949
+| 72.7
+| 4.6
+| 8.4
+| 4.9
+| style="background:#F7BDC5;"| '''23.7'''
+| 16.4
+| 2.7
+| 4.1
+| 19.9
+| 13.2
+| 2.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4104 Kantar TNS]
+| data-sort-value="2020-02-28"| 24–28 Feb 2020
+| 961
+| 78.4
+| 4.1
+| 8.5
+| 5.6
+| style="background:#F7BDC5;"| '''21.5'''
+| 17.6
+| 3.7
+| 3.0
+| 19.8
+| 13.7
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4103 Norstat]
+| data-sort-value="2020-02-23"| 17–23 Feb 2020
+| –
+| –
+| 4.7
+| 6.5
+| 6.3
+| style="background:#F7BDC5;"| '''24.0'''
+| 15.7
+| 4.4
+| 3.5
+| 18.9
+| 14.3
+| 1.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4102 Ipsos MMI]
+| data-sort-value="2020-02-19"| 17–19 Feb 2020
+| 1,000
+| 72.6
+| 3.5
+| 7.1
+| 5.4
+| style="background:#F7BDC5;"| '''25.8'''
+| 14.8
+| 3.5
+| 3.6
+| 18.8
+| 14.2
+| 3.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 7.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4099 Sentio]
+| data-sort-value="2020-02-17"| 11–17 Feb 2020
+| –
+| –
+| 3.9
+| 7.2
+| 6.8
+| style="background:#F7BDC5;"| '''23.6'''
+| 14.1
+| 3.8
+| 3.9
+| 19.7
+| 14.6
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4096 Opinion Perduco]
+| data-sort-value="2020-02-10"| 4–10 Feb 2020
+| 969
+| –
+| 5.3
+| 6.5
+| 4.6
+| style="background:#F7BDC5;"| '''25.1'''
+| 15.2
+| 4.2
+| 3.5
+| 19.4
+| 15.1
+| 1.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4092 Norfakta]
+| data-sort-value="2020-02-05"| 4–5 Feb 2020
+| 1,000
+| –
+| 4.2
+| 7.6
+| 5.2
+| style="background:#F7BDC5;"| '''22.2'''
+| 15.9
+| 4.4
+| 4.5
+| 19.4
+| 14.9
+| 1.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4089 Respons Analyse]
+| data-sort-value="2020-02-03"| 30 Jan–3 Feb 2020
+| 1,002
+| –
+| 4.6
+| 6.7
+| 5.5
+| style="background:#F7BDC5;"| '''24.9'''
+| 13.9
+| 2.7
+| 4.2
+| 19.9
+| 15.3
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4090 Norstat]
+| data-sort-value="2020-02-02"| 27 Jan–2 Feb 2020
+| 952
+| –
+| 5.0
+| 6.1
+| 4.3
+| style="background:#F7BDC5;"| '''23.2'''
+| 17.3
+| 3.3
+| 4.4
+| 18.3
+| 16.0
+| 2.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4088 Kantar TNS]
+| data-sort-value="2020-01-31"| 27–31 Jan 2020
+| 990
+| 80.3
+| 4.3
+| 7.7
+| 5.9
+| style="background:#F7BDC5;"| '''24.2'''
+| 15.0
+| 4.0
+| 4.3
+| 17.8
+| 15.7
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4085 Sentio]
+| data-sort-value="2020-01-27"| 24–27 Jan 2020
+| 1,007
+| –
+| 6.9
+| 7.7
+| 4.9
+| style="background:#F7BDC5;"| '''25.6'''
+| 12.5
+| 2.0
+| 3.9
+| 16.2
+| 17.5
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 8.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4086 Norstat]
+| data-sort-value="2020-01-27"| 21–27 Jan 2020
+| –
+| –
+| 3.7
+| 7.6
+| 4.9
+| style="background:#F7BDC5;"| '''26.8'''
+| 12.8
+| 3.0
+| 4.0
+| 21.0
+| 14.7
+| 1.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4082 Ipsos MMI]
+| data-sort-value="2020-01-22"| 20–22 Jan 2020
+| 1,000
+| 75.2
+| 4.1
+| 5.9
+| 3.5
+| style="background:#F7BDC5;"| '''25.9'''
+| 16.4
+| 3.7
+| 2.8
+| 19.7
+| 15.7
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4079 Kantar TNS]
+| data-sort-value="2020-01-21"| 21 Jan 2020
+| 800
+| 80.0
+| 5.1
+| 6.5
+| 3.5
+| style="background:#F7BDC5;"| '''25.3'''
+| 14.5
+| 2.2
+| 5.2
+| 20.4
+| 14.6
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4081 Respons Analyse]
+| data-sort-value="2020-01-21"| 20–21 Jan 2020
+| 1,182
+| –
+| 3.8
+| 7.0
+| 5.2
+| style="background:#F7BDC5;"| '''25.2'''
+| 14.8
+| 3.1
+| 3.2
+| 20.9
+| 14.2
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4080 Sentio]
+| data-sort-value="2020-01-18"| 14–18 Jan 2020
+| 1,000
+| –
+| 4.5
+| 7.9
+| 5.4
+| style="background:#F7BDC5;"| '''25.4'''
+| 16.8
+| 4.1
+| 3.0
+| 20.6
+| 10.8
+| 1.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4078 Opinion Perduco]
+| data-sort-value="2020-01-15"| 15 Jan 2020
+| 962
+| –
+| 4.4
+| 7.4
+| 4.3
+| style="background:#F7BDC5;"| '''25.5'''
+| 20.9
+| 2.7
+| 2.5
+| 18.7
+| 11.8
+| 2.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4077 Kantar TNS]
+| data-sort-value="2020-01-10"| 6–10 Jan 2020
+| 986
+| 80.8
+| 4.7
+| 8.8
+| 6.5
+| style="background:#F7BDC5;"| '''23.5'''
+| 17.9
+| 2.2
+| 3.2
+| 22.4
+| 8.7
+| 2.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4076 Norfakta]
+| data-sort-value="2020-01-08"| 7–8 Jan 2020
+| 1,000
+| 78.0
+| 4.8
+| 6.2
+| 5.3
+| style="background:#F7BDC5;"| '''26.7'''
+| 16.6
+| 2.4
+| 3.2
+| 21.3
+| 10.9
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4075 Respons Analyse]
+| data-sort-value="2020-01-06"| 2–6 Jan 2020
+| 1,001
+| –
+| 5.1
+| 6.6
+| 6.1
+| style="background:#F7BDC5;"| '''24.0'''
+| 15.8
+| 2.5
+| 4.2
+| 22.4
+| 11.4
+| 1.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.6
+|-
+|- style="background:#E9E9E9;"
+|}
+=== 2019 ===
+{{for|events during the year|2019 in Norway}}
+{| class="wikitable mw-collapsible mw-collapsed sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:100px;" rowspan="2"| Polling firm
+! style="width:130px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br />size
+! style="width:30px;" rowspan="2"| {{abbr|Resp.|Response rate}}
+! class="unsortable" style="width:40px;"| [[Red Party (Norway)|R]]
+! class="unsortable" style="width:40px;"| [[Socialist Left Party (Norway)|SV]]
+! class="unsortable" style="width:40px;"| [[Green Party (Norway)|MDG]]
+! class="unsortable" style="width:40px;"| [[Labour Party (Norway)|Ap]]
+! class="unsortable" style="width:40px;"| [[Centre Party (Norway)|Sp]]
+! class="unsortable" style="width:40px;"| [[Liberal Party (Norway)|V]]
+! class="unsortable" style="width:40px;"| [[Christian Democratic Party (Norway)|KrF]]
+! class="unsortable" style="width:40px;"| [[Conservative Party (Norway)|H]]
+! class="unsortable" style="width:40px;"| [[Progress Party (Norway)|FrP]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{Red Party (Norway)/meta/color}};"|
+! style="background:{{Socialist Left Party (Norway)/meta/color}};"|
+! style="background:{{Green Party (Norway)/meta/color}};"|
+! style="background:{{Labour Party (Norway)/meta/color}};"|
+! style="background:{{Centre Party (Norway)/meta/color}};"|
+! style="background:{{Liberal Party (Norway)/meta/color}};"|
+! style="background:{{Christian Democratic Party (Norway)/meta/color}};"|
+! style="background:{{Conservative Party (Norway)/meta/color}};"|
+! style="background:{{Progress Party (Norway)/meta/color}};"|
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4074 Norstat]
+| data-sort-value="2020-01-05"| 30 Dec 2019–5 Jan 2020
+| 960
+| –
+| 3.6
+| 7.2
+| 6.0
+| style="background:#F7BDC5;"| '''26.1'''
+| 15.7
+| 2.3
+| 3.6
+| 22.4
+| 10.3
+| 2.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4071 Ipsos MMI]
+| data-sort-value="2019-12-18"| 16–18 Dec 2019
+| –
+| –
+| 5.9
+| 8.5
+| 5.0
+| style="background:#F7BDC5;"| '''23.4'''
+| 15.8
+| 2.8
+| 3.0
+| 22.1
+| 11.3
+| 2.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4070 Norstat]
+| data-sort-value="2019-12-15"| 9–15 Dec 2019
+| 1,000
+| –
+| 4.6
+| 7.1
+| 4.6
+| style="background:#F7BDC5;"| '''25.5'''
+| 18.5
+| 2.9
+| 2.6
+| 20.9
+| 11.8
+| 1.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4067 Opinion Perduco]
+| data-sort-value="2019-12-08"| 3–8 Dec 2019
+| 966
+| –
+| 5.7
+| 7.5
+| 5.9
+| style="background:#F7BDC5;"| '''22.9'''
+| 20.2
+| 1.9
+| 2.6
+| 20.6
+| 10.7
+| 2.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4065 Norfakta]
+| data-sort-value="2019-12-04"| 3–4 Dec 2019
+| 1,000
+| 81.0
+| 3.9
+| 7.7
+| 5.0
+| 21.3
+| 19.2
+| 3.9
+| 4.0
+| style="background:#DCE7F3;"| '''22.6'''
+| 10.1
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;"  data-sort-value="-1.3"| 1.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4063 Respons Analyse]
+| data-sort-value="2019-12-02"| 28 Nov–2 Dec 2019
+| 1,000
+| –
+| 5.3
+| 6.2
+| 5.9
+| style="background:#F7BDC5;"| '''23.0'''
+| 17.4
+| 3.5
+| 3.9
+| 22.0
+| 10.3
+| 2.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.0
+|-
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4066 Sentio]
+| data-sort-value="2019-12-02"| 26 Nov–2 Dec 2019
+| 1,000
+| –
+| 5.6
+| 8.3
+| 6.9
+| style="background:#F7BDC5;"| '''24.2'''
+| 15.6
+| 2.4
+| 3.5
+| 20.8
+| 11.1
+| 1.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4062 Kantar TNS]
+| data-sort-value="2019-11-29"| 25–29 Nov 2019
+| 974
+| 81.5
+| 5.0
+| 7.9
+| 6.1
+| style="background:#F7BDC5;"| '''21.9'''
+| 17.6
+| 4.4
+| 4.1
+| 19.1
+| 9.8
+| 4.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4060 Norstat]
+| data-sort-value="2019-11-25"| 19–25 Nov 2019
+| 966
+| 77.5
+| 4.5
+| 6.5
+| 6.4
+| style="background:#F7BDC5;"| '''22.9'''
+| 18.1
+| 3.5
+| 2.8
+| 19.7
+| 12.5
+| 3.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4059 Ipsos MMI]
+| data-sort-value="2019-11-20"| 18–20 Nov 2019
+| –
+| –
+| 5.0
+| 8.3
+| 5.3
+| style="background:#F7BDC5;"| '''22.0'''
+| 19.2
+| 2.6
+| 3.5
+| 20.9
+| 9.7
+| 3.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4058 Norstat]
+| data-sort-value="2019-11-18"| 12–18 Nov 2019
+| –
+| –
+| 4.2
+| 8.1
+| 6.9
+| style="background:#F7BDC5;"| '''22.9'''
+| 20.0
+| 2.0
+| 2.9
+| 20.8
+| 9.0
+| 3.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4057 Opinion Perduco]
+| data-sort-value="2019-11-11"| 5–11 Nov 2019
+| 964
+| –
+| 4.4
+| 8.4
+| 6.5
+| style="background:#F7BDC5;"| '''21.7'''
+| 20.9
+| 3.0
+| 3.8
+| 20.6
+| 8.9
+| 1.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4055 Norfakta]
+| data-sort-value="2019-11-06"| 5–6 Nov 2019
+| 1,000
+| 79.0
+| 4.2
+| 7.1
+| 6.1
+| 22.3
+| 19.2
+| 4.3
+| 3.4
+| style="background:#DCE7F3;"| '''22.9'''
+| 8.4
+| 2.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.6"| 0.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4053 Respons Analyse]
+| data-sort-value="2019-11-04"| 31 Oct–4 Nov 2019
+| 1,003
+| –
+| 6.0
+| 6.5
+| 5.9
+| style="background:#F7BDC5;"| '''23.0'''
+| 16.5
+| 3.2
+| 3.9
+| 21.3
+| 11.4
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4052 Sentio]
+| data-sort-value="2019-11-02"| 29 Oct–2 Nov 2019
+| 1,000
+| –
+| 3.9
+| 7.7
+| 6.3
+| style="background:#F7BDC5;"| '''22.6'''
+| 20.0
+| 3.9
+| 3.1
+| 20.8
+| 9.2
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4050 Kantar TNS]
+| data-sort-value="2019-11-01"| 28 Oct–1 Nov 2019
+| 982
+| 81.9
+| 6.6
+| 5.6
+| 6.9
+| style="background:#F7BDC5;"| '''22.6'''
+| 19.5
+| 3.4
+| 2.9
+| 21.1
+| 9.2
+| 2.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4049 Norstat]
+| data-sort-value="2019-10-28"| 22–28 Oct 2019
+| 957
+| 73.5
+| 6.0
+| 7.4
+| 6.1
+| style="background:#F7BDC5;"| '''23.7'''
+| 17.5
+| 3.3
+| 3.9
+| 21.8
+| 8.4
+| 2.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4048 Ipsos MMI]
+| data-sort-value="2019-10-23"| 21–23 Oct 2019
+| 764
+| –
+| 6.1
+| 6.4
+| 7.0
+| style="background:#F7BDC5;"| '''22.6'''
+| 17.6
+| 3.6
+| 2.7
+| 21.1
+| 10.3
+| 2.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4047 Norstat]
+| data-sort-value="2019-10-21"| 15–21 Oct 2019
+| 929
+| –
+| 4.9
+| 7.7
+| 6.2
+| style="background:#F7BDC5;"| '''21.6'''
+| 18.1
+| 3.3
+| 3.6
+| 20.1
+| 11.7
+| 2.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4046 Sentio]
+| data-sort-value="2019-10-14"| 8–14 Oct 2019
+| 1,000
+| –
+| 3.2
+| 6.4
+| 7.7
+| style="background:#F7BDC5;"| '''24.9'''
+| 17.6
+| 4.1
+| 3.6
+| 20.9
+| 9.0
+| 2.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4045 Opinion Perduco]
+| data-sort-value="2019-10-07"| 1–7 Oct 2019
+| 951
+| –
+| 4.6
+| 8.2
+| 5.5
+| 22.2
+| 18.7
+| 3.7
+| 3.4
+| style="background:#DCE7F3;"| '''22.8'''
+| 9.0
+| 1.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;"  data-sort-value="-0.6"| 0.6
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4043 Norfakta]
+| data-sort-value="2019-10-02" | 1–2 Oct 2019
+| 1,000
+| 81.0
+| 4.0
+| 7.0
+| 6.0
+| style="background:#F7BDC5;" |'''23.5'''
+| 17.2
+| 3.8
+| 3.3
+| 21.4
+| 10.5
+| 3.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:#FFFFFF;" | 2.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4044 Kantar TNS]
+| data-sort-value="2019-10-04"| 30 Sep–4 Oct 2019
+| 980
+| 84.6
+| 6.1
+| 8.9
+| 7.2
+| style="background:#F7BDC5;"| '''23.3'''
+| 15.6
+| 2.6
+| 3.9
+| 20.2
+| 9.0
+| 3.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4042 Norstat]
+| data-sort-value="2019-09-30"| 24–30 Sep 2019
+| –
+| –
+| 3.6
+| 6.6
+| 7.8
+| style="background:#F7BDC5;"| '''24.1'''
+| 18.6
+| 3.4
+| 3.7
+| 19.7
+| 8.6
+| 4.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4041 Respons Analyse]
+| data-sort-value="2019-09-25"| 23–25 Sep 2019
+| 1,000
+| –
+| 3.3
+| 6.7
+| 6.9
+| style="background:#F7BDC5;"| '''26.3'''
+| 14.8
+| 3.0
+| 4.2
+| 20.6
+| 11.9
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4038 Ipsos MMI]
+| data-sort-value="2019-09-25"| 23–25 Sep 2019
+| 939
+| –
+| 4.1
+| 8.4
+| 6.4
+| style="background:#F7BDC5;"| '''22.0'''
+| 17.3
+| 2.6
+| 3.4
+| 21.3
+| 11.7
+| 2.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4037 Norstat]
+| data-sort-value="2019-09-19"| 17–19 Sep 2019
+| 712
+| –
+| 4.4
+| 9.1
+| 8.6
+| 20.8
+| 15.8
+| 2.9
+| 3.7
+| style="background:#DCE7F3;"| '''21.1'''
+| 11.2
+| 2.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.3"| 0.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4036 Sentio]
+| data-sort-value="2019-09-16"| 10–16 Sep 2019
+| 1,000
+| –
+| 4.0
+| 6.9
+| 6.1
+| style="background:#F7BDC5;"| '''22.6'''
+| 16.8
+| 3.0
+| 3.4
+| 21.1
+| 12.4
+| 3.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.5
+|- style="background:#E9E9E9;"
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=4031 Norfakta]
+| data-sort-value="2019-09-04"| 3–4 Sep 2019
+| 1,003
+| –
+| 3.3
+| 7.4
+| 6.5
+| style="background:#F7BDC5;"| '''23.8'''
+| 17.1
+| 2.4
+| 3.3
+| 22.1
+| 11.0
+| 3.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3980 Norstat]
+| data-sort-value="2019-09-02"| 27 Aug–2 Sep 2019
+| 751
+| 79.0
+| 4.5
+| 6.1
+| 5.4
+| style="background:#F7BDC5;"| '''24.8'''
+| 16.1
+| 3.4
+| 3.9
+| 21.2
+| 11.6
+| 4.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3923 Norstat]
+| data-sort-value="2019-08-26"| 20–26 Aug 2019
+| 943
+| –
+| 5.0
+| 6.3
+| 5.7
+| 22.2
+| 16.0
+| 3.1
+| 4.4
+| style="background:#DCE7F3;"| '''22.8'''
+| 11.7
+| 2.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;"  data-sort-value="-0.6"| 0.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3884 Ipsos MMI]
+| data-sort-value="2019-08-21"| 19–21 Aug 2019
+| 719
+| –
+| 4.4
+| 7.9
+| 6.7
+| style="background:#F7BDC5;"| '''23.4'''
+| 16.1
+| 3.0
+| 2.7
+| 20.9
+| 11.1
+| 3.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3865 Sentio]
+| data-sort-value="2019-08-18"| 13–18 Aug 2019
+| 1,000
+| –
+| 4.8
+| 6.5
+| 5.4
+| style="background:#F7BDC5;"| '''27.3'''
+| 14.4
+| 3.7
+| 3.5
+| 20.9
+| 8.9
+| 4.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.4
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4039 Respons Analyse]
+|9–14 Aug 2019
+|1,000
+|75.0
+|4.7
+|6.3
+|7.0
+| style="background:#F7BDC5;"| '''24.0'''
+|15.4
+|2.5
+|4.5
+|21.9
+|10.6
+|3.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3814 Norstat]
+| data-sort-value="2019-08-12"| 6–12 Aug 2019
+| 953
+| 76.4
+| 6.4
+| 5.9
+| 5.3
+| style="background:#F7BDC5;"| '''24.6'''
+| 14.2
+| 2.7
+| 3.2
+| 22.8
+| 10.9
+| 4.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3818 Kantar TNS]
+| data-sort-value="2019-08-09"| 5–9 Aug 2019
+| 973
+| 76.5
+| 5.2
+| 8.4
+| 6.4
+| style="background:#F7BDC5;"| '''23.5'''
+| 15.3
+| 2.0
+| 3.8
+| 22.8
+| 9.1
+| 3.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3798 Norfakta]
+| data-sort-value="2019-08-07"| 6–7 Aug 2019
+| 1,000
+| 82.0
+| 5.0
+| 7.5
+| 3.7
+| style="background:#F7BDC5;"| '''24.4'''
+| 15.9
+| 2.8
+| 3.9
+| 24.2
+| 9.0
+| 3.7<!-- FNB 1.6 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3786 Opinion Perduco]
+| data-sort-value="2019-08-05"| 30 Jul–5 Aug 2019
+| 960
+| 69.0
+| 5.2
+| 8.8
+| 7.0
+| style="background:#F7BDC5;"| '''22.2'''
+| 14.6
+| 3.1
+| 3.2
+| 22.1
+| 10.1
+| 3.8<!-- FNB 1.4 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3781 Norfakta]
+| data-sort-value="2019-07-03"| 2–3 Jul 2019
+| 1,001
+| 75.0
+| 4.2
+| 7.6
+| 5.5
+| style="background:#F7BDC5;"| '''24.4'''
+| 15.1
+| 2.9
+| 4.3
+| 21.2
+| 8.8
+| 6.0<!-- FNB 3.4 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3782 Kantar TNS]
+| data-sort-value="2019-06-28"| 24–28 Jun 2019
+| 978
+| 79.8
+| 5.7
+| 7.8
+| 4.9
+| style="background:#F7BDC5;"| '''25.5'''
+| 13.3
+| 5.0
+| 3.4
+| 22.0
+| 7.5
+| 4.9<!-- FNB 2.3 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3763 Ipsos MMI]
+| data-sort-value="2019-06-26"| 24–26 Jun 2019
+| 723
+| –
+| 5.1
+| 6.9
+| 3.9
+| style="background:#F7BDC5;"| '''27.8'''
+| 14.4
+| 2.3
+| 2.3
+| 20.5
+| 10.7
+| 6.0<!-- FNB 1.9 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 7.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3756 Norstat]
+| data-sort-value="2019-06-24"| 18–24 Jun 2019
+| 950
+| –
+| 5.4
+| 7.0
+| 5.7
+| style="background:#F7BDC5;"| '''26.0'''
+| 14.3
+| 2.5
+| 4.2
+| 23.0
+| 9.0
+| 2.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3732 Sentio]
+| data-sort-value="2019-06-17"| 11–17 Jun 2019
+| 1,000
+| –
+| 4.5
+| 6.8
+| 5.8
+| style="background:#F7BDC5;"| '''25.2'''
+| 15.2
+| 2.5
+| 2.7
+| 22.7
+| 10.5
+| 4.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3711 Opinion Perduco]
+| data-sort-value="2019-06-10"| 4–10 Jun 2019
+| 956
+| 74.0
+| 7.1
+| 6.4
+| 6.5
+| style="background:#F7BDC5;"| '''23.0'''
+| 16.9
+| 2.8
+| 2.6
+| 19.1
+| 11.4
+| 4.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3723 Respons Analyse]
+| data-sort-value="2019-06-06"| 3–6 Jun 2019
+| 1,002
+| 78.0
+| 5.2
+| 6.8
+| 4.9
+| style="background:#F7BDC5;"| '''26.0'''
+| 13.3
+| 3.5
+| 3.6
+| 23.1
+| 10.7
+| 2.9<!-- FNB 2.3 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3700 Norfakta]
+| data-sort-value="2019-06-05"| 4–5 Jun 2019
+| 1,000
+| –
+| 5.9
+| 6.0
+| 5.7
+| style="background:#F7BDC5;"| '''25.2'''
+| 15.8
+| 1.5
+| 3.2
+| 24.3
+| 10.2
+| 2.4<!-- FNB 1.8, andre 0.6 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3694 Norstat]
+| data-sort-value="2019-06-03"| 28 May–3 Jun 2019
+| 951
+| –
+| 5.0
+| 6.8
+| 6.3
+| style="background:#F7BDC5;"| '''24.4'''
+| 14.9
+| 2.7
+| 3.5
+| 21.0
+| 11.4
+| 4.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3689 Ipsos MMI]
+| data-sort-value="2019-05-29"| 27–29 May 2019
+| 739
+| –
+| 5.1
+| 6.3
+| 4.6
+| style="background:#F7BDC5;"| '''26.9'''
+| 15.2
+| 2.0
+| 2.3
+| 20.7
+| 12.1
+| 4.8<!-- FNB 1.7 -->
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3686 Norstat]
+| data-sort-value="2019-05-27"| 21–27 May 2019
+| 940
+| –
+| 4.8
+| 6.5
+| 4.3
+| style="background:#F7BDC5;"| '''23.7'''
+| 13.3
+| 3.4
+| 3.7
+| 22.9
+| 12.5
+| 5.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3677 Sentio]
+| data-sort-value="2019-05-18"| 14–18 May 2019
+| 1,000
+| –
+| 6.6
+| 6.1
+| 5.1
+| style="background:#F7BDC5;"| '''23.1'''
+| 15.8
+| 2.3
+| 3.6
+| 22.6
+| 11.9
+| 2.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3667 Opinion Perduco]
+| data-sort-value="2019-05-13"| 7–13 May 2019
+| 951
+| –
+| 5.1
+| 8.3
+| 4.0
+| style="background:#F7BDC5;"| '''27.2'''
+| 14.1
+| 2.1
+| 2.7
+| 21.2
+| 13.1
+| 2.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3664 Norfakta]
+| data-sort-value="2019-05-08"| 7–8 May 2019
+| 1,003
+| –
+| 4.9
+| 7.4
+| 3.0
+| style="background:#F7BDC5;"| '''25.1'''
+| 14.4
+| 3.0
+| 3.2
+| 24.4
+| 11.9
+| 2.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3657 Norstat]
+| data-sort-value="2019-05-06"| 30 Apr–6 May 2019
+| 1,000
+| –
+| 5.0
+| 6.2
+| 3.9
+| style="background:#F7BDC5;"| '''26.5'''
+| 15.0
+| 3.7
+| 3.5
+| 20.2
+| 12.6
+| 3.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3660 Kantar TNS]
+| data-sort-value="2019-05-03"| 29 Apr–3 May 2019
+| 987
+| 79.3
+| 5.4
+| 7.2
+| 3.9
+| style="background:#F7BDC5;"| '''26.0'''
+| 14.7
+| 4.1
+| 3.9
+| 21.0
+| 11.6
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3651 Norstat]
+| data-sort-value="2019-05-02"| 2 May 2019
+| –
+| –
+| 5.1
+| 7.5
+| 4.8
+| style="background:#F7BDC5;"| '''27.6'''
+| 15.7
+| 2.3
+| 3.3
+| 20.4
+| 11.2
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 7.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3653 Respons Analyse]
+| data-sort-value="2019-05-02"| 29 Apr–2 May 2019
+| 1,000
+| –
+| 3.9
+| 8.4
+| 4.4
+| style="background:#F7BDC5;"| '''28.2'''
+| 12.5
+| 1.9
+| 4.1
+| 21.6
+| 13.0
+| 2.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3646 Ipsos MMI]
+| data-sort-value="2019-04-25"| 23–25 Apr 2019
+| 942
+| –
+| 4.5
+| 6.8
+| 3.0
+| style="background:#F7BDC5;"| '''28.1'''
+| 14.4
+| 2.2
+| 3.9
+| 23.8
+| 10.1
+| 3.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3639 Sentio]
+| data-sort-value="2019-04-16"| 16 Apr 2019
+| –
+| –
+| 4.6
+| 7.0
+| 4.1
+| style="background:#F7BDC5;"| '''27.5'''
+| 15.4
+| 2.4
+| 3.4
+| 23.2
+| 10.0
+| 2.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3628 Opinion Perduco]
+| data-sort-value="2019-04-08"| 2–8 Apr 2019
+| 954
+| –
+| 4.5
+| 8.2
+| 3.7
+| style="background:#F7BDC5;"| '''27.5'''
+| 16.7
+| 2.3
+| 2.6
+| 21.5
+| 10.6
+| 2.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3623 Respons Analyse]
+| data-sort-value="2019-04-04"| 2–4 Apr 2019
+| 1,001
+| –
+| 4.7
+| 7.6
+| 3.9
+| style="background:#F7BDC5;"| '''25.6'''
+| 15.6
+| 4.3
+| 3.0
+| 22.4
+| 10.1
+| 2.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3621 Norfakta]
+| data-sort-value="2019-04-03"| 2–3 Apr 2019
+| 1,032
+| –
+| 4.3
+| 8.4
+| 3.0
+| style="background:#F7BDC5;"| '''26.1'''
+| 15.2
+| 3.0
+| 3.8
+| 22.5
+| 11.2
+| 2.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3618 Norstat]
+| data-sort-value="2019-04-01"| 26 Mar–1 Apr 2019
+| 628
+| –
+| 3.7
+| 7.0
+| 4.7
+| style="background:#F7BDC5;"| '''24.0'''
+| 16.9
+| 2.9
+| 4.2
+| 22.3
+| 11.9
+| 2.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3620 Kantar TNS]
+| data-sort-value="2019-03-29"| 25–29 Mar 2019
+| 982
+| 80.6
+| 5.1
+| 7.5
+| 5.0
+| style="background:#F7BDC5;"| '''24.3'''
+| 16.9
+| 3.4
+| 3.7
+| 21.6
+| 10.4
+| 2.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3614 Norstat]
+| data-sort-value="2019-03-27"| 27 Mar 2019
+| –
+| –
+| 4.9
+| 6.8
+| 4.3
+| style="background:#F7BDC5;"| '''26.6'''
+| 14.3
+| 1.8
+| 2.4
+| 24.6
+| 12.1
+| 2.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3610 Ipsos MMI]
+| data-sort-value="2019-03-20"| 18–20 Mar 2019
+| 942
+| –
+| 5.6
+| 7.0
+| 3.6
+| style="background:#F7BDC5;"| '''28.8'''
+| 14.4
+| 2.0
+| 2.5
+| 21.3
+| 11.7
+| 3.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 7.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3609 Sentio]
+| data-sort-value="2019-03-18"| 12–18 Mar 2019
+| 1,000
+| –
+| 5.4
+| 7.3
+| 3.2
+| style="background:#F7BDC5;"| '''27.7'''
+| 14.5
+| 2.3
+| 3.0
+| 24.7
+| 10.6
+| 1.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3592 Opinion Perduco]
+| data-sort-value="2019-03-11"| 5–11 Mar 2019
+| 957
+| –
+| 4.9
+| 7.1
+| 6.0
+| 25.1
+| 12.7
+| 2.0
+| 4.8
+| style="background:#DCE7F3;"| '''26.1'''
+| 10.6
+| 0.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.0"| 1.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3588 Norfakta]
+| data-sort-value="2019-03-06"| 5–6 Mar 2019
+| 1,002
+| 74.0
+| 4.5
+| 8.1
+| 3.7
+| style="background:#F7BDC5;"| '''27.0'''
+| 14.0
+| 2.3
+| 3.3
+| 24.6
+| 10.7
+| 1.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3580 Respons Analyse]
+| data-sort-value="2019-03-04"| 28 Feb–4 Mar 2019
+| 1,000
+| –
+| 5.0
+| 7.6
+| 3.3
+| style="background:#F7BDC5;"| '''24.3'''
+| 14.6
+| 2.8
+| 3.8
+| style="background:#DCE7F3;"| '''24.3'''
+| 12.6
+| 1.7
+| data-sort-value="0"| Tie
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3581 Norstat]
+| data-sort-value="2019-03-04"| 26 Feb–4 Mar 2019
+| 653
+| –
+| 4.8
+| 8.0
+| 4.4
+| style="background:#F7BDC5;"| '''26.5'''
+| 12.4
+| 1.9
+| 4.0
+| 24.3
+| 12.1
+| 1.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3586 Kantar TNS]
+| data-sort-value="2019-03-01"| 25 Feb–1 Mar 2019
+| 972
+| 73.7
+| 4.8
+| 8.0
+| 3.6
+| style="background:#F7BDC5;"| '''27.4'''
+| 12.8
+| 2.2
+| 3.7
+| 24.8
+| 10.2
+| 2.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3577 Norstat]
+| data-sort-value="2019-02-25"| 19–25 Feb 2019
+| –
+| –
+| 6.2
+| 6.6
+| 3.0
+| style="background:#F7BDC5;"| '''26.9'''
+| 16.0
+| 1.8
+| 3.2
+| 22.3
+| 12.5
+| 1.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3573 Ipsos MMI]
+| data-sort-value="2019-02-20"| 18–20 Feb 2019
+| 932
+| –
+| 6.6
+| 7.0
+| 3.8
+| style="background:#F7BDC5;"| '''26.9'''
+| 13.0
+| 2.3
+| 2.5
+| 25.1
+| 10.0
+| 2.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3572 Sentio]
+| data-sort-value="2019-02-19"| 12–19 Feb 2019
+| 1,000
+| –
+| 5.1
+| 8.0
+| 3.9
+| style="background:#F7BDC5;"| '''27.4'''
+| 15.6
+| 2.3
+| 3.4
+| 21.1
+| 10.8
+| 2.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3564 Opinion Perduco]
+| data-sort-value="2019-02-11"| 5–11 Feb 2019
+| 942
+| 73.0
+| 7.6
+| 8.0
+| 2.3
+| style="background:#F7BDC5;"| '''28.2'''
+| 13.9
+| 2.3
+| 3.2
+| 22.1
+| 11.8
+| 0.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3563 Norfakta]
+| data-sort-value="2019-02-06"| 5–6 Feb 2019
+| 1,005
+| 78.0
+| 4.0
+| 7.2
+| 3.3
+| style="background:#F7BDC5;"| '''29.3'''
+| 12.7
+| 3.3
+| 4.1
+| 22.9
+| 10.9
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3560 Respons Analyse]
+| data-sort-value="2019-02-04"| 31 Jan–4 Feb 2019
+| 1,001
+| 72.0
+| 3.6
+| 7.8
+| 3.8
+| style="background:#F7BDC5;"| '''29.7'''
+| 12.2
+| 3.9
+| 3.8
+| 22.9
+| 10.5
+| 1.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3559 Norstat]
+| data-sort-value="2019-02-04"| 29 Jan–4 Feb 2019
+| 937
+| 70.0
+| 4.8
+| 7.8
+| 3.2
+| style="background:#F7BDC5;"| '''29.2'''
+| 11.8
+| 2.6
+| 3.4
+| 22.9
+| 12.0
+| 2.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3558 Kantar TNS]
+| data-sort-value="2019-02-02"| 28 Jan–2 Feb 2019
+| 986
+| 82.7
+| 6.2
+| 8.8
+| 3.6
+| style="background:#F7BDC5;"| '''26.5'''
+| 10.4
+| 2.5
+| 4.1
+| 23.6
+| 11.7
+| 2.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3555 Norstat]
+| data-sort-value="2019-01-28"| 22–28 Jan 2019
+| 691
+| –
+| 4.4
+| 7.3
+| 3.7
+| style="background:#F7BDC5;"| '''29.1'''
+| 11.2
+| 2.7
+| 3.5
+| 22.5
+| 13.5
+| 2.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 6.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3553 Ipsos MMI]
+| data-sort-value="2019-01-23"| 21–23 Jan 2019
+| 935
+| –
+| 4.2
+| 8.0
+| 3.2
+| style="background:#F7BDC5;"| '''29.8'''
+| 10.9
+| 2.2
+| 2.7
+| 22.8
+| 13.0
+| 3.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 7.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3551 Sentio]
+| data-sort-value="2019-01-21"| 15–21 Jan 2019
+| 1,000
+| 65.2
+| 3.1
+| 6.9
+| 3.8
+| style="background:#F7BDC5;"| '''26.3'''
+| 13.4
+| 4.3
+| 3.5
+| 23.6
+| 13.2
+| 1.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3546 Opinion Perduco]
+| data-sort-value="2019-01-14"| 8–14 Jan 2019
+| 957
+| 72.0
+| 5.5
+| 7.9
+| 3.2
+| style="background:#F7BDC5;"| '''28.5'''
+| 12.6
+| 2.4
+| 3.7
+| 22.9
+| 10.8
+| 2.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3541 Kantar TNS]
+| data-sort-value="2019-01-10"| 3–10 Jan 2019
+| 980
+| 77.4
+| 4.6
+| 7.2
+| 2.8
+| style="background:#F7BDC5;"| '''27.9'''
+| 12.2
+| 3.6
+| 3.0
+| 24.2
+| 12.0
+| 2.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3543 Norfakta]
+| data-sort-value="2019-01-09"| 8–9 Jan 2019
+| 1,000
+| –
+| 3.9
+| 7.4
+| 2.8
+| style="background:#F7BDC5;"| '''27.7'''
+| 12.5
+| 3.3
+| 3.8
+| 24.7
+| 12.0
+| 1.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3540 Respons Analyse]
+| data-sort-value="2019-01-07"| 3–7 Jan 2019
+| 1,001
+| –
+| 3.1
+| 6.7
+| 2.8
+| style="background:#F7BDC5;"| '''29.7'''
+| 10.5
+| 4.4
+| 3.8
+| 26.0
+| 11.5
+| 1.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3538 Norstat]
+| data-sort-value="2019-01-07"| 2–7 Jan 2019
+| 925
+| 76.5
+| 3.3
+| 7.4
+| 2.4
+| style="background:#F7BDC5;"| '''27.3'''
+| 12.1
+| 3.1
+| 3.7
+| 27.0
+| 12.2
+| 1.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.3
+|- style="background:#E9E9E9;"
+|}
+=== 2018 ===
+{{for|events during the year|2018 in Norway}}
+{| class="wikitable mw-collapsible mw-collapsed sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:100px;" rowspan="2"| Polling firm
+! style="width:130px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br />size
+! style="width:30px;" rowspan="2"| {{abbr|Resp.|Response rate}}
+! class="unsortable" style="width:40px;"| [[Red Party (Norway)|R]]
+! class="unsortable" style="width:40px;"| [[Socialist Left Party (Norway)|SV]]
+! class="unsortable" style="width:40px;"| [[Green Party (Norway)|MDG]]
+! class="unsortable" style="width:40px;"| [[Labour Party (Norway)|Ap]]
+! class="unsortable" style="width:40px;"| [[Centre Party (Norway)|Sp]]
+! class="unsortable" style="width:40px;"| [[Liberal Party (Norway)|V]]
+! class="unsortable" style="width:40px;"| [[Christian Democratic Party (Norway)|KrF]]
+! class="unsortable" style="width:40px;"| [[Conservative Party (Norway)|H]]
+! class="unsortable" style="width:40px;"| [[Progress Party (Norway)|FrP]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{Red Party (Norway)/meta/color}};"|
+! style="background:{{Socialist Left Party (Norway)/meta/color}};"|
+! style="background:{{Green Party (Norway)/meta/color}};"|
+! style="background:{{Labour Party (Norway)/meta/color}};"|
+! style="background:{{Centre Party (Norway)/meta/color}};"|
+! style="background:{{Liberal Party (Norway)/meta/color}};"|
+! style="background:{{Christian Democratic Party (Norway)/meta/color}};"|
+! style="background:{{Conservative Party (Norway)/meta/color}};"|
+! style="background:{{Progress Party (Norway)/meta/color}};"|
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3535 Ipsos MMI]
+| data-sort-value="2018-12-19"| 17–19 Dec 2018
+| 944
+| –
+| 2.7
+| 8.1
+| 3.7
+| style="background:#F7BDC5;"| '''28.5'''
+| 10.4
+| 3.0
+| 3.8
+| 24.7
+| 12.8
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3533 Norstat]
+| data-sort-value="2018-12-17"| 11–17 Dec 2018
+| 927
+| –
+| 4.1
+| 6.9
+| 3.4
+| style="background:#F7BDC5;"| '''26.8'''
+| 11.2
+| 3.4
+| 3.5
+| 26.5
+| 12.4
+| 1.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3530 Opinion Perduco]
+| data-sort-value="2018-12-10"| 4–10 Dec 2018
+| 946
+| 73.0
+| 5.1
+| 5.8
+| 3.6
+| style="background:#F7BDC5;"| '''27.1'''
+| 11.9
+| 4.4
+| 3.4
+| 22.9
+| 14.6
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3529 Norfakta]
+| data-sort-value="2018-12-05"| 4–5 Dec 2018
+| 1,000
+| 76.0
+| 3.1
+| 7.4
+| 2.5
+| style="background:#F7BDC5;"| '''28.4'''
+| 11.6
+| 3.0
+| 3.8
+| 25.9
+| 12.0
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3524 Respons Analyse]
+| data-sort-value="2018-12-04"| 29 Nov–4 Dec 2018
+| 1,000
+| –
+| 3.9
+| 8.8
+| 2.4
+| style="background:#F7BDC5;"| '''26.0'''
+| 10.5
+| 3.4
+| 4.1
+| 25.7
+| 13.5
+| 1.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3528 Sentio]
+| data-sort-value="2018-12-04"| 28 Nov–4 Dec 2018
+| 1,000
+| 70.8
+| 4.8
+| 5.5
+| 2.4
+| style="background:#F7BDC5;"| '''30.0'''
+| 12.2
+| 4.3
+| 3.5
+| 24.3
+| 12.0
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3521 Kantar TNS]
+| data-sort-value="2018-12-03"| 3 Dec 2018
+| 968
+| 74.6
+| 4.8
+| 6.3
+| 2.8
+| style="background:#F7BDC5;"| '''27.4'''
+| 11.9
+| 3.6
+| 3.0
+| 24.7
+| 13.9
+| 0.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3516 Norstat]
+| data-sort-value="2018-11-25"| 20–25 Nov 2018
+| 933
+| –
+| 3.3
+| 7.0
+| 2.8
+| style="background:#F7BDC5;"| '''29.7'''
+| 11.4
+| 2.8
+| 3.2
+| 24.7
+| 13.1
+| 2.0
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 5.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3509 Ipsos MMI]
+| data-sort-value="2018-11-21"| 19–21 Nov 2018
+| 917
+| –
+| 3.6
+| 6.1
+| 2.5
+| style="background:#F7BDC5;"| '''31.2'''
+| 11.7
+| 3.6
+| 3.3
+| 23.1
+| 12.8
+| 2.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 8.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3513 Norstat]
+| data-sort-value="2018-11-19"| 13–19 Nov 2018
+| 937
+| –
+| 3.3
+| 6.6
+| 2.9
+| style="background:#F7BDC5;"| '''29.0'''
+| 12.0
+| 3.2
+| 4.3
+| 24.6
+| 13.2
+| 1.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3506 Opinion Perduco]
+| data-sort-value="2018-11-12"| 6–12 Nov 2018
+| 950
+| 74.0
+| 4.9
+| 6.0
+| 3.3
+| style="background:#F7BDC5;"| '''28.3'''
+| 11.9
+| 3.7
+| 3.8
+| 26.2
+| 10.8
+| 1.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3504 Respons Analyse]
+| data-sort-value="2018-11-07"| 5–7 Nov 2018
+| 1,000
+| –
+| 3.9
+| 6.0
+| 2.9
+| style="background:#F7BDC5;"| '''28.4'''
+| 10.3
+| 4.1
+| 4.2
+| 26.5
+| 12.8
+| 0.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3502 Norfakta]
+| data-sort-value="2018-11-05"| 5 Nov 2018
+| 1,005
+| 80.0
+| 3.9
+| 5.0
+| 2.2
+| style="background:#F7BDC5;"| '''29.1'''
+| 11.7
+| 3.8
+| 4.0
+| 26.1
+| 13.2
+| 0.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3503 Sentio]
+| data-sort-value="2018-11-05"| 30 Oct–5 Nov 2018
+| 1,000
+| 68.9
+| 4.4
+| 7.5
+| 2.4
+| 25.0
+| 10.0
+| 4.5
+| 4.7
+| style="background:#DCE7F3;"| '''26.9'''
+| 13.7
+| 1.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.9"| 1.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3501 Kantar TNS]
+| data-sort-value="2018-10-30"| 24–30 Oct 2018
+| 990
+| 79.2
+| 4.8
+| 7.2
+| 2.8
+| style="background:#F7BDC5;"| '''27.6'''
+| 9.0
+| 2.3
+| 3.0
+| 26.8
+| 13.8
+| 2.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3500 Norstat]
+| data-sort-value="2018-10-28"| 23–28 Oct 2018
+| 693
+| –
+| 3.5
+| 6.7
+| 3.2
+| style="background:#F7BDC5;"| '''27.2'''
+| 12.1
+| 3.7
+| 3.9
+| 24.3
+| 14.1
+| 1.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3498 Ipsos MMI]
+| data-sort-value="2018-10-24"| 22–24 Oct 2018
+| 947
+| –
+| 4.0
+| 7.7
+| 2.2
+| 26.0
+| 12.4
+| 5.1
+| 4.4
+| style="background:#DCE7F3;"| '''26.3'''
+| 10.4
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.3"| 0.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3497 Norstat]
+| data-sort-value="2018-10-22"| 16–22 Oct 2018
+| 941
+| –
+| 3.9
+| 7.2
+| 2.0
+| style="background:#F7BDC5;"| '''28.7'''
+| 10.3
+| 3.7
+| 3.6
+| 25.4
+| 13.6
+| 1.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3493 Sentio]
+| data-sort-value="2018-10-18"| 9–18 Oct 2018
+| 1,000
+| 70.3
+| 3.6
+| 6.6
+| 2.4
+| style="background:#F7BDC5;"| '''28.8'''
+| 10.5
+| 2.8
+| 4.5
+| 25.7
+| 12.7
+| 2.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3491 InFact]
+| data-sort-value="2018-10-10"| 9–10 Oct 2018
+| 1,009
+| –
+| 4.1
+| 5.7
+| 2.7
+| 24.4
+| 11.2
+| 3.8
+| 4.8
+| style="background:#DCE7F3;"| '''26.1'''
+| 14.7
+| 2.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.7"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3490 Opinion Perduco]
+| data-sort-value="2018-10-10"| 4–10 Oct 2018
+| 944
+| 72.0
+| 5.1
+| 5.9
+| 3.2
+| style="background:#F7BDC5;"| '''26.6'''
+| 12.7
+| 2.6
+| 5.0
+| 25.0
+| 13.0
+| 0.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3488 Norfakta]
+| data-sort-value="2018-10-03"| 2–3 Oct 2018
+| 1,001
+| –
+| 4.0
+| 6.6
+| 2.2
+| style="background:#F7BDC5;"| '''28.2'''
+| 11.2
+| 2.4
+| 4.1
+| 26.0
+| 13.3
+| 2.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3487 Respons Analyse]
+| data-sort-value="2018-10-03"| 1–3 Oct 2018
+| 1,000
+| –
+| 3.0
+| 6.7
+| 2.7
+| style="background:#F7BDC5;"| '''27.7'''
+| 9.8
+| 3.9
+| 4.7
+| 25.5
+| 14.4
+| 1.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3484 Norstat]
+| data-sort-value="2018-09-29"| 24–29 Sep 2018
+| 924
+| –
+| 3.3
+| 7.1
+| 4.2
+| style="background:#F7BDC5;"| '''26.9'''
+| 11.2
+| 3.5
+| 3.7
+| 24.7
+| 14.0
+| 1.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3485 Kantar TNS]
+| data-sort-value="2018-09-28"| 24–28 Sep 2018
+| 973
+| 80.9
+| 4.0
+| 7.6
+| 2.4
+| style="background:#F7BDC5;"| '''26.7'''
+| 10.4
+| 4.1
+| 3.8
+| style="background:#DCE7F3;"| '''26.7'''
+| 12.7
+| 1.4
+| data-sort-value="0"| Tie
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3481 Ipsos MMI]
+| data-sort-value="2018-09-26"| 24–26 Sep 2018
+| 932
+| –
+| 4.6
+| 6.1
+| 2.3
+| style="background:#F7BDC5;"| '''28.7'''
+| 10.1
+| 2.3
+| 3.0
+| 25.7
+| 14.9
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3480 Norstat]
+| data-sort-value="2018-09-24"| 18–24 Sep 2018
+| 932
+| –
+| 5.0
+| 6.2
+| 2.3
+| style="background:#F7BDC5;"| '''26.6'''
+| 12.0
+| 3.4
+| 3.0
+| 24.3
+| 15.7
+| 1.4
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3476 Sentio]
+| data-sort-value="2018-09-17"| 11–17 Sep 2018
+| 1,000
+| 70.7
+| 4.8
+| 6.3
+| 3.8
+| style="background:#F7BDC5;"| '''28.0'''
+| 9.1
+| 3.0
+| 3.9
+| 27.4
+| 11.8
+| 1.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3479 Respons Analyse]
+| data-sort-value="2018-09-10"| 6–10 Sep 2018
+| 1,002
+| –
+| 4.7
+| 6.3
+| 3.5
+| 25.5
+| 10.4
+| 3.8
+| 3.9
+| style="background:#DCE7F3;"| '''26.0'''
+| 14.1
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.5"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3471 Opinion Perduco]
+| data-sort-value="2018-09-10"| 4–10 Sep 2018
+| 944
+| 72.0
+| 3.5
+| 7.1
+| 3.0
+| style="background:#F7BDC5;"| '''27.7'''
+| 10.6
+| 3.4
+| 2.9
+| 26.4
+| 13.1
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3459 Kantar TNS]
+| data-sort-value="2018-09-06"| 6 Sep 2018
+| 979
+| 73.5
+| 5.5
+| 6.5
+| 2.4
+| 24.9
+| 11.6
+| 3.5
+| 3.7
+| style="background:#DCE7F3;"| '''29.0'''
+| 10.4
+| 2.6
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.1"| 4.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3462 Norfakta]
+| data-sort-value="2018-09-05"| 4–5 Sep 2018
+| 1,000
+| 78.0
+| 4.6
+| 7.0
+| 2.1
+| style="background:#F7BDC5;"| '''24.6'''
+| 11.1
+| 4.2
+| 4.0
+| 24.1
+| 17.6
+| 0.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3460 Norstat]
+| data-sort-value="2018-09-02"| 28 Aug–2 Sep 2018
+| 721
+| –
+| 4.4
+| 6.0
+| 2.8
+| 26.2
+| 11.2
+| 3.3
+| 3.5
+| style="background:#DCE7F3;"| '''26.6'''
+| 13.9
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.4"| 0.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3456 Norstat]
+| data-sort-value="2018-08-26"| 20–26 Aug 2018
+| 928
+| –
+| 4.2
+| 6.9
+| 3.6
+| 24.4
+| 12.5
+| 3.0
+| 3.6
+| style="background:#DCE7F3;"| '''27.4'''
+| 12.9
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.0"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3454 Ipsos MMI]
+| data-sort-value="2018-08-25"| 20–25 Aug 2018
+| 943
+| –
+| 3.7
+| 6.0
+| 3.2
+| style="background:#F7BDC5;"| '''28.5'''
+| 11.5
+| 3.9
+| 3.3
+| 24.8
+| 13.0
+| 2.1
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3450 Respons Analyse]
+| data-sort-value="2018-08-20"| 16–20 Aug 2018
+| 1,001
+| –
+| 4.1
+| 7.7
+| 2.2
+| style="background:#F7BDC5;"| '''25.9'''
+| 10.3
+| 5.2
+| 3.9
+| 25.6
+| 14.6
+| 0.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3452 Sentio]
+| data-sort-value="2018-08-20"| 14–20 Aug 2018
+| 1,000
+| 67.8
+| 4.4
+| 6.4
+| 3.4
+| 25.9
+| 10.7
+| 3.6
+| 4.2
+| style="background:#DCE7F3;"| '''26.6'''
+| 13.3
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.7"| 0.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3447 Norstat]
+| data-sort-value="2018-08-12"| 7–12 Aug 2018
+| 932
+| 70.9
+| 5.3
+| 6.1
+| 3.4
+| 23.8
+| 11.8
+| 3.5
+| 4.0
+| style="background:#DCE7F3;"| '''27.5'''
+| 12.7
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.7"| 3.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3441 Norfakta]
+| data-sort-value="2018-08-08"| 7–8 Aug 2018
+| 1,003
+| –
+| 3.7
+| 5.8
+| 2.4
+| style="background:#F7BDC5;"| '''27.8'''
+| 12.3
+| 5.1
+| 4.8
+| 24.6
+| 12.9
+| 0.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 3.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3439 Kantar TNS]
+| data-sort-value="2018-08-07"| 1–7 Aug 2018
+| 982
+| 75.4
+| 5.3
+| 8.0
+| 2.5
+| 24.4
+| 13.6
+| 3.6
+| 5.3
+| style="background:#DCE7F3;"| '''26.1'''
+| 10.1
+| 1.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.7"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3440 Opinion Perduco]
+| data-sort-value="2018-08-06"| 31 Jul–6 Aug 2018
+| 953
+| 72.0
+| 5.8
+| 6.6
+| 4.1
+| style="background:#F7BDC5;"| '''28.2'''
+| 11.2
+| 2.4
+| 4.2
+| 23.6
+| 12.6
+| 1.2
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 4.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3438 Norfakta]
+| data-sort-value="2018-07-04"| 3–4 Jul 2018
+| 1,001
+| 76.0
+| 3.9
+| 7.5
+| 3.7
+| 23.7
+| 9.7
+| 3.4
+| 5.0
+| style="background:#DCE7F3;"| '''26.3'''
+| 14.8
+| 2.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.6"| 2.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3436 Ipsos MMI]
+| data-sort-value="2018-06-27"| 25–27 Jun 2018
+| 941
+| –
+| 3.8
+| 7.1
+| 2.4
+| 22.2
+| 11.4
+| 3.9
+| 4.7
+| style="background:#DCE7F3;"| '''27.9'''
+| 13.5
+| 3.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-5.7"| 5.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3435 Norstat]
+| data-sort-value="2018-06-25"| 19–25 Jun 2018
+| 941
+| –
+| 4.9
+| 7.5
+| 2.5
+| 21.5
+| 10.7
+| 5.1
+| 4.2
+| style="background:#DCE7F3;"| '''27.8'''
+| 13.6
+| 2.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-6.3"| 6.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3431 Sentio]
+| data-sort-value="2018-06-16"| 12–16 Jun 2018
+| 1,000
+| 70.4
+| 5.3
+| 7.3
+| 2.1
+| 25.2
+| 10.2
+| 3.2
+| 4.1
+| style="background:#DCE7F3;"| '''27.1'''
+| 14.0
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.9"| 1.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3427 Opinion Perduco]
+| data-sort-value="2018-06-11"| 5–11 Jun 2018
+| 954
+| 73.0
+| 4.8
+| 6.5
+| 4.2
+| 24.0
+| 10.7
+| 4.1
+| 3.8
+| style="background:#DCE7F3;"| '''27.1'''
+| 13.0
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.1"| 3.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3426 Norfakta]
+| data-sort-value="2018-06-06"| 5–6 Jun 2018
+| 1,002
+| 79.0
+| 4.4
+| 6.0
+| 3.4
+| 24.1
+| 11.3
+| 4.5
+| 3.0
+| style="background:#DCE7F3;"| '''29.4'''
+| 12.5
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-5.3"| 5.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3422 Respons Analyse]
+| data-sort-value="2018-06-04"| 31 May–4 Jun 2018
+| 1,000
+| –
+| 4.8
+| 7.6
+| 2.9
+| 22.0
+| 11.0
+| 3.7
+| 4.1
+| style="background:#DCE7F3;"| '''26.4'''
+| 15.1
+| 2.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.4"| 4.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3423 Norstat]
+| data-sort-value="2018-06-04"| 27 May–4 Jun 2018
+| 930
+| –
+| 4.5
+| 7.5
+| 3.4
+| 23.4
+| 11.0
+| 4.1
+| 3.8
+| style="background:#DCE7F3;"| '''27.6'''
+| 13.1
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.2"| 4.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3420 Kantar TNS]
+| data-sort-value="2018-06-01"| 28 May–1 Jun 2018
+| 977
+| 76.2
+| 5.6
+| 8.5
+| 3.2
+| 23.4
+| 11.3
+| 4.5
+| 5.3
+| style="background:#DCE7F3;"| '''24.5'''
+| 12.4
+| 1.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.1"| 1.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3418 Ipsos MMI]
+| data-sort-value="2018-05-30"| 28–30 May 2018
+| 939
+| –
+| 3.2
+| 7.7
+| 3.0
+| 22.9
+| 11.1
+| 5.9
+| 3.8
+| style="background:#DCE7F3;"| '''27.0'''
+| 13.5
+| 1.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.1"| 4.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3417 Norstat]
+| data-sort-value="2018-05-28"| 22–28 May 2018
+| 929
+| –
+| 4.0
+| 7.2
+| 2.7
+| 23.6
+| 11.8
+| 4.1
+| 4.2
+| style="background:#DCE7F3;"| '''26.4'''
+| 13.9
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.8"| 2.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3414 Sentio]
+| data-sort-value="2018-05-22"| 14–22 May 2018
+| 1,000
+| 72.3
+| 3.4
+| 8.0
+| 2.9
+| 23.5
+| 10.6
+| 3.2
+| 3.8
+| style="background:#DCE7F3;"| '''28.4'''
+| 14.0
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.9"| 4.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3411 Opinion Perduco]
+| data-sort-value="2018-05-14"| 8–14 May 2018
+| 945
+| 73.0
+| 4.4
+| 7.1
+| 3.3
+| 22.8
+| 10.5
+| 3.8
+| 5.5
+| style="background:#DCE7F3;"| '''26.5'''
+| 15.0
+| 1.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.7"| 3.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3408 Norfakta]
+| data-sort-value="2018-05-09"| 8–9 May 2018
+| 1,000
+| 81.0
+| 3.2
+| 6.9
+| 3.0
+| 24.7
+| 10.5
+| 3.9
+| 3.9
+| style="background:#DCE7F3;"| '''26.7'''
+| 15.4
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.0"| 2.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3407 Respons Analyse]
+| data-sort-value="2018-05-07"| 3–7 May 2018
+| 1,002
+| –
+| 3.5
+| 7.3
+| 3.2
+| 25.5
+| 9.5
+| 3.5
+| 3.7
+| style="background:#DCE7F3;"| '''26.2'''
+| 16.1
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.7"| 0.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3405 Norstat]
+| data-sort-value="2018-05-07"| 30 Apr–7 May 2018
+| 703
+| –
+| 3.5
+| 6.5
+| 3.2
+| style="background:#F7BDC5;"| '''26.0'''
+| 11.0
+| 3.8
+| 3.0
+| 25.5
+| 15.9
+| 1.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3404 Kantar TNS]
+| data-sort-value="2018-05-02"| 30 Apr–2 May 2018
+| 982
+| 78.9
+| 3.8
+| 7.6
+| 2.3
+| 23.8
+| 10.3
+| 4.1
+| 4.7
+| style="background:#DCE7F3;"| '''28.1'''
+| 14.7
+| 0.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.3"| 4.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3403 Norstat]
+| data-sort-value="2018-04-30"| 26–30 Apr 2018
+| 933
+| –
+| 4.0
+| 6.8
+| 2.9
+| 24.0
+| 10.9
+| 3.7
+| 3.7
+| style="background:#DCE7F3;"| '''26.4'''
+| 15.3
+| 2.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.4"| 2.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3402 Ipsos MMI]
+| data-sort-value="2018-04-25"| 23–25 Apr 2018
+| 941
+| –
+| 4.7
+| 6.0
+| 3.0
+| 23.2
+| 11.9
+| 4.0
+| 4.4
+| style="background:#DCE7F3;"| '''24.9'''
+| 16.0
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.7"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3401 Sentio]
+| data-sort-value="2018-04-23"| 17–23 Apr 2018
+| 1,000
+| 68.3
+| 2.8
+| 7.3
+| 3.0
+| 23.8
+| 11.9
+| 3.6
+| 4.9
+| style="background:#DCE7F3;"| '''25.2'''
+| 15.7
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.4"| 1.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3397 Opinion Perduco]
+| data-sort-value="2018-04-16"| 10–16 Apr 2018
+| 945
+| 75.0
+| 4.9
+| 7.7
+| 1.9
+| 24.0
+| 11.5
+| 4.1
+| 4.0
+| style="background:#DCE7F3;"| '''27.0'''
+| 13.5
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.0"| 3.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3393 Respons Analyse]
+| data-sort-value="2018-04-09"| 5–9 Apr 2018
+| 1,001
+| –
+| 3.9
+| 6.2
+| 3.1
+| 23.4
+| 10.9
+| 4.1
+| 4.5
+| style="background:#DCE7F3;"| '''25.8'''
+| 16.2
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.4"| 2.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3394 Norstat]
+| data-sort-value="2018-04-09"| 3–9 Apr 2018
+| 925
+| –
+| 3.8
+| 7.5
+| 2.5
+| style="background:#F7BDC5;"| '''25.2'''
+| 10.7
+| 3.7
+| 3.7
+| 25.1
+| 15.8
+| 1.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3395 Kantar TNS]
+| data-sort-value="2018-04-06"| 3–6 Apr 2018
+| 971
+| 79.5
+| 5.4
+| 8.7
+| 2.9
+| 24.1
+| 9.0
+| 2.8
+| 3.7
+| style="background:#DCE7F3;"| '''26.4'''
+| 16.2
+| 1.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.3"| 2.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3391 Norfakta]
+| data-sort-value="2018-04-04"| 3–4 Apr 2018
+| 1,000
+| –
+| 4.3
+| 7.4
+| 3.0
+| 23.2
+| 10.6
+| 3.6
+| 4.1
+| style="background:#DCE7F3;"| '''26.5'''
+| 17.4
+| 0.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.3"| 3.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3385 Norstat]
+| data-sort-value="2018-03-24"| 20–24 Mar 2018
+| 955
+| –
+| 4.0
+| 6.6
+| 2.3
+| 24.3
+| 11.0
+| 4.3
+| 4.8
+| style="background:#DCE7F3;"| '''25.3'''
+| 15.4
+| 1.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.0"| 1.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3383 Ipsos MMI]
+| data-sort-value="2018-03-21"| 19–21 Mar 2018
+| 935
+| –
+| 3.3
+| 6.6
+| 2.4
+| 23.7
+| 10.2
+| 3.2
+| 3.8
+| style="background:#DCE7F3;"| '''23.9'''
+| 20.8
+| 2.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.2"| 0.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3381 Kantar TNS]
+| data-sort-value="2018-03-20"| 20 Mar 2018
+| 600
+| 83.0
+| 1.7
+| 5.6
+| 2.1
+| 23.6
+| 10.3
+| 5.0
+| 4.4
+| style="background:#DCE7F3;"| '''26.0'''
+| 20.6
+| 0.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.4"| 2.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3380 Sentio]
+| data-sort-value="2018-03-19"| 13–19 Mar 2018
+| 1,000
+| 71.0
+| 4.0
+| 7.1
+| 2.6
+| 23.3
+| 11.9
+| 3.5
+| 4.1
+| style="background:#DCE7F3;"| '''26.6'''
+| 15.8
+| 1.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.3"| 3.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3377 Respons Analyse]
+| data-sort-value="2018-03-16"| 15–16 Mar 2018
+| 1,002
+| –
+| 2.5
+| 6.4
+| 3.1
+| 25.1
+| 10.8
+| 4.4
+| 3.2
+| style="background:#DCE7F3;"| '''26.9'''
+| 15.9
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.8"| 1.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3376 Opinion Perduco]
+| data-sort-value="2018-03-12"| 6–12 Mar 2018
+| 951
+| 72.0
+| 4.5
+| 6.9
+| 3.2
+| 23.3
+| 11.0
+| 4.6
+| 3.6
+| style="background:#DCE7F3;"| '''27.3'''
+| 14.5
+| 1.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.0"| 4.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3375 Norfakta]
+| data-sort-value="2018-03-07"| 6–7 Mar 2018
+| 1,001
+| 79.0
+| 3.3
+| 6.9
+| 3.9
+| 22.5
+| 12.8
+| 3.8
+| 3.9
+| style="background:#DCE7F3;"| '''28.4'''
+| 12.7
+| 1.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-5.9"| 5.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3372 Respons Analyse]
+| data-sort-value="2018-03-05"| 1–5 Mar 2018
+| 1,003
+| –
+| 3.1
+| 7.2
+| 3.1
+| 23.4
+| 11.6
+| 4.7
+| 4.4
+| style="background:#DCE7F3;"| '''28.0'''
+| 13.1
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.6"| 4.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3374 Norstat]
+| data-sort-value="2018-03-05"| 27 Feb–5 Mar 2018
+| 930
+| –
+| 3.2
+| 7.0
+| 2.8
+| 23.3
+| 12.3
+| 4.3
+| 3.2
+| style="background:#DCE7F3;"| '''27.4'''
+| 15.0
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.1"| 4.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3373 Kantar TNS]
+| data-sort-value="2018-02-03"| 26 Feb–3 Mar 2018
+| 980
+| 82.9
+| 3.8
+| 6.6
+| 3.6
+| 23.4
+| 12.1
+| 4.9
+| 4.5
+| style="background:#DCE7F3;"| '''29.3'''
+| 10.9
+| 1.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-5.9"| 5.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3368 Norstat]
+| data-sort-value="2018-02-25"| 20–25 Feb 2018
+| 933
+| –
+| 3.1
+| 6.0
+| 3.3
+| 24.5
+| 10.8
+| 3.5
+| 4.5
+| style="background:#DCE7F3;"| '''28.8'''
+| 12.9
+| 2.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.3"| 4.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3366 Ipsos MMI]
+| data-sort-value="2018-02-21"| 19–21 Feb 2018
+| 950
+| –
+| 3.3
+| 7.5
+| 3.0
+| 25.4
+| 9.7
+| 4.4
+| 3.5
+| style="background:#DCE7F3;"| '''27.3'''
+| 13.6
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.9"| 1.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3365 Sentio]
+| data-sort-value="2018-02-19"| 13–19 Feb 2018
+| 1,000
+| 74.3
+| 3.2
+| 6.1
+| 3.2
+| 23.3
+| 10.4
+| 4.1
+| 5.1
+| style="background:#DCE7F3;"| '''28.7'''
+| 15.0
+| 0.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-5.4"| 5.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3360 Opinion Perduco]
+| data-sort-value="2018-02-12"| 6–12 Feb 2018
+| 944
+| 74.0
+| 4.0
+| 7.3
+| 4.0
+| 21.4
+| 10.0
+| 3.9
+| 3.6
+| style="background:#DCE7F3;"| '''29.2'''
+| 15.9
+| 0.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-7.8"| 7.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3359 Respons Analyse]
+| data-sort-value="2018-02-07"| 5–7 Feb 2018
+| 1,002
+| –
+| 3.3
+| 7.2
+| 3.6
+| 24.0
+| 10.9
+| 4.5
+| 3.6
+| style="background:#DCE7F3;"| '''27.9'''
+| 13.6
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.9"| 3.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3357 Norstat]
+| data-sort-value="2018-02-05"| 30 Jan–5 Feb 2018
+| 943
+| –
+| 2.9
+| 8.6
+| 3.7
+| 22.4
+| 11.2
+| 3.8
+| 3.9
+| style="background:#DCE7F3;"| '''28.9'''
+| 13.1
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-6.5"| 6.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3358 Kantar TNS]
+| data-sort-value="2018-02-05"| 29 Jan–5 Feb 2018
+| 985
+| 80.7
+| 3.6
+| 6.3
+| 3.4
+| 23.6
+| 11.2
+| 5.8
+| 3.8
+| style="background:#DCE7F3;"| '''29.1'''
+| 12.0
+| 1.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-5.5"| 5.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3356 Norfakta]
+| data-sort-value="2018-01-31"| 30–31 Jan 2018
+| 1,003
+| 77.0
+| 2.6
+| 7.7
+| 3.5
+| 23.9
+| 11.0
+| 4.2
+| 4.3
+| style="background:#DCE7F3;"| '''27.9'''
+| 13.4
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.0"| 4.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3355 Norstat]
+| data-sort-value="2018-01-28"| 23–28 Jan 2018
+| 936
+| –
+| 2.8
+| 7.4
+| 2.7
+| 22.7
+| 11.0
+| 4.0
+| 4.3
+| style="background:#DCE7F3;"| '''29.9'''
+| 12.8
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-7.2"| 7.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3353 Ipsos MMI]
+| data-sort-value="2018-01-24"| 22–24 Jan 2018
+| 893
+| –
+| 3.0
+| 7.6
+| 3.0
+| 25.4
+| 12.1
+| 4.6
+| 3.7
+| style="background:#DCE7F3;"| '''26.2'''
+| 12.5
+| 1.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.8"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3352 Sentio]
+| data-sort-value="2018-01-21"| 16–21 Jan 2018
+| 1,000
+| 70.2
+| 3.1
+| 7.6
+| 3.2
+| 22.7
+| 10.1
+| 3.0
+| 4.5
+| style="background:#DCE7F3;"| '''30.5'''
+| 13.4
+| 2.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-7.8"| 7.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3350 Opinion Perduco]
+| data-sort-value="2018-01-15"| 9–15 Jan 2018
+| 968
+| 72.0
+| 3.0
+| 7.3
+| 3.0
+| 20.8
+| 10.8
+| 4.5
+| 4.6
+| style="background:#DCE7F3;"| '''30.1'''
+| 14.5
+| 1.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-9.3"| 9.3
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3348 Respons Analyse]
+| data-sort-value="2018-01-12"| 10–12 Jan 2018
+| 1,000
+| –
+| 2.9
+| 7.5
+| 2.8
+| 23.2
+| 11.3
+| 4.1
+| 4.4
+| style="background:#DCE7F3;"| '''29.4'''
+| 13.2
+| 1.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-6.2"| 6.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3347 Respons Analyse]
+| data-sort-value="2018-01-10"| 8–10 Jan 2018
+| 1,000
+| 81.0
+| 2.7
+| 7.7
+| 2.7
+| 23.1
+| 10.7
+| 4.1
+| 4.1
+| style="background:#DCE7F3;"| '''27.1'''
+| 15.5
+| 2.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.0"| 4.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3346 Kantar TNS]
+| data-sort-value="2018-01-09"| 3–9 Jan 2018
+| 968
+| 80.6
+| 3.0
+| 8.6
+| 2.6
+| 19.4
+| 10.9
+| 4.3
+| 4.5
+| style="background:#DCE7F3;"| '''30.5'''
+| 14.8
+| 1.5
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-11.1"| 11.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3345 Norstat]
+| data-sort-value="2018-01-08"| 2–8 Jan 2018
+| 977
+| –
+| 2.9
+| 8.3
+| 2.7
+| 20.1
+| 12.2
+| 3.6
+| 4.6
+| style="background:#DCE7F3;"| '''28.7'''
+| 14.9
+| 2.0
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-8.6"| 8.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3344 Norfakta]
+| data-sort-value="2018-01-03"| 2–3 Jan 2018
+| 1,000
+| –
+| 3.1
+| 5.7
+| 3.8
+| 24.2
+| 10.3
+| 4.7
+| 3.3
+| style="background:#DCE7F3;"| '''29.1'''
+| 14.5
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-4.9"| 4.9
+|- style="background:#E9E9E9;"
+|}
+=== 2017 ===
+{{for|events during the year|2017 in Norway}}
+{| class="wikitable mw-collapsible mw-collapsed sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:100px;" rowspan="2"| Polling firm
+! style="width:130px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br />size
+! style="width:30px;" rowspan="2"| {{abbr|Resp.|Response rate}}
+! class="unsortable" style="width:40px;"| [[Red Party (Norway)|R]]
+! class="unsortable" style="width:40px;"| [[Socialist Left Party (Norway)|SV]]
+! class="unsortable" style="width:40px;"| [[Green Party (Norway)|MDG]]
+! class="unsortable" style="width:40px;"| [[Labour Party (Norway)|Ap]]
+! class="unsortable" style="width:40px;"| [[Centre Party (Norway)|Sp]]
+! class="unsortable" style="width:40px;"| [[Liberal Party (Norway)|V]]
+! class="unsortable" style="width:40px;"| [[Christian Democratic Party (Norway)|KrF]]
+! class="unsortable" style="width:40px;"| [[Conservative Party (Norway)|H]]
+! class="unsortable" style="width:40px;"| [[Progress Party (Norway)|FrP]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{Red Party (Norway)/meta/color}};"|
+! style="background:{{Socialist Left Party (Norway)/meta/color}};"|
+! style="background:{{Green Party (Norway)/meta/color}};"|
+! style="background:{{Labour Party (Norway)/meta/color}};"|
+! style="background:{{Centre Party (Norway)/meta/color}};"|
+! style="background:{{Liberal Party (Norway)/meta/color}};"|
+! style="background:{{Christian Democratic Party (Norway)/meta/color}};"|
+! style="background:{{Conservative Party (Norway)/meta/color}};"|
+! style="background:{{Progress Party (Norway)/meta/color}};"|
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3342 Ipsos MMI]
+| data-sort-value="2017-12-20"| 18–20 Dec 2017
+| 929
+| –
+| 1.9
+| 8.0
+| 2.6
+| 26.3
+| 10.1
+| 4.8
+| 4.3
+| style="background:#DCE7F3;"| '''26.5'''
+| 13.7
+| 1.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.2"| 0.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3343 Norstat]
+| data-sort-value="2017-12-18"| 12–18 Dec 2017
+| 949
+| –
+| 2.9
+| 8.4
+| 3.6
+| 26.0
+| 10.6
+| 3.4
+| 3.6
+| style="background:#DCE7F3;"| '''26.5'''
+| 13.9
+| 1.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.5"| 0.5
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3337 Sentio]
+| data-sort-value="2017-12-11"| 5–11 Dec 2017
+| 1,000
+| 76.8
+| 2.6
+| 6.0
+| 3.7
+| 25.9
+| 10.6
+| 3.5
+| 4.6
+| style="background:#DCE7F3;"| '''26.5'''
+| 14.9
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.6"| 0.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3336 Kantar TNS]
+| data-sort-value="2017-12-08"| 4–8 Dec 2017
+| 974
+| 79.6
+| 2.8
+| 6.9
+| 3.5
+| 26.0
+| 9.7
+| 4.3
+| 4.1
+| style="background:#DCE7F3;"| '''26.6'''
+| 14.8
+| 1.3
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.6"| 0.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3335 Norfakta]
+| data-sort-value="2017-12-06"| 5–6 Dec 2017
+| 1,000
+| 83.0
+| 2.1
+| 7.0
+| 3.3
+| 26.7
+| 10.2
+| 4.7
+| 3.7
+| style="background:#DCE7F3;"| '''27.5'''
+| 13.6
+| 1.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.8"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3333 Opinion Perduco]
+| data-sort-value="2017-12-04"| 28 Nov–4 Dec 2017
+| 960
+| 76.0
+| 2.5
+| 6.0
+| 4.4
+| style="background:#F7BDC5;"| '''26.6'''
+| 11.5
+| 3.4
+| 3.9
+| 25.8
+| 14.9
+| 0.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3332 Norstat]
+| data-sort-value="2017-11-27"| 21–27 Nov 2017
+| 939
+| –
+| 1.7
+| 7.1
+| 2.9
+| 25.8
+| 11.2
+| 3.9
+| 4.6
+| style="background:#DCE7F3;"| '''26.8'''
+| 14.7
+| 1.2
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.0"| 1.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3330 Ipsos MMI]
+| data-sort-value="2017-11-22"| 20–22 Nov 2017
+| 918
+| –
+| 2.8
+| 5.4
+| 3.9
+| style="background:#F7BDC5;"| '''27.9'''
+| 8.6
+| 4.8
+| 3.8
+| 25.0
+| 15.9
+| 1.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3331 Norstat]
+| data-sort-value="2017-11-20"| 14–20 Nov 2017
+| 955
+| –
+| 2.9
+| 7.0
+| 2.9
+| style="background:#F7BDC5;"| '''27.1'''
+| 9.3
+| 3.8
+| 4.0
+| 26.1
+| 16.1
+| 0.8
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.0
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3329 Sentio]
+| data-sort-value="2017-11-13"| 7–13 Nov 2017
+| 1,000
+| 79.2
+| 3.0
+| 6.7
+| 2.8
+| 25.6
+| 10.9
+| 3.9
+| 4.0
+| style="background:#DCE7F3;"| '''28.2'''
+| 13.2
+| 1.7
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-2.6"| 2.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3328 Kantar TNS]
+| data-sort-value="2017-11-10"| 6–10 Nov 2017
+| 972
+| 85.4
+| 3.9
+| 7.4
+| 1.9
+| 25.3
+| 11.5
+| 5.9
+| 3.1
+| style="background:#DCE7F3;"| '''26.9'''
+| 12.7
+| 1.4
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.6"| 1.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3327 Norfakta]
+| data-sort-value="2017-11-08"| 7–8 Nov 2017
+| 1,003
+| 85.0
+| 3.3
+| 7.3
+| 1.9
+| 26.6
+| 10.5
+| 3.7
+| 3.2
+| style="background:#DCE7F3;"| '''27.0'''
+| 14.6
+| 1.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.4"| 0.4
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3326 Opinion Perduco]
+| data-sort-value="2017-11-06"| 31 Oct–6 Nov 2017
+| 956
+| 79.0
+| 2.8
+| 7.3
+| 3.8
+| 25.1
+| 11.2
+| 4.3
+| 4.0
+| style="background:#DCE7F3;"| '''25.7'''
+| 14.9
+| 0.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.6"| 0.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3325 Norstat]
+| data-sort-value="2017-10-31"| 25–31 Oct 2017
+| 937
+| –
+| 2.4
+| 7.5
+| 2.7
+| style="background:#F7BDC5;"| '''26.0'''
+| 11.7
+| 3.7
+| 4.2
+| 25.9
+| 14.5
+| 1.5
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.1
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3323 Ipsos MMI]
+| data-sort-value="2017-10-25"| 23–25 Oct 2017
+| 947
+| –
+| 3.4
+| 5.9
+| 2.9
+| style="background:#F7BDC5;"| '''27.4'''
+| 10.9
+| 3.8
+| 3.7
+| 25.8
+| 13.5
+| 2.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.6
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3324 Norstat]
+| data-sort-value="2017-10-23"| 17–23 Oct 2017
+| 942
+| –
+| 3.2
+| 6.5
+| 3.2
+| style="background:#F7BDC5;"| '''26.5'''
+| 10.7
+| 4.9
+| 4.1
+| 25.6
+| 13.7
+| 1.6
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3322 Sentio]
+| data-sort-value="2017-10-16"| 10–16 Oct 2017
+| 1,000
+| 79.9
+| 3.1
+| 7.3
+| 4.9
+| style="background:#F7BDC5;"| '''25.2'''
+| 10.2
+| 4.6
+| 3.2
+| style="background:#DCE7F3;"| '''25.2'''
+| 14.6
+| 1.8
+| data-sort-value="0"| Tie
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3321 Opinion Perduco]
+| data-sort-value="2017-10-09"| 3–9 Oct 2017
+| 958
+| 80.0
+| 2.2
+| 6.0
+| 4.8
+| 25.8
+| 10.6
+| 4.1
+| 4.1
+| style="background:#DCE7F3;"| '''26.7'''
+| 14.9
+| 0.8
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.9"| 0.9
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3320 Kantar TNS]
+| data-sort-value="2017-10-06"| 2–6 Oct 2017
+| 975
+| –
+| 3.7
+| 6.4
+| 3.4
+| 25.4
+| 9.3
+| 4.8
+| 3.2
+| style="background:#DCE7F3;"| '''29.2'''
+| 13.1
+| 1.6
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-3.8"| 3.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3319 Norfakta]
+| data-sort-value="2017-10-04"| 3–4 Oct 2017
+| 1,000
+| 85.0
+| 1.8
+| 6.5
+| 3.6
+| 25.8
+| 11.4
+| 3.4
+| 4.4
+| style="background:#DCE7F3;"| '''27.6'''
+| 13.4
+| 2.1
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-1.8"| 1.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3318 Norstat]
+| data-sort-value="2017-10-01"| 27 Sep–1 Oct 2017
+| 941
+| –
+| 2.5
+| 7.5
+| 3.0
+| style="background:#F7BDC5;"| '''26.4'''
+| 10.6
+| 4.2
+| 3.9
+| 25.6
+| 14.3
+| 1.9
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 0.8
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3317 Ipsos MMI]
+| data-sort-value="2017-09-27"| 25–27 Sep 2017
+| 935
+| –
+| 2.7
+| 7.4
+| 3.3
+| style="background:#F7BDC5;"| '''26.1'''
+| 10.2
+| 5.4
+| 3.9
+| 24.4
+| 14.4
+| 2.3
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 1.7
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3316 Norstat]
+| data-sort-value="2017-09-25"| 19–25 Sep 2017
+| 936
+| –
+| 3.7
+| 7.3
+| 2.8
+| 24.9
+| 11.3
+| 4.7
+| 3.2
+| style="background:#DCE7F3;"| '''25.1'''
+| 15.0
+| 1.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.2"| 0.2
+|-
+| [http://www.pollofpolls.no/?cmd=Maling&gallupid=3315 Sentio]
+| data-sort-value="2017-09-18"| 12–18 Sep 2017
+| 1,000
+| 80.1
+| 2.4
+| 6.4
+| 3.3
+| 26.2
+| 11.4
+| 3.9
+| 3.9
+| style="background:#DCE7F3;"| '''26.8'''
+| 14.7
+| 0.9
+| style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.6"| 0.6
+|- style="background:#E9E9E9;"
+| [[2017 Norwegian parliamentary election|2017 election]]
+| data-sort-value="2017-09-11"| 11 Sep 2017
+| {{N/A}}
+| 78.3
+| 2.4
+| 6.0
+| 3.2
+| style="background:#F7BDC5;"| '''27.4'''
+| 10.3
+| 4.4
+| 4.2
+| 25.0
+| 15.2
+| 1.7
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;"| 2.4
+|}
