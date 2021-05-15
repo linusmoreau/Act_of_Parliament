@@ -3,7 +3,7 @@ from toolkit import *
 import date_kit
 
 
-choice = 'Czechia'
+choice = 'Germany'
 # view = 'parties'
 
 key = None
@@ -58,7 +58,7 @@ while i < len(content):
     line = content[i]
     print(rot, line, end='')
     if '===' in line:
-        year = line.split()[1]
+        year = line.strip('=').strip()
     elif line[:2] == '|}':
         rot = None
     elif rot is None:
