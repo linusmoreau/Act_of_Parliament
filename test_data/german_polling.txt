@@ -7148,4 +7148,4188 @@
 |-
 |- style="background:#E9E9E9;"
 |}
+===2018===
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:160px;" rowspan="2"| Polling firm
+! style="width:125px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br>size
+! style="width:30px;" rowspan="2"| {{abbr|Abs.|Abstention}}
+! class="unsortable" style="width:40px;"| [[CDU/CSU|Union]]
+! class="unsortable" style="width:40px;"| [[Social Democratic Party of Germany|SPD]]
+! class="unsortable" style="width:40px;"| [[Alternative for Germany|AfD]]
+! class="unsortable" style="width:40px;"| [[Free Democratic Party (Germany)|FDP]]
+! class="unsortable" style="width:40px;"| [[The Left (Germany)|Linke]]
+! class="unsortable" style="width:40px;"| [[Alliance 90/The Greens|Grüne]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{CDU/CSU/meta/color}};"|
+! style="background:{{Social Democratic Party of Germany/meta/color}};"|
+! style="background:{{Alternative for Germany/meta/color}};"|
+! style="background:{{Free Democratic Party (Germany)/meta/color}};"|
+! style="background:{{The Left (Germany)/meta/color}};"|
+! style="background:{{Alliance 90/The Greens/meta/color}};"|
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-12-27"| 21–27 Dec 2018
+| 1,665
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 16
+| 14
+| 8
+| 10
+| 18
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-12-21"| 20–21 Dec 2018
+| 1,029
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 14
+| 15
+| 9
+| 9
+| 19
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-12-21"| 17–21 Dec 2018
+| 2,504
+| 24
+| style="background:#D7D5D7;"| '''31'''
+| 14
+| 13
+| 8
+| 8
+| 20
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-12-19"| 13–19 Dec 2018
+| 1,889
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 15
+| 14
+| 9
+| 9
+| 19
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-12-17"| 14–17 Dec 2018
+| 2,077
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 15
+| 15
+| 9.5
+| 9.5
+| 18
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-12-14"| 10–14 Dec 2018
+| 2,507
+| 24
+| style="background:#D7D5D7;"| '''32'''
+| 15
+| 12
+| 8
+| 8
+| 19
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-12-13"| 11–13 Dec 2018
+| 1,268
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 15
+| 15
+| 7
+| 9
+| 19
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-12-12"| 11–12 Dec 2018
+| 1,048
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 15
+| 13
+| 8
+| 8
+| 20
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-12-12"| 6–12 Dec 2018
+| 1,997
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 15
+| 14
+| 8
+| 8
+| 20
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-12-12"| 6–12 Dec 2018
+| 1,005
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 14
+| 15
+| 9
+| 9
+| 19
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-12-12"| 1–12 Dec 2018
+| 1,295
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 16.5
+| 14
+| 8.5
+| 9
+| 19
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-12-10"| 8–10 Dec 2018
+| 2,047
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 15
+| 15
+| 10
+| 10
+| 17
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-12-09"| 7–9 Dec 2018
+| 1,506
+| 22
+| style="background:#D7D5D7;"| '''32'''
+| 14
+| 13
+| 8
+| 8
+| 19
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-12-06"| 3–6 Dec 2018
+| 2,006
+|?
+| style="background:#D7D5D7;"| '''29'''
+| 14
+| 13
+| 8
+| 8
+| 22
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-12-05"| 3–5 Dec 2018
+| 1,502
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 14
+| 14
+| 8
+| 8
+| 20
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-12-05"| 29 Nov–5 Dec 2018
+| 2,469
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 15
+| 14
+| 9
+| 9
+| 19
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-12-03"| 30 Nov–3 Dec 2018
+| 2,069
+| –
+| style="background:#D7D5D7;"| '''27.5'''
+| 13.5
+| 16
+| 9.5
+| 11
+| 18
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9.5
+|-
+| [http://www.spiegel.de/politik/deutschland/spon-umfrage-grosse-koalition-punktet-nur-noch-bei-alten-a-1241657.html Civey]
+| data-sort-value="2018-12-03"| 24 Nov–3 Dec 2018
+| 10,041
+| –
+| style="background:#D7D5D7;"| '''26.5'''
+| 15.0
+| 15.9
+| 9.5
+| 9.4
+| 19.9
+| 3.8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6.6
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-11-30"| 26–30 Nov 2018
+| 2,505
+| 24
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 14
+| 9
+| 8
+| 22
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-11-28"| 27–28 Nov 2018
+| 1,052
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 14
+| 15
+| 9
+| 8
+| 21
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-11-28"| 22–28 Nov 2018
+| 1,531
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 15
+| 15
+| 9
+| 9
+| 19
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-11-27"| 23–27 Nov 2018
+| 1,580
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 15
+| 14
+| 9
+| 10
+| 21
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-11-26"| 23–26 Nov 2018
+| 2,062
+| –
+| style="background:#D7D5D7;"| '''27.5'''
+| 14
+| 16
+| 8.5
+| 10
+| 19
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-11-23"| 19–23 Nov 2018
+| 2,507
+| 21
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 14
+| 9
+| 8
+| 23
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 4
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-11-22"| 20–22 Nov 2018
+| 1,336
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 16
+| 8
+| 9
+| 22
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-11-21"| 15–21 Nov 2018
+| 2,361
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 15
+| 15
+| 9
+| 9
+| 21
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-11-19"| 16–19 Nov 2018
+| 2,047
+| –
+| style="background:#D7D5D7;"| '''25.5'''
+| 14.5
+| 15.5
+| 9.5
+| 10
+| 20
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-11-16"| 12–16 Nov 2018
+| 2,503
+| 24
+| style="background:#D7D5D7;"| '''28'''
+| 14
+| 12
+| 9
+| 9
+| 23
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-11-15"| 2–15 Nov 2018
+| 1,242
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 13.5
+| 9.5
+| 9
+| 19
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-11-14"| 12–14 Nov 2018
+| 1,506
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 14
+| 14
+| 8
+| 9
+| 23
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 3
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-11-14"| 8–14 Nov 2018
+| 1,987
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 15
+| 15
+| 8
+| 9
+| 21
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-11-12"| 9–12 Nov 2018
+| 2,070
+| –
+| style="background:#D7D5D7;"| '''25.5'''
+| 14
+| 16.5
+| 9
+| 10
+| 20
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-11-09"| 5–9 Nov 2018
+| 2,504
+| 23
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 13
+| 9
+| 9
+| 23
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 4
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-11-08"| 6–8 Nov 2018
+| 1,200
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 14
+| 9
+| 9
+| 22
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-11-07"| 5–7 Nov 2018
+| 1,518
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 15
+| 15
+| 8
+| 9
+| 22
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 3
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-11-05"| 2–5 Nov 2018
+| 3,138
+| –
+| style="background:#D7D5D7;"| '''24.5'''
+| 13.5
+| 16.5
+| 10
+| 11
+| 19
+| 5.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5.5
+|-
+| [http://www.spiegel.de/politik/deutschland/angela-merkel-kuendigt-rueckzug-an-cdu-legt-in-umfrage-zu-afd-verliert-a-1236834.html Civey]
+| data-sort-value="2018-11-05"| 29 Oct–5 Nov 2018
+| 10,005
+| –
+| style="background:#D7D5D7;"| '''28.6'''
+| 15.4
+| 13.0
+| 9.6
+| 9.3
+| 19.4
+| 4.7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9.2
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-11-04"| 28 Oct–4 Nov 2018
+| 1,542
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 14
+| 16
+| 10
+| 10
+| 21
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 4
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-11-02"| 29 Oct–2 Nov 2018
+| 2,502
+| 24
+| style="background:#D7D5D7;"| '''27'''
+| 13
+| 13
+| 9
+| 9
+| 24
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 3
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-10-31"| 25–31 Oct 2018
+| 1,815
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 14
+| 15
+| 9
+| 10
+| 21
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 4
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-10-29"| 26–29 Oct 2018
+| 2,052
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 14
+| 16.5
+| 9.5
+| 11
+| 20
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-10-26"| 22–26 Oct 2018
+| 2,509
+|?
+| style="background:#D7D5D7;"| '''26'''
+| 14
+| 14
+| 9
+| 10
+| 21
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-10-24"| 18–24 Oct 2018
+| 1,905
+| –
+| style="background:#D7D5D7;"| '''24'''
+| 15
+| 16
+| 10
+| 10
+| 20
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 4
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-10-22"| 19–22 Oct 2018
+| 2,061
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 15
+| 17
+| 9
+| 10.5
+| 19
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-10-19"| 15–19 Oct 2018
+| 2,502
+| 26
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 15
+| 9
+| 9
+| 21
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-10-18"| 16–18 Oct 2018
+| 1,117
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 16
+| 8
+| 10
+| 20
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-10-17"| 16–17 Oct 2018
+| 1,040
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 14
+| 16
+| 11
+| 9
+| 19
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-10-17"| 11–17 Oct 2018
+| 1,609
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 15
+| 15
+| 10
+| 10
+| 19
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-10-15"| 12–15 Oct 2018
+| 2,061
+| –
+| style="background:#D7D5D7;"| '''26.5'''
+| 15
+| 18
+| 9.5
+| 10.5
+| 17
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-10-12"| 8–12 Oct 2018
+| 2,504
+| 29
+| style="background:#D7D5D7;"| '''28'''
+| 16
+| 14
+| 9
+| 9
+| 19
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-10-11"| 28 Sep–11 Oct 2018
+| 1,259
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 19
+| 15
+| 8.5
+| 9
+| 15
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-10-10"| 8–10 Oct 2018
+| 1,508
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 15
+| 16
+| 10
+| 10
+| 17
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-10-10"| 4–10 Oct 2018
+| 1,899
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 17
+| 15
+| 9
+| 11
+| 17
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-10-10"| 4–10 Oct 2018
+| 1,007
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 15
+| 18
+| 10
+| 10
+| 16
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-10-08"| 5–8 Oct 2018
+| 2,054
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 16
+| 18
+| 10
+| 11
+| 15
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-10-05"| 1–5 Oct 2018
+| 2,002
+| 29
+| style="background:#D7D5D7;"| '''28'''
+| 16
+| 14
+| 9
+| 10
+| 18
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-10-02"| 27 Sep–2 Oct 2018
+| 1,515
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 17
+| 16
+| 9
+| 10
+| 16
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-10-01"| 28 Sep–1 Oct 2018
+| 2,041
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 16
+| 18.5
+| 10
+| 11.5
+| 14.5
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7.5
+|-
+| [http://www.spiegel.de/politik/deutschland/cdu-csu-faellt-auf-27-prozent-spd-und-afd-gleichauf-spon-umfrage-a-1230962.html Civey]
+| data-sort-value="2018-10-01"| 24 Sep–1 Oct 2018
+| 11,904
+| –
+| style="background:#D7D5D7;"| '''26.7'''
+| 16.8
+| 16.8
+| 8.6
+| 10.4
+| 15.7
+| 5.0
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9.9
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-09-28"| 24–28 Sep 2018
+| 2,501
+| 31
+| style="background:#D7D5D7;"| '''28'''
+| 16
+| 15
+| 9
+| 10
+| 17
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-09-27"| 25–27 Sep 2018
+| 1,260
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 16
+| 8
+| 10
+| 17
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-09-26"| 20–26 Sep 2018
+| 1,902
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 16
+| 17
+| 10
+| 11
+| 15
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-09-26"| 20–26 Sep 2018
+| 1,005
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 16
+| 18
+| 9
+| 10
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-09-25"| 21–25 Sep 2018
+| 1,504
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 17
+| 18
+| 9
+| 11
+| 14
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-09-24"| 21–24 Sep 2018
+| 2,051
+| –
+| style="background:#D7D5D7;"| '''27'''
+| 16
+| 18
+| 10
+| 11.5
+| 14.5
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-09-21"| 17–21 Sep 2018
+| 2,502
+| 31
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 15
+| 9
+| 10
+| 16
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-09-19"| 19 Sep 2018
+| 1,040
+| –
+| style="background:#D7D5D7;"| '''27.5'''
+| 16.5
+| 17.5
+| 10
+| 11
+| 14.5
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-09-19"| 17–19 Sep 2018
+| 1,035
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 18
+| 9
+| 10
+| 15
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-09-19"| 13–19 Sep 2018
+| 2,368
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 16
+| 9
+| 11
+| 14
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-09-17"| 14–17 Sep 2018
+| 2,054
+| –
+| style="background:#D7D5D7;"| '''28.5'''
+| 17
+| 17.5
+| 9
+| 10.5
+| 13
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-09-14"| 10–14 Sep 2018
+| 2,507
+| 25
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 13
+| 8
+| 10
+| 16
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-09-13"| 11–13 Sep 2018
+| 1,339
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 20
+| 15
+| 7
+| 8
+| 16
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-09-13"| 1–13 Sep 2018
+| 1,258
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 19.5
+| 15
+| 8.5
+| 9
+| 12.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-09-12"| 6–12 Sep 2018
+| 1,978
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 15
+| 9
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-09-10"| 7–10 Sep 2018
+| 2,042
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 17.5
+| 9
+| 10.5
+| 13.5
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10.5
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-09-10"| 4–10 Sep 2018
+| 1,003
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 17
+| 16
+| 9
+| 9
+| 14
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-09-07"| 3–7 Sep 2018
+| 2,507
+| 27
+| style="background:#D7D5D7;"| '''31'''
+| 16
+| 14
+| 9
+| 10
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-09-05"| 3–5 Sep 2018
+| 1,502
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 18
+| 16
+| 8
+| 10
+| 14
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-09-05"| 30 Aug–5 Sep 2018
+| 2,472
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 17
+| 15
+| 9
+| 10
+| 14
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-09-03"| 31 Aug–3 Sep 2018
+| 2,069
+| –
+| style="background:#D7D5D7;"| '''28.5'''
+| 16
+| 17
+| 9.5
+| 10
+| 13.5
+| 5.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-08-31"| 27–31 Aug 2018
+| 2,503
+| 26
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 16
+| 8
+| 8
+| 16
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-08-30"| 28–30 Aug 2018
+| 1,216
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 17
+| 8
+| 8
+| 14
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-08-29"| 23–29 Aug 2018
+| 2,390
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 19
+| 15
+| 9
+| 9
+| 14
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-08-28"| 24–28 Aug 2018
+| 1,538
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 17
+| 9
+| 11
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-08-27"| 24–27 Aug 2018
+| 2,079
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 16.5
+| 16.5
+| 10
+| 10.5
+| 13.5
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-08-24"| 20–24 Aug 2018
+| 2,502
+| 26
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 14
+| 8
+| 10
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-08-22"| 20–22 Aug 2018
+| 1,047
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 18
+| 17
+| 8
+| 9
+| 14
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-08-22"| 16–22 Aug 2018
+| 1,891
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 14
+| 9
+| 9
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-08-20"| 16–20 Aug 2018
+| 3,129
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 16.5
+| 16
+| 10
+| 12
+| 13.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-08-17"| 13–17 Aug 2018
+| 2,503
+| 26
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 14
+| 9
+| 10
+| 15
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-08-15"| 9–15 Aug 2018
+| 2,942
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 15
+| 9
+| 9
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-08-13"| 10–13 Aug 2018
+| 2,034
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 17.5
+| 17
+| 9.5
+| 11
+| 12.5
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-08-10"| 6–10 Aug 2018
+| 2,505
+| 26
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 14
+| 10
+| 9
+| 15
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-08-09"| 7–9 Aug 2018
+| 1,294
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 16
+| 8
+| 9
+| 15
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-08-09"| 27 Jul–9 Aug 2018
+| 1,295
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 20
+| 14.5
+| 9
+| 9
+| 12.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-08-08"| 2–8 Aug 2018
+| 2,502
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 17
+| 14
+| 8
+| 10
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.spiegel.de/politik/deutschland/spon-wahltrend-gruene-profitieren-von-unionsstreit-rekordhoch-a-1221994.html Civey]
+| data-sort-value="2018-08-07"| 31 Jul–7 Aug 2018
+| 11,907
+| –
+| style="background:#D7D5D7;"| '''30.1'''
+| 17.4
+| 15.8
+| 7.8
+| 9.8
+| 14.0
+| 5.1
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12.7
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-08-06"| 3–6 Aug 2018
+| 2,096
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 17
+| 8.5
+| 11
+| 12.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-08-03"| 30 Jul–3 Aug 2018
+| 2,508
+| 26
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 14
+| 10
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-08-01"| 30 Jul–1 Aug 2018
+| 1,508
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 18
+| 17
+| 7
+| 9
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-08-01"| 26 Jul–1 Aug 2018
+| 2,478
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 15
+| 8
+| 9
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-07-31"| 25–31 Jul 2018
+| 1,005
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 16
+| 10
+| 10
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-07-30"| 27–30 Jul 2018
+| 2,074
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 18
+| 17.5
+| 9
+| 10.5
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-07-27"| 23–27 Jul 2018
+| 2,505
+| 25
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 14
+| 9
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-07-25"| 24–25 Jul 2018
+| 1,047
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 16
+| 8
+| 8
+| 15
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-07-25"| 19–25 Jul 2018
+| 2,001
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 18
+| 15
+| 9
+| 10
+| 14
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-07-24"| 20–24 Jul 2018
+| 1,520
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 17
+| 9
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-07-23"| 20–23 Jul 2018
+| 2,056
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 18
+| 17.5
+| 9
+| 10.5
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-07-20"| 16–20 Jul 2018
+| 2,505
+| 25
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 15
+| 8
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-07-18"| 12–18 Jul 2018
+| 2,476
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 19
+| 15
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-07-16"| 13–16 Jul 2018
+| 2,084
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 17
+| 17.5
+| 9.5
+| 10
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-07-13"| 9–13 Jul 2018
+| 2,505
+| 24
+| style="background:#D7D5D7;"| '''31'''
+| 17
+| 16
+| 9
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-07-12"| 9–12 Jul 2018
+| 1,340
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 15
+| 7
+| 11
+| 14
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-07-11"| 5–11 Jul 2018
+| 2,368
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 16
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-07-12"| 1–12 Jul 2018
+| 1,295
+| –
+| style="background:#D7D5D7;"| '''30.5'''
+| 20
+| 15
+| 9.5
+| 9
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10.5
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-07-11"| 5–11 Jul 2018
+| 1,006
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 17
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-07-09"| 6–9 Jul 2018
+| 2,061
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 17
+| 17.5
+| 9.5
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-07-06"| 2–6 Jul 2018
+| 2,502
+| 24
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 16
+| 10
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-07-04"| 3–4 Jul 2018
+| 1,505
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 18
+| 16
+| 8
+| 9
+| 14
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-07-04"| 28 Jun–4 Jul 2018
+| 1,894
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 17
+| 9
+| 9
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-07-02"| 29 Jun–2 Jul 2018
+| 2,089
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 19
+| 16.5
+| 9
+| 11
+| 12
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-06-29"| 25–29 Jun 2018
+| 2,508
+| 24
+| style="background:#D7D5D7;"| '''31'''
+| 17
+| 15
+| 10
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-06-28"| 25–28 Jun 2018
+| 1,290
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 14
+| 9
+| 10
+| 14
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-06-28"| 21–28 Jun 2018
+| 1,954
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 19
+| 14
+| 9
+| 9
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-06-26"| 25–26 Jun 2018
+| 1,025
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 19
+| 14
+| 8
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-06-26"| 22–26 Jun 2018
+| 1,525
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 16
+| 10
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.spiegel.de/politik/deutschland/cdu-und-csu-fallen-unter-30-prozent-in-spon-umfrage-a-1215135.html Civey]
+| data-sort-value="2018-06-26"| 19–26 Jun 2018
+| 10,033
+| –
+| style="background:#D7D5D7;"| '''29.8'''
+| 17.7
+| 16.1
+| 8.7
+| 10.1
+| 12.7
+| 4.9
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12.1
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-06-25"| 22–25 Jun 2018
+| 2,036
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 19.5
+| 16
+| 9
+| 11
+| 11
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-06-22"| 18–22 Jun 2018
+| 2,503
+| 24
+| style="background:#D7D5D7;"| '''30'''
+| 17
+| 15
+| 9
+| 10
+| 13
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-06-20"| 14–20 Jun 2018
+| 2,336
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 16
+| 9
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-06-18"| 15–18 Jun 2018
+| 2,060
+| –
+| style="background:#D7D5D7;"| '''29'''
+| 19
+| 16
+| 8
+| 12
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-06-15"| 14–15 Jun 2018
+| 1,001
+| 26
+| style="background:#D7D5D7;"| '''30'''
+| 16
+| 15
+| 10
+| 9
+| 14
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-06-13"| 11–13 Jun 2018
+| 1,501
+| 23
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 13
+| 9
+| 8
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-06-13"| 11–13 Jun 2018
+| 1,506
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 15
+| 8
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-06-13"| 7–13 Jun 2018
+| 2,310
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 15
+| 8
+| 11
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-06-13"| 1–13 Jun 2018
+| 1,279
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 13
+| 9.5
+| 9.5
+| 11
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-06-11"| 8–11 Jun 2018
+| 2,038
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 17
+| 16
+| 8
+| 12
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-06-08"| 4–8 Jun 2018
+| 2,504
+| 23
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 13
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-06-07"| 5–7 Jun 2018
+| 1,284
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 20
+| 13
+| 8
+| 10
+| 13
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-06-06"| 30 May–6 Jun 2018
+| 1,950
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 19
+| 14
+| 8
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-06-04"| 1–4 Jun 2018
+| 2,067
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 17
+| 16
+| 8
+| 11.5
+| 11
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-06-01"| 28 May–1 Jun 2018
+| 2,506
+| 25
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 13
+| 8
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-05-29"| 25–29 May 2018
+| 1,556
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 16
+| 9
+| 11
+| 11
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-05-29"| 24–29 May 2018
+| 1,397
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 15
+| 7
+| 11
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.spiegel.de/politik/deutschland/spd-in-sonntagsfrage-nur-noch-knapp-vor-der-afd-a-1210053.html Civey]
+| data-sort-value="2018-05-29"| 22–29 May 2018
+| 11,925
+| –
+| style="background:#D7D5D7;"| '''32.2'''
+| 16.6
+| 15.2
+| 9.2
+| 10.2
+| 12.0
+| 4.6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15.6
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-05-28"| 25–28 May 2018
+| 2,062
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 17
+| 15.5
+| 8
+| 12
+| 11.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-05-25"| 22–25 May 2018
+| 2,002
+| 24
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 13
+| 8
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-05-23"| 17–23 May 2018
+| 1,946
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 14
+| 8
+| 11
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-05-22"| 18–22 May 2018
+| 2,044
+| –
+| style="background:#D7D5D7;"| '''32.5'''
+| 16.5
+| 15.5
+| 8
+| 11
+| 11.5
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-05-18"| 14–18 May 2018
+| 2,502
+| 23
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 13
+| 9
+| 9
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-05-17"| 15–17 May 2018
+| 1,200
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 14
+| 8
+| 9
+| 12
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-05-16"| 14–16 May 2018
+| 1,009
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 14
+| 8
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-05-16"| 11–16 May 2018
+| 1,003
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 16
+| 14
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 18
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-05-16"| 9–16 May 2018
+| 2,030
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 14
+| 9
+| 10
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-05-14"| 11–14 May 2018
+| 2,098
+| –
+| style="background:#D7D5D7;"| '''32.5'''
+| 17
+| 15.5
+| 8
+| 11
+| 11.5
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-05-11"| 7–11 May 2018
+| 2,004
+| 23
+| style="background:#D7D5D7;"| '''34'''
+| 17
+| 13
+| 8
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-05-08"| 7–8 May 2018
+| 1,507
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 15
+| 8
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-05-08"| 3–8 May 2018
+| 1,489
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 14
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-05-08"| 24 Apr–8 May 2018
+| 1,253
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 11.5
+| 9
+| 10
+| 11
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-05-07"| 4–7 May 2018
+| 2,065
+| –
+| style="background:#D7D5D7;"| '''32.5'''
+| 17
+| 15.5
+| 8.5
+| 10.5
+| 11.5
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-05-04"| 30 Apr–4 May 2018
+| 2,003
+| 21
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 13
+| 9
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-05-02"| 26 Apr–2 May 2018
+| 1,507
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 17
+| 14
+| 8
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-04-30"| 27–30 Apr 2018
+| 2,097
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 15.5
+| 9
+| 10.5
+| 11.5
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-04-27"| 23–27 Apr 2018
+| 2,507
+| 22
+| style="background:#D7D5D7;"| '''34'''
+| 17
+| 12
+| 9
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-04-26"| 24–26 Apr 2018
+| 1,285
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 13
+| 7
+| 10
+| 13
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-04-26"| 20–26 Apr 2018
+| 1,005
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 13
+| 9
+| 11
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-04-25"| 19–25 Apr 2018
+| 2,350
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 14
+| 9
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-04-24"| 20–24 Apr 2018
+| 1,573
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 15
+| 9
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-04-23"| 20–23 Apr 2018
+| 2,091
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 18
+| 15.5
+| 9.5
+| 10.5
+| 12
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-04-20"| 16–20 Apr 2018
+| 2,503
+| 22
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 12
+| 9
+| 10
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-04-18"| 16–18 Apr 2018
+| 1,039
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 17
+| 15
+| 10
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-04-18"| 12–18 Apr 2018
+| 2,437
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 13
+| 9
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-04-17"| 3–17 Apr 2018
+| 1,279
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 20.5
+| 12
+| 10
+| 9
+| 11
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13.5
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-04-16"| 13–16 Apr 2018
+| 2,054
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 18.5
+| 15
+| 9
+| 11
+| 11.5
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-04-13"| 9–13 Apr 2018
+| 2,506
+| 23
+| style="background:#D7D5D7;"| '''34'''
+| 19
+| 12
+| 9
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-04-12"| 10–12 Apr 2018
+| 1,159
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 19
+| 13
+| 8
+| 9
+| 14
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-04-11"| 5–11 Apr 2018
+| 1,786
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 14
+| 9
+| 11
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-04-09"| 6–9 Apr 2018
+| 2,048
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 17.5
+| 15.5
+| 9
+| 12
+| 11.5
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-04-06"| 3–6 Apr 2018
+| 2,005
+| 23
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 13
+| 9
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-04-05"| 29 Mar–5 Apr 2018
+| 1,414
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 17
+| 13
+| 8
+| 11
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-04-04"| 3–4 Apr 2018
+| 1,503
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 14
+| 9
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/weitere-umfragen.htm#btw-trend-research-2018-04-05 pollytix]
+| data-sort-value="2018-04-04"| 23 Mar–4 Apr 2018
+| 1,386
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 19
+| 15
+| 10
+| 11
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-03-31"| 29–31 Mar 2018
+| 1,074
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 15
+| 10
+| 12
+| 10
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-03-29"| 26–29 Mar 2018
+| 2,003
+| 23
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 13
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-03-28"| 22–28 Mar 2018
+| 1,982
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 12
+| 8
+| 11
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-03-27"| 23–27 Mar 2018
+| 1,579
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 17
+| 15
+| 8
+| 11
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.spiegel.de/politik/deutschland/cdu-csu-verliert-afd-legt-deutlich-zu-spon-wahltrend-a-1200091.html Civey]
+| data-sort-value="2018-03-27"| 20–27 Mar 2018
+| 11,868
+| –
+| style="background:#D7D5D7;"| '''31.2'''
+| 17.2
+| 15.4
+| 9.3
+| 10.5
+| 11.9
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14.0
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-03-26"| 23–26 Mar 2018
+| 2,051
+| –
+| style="background:#D7D5D7;"| '''32.5'''
+| 17
+| 15
+| 10
+| 12
+| 10.5
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-03-23"| 19–23 Mar 2018
+| 2,502
+| 23
+| style="background:#D7D5D7;"| '''31'''
+| 19
+| 14
+| 9
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-03-21"| 20–21 Mar 2018
+| 1,038
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 19
+| 13
+| 9
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-03-21"| 16–21 Mar 2018
+| 1,003
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 13
+| 10
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-03-21"| 15–21 Mar 2018
+| 1,972
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 13
+| 9
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-03-19"| 16–19 Mar 2018
+| 2,066
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 17.5
+| 15
+| 10
+| 12
+| 10.5
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-03-16"| 12–16 Mar 2018
+| 2,502
+| 25
+| style="background:#D7D5D7;"| '''34'''
+| 19
+| 13
+| 8
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-03-15"| 13–15 Mar 2018
+| 1,214
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 19
+| 13
+| 9
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-03-15"| 2–15 Mar 2018
+| 1,256
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 19
+| 12.5
+| 10
+| 10
+| 11
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-03-14"| 8–14 Mar 2018
+| 1,959
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 19
+| 14
+| 9
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-03-12"| 9–12 Mar 2018
+| 2,033
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 17.5
+| 15
+| 9.5
+| 12
+| 11
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-03-09"| 5–9 Mar 2018
+| 2,507
+| 24
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 12
+| 9
+| 10
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-03-07"| 1–7 Mar 2018
+| 1,869
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 19
+| 13
+| 8
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-03-05"| 5 Mar 2018
+| 1,052
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 15
+| 15
+| 10
+| 12
+| 12
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 18
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-03-05"| 4–5 Mar 2018
+| 1,502
+| 26
+| style="background:#D7D5D7;"| '''34'''
+| 19
+| 13
+| 9
+| 9
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-03-02"| 26 Feb–2 Mar 2018
+| 2,505
+| 25
+| style="background:#D7D5D7;"| '''35'''
+| 18
+| 13
+| 9
+| 9
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-02-28"| 26–28 Feb 2018
+| 1,502
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 15
+| 9
+| 9
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-02-28"| 26–28 Feb 2018
+| 1,585
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 16
+| 16
+| 8
+| 12
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-02-28"| 22–28 Feb 2018
+| 1,890
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 16
+| 15
+| 9
+| 11
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.spiegel.de/politik/deutschland/spon-wahltrend-minister-personalie-jens-spahn-teilt-deutschland-a-1195651.html Civey]
+| data-sort-value="2018-02-27"| 20–27 Feb 2018
+| 11,878
+| –
+| style="background:#D7D5D7;"| '''33.7'''
+| 18.1
+| 12.1
+| 8.1
+| 10.4
+| 12.6
+| 5.0
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15.6
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-02-26"| 23–26 Feb 2018
+| 1,063
+| –
+| style="background:#D7D5D7;"| '''32.5'''
+| 15.5
+| 16
+| 9
+| 12
+| 12
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-02-23"| 19–23 Feb 2018
+| 2,506
+| 25
+| style="background:#D7D5D7;"| '''35'''
+| 18
+| 13
+| 9
+| 9
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-02-22"| 20–22 Feb 2018
+| 1,360
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 14
+| 8
+| 11
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-02-21"| 20–21 Feb 2018
+| 1,052
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 17
+| 14
+| 9
+| 10
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-02-21"| 15–21 Feb 2018
+| 1,985
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 17
+| 15
+| 10
+| 11
+| 11
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.spiegel.de/politik/deutschland/spd-laut-spon-wahltrend-nur-noch-bei-ue65-waehlern-ueber-20-prozent-a-1194418.html Civey]
+| data-sort-value="2018-02-20"| 13–20 Feb 2018
+| 11,909
+| –
+| style="background:#D7D5D7;"| '''32.2'''
+| 16.5
+| 14.6
+| 9.4
+| 10.0
+| 12.5
+| 4.8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15.7
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-02-19"| 16–19 Feb 2018
+| 2,040
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 15.5
+| 16
+| 9
+| 11
+| 13
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-02-16"| 12–16 Feb 2018
+| 2,501
+| 24
+| style="background:#D7D5D7;"| '''34'''
+| 16
+| 13
+| 9
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 18
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-02-15"| 13–15 Feb 2018
+| 1,001
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 16
+| 15
+| 9
+| 11
+| 13
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-02-15"| 2–15 Feb 2018
+| 1,271
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 17.5
+| 13
+| 11
+| 9.5
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14.5
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-02-14"| 8–14 Feb 2018
+| 1,478
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 19
+| 14
+| 9
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.spiegel.de/politik/deutschland/spon-wahltrend-umfrage-sieht-spd-unter-17-prozent-a-1193286.html Civey]
+| data-sort-value="2018-02-13"| 9–13 Feb 2018
+| 11,841
+| –
+| style="background:#D7D5D7;"| '''33.3'''
+| 16.4
+| 13.2
+| 9.3
+| 10.2
+| 12.8
+| 4.8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16.9
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-02-12"| 9–12 Feb 2018
+| 2,608
+| –
+| style="background:#D7D5D7;"| '''29.5'''
+| 16.5
+| 15
+| 10.5
+| 11.5
+| 13
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-02-09"| 5–9 Feb 2018
+|?
+|?
+| style="background:#D7D5D7;"| '''31'''
+| 17
+| 13
+| 10
+| 10
+| 13
+| 5<!-- adds up to 99, not 100 -->
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-02-08"| 7–8 Feb 2018
+| 1,003
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 18
+| 13
+| 10
+| 10
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-02-07"| 1–7 Feb 2018
+| 1,226
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 12
+| 9
+| 9
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-02-07"| 1–7 Feb 2018
+| 1,007
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 18
+| 14
+| 9
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-02-05"| 2–5 Feb 2018
+| 2,034
+| –
+| style="background:#D7D5D7;"| '''30.5'''
+| 17
+| 15
+| 10
+| 11
+| 12.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-02-02"| 29 Jan–2 Feb 2018
+| 2,507
+| 24
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 13
+| 9
+| 9
+| 13
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-02-01"| 30 Jan–1 Feb 2018
+| 1,302
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 19
+| 14
+| 7
+| 11
+| 14
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-01-31"| 29–31 Jan 2018
+| 1,502
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 18
+| 14
+| 10
+| 11
+| 11
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-01-24"| 25–31 Jan 2018
+| 1,247
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 20
+| 13
+| 9
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-01-29"| 26–29 Jan 2018
+| 2,073
+| –
+| style="background:#D7D5D7;"| '''33.5'''
+| 17.5
+| 14
+| 9
+| 11
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-01-26"| 22–26 Jan 2018
+| 2,505
+| 25
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 12
+| 9
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-01-24"| 22–24 Jan 2018
+| 1,043
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 19
+| 12
+| 10
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-01-24"| 18–24 Jan 2018
+| 1,513
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 12
+| 8
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2018-01-23"| 19–23 Jan 2018
+| 1,566
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 19
+| 14
+| 8
+| 11
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-01-22"| 22 Jan 2018
+| 1,282
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 17
+| 13
+| 8
+| 11
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 17
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-01-22"| 22 Jan 2018
+| 1,169
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 18
+| 14
+| 10
+| 11
+| 10
+| 5.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-01-19"| 15–19 Jan 2018
+| 2,501
+| 23
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 12
+| 8
+| 10
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2018-01-18"| 16–18 Jan 2018
+| 1,332
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 20
+| 12
+| 8
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2018-01-18"| 5–18 Jan 2018
+| 1,221
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 21
+| 12
+| 10
+| 8.5
+| 10.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-01-17"| 15–17 Jan 2018
+| 1,504
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 18
+| 12
+| 8
+| 10
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 16
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-01-17"| 11–17 Jan 2018
+| 1,419
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 13
+| 8
+| 10
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-01-15"| 12–15 Jan 2018
+| 2,000
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 18.5
+| 14
+| 9.5
+| 11.5
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-01-12"| 8–12 Jan 2018
+| 2,501
+| 22
+| style="background:#D7D5D7;"| '''33'''
+| 20
+| 11
+| 9
+| 9
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-01-10"| 4–10 Jan 2018
+| 1,899
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 21
+| 13
+| 8
+| 9
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-01-08"| 5–8 Jan 2018
+| 2,028
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 19.5
+| 13.5
+| 10
+| 11
+| 10
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.spiegel.de/politik/deutschland/spon-wahltrend-fdp-faellt-zurueck-afd-legt-zu-a-1186895.html Civey]
+| data-sort-value="2018-01-08"| 11 Dec 2017–8 Jan 2018
+| 11,880
+| –
+| style="background:#D7D5D7;"| '''31.1'''
+| 19.3
+| 14.5
+| 9.3
+| 9.9
+| 11.1
+| 4.8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.8
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2018-01-05"| 2–5 Jan 2018
+| 2,503
+| 22
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 10
+| 9
+| 9
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2018-01-03"| 2–3 Jan 2018
+| 1,506
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 13
+| 9
+| 9
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2018-01-03"| 21 Dec 2017–3 Jan 2018
+| 1,440
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 20
+| 12
+| 9
+| 9
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2018-01-02"| 29 Dec 2017–2 Jan 2018
+| 2,012
+| –
+| style="background:#D7D5D7;"| '''32.5'''
+| 19.5
+| 13
+| 10
+| 11
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2018-01-02"| 27 Dec 2017–2 Jan 2018
+| 1,005
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 14
+| 9
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+|- style="background:#E9E9E9;"
+|}
+===2017===
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:160px;" rowspan="2"| Polling firm
+! style="width:125px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br>size
+! style="width:30px;" rowspan="2"| {{abbr|Abs.|Abstention}}
+! class="unsortable" style="width:40px;"| [[CDU/CSU|Union]]
+! class="unsortable" style="width:40px;"| [[Social Democratic Party of Germany|SPD]]
+! class="unsortable" style="width:40px;"| [[Alternative for Germany|AfD]]
+! class="unsortable" style="width:40px;"| [[Free Democratic Party (Germany)|FDP]]
+! class="unsortable" style="width:40px;"| [[The Left (Germany)|Linke]]
+! class="unsortable" style="width:40px;"| [[Alliance 90/The Greens|Grüne]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{CDU/CSU/meta/color}};"|
+! style="background:{{Social Democratic Party of Germany/meta/color}};"|
+! style="background:{{Alternative for Germany/meta/color}};"|
+! style="background:{{Free Democratic Party (Germany)/meta/color}};"|
+! style="background:{{The Left (Germany)/meta/color}};"|
+! style="background:{{Alliance 90/The Greens/meta/color}};"|
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2017-12-27"| 25–27 Dec 2017
+| 1,489
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 13
+| 9
+| 10
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-12-22"| 21–22 Dec 2017
+| 2,203
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 20.5
+| 13
+| 10.5
+| 10
+| 9.5
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-12-22"| 18–22 Dec 2017
+| 2,504
+| 21
+| style="background:#D7D5D7;"| '''34'''
+| 19
+| 12
+| 8
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 15
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-12-20"| 14–20 Dec 2017
+| 1,861
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 12
+| 8
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-12-18"| 15–18 Dec 2017
+| 2,031
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 14
+| 9
+| 11
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-12-15"| 11–15 Dec 2017
+| 2,501
+| 21
+| style="background:#D7D5D7;"| '''33'''
+| 20
+| 12
+| 8
+| 10
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2017-12-14"| 1–14 Dec 2017
+| 1,443
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 21
+| 11
+| 10
+| 9
+| 11.5
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2017-12-13"| 11–13 Dec 2017
+| 1,029
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 13
+| 9
+| 9
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-12-13"| 7–13 Dec 2017
+| 1,865
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 22
+| 13
+| 8
+| 9
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-12-11"| 8–11 Dec 2017
+| 2,013
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 22
+| 13.5
+| 9
+| 10.5
+| 10.5
+| 3.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-12-10"| 9–10 Dec 2017
+| 1,566
+| –
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 11
+| 8
+| 9
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-12-08"| 4–8 Dec 2017
+| 2,500
+| 22
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 11
+| 8
+| 9
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2017-12-07"| 5–7 Dec 2017
+| 1,353
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 23
+| 12
+| 8
+| 9
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2017-12-06"| 4–6 Dec 2017
+| 1,504
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 21
+| 13
+| 9
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-12-06"| 30 Nov–6 Dec 2017
+| 1,880
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 12
+| 9
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.spiegel.de/politik/deutschland/spd-mehrheit-der-anhaenger-lehnt-grosse-koalition-ab-a-1181759.html Civey]
+| data-sort-value="2017-12-05"| 30 Nov–5 Dec 2017
+| 11,936
+| –
+| style="background:#D7D5D7;"| '''31.5'''
+| 20.4
+| 11.3
+| 11.9
+| 9.2
+| 11.0
+| 4.7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.1
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-12-04"| 1–4 Dec 2017
+| 2,063
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 22
+| 13
+| 10
+| 11
+| 10
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2017-12-01"| 28 Nov–1 Dec 2017
+| 1,010
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 21
+| 13
+| 10
+| 10
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-12-01"| 27 Nov–1 Dec 2017
+| 2,502
+| 23
+| style="background:#D7D5D7;"| '''34'''
+| 20
+| 10
+| 8
+| 9
+| 13
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-11-29"| 23–29 Nov 2017
+| 1,888
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 12
+| 9
+| 10
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2017-11-28"| 24–28 Nov 2017
+| 1,570
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 21
+| 13
+| 9
+| 10
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.spiegel.de/politik/deutschland/cdu-und-csu-legt-in-umfrage-zu-afd-verliert-a-1180635.html Civey]
+| data-sort-value="2017-11-28"| 21–28 Nov 2017
+| 10,024
+| –
+| style="background:#D7D5D7;"| '''31.7'''
+| 20.4
+| 10.6
+| 13.1
+| 8.9
+| 11.0
+| 4.3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.3
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-11-27"| 24–27 Nov 2017
+| 2,003
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 22
+| 13
+| 10
+| 10
+| 10
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2017-11-27"| 22–27 Nov 2017
+| 1,299
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21.5
+| 11
+| 10
+| 9
+| 11
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-11-24"| 20–24 Nov 2017
+| 2,508
+| 24
+| style="background:#D7D5D7;"| '''33'''
+| 19
+| 11
+| 10
+| 9
+| 12
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 14
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-11-23"| 20–23 Nov 2017
+| 1,225
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 22
+| 11
+| 9
+| 10
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-11-22"| 21–22 Nov 2017
+| 1,069
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 21
+| 12
+| 12
+| 10
+| 10
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.spiegel.de/politik/deutschland/fdp-legt-im-spon-wahltrend-zu-cdu-csu-fallen-unter-30-prozent-a-1179576.html Civey]
+| data-sort-value="2017-11-21"| 20–21 Nov 2017
+| 5,044
+| –
+| style="background:#D7D5D7;"| '''29.2'''
+| 19.5
+| 13.6
+| 13.2
+| 8.4
+| 11.9
+| 4.1
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9.7
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-11-20"| 20 Nov 2017
+| 1,789
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 12
+| 10
+| 9
+| 12
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2017-11-20"| 20 Nov 2017
+| 1,011
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 22
+| 11
+| 10
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-11-20"| 20 Nov 2017
+| 1,034
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 21
+| 14
+| 11
+| 11
+| 10
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-11-19"| 17–19 Nov 2017
+| 2,027
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 14
+| 10
+| 11.5
+| 9.5
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-11-17"| 13–17 Nov 2017
+| 2,505
+| 21
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 12
+| 12
+| 8
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2017-11-16"| 14–16 Nov 2017
+| 1,303
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 11
+| 10
+| 9
+| 12
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2017-11-15"| 10–15 Nov 2017
+| 1,382
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 12
+| 11
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-11-15"| 9–15 Nov 2017
+| 1,842
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 13
+| 10
+| 9
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-11-13"| 10–13 Nov 2017
+| 2,049
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 13.5
+| 10.5
+| 10.5
+| 9
+| 4.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-11-10"| 6–10 Nov 2017
+| 2,506
+| 21
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 12
+| 12
+| 9
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2017-11-08"| 6–8 Nov 2017
+| 1,505
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 21
+| 13
+| 12
+| 9
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-11-08"| 2–8 Nov 2017
+| 1,392
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 22
+| 13
+| 11
+| 10
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-11-06"| 3–6 Nov 2017
+| 2,023
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 22
+| 13.5
+| 10.5
+| 10.5
+| 8.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.spiegel.de/politik/deutschland/spon-wahltrend-bundestagsneuwahlen-wuerden-kaum-etwas-veraendern-a-1176655.html Civey]
+| data-sort-value="2017-11-06"| 27 Oct–6 Nov 2017
+| 10,012
+| –
+| style="background:#D7D5D7;"| '''31.0'''
+| 20.4
+| 13.7
+| 11.0
+| 9.4
+| 10.2
+| 4.3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10.6
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-11-03"| 30 Oct–3 Nov 2017
+| 2,005
+| 22
+| style="background:#D7D5D7;"| '''32'''
+| 21
+| 12
+| 11
+| 9
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-10-30"| 26–30 Oct 2017
+| 1,476
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 12
+| 10
+| 10
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-10-28"| 27–28 Oct 2017
+| 1,024
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 13
+| 11
+| 10
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-10-27"| 23–27 Oct 2017
+| 2,500
+| 23
+| style="background:#D7D5D7;"| '''33'''
+| 20
+| 11
+| 11
+| 9
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 13
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2017-10-26"| 24–26 Oct 2017
+| 1,325
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 12
+| 10
+| 9
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-10-25"| 19–25 Oct 2017
+| 2,296
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 22
+| 12
+| 11
+| 9
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-10-23"| 23 Oct 2017
+| 1,002
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 13
+| 10
+| 10
+| 9
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-10-20"| 16–20 Oct 2017
+| 2,503
+| 25
+| style="background:#D7D5D7;"| '''31'''
+| 22
+| 11
+| 11
+| 10
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
+|-
+| [http://www.wahlrecht.de/umfragen/allensbach.htm Allensbach]
+| data-sort-value="2017-10-20"| 7–19 Oct 2017
+| 1,454
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 20.5
+| 12
+| 12
+| 9
+| 9.5
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12.5
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2017-10-18"| 16–18 Oct 2017
+| 1,026
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 12
+| 12
+| 9
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-10-18"| 12–18 Oct 2017
+| 2,304
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 21
+| 12
+| 11
+| 9
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2017-10-18"| 12–18 Oct 2017
+| 1,005
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 13
+| 12
+| 10
+| 9
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-10-16"| 13–16 Oct 2017
+| 2,011
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 21.5
+| 13
+| 10
+| 9
+| 9.5
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10.5
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-10-13"| 9–13 Oct 2017
+| 2,501
+| 25
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 12
+| 11
+| 9
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2017-10-12"| 10–12 Oct 2017
+| 1,180
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 12
+| 11
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2017-10-11"| 9–11 Oct 2017
+| 1,506
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 11
+| 11
+| 10
+| 10
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-10-11"| 5–11 Oct 2017
+| 1,960
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 12
+| 11
+| 10
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-10-09"| 6–9 Oct 2017
+| 2,015
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 22
+| 13
+| 11
+| 9
+| 9
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-10-06"| 2–6 Oct 2017
+| 2,001
+| 24
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 12
+| 11
+| 9
+| 11
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-10-04"| 28 Sep–4 Oct 2017
+| 1,490
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 22
+| 12
+| 10
+| 10
+| 9
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2017-09-29"| 25–29 Sep 2017
+| 2,005
+| 25
+| style="background:#D7D5D7;"| '''32'''
+| 20
+| 12
+| 11
+| 10
+| 10
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|-
+| [http://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2017-09-28"| 27–28 Sep 2017
+| 1,071
+| –
+| style="background:#D7D5D7;"| '''31'''
+| 21
+| 13
+| 12
+| 9
+| 10
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [http://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2017-09-28"| 26–28 Sep 2017
+| 1,425
+| –
+| style="background:#D7D5D7;"| '''32'''
+| 21
+| 12
+| 10
+| 10
+| 11
+| 4
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
+| [http://www.wahlrecht.de/umfragen/emnid.htm Emnid]
+| data-sort-value="2017-09-27"| 25–27 Sep 2017
+| 1,038
+| –
+| style="background:#D7D5D7;"| '''33'''
+| 21
+| 12
+| 11
+| 10
+| 10
+| 3
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12
+|- style="background:#E9E9E9;"
+| [[2017 German federal election|2017 federal election]]
+| data-sort-value="2017-09-24"| 24 Sep 2017
+| –
+| 23.8
+| style="background:#D7D5D7;"| '''32.9'''
+| 20.5
+| 12.6
+| 10.7
+| 9.2
+| 8.9
+| 5.0
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12.4
+|}
 

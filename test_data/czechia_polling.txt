@@ -1,0 +1,570 @@
+=== 2021 ===
+{| class="wikitable mw-collapsible sortable" style="text-align:center;font-size:90%;line-height:14px;"
+! rowspan="3" |Polling firm
+! rowspan="3" |Fieldwork<br />date
+! rowspan="3" |Sample<br />size
+! rowspan="3" |Turnout
+! rowspan="2" class="unsortable" style="width:40px;"  |[[ANO 2011|ANO]]
+! colspan="3" class="unsortable" style="width:40px;"  |[[SPOLU (Czech Republic)|SPOLU]]
+! colspan="2" class="unsortable" style="width:40px;"  |[[Pirates and Mayors|Piráti+STAN]]
+! rowspan="2" class="unsortable" style="width:40px;"  |[[Freedom and Direct Democracy|SPD]]
+! rowspan="2" class="unsortable" style="width:40px;"  |[[Communist Party of Bohemia and Moravia|KSČM]]
+! rowspan="2" class="unsortable" style="width:40px;"  |[[Czech Social Democratic Party|ČSSD]]
+! colspan="2" class="unsortable" style="width:40px;"  |[[Tricolour Citizens' Movement|T]]–[[Svobodní|S]]–[[Freeholder Party of the Czech Republic|SsČR]]
+! rowspan="2" class="unsortable" style="width:40px;"  |[[Green Party (Czech Republic)|Z]]
+! rowspan="2" class="unsortable" style="width:40px;"  |[[Přísaha|P]]
+! rowspan="3" style="width:40px;"  |Oth.
+! rowspan="3" style="width:25px;"  |Lead
+! rowspan="3" style="width:40px;"  |[[Andrej Babiš' Second Cabinet|Govt.]]<br /><small>+ sup.{{efn|[[Communist Party of Bohemia and Moravia]] until 13 April 2021.<ref name="KSČM_endssupport"/>}}</small>
+! rowspan="3" style="width:40px;"  |[[Opposition (politics)|Opp.]]
+|- style="height:40px;"
+! class="unsortable" style="width:40px;" |[[Civic Democratic Party (Czech Republic)|ODS]]
+! class="unsortable" style="width:40px;" |[[KDU-ČSL|KDU–<br />ČSL]]
+! class="unsortable" style="width:40px;" |[[TOP 09]]
+! class="unsortable" style="width:40px;" |[[Czech Pirate Party|Piráti]]
+! class="unsortable" style="width:40px;" |[[Mayors and Independents|STAN]]
+! class="unsortable" style="width:40px;" |[[Svobodní|S]]
+! class="unsortable" style="width:40px;" |[[Tricolour Citizens' Movement|T]]
+|-
+! class="unsortable" style="background:{{ANO 2011/meta/color}};" |
+! class="unsortable" style="background:{{Civic Democratic Party (Czech Republic)/meta/color}};" |
+! class="unsortable" style="background:{{Christian and Democratic Union – Czechoslovak People's Party/meta/color}};" |
+! class="unsortable" style="background:{{TOP 09/meta/color}};" |
+! class="unsortable" style="background:{{Czech Pirate Party/meta/color}};" |
+! class="unsortable" style="background:{{Mayors and Independents/meta/color}};" |
+! class="unsortable" style="background:{{Freedom and Direct Democracy/meta/color}};" |
+! class="unsortable" style="background:{{Communist Party of Bohemia and Moravia/meta/color}};" |
+! class="unsortable" style="background:{{Czech Social Democratic Party/meta/color}};" |
+! class="unsortable" style="background:{{Party of Free Citizens/meta/color}};" |
+! class="unsortable" style="background:{{Tricolour Citizens' Movement/meta/color}};" |
+! class="unsortable" style="background:{{Green Party (Czech Republic)/meta/color}};" |
+! class="unsortable" style="background:#0033FF;" |
+|-
+|[https://www.median.eu/cs/wp-content/uploads/2021/05/Volby_2021_04.pdf Median]
+|1 Apr - 4 May
+|1007
+|67.0
+|21.0
+| colspan="3" |17.0
+| colspan="2" style="background:#DCEFE5;"|'''27.5'''
+|11.5
+|6.0
+|6.5
+| colspan="2" |2.5
+|3.0
+|2.5
+|2.5
+|style="background:#448f68;color:#FFFFFF;" |6.5
+|'''33.5'''
+|{{No|'''56.0'''}}
+|-
+|rowspan="2" |[https://ct24.ceskatelevize.cz/domaci/3309217-koalice-piratu-a-stan-vede-i-v-dubnovem-modelu-pred-ano-se-umistilo-take-spolu-i-kdyz Kantar CZ]
+|rowspan="2" |12–30 Apr
+|rowspan="2" |1200
+|rowspan="2"  {{N/A}}
+|{{Party shading/ANO 2011}}|'''20.0'''
+|11.5
+|3.5
+|6.5
+|19.0
+|11.0
+|11.0
+|5.0
+|3.5
+| {{N/A}}
+| 2.0
+| {{N/A}}
+|2.0
+|5.0
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |1.0
+|'''23.5'''
+|{{No|'''67.5'''}}
+|-
+|21.0
+| colspan="3" |21.5
+| colspan="2" style="background:#DCEFE5;"|'''27.0'''
+|12.0
+|5.0
+|4.0
+|colspan=2|3.5
+| {{N/A}}
+|2.5
+|3.5
+|style="background:#448f68;color:#FFFFFF;" |5.5
+|'''25.0'''
+|{{No|'''65.5'''}}
+|-
+|[http://www.sanep.cz/pruzkumy/volebni-preference-2021-6/ Sanep]
+|15–21 Apr
+|1981
+|61.2
+|23.9
+| colspan="3" |17.7
+| colspan="2" style="background:#DCEFE5;"|'''26.4'''
+|10.5
+|5.7
+|5.1
+| colspan="2" |5.0
+|1.4
+|3.0
+|1.3
+|style="background:#448f68;color:#FFFFFF;" |2.5
+|'''29.0'''
+|{{No|'''63.3'''}}
+|-
+| style="border-right-style:hidden;" |
+| style="border-right-style:hidden;" data-sort-value="2021-04-13" |'''13 Apr'''
+| colspan="19" | '''[[Communist Party of Bohemia and Moravia]] terminated its support of the government'''<ref name="KSČM_endssupport">{{cite web |title=S podporou je konec. Komunisté vypověděli dohodu o toleranci vlády, hlasování o nedůvěře ale vyvolávat nebudou |url=https://domaci.ihned.cz/c1-66909430-s-podporou-je-konec-komuniste-vypovedeli-dohodu-o-toleranci-vlady-hlasovani-o-neduvere-ale-vyvolavat-nebudou |website=[[Hospodářské noviny]] |accessdate=13 April 2021}}</ref>
+|-
+|rowspan="2" |[https://www.stem.cz/volebni-preference-stem-duben-2021/ STEM]
+|rowspan="2" |7–13 Apr
+|rowspan="2" |1049
+|rowspan="2" {{N/A}}
+|{{Party shading/ANO 2011}}|'''23.8'''
+|8.7
+|3.5
+|4.1
+|18.6
+|11.0
+|12.9
+|5.1
+|6.6
+|0.6
+|1.1
+|1.1
+|2.4
+|0.5
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |5.2
+|'''35.5'''
+|{{No|'''58.8'''}}
+|-
+|24.0
+| colspan="3" |16.6
+| colspan="2" style="background:#DCEFE5;"|'''27.9'''
+|12.8
+|5.2
+|7.0
+|colspan=2|1.9
+|1.4
+|2.4
+|0.7
+|style="background:#448f68;color:#FFFFFF;" |3.9
+|'''36.2'''
+|{{No|'''57.3'''}}
+|-
+|[https://www.ipsos.com/sites/default/files/ct/news/documents/2021-05/Tisková%20zpráva%20Ipsos_volebn%C3%AD%20model_7.5.2021_0.pdf Ipsos]
+| data-sort-value="2021-04-12" |8–12 Apr
+| 1,009
+| {{N/A}}
+| 22.2
+| colspan="3" | 21.7
+| colspan="2" style="background:#DCEFE5;"|'''27.9'''
+| 10.0
+| 5.4
+| 4.5
+|colspan=2|3.6
+| {{N/A}}
+| 2.4
+| 2.2
+|style="background:#448f68;color:#FFFFFF;" |5.3
+| '''32.0'''
+|{{No|'''59.2'''}}
+|-
+|[https://www.phoenixresearch.cz/dnld/Phoenixresearch-preference-a-potencial-CR-4-2021-(LQ).pdf Phoenix Research]
+|1–10 Apr
+|1022
+|58.5
+|22.1
+| colspan="3" |15.7
+| colspan="2" style="background:#DCEFE5;"|'''24.1'''
+|11.2
+|5.1
+|5.7
+|{{N/A}}
+|3.5
+|{{N/A}}
+|{{N/A}}
+|4.6
+|style="background:#448f68;color:#FFFFFF;" |2.0
+|'''32.9'''
+|{{No|'''54.5'''}}
+|-
+|rowspan="2" |[https://ct24.ceskatelevize.cz/domaci/3296883-v-breznu-ve-volbach-vyhrala-koalice-piratu-a-stan-ukazal-model-data-collect Data Collect]
+|rowspan="2" |25 Mar – 1 Apr
+|881
+|{{N/A}}
+|{{Party shading/ANO 2011}}|'''20.8'''
+|10.0
+|4.7
+|5.5
+|17.2
+|14.3
+|12.6
+|2.7
+|3.0
+|{{N/A}}
+|3.3
+|{{N/A}}
+|{{N/A}}
+|6.1
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |3.6
+|'''26.5'''
+|{{No|'''55.0'''}}
+|-
+|22.1
+| colspan="3" |18.2
+| colspan="2" style="background:#DCEFE5;"|'''28.5'''
+|13.4
+|2.8
+|3.7
+|colspan=2|5.1
+|{{N/A}}
+| {{N/A}}
+|6.2
+|style="background:#448f68;color:#FFFFFF;" |6.4
+|'''28.6'''
+|{{No|'''51.8'''}}
+|-
+|rowspan="2" |[https://ct24.ceskatelevize.cz/sites/default/files/2550619-trendy_ceska_2021_vlna_68_volebni_model.pdf Kantar CZ]
+|rowspan="2" |25 Mar – 1 Apr
+|rowspan="2" |1200
+|rowspan="2" |79.0
+|{{Party shading/ANO 2011}}|'''22.0'''
+|9.0
+|4.0
+|6.5
+|20.0
+|12.0
+|11.5
+|5.0
+|3.0
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+|2.0
+|6.5
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |2.0
+|'''30.0'''
+|{{No|'''63.0'''}}
+|-
+|23.5
+| colspan="3" |19.0
+| colspan="2" style="background:#DCEFE5;"|'''30.0'''
+|12.0
+|5.0
+|3.0
+|colspan=2|2.0
+| {{N/A}}
+|2.0
+|5.0
+|style="background:#448f68;color:#FFFFFF;" |6.5
+|'''31.5'''
+|{{No|'''61.0'''}}
+|-
+|[https://www.median.eu/cs/wp-content/uploads/2021/03/Volby_2021_03_v03MK.pdf Median]
+| data-sort-value="2021-03-29" |1 - 29 Mar
+| 1,013
+| 67.0
+| 24.5
+| colspan="3" | 17.5
+| colspan="2" style="background:#DCEFE5;"|'''27.5'''
+| 10.0
+| 7.5
+| 4.0
+| {{N/A}}
+| 3.0
+| 2.0
+| {{N/A}}
+| 4.0
+|style="background:#448f68;color:#FFFFFF;" |3.0
+| '''36.0'''
+|{{No|'''55.0'''}}
+|-
+|[http://www.sanep.cz/pruzkumy/-1249/ Sanep]
+|18 Mar–23 Mar
+|1869
+|60.7
+|{{Party shading/ANO 2011}} |'''26.2'''
+| colspan="3" |17.9
+| colspan="2" |26.1
+|10.3
+|6.3
+|5.3|5.3
+|{{N/A}}
+|2.8
+|1.3
+| {{N/A}}
+|3.8
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |0.1
+|'''37.8'''
+|{{no|'''58.4'''}}
+|-
+|[https://www.ipsos.com/sites/default/files/ct/news/documents/2021-04/tiskova_zprava_ipsos_volebni_model_9.4.2021.pdf Ipsos]
+| data-sort-value="2021-03-16" |12 - 16 Mar
+| 1,036
+| 65.0
+| 25.3
+| colspan="3" | 20.9
+| colspan="2" style="background:#DCEFE5;"|'''26.9'''
+| 9.5
+| 4.0
+| 4.0
+| 1.9
+| 3.1
+| 1.5
+| {{N/A}}
+| 2.8
+|style="background:#448f68;color:#FFFFFF;" |1.6
+| '''33.3'''
+|{{No|'''57.3'''}}
+|-
+|[https://www.phoenixresearch.cz/dnld/Phoenixresearch-preference-a-potencial-CR-3-2021-(LQ).pdf Phoenix Research]
+| 1 Mar–10 Mar
+| 1058
+| 57.2
+| {{Party shading/ANO 2011}} |'''23.2'''
+| colspan="3" |16.1
+| colspan="2" |23.0
+| 10.3
+| 5.3
+| 5.8
+| {{N/A}}
+| 3.4
+| {{N/A}}
+| {{N/A}}
+| 34.3 |3.3
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |0.2
+| '''34.3'''
+| {{No|'''52.8'''}}
+|-
+| style="border-right-style:hidden;" |
+| style="border-right-style:hidden;" data-sort-value="2021-03-04" |'''5 Mar'''
+| colspan="19" | '''[[Tricolour Citizens' Movement|Trikolóra]], [[Svobodní]] and [[Freeholder Party of the Czech Republic|SsČR]] form an electoral alliance'''<ref>{{cite web |title=Trikolóra, Soukromníci a Svobodní půjdou do voleb spolu. Jsme otevřeni i pro další subjekty, řekl Klaus mladší |url=https://ct24.ceskatelevize.cz/domaci/3278602-trikolora-soukromnici-a-svobodni-pujdou-do-voleb-spolu-jsme-otevreni-i-pro-dalsi |website=[[Czech Television]] |accessdate=4 March 2021}}</ref>
+|-
+|rowspan="2" |[https://ct24.ceskatelevize.cz/sites/default/files/2543796-trendy_ceska_2021_vlna_67_model.pdf Kantar CZ]
+|rowspan="2" |15 Feb–5 Mar
+|rowspan="2" |1200
+|rowspan="2" |74.0
+|20.5
+|9.5
+|4.5
+|5.5
+|{{Party shading/Czech Pirate Party}}|'''22.0'''
+|13.0
+|10.5
+|5.0
+|4.5| 4.5
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+|5.0
+|style="background:{{Czech Pirate Party/meta/color}};color:#FFFFFF;" |1.5
+|'''30.0'''
+|{{No|'''65.0'''}}
+|-
+|22.0
+| colspan="3" |17.5
+| colspan="2" style="background:#DCEFE5;"|'''34.0'''
+|11.0
+|5.5
+|4.5|4.5
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+|5.5
+|style="background:#448f68;color:#FFFFFF;" |12.0
+|'''32.0'''
+|{{No|'''62.5'''}}
+|-
+|[https://www.median.eu/cs/wp-content/uploads/2021/03/Snemovni_volebni_model_2_2021.pdf Median]
+| data-sort-value="2021-03-02" |1 Feb–2 Mar
+| 1,048
+| 64.5
+| {{Party shading/ANO 2011}} |'''26.5'''
+| colspan="3" | 18.5
+| colspan="2" | 25.0
+| 10.0
+| 8.0
+| 4.5
+| {{N/A}}
+| 2.5
+| 1.5
+| {{N/A}}
+| 3.5
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |1.5
+| '''39.0'''
+|{{No|'''53.5'''}}
+|-
+|[http://www.sanep.cz/pruzkumy/-1245/ Sanep]
+| data-sort-value="2021-02-23" |18–23 Feb
+| 15,635
+| 61.2
+| {{Party shading/ANO 2011}} |'''26.8'''
+| colspan="3" | 18.6
+| colspan="2" | 24.9
+| 9.4
+| 5.3
+| 5.9
+| {{N/A}}
+| 2.6
+| 1.2
+| {{N/A}}
+| 5.3
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |1.9
+| '''38.0'''
+|{{No|'''52.9'''}}
+|-
+|[https://www.ipsos.com/sites/default/files/ct/news/documents/2021-03/tiskova_zprava_ipsos_volebni_model_12032021.pdf Ipsos]
+| data-sort-value="2021-02-19" |15–19 Feb
+| 1,000
+| 65.0
+| {{Party shading/ANO 2011}} |'''25.4'''
+| colspan="3" | 20.5
+| colspan="2" | 24.9
+| 9.4
+| 4.8
+| 5.5
+| 1.8
+| 3.4
+| 1.6
+| {{N/A}}
+| 2.7
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |0.5
+| '''35.7'''
+|{{No|'''54.8'''}}
+|-
+|[https://www.phoenixresearch.cz/dnld/Phoenixresearch-preference-a-potencial-CR-2-2021-(LQ).pdf Phoenix Research]
+| data-sort-value="2021-02-11" |1–11 Feb
+| 1,062
+| 59.8
+| {{Party shading/ANO 2011}} |'''24.4'''
+| colspan="3" | 19.5
+| colspan="2" | 20.3
+| 10.1
+| 3.4
+| 5.8
+| {{N/A}}
+| 3.6
+| {{N/A}}
+| {{N/A}}
+| 4.4
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |4.1
+| '''30.2'''
+|{{No|'''49.9'''}}
+|-
+|rowspan="2" |{{nowrap|[https://ct24.ceskatelevize.cz/sites/default/files/2536514-trendy_ceska_2021_vlna66_volebni_model.pdf Kantar CZ]}}
+| rowspan="2" data-sort-value="2020-02-05" |18 Jan–5 Feb
+| rowspan="2" | 1200
+| rowspan="2" | 73.0
+| {{Party shading/ANO 2011}} |'''26.0'''
+| 10.5
+| 4.5
+| 4.5
+| 21.0
+| 9.5
+| 10.5
+| 5.0
+| 3.5
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+| 5.0
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |5.0
+| '''34.5'''
+|{{No|'''60.5'''}}
+|-
+| 26.5
+| colspan="3" |19.5
+| colspan="2" style="background:#DCEFE5;"|'''29.5'''
+| 10.5
+| 5.0
+| 4.0
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+| {{N/A}}
+| 5.0
+| style="background:#448f68;color:#FFFFFF;" |3.0
+| '''35.5'''
+|{{No|'''59.5'''}}
+|-
+| [https://www.median.eu/cs/wp-content/uploads/2021/02/Volby_2021_01_v03_FINAL.pdf Median]
+| data-sort-value="2020-11-15" |1–29 Jan
+| 1062
+| 63.5
+| {{Party shading/ANO 2011}} |'''26.5'''
+| colspan="3" | 18.5
+| colspan="2" | 25.0
+| 9.0
+| 7.0
+| 7.0
+| {{N/A}}
+| 2.0
+| 1.5
+| {{N/A}}
+| 3.5
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |1.5
+| '''40.5'''
+|{{No|'''52.5'''}}
+|-
+|[http://www.sanep.cz/pruzkumy/volby-by-vyhralo-hnuti-ano-druha-je-koalice-pirati-stan/ Sanep]
+| data-sort-value="2021-01-26" |21–26 Jan
+| 1,843
+| 61.1
+| {{Party shading/ANO 2011}} |'''27.1'''
+| colspan="3" | 18.3
+| colspan="2" | 23.6
+| 8.8
+| 5.0
+| 6.2
+| {{N/A}}
+| 2.5
+| 0.8
+| {{N/A}}
+| 7.7
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |3.5
+| '''38.3'''
+|{{No|'''50.7'''}}
+|-
+| [https://www.ipsos.com/sites/default/files/ct/news/documents/2021-02/tiskova_zprava_ipsos_volebni_model_12.2.2021_0.pdf Ipsos]
+| data-sort-value="2021-01-17" |15–19 Jan
+| 1018
+| 64.0
+| {{Party shading/ANO 2011}} |'''27.2'''
+| colspan="3" | 21.7
+| colspan="2" | 23.2
+| 8.4
+| 6.0
+| 5.8
+| 1.9
+| 3.6
+| 1.2
+| {{N/A}}
+| 0.8
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |4.0
+| '''39.0'''
+|{{No|'''53.3'''}}
+|-
+|[https://www.phoenixresearch.cz/aktuality/ Phoenix Research]
+| data-sort-value="2021-01-05" |1–10 Jan
+| 1,038
+| 68.1
+| {{Party shading/ANO 2011}} |'''25.5'''
+| colspan="3" | 20.3
+| colspan="2" | 19.3
+| 9.0
+| 4.1
+| 5.6
+| {{N/A}}
+| 3.9
+| {{N/A}}
+| {{N/A}}
+| 12.3
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |5.2
+| '''35.2'''
+|{{No|'''48.6'''}}
+|- style="background:#E9E9E9;"
+|}

@@ -5498,7 +5498,7 @@
 | 0.9
 | style="background:{{Conservative Party (Norway)/meta/color}};color:#FFFFFF;" data-sort-value="-0.6"| 0.6
 |- style="background:#E9E9E9;"
-| [[2017 Norwegian parliamentary election|2017 election]]
+| [[http2017 Norwegian parliamentary election|2017 election]]
 | data-sort-value="2017-09-11"| 11 Sep 2017
 | {{N/A}}
 | 78.3

@@ -1,0 +1,120 @@
+=== Electoral polls ===
+{| class="wikitable mw-datatable collapsible" style="text-align:center; font-size:95%; line-height:16px;"
+|- style="height:42px; background-color:#E9E9E9"
+! style="width:175px;"| <small>Pollster</small>
+! style="width:70px;"| <small>Date</small>
+! style="width:50px;" | <small>Sample size</small>
+! style="width:45px;" | <small>[[Pedro Castillo]]</small><br /><small>[[File:Partido Político Nacional Perú Libre.png|30px|link=Free Peru]]
+! style="width:45px;" | <small>[[Keiko Fujimori]]</small><br />[[File:Fuerza popular.svg|30px|link=Popular Force]]
+! style="width:50px;" | <small>Blank / None
+! style="width:50px;" | <small>Undecided
+|-
+| colspan="7" style="background:#A0A0A0"|
+|- style="background-color:#BEBEBE;"
+|'''Election results'''
+| 6 June 2021
+| {{Celda|N/A}}
+|
+|
+|
+|
+|-
+| colspan="7" style="background:#A0A0A0"|
+|-
+| CIT/Expreso<ref>{{cite web|date=2021-05-11|url=https://encuestas.com.pe/encuesta-2da-vuelta-cit-11-mayo-2021/|title=Encuesta 2da Vuelta, CIT – 11 Mayo 2021|last=|first=|accessdate=2021-05-11|website=encuetas.com.pe|language=es}}</ref>
+| 7–8 May 2021
+| 2,400
+| style="background:#FFD0D7"|'''38.2'''
+| 37.3
+| 12.6
+| 11.9
+|-
+| CPI/RPP<ref>{{Cite web|date=2021-05-10|title=CPI: Pedro Castillo obtiene 34.2 % de intención de voto y Keiko Fujimori acorta distancia al tener 32 %|url=https://rpp.pe/politica/elecciones/elecciones-2021-pedro-castillo-obtiene-342-de-intencion-de-voto-y-keiko-fujimori-acorta-distancia-al-tener-32-segun-encuesta-de-cpi-noticia-1335960|url-status=live|archive-date=2021-05-10|website=rpp.pe|language=es}}</ref>
+|6–8 May 2021
+|1,600
+|style="background:#FFD0D7" |'''34.2'''
+|32.0
+|18.5
+|15.3
+|-
+| IEP/La Republica<ref>{{Cite web|date=2021-04-25|title=Encuesta IEP: Pedro Castillo baja y Keiko Fujimori se le acerca en las preferencias|url=https://larepublica.pe/elecciones/2021/05/09/encuesta-iep-pedro-castillo-baja-y-keiko-fujimori-se-le-acerca-en-las-preferencias-pltc/|url-status=live|archive-date=2021-05-06|website=larepublica.pe|language=es}}</ref>
+| 3–6 May 2021
+| 1,367
+| style="background:#FFD0D7" |'''36.2'''
+|30.0
+| 21.3
+| 12.4
+|-
+| Datum/Gestión/Perú 21<ref>{{Cite web|date=2021-05-07|title=Datum: Pedro Castillo lidera intención de voto, pero diferencia con Keiko Fujimori se acorta a cinco puntos|url=https://rpp.pe/politica/elecciones/elecciones-2021-pedro-castillo-lidera-intencion-de-voto-pero-diferencia-con-keiko-fujimori-se-acorta-a-cinco-puntos-segun-datum-noticia-1335544|url-status=live|archive-date=2021-05-07|website=rpp.pe|language=es}}</ref>
+| 5–6 May 2021
+| 1,203
+| style="background:#FFD0D7" |'''41'''
+| 36
+| 11
+| 12
+|-
+| CIT/Expreso<ref>{{cite web|url=https://elcomercio.pe/elecciones-2021/encuesta-ipsos-en-cuarto-poder-pedro-castillo-lidera-las-preferencias-con-43-y-keiko-alcanza-34-noticia/|title=Encuesta Ipsos en Cuarto Poder: Pedro Castillo lidera las preferencias con 43 % y Keiko alcanza 34 %|last=|first=|accessdate=2021-05-02|website=elcomercio.pe|language=es}}</ref>
+| 28–30 April 2021
+| 1,600
+| style="background:#FFD0D7"|'''37.6'''
+| 34.5
+| 8.8
+| 19.1
+|-
+| Ipsos Perú/América<ref>{{cite web|url=https://elcomercio.pe/elecciones-2021/encuesta-ipsos-en-cuarto-poder-pedro-castillo-lidera-las-preferencias-con-43-y-keiko-alcanza-34-noticia/|title=Encuesta Ipsos en Cuarto Poder: Pedro Castillo lidera las preferencias con 43 % y Keiko alcanza 34 %|last=|first=|accessdate=2021-05-02|website=elcomercio.pe|language=es}}</ref>
+| 30 April 2021
+| 1,204
+| style="background:#FFD0D7"|'''43'''
+| 34
+| 13
+| 10
+|-
+| Datum/Gestión/Perú 21<ref>{{Cite web|date=2021-04-22|title=Keiko Fujimori crece 8 puntos y acorta la distancia con Pedro Castillo|url=https://gestion.pe/peru/politica/datum-keiko-fujimori-crece-8-puntos-y-acorta-la-distancia-con-pedro-castillo-noticia/|url-status=live|archive-date=2021-04-30|website=rpp.pe|language=es}}</ref>
+| 27–29 April 2021
+| 1,200
+| style="background:#FFD0D7" |'''44'''
+| 34
+| 11
+| 11
+|-
+| IDICE/La Razón<ref>{{Cite web|date=2021-04-24|title=Keiko Fujimori se acerca a izquierdista Pedro Castillo|url=https://larazon.pe/keiko-fujimori-se-acerca-a-izquierdista-pedro-castillo/|url-status=live|archive-date=2021-04-25|website=larazon.pe|language=es}}</ref>
+|{{nowrap|22–23 April 2021}}
+| 1,200
+| style="background:#FFD0D7" |'''41.3'''
+| 34.8
+| 11.7
+| 12.2
+|-
+| CPI/Panamericana<ref>{{Cite web|date=2021-04-26|title=CPI: Pedro Castillo lidera la intención de voto con el 35.5% y Keiko Fujimori obtiene el 23.1%|url=https://rpp.pe/politica/elecciones/cpi-pedro-castillo-lidera-la-intencion-de-voto-con-el-355-y-keiko-fujimori-obtiene-el-231-noticia-1333507|url-status=live|archive-date=2021-04-26|website=rpp.pe|language=es}}</ref>
+|{{nowrap|18–21 April 2021}}
+|1,200
+|style="background:#FFD0D7" |'''35.5'''
+|23.1
+|23.7
+|17.7
+|-
+| IEP/La Republica<ref>{{Cite web|date=2021-04-25|title=IEP: IEP: Pedro Castillo gana por casi el doble a Keiko Fujimori en segunda vuelta|url=https://larepublica.pe/elecciones/2021/04/25/iep-pedro-castillo-gana-por-casi-el-doble-a-keiko-fujimori-en-segunda-vuelta-pltc/|url-status=live|archive-date=2021-04-25|website=larepublica.pe|language=es}}</ref>
+| 17–21 April 2021
+| 1,367
+| style="background:#FFD0D7" |'''41.5'''
+| 21.5
+| 23.5
+| 13.5
+|-
+| Datum/Gestión/Perú 21<ref>{{Cite web|date=2021-04-22|title=Datum: Pedro Castillo obtiene 41% de intención de voto y Keiko Fujimori alcanza 26%|url=https://rpp.pe/politica/elecciones/elecciones-2021-datum-pedro-castillo-obtiene-41-de-intencion-de-voto-y-keiko-fujimori-alcanza-26-noticia-1332901|url-status=live|archive-date=2021-04-23|website=rpp.pe|language=es}}</ref>
+| 16–20 April 2021
+| 1,205
+| style="background:#FFD0D7" |'''41'''
+| 26
+| 15
+| 18
+|-
+| Ipsos Perú/América<ref>{{cite web|url=https://elcomercio.pe/elecciones-2021/encuesta-america-ipsos-pedro-castillo-lidera-las-preferencias-con-42-y-fujimori-alcanza-31-noticia/|title=Encuesta Ipsos en Cuarto Poder: Pedro Castillo lidera las preferencias con 42% y Fujimori alcanza 31%|last=|first=|accessdate=2021-04-18|website=elcomercio.pe|language=es}}</ref>
+| 15–16 April 2021
+| 1,204
+| style="background:#FFD0D7"|'''42'''
+| 31
+| 16
+| 11
+|-
+|}
