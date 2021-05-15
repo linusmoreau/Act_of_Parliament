@@ -1737,14 +1737,10 @@ class GraphDisplay(Widget):
             mark = round(self.y_min + self.y_step * i, 4)
             if mark == 0:
                 zero_loc = self.graph_rect.bottom - self.graph_rect.h / num * i
-            t = Text(str(mark) + ' ',
-                     (self.graph_rect.left, self.graph_rect.bottom - self.graph_rect.h / num * i),
-                     font_size=font_size, align=RIGHT)
+            y = self.graph_rect.bottom - (self.y_step * i * self.y_scale)
+            t = Text(str(mark) + ' ', (self.graph_rect.left, y), font_size=font_size, align=RIGHT)
             self.components.append(t)
-            pygame.draw.line(self.surface, light_grey,
-                             (self.left_margin, self.graph_rect.h + self.top_margin - self.graph_rect.h / num * i),
-                             (self.left_margin + self.graph_rect.w,
-                              self.graph_rect.h + self.top_margin - self.graph_rect.h / num * i))
+            pygame.draw.line(self.surface, light_grey, (self.left_margin, y), (self.left_margin + self.graph_rect.w, y))
 
         # Draw x-axis intervals
         step = 1
@@ -1860,10 +1856,14 @@ class GraphDisplay(Widget):
                 # pygame.draw.circle(self.surface, line_colour, point, 0)
 
             for j in range(len(points) - 1):
-                pygame.draw.aaline(self.surface, line_colour, points[j], points[j + 1])
+                pygame.draw.line(self.surface, line_colour, points[j], points[j + 1])
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] + 1),
+                                   (points[j + 1][0], points[j + 1][1] + 1))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] - 1),
+                                   (points[j + 1][0], points[j + 1][1] - 1))
 
             # pygame.draw.aalines(self.surface, line_colour, False, points)
-            # pygame.draw.lines(self.surface, line_colour, False, points, 2)
+            # pygame.draw.lines(self.surface, line_colour, False, points, 3)
 
         self.legend(order)
 
