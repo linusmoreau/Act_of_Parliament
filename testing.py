@@ -5,7 +5,7 @@ import date_kit
 
 choice = 'Germany'
 # view = 'parties'
-
+restart = '[http'
 key = None
 
 if choice == 'Germany':
@@ -14,27 +14,28 @@ if choice == 'Germany':
            'AfD': (0, 158, 224), 'Linke': (190, 48, 117)}
     # coalitions = [['Gr\u00fcne', 'CDU/CSU'], ]
     file_name = 'test_data/german_polling.txt'
-    spread = 7
+    spread = 14
     start = 4
 elif choice == 'Norway':
     key = ['R', 'SV', 'MDG', 'Ap', 'Sp', 'V', 'KrF', 'H', 'FrP']
     col = {'R': (231, 52, 69), 'SV': (188, 33, 73), 'MDG': (106, 147, 37), 'Ap': (227, 24, 54), 'Sp': (0, 133, 66),
            'V': (17, 100, 104), 'KrF': (254, 193, 30), 'H': (135, 173, 215), 'FrP': (2, 76, 147)}
     file_name = 'test_data/norway_polling.txt'
-    spread = 30
+    spread = 60
     start = 4
 elif choice == 'Peru':
-    key = ['Castillo', 'Fujimori', 'None', 'Undecided']
+    key = ['Castillo', 'Fujimori']
     col = {'Castillo': (192, 10, 10), 'Fujimori': (255, 128, 0)}
     file_name = 'test_data/peru_polling.txt'
-    spread = 7
+    spread = 14
     start = 3
+    restart = 'http'
 elif choice == 'Czechia':
     key = ['ANO', 'SPOLU', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD']
     col = {'ANO': (38, 16, 96), 'SPOLU': (35, 44, 119), 'Pirati+STAN': (0, 0, 0), 'SPD': (33, 117, 187),
            'KSCM': (204, 0, 0), 'CSSD': (236, 88, 0)}
     file_name = 'test_data/czechia_polling.txt'
-    spread = 7
+    spread = 30
     start = 4
 else:
     raise ValueError("No such choice.")
@@ -50,15 +51,14 @@ f = open(file_name, 'r')
 rot = None
 end = 0
 year = '2021'
-restart = '[http'
 
 content = f.readlines()
 i = 0
 while i < len(content):
     line = content[i]
-    print(rot, line, end='')
+    # print(rot, line, end='')
     if '===' in line:
-        year = line.strip('=').strip()
+        year = line.strip().strip('=').strip()
     elif line[:2] == '|}':
         rot = None
     elif rot is None:
@@ -84,6 +84,7 @@ while i < len(content):
                 temp = temp + ' ' + year
             elif len(temp.split()) == 1:
                 temp = '1' + ' ' + temp + ' ' + year
+            # print(temp)
             end_date = date_kit.Date(text=temp, form='dmy')
             end = date_kit.date_dif(date_kit.Date(2021, 1, 1), end_date)
             # print('\n' + str(end), end_date)
@@ -98,7 +99,7 @@ while i < len(content):
                 dat[key[p]][end].append(share)
             else:
                 dat[key[p]][end] = [share]
-        elif restart in line:
+        elif restart in line or 'election' in line:
             rot = 0
         rot += 1
     i += 1
@@ -106,7 +107,7 @@ f.close()
 
 # print(dat)
 
-ndat = rolling_averages(dat, spread)
+ndat = rolling_averages(dat, spread, True)
 date = Date(2021, 1, 1)
 title = "Opinion Polling for " + choice
 graph = GraphDisplay(screen_center, (screen_width, screen_height), ndat, x_title=None, y_title="Support (%)",

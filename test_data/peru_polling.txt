@@ -19,7 +19,39 @@
 |
 |
 |-
-| colspan="7" style="background:#A0A0A0"|
+| colspan="8" style="background:#A0A0A0"|
+|-
+| IEP/La Republica<ref>{{Cite web|date=2021-04-25|title=Encuesta IEP: Pedro Castillo baja y Keiko Fujimori se le acerca en las preferencias|url=https://larepublica.pe/elecciones/2021/05/16/encuesta-iep-pedro-castillo-sigue-liderando-y-crecimiento-de-keiko-fujimori-se-estanca-pltc/|url-status=live|archive-date=2021-05-16|website=larepublica.pe|language=es}}</ref>
+| 13–15 May 2021
+| 1,246
+| style="background:#FFD0D7" |'''36.5'''
+| 29.6
+| 23.6
+| 10.3
+|-
+| Ipsos Perú/El Comercio<ref>{{cite web|url=https://elcomercio.pe/elecciones-2021/simulacro-el-comercioipsos-empate-estadistico-entre-pedro-castillo-511-y-keiko-fujimori-489-noticia/|title=Simulacro El Comercio–Ipsos: Empate estadístico entre Pedro Castillo (51,1%) y Keiko Fujimori (48,9%)|last=|first=|accessdate=2021-05-16|website=elcomercio.pe|language=es}}</ref>
+| 13–14 May 2021
+| 1,205
+| style="background:#FFD0D7"|'''40'''
+| 37
+| 14
+| 19
+|-
+| CPI/América<ref>{{Cite web|date=2021-05-17|title=Encuesta Nacional del 12 al 14 de Mayo Perú Urbano-Rural - Elecciones Generales 2021|url=https://www.cpi.pe/images/upload/paginaweb/archivo/23/ENCUESTA_DEL_12%20AL_14_DE_MAYO_2021.pdf|url-status=live|archive-date=2021-05-17|website=cpi.pe|language=es}}</ref>
+| 12–14 May 2021
+| 1,600
+| style="background:#FFD0D7" |'''34.2'''
+| 32.0
+| 18.0
+| 15.0
+|-
+| Datum/Gestión/Perú 21<ref name=datum-sim1>{{cite web|title=Datum: Castillo tiene 44% y Keiko alcanza 41% en primer simulacro de votación |url=https://gestion.pe/peru/politica/datum-castillo-tiene-44-y-keiko-alcanza-41-en-primer-simulacro-de-votacion-noticia/ |website=gestion.pe|date=14 May 2021}}</ref>
+| 12–13 May 2021
+| 1,201
+| style="background:#FFD0D7"|'''42'''
+| 40
+| 11
+| 7
 |-
 | CIT/Expreso<ref>{{cite web|date=2021-05-11|url=https://encuestas.com.pe/encuesta-2da-vuelta-cit-11-mayo-2021/|title=Encuesta 2da Vuelta, CIT – 11 Mayo 2021|last=|first=|accessdate=2021-05-11|website=encuetas.com.pe|language=es}}</ref>
 | 7–8 May 2021
@@ -30,12 +62,12 @@
 | 11.9
 |-
 | CPI/RPP<ref>{{Cite web|date=2021-05-10|title=CPI: Pedro Castillo obtiene 34.2 % de intención de voto y Keiko Fujimori acorta distancia al tener 32 %|url=https://rpp.pe/politica/elecciones/elecciones-2021-pedro-castillo-obtiene-342-de-intencion-de-voto-y-keiko-fujimori-acorta-distancia-al-tener-32-segun-encuesta-de-cpi-noticia-1335960|url-status=live|archive-date=2021-05-10|website=rpp.pe|language=es}}</ref>
-|6–8 May 2021
-|1,600
-|style="background:#FFD0D7" |'''34.2'''
-|32.0
-|18.5
-|15.3
+| 6–8 May 2021
+| 1,600
+| style="background:#FFD0D7" |'''34.2'''
+| 32.0
+| 18.5
+| 15.3
 |-
 | IEP/La Republica<ref>{{Cite web|date=2021-04-25|title=Encuesta IEP: Pedro Castillo baja y Keiko Fujimori se le acerca en las preferencias|url=https://larepublica.pe/elecciones/2021/05/09/encuesta-iep-pedro-castillo-baja-y-keiko-fujimori-se-le-acerca-en-las-preferencias-pltc/|url-status=live|archive-date=2021-05-06|website=larepublica.pe|language=es}}</ref>
 | 3–6 May 2021
