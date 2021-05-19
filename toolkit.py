@@ -72,9 +72,51 @@ def rolling_average(dat: Dict[float, List[float]], breadth: float):
     return ndat
 
 
-def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float):
+def central_rolling_average(dat: Dict[float, List[float]], breadth: float):
+    ndat = {}
+    relv: List[Tuple] = []
+    in_ord = sorted(list(dat.keys()))
+    mini = in_ord[0]
+    first = True
+    for x in in_ord:
+        for y in dat[x]:
+            relv.append((x, y))
+        cutoff: int = 0
+        for i, point in enumerate(relv):
+            if x - point[0] <= breadth:
+                cutoff = i
+                break
+        relv = relv[cutoff:]
+        if x >= mini + breadth / 2:
+            if first:
+                ndat[mini] = sum([p[1] for p in relv]) / len(relv)
+                first = False
+            else:
+                ndat[x - breadth / 2] = sum([p[1] for p in relv]) / len(relv)
+    maxi = relv[-1][0]
+    in_ord = in_ord[in_ord.index(relv[0][0]):]
+    for j, x in enumerate(in_ord):
+        cutoff: int = 0
+        for i, point in enumerate(relv):
+            if point[0] != x:
+                cutoff = i
+                break
+        relv = relv[cutoff:]
+        if j + 1 < len(in_ord) and in_ord[j + 1] + breadth / 2 > maxi:
+            ndat[maxi] = sum([p[1] for p in relv]) / len(relv)
+            break
+        else:
+            ndat[x + breadth / 2] = sum([p[1] for p in relv]) / len(relv)
+    return ndat
+
+
+def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, central: bool = False) \
+        -> Dict[str, Dict[float, List[float]]]:
     ndat = {}
     for line, points in dat.items():
-        npoints = rolling_average(points, breadth)
+        if central:
+            npoints = central_rolling_average(points, breadth)
+        else:
+            npoints = rolling_average(points, breadth)
         ndat[line] = npoints
     return ndat
