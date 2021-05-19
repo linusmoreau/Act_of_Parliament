@@ -120,3 +120,57 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
             npoints = rolling_average(points, breadth)
         ndat[line] = npoints
     return ndat
+
+
+def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
+    def weight(disp):
+        w = 1 - (abs(disp) / (breadth / 2))
+        if w < 0:
+            raise ValueError("Displacement is outside of range")
+        else:
+            return w
+
+    ndat = {}
+    relv: List[int] = []
+    upcome = sorted(list(dat.keys()))
+    # print(upcome)
+    mini = upcome[0]
+    maxi = upcome[-1]
+    step = (maxi - mini) / res
+    for i in range(res + 1):
+        place = mini + step * i
+
+        cutoff: int = -1
+        for j, x in enumerate(upcome):
+            # print(x, place, breadth / 2)
+            if x >= place + breadth / 2:
+                cutoff = j
+                break
+        if cutoff == -1:
+            relv.extend(upcome)
+            upcome = []
+        else:
+            relv.extend(upcome[:cutoff])
+            upcome = upcome[cutoff:]
+
+        cutoff = -1
+        for j, x in enumerate(relv):
+            if x >= place - breadth / 2:
+                cutoff = j
+                break
+        if cutoff == -1:
+            continue
+        else:
+            relv = relv[cutoff:]
+        # print(relv, upcome)
+        ndat[place] = (sum([sum(dat[x]) * weight(x - place) for x in relv]) /
+                       sum([len(dat[x]) * weight(x - place) for x in relv]))
+    return ndat
+
+
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res: int) \
+        -> Dict[str, Dict[float, List[float]]]:
+    ndat = {}
+    for line, points in dat.items():
+        ndat[line] = weighted_average(points, breadth, res)
+    return ndat
