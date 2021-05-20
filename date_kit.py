@@ -8,12 +8,15 @@ months = {1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "Jun
 
 class Date:
 
-    def __init__(self, year=None, month=0, day=0, text=None, form='stnd'):
+    def __init__(self, year=None, month: int = 0, day: int = 0, text=None, form='stnd'):
+        if type(month).__name__ != "int":
+            raise TypeError("month is type " + type(month).__name__ + ", not int")
         if text is not None:
             if form == 'stnd':
                 year, month, day = text.split('-')
             elif form == "mdy":
                 month, day, year = text.split()
+                day = day.strip(',')
                 for num, name in months.items():
                     if month == name or month == name[:3]:
                         month = num
