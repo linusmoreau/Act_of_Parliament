@@ -28,6 +28,22 @@
 ! style="background:{{Conservative Party (Norway)/meta/color}};"|
 ! style="background:{{Progress Party (Norway)/meta/color}};"|
 |-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4335 Opinion Perduco]
+|13 May 2021{{Efn|name=nofield}}
+|–
+|–
+|4.4
+|9.3
+|5.0
+|style="background:#F7BDC5;"| '''25.6'''
+|16.3
+|3.3
+|4.1
+|22.0
+|8.7
+|1.4
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="-3.6"| 3.6
+|-
 |[http://www.pollofpolls.no/?cmd=Maling&gallupid=4333 Respons Analyse]
 |5–10 May 2021
 |1,001
