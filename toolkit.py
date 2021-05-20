@@ -165,8 +165,11 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, po
         else:
             relv = relv[cutoff:]
         # print(relv, upcome)
-        ndat[place] = (sum([sum(dat[x]) * weight(x - place, power) for x in relv]) /
-                       sum([len(dat[x]) * weight(x - place, power) for x in relv]))
+        try:
+            ndat[place] = (sum([sum(dat[x]) * weight(x - place, power) for x in relv]) /
+                           sum([len(dat[x]) * weight(x - place, power) for x in relv]))
+        except ZeroDivisionError:
+            pass
     return ndat
 
 
