@@ -122,9 +122,9 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
     return ndat
 
 
-def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
-    def weight(disp):
-        w = 1 - (abs(disp) / (breadth / 2))
+def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, power: int = 1):
+    def weight(disp, power):
+        w = (1 - (abs(disp) / (breadth / 2))) ** power
         if w < 0:
             raise ValueError("Displacement is outside of range")
         else:
@@ -138,7 +138,9 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
     maxi = upcome[-1]
     step = (maxi - mini) / res
     for i in range(res + 1):
-        place = mini + step * i
+        place = round(mini + step * i)
+        if place > maxi:
+            break
 
         cutoff: int = -1
         for j, x in enumerate(upcome):
@@ -163,14 +165,20 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
         else:
             relv = relv[cutoff:]
         # print(relv, upcome)
-        ndat[place] = (sum([sum(dat[x]) * weight(x - place) for x in relv]) /
-                       sum([len(dat[x]) * weight(x - place) for x in relv]))
+        ndat[place] = (sum([sum(dat[x]) * weight(x - place, power) for x in relv]) /
+                       sum([len(dat[x]) * weight(x - place, power) for x in relv]))
     return ndat
 
 
-def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res: int) \
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None, power=1) \
         -> Dict[str, Dict[float, List[float]]]:
     ndat = {}
     for line, points in dat.items():
-        ndat[line] = weighted_average(points, breadth, res)
+        if res is None:
+            inres = len(points)
+            if inres < 100:
+                inres = 100
+        else:
+            inres = res
+        ndat[line] = weighted_average(points, breadth, inres, power)
     return ndat
