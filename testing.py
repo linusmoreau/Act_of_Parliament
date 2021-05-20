@@ -3,11 +3,12 @@ from toolkit import *
 import date_kit
 
 
-choice = 'Norway'
+choice = 'Canada'
 # view = 'parties'
 restart = '[http'
 key = None
 date = 1
+power = 1
 
 if choice == 'Germany':
     key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
@@ -45,6 +46,7 @@ elif choice == 'Canada':
     file_name = 'test_data/canada_polling.txt'
     spread = 60
     start = 3
+    power = 1
 else:
     raise ValueError("No such choice.")
 
@@ -138,7 +140,7 @@ f.close()
 
 # print(dat)
 
-ndat = weighted_averages(dat, spread, power=1)
+ndat = weighted_averages(dat, spread, power=power)
 date = Date(2021, 1, 1)
 title = "Opinion Polling for " + choice
 graph = GraphDisplay(screen_center, (screen_width, screen_height), ndat, x_title=None, y_title="Support (%)",
