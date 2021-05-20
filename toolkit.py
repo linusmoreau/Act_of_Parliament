@@ -178,9 +178,7 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, 
     ndat = {}
     for line, points in dat.items():
         if res is None:
-            inres = len(points)
-            if inres < 100:
-                inres = 100
+            inres = (max(list(points.keys())) - min(list(points.keys()))) // 6
         else:
             inres = res
         ndat[line] = weighted_average(points, breadth, inres, power)
