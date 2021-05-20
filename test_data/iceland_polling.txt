@@ -1,0 +1,1693 @@
+== Polls ==
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:150px;" rowspan="2"| Polling firm
+! style="width:135px;" rowspan="2"| Fieldwork date
+! style="width:35px;" rowspan="2"| Sample<br />size
+! style="width:30px;" rowspan="2"| {{abbr|Resp.|Response rate}}
+! class="unsortable" style="width:40px;"| [[Independence Party (Iceland)|D]]
+! class="unsortable" style="width:40px;"| [[Left-Green Movement|V]]
+! class="unsortable" style="width:40px;"| [[Social Democratic Alliance|S]]
+! class="unsortable" style="width:40px;"| [[Centre Party (Iceland)|M]]
+! class="unsortable" style="width:40px;"| [[Progressive Party (Iceland)|B]]
+! class="unsortable" style="width:40px;"| [[Pirate Party (Iceland)|P]]
+! class="unsortable" style="width:40px;"| [[People's Party (Iceland)|F]]
+! class="unsortable" style="width:40px;"| [[Reform Party (Iceland)|C]]
+! class="unsortable" style="width:40px;"| [[Icelandic Socialist Party|J]]
+! class="unsortable" style="width:40px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{Independence Party (Iceland)/meta/color}};"|
+! style="background:{{Left-Green Movement/meta/color}};"|
+! style="background:{{Social Democratic Alliance/meta/color}};"|
+! style="background:{{Centre Party (Iceland)/meta/color}};"|
+! style="background:{{Progressive Party (Iceland)/meta/color}};"|
+! style="background:{{Pirate Party (Iceland)/meta/color}};"|
+! style="background:{{People's Party (Iceland)/meta/color}};"|
+! style="background:{{Reform Party (Iceland)/meta/color}};"|
+! style="background:{{Icelandic Socialist Party/meta/color}};"|
+|- style="background:#E9E9E9;"
+| [[2017 Icelandic parliamentary election|2017 parliamentary election]]
+| data-sort-value="2017-10-28"| 28 Oct 2017
+| –
+| –
+| style="background:#C6ECFB;"| '''25.2'''
+| 16.9
+| 12.1
+| 10.9
+| 10.7
+| 9.2
+| 6.9
+| 6.7
+| –
+| 1.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/877-kosningaaetlan-i-mai-2021 MMR]
+| data-sort-value="2021-05-12"| 7–12 May 2021
+| 953
+| –
+| style="background:#C6ECFB;"| '''25.6'''
+| 13.1
+| 10.9
+| 5.7
+| 12.6
+| 11.3
+| 3.3
+| 10.6
+| 5.7
+| 1.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 12.5
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/876-kosningaaetlan-i-seinni-hluta-april-2021 MMR]
+| data-sort-value="2021-04-07"| 21–28 April 2021
+| 946
+| –
+| style="background:#C6ECFB;"| '''28.7'''
+| 12.9
+| 11.3
+| 5.8
+| 10.6
+| 9.6
+| 4.8
+| 8.8
+| 6.0
+| 1.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 14.8
+|-
+|[https://www.gallup.is/nidurstodur/thjodarpuls/fylgi-flokka/ Gallup]
+|Apr 2021
+|{{TBA}}
+|{{TBA}}
+| style="background:#C6ECFB;"| '''23.8'''
+|14.3
+|12.0
+|8.2
+|10.1
+|12.0
+|4.7
+|9.6
+|5.0
+|0.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.5
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/872-kosningaaetlan-i-april-2021 MMR]
+| data-sort-value="2021-04-07"| 29 Mar–7 April 2021
+| 940
+| –
+| style="background:#C6ECFB;"| '''23.1'''
+| 10.1
+| 15.4
+| 6.9
+| 11.5
+| 13.2
+| 4.7
+| 10.0
+| 4.0
+| 1.0
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.7
+|-
+|[https://www.gallup.is/frettir/fylgi-midflokksins-eykst-og-fylgi-samfylkingar-minnkar/ Gallup]
+|1-29 Mar 2021
+|9,856
+|53.0
+| style="background:#C6ECFB;"| '''23.0'''
+|12.3
+|12.7
+|9.5
+|11.1
+|11.5
+|5.0
+|9.5
+|5.0
+|0.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 10.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/867-kosningaaetlan-i-mars-2021 MMR]
+| data-sort-value="2021-03-12"| 5–10 Mar 2021
+| 951
+| –
+| style="background:#C6ECFB;"| '''21.0'''
+| 11.7
+| 13.8
+| 9.3
+| 12.7
+| 11.5
+| 5.1
+| 10.0
+| 3.8
+| 1.0
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.2
+|-
+|[https://www.gallup.is/frettir/sosialistaflokkurinn-baetir-vid-sig-fylgi/ Gallup]
+|1-28 Feb 2021
+|9,078
+|52.5
+| style="background:#C6ECFB;"| '''22.9'''
+|13.4
+|14.4
+|7.3
+|10.3
+|12.2
+|4.0
+|9.4
+|5.8
+| -
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.5
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/864-kosningaaetlan-i-februar-2021 MMR]
+| data-sort-value="2021-02-18"| 12–18 Feb 2021
+| 919
+| –
+| style="background:#C6ECFB;"| '''22.2'''
+| 13.5
+| 13.1
+| 8.0
+| 11.4
+| 11.4
+| 3.6
+| 10.6
+| 4.1
+| 2.0
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.7
+|-
+| [https://www.gallup.is/frettir/fylgi-vidreisnar-eykst/ Gallup]
+| data-sort-value="2021-01-11"| 6–31 Jan 2021
+| 9,019
+| 51.4
+| style="background:#C6ECFB;"| '''22.7'''
+| 12.8
+| 16.6
+| 8.0
+| 9.5
+| 11.1
+| 3.9
+| 11.7
+| 3.8
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.1
+|-
+| [https://kjarninn.is/frettir/2021-01-11-vinstri-graen-og-samfylking-baeta-vid-sig-fylgi-en-sjalfstaedisflokkurinn-dalar/ MMR]
+| data-sort-value="2021-01-11"| 30 Dec 2020–11 Jan 2021
+| 2,002
+| -
+| style="background:#C6ECFB;"| '''24.4'''
+| 10.9
+| 15.6
+| 8.6
+| 9.1
+| 12.3
+| 4.9
+| 8.8
+| 4.4
+| 1.0
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.8
+|-
+|[https://www.gallup.is/frettir/litlar-sem-engar-breytingar-fylgi-flokka/ Gallup]
+|1 Dec 2020–3 Jan 2021
+| 10,958
+| 51.5
+|style="background:#C6ECFB;"| '''23.7'''
+|11.7
+|17.0
+|9.1
+|8.3
+|11.9
+|4.3
+|10.0
+|3.8
+|–
+|style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.7
+|-
+|[https://kjarninn.is/frettir/2020-12-23-midflokkurinn-ad-maelast-minnsti-flokkurinn-a-thingi-frjalslynda-andstadan-a-flugi/ Zenter]
+|11–19 Dec 2020
+| 2,500
+| 52.8
+|style="background:#C6ECFB;"| '''22.9'''
+|10.2
+|15.6
+|6.7
+|7.3
+|17.0
+|4.7
+|10.2
+|3.3
+|2.1
+|style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.9
+|-
+| [https://kjarninn.is/frettir/2020-12-07-sjalfstaedisflokkurinn-maelist-tvisvar-sinnum-staerri-en-samfylkingin/ MMR]
+| data-sort-value="2019-12-03"| 26 Nov–3 Dec 2020
+| 944
+| -
+| style="background:#C6ECFB;"| '''27.1'''
+| 7.6
+| 13.8
+| 7.0
+| 7.5
+| 13.8
+| 6.2
+| 9.5
+| 5.0
+| 2.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 12.3
+|-
+|[https://www.gallup.is/frettir/fylgi-vidreisnar-minnkar-og-studningur-vid-rikisstjorn-eykst/ Gallup]
+|2–30 Nov 2020
+| 9,351
+| 53.6
+|style="background:#C6ECFB;"| '''23.7'''
+|11.8
+|17.1
+|8.8
+|8.6
+|12.4
+|4.1
+|9.7
+|3.7
+|–
+|style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.6
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/842-kosningaaetlan-i-november-2020 MMR]
+| data-sort-value="2019-11-13"| 6–11 Nov 2020
+| 925
+| -
+| style="background:#C6ECFB;"| '''25.0'''
+| 7.5
+| 16.7
+| 9.1
+| 9.9
+| 14.3
+| 3.9
+| 8.4
+| 4.0
+| 1.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.3
+|-
+|[https://www.gallup.is/frettir/fylgi-vinstri-graenna-minnkar/ Gallup]
+|30 Sep–1 Nov 2020
+| 10,937
+| 54.0
+|style="background:#C6ECFB;"| '''23.5'''
+|11.9
+|15.8
+|9.9
+|7.7
+|12.1
+|4.5
+|11.6
+|2.7
+|–
+|style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.7
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/841-kosningaaetlan-i-oktober-2020 MMR]
+| data-sort-value="2019-10-28"| 23–28 Oct 2020
+| 933
+| -
+| style="background:#C6ECFB;"| '''21.9'''
+| 8.3
+| 15.2
+| 11.6
+| 10.2
+| 13.5
+| 3.8
+| 9.7
+| 4.6
+| 1.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.7
+|-
+|[https://www.gallup.is/frettir/fylgi-flokkanna-breytist-litid/ Gallup]
+|1–30 Sep 2020
+| 9,673
+| 52.9
+|style="background:#C6ECFB;"| '''23.9'''
+|13.7
+|14.9
+|9.4
+|6.7
+|13.2
+|3.7
+|10.4
+|3.9
+|–
+|style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.0
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/838-kosningaaetlan-i-september-2020 MMR]
+| data-sort-value="2019-09-26"| 10–23 Sep 2020
+| 2,043
+| -
+| style="background:#C6ECFB;"| '''25.6'''
+| 8.5
+| 12.8
+| 10.8
+| 8.3
+| 15.0
+| 3.6
+| 9.4
+| 4.3
+| 1.7
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 10.6
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/829-kosningaaetlan-i-agust-2020 MMR]
+| data-sort-value="2019-09-22"| 26 Aug–2 Sep 2020
+| 929
+| -
+| style="background:#C6ECFB;"| '''24.0'''
+| 9.6
+| 14.9
+| 8.0
+| 8.9
+| 14.3
+| 4.8
+| 10.0
+| 3.4
+| 2.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.1
+|-
+|[https://www.ruv.is/frett/2020/09/01/litlar-breytingar-a-fylgi-flokka Gallup]
+|4–31 Aug 2020
+|9,479
+|51.9
+|style="background:#C6ECFB;"|'''22.8'''
+|12.6
+|14.7
+|9.9
+|7.9
+|13.7
+|3.6
+|10.6
+|3.9
+|0.3
+|style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.1
+|-
+|[https://www.gallup.is/nidurstodur/thjodarpuls/fylgi-flokka/ Gallup]
+|31 Jul 2020
+| -
+| -
+|style="background:#C6ECFB;"| '''23.2'''
+|10.9
+|14.8
+|10.6
+|7.6
+|13.9
+|4.3
+|10.8
+|3.8
+|0.1
+|style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/827-kosningaaetlan-i-juli-2020 MMR]
+| data-sort-value="2019-07-31"| 23–28 Jul 2020
+| 951
+| -
+| style="background:#C6ECFB;"| '''24.0'''
+| 10.8
+| 13.1
+| 8.4
+| 8.6
+| 15.4
+| 4.0
+| 8.4
+| 5.1
+| 2.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.6
+|-
+| [https://www.gallup.is/frettir/dvinandi-studningur-vid-rikisstjornina/ Gallup]
+| data-sort-value="2019-06-30"| 02–30 Jun 2020
+| 10,274
+| 51.7
+| style="background:#C6ECFB;"| '''24.0'''
+| 13.6
+| 14.9
+| 10.2
+| 8.6
+| 10.7
+| 3.6
+| 10.5
+| 3.8
+| 0.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.1
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/826-kosningaaetlan-i-juni-2020 MMR]
+| data-sort-value="2019-06-25"| 16–19 Jun 2020
+| 1,045
+| -
+| style="background:#C6ECFB;"| '''24.3'''
+| 10.7
+| 16.3
+| 8.0
+| 6.1
+| 13.2
+| 5.4
+| 10.0
+| 3.5
+| 2.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.0
+|-
+| [https://www.gallup.is/frettir/litlar-breytingar-fylgi/ Gallup]
+| data-sort-value="2019-06-03"| 4 May–1 Jun 2020
+| 10,630
+| 54.0
+| style="background:#C6ECFB;"| '''24.6'''
+| 14.3
+| 14.4
+| 10.4
+| 7.7
+| 11.0
+| 4.4
+| 9.7
+| 3.3
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 10.2
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/825-kosningaaetlan-i-mai-2020 MMR]
+| data-sort-value="2019-05-25"| 19–25 May 2020
+| 994
+| -
+| style="background:#C6ECFB;"| '''23.5'''
+| 10.6
+| 13.3
+| 10.8
+| 6.4
+| 14.6
+| 3.6
+| 11.3
+| 4.1
+| 1.7
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.9
+|-
+| [https://www.gallup.is/frettir/aukinn-studningur-vid-rikisstjorn/ Gallup]
+| data-sort-value="2019-05-06"| 30 Mar–3 May 2020
+| 11,028
+| 55.7
+| style="background:#C6ECFB;"| '''25.1'''
+| 13.8
+| 13.8
+| 9.9
+| 8.4
+| 10.4
+| 4.4
+| 10.0
+| 4.0
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 11.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/823-kosningaaetlan-um-midhjan-april-2020 MMR]
+| data-sort-value="2019-04-17"| 15–17 Apr 2020
+| 1,051
+| -
+| style="background:#C6ECFB;"| '''22.7'''
+| 10.4
+| 13.1
+| 9.5
+| 9.8
+| 12.3
+| 4.7
+| 10.0
+| 5.6
+| 2.0
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.6
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/821-kosningaaetlan-i-april-2020 MMR]
+| data-sort-value="2019-04-09"| 3–7 Apr 2020
+| 987
+| -
+| style="background:#C6ECFB;"| '''23.5'''
+| 12.3
+| 14.1
+| 10.7
+| 8.8
+| 12.2
+| 3.4
+| 9.6
+| 3.4
+| 2.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.4
+|-
+| [https://www.gallup.is/frettir/studningur-vid-rikisstjornina-eykst-mikid/ Gallup]
+| data-sort-value="2019-04-01"| 2–29 Mar 2020
+| 10,352
+| 54.8
+| style="background:#C6ECFB;"| '''23.5'''
+| 13.3
+| 15.1
+| 11.2
+| 8.1
+| 10.2
+| 4.2
+| 11.1
+| 3.2
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/818-kosningaaetlan-i-mars-2020 MMR]
+| data-sort-value="2019-03-24"| 18–20 Mar 2020
+| 1,034
+| -
+| style="background:#C6ECFB;"| '''27.4'''
+| 9.8
+| 14.7
+| 10.0
+| 8.1
+| 10.2
+| 3.7
+| 9.7
+| 4.7
+| 0.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 12.7
+|-
+| [https://www.gallup.is/frettir/midflokkurinn-sosialistaflokkurinn-og-vinstri-graen-i-sokn/ Gallup]
+| data-sort-value="2019-03-04"| 3 Feb–1 Mar 2020
+| 7,964
+| 53.8
+| style="background:#C6ECFB;"| '''22.0'''
+| 11.9
+| 14.8
+| 14.2
+| 7.0
+| 10.7
+| 4.0
+| 10.3
+| 5.0
+| 1.9
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.2
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/815-kosningaaetlan-i-februar-2020 MMR]
+| data-sort-value="2019-02-14"| 6–10 Feb 2020
+| 1,003
+| -
+| style="background:#C6ECFB;"| '''22.0'''
+| 10.7
+| 15.1
+| 13.3
+| 6.8
+| 10.4
+| 4.6
+| 9.7
+| 5.3
+| 2.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.9
+|-
+| [https://www.gallup.is/frettir/samfylkingin-siglingu/ Gallup]
+| data-sort-value="2020-06-02"| 03 Jan–02 Feb 2020
+| 8,678
+| 51.8
+| style="background:#C6ECFB;"| '''21.6'''
+| 10.5
+| 17.7
+| 12.5
+| 7.8
+| 11.5
+| 4.2
+| 10.3
+| 3.4
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 3.9
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/815-kosningaaetlan-i-februar-2020 MMR]
+| data-sort-value="2019-02-14"| 28 Jan 2020
+| -
+| -
+| style="background:#C6ECFB;"| '''19.0'''
+| 8.7
+| 16.6
+| 15.1
+| 7.2
+| 10.6
+| 3.8
+| 12.4
+| 4.9
+| 1.9
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 2.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/814-kosningaaetlan-i-januar-2020 MMR]
+| data-sort-value="2019-01-17"| 3–13 Jan 2020
+| 2,057
+| -
+| style="background:#C6ECFB;"| '''20.3'''
+| 11.1
+| 16.8
+| 12.9
+| 8.2
+| 11.0
+| 3.5
+| 10.5
+| 4.1
+| 1.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 3.5
+|-
+| [https://www.gallup.is/frettir/vinstri-graen-og-samfylkingin-tapa-fylgi/ Gallup]
+| data-sort-value="2020-07-01"| 2 Dec 2019–1 Jan 2020
+| 8,511
+| 52.8
+| style="background:#C6ECFB;"| '''22.7'''
+| 10.7
+| 13.9
+| 12.7
+| 8.6
+| 11.3
+| 4.3
+| 12.0
+| 3.3
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.8
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/804-kosningaaetlan-i-desember-2019 MMR]
+| data-sort-value="2019-12-28"| 13–19 Dec 2019
+| 1,014
+| -
+| style="background:#C6ECFB;"| '''20.0'''
+| 10.3
+| 14.4
+| 14.3
+| 8.3
+| 11.8
+| 4.0
+| 10.5
+| 5.2
+| 1.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.6
+|-
+| [https://www.gallup.is/frettir/fylgi-flokka-i-november/ Gallup]
+| data-sort-value="2019-12-03"| 28 Oct–1 Dec 2019
+| 11,663
+| 53.2
+| style="background:#C6ECFB;"| '''21.7'''
+| 13.6
+| 15.8
+| 12.9
+| 7.8
+| 10.3
+| 3.9
+| 10.8
+| 3.0
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.9
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/796-kosningaaetlan-i-november-2019 MMR]
+| data-sort-value="2019-11-26"| 15–22 Nov 2019
+| 1,061
+| -
+| style="background:#C6ECFB;"| '''18.1'''
+| 10.6
+| 13.2
+| 16.8
+| 9.4
+| 10.8
+| 6.3
+| 9.7
+| 3.0
+| 2.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 1.3
+|-
+| [https://www.gallup.is/frettir/fylgi-flokka-i-oktober/ Gallup]
+| data-sort-value="2019-10-29"| 30 Sep–27 Oct 2019
+| 9,798
+| -
+| style="background:#C6ECFB;"| '''22.7'''
+| 13.4
+| 17.3
+| 11.5
+| 8.2
+| 9.0
+| 4.6
+| 10.3
+| 2.6
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/794-kosningaaetlan-i-seinni-hluta-oktober-2019 MMR]
+| data-sort-value="2019-10-25"| 21–25 Oct 2019
+| 972
+| -
+| style="background:#C6ECFB;"| '''21.1'''
+| 9.7
+| 15.3
+| 13.5
+| 10.0
+| 8.9
+| 8.0
+| 10.0
+| 2.6
+| 0.9
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.8
+|-
+| [https://www.frettabladid.is/frettir/fylgi-sjalfstaedisflokks-og-samfylkingar-nanast-jafnt/ Zenter]
+| data-sort-value="2019-10-14"| 10–14 Oct 2019
+| ''2,300''
+| 53
+| style="background:#C6ECFB;"| '''19.6'''
+| 12.5
+| 18.5
+| 11.6
+| 7.3
+| 10.9
+| 4.0
+| 11.3
+| 2.9
+| 1.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 1.1
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/791-kosningaaetlan-i-oktober-2019/ MMR]
+| data-sort-value="2019-10-19"| 30 Sep–09 Oct 2019
+| 2,124
+| -
+| style="background:#C6ECFB;"| '''19.8'''
+| 10.3
+| 14.1
+| 14.8
+| 10.1
+| 8.8
+| 5.6
+| 11.0
+| 3.1
+| 2.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.0
+|-
+| [https://www.gallup.is/nidurstodur/thjodarpuls/fylgi-flokka/ Gallup]
+| data-sort-value="2019-10-01"| 01–30 Sep 2019
+| -
+| -
+| style="background:#C6ECFB;"| '''23.5'''
+| 12.0
+| 16.1
+| 12.3
+| 7.9
+| 9.7
+| 4.3
+| 11.2
+| 2.7
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/790-kosningaaetlan-i-september-2019/ MMR]
+| data-sort-value="2019-09-27"| 09–16 Sep 2019
+| 1,045
+| -
+| style="background:#C6ECFB;"| '''18.3'''
+| 12.8
+| 14.8
+| 12.0
+| 11.8
+| 12.4
+| 4.0
+| 10.2
+| 2.0
+| 1.6
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 3.5
+|-
+| [https://www.gallup.is/frettir/piratar-tapa-fylgi-og-samfylkingin-i-sokn/ Gallup]
+| data-sort-value="2019-09-02"| 29 Jul–01 Sep 2019
+| ''8,423''
+| 47.2
+| style="background:#C6ECFB;"| '''21.7'''
+| 12.8
+| 15.5
+| 13.4
+| 8.3
+| 9.3
+| 3.8
+| 11.4
+| 3.7
+| -
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.2
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/787-kosningaaetlan-i-agust-2019/ MMR]
+| data-sort-value="2019-07-17"| 12–19 Aug 2019
+| 990
+| -
+| style="background:#C6ECFB;"| '''19.1'''
+| 11.5
+| 16.8
+| 13.0
+| 10.4
+| 11.3
+| 4.1
+| 9.3
+| 2.9
+| 1.6
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 2.3
+|-
+| [https://www.gallup.is/nidurstodur/thjodarpuls/fylgi-flokka/ Gallup]
+| data-sort-value="2019-07-17"| 01–31 Jul 2019
+| -
+| -
+| style="background:#C6ECFB;"| '''21.6'''
+| 12.0
+| 13.7
+| 12.1
+| 8.5
+| 12.7
+| 3.7
+| 12.2
+| 3.2
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.9
+|-
+| [https://www.frettabladid.is/frettir/sjalfstaedismenn-tapa-til-midflokks/ Zenter]
+| data-sort-value="2019-07-26"| 24–26 Jul 2019
+| ''2,000''
+| 45.0
+| style="background:#C6ECFB;"| '''20.5'''
+| 12.9
+| 14.4
+| 13.4
+| 8.2
+| 12.3
+| 3.2
+| 10.6
+| 2.7
+| 1.9
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.1
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/784-kosningaaetlan-i-juli/ MMR]
+| data-sort-value="2019-07-17"| 04–17 Jul 2019
+| 2,031
+| -
+| style="background:#C6ECFB;"| '''19.0'''
+| 10.3
+| 13.5
+| 14.4
+| 8.4
+| 14.9
+| 4.8
+| 9.7
+| 4.3
+| 0.8
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 4.1
+|-
+| [https://www.gallup.is/frettir/enn-litlar-breytingar/ Gallup]
+| data-sort-value="2019-06-30"| 31 May–30 Jun 2019
+| ''5,910''
+| 53.0
+| style="background:#C6ECFB;"| '''23.7'''
+| 13.0
+| 14.7
+| 11.4
+| 8.6
+| 11.3
+| 4.2
+| 10.1
+| 3.0
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.0
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/774-kosningaaetlan-i-juni MMR]
+| data-sort-value="2019-06-14"| 7–14 Jun 2019
+| 988
+| –
+| style="background:#C6ECFB;"| '''22.1'''
+| 11.3
+| 14.4
+| 10.6
+| 7.7
+| 14.4
+| 4.2
+| 9.5
+| 4.4
+| 1.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.7
+|-
+| [https://www.gallup.is/frettir/fylgi-flokka-breytist-litid/ Gallup]
+| data-sort-value="2019-05-30"| 3–30 May 2019
+| ''6,125''
+| 53.5
+| style="background:#C6ECFB;"| '''23.4'''
+| 12.4
+| 16.6
+| 10.0
+| 8.5
+| 11.2
+| 3.2
+| 10.9
+| 3.7
+| 0.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.8
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/772-kosningaaetlan-23-til-29-mai-2019 MMR]
+| data-sort-value="2019-05-29"| 23–29 May 2019
+| 932
+| –
+| style="background:#C6ECFB;"| '''21.5'''
+| 14.1
+| 12.5
+| 10.8
+| 9.7
+| 14.0
+| 4.2
+| 8.3
+| 3.4
+| 1.6
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/770-kosningaaetlan-14-til-16-mai-2019 MMR]
+| data-sort-value="2019-05-16"| 14–16 May 2019
+| 978
+| –
+| style="background:#C6ECFB;"| '''21.3'''
+| 12.2
+| 13.9
+| 11.8
+| 11.6
+| 9.8
+| 6.4
+| 8.4
+| 3.2
+| 1.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/762-kosningaaetlan-i-april-2019 MMR]
+| data-sort-value="2019-05-03"| 30 Apr–3 May 2019
+| 941
+| –
+| style="background:#C6ECFB;"| '''20.2'''
+| 13.4
+| 14.1
+| 9.2
+| 9.8
+| 13.4
+| 5.1
+| 9.2
+| 4.2
+| 1.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.1
+|-
+| [https://www.gallup.is/frettir/aukinn-studningur-vid-rikisstjornina/ Gallup]
+| data-sort-value="2019-04-30"| 5–30 Apr 2019
+| ''5,189''
+| 57.7
+| style="background:#C6ECFB;"| '''23.6'''
+| 13.3
+| 16.2
+| 8.9
+| 8.0
+| 11.1
+| 4.0
+| 11.0
+| 3.6
+| 0.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/762-kosningaaetlan-i-april-2019 MMR]
+| data-sort-value="2019-04-13"| 13 Apr 2019
+| –
+| –
+| style="background:#C6ECFB;"| '''22.5'''
+| 12.1
+| 14.3
+| 9.2
+| 11.2
+| 13.3
+| 5.0
+| 7.8
+| 2.8
+| 1.7
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.2
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/762-kosningaaetlan-i-april-2019 MMR]
+| data-sort-value="2019-04-09"| 4–9 Apr 2019
+| 926
+| –
+| style="background:#C6ECFB;"| '''21.7'''
+| 10.4
+| 13.9
+| 10.2
+| 8.7
+| 15.0
+| 5.4
+| 9.0
+| 4.5
+| 1.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.7
+|-
+| [https://www.gallup.is/frettir/midflokkurinn-baetir-vid-sig-en-sosialistar-tapa-fylgi/ Gallup]
+| data-sort-value="2019-03-31"| 1–31 Mar 2019
+| ''6,705''
+| 55.4
+| style="background:#C6ECFB;"| '''25.0'''
+| 11.6
+| 15.9
+| 9.0
+| 9.0
+| 11.6
+| 3.7
+| 10.3
+| 3.5
+| 0.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.1
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/753-kosningaaetlan-i-mars-2019 MMR]
+| data-sort-value="2019-03-14"| 11–14 Mar 2019
+| 1,025
+| –
+| style="background:#C6ECFB;"| '''23.6'''
+| 11.4
+| 13.8
+| 8.0
+| 11.1
+| 13.6
+| 4.7
+| 9.4
+| 2.5
+| 1.9
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.8
+|-
+| [https://www.gallup.is/frettir/samfylkingin-tapar-fylgi-milli-manada/ Gallup]
+| data-sort-value="2019-02-28"| 31 Jan–28 Feb 2019
+| ''7,060''
+| 53.5
+| style="background:#C6ECFB;"| '''25.0'''
+| 12.3
+| 16.8
+| 6.7
+| 9.0
+| 11.6
+| 3.4
+| 9.9
+| 5.0
+| 0.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.2
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/747-kosningaaetlan-i-februar-2019 MMR]
+| data-sort-value="2019-02-15"| 11–15 Feb 2019
+| 934
+| –
+| style="background:#C6ECFB;"| '''22.7'''
+| 11.1
+| 15.9
+| 6.1
+| 13.5
+| 10.4
+| 6.9
+| 8.1
+| 3.6
+| 1.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.8
+|-
+| [https://www.gallup.is/frettir/fylgi-framsoknar-og-flokks-folksins-dalar-en-fylgi-pirata-og-sosialistaflokksins-eykst-sem-og-studningur-vid-rikisstjornina/ Gallup]
+| data-sort-value="2019-01-31"| 7–31 Jan 2019
+| ''4,241''
+| 54.4
+| style="background:#C6ECFB;"| '''23.4'''
+| 11.3
+| 19.1
+| 6.5
+| 8.8
+| 12.7
+| 3.7
+| 9.1
+| 5.3
+| 0.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 4.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/747-kosningaaetlan-i-februar-2019 MMR]
+| data-sort-value="2019-01-28"| 28 Jan 2019
+| –
+| –
+| style="background:#C6ECFB;"| '''21.8'''
+| 12.2
+| 15.5
+| 8.3
+| 12.6
+| 12.0
+| 5.4
+| 9.2
+| –
+| 3.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/742-kosningaaetlan-i-januar-2019 MMR]
+| data-sort-value="2019-01-14"| 4–14 Jan 2019
+| 2,061
+| –
+| style="background:#C6ECFB;"| '''22.2'''
+| 11.3
+| 15.0
+| 6.9
+| 11.7
+| 13.8
+| 6.7
+| 7.8
+| –
+| 4.6
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.2
+|-
+| [https://www.gallup.is/frettir/fylgi-midflokksins-laekkar-mikid/ Gallup]
+| data-sort-value="2019-01-01"| 3 Dec 2018–1 Jan 2019
+| ''4,899''
+| 58.0
+| style="background:#C6ECFB;"| '''22.7'''
+| 11.6
+| 18.4
+| 5.7
+| 11.4
+| 10.7
+| 5.3
+| 10.5
+| 3.4
+| 0.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 4.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/735-kosningaaetlan-i-desember-2018 MMR]
+| data-sort-value="2018-12-11"| 5–11 Dec 2018
+| 975
+| –
+| style="background:#C6ECFB;"| '''22.1'''
+| 12.9
+| 16.9
+| 5.9
+| 12.5
+| 14.4
+| 4.2
+| 8.5
+| –
+| 2.6
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.2
+|-
+| [https://www.frettabladid.is/frettir/koennun-frettablasins-miflokkurinn-naei-ekki-manni-inn Zenter]
+| data-sort-value="2018-12-04"| 3–4 Dec 2018
+| ''2,300''
+| 55
+| style="background:#C6ECFB;"| '''21.4'''
+| 12.7
+| 20.8
+| 4.3
+| 8.5
+| 14.4
+| 5.7
+| 9.1
+| –
+| 3.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 0.6
+|-
+| [http://maskina.is/wp-content/uploads/2018/12/Mask%C3%ADnuk%C3%B6nnun_Hreyfing_%C3%A1_fylgi_Fj%C3%B6lmi%C3%B0lar.pdf Maskína]
+| data-sort-value="2018-12-03"| 30 Nov–3 Dec 2018
+| 1,311
+| –
+| 19.3
+| 14.9
+| style="background:#F6CDCF;"| '''19.7'''
+| 4.6
+| 8.8
+| 14.9
+| 4.4
+| 13.4
+| –
+| –
+| style="background:{{Social Democratic Alliance/meta/color}};color:#FFFFFF;" data-sort-value="-0.4"| 0.4
+|-
+| [https://www.gallup.is/frettir/studningur-vid-rikisstjorn-minnkar/ Gallup]
+| data-sort-value="2018-12-02"| 3 Nov–2 Dec 2018
+| ''5,319''
+| 58.3
+| style="background:#C6ECFB;"| '''23.5'''
+| 10.5
+| 18.7
+| 12.0
+| 7.5
+| 10.2
+| 6.2
+| 9.8
+| 1.3
+| 0.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 4.8
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/735-kosningaaetlan-i-desember-2018 MMR]
+| data-sort-value="2018-11-21"| 21 Nov 2018
+| –
+| –
+| style="background:#C6ECFB;"| '''21.1'''
+| 10.3
+| 16.3
+| 13.1
+| 7.5
+| 11.3
+| 7.6
+| 8.6
+| –
+| 4.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 4.8
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/726-kosningaaetlan-i-november-2018 MMR]
+| data-sort-value="2018-11-12"| 8–12 Nov 2018
+| 1,048
+| –
+| style="background:#C6ECFB;"| '''19.8'''
+| 11.5
+| 16.6
+| 12.1
+| 8.8
+| 11.3
+| 7.3
+| 7.8
+| –
+| 4.7
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 3.2
+|-
+| [https://www.gallup.is/frettir/samfylkingin-tapar-fylgi/ Gallup]
+| data-sort-value="2018-10-31"| 2–31 Oct 2018
+| ''6,129''
+| 54.8
+| style="background:#C6ECFB;"| '''25.8'''
+| 10.6
+| 17.0
+| 10.3
+| 7.2
+| 10.6
+| 6.2
+| 10.8
+| 1.1
+| 0.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.8
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/726-kosningaaetlan-i-november-2018 MMR]
+| data-sort-value="2018-10-22"| 22 Oct 2018
+| –
+| –
+| style="background:#C6ECFB;"| '''20.8'''
+| 10.8
+| 16.5
+| 12.8
+| 7.8
+| 13.2
+| 5.9
+| 9.9
+| –
+| 2.3
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 4.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/723-kosningaaetlan-i-oktober-2018 MMR]
+| data-sort-value="2018-10-09"| 3–9 Oct 2018
+| 921
+| –
+| style="background:#C6ECFB;"| '''20.8'''
+| 10.9
+| 16.7
+| 11.9
+| 8.9
+| 12.7
+| 6.1
+| 8.6
+| –
+| 3.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 4.1
+|-
+| [https://www.gallup.is/frettir/fylgi-framsoknar-laekkar/ Gallup]
+| data-sort-value="2018-10-01"| 3 Sep–1 Oct 2018
+| ''5,460''
+| 53.3
+| style="background:#C6ECFB;"| '''24.6'''
+| 10.3
+| 19.3
+| 9.8
+| 6.6
+| 11.5
+| 5.9
+| 10.7
+| 0.9
+| 0.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/716-kosningaaetlan-i-september-2018 MMR]
+| data-sort-value="2018-09-12"| 7–12 Sep 2018
+| 953
+| –
+| style="background:#C6ECFB;"| '''21.3'''
+| 11.1
+| 19.8
+| 10.8
+| 8.1
+| 13.2
+| 5.3
+| 7.9
+| –
+| 2.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 1.5
+|-
+| [https://www.gallup.is/frettir/samfylkingin-i-sokn-september-2018/ Gallup]
+| data-sort-value="2018-09-02"| 2 Aug–2 Sep 2018
+| ''7,094''
+| 52.6
+| style="background:#C6ECFB;"| '''22.7'''
+| 11.7
+| 19.3
+| 8.7
+| 8.2
+| 12.5
+| 5.7
+| 10.1
+| 0.7
+| 0.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 3.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/716-kosningaaetlan-i-september-2018 MMR]
+| data-sort-value="2018-08-10"| 10 Aug 2018
+| –
+| –
+| style="background:#C6ECFB;"| '''22.1'''
+| 8.8
+| 16.6
+| 10.3
+| 8.9
+| 13.4
+| 7.8
+| 8.7
+| –
+| 3.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.5
+|-
+| [https://www.gallup.is/frettir/minnkandi-studningur-vid-rikisstjornina-juli-2018/ Gallup]
+| data-sort-value="2018-07-30"| 29–30 Jul 2018
+| ''7,060''
+| 50.4
+| style="background:#C6ECFB;"| '''24.6'''
+| 10.7
+| 16.7
+| 8.6
+| 9.2
+| 13.9
+| 6.0
+| 8.7
+| 0.9
+| 0.7
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.9
+|-
+| [http://www.gallup.is/frettir/vidreisn-baetir-vid-sig-fylgi/ Gallup]
+| data-sort-value="2018-07-01"| 31 May–1 Jul 2018
+| ''5,875''
+| 55.2
+| style="background:#C6ECFB;"| '''24.5'''
+| 11.5
+| 15.2
+| 8.0
+| 8.5
+| 13.1
+| 5.1
+| 10.4
+| 1.0
+| 2.7
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.3
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/701-kosningaaetlan-i-juni-2018 MMR]
+| data-sort-value="2018-06-18"| 12–18 Jun 2018
+| 925
+| –
+| style="background:#C6ECFB;"| '''21.6'''
+| 12.7
+| 15.1
+| 10.6
+| 9.5
+| 14.3
+| 8.2
+| 5.8
+| –
+| 2.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.5
+|-
+| [http://www.gallup.is/frettir/piratar-baeta-vid-sig-fylgi/ Gallup]
+| data-sort-value="2018-05-31"| 2–31 May 2018
+| ''7,113''
+| 56.6
+| style="background:#C6ECFB;"| '''23.8'''
+| 13.3
+| 17.9
+| 8.5
+| 8.9
+| 13.3
+| 4.1
+| 8.4
+| –
+| 1.8
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.9
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/687-kosningaaetlan-i-mai-2018 MMR]
+| data-sort-value="2018-05-22"| 16–22 May 2018
+| 929
+| –
+| style="background:#C6ECFB;"| '''23.7'''
+| 12.0
+| 14.6
+| 9.8
+| 10.1
+| 14.1
+| 5.6
+| 7.1
+| –
+| 3.0
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.1
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/687-kosningaaetlan-i-mai-2018 MMR]
+| data-sort-value="2018-05-02"| 2 May 2018
+| –
+| –
+| style="background:#C6ECFB;"| '''24.5'''
+| 13.7
+| 14.7
+| 10.3
+| 8.2
+| 13.0
+| 5.8
+| 7.6
+| –
+| 2.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.8
+|-
+| [http://www.gallup.is/frettir/58-segjast-stydja-rikisstjornina/ Gallup]
+| data-sort-value="2018-04-29"| 27 Mar–29 Apr 2018
+| ''6,766''
+| 56.3
+| style="background:#C6ECFB;"| '''25.3'''
+| 14.1
+| 17.7
+| 7.9
+| 9.6
+| 11.0
+| 4.2
+| 7.7
+| –
+| 2.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.6
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/679-kosninga-aetlan-i-april-2018 MMR]
+| data-sort-value="2018-04-19"| 13–19 Apr 2018
+| 910
+| –
+| style="background:#C6ECFB;"| '''23.9'''
+| 14.3
+| 13.6
+| 8.8
+| 7.3
+| 15.3
+| 6.9
+| 7.0
+| –
+| 2.8
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.6
+|-
+| [http://www.gallup.is/frettir/vinstri-graen-tapa-fylgi-og-studningur-vid-rikisstjorn-minnkar/ Gallup]
+| data-sort-value="2018-03-26"| 1–26 Mar 2018
+| ''5,423''
+| 57.0
+| style="background:#C6ECFB;"| '''24.5'''
+| 13.9
+| 16.5
+| 8.7
+| 9.2
+| 12.5
+| 4.9
+| 8.4
+| –
+| 1.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.0
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/679-kosninga-aetlan-i-april-2018 MMR]
+| data-sort-value="2018-03-19"| 19 Mar 2018
+| –
+| –
+| style="background:#C6ECFB;"| '''25.3'''
+| 14.8
+| 16.1
+| 10.7
+| 9.0
+| 13.2
+| 3.6
+| 6.0
+| –
+| 1.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.2
+|-
+| [https://mmr.is/fylgi-flokka-og-rikisstjornar MMR]
+| data-sort-value="2018-03-12"| 12 Mar 2018
+| –
+| –
+| style="background:#C6ECFB;"| '''21.9'''
+| 16.1
+| 15.9
+| 9.7
+| 8.8
+| 13.8
+| 5.7
+| 6.1
+| –
+| 2.0
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.8
+|-
+| [http://www.gallup.is/frettir/aukid-fylgi-vid-midflokkinn-og-minnkandi-studningur-vid-rikisstjornina/ Gallup]
+| data-sort-value="2018-02-28"| 1–28 Feb 2018
+| ''5,564''
+| 55.3
+| style="background:#C6ECFB;"| '''23.5'''
+| 16.6
+| 15.3
+| 8.6
+| 9.3
+| 11.9
+| 5.9
+| 6.8
+| –
+| 2.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.9
+|-
+| [http://www.gallup.is/frettir/minna-fylgi-framsoknar-og-minnkandi-studningur-vid-rikisstjornina/ Gallup]
+| data-sort-value="2018-01-31"| 4–31 Jan 2018
+| ''5,606''
+| 53.8
+| style="background:#C6ECFB;"| '''25.5'''
+| 16.9
+| 16.1
+| 6.8
+| 9.5
+| 10.7
+| 5.5
+| 7.3
+| –
+| 1.7
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.6
+|-
+| [http://mmr.is/frettir/birtar-nieurstoeeur/672-mikill-studningur-vid-rikisstjornina-2 MMR]
+| data-sort-value="2018-01-30"| 25–30 Jan 2018
+| 928
+| –
+| style="background:#C6ECFB;"| '''22.3'''
+| 18.4
+| 14.9
+| 7.7
+| 11.2
+| 12.9
+| 4.2
+| 6.0
+| –
+| 2.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 3.9
+|-
+| [http://mmr.is/fylgi-flokka-og-rikisstjornar MMR]
+| data-sort-value="2018-01-17"| 9–17 Jan 2018
+| 1,594
+| –
+| style="background:#C6ECFB;"| '''25.8'''
+| 15.0
+| 13.9
+| 6.9
+| 11.2
+| 12.2
+| 6.1
+| 6.2
+| –
+| 2.6
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 10.8
+|-
+| [http://www.ruv.is/frett/74-stydja-rikisstjorn-katrinar Gallup]
+| data-sort-value="2017-12-28"| 30 Nov–28 Dec 2017
+| ''7,001''
+| 55.2
+| style="background:#C6ECFB;"| '''25.1'''
+| 17.3
+| 15.5
+| 5.8
+| 11.9
+| 10.1
+| 5.4
+| 6.5
+| –
+| 2.4
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.8
+|-
+| [http://mmr.is/frettir/birtar-nieurstoeeur/658-mikill-studningur-vid-rikisstjornina MMR]
+| data-sort-value="2017-12-15"| 12–15 Dec 2017
+| 923
+| –
+| style="background:#C6ECFB;"| '''23.2'''
+| 16.7
+| 16.8
+| 8.7
+| 8.5
+| 14.1
+| 3.7
+| 5.7
+| –
+| 2.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.4
+|-
+| [http://www.visir.is/paper/fbl/171206.pdf Fréttablaðið/Stöð 2/Vísir]
+| data-sort-value="2017-12-04"| 4 Dec 2017
+| 804
+| –
+| style="background:#C6ECFB;"| '''26.4'''
+| 23.5
+| 13.4
+| 7.4
+| 11.3
+| 7.7
+| 4.0
+| 4.8
+| –
+| 1.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 2.9
+|-
+| [http://www.gallup.is/frettir/samfylkingin-baetir-vid-sig-midflokkurinn-tapar-fylgi/ Gallup]
+| data-sort-value="2017-11-30"| 8–30 Nov 2017
+| ''3,991''
+| 57.8
+| style="background:#C6ECFB;"| '''24.0'''
+| 16.1
+| 16.7
+| 6.8
+| 10.4
+| 10.4
+| 6.4
+| 7.1
+| –
+| 2.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 7.3
+|-
+| [http://mmr.is/frettir/birtar-nieurstoeeur/653-kjosendur-vg-vilja-ekki-sjalfstaedhisflokk-fylgi-vg-dalar MMR]
+| data-sort-value="2017-11-17"| 14–17 Nov 2017
+| 944
+| –
+| style="background:#C6ECFB;"| '''24.4'''
+| 13.0
+| 16.0
+| 10.5
+| 9.5
+| 9.9
+| 8.4
+| 6.5
+| –
+| 1.8
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
+|- style="background:#E9E9E9;"
+| [[2017 Icelandic parliamentary election|2017 parliamentary election]]
+| data-sort-value="2017-10-28"| 28 Oct 2017
+| –
+| –
+| style="background:#C6ECFB;"| '''25.2'''
+| 16.9
+| 12.1
+| 10.9
+| 10.7
+| 9.2
+| 6.9
+| 6.7
+| –
+| 1.5
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
+|}

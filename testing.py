@@ -3,12 +3,13 @@ from toolkit import *
 import date_kit
 
 
-choice = 'Canada'
+choice = 'Norway'
 # view = 'parties'
 restart = '[http'
 key = None
 date = 1
 power = 1
+spread = 60
 
 if choice == 'Germany':
     key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
@@ -46,7 +47,13 @@ elif choice == 'Canada':
     file_name = 'test_data/canada_polling.txt'
     spread = 60
     start = 3
-    power = 1
+elif choice == 'Iceland':
+    key = ['D', 'V', 'S', 'M', 'B', 'P', 'F', 'C', 'J']
+    col = {'D': (0, 173, 239), 'V': (0, 184, 120), 'S': (234, 0, 56), 'M': (0, 33, 105), 'B': (160, 208, 103),
+           'P': (137, 110, 189), 'F': (255, 202, 62), 'C': (255, 125, 20), 'J': (239, 72, 57)}
+    file_name = 'test_data/iceland_polling.txt'
+    spread = 60
+    start = 4
 else:
     raise ValueError("No such choice.")
 
@@ -88,9 +95,14 @@ while i < len(content):
                 temp = dates.split('â€“')
             temp = temp[-1].strip()
             # print(temp)
-            if len(temp.split()) == 2:
-                temp = temp + ' ' + year
-            elif len(temp.split()) == 1:
+            temps = temp.split()
+            if len(temps) == 2:
+                try:
+                    year = int(temps[-1])
+                    temp = '1 ' + temp
+                except ValueError:
+                    temp = temp + ' ' + year
+            elif len(temps) == 1:
                 temp = '1' + ' ' + temp + ' ' + year
             # print(temp)
             end_date = date_kit.Date(text=temp, form='dmy')
@@ -123,10 +135,15 @@ while i < len(content):
             continue
         elif start <= rot < start + len(key):
             p = rot - start
+            temp = line.split('|')[-1].strip()
             if "'''" in line:
-                share = float(line.split('|')[-1].strip().strip("'"))
+                share = float(temp.strip("'"))
+            elif temp == 'â€“':
+                rot += 1
+                i += 1
+                continue
             else:
-                share = float(line.split('|')[-1].strip())
+                share = float(temp.strip())
             # print(key[rot], share)
             if end in dat[key[p]]:
                 dat[key[p]][end].append(share)
