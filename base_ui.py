@@ -1612,7 +1612,9 @@ class GraphDisplay(Widget):
         x = self.graph_rect.x + self.x_scale * place
         y_vals = {}
         for line in self.dat.keys():
-            y_vals[line] = self.get_val(line, place + self.x_min)
+            val = self.get_val(line, place + self.x_min)
+            if val is not None:
+                y_vals[line] = val
         if self.at_line is None:
             Widget.change = True
             surface = pygame.Surface((1, self.graph_rect.h))
@@ -1639,12 +1641,15 @@ class GraphDisplay(Widget):
                 if relx < x:
                     if bestx is None or bestx < relx:
                         bestx = relx
-            ret = points[bestx] + (x - bestx) * self.slopes[line][bestx]
+            try:
+                ret = points[bestx] + (x - bestx) * self.slopes[line][bestx]
+            except KeyError:
+                ret = None
         return ret
 
     def set_tool_tips(self, place, x, y_vals):
         x_val = place + self.x_min
-        order = sorted(list(self.dat.keys()), key=lambda line: y_vals[line])
+        order = sorted(list(y_vals.keys()), key=lambda line: y_vals[line])
 
         self.show_leader(order, x, x_val, y_vals)
 
