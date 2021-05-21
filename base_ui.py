@@ -1457,9 +1457,12 @@ class GraphDisplay(Widget):
 
     def __init__(self, position, area, dat, x_title=None, y_title=None, align=TOPLEFT,
                  x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, time=True,
-                 max_y_max=None, step=None, initial_date=None, dat_points=None):
+                 max_y_max=None, step=1, initial_date=None, dat_points=None):
         self.time = time
-        self.step = step
+        if step != 1:
+            self.dat = self.rescale(dat, step)
+        else:
+            self.dat = dat
         if self.time:
             self.initial_date: Date = initial_date
         if colours is None:
@@ -1468,7 +1471,6 @@ class GraphDisplay(Widget):
         super().__init__(position, area, align, surface)
         self.surface.fill(white)
         self.surface.set_colorkey(white)
-        self.dat = dat
         self.dat_points = dat_points
         self.x_title = x_title
         self.y_title = y_title
@@ -1581,6 +1583,15 @@ class GraphDisplay(Widget):
 
         self.at_line = None
         self.no_focus()
+
+    @staticmethod
+    def rescale(dat, step):
+        ndat = {}
+        for line, points in dat.items():
+            ndat[line] = {}
+            for x, y in points.items():
+                ndat[line][x * step] = y
+        return ndat
 
     def catch(self, mouse):
         if self.on_top(mouse):
@@ -1702,7 +1713,7 @@ class GraphDisplay(Widget):
             lead.surface.set_alpha(200)
             self.at_line.extensions.append(lead)
         if self.time:
-            txt = self.initial_date.get_date(round(x_val * self.step)).__repr__()
+            txt = self.initial_date.get_date(int(x_val)).__repr__()
         else:
             txt = str(round(x_val))
         if lead is not None:
@@ -1745,7 +1756,9 @@ class GraphDisplay(Widget):
             y = self.graph_rect.bottom - (self.y_step * i * self.y_scale)
             t = Text(str(mark) + ' ', (self.graph_rect.left, y), font_size=font_size, align=RIGHT)
             self.components.append(t)
-            pygame.draw.line(self.surface, light_grey, (self.left_margin, y), (self.left_margin + self.graph_rect.w, y))
+            y -= self.rect.top
+            pygame.draw.line(self.surface, light_grey, (self.left_margin, y),
+                             (self.left_margin + self.graph_rect.w, y))
 
         # Draw x-axis intervals
         step = 1
@@ -1774,6 +1787,7 @@ class GraphDisplay(Widget):
             elif unit == 'year':
                 if min_date.month != 1 or min_date.day != 1:
                     place += date_kit.get_year_length(min_date.year) + 1 - min_date.day_of_year()
+            # Button((self.graph_rect.left, self.rect.y), (self.graph_rect.right, self.rect.y + zero_loc)).show()
             while place <= self.x_max:
                 date = self.initial_date.get_date(place)
                 if unit == 'month':
@@ -1782,7 +1796,8 @@ class GraphDisplay(Widget):
                     txt = str(date.year)
                 else:
                     txt = date.__repr__()
-                pos = (self.graph_rect.left + (place - self.x_min) * self.x_scale, self.rect.y + zero_loc)
+                # print(self.graph_rect.left, place, self.x_min, self.x_scale)
+                pos = (self.left_margin + (place - self.x_min) * self.x_scale, zero_loc)
                 self.x_axis_label(txt, pos, alignment, font_size)
                 self.x_axis_mark(pos)
                 if unit == 'month':
@@ -1796,7 +1811,7 @@ class GraphDisplay(Widget):
                         m += 1
                 elif unit == 'year':
                     place += sum([date_kit.get_year_length(date.year + i) for i in range(step)])
-                else:
+                elif unit == 'day':
                     place += step
         else:
             while num > 12:
@@ -1804,7 +1819,7 @@ class GraphDisplay(Widget):
                 num = num / 2
             for x in range(int(num) * step, -1, -step):
                 txt = str(self.x_min + x)
-                pos = (self.graph_rect.left + x * self.x_scale, self.rect.y + zero_loc)
+                pos = (self.left_margin + x * self.x_scale, zero_loc)
                 self.x_axis_label(txt, pos, alignment, font_size)
                 self.x_axis_mark(pos)
 
@@ -1817,7 +1832,7 @@ class GraphDisplay(Widget):
                          (self.left_margin, zero_loc), (self.left_margin + self.graph_rect.w, zero_loc))
 
     def x_axis_label(self, txt, pos, alignment, font_size):
-        t = Text(txt, pos, font_size=font_size, align=alignment)
+        t = Text(txt, (pos[0] + self.rect.left, pos[1]), font_size=font_size, align=alignment)
         if alignment == BOTTOM:
             t.rect.bottom -= font_size * FONT_ASPECT
         else:
