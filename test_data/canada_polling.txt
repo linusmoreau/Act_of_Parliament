@@ -26,6 +26,7 @@
 ! style="background:{{Canadian party colour|CA|BQ}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|Green}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|PPC}}" data-sort-type="number"|
+| [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|May 17, 2021}} || [https://angusreid.org/wp-content/uploads/2021/05/2021.05.20_federal_politics.pdf PDF] || 32 || {{Party shading/Liberal}}|'''34''' || 18 || 7 || 5|| {{n/a}} || 4 || ±2.5 pp || 1,601 || online || {{Party shading/Liberal}}|'''2'''
 |-
 | [[Ipsos]] || {{dts|May 14, 2021}} || [https://www.ipsos.com/en-ca/news-polls/liberals-in-drivers-seat-over-conservatives-as-vaccination-rollout-hits-its-stride HTML] || 29 || {{Party shading/Liberal}}|'''38''' || 21 ||  6 || 5 || 1 || 1 || ±3.5 pp || 1,001 || online || {{Party shading/Liberal}}|'''9'''
 |-

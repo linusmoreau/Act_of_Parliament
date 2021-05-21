@@ -76,7 +76,7 @@
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 14.8
 |-
 |[https://www.gallup.is/nidurstodur/thjodarpuls/fylgi-flokka/ Gallup]
-|Apr 2021
+|30 Apr 2021
 |{{TBA}}
 |{{TBA}}
 | style="background:#C6ECFB;"| '''23.8'''

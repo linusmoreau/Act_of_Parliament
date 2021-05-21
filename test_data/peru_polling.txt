@@ -21,7 +21,23 @@
 |-
 | colspan="8" style="background:#A0A0A0"|
 |-
-| IEP/La Republica<ref>{{Cite web|date=2021-04-25|title=Encuesta IEP: Pedro Castillo baja y Keiko Fujimori se le acerca en las preferencias|url=https://larepublica.pe/elecciones/2021/05/16/encuesta-iep-pedro-castillo-sigue-liderando-y-crecimiento-de-keiko-fujimori-se-estanca-pltc/|url-status=live|archive-date=2021-05-16|website=larepublica.pe|language=es}}</ref>
+| Datum/Gestión/Perú 21<ref>{{cite web|title=Simulacro Datum: Pedro Castillo sube punto y medio, Keiko Fujimori baja uno y voto blanco crece uno|url=https://peru21.pe/politica/simulacro-datum-pedro-castillo-sube-punto-y-medio-keiko-fujimori-baja-uno-y-voto-blanco-crece-uno-noticia/|website=peru21.pe|date=21 May 2021}}</ref>
+| 18–20 May 2021
+| 1,201
+| style="background:#FFD0D7"|'''44.9'''
+| 40.1
+| 9.2
+| 5.8
+|-
+| IDICE/La Razón<ref>{{Cite web|date=2021-05-20|title=Keiko confirma la tendencia y logra superar a Castillo|url=https://larazon.pe/keiko-confirma-la-tendencia-y-logra-superar-a-castillo/|url-status=live|archive-date=2021-05-20|website=larazon.pe|language=es}}</ref>
+|18–19 May 2021
+| 1,200
+| 42.0
+| style="background:#FF9966" |'''45.4'''
+| 7.7
+| 4.9
+|-
+| IEP/La Republica<ref>{{Cite web|date=2021-05-16|title=Encuesta IEP: Pedro Castillo baja y Keiko Fujimori se le acerca en las preferencias|url=https://larepublica.pe/elecciones/2021/05/16/encuesta-iep-pedro-castillo-sigue-liderando-y-crecimiento-de-keiko-fujimori-se-estanca-pltc/|url-status=live|archive-date=2021-05-16|website=larepublica.pe|language=es}}</ref>
 | 13–15 May 2021
 | 1,246
 | style="background:#FFD0D7" |'''36.5'''
