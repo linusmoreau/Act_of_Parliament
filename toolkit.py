@@ -110,6 +110,15 @@ def central_rolling_average(dat: Dict[float, List[float]], breadth: float):
     return ndat
 
 
+def weight(disp, breadth):
+    # w = (1 - (abs(disp) / (breadth / 2))) ** power
+    w = (1 - (abs(disp) / (breadth / 2)) ** 3) ** 3
+    if w < 0:
+        raise ValueError("Displacement is outside of range")
+    else:
+        return w
+
+
 def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, central: bool = False) \
         -> Dict[str, Dict[float, List[float]]]:
     ndat = {}
@@ -122,14 +131,7 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
     return ndat
 
 
-def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, power: int = 1):
-    def weight(disp, power):
-        w = (1 - (abs(disp) / (breadth / 2))) ** power
-        if w < 0:
-            raise ValueError("Displacement is outside of range")
-        else:
-            return w
-
+def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
     ndat = {}
     relv: List[int] = []
     upcome = sorted(list(dat.keys()))
@@ -166,20 +168,74 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, po
             relv = relv[cutoff:]
         # print(relv, upcome)
         try:
-            ndat[place] = (sum([sum(dat[x]) * weight(x - place, power) for x in relv]) /
-                           sum([len(dat[x]) * weight(x - place, power) for x in relv]))
+            ndat[place] = (sum([sum(dat[x]) * weight(x - place, breadth) for x in relv]) /
+                           sum([len(dat[x]) * weight(x - place, breadth) for x in relv]))
         except ZeroDivisionError:
             pass
     return ndat
 
 
-def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None, power=1) \
+# def loess(dat: Dict[float, List[float]], breadth: float, res: int):
+#     ndat = {}
+#     relv: List[int] = []
+#     upcome = sorted(list(dat.keys()))
+#     # print(upcome)
+#     mini = upcome[0]
+#     maxi = upcome[-1]
+#     step = (maxi - mini) / res
+#     for i in range(res + 1):
+#         place = round(mini + step * i)
+#         if place > maxi:
+#             break
+#
+#         cutoff: int = -1
+#         for j, x in enumerate(upcome):
+#             # print(x, place, breadth / 2)
+#             if x >= place + breadth / 2:
+#                 cutoff = j
+#                 break
+#         if cutoff == -1:
+#             relv.extend(upcome)
+#             upcome = []
+#         else:
+#             relv.extend(upcome[:cutoff])
+#             upcome = upcome[cutoff:]
+#
+#         cutoff = -1
+#         for j, x in enumerate(relv):
+#             if x >= place - breadth / 2:
+#                 cutoff = j
+#                 break
+#         if cutoff == -1:
+#             continue
+#         else:
+#             relv = relv[cutoff:]
+#         # print(relv, upcome)
+#         try:
+#             w = sum([weight(x - place, breadth) for x in relv])
+#             xavg = sum([x * weight(x - place, breadth) for x in relv]) / w
+#             yavg = (sum([sum(dat[x]) * weight(x - place, breadth) for x in relv]) /
+#                     sum([len(dat[x]) * weight(x - place, breadth) for x in relv]))
+#             beta1 = ((sum([weight(x - place, breadth) * x * sum(dat[x]) for x in relv]) - xavg * yavg * w) /
+#                      (sum([weight(x - place, breadth) * x**2 for x in relv]) - xavg**2 * w))
+#             beta0 = yavg - beta1 * xavg
+#             print(beta1)
+#             ndat[place] = yavg
+#         except ZeroDivisionError:
+#             pass
+#     return ndat
+
+
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None) \
         -> Dict[str, Dict[float, List[float]]]:
     ndat = {}
     for line, points in dat.items():
         if res is None:
             inres = (max(list(points.keys())) - min(list(points.keys()))) // 6
+            if inres == 0:
+                inres = 1
         else:
             inres = res
-        ndat[line] = weighted_average(points, breadth, inres, power)
+        ndat[line] = weighted_average(points, breadth, inres)
     return ndat
+
