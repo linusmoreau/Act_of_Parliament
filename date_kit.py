@@ -43,6 +43,9 @@ class Date:
     def __repr__(self):
         return str(self.year) + '-' + str(self.month).rjust(2, '0') + '-' + str(self.day).rjust(2, '0')
 
+    def json_dump(self):
+        return self.__repr__()
+
     def copy(self):
         return Date(self.year, self.month, self.day)
 

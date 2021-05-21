@@ -12,7 +12,7 @@ class Encoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, set):
             return list(obj)
-        elif isinstance(obj, (Person, Party, ParliamentMember, Riding, Region, Bill, Policy)):
+        elif isinstance(obj, (Person, Party, ParliamentMember, Riding, Region, Bill, Policy, date_kit.Date)):
             return obj.json_dump()
         else:
             return super().default(obj)
@@ -47,7 +47,10 @@ def load_save(f_name):
         load_doc = json.load(f)
         f.close()
         for attr, val in load_doc["game_state"].items():
-            data.game_state[attr] = val
+            if attr == 'date':
+                data.game_state[attr] = date_kit.Date(text=val)
+            else:
+                data.game_state[attr] = val
         for obj in load_doc["parties"]:
             Party(**obj)
         for obj in load_doc["regions"]:
@@ -177,6 +180,8 @@ class Person(CustomObject):
                     age = date_kit.age(birthdate, data.game_state["date"])
                     if age >= 18:
                         break
+        elif isinstance(birthdate, str):
+            birthdate = date_kit.Date(text=birthdate)
         else:
             age = date_kit.age(birthdate, data.game_state["date"])
         self.birthdate = birthdate
@@ -284,6 +289,9 @@ class ParliamentMember(Person):
                 age = date_kit.age(birthdate, data.game_state["date"])
                 if age >= 18:
                     break
+        elif isinstance(birthdate, str):
+            birthdate = date_kit.Date(text=birthdate)
+            age = date_kit.age(birthdate, data.game_state['date'])
         else:
             age = date_kit.age(birthdate, data.game_state["date"])
         kwargs["age"] = age
