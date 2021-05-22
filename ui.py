@@ -1934,7 +1934,7 @@ def set_up_new_game():
 
 def end_turn():
     data.page_history.clear()
-    PageParliament()
+    pages['parliament'].open_page()
     ToolBar.instance.end_turn()
 
 
