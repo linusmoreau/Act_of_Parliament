@@ -260,9 +260,14 @@ class Widget:
             del self
             return
         else:
-            self.surface.set_alpha(self.surface.get_alpha() - alpha_rate)
-            for c in self.components + self.extensions:
-                c.disappear(alpha_ratio, first=False)
+            if self.surface.get_alpha() is not None:
+                self.surface.set_alpha(self.surface.get_alpha() - alpha_rate)
+                for c in self.components + self.extensions:
+                    c.disappear(alpha_ratio, first=False)
+            else:
+                self.hide()
+                del self
+                return
 
     def change_alpha(self, alpha):
         self.surface.set_alpha(alpha)
