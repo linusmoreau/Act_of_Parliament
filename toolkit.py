@@ -239,3 +239,29 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, 
         ndat[line] = weighted_average(points, breadth, inres)
     return ndat
 
+
+class CustomObject:
+
+    def json_dump(self):
+        def deep_identifier(d):
+            if isinstance(d, Dict):
+                for k, a in d.items():
+                    if isinstance(a, (Dict, List)):
+                        d[k] = deep_identifier(a)
+                    elif isinstance(a, CustomObject):
+                        d[k] = a.identifier()
+            elif isinstance(d, List):
+                for i, a in enumerate(d):
+                    if isinstance(a, (Dict, List)):
+                        d[i] = deep_identifier(a)
+                    elif isinstance(a, CustomObject):
+                        d[i] = a.identifier()
+            return d
+
+        attr = self.__dict__.copy()
+        attr = deep_identifier(attr)
+        attr["type"] = type(self).__name__
+        return attr
+
+    def identifier(self):
+        raise ValueError("No identifier")

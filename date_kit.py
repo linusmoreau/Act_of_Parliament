@@ -1,4 +1,5 @@
 import random
+from toolkit import CustomObject
 
 
 _days_per_month = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31}
@@ -6,7 +7,7 @@ months = {1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "Jun
           9: "September", 10: "October", 11: "November", 12: "December"}
 
 
-class Date:
+class Date(CustomObject):
 
     def __init__(self, year=None, month: int = 0, day: int = 0, text=None, form='stnd'):
         if type(month).__name__ != "int":
@@ -42,6 +43,9 @@ class Date:
 
     def __repr__(self):
         return str(self.year) + '-' + str(self.month).rjust(2, '0') + '-' + str(self.day).rjust(2, '0')
+
+    def identifier(self):
+        return self.__repr__()
 
     def json_dump(self):
         return self.__repr__()

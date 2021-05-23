@@ -3,16 +3,18 @@ import CAN_names as Names
 import json
 import os
 import toolkit
+from toolkit import CustomObject
 import date_kit
+from date_kit import Date
 import random
-from typing import Dict
+from typing import Dict, List, Union, Optional
 
 
 class Encoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, set):
             return list(obj)
-        elif isinstance(obj, (Person, Party, ParliamentMember, Riding, Region, Bill, Policy, date_kit.Date)):
+        elif isinstance(obj, CustomObject):
             return obj.json_dump()
         else:
             return super().default(obj)
@@ -32,8 +34,12 @@ def make_save(f_name):
                 "opinion_polls": data.opinion_polls,
                 "order_paper": data.order_paper}
     f = open("saves/" + f_name, "w+")
-    f.write(json.dumps(save_doc, cls=Encoder, separators=(',', ':')))
+    save_doc_formatted = json.dumps(save_doc, cls=Encoder, separators=(',', ':'))
+    f.write(save_doc_formatted)
     f.close()
+
+    loc = save_doc_formatted.find('"opinions"')
+    print(save_doc_formatted[loc:loc+1000])
 
 
 def load_save(f_name):
@@ -48,7 +54,7 @@ def load_save(f_name):
         f.close()
         for attr, val in load_doc["game_state"].items():
             if attr == 'date':
-                data.game_state[attr] = date_kit.Date(text=val)
+                data.game_state[attr] = Date(text=val)
             else:
                 data.game_state[attr] = val
         for obj in load_doc["parties"]:
@@ -77,6 +83,7 @@ def load_save(f_name):
 
 
 def reformat_data(data):
+    # replace str keys with int keys
     if type(data).__name__ == "dict" and len(data) > 0:
         new_data = {}
         for key in data:
@@ -105,14 +112,6 @@ def clear_data():
         dat.clear()
 
 
-class CustomObject:
-
-    def json_dump(self):
-        attr = self.__dict__.copy()
-        attr["type"] = type(self).__name__
-        return attr
-
-
 class Policy(CustomObject):
 
     def __init__(self, tag, area, **kwargs):
@@ -124,6 +123,25 @@ class Policy(CustomObject):
         self.current_law = kwargs.get("current_law", 0)
         policies[self.tag] = self
 
+    def identifier(self):
+        return self.tag
+
+
+class OpinionModifier(CustomObject):
+    def __init__(self, effect: float, date: Optional[Date] = None, desc: str = '', **kwargs):
+        self.effect = effect
+        if date is None:
+            self.date = data.game_state['date']
+        else:
+            self.date = date
+        self.desc = desc
+
+    def json_dump(self):
+        return super().json_dump()
+
+    def identifier(self):
+        return self.json_dump()
+
 
 class Person(CustomObject):
     id_num = 0
@@ -132,7 +150,7 @@ class Person(CustomObject):
 
     def __init__(self, region, riding, values, values_importance, radicalism, party=None, name=None, gender=None,
                  age=None, background=None, language=None, supports=None, best_opinion=None, voted=False,
-                 id_num=None, titles=None, birthdate=None, base_skills=None, modifiers=None):
+                 id_num=None, titles=None, birthdate=None, base_skills=None, modifiers=None, opinions=None):
         if id_num is None:
             self.id_num = Person.id_num
             Person.id_num += 1
@@ -144,8 +162,8 @@ class Person(CustomObject):
                 Person.id_num += 1
         if base_skills is None:
             base_skills = {"administrative": random.randint(0, 10),
-                      "publicity": random.randint(0, 10),
-                      "social": random.randint(0, 10)}
+                           "publicity": random.randint(0, 10),
+                           "social": random.randint(0, 10)}
         if modifiers is None:
             modifiers = []
         self.region = region
@@ -164,6 +182,21 @@ class Person(CustomObject):
         if titles is None:
             self.titles = []
 
+        if opinions is None:
+            self.opinions: Dict[str, Dict[Union[str, int], List[OpinionModifier]]] = {}
+            # str: opinion type (e.g. person, party, org, etc.)
+            # Union(str, int): identifier for object of the opinion (person, org, etc.)
+            # OpinionModifier: information about how opinion is changed
+        else:
+            self.opinions = {}
+            for subj, spec in opinions.items():
+                for obj, oms in spec.items():
+                    for om in oms:
+                        if not isinstance(om, OpinionModifier):
+                            self.opinions[subj][obj] = OpinionModifier(**om)
+                        else:
+                            self.opinions[subj][obj] = om
+
         self.supports = supports
         self.best_opinion = best_opinion
         self.voted = voted
@@ -181,7 +214,7 @@ class Person(CustomObject):
                     if age >= 18:
                         break
         elif isinstance(birthdate, str):
-            birthdate = date_kit.Date(text=birthdate)
+            birthdate = Date(text=birthdate)
         else:
             age = date_kit.age(birthdate, data.game_state["date"])
         self.birthdate = birthdate
@@ -222,12 +255,11 @@ class Person(CustomObject):
         ridings[self.riding].persons.append(self.id_num)
         persons[self.id_num] = self
 
+    def identifier(self):
+        return self.id_num
+
     def json_dump(self):
         attr = super().json_dump()
-        if attr["party"] is not None:
-            attr["party"] = attr["party"].tag
-        if attr["birthdate"] is not None:
-            attr["birthdate"] = attr["birthdate"].__repr__()
         return attr
 
     def do_turn(self):
@@ -290,7 +322,7 @@ class ParliamentMember(Person):
                 if age >= 18:
                     break
         elif isinstance(birthdate, str):
-            birthdate = date_kit.Date(text=birthdate)
+            birthdate = Date(text=birthdate)
             age = date_kit.age(birthdate, data.game_state['date'])
         else:
             age = date_kit.age(birthdate, data.game_state["date"])
@@ -435,6 +467,9 @@ class Party(CustomObject):
         del attr["members"]
         return attr
 
+    def identifier(self):
+        return self.tag
+
     # def first_vote(self, issue, proposed_law):
     #     self.leader.first_vote(issue, proposed_law)
     #     self.bill_support = self.leader.bill_support
@@ -468,6 +503,9 @@ class Region(CustomObject):
             self.gen_ridings(seat_dist)
         else:
             self.num_of_districts = kwargs["num_of_districts"]
+
+    def identifier(self):
+        return self.tag
 
     def json_dump(self):
         attr = super().json_dump()
@@ -528,6 +566,9 @@ class Riding(CustomObject):
             self.gen_population()
             if policies["electsys"].current_law == 100:
                 self.set_mp()
+
+    def identifier(self):
+        return self.tag
 
     def json_dump(self):
         attr = super().json_dump()
