@@ -452,9 +452,10 @@ class SavesButton(SelectButton):
     def delete_save(self):
         logic.delete_save(self.entry.name)
         popup = self.parent.parent
-        popup.components.remove(self.parent)
-        popup.scroll_list = popup.make_selection()
-        popup.components.append(popup.scroll_list)
+        if popup is not None:
+            popup.components.remove(self.parent)
+            popup.scroll_list = popup.make_selection()
+            popup.components.append(popup.scroll_list)
 
 
 class PersonDisplay(CircleSelectButton):
