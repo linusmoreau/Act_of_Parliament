@@ -4,15 +4,23 @@ from typing import Dict, List, Tuple
 
 
 government_orders: List[int] = []  # contains ID numbers of bills the government is bringing up
+
 LCPMB: List[int] = []  # contains ID numbers of MPs who are eligible in a randomized order
 # LCPMB: List for the Consideration of Private Members' Business
+
 order_of_precedence: List[int] = []  # contains ID numbers of second stage bills MPs wish to progress
+
 imminent_progress: List[int] = []  # contains ID numbers of bills that will have progress attempted at end of turn
+
 votes: List[Dict[str, Dict[str, Dict[int, Dict[str, int]]]]] = []     # contains results of votes
+
 vote_subjects: List[Tuple[int]] = []
 # contains subject of votes (ligns up with the container above in terms of indices)
+
 opinion_polls = {}
+
 order_paper = [government_orders, LCPMB, order_of_precedence, imminent_progress]
+
 page_history = []  # contains page location history
 
 colours = {}
