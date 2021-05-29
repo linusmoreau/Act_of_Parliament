@@ -234,6 +234,8 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, 
             inres = (max(list(points.keys())) - min(list(points.keys()))) // 6
             if inres == 0:
                 inres = 1
+            elif inres < 50:
+                inres = 50
         else:
             inres = res
         ndat[line] = weighted_average(points, breadth, inres)
@@ -241,7 +243,6 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, 
 
 
 class CustomObject:
-
     def json_dump(self):
         def deep_identifier(d):
             if isinstance(d, Dict):
