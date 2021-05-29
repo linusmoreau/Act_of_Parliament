@@ -1,0 +1,2621 @@
+=== Vote share ===
+<!-- Only add non-incumbent parties if they have had a poll above the 4 % threshold. -->
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! rowspan="2"| Polling firm
+! rowspan="2"| Fieldwork date
+! rowspan="2"| Sample<br />size
+! class="sortable" style="width:40px;"| [[Left Party (Sweden)|V]]
+! class="sortable" style="width:40px;"| [[Swedish Social Democratic Party|S]]
+! class="sortable" style="width:40px;"| [[Green Party (Sweden)|MP]]
+! class="sortable" style="width:40px;"| [[Centre Party (Sweden)|C]]
+! class="sortable" style="width:40px;"| [[Liberals (Sweden)|L]]
+! class="sortable" style="width:40px;"| [[Moderate Party|M]]
+! class="sortable" style="width:40px;"| [[Christian Democrats (Sweden)|KD]]
+! class="sortable" style="width:40px;"| [[Sweden Democrats|SD]]
+! class="sortable" style="width:30px;" rowspan="2"| {{abbr|Oth.|Others}}
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{Left Party (Sweden)/meta/color}};"|
+! style="background:{{Swedish Social Democratic Party/meta/color}};"|
+! style="background:{{Green Party (Sweden)/meta/color}};"|
+! style="background:{{Centre Party (Sweden)/meta/color}};"|
+! style="background:{{Liberals (Sweden)/meta/color}};"|
+! style="background:{{Moderate Party/meta/color}};"|
+! style="background:{{Christian Democrats (Sweden)/meta/color}};"|
+! style="background:{{Sweden Democrats/meta/color}};"|
+|-
+|Sifo<ref>https://www.svd.se/svd-sifo-c-tar-s-valjare--hogsta-siffran-sedan-valet</ref>
+|3-13 May 2021
+|8,964
+|9.6
+| style="background:#F9BDC5;" |'''26.9'''
+|4.0
+|9.3
+|2.9
+|21.7
+|5.2
+|18.8
+|1.6
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |5.2
+|-
+|Demoskop<ref>{{Cite news|title=Annie Lööfs succé – bästa resultatet sedan 2017|language=sv|url=https://www.aftonbladet.se/nyheter/a/Ep7LaG/annie-loofs-succe--basta-resultatet-sedan-2017}}</ref>
+|28 Apr–5 May 2021
+|2,651
+|6.9
+| style="background:#F9BDC5;" |'''25.4'''
+|4.1
+|11.8
+|3.2
+|23.1
+|5.2
+|19.0
+|1.3
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |2.3
+|-
+|Novus<ref>{{Cite news|title=SVT/NOVUS VÄLJARBAROMETER|language=sv|url=https://novus.se/wp-content/uploads/2021/05/valjarbarometermaj2021.pdf}}</ref>
+|5 Apr–2 May 2021
+|3,654
+|9.5
+| style="background:#F9BDC5;" |'''27.5'''
+|4.0
+|8.4
+|2.9
+|22.9
+|5.3
+|18.1
+|1.1
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.6
+|-
+|Sentio<ref>{{Cite news|title=M och SD jämnstora i nya Sentio: ”Väldigt viktigt vilket parti som blir störst”|language=sv|url=https://nyheteridag.se/plus/m-och-sd-jamnstora-i-nya-sentio-valdigt-viktigt-vilket-parti-som-blir-storst/|access-date=2021-04-29}}</ref>
+|23-26 Apr 2021
+|–
+|10.2
+| style="background:#F9BDC5;" |'''25.4'''
+|4.6
+|6.7
+|2.5
+|21.2
+|5.6
+|21.4
+|– {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.5 [[Alternative for Sweden|AfS]]: 0.8 [[Citizens' Coalition|MED]]: 0.2 [[Pirate Party (Sweden)|PP]]: 0.2}}
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.0
+|-
+|Ipsos<ref>{{Cite news|date=2021-04-28|title=DN/Ipsos: Inget lyft för Liberalerna efter nya linjen|language=sv|url=https://www.dn.se/sverige/dn-ipsos-inget-lyft-for-liberalerna-efter-nya-linjen/|access-date=2021-04-28}}</ref>
+|13-25 Apr 2021
+|2,055
+|10
+| style="background:#F9BDC5;" |'''26'''
+|4
+|9
+|3
+|22
+|5
+|19
+|–
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4
+|-
+|Sifo<ref>{{Cite news|date=2021-04-16|title=VÄLJARBAROMETERN APRIL 2021|language=sv|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-april-2021|access-date=2021-04-28}}</ref>
+|5-15 Apr 2021
+|6,796
+|9.4
+| style="background:#F9BDC5;" |'''27.8'''
+|4.3
+|8.9
+|3.1
+|21.3
+|4.8
+|18.9
+|1.6
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |6.5
+|-
+|Demoskop<ref>{{Cite news|date=2021-04-09|title=KD sjunker i opinionen – sämsta resultat sedan 2018|language=sv|url=https://www.aftonbladet.se/nyheter/a/gWlqqa/kd-sjunker-i-opinionen--samsta-resultat-sedan-2018|access-date=2021-04-09}}</ref>
+|30 Mar–7 Apr 2021
+|2,651
+|8.4
+| style="background:#F9BDC5;" |'''25.4'''
+|3.3
+|9.8
+|3.7
+|22.8
+|5.2
+|19.2
+|2.2
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |2.6
+|-
+|Novus<ref>{{Cite web|url=https://www.svt.se/nyheter/inrikes/ingen-ljusning-i-opinionen-for-liberalerna|title=Ingen ljusning i opinionen för Liberalerna|language=sv|access-date=2021-04-08}}</ref>
+|1 Mar–4 Apr 2021
+|4,989
+|9.5
+| style="background:#F9BDC5;" |'''27.6'''
+|4.5
+|8.4
+|2.9
+|22.6
+|4.2
+|18.7
+|1.6
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |5.0
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/busch-och-loof-vinnare-i-nya-sentio-ras-for-sd/|title=Busch och Lööf vinnare i nya Sentio – ras för SD|language=sv|access-date=2021-04-08}}</ref>
+|26–29 Mar 2021
+|–
+|8.9
+| style="background:#F9BDC5;" |'''26.5'''
+|5.0
+|6.0
+|3.0
+|20.1
+|5.9
+|22.2
+|2.4 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.7 [[Alternative for Sweden|AfS]]: 0.5 [[Citizens' Coalition|MED]]: 0.4 [[Pirate Party (Sweden)|PP]]: 0.6}}
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.3
+|-
+|Ipsos<ref>{{Cite web|url=https://www.dn.se/sverige/dn-ipsos-unikt-lage-nar-tre-partier-riskerar-att-aka-ur/|title=DN/Ipsos: Unikt läge när tre partier riskerar att åka ur|language=sv|access-date=2021-03-24}}</ref>
+|9–21 Mar 2021
+|1,540
+|11
+| style="background:#F9BDC5;" |'''27'''
+|4
+|9
+|3
+|22
+|4
+|20
+|–
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |5
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-mars-2021|title=VÄLJARBAROMETERN MARS 2021|language=sv|access-date=2021-03-12}}</ref>
+|1–11 Mar 2021
+|7,711
+|9.7
+| style="background:#F9BDC5;" |'''27.2'''
+|4.2
+|8.8
+|2.9
+|22.9
+|4.4
+|18.4
+|1.5
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.3
+|-
+|Demoskop<ref>{{Cite news|date=2021-03-05|title=Nu är Moderaterna lika stora som sossarna|language=sv|url=https://www.aftonbladet.se/nyheter/kolumnister/a/6zloAL/nu-ar-moderaterna-lika-stora-som-sossarna|access-date=2021-03-05}}</ref>
+|26 Feb–3 Mar 2021
+|2,314
+|9.3
+|24.2
+|3.1
+|9.9
+|2.7
+|style="background:#C6E9F7;"| '''24.5'''
+|5.8
+|18.2
+|2.2
+|style="background:{{Moderate Party/meta/color}};color:white;" |0.3
+|-
+|Sentio<ref>{{Cite news|date=2021-03-10|title=Busch och Lööf vinnare i nya Sentio – ras för SD|language=sv|url=https://nyheteridag.se/plus/busch-och-loof-vinnare-i-nya-sentio-ras-for-sd/|access-date=2021-03-10}}</ref>
+|25–28 Feb 2021
+|–
+|10.1
+|style="background:#F9BDC5;" | '''25.4'''
+|3.3
+|7.3
+|3.1
+|21.7
+|6.0
+|20.7
+|– {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.4 [[Alternative for Sweden|AfS]]: 0.8 [[Citizens' Coalition|MED]]: 0.3 [[Pirate Party (Sweden)|PP]]: 0.5}}
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.7
+|-
+|Novus<ref>{{Cite news|last=Lauffs|date=2021-03-04|title=SVT/Novus: Tre partier riskerar åka ur riksdagen|language=sv|work=SVT Nyheter|url=https://www.svt.se/nyheter/inrikes/svt-novus-tre-partier-riskerar-aka-ur-riksdagen|access-date=2021-03-04}}</ref>
+|1–28 Feb 2021
+|3,761
+|9.5
+|style="background:#F9BDC5;" | '''27.0'''
+|4.4
+|8.3
+|3.3
+|24.0
+|4.1
+|17.9
+|1.5
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.0
+|-
+|SKOP<ref>{{Cite web|url=https://skop.se/politik/2021/03/valjarbarometer-1-mars-2021/|title=SKOP:VÄLJARBAROMETER, 1 MARS 2021|language=sv|access-date=2021-03-01}}</ref>
+|19–23 Feb 2021
+|1,000
+|10.2
+|style="background:#F9BDC5;" | '''27.4'''
+|4.0
+|10.0
+|2.4
+|24.5
+|4.6
+|15.5
+|1.4
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |2.9
+|-
+|Ipsos<ref>{{Cite web|url=https://www.dn.se/sverige/kd-narmar-sig-krislage-nar-m-vaxer-i-opinionen/|title=KD närmar sig krisläge när M växer i opinionen|language=sv|access-date=2021-02-25}}</ref>
+|9–21 Feb 2021
+|–
+|9
+| style="background:#F9BDC5;" |'''27'''
+|4
+|9
+|3
+|23
+|5
+|19
+|–
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4
+|-
+|Sifo<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/a/eKdqvg/ny-sifo-matning-fortsatt-kraftgang-for-l|title=Ny Sifo-mätning: Fortsatt kräftgång för L|language=sv|access-date=2021-02-13}}</ref>
+|1–11 Feb 2021
+|6,704
+|10.0
+| style="background:#F9BDC5;" |'''27.6'''
+|3.6
+|8.1
+|2.8
+|23.5
+|4.3
+|18.8
+|1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.1
+|-
+|Demoskop<ref name=":4">{{Cite web|title=Nu är Moderaterna lika stora som sossarna|url=https://www.aftonbladet.se/nyheter/kolumnister/a/6zloAL/nu-ar-moderaterna-lika-stora-som-sossarna|url-status=live|access-date=2021-03-05|language=sv}}</ref>
+|26 Jan–3 Feb 2021
+|2,184
+|9.4
+| style="background:#F9BDC5;" |'''24.7'''
+|3.5
+|9.6
+|3.1
+|23.2
+|6.5
+|18.3
+|1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |1.5
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/m-halkar-efter-sd-i-nya-sentio-och-botten-ur-for-liberalerna/|title=M halkar efter SD i nya Sentio – och botten ur för Liberalerna|language=sv|access-date=2021-02-04}}</ref>
+|28–31 Jan 2021
+|1,000
+|10.7
+| style="background:#F9BDC5;" |'''26.3'''
+|3.6
+|5.8
+|2.2
+|20.7
+|5.2
+|23.3
+|2.2 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.2 [[Alternative for Sweden|AfS]]: 0.6 [[Citizens' Coalition|MED]]: 0.4 [[Pirate Party (Sweden)|PP]]: 0.3}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.0
+|-
+|Novus<ref>{{Cite web|url=https://www.svt.se/nyheter/inrikes/moderaterna-klar-tvaa-i-opinionen|title=Moderaterna klar tvåa i opinionen|language=sv|date=2021-02-03|access-date=2021-02-03}}</ref>
+|11–31 Jan 2021
+|2,887
+|10.8
+| style="background:#F9BDC5;" |'''26.9'''
+|4.1
+|8.5
+|2.7
+|23.1
+|4.7
+|18.1
+|–
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.8
+|-
+|Ipsos<ref>{{Cite web|url=https://www.dn.se/sverige/dn-ipsos-allt-fler-tror-att-januariavtalet-haller/|title=DN/Ipsos: Allt fler tror att januariavtalet håller|language=sv|date=2021-01-27|access-date=2021-01-29}}</ref>
+|13–25 Jan 2021
+|1,531
+|10
+| style="background:#F9BDC5;" |'''27'''
+|4
+|8
+|3
+|22
+|5
+|19
+|–
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |5
+|-
+|Sifo<ref>{{Cite web|url=https://www.expressen.se/nyheter/kd-nara-riksdagssparren-i-ny-svdsifo-matning/|title=KD nära riksdagsspärren i ny SvD/Sifo-mätning|language=sv|date=2021-01-22|access-date=2021-01-22}}</ref>
+|11–21 Jan 2021
+|6,947
+|10.0
+| style="background:#F9BDC5;" |'''27.6'''
+|3.7
+|8.1
+|3.2
+|22.4
+|4.9
+|18.6
+|1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |5.2
+|-
+|Demoskop<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/a/rgz6qw/s-inte-langre-storsta-parti-har-psykologisk-effekt|title=S inte längre största parti: Har psykologisk effekt
+|language=sv|date=2021-01-13|access-date=2021-01-13}}</ref>
+|29 Dec 2020–11 Jan 2021
+|2,095
+|9.9
+|23.0
+|5.0
+|9.2
+|2.3
+|style="background:#C6E9F7;"| '''23.2'''
+|5.9
+|19.5
+|2.1
+| style="background:{{Moderate Party/meta/color}};color:white;" |0.2
+|-
+|Novus<ref>{{Cite web|url=https://www.svt.se/nyheter/inrikes/novus-samsta-siffran-for-kd-sedan-2018|title=SVT/Novus: Sämsta siffran för KD sedan 2018
+|language=sv|date=2021-01-12|access-date=2021-01-12}}</ref>
+|7 Dec 2020–10 Jan 2021
+|2,715
+|9.5
+| style="background:#F9BDC5;" |'''28.5'''
+|4.0
+|8.3
+|2.6
+|21.8
+|4.6
+|19.4
+|1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |6.7
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/sentio-fortsatt-majoritet-for-hogerpartierna-men-sd-backar/|title=Sentio: Fortsatt majoritet för högerpartierna – men SD backar|language=sv|access-date=2020-12-17}}</ref>
+|11–14 Dec 2020
+|–
+|11.3
+| style="background:#F9BDC5;" |'''24.1'''
+|3.2
+|6.0
+|2.6
+|22.1
+|4.8
+|23.2
+|2.4 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.4 [[Alternative for Sweden|AfS]]: 0.6 [[Citizens' Coalition|MED]]: 0.4 [[Pirate Party (Sweden)|PP]]: 0.2}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |0.9
+|-
+|Ipsos<ref>{{Cite web|url=https://www.dn.se/sverige/moderaternas-formtopp-i-opinionen-forstarks/|title=Moderaternas formtopp i opinionen förstärks|language=sv|date=2020-12-14|access-date=2020-12-15}}</ref>
+|1–13 Dec 2020
+|1,531
+|11
+| style="background:#F9BDC5;" |'''26'''
+|5
+|7
+|3
+|23
+|5
+|20
+|–
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-december-2020|title=Väljarbarometern december 2020|language=sv|date=2020-12-11|access-date=2020-12-13}}</ref>
+|30 Nov–10 Dec 2020
+|7,349
+|10.3
+| style="background:#F9BDC5;" |'''27.8'''
+|3.7
+|7.7
+|3.0
+|21.7
+|5.4
+|18.9
+|1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |6.1
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjarbarometer-arkiv/novus-svt-december-socialdemokraterna-okar/|title=Novus/SVT december: Socialdemokraterna ökar|language=sv|date=2020-12-10|access-date=2020-12-10}}</ref>
+|9 Nov–6 Dec 2020
+|3,813
+|9.7
+| style="background:#F9BDC5;" |'''28.0'''
+|4.1
+|8.2
+|2.7
+|21.7
+|5.4
+|18.5
+|1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |6.3
+|-
+|SKOP<ref>{{Cite web|url=https://skop.se/politik/2020/12/valjarbarometer-16-december-2020/|title=SKOP:VÄLJARBAROMETER, 16 DECEMBER 2020|language=sv|date=2020-12-16|access-date=2020-12-16}}</ref>
+|30 Nov–3 Dec 2020
+|1,004
+|11.2
+|style="background:#F9BDC5;"|'''26.1'''
+|4.0
+|8.5
+|2.7
+|21.8
+|6.5
+|18.2
+|1.0
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|4.3
+|-
+|Demoskop<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/a/LnonyR/nytt-bottennapp-for-liberalerna-i-arets-sista-valjarbarometer|title=Nytt bottennapp för Liberalerna i årets sista väljarbarometer|language=sv|date=2020-12-04|access-date=2020-12-04}}</ref>
+|26 Nov–2 Dec 2020
+|2,278
+|9.3
+| style="background:#F9BDC5;" |'''25.0'''
+|3.6
+|9.4
+|2.8
+|23.2
+|5.7
+|19.6
+|1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |1.8
+|-
+|SCB<ref name=":7">{{Cite web|url=https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatiundersokningen-i-november-2020----val-idag/|title=Partisympatiundersökningen november 2020|language=sv|date=2020-12-02|access-date=2020-12-04}}</ref>
+|2–26 Nov 2020
+|4,692
+|9.3
+| style="background:#F9BDC5;"|'''29.4'''
+|4.2
+|7.6
+|3.0
+|22.1
+|5.4
+|17.6
+|1.5
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|7.3
+|-
+|Ipsos<ref>{{Cite web|url=https://www.dn.se/sverige/dn-ipsos-historisk-kris-for-liberalerna-fordjupas|title=DN/Ipsos: Historisk kris för Liberalerna fördjupas|language=sv|date=2020-11-24|access-date=2020-11-25}}</ref>
+|10–22 Nov 2020
+|–
+|11
+| style="background:#F9BDC5;"|'''26'''
+|4
+|9
+|3
+|21
+|5
+|20
+|1
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|5
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/ny-blytung-hogermajoritet-nar-sd-blir-storsta-parti-i-sentio/|title=Ny blytung högermajoritet när SD blir största parti i Sentio|website=Nyheter Idag|language=sv|access-date=2020-11-21}}</ref>
+|12–16 Nov 2020
+|–
+|9.9
+|23.3
+|3.3
+|5.8
+|3.3
+|19.8
+|5.9
+| style="background:#FEF4AE;"|'''25.2'''
+|3.4 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.5 [[Alternative for Sweden|AfS]]: 1.0 [[Citizens' Coalition|MED]]: 0.9 [[Pirate Party (Sweden)|PP]]: 0.5}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|1.9
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-november-2020|title=Väljarbarometern november 2020|language=sv|date=2020-11-13|access-date=2020-11-21}}</ref>
+|2–12 Nov 2020
+|6,825
+|10.2
+|style="background:#F9BDC5;"|'''27.0'''
+|4.2
+|7.6
+|3.2
+|20.8
+|5.7
+|19.9
+|1.4
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|6.2
+|-
+|Novus<ref name=":1">{{Cite web|last=|first=|date=2020-10-15|title=Novus/SVT November: MP tappar signifikant, M och V ökar|url=https://novus.se/valjarbarometer-arkiv/novus-svt-november-mp-tappar-signifikant-m-och-v-okar/|url-status=live|archive-url=|archive-date=|access-date=2020-10-28|website=|language=sv}}</ref>
+|12 Oct–8 Nov 2020
+|3,783
+|10.6
+|style="background:#F9BDC5;"|'''26.4'''
+|3.9
+|8.6
+|2.7
+|22.0
+|5.0
+|19.4
+|1.4
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|4.4
+|-
+|Demoskop<ref>{{Cite web|title=Mellin: Moderaterna når sitt högsta stöd sedan valet|url=https://www.aftonbladet.se/a/aPPxbO|access-date=2020-11-06|website=Aftonbladet|language=sv}}</ref>
+|27 Oct–4 Nov 2020
+|2,200
+|9.4
+|style="background:#F9BDC5;"|'''24.0'''
+|3.4
+|9.2
+|3.1
+|22.4
+|6.9
+|19.9
+|1.8
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|1.6
+|-
+|SKOP<ref name=":3">{{Cite web|url=https://skop.se/politik/2020/10/skops-valjarbarometer-28-oktober-2020/|title=SKOP:S VÄLJARBAROMETER, 28 OKTOBER 2020|language=sv|date=2020-10-28|access-date=2020-10-28}}</ref>
+|23–26 Oct 2020
+|1,000
+|12.1
+|style="background:#F9BDC5;"|'''26.0'''
+|3.1
+|9.1
+|3.3
+|21.1
+|5.9
+|17.8
+|1.5
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|4.9
+|-
+|Ipsos<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/a/kRRwbX/toppnotering-for-v--vinner-pa-las-strid|title=Toppnotering för V – vinner på las-strid|language=sv|date=2020-10-28|access-date=2020-10-28}}</ref>
+|13–25 Oct 2020
+|–
+|11
+|style="background:#F9BDC5;"|'''25'''
+|5
+|9
+|3
+|21
+|6
+|20
+|–
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|4
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/sd-lyfter-i-nya-sentio-fortsatt-tapp-for-s/|title=SD lyfter i nya Sentio – S fortsätter krympa|language=sv|access-date=2020-11-21}}</ref>
+|15–18 Oct 2020
+|–
+|9.7
+|style="background:#F9BDC5;"|'''24.8'''
+|4.6
+|6.5
+|2.8
+|18.8
+|5.9
+|24.1
+|2.7 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.6 [[Alternative for Sweden|AfS]]: 1.1 [[Citizens' Coalition|MED]]: 0.2 [[Pirate Party (Sweden)|PP]]: 0.3}}
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|0.7
+|-
+|Sifo<ref name=":2">{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-oktober-2020|title=Väljarbarometer oktober 2020|website=Kantar Sifo|language=sv|date=2020-10-16|access-date=2020-10-28}}</ref>
+|5–15 Oct 2020
+|7,299
+|10.0
+|style="background:#F9BDC5;"|'''26.4'''
+|4.3
+|7.7
+|3.2
+|20.6
+|5.9
+|20.2
+|1.7
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|5.8
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjarbarometer-arkiv/novus-svt-oktober-mp-sakerstallt-over-4/|title=Novus/SVT oktober: MP säkerställt över 4 %|language=sv|date=2020-10-15|access-date=2020-10-28}}</ref>
+|14 Sep–11 Oct 2020
+|3,878
+|9.6
+|style="background:#F9BDC5;"|'''26.5'''
+|5.2
+|8.4
+|3.4
+|20.7
+|5.7
+|19.2
+|1.3
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|5.8
+|-
+|Demoskop<ref>{{Cite web|url=https://demoskop.se/aktuellt/valjarbarometern-oktober-2020/|title=Väljarbarometern oktober 2020|website=Demoskop|language=sv|date=2020-10-14|access-date=2020-10-28}}</ref>
+|1–7 Oct 2020
+|2,722
+|9.2
+|style="background:#F9BDC5;"|'''25.0'''
+|3.5
+|9.4
+|3.4
+|21.1
+|6.7
+|19.9
+|1.8
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|3.9
+|-
+|Ipsos<ref>{{Cite web|url=https://www.dn.se/sverige/dn-ipsos-overtag-for-hogertrion-bland-valjarna/|title=DN/Ipsos: Övertag för högertrion bland väljarna|website=Dagens Nyheter|language=sv|date=2020-09-23|access-date=2020-10-28}}</ref>
+|8–21 Sep 2020
+|1,521
+|9
+|style="background:#F9BDC5;"|'''26'''
+|4
+|8
+|4
+|20
+|7
+|20
+|–
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|6
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/rodgrona-totalkrossas-i-sentio-och-kd-bryter-nedatgaende-trend/|title=Rödgröna totalkrossas i Sentio och KD bryter nedåtgående trend|website=Nyheter Idag|language=sv|access-date=2020-11-21}}</ref>
+|17-20 Sep 2020
+|–
+|8.6
+|style="background:#F9BDC5;"|'''25.1'''
+|3.9
+|7.5
+|3.0
+|19.7
+|7.1
+|22.4
+|– {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.4 [[Alternative for Sweden|AfS]]: 0.6 [[Citizens' Coalition|MED]]: 0.4 [[Pirate Party (Sweden)|PP]]: 0.6}}
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|2.7
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-september-2020|title=Väljarbarometer september 2020|website=Kantar Sifo|language=sv|date=2020-09-18|access-date=2020-10-28}}</ref>
+|7–17 Sep 2020
+|5,029
+|8.9
+|style="background:#F9BDC5;"|'''27.5'''
+|3.8
+|8.2
+|3.5
+|20.6
+|6.2
+|19.8
+|1.5
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|6.9
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjarbarometer-arkiv/novus-svt-september-s-fortsatter-backa/|title=Novus/SVT september: S fortsätter backa|language=sv|date=2020-09-17|access-date=2020-10-28}}</ref>
+|24 Aug–13 Sep 2020
+|3,082
+|9.4
+|style="background:#F9BDC5;"|'''27.0'''
+|4.3
+|7.8
+|3.2
+|21.2
+|5.7
+|19.6
+|1.8
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|5.8
+|-
+|Demoskop<ref>{{Cite web|url=https://demoskop.se/aktuellt/valjarbarometern-september-2020/|title=Väljarbarometern september 2020|language=sv|access-date=2020-10-28}}</ref>
+|25 Aug–1 Sep 2020
+|2,366
+|7.5
+|style="background:#F9BDC5;"|'''26.1'''
+|3.2
+|9.2
+|3.1
+|22.2
+|5.3
+|21.6
+|1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|3.9
+|-
+|Sentio<ref>{{Cite tweet|number=1301871510517317632|title=Sweden, Sentio poll:|user=EuropeElects|language=en|access-date=2020-10-30|date=2020-09-04}}</ref>
+|20–25 Aug 2020
+|–
+|10.0
+|style="background:#F9BDC5;"|'''26.7'''
+|5.0
+|5.1
+|2.8
+|20.3
+|5.4
+|22.4
+|2.3 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.4 [[Alternative for Sweden|AfS]]: 0.9 [[Citizens' Coalition|MED]]: 0.5 [[Pirate Party (Sweden)|PP]]: 0.1}}
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|4.3
+|-
+||Ipsos<ref>{{Cite web|url=https://www.dn.se/nyheter/sverige/dnipsos-valjarstodet-for-socialdemokraterna-faller/|title=DN/Ipsos: Väljarstödet för Socialdemokraterna faller|website=Dagens Nyheter|language=sv|date=2020-08-25|access-date=2020-08-31}}</ref>
+|11–23 Aug 2020
+|–
+|10
+|style="background:#F9BDC5;"|'''27'''
+|4
+|7
+|3
+|20
+|6
+|21
+|–
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|6
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjarbarometer-arkiv/novus-svt-augusti-socialdemokraterna-fortsatter-backa/|title=Novus/SVT augusti: Socialdemokraterna fortsätter backa|website=Novus|language=sv|access-date=2020-08-31}}</ref>
+|3–23 Aug 2020
+|3,804
+|9.3
+|style="background:#F9BDC5;"|'''28.3'''
+|3.8
+|7.6
+|2.9
+|21.2
+|5.8
+|19.4
+|1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|7.1
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-augusti-2020|title=Väljarbarometer augusti 2020|website=Kantar Sifo|language=sv|date=2020-08-21|access-date=2020-08-22}}</ref>
+|10–20 Aug 2020
+|5,640
+|9.2
+|style="background:#F9BDC5;"|'''27.8'''
+|3.6
+|7.8
+|4.2
+|20.3
+|6.4
+|19.7
+|1.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|7.5
+|-
+|Demoskop<ref>{{Cite web|url=https://demoskop.se/aktuellt/valjarbarometern-augusti-2020/|title=Väljarbarometern augusti 2020|website=Demoskop|language=sv|date=2020-08-07|access-date=2020-08-08}}</ref>
+|28 Jul–4 Aug 2020
+|2,705
+|6.8
+|style="background:#F9BDC5;"|'''27.3'''
+|3.4
+|8.8
+|3.3
+|21.6
+|5.6
+|20.5
+|2.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|5.7
+|-
+|SKOP<ref>{{Cite web|url=https://skop.se/politik/2020/08/valjarbarometer-6-augusti-2020/|title=Väljarbarometer, 6 augusti 2020|website=SKOP|language=sv|access-date=2020-08-06}}</ref>
+|23–28 Jul 2020
+|1,010
+|10.4
+|style="background:#F9BDC5;"|'''28.2'''
+|3.4
+|8.0
+|3.7
+|21.1
+|5.9
+|17.9
+|1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|7.1
+|-
+|Sentio<ref>{{Cite tweet|number=1283771751848194049|title=Sweden, Sentio poll:|user=EuropeElects|language=en|access-date=2020-07-16|date=2020-07-16}}</ref>
+|10–12 Jul 2020
+|–
+|8.5
+|style="background:#F9BDC5;"|'''25.5'''
+|5.1
+|5.8
+|2.5
+|20.3
+|5.7
+|24.1
+|2.5 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.1 [[Alternative for Sweden|AfS]]: 1.1 [[Citizens' Coalition|MED]]: 0.7 [[Pirate Party (Sweden)|PP]]: 0.3}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|1.4
+|-
+|Demoskop<ref>{{Cite web|url=https://demoskop.se/aktuellt/valjarbarometern-juli-2020/|title=Väljarbarometern Juli 2020|website=Demoskop|language=sv|access-date=2020-07-22}}</ref>
+|30 Jun–7 Jul 2020
+|2,226
+|7.8
+|style="background:#F9BDC5;"|'''28.5'''
+|4.1
+|8.4
+|3.2
+|20.8
+|5.7
+|19.7
+|1.9
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|7.7
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjarbarometer-arkiv/novus-svt-juni-socialdemokraterna-uppatgaende-trend-bryts-moderaterna-starker-sin-oppositionsroll/|title=Novus/SVT Juni: Socialdemokraterna uppåtgående trend bryts – Moderaterna stärker sin oppositionsroll|website=Novus|language=sv|access-date=2020-07-26}}</ref>
+|25 May–21 Jun 2020
+|3,811
+|9.4
+|style="background:#F9BDC5;"|'''30.6'''
+|3.4
+|7.8
+|3.0
+|20.7
+|5.7
+|18.4
+|1.0
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|9.9
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/sentio-juni-uppstickarpartiet-okar-fjarde-manaden-i-rad/|title=Sentio juni: Uppstickarpartiet ökar fjärde månaden i rad|website=Nyheter idag|language=sv|access-date=2020-06-24}}</ref>
+|12–15 Jun 2020
+|–
+|9.7
+|style="background:#F9BDC5;"|'''28.8'''
+|3.9
+|6.4
+|2.9
+|18.6
+|5.9
+|20.7
+|3.1 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.8 [[Alternative for Sweden|AfS]]: 0.5 [[Citizens' Coalition|MED]]: 0.7 [[Pirate Party (Sweden)|PP]]: 0.4}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|8.1
+|-
+|Ipsos<ref>{{Cite web|url=https://www.ipsos.com/sv-se/dnipsos-m-tappar-stod-medan-kd-okar-och-s-ligger-kvar-pa-hog-niva|title=DN/Ipsos: M tappar stöd medan KD ökar och S ligger kvar på hög nivå|website=Ipsos|language=sv|access-date=2020-06-24}}</ref>
+|12–15 Jun 2020
+|1,501
+|9
+|style="background:#F9BDC5;"|'''31'''
+|3
+|7
+|4
+|17
+|7
+|20
+|2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|11
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-juni-2020|title=VÄLJARBAROMETER JUNI 2020|website=Kantar Sifo|language=sv|access-date=2020-06-12}}</ref>
+|1–11 Jun 2020
+|7,578
+|9.6
+|style="background:#F9BDC5;"|'''30.0'''
+|3.5
+|7.0
+|3.4
+|19.5
+|6.8
+|18.9
+|1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|10.5
+|-
+|Demoskop<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/a/9vRyBW/darfor-faller-stodet-for-socialdemokraterna-igen|title=Därför faller stödet för Socialdemokraterna igen|website=Aftonbladet|language=sv|access-date=2020-06-05}}</ref>
+|26 May–3 Jun 2020
+|2,437
+|8.2
+|style="background:#F9BDC5;"|'''27.8'''
+|3.9
+|9.7
+|2.7
+|20.9
+|6.5
+|19.3
+|1.0
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|6.9
+|-
+|SKOP<ref>{{Cite web|url=https://skop.se/politik/2020/06/valjarbarometer-den-4-juni-2020/|title=VÄLJARBAROMETER DEN 4 JUNI 2020|website=SKOP|language=sv|access-date=2020-06-04}}</ref>
+|31 May–2 Jun 2020
+|1,006
+|10.5
+|style="background:#F9BDC5;"|'''31.3'''
+|3.7
+|6.6
+|3.6
+|20.3
+|5.8
+|17.0
+|1.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|11.0
+|-
+|SCB<ref>{{Cite web|url=https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatiundersokningen-i-maj-2020----val-idag/|title=Partisympatiundersökningen maj 2020|website=Statistikmyndigheten SCB|language=sv|access-date=2020-06-08}}</ref>
+|29 Apr–27 May 2020
+|9,208
+|8.2
+|style="background:#F9BDC5;"|'''33.7'''
+|4.1
+|6.0
+|3.3
+|20.1
+|6.4
+|17.1
+|1.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|13.6
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjarbarometer-arkiv/novus-svt-maj-2020-s-fortsatter-oka-och-sd-fortsatter-minska/|title=Novus/SVT maj 2020: S fortsätter öka och SD fortsätter minska|website=Novus|language=sv|access-date=2020-05-28}}</ref>
+|27 Apr–24 May 2020
+|3,976
+|9.4
+|style="background:#F9BDC5;"|'''31.5'''
+|4.1
+|8.1
+|3.0
+|19.2
+|5.5
+|18.0
+|1.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|12.3
+|-
+|Ipsos<ref>{{Cite web|url=https://www.ipsos.com/sv-se/dnipsos-stodet-starks-bade-m-och-s-medan-sd-fortsatter-att-tappa|title=DN/Ipsos: Stödet stärks för både M och S medan SD fortsätter att tappa|website=Ipsos|language=sv|access-date=2020-05-28}}</ref>
+|12–24 May 2020
+|1,530
+|9
+|style="background:#F9BDC5;"|'''31'''
+|4
+|7
+|3
+|20
+|6
+|20
+|1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|11
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/mardromssiffror-for-centerpartiet-i-sentio/|title=Mardrömssiffror för Centerpartiet i Sentio|website=Nyheter Idag|language=sv|access-date=2020-05-25}}</ref>
+|15–18 May 2020
+|–
+|9.2
+|style="background:#F9BDC5;"|'''28.2'''
+|3.5
+|4.7
+|3.1
+|19.4
+|7.8
+|22.2
+|2.0 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.2 [[Alternative for Sweden|AfS]]: 0.4 [[Citizens' Coalition|MED]]: 0.6 [[Pirate Party (Sweden)|PP]]: 0.1}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|6.0
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-maj-2020|title=VÄLJARBAROMETER MAJ 2020|website=KANTAR Sifo|language=sv|access-date=2020-05-15}}</ref>
+|4–14 May 2020
+|7,310
+|9.0
+|style="background:#F9BDC5;"|'''31.7'''
+|3.9
+|7.2
+|3.4
+|18.6
+|6.1
+|18.9
+|1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|12.8
+|-
+|SKOP<ref>{{Cite web|url=https://skop.se/politik/2020/05/skops-valjarbarometer-11-maj-2020/|title=SKOP:S VÄLJARBAROMETER, 11 MAJ 2020|website=SKOP|language=sv|access-date=2020-05-13}}</ref>
+|30 Apr–8 May 2020
+|1,019
+|9.7
+|style="background:#F9BDC5;"|'''32.6'''
+|2.6
+|7.0
+|4.4
+|20.4
+|5.2
+|16.3
+|1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|12.2
+|-
+|Demoskop<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/samhalle/a/70v4qW/socialdemokraternas-lyft-fortsatter--bottenniva-for-l|title=Socialdemokraternas lyft fortsätter – bottennivå för L|website=Aftonbladet|language=sv|access-date=2020-05-08}}</ref>
+|28 Apr–5 May 2020
+|2,297
+|7.2
+|style="background:#F9BDC5;"|'''30.1'''
+|3.3
+|10.0
+|2.7
+|20.7
+|6.5
+|18.8
+|0.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|9.4
+|-
+|Ipsos<ref>{{Cite web|url=https://www.ipsos.com/sv-se/dnipsos-stodet-s-fortsatter-att-oka-kraftigt|title=DN/Ipsos: Stödet för S fortsätter att öka kraftigt|website=Ipsos|language=sv|access-date=2020-05-05}}</ref>
+|14–26 Apr 2020
+|1,544
+|9
+|style="background:#F9BDC5;"|'''29'''
+|4
+|7
+|4
+|18
+|6
+|21
+|1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|8
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/sentio-s-rusar-i-opinionen-men-hogerblocket-overlagset-storst/|title=Sentio: S rusar i opinionen – men högerblocket överlägset störst|website=Nyheter Idag|language=sv|access-date=2020-04-28}}</ref>
+|17–21 Apr 2020
+|–
+|9.0
+|style="background:#F9BDC5;"|'''27.5'''
+|4.1
+|5.8
+|3.4
+|18.7
+|5.4
+|24.2
+|1.9 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.2 [[Alternative for Sweden|AfS]]: 0.4 [[Citizens' Coalition|MED]]: 0.5 [[Pirate Party (Sweden)|PP]]: 0.4}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|3.3
+|-
+|Novus<ref>{{Cite web|url=https://www.svt.se/nyheter/svt-novus-s-medvind-fortsatter|title=SVT/Novus: S rusar i opinionen|website=SVT Nyheter|language=sv|access-date=2020-04-23}}</ref>
+|30 Mar–19 Apr 2020
+|3,838
+|9.5
+|style="background:#F9BDC5;"|'''30.4'''
+|3.8
+|7.7
+|2.8
+|18.7
+|6.1
+|19.7
+|1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|10.7
+|-
+|Sifo<ref>{{Cite web|url=https://www.gp.se/nyheter/sverige/gp-sifo-h%C3%B6gsta-%C3%B6kningen-n%C3%A5gonsin-f%C3%B6r-socialdemokraterna-1.26614833|title=GP/Sifo: Högsta ökningen någonsin för Socialdemokraterna|website=Göteborgs-Posten|language=sv|access-date=2020-04-09}}</ref>
+|30 Mar–8 Apr 2020
+|6,886
+|9.4
+|style="background:#F9BDC5;"|'''30.6'''
+|3.5
+|6.9
+|3.8
+|19.2
+|5.9
+|19.5
+|1.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|11.1
+|-
+|Demoskop<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/samhalle/a/Op9k31/kraftigt-lyft-for-s-efter-coronautbrottet|title=Kraftigt lyft för S efter coronautbrottet|website=Aftonbladet|language=sv|access-date=2020-04-02}}</ref>
+|25 Mar–1 Apr 2020
+|2,453
+|7.7
+|style="background:#F9BDC5;"|'''27.9'''
+|4.0
+|10.0
+|3.0
+|19.2
+|6.7
+|20.8
+|0.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|7.1
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/miljopartiet-okar-i-sentio-mitt-under-coronakrisen/|title=Miljöpartiet ökar i Sentio mitt under coronakrisen|website=Nyheter Idag|language=sv|access-date=2020-02-25}}</ref>
+|20–24 Mar 2020
+|–
+|10.5
+|22.0
+|5.2
+|5.8
+|2.3
+|19.5
+|7.1
+| style="background:#FEF4AE;"|'''24.9'''
+|2.7 {{efn|[[Feminist Initiative (Sweden)|FI]]: ? [[Alternative for Sweden|AfS]]: ? [[Citizens' Coalition|MED]]: ? [[Pirate Party (Sweden)|PP]]: ?}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|2.9
+|-
+|Novus<ref>{{Cite web|url=https://www.svt.se/nyheter/inrikes/stodet-okar-for-socialdemokraterna-under-coronakrisen|title=Stödet ökar för Socialdemokraterna under coronakrisen|website=SVT Nyheter|language=sv|access-date=2020-03-25}}</ref>
+|24 Feb–22 Mar 2020
+|3,737
+|9.8
+|style="background:#F9BDC5;"|'''25.6'''
+|4.5
+|8.1
+|3.8
+|18.0
+|6.5
+|22.0
+|1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|3.6
+|-
+|Ipsos<ref>{{Cite web|url=https://www.ipsos.com/sv-se/dnipsos-stodet-vander-s-och-v-kvar-pa-15-arsbasta-resultat|title=DN/Ipsos: Stödet vänder för S och V kvar på 15-årsbästa resultat|website=Ipsos|language=sv|access-date=2020-03-25}}</ref>
+|10–20 Mar 2020
+|1,566
+|12
+|style="background:#F9BDC5;"|'''25'''
+|4
+|7
+|5
+|19
+|6
+|22
+|1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|3
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-mars-2020|title=Väljarbarometer mars 2020|website=KANTAR Sifo|language=sv|access-date=2020-03-13}}</ref>
+|2–12 Mar 2020
+|7,839
+|11.2
+|style="background:#F9BDC5;"|'''23.8'''
+|4.0
+|8.4
+|4.1
+|18.0
+|6.8
+|22.2
+|1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|1.6
+|-
+|Demoskop<ref>{{Cite web|url=https://demoskop.se/aktuellt/valjarbarometern-mars-2020/|title=Väljarbarometern mars 2020|last=Demoskop|date=2020-03-06|website=Demoskop|language=sv-SE|access-date=2020-03-07}}</ref>
+|25 Feb–3 Mar 2020
+|2,326
+|10.4
+|style="background:#F9BDC5;"|'''22.6'''
+|3.1
+|9.4
+|4.1
+|19.5
+|7.5
+|22.1
+|1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|0.5
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/valjarna-uppskattar-att-vi-kan-prata-med-alla-m-okar-i-sentios-februarimatning/|title="Väljarna uppskattar att vi kan prata med alla" – M ökar i Sentios februarimätning|website=Nyheter Idag|language=sv|access-date=2020-02-26}}</ref>
+|21–24 Feb 2020
+|–
+|11.1
+|21.5
+|3.6
+|7.9
+|1.8
+|19.6
+|5.3
+| style="background:#FEF4AE;"|'''27.8'''
+|1.3  {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.1 [[Alternative for Sweden|AfS]]: 0.3 [[Citizens' Coalition|MED]]: 0.3 [[Pirate Party (Sweden)|PP]]: 0.1}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|6.3
+|-
+|Ipsos<ref>{{Cite web|url=https://www.ipsos.com/sites/default/files/ct/news/documents/2020-02/vb_rapp_februari_20200224_0.pdf|title=DN / IPSOS VÄLJARBAROMETER Februari 2020|website=Ipsos|language=sv|access-date=2020-02-28}}</ref>
+|11–23 Feb 2020
+|1,535
+|11
+|22
+|5
+|8
+|4
+|18
+|8
+| style="background:#FEF4AE;"|'''23'''
+|1
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|1
+|-
+|Novus<ref>{{Cite web|url=https://www.svt.se/nyheter/inrikes/svt-novus-sd-storsta-parti|title=SD största parti i ny mätning – S fortsätter tappa|website=SVT Nyheter|language=sv|access-date=2020-02-20}}</ref>
+|27 Jan–16 Feb 2020
+|3,098
+|10.9
+|23.2
+|4.5
+|8.1
+|3.9
+|18.0
+|5.9
+| style="background:#FEF4AE;"|'''23.9'''
+|1.6
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|0.7
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-februari-2020|title=VÄLJARBAROMETER FEBRUARI 2020|website=Kantar Sifo|language=sv|access-date=2020-02-14}}</ref>
+|3–13 Feb 2020
+|8,328
+|11.4
+|style="background:#F9BDC5;"|'''23.6'''
+|4.2
+|8.1
+|4.4
+|17.5
+|6.1
+|23.3
+|1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|0.3
+|-
+|Demoskop<ref>{{Cite web|url=https://www.aftonbladet.se/nyheter/samhalle/a/lAk6k3/s-tillbaka-i-topp--men-sd-hack-i-hal|title=S tillbaka i topp – men SD hack i häl|website=Aftonbladet|language=sv|access-date=2020-02-07}}</ref>
+|25 Jan–5 Feb 2020
+|2,148
+|9.3
+|style="background:#F9BDC5;"|'''24.7'''
+|3.8
+|8.9
+|3.2
+|18.9
+|6.3
+|23.5
+|1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|1.2
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/nytt-majoritetsrekord-for-konservativa-blocket-i-sentios-januarimatning/|title=Nytt majoritetsrekord för "konservativa blocket" i Sentios januarimätning|website=www.nyheteridag.se|language=sv|access-date=2020-01-30}}</ref>
+|24–28 Jan 2020
+|–
+|9.7
+|22.1
+|4.0
+|7.0
+|2.4
+|16.6
+|7.8
+| style="background:#FEF4AE;"|'''28.8'''
+|1.6 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.3 [[Alternative for Sweden|AfS]]: 0.2 [[Citizens' Coalition|MED]]: 0.3 [[Pirate Party (Sweden)|PP]]: 0.1}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|6.7
+|-
+|Ipsos<ref>{{Cite web|url=https://www.expressen.se/nyheter/s-far-lagst-stod-pa-40-ar-i-dnip/|title=Socialdemokraterna får sämst resultat på 40 år|website=www.expressen.se|language=sv|access-date=2020-01-28}}</ref>
+|14–27 Jan 2020
+|1,528
+|11
+|23
+|4
+|9
+|4
+|17
+|7
+| style="background:#FEF4AE;"|'''24'''
+|2
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|1
+|-
+|Novus<ref>{{Cite tweet|user=EuropeElects|number=1223085070577213440|title=Sweden, Novus poll: [...]|website=www.twitter.com|date=Jan 30, 2020|language=en|access-date=2020-01-31}}</ref>
+|7–26 Jan 2020
+|4,414
+|10.4
+| style="background:#F9BDC5;"|'''24.2'''
+|4.6
+|8.7
+|3.5
+|18.3
+|6.1
+|22.6
+|1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:white;"|1.6
+|-
+|SKOP<ref>{{Cite web|url=https://skop.se/politik/2020/01/skops-valjarbarometer-30-januari-2020/|title=SKOP:S VÄLJARBAROMETER, 30 JANUARI 2020|website=www.skop.se|language=sv|access-date=2020-01-30}}</ref>
+|14–24 Jan 2020
+|1,009
+|10.7
+|23.1
+|4.1
+|9.6
+|3.8
+|17.4
+|6.7
+| style="background:#FEF4AE;"|'''23.3'''
+|1.4
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|0.2
+|-
+|Sifo<ref>{{Cite web|url=https://www.expressen.se/nyheter/ny-matning-vansterpartiet-nar-hogsta-siffran-pa-18-ar/|title=Ny mätning: Vänsterpartiet når högsta siffran på 18 år|website=www.expressen.se|language=sv|access-date=2020-01-18}}</ref>
+|6–16 Jan 2020
+|7,747
+|10.2
+|23.5
+|4.5
+|8.5
+|3.9
+|17.5
+|6.6
+| style="background:#FEF4AE;"|'''23.8'''
+|1.5
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|0.3
+|-
+|Demoskop<ref>{{Cite web|url=https://www.aftonbladet.se/a/pLEa76|title=Lena Mellin: Löfven är fel man att leda S till seger|website=Aftonbladet|language=sv|access-date=2020-01-10}}</ref>
+|30 Dec 2019–7 Jan 2020
+|2,112
+|9.0
+|23.4
+|4.8
+|9.5
+|3.1
+|18.2
+|5.9
+| style="background:#FEF4AE;"|'''24.5'''
+|1.6
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|1.1
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/julklappen-till-akesson-nytt-sd-rekord-i-sentio-pa-291-procent/|title=Julklappen till Åkesson – nytt SD-rekord i Sentio på 29,1 procent|last=Frick|first=Chang|date=2019-12-20|website=Nyheter Idag {{!}} By Chang Frick|language=sv-SE|access-date=2019-12-21}}</ref>
+|13–18 Dec 2019
+|793
+|10.1
+|21.1
+|4.5
+|6.8
+|3.2
+|16.5
+|6.3
+| style="background:#FEF4AE;"|'''29.1'''
+|2.4 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.6 [[Alternative for Sweden|AfS]]: 0.7 [[Citizens' Coalition|MED]]: 0.5 [[Pirate Party (Sweden)|PP]]: 0.0}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|8.0
+|-
+|Ipsos<ref>{{Cite web|url=https://www.expressen.se/nyheter/s-och-sd-nastan-jamsides-i-kampen-om-storsta-parti/|title=S och SD nästan jämsides i kampen om största parti|website=www.expressen.se|language=sv|access-date=2019-12-19}}</ref>
+|3–15 Dec 2019
+|1,572
+|10
+| style="background:#F9BDC5;"|'''25'''
+|5
+|8
+|5
+|16
+|6
+|24
+|1
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|1
+|-
+|Novus<ref>{{Cite news|url=https://www.svt.se/nyheter/inrikes/svt-novus-sd-ar-storsta-parti|title=SVT/Novus: SD är största parti|last=Andersson|first=Ki|date=2019-12-19|access-date=2019-12-19|language=sv}}</ref>
+|18 Nov–15 Dec 2019
+|3,994
+|9.9
+|23.7
+|5.0
+|8.3
+|3.5
+|17.9
+|6.2
+| style="background:#FEF4AE;" |'''24.0'''
+|1.5
+| style="background:{{Sweden Democrats/meta/color}};color:black;" |0.3
+|-
+|Sifo<ref>{{Cite web|url=http://www.gp.se/1.21550122|title=Mätning: SD större än M och KD tillsammans|last=Ekström|first=Anna|date=2019-12-13|website=gp.se|language=sv|access-date=2019-12-13}}</ref>
+|2–12 Dec 2019
+|8,214
+|9.7
+| style="background:#F9BDC5;"|'''24.6'''
+|4.7
+|8.0
+|4.0
+|17.2
+|6.0
+|24.4
+|1.3
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|0.2
+|-
+|Demoskop<ref>{{Cite web|url=https://www.expressen.se/nyheter/sd-storsta-parti-for-andra-gangen-i-rad/|title=Mätning: SD största parti – för andra året i rad|website=www.expressen.se|language=sv|access-date=2019-12-08}}</ref>
+|26 Nov–4 Dec 2019
+|2,079
+|7.9
+|24.3
+|4.4
+|9.6
+|3.9
+|17.5
+|5.9
+| style="background:#FEF4AE;"|'''25.4'''
+|1.1
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|1.1
+|-
+|SCB<ref>{{Cite web|url=http://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatiundersokningen-psu-i-november-2019---val-idag/|title=Partisympatiundersökningen november 2019|website=Statistiska Centralbyrån|language=sv|access-date=2019-12-08}}</ref>
+|28 Oct–26 Nov 2019
+|4,645
+|8.1
+| style="background:#F9BDC5;"|'''26.3'''
+|5.1
+|7.3
+|4.1
+|18.3
+|6.6
+|22.6
+|1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|3.7
+|-
+|Ipsos<ref>{{Cite web|url=https://www.expressen.se/nyheter/sd-lika-stora-som-s-i-ny-matning/|title=SD exakt lika stora som S i ny mätning|last1=Am|last2=Bergam|first2=a Möller|website=www.expressen.se|language=sv|access-date=2019-11-26}}</ref>
+|11–24 Nov 2019
+|1,551
+|8
+| style="background:#F9BDC5;"|'''25'''
+|5
+|8
+|3
+|17
+|7
+| style="background:#FEF4AE;"|'''25'''
+|2
+|Tie
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/nytt-sd-rekord-i-sentio-konservativa-blocket-far-191-mandat-nar-l-kollapsar/|title=Nytt SD-rekord i Sentio – Konservativa blocket får 191 mandat när L kollapsar|last=Frick|first=Chang|date=2019-11-20|website=Nyheter Idag {{!}} By Chang Frick|language=sv-SE|access-date=2019-11-20}}</ref>
+|15–19 Nov 2019
+|–
+|8.5
+|22.5
+|4.9
+|7.0
+|2.5
+|16.9
+|6.8
+| style="background:#FEF4AE;"|'''28.5'''
+|2.2 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.5 [[Alternative for Sweden|AfS]]: 0.4 [[Citizens' Coalition|MED]]: 0.2 [[Pirate Party (Sweden)|PP]]: 0.3}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|6.0
+|-
+|Novus<ref>{{Cite web|url=https://www.svt.se/nyheter/inrikes/svt-novus-sd-nast-storsta-parti-i-opinionen|title=SVT/Novus: SD näst största parti i opinionen|website=SVT|language=sv|access-date=2019-11-24}}</ref>
+|21 Oct–17 Nov 2019
+|3,619
+|9.3
+| style="background:#F9BDC5;"|'''26.0'''
+|4.8
+|7.8
+|3.4
+|18.3
+|7.1
+|21.5
+|1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|4.5
+|-
+|-
+|Sifo<ref>{{Cite web|url=https://www.aftonbladet.se/a/EWXV6A|title=Socialdemokraterna och SD kan vara jämnstora|website=Aftonbladet|language=sv|access-date=2019-11-20}}</ref>
+|4–14 Nov 2019
+|8,175
+|9.7
+| style="background:#F9BDC5;"|'''24.4'''
+|4.7
+|8.3
+|3.5
+|17.0
+|7.8
+|23.0
+|1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|1.4
+|-
+|Demoskop<ref>[https://www.aftonbladet.se/nyheter/samhalle/a/e8Rp6g/historisk-matning-nu-ar-sd-storst-i-sverige Historisk mätning: Nu är SD störst i Sverige]</ref>
+|4–13 Nov 2019
+|2,048
+|9.8
+|22.2
+|4.8
+|7.7
+|3.9
+|17.8
+|7.6
+| style="background:#FEF4AE;"|'''24.0'''
+|2.2
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|1.8
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/sentio-sd-storst-for-tredje-manaden-i-rad-dystra-siffror-for-m|title=Sentio: SD störst för tredje månaden i rad – dystra siffror för M|last=Zackrisson|first=Pelle|date=2019-10-25|website=Nyheter Idag {{!}} By Pelle Zackrisson|language=sv-SE|access-date=2019-10-25}}</ref>
+|18–24 Oct 2019
+|–
+|9.6
+|24.2
+|4.2
+|6.4
+|4.7
+|16.8
+|6.4
+| style="background:#FEF4AE;"|'''25.4'''
+|1.8 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.4 [[Alternative for Sweden|AfS]]: 0.7 [[Citizens' Coalition|MED]]: 0.3 [[Pirate Party (Sweden)|PP]]: 0.3}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|1.2
+|-
+|Ipsos<ref>{{Cite web|url=https://www.ipsos.com/sv-se/dnipsos-kraftig-uppgang-sverigedemokraterna|title=DN/Ipsos: Kraftig uppgång för Sverigedemokraterna|website=Ipsos|language=sv-se|access-date=2019-10-25}}</ref>
+|8–21 Oct 2019
+|1,569
+|10
+| style="background:#F9BDC5;"|'''24'''
+|5
+|8
+|4
+|16
+|8
+|23
+|2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|1
+|-
+|Novus<ref>{{Cite news|url=https://www.svt.se/nyheter/inrikes/novus-avvaktande-valjarkar|title=Liberalernas kris fortsätter|last=Andersson|first=Ki|date=2019-10-24|access-date=2019-10-25|language=sv}}</ref>
+|23 Sep–20 Oct 2019
+|3,745
+|8.4
+| style="background:#F9BDC5;"|'''25.8'''
+|5.0
+|8.5
+|3.7
+|19.5
+|7.0
+|20.5
+|1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|5.3
+|-
+|Sifo<ref>{{Cite news|url=https://www.svd.se/sds-basta-siffra-i-svd-sifo--ingen-saker-skillnad-mot-s|title=SD:s bästa siffra i SvD/Sifo – ingen säker skillnad mot S|last=Thurfjell|first=Karin|date=2019-10-18|work=Svenska Dagbladet|access-date=2019-10-20|language=sv|issn=1101-2412}}</ref>
+|7–17 Oct 2019
+|7,792
+|9.2
+| style="background:#F9BDC5;"|'''24.9'''
+|5.0
+|8.4
+|3.9
+|17.7
+|6.7
+|22.7
+|1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|2.2
+|-
+|Inizio<ref>{{Cite web|url=https://www.aftonbladet.se/a/dOz0yX|title=M har förlorat andraplatsen – SD rekordstora|website=Aftonbladet|language=sv|access-date=2019-10-17}}</ref>
+|8–14 Oct 2019
+|2,132
+|8.0
+| style="background:#F9BDC5;"|'''24.7'''
+|4.2
+|10.1
+|3.2
+|19.3
+|6.5
+|22.6
+|1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|2.1
+|-
+|Demoskop<ref>{{Cite web|url=https://www.expressen.se/nyheter/historisk-matning-s-och-sd-jamnstora-for-forsta-gangen/|title=Historisk mätning: S och SD jämnstora för första gången|website=www.expressen.se|language=sv|access-date=2019-10-04}}</ref>
+|24 Sep–1 Oct 2019
+|1,617
+|8.6
+| style="background:#F9BDC5;"|'''23.1'''
+|5.0
+|8.3
+|3.9
+|19.5
+|6.6
+|22.9
+|2.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|0.2
+|-
+|Inizio<ref>{{Cite web|url=https://www.aftonbladet.se/a/e8mweR|title=Rekordhögt stöd för SD – på väg att bli största parti|website=Aftonbladet|language=sv|access-date=2019-09-26}}</ref>
+|20–25 Sep 2019
+|2,097
+|8.5
+| style="background:#F9BDC5;"|'''23.9'''
+|4.2
+|9.9
+|3.5
+|19.0
+|6.0
+|22.4
+|2.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|1.5
+|-
+|Sentio<ref>{{Cite web|url=https://senorh.se/uncategorized/sd-okar-kraftigt-storsta-parti-i-sentio-september/|title=SD ökar kraftigt – största parti i Sentio september|last=H|first=Señor|date=2019-09-26|website=Señor H|language=sv-SE|access-date=2019-09-27|archive-url=https://web.archive.org/web/20190926212753/https://senorh.se/uncategorized/sd-okar-kraftigt-storsta-parti-i-sentio-september/|archive-date=2019-09-26|url-status=dead}}</ref>
+|20–24 Sep 2019
+|1,008
+|9.4
+|23.9
+|3.9
+|6.1
+|3.9
+|17.1
+|6.0
+| style="background:#FEF4AE;"|'''27.5'''
+|2.3 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.5 [[Alternative for Sweden|AfS]]: 0.6 [[Citizens' Coalition|MED]]: 0.2 [[Pirate Party (Sweden)|PP]]: 0.1}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|3.6
+|-
+|Ipsos<ref name=":0" />
+|10–23 Sep 2019
+|1,537
+|9
+| style="background:#F9BDC5;" |'''26'''
+|5
+|9
+|5
+|19
+|7
+|19
+|1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;" |7
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/novus-svt-september-2019-sd-okar-signifikant/|title=Novus/SVT september 2019: SD ökar signifikant - Novus|website=Novus - kunskap och insiktsföretag|language=sv-SE|access-date=2019-09-26}}</ref>
+|26 Aug–22 Sep 2019
+|3,716
+|9.2
+| style="background:#F9BDC5;"|'''24.7'''
+|5.0
+|8.0
+|3.6
+|20.4
+|6.8
+|20.7
+|1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|4
+|-
+|Sifo<ref>{{Cite web|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometer-september-2019|title=Väljarbarometer september 2019|date=2019-09-13|website=Kantar Sifo|language=sv|access-date=2019-09-14}}</ref>
+|2–12 Sep 2019
+|8,949
+|8.5
+| style="background:#F9BDC5;"|'''25.8'''
+|5.1
+|8.6
+|4.2
+|18.9
+|7.3
+|20.2
+|1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|5.6
+|-
+|Demoskop<ref>{{Cite web|url=https://www.electograph.com/2019/09/sweden-demoskop-poll-190906.html|title=SWEDEN · Demoskop poll: V 8.8% (31), S 24.0% (86), MP 4.9% (18), C 8.4% (30), L 4.6% (16), M 19.4% (69), KD 6.5% (23), SD 21.4% (76)|website=Electograph {{!}} Donde viven las encuestas {{!}} Where polls live|access-date=2019-09-07}}</ref>
+|27 Aug–3 Sep 2019
+|1,611
+|8.8
+| style="background:#F9BDC5;"|'''24.0'''
+|4.9
+|8.4
+|4.6
+|19.4
+|6.5
+|21.4
+|1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|2.6
+|-
+|Inizio<ref>{{Cite web|url=https://www.aftonbladet.se/a/dOp8kA|title=Lyft för SD – efter skjutningar|website=Aftonbladet|language=sv|access-date=2019-08-30}}</ref>
+|22–28 Aug 2019
+|2,015
+|7.9
+| style="background:#F9BDC5;"|'''25.5'''
+|4.2
+|9.4
+|4.2
+|18.3
+|7.7
+|21.0
+|1.9
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|4.5
+|-
+|Sentio<ref>{{Cite web|url=https://nyheteridag.se/plus/sd-gar-om-s-har-ar-alla-overraskningar-i-sentios-augustimatning|title=SD går om S – här är alla överraskningar i Sentios augustimätning|last=Frick|first=Chang|date=2019-08-29|website=Nyheter Idag {{!}} By Chang Frick|language=sv-SE|access-date=2019-08-29}}</ref>
+|22–27 Aug 2019
+|793
+|10.5
+|23.2
+|4.7
+|6.1
+|5.4
+|18.3
+|5.8
+| style="background:#FEF4AE;"|'''23.5'''
+|2.0 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.6 [[Alternative for Sweden|AfS]]: 1.1 [[Citizens' Coalition|MED]]: 0.2 [[Pirate Party (Sweden)|PP]]: 0.1}}
+| style="background:{{Sweden Democrats/meta/color}};color:black;"|0.3
+|-
+|Ipsos<ref>{{Cite web|url=https://www.ipsos.com/sites/default/files/ct/news/documents/2019-08/vb_rapport_aug_2019.pdf|title=DN/IPSOS VÄLJARBAROMETER 26 augusti 2019}}</ref>
+|13–25 Aug 2019
+|1,515
+|10
+| style="background:#F9BDC5;"|'''26'''
+|6
+|8
+|5
+|17
+|7
+|19
+|2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|7
+|-
+|Novus<ref>{{Cite web|url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/novus-svt-augusti-2019-sd-vinner-tillbaka-valjare/|title=Novus/SVT augusti 2019: SD vinner tillbaka väljare - Novus|website=Novus - kunskap och insiktsföretag|language=sv-SE|access-date=2019-08-31}}</ref>
+|5–25 Aug 2019
+|5,115
+|9.0
+| style="background:#F9BDC5;"|'''26.3'''
+|5.6
+|9.4
+|3.7
+|18.5
+|7.2
+|18.4
+|1.9
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|7.8
+|-
+|Sifo<ref>{{Cite web|url=https://omni.se/t/sifo/739c1b8e12cfc28c1b6ad8531c0536ab26915804|title=Sifo|website=Omni|language=sv|access-date=2019-08-24}}</ref>
+|6–15 Aug 2019
+|6,316
+|8.7
+| style="background:#F9BDC5;"| '''26.8'''
+|4.9
+|8.8
+|3.8
+|19.1
+|8.4
+|18.2
+|1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|7.7
+|-
+|Inizio<ref>{{Cite web|url=https://samtiden.nu/2019/08/inizio-mp-rasar-vilket-ger-konservativ-majoritet/|title=Inizio: MP rasar vilket ger konservativ majoritet|last=Redaktion|date=2019-08-12|website=Samtiden|language=sv-SE|access-date=2019-08-12}}</ref>
+|1–8 Aug 2019
+|2,076
+|8.5
+| style="background:#F9BDC5;"|'''25.6'''
+|3.6
+|10.3
+|3.6
+|19.6
+|7.3
+|19.7
+|1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"|5.9
+|-
+|SKOP<ref>{{Cite web|url=https://skop.se/main/wp-content/uploads/2019/07/SKOPs-Valjarbarometer-19-juli-2019.pdf|title=SKOP:s väljarbarometer}}</ref>
+|25 Jun–16 Jul 2019
+|1,048
+|8.9
+| style="background:#F9BDC5;"|'''25.6'''
+|4.7
+|9.5
+|5.7
+|17.0
+|9.2
+|18.0
+|1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.6
+|-
+| Demoskop<ref>{{cite web |title=Liberalerna över spärren med Sabuni: "Symboliskt"|url=https://www.expressen.se/nyheter/almedalen/liberalerna-over-sparren-med-sabuni-symboliskt/ |language=Swedish |work=Expressen |date=3 July 2019}}</ref>
+| data-sort-value="2019-07-01"| 24 Jun–1 Jul 2019
+| 1,608
+| 7.9
+| style="background:#F9BDC5;"| '''25.9'''
+| 5.3
+| 9.3
+| 4.1
+| 17.6
+| 8.0
+| 19.6
+| 2.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 6.3
+|-
+| Inizio<ref>{{cite web |title=KD fortsätter tappa – Juni månads väljarbarometer |url=https://inizio.se/valjarbarometer/kd-fortsatter-tappa-juni-manads-valjarbarometer/ |language=Swedish |work=Inizio |date=27 June 2019}}</ref>
+| data-sort-value="2019-06-24"| 17–24 Jun 2019
+| 2,076
+| 8.3
+| style="background:#F9BDC5;"| '''25.4'''
+| 5.0
+| 9.4
+| 3.6
+| 19.7
+| 7.0
+| 19.4
+| 2.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 5.7
+|-
+| Novus<ref>{{cite web |title=Novus/SVT 27 juni: KD tappar väljarstöd |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/novus-svt-27-juni-kd-tappar-valjarstod/ |language=Swedish |work=Novus |date=27 June 2019}}</ref>
+| data-sort-value="2019-06-23"| 3–23 Jun 2019
+| 2,746
+| 9.0
+| style="background:#F9BDC5;"| '''26.7'''
+| 5.9
+| 10.1
+| 3.6
+| 18.8
+| 7.7
+| 16.7
+| 1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.9
+|-
+| Ipsos<ref name=":0">{{cite web|url=https://www.dn.se/nyheter/politik/dnipsos-m-far-hogsta-stodet-pa-ett-ar/|title=DN/Ipsos: M får högsta stödet på ett år|last=|first=|date=24 September 2019|work=Dagens Nyheter|language=Swedish|url-status=live|archive-url=|archive-date=|access-date=}}</ref>
+| data-sort-value="2019-06-18"| 4–18 Jun 2019
+| 1,630
+| 10
+| style="background:#F9BDC5;"| '''25'''
+| 5
+| 9
+| 5
+| 17
+| 8
+| 19
+| 2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 6
+|-
+| Sentio<ref>{{cite web |title=Statistiskt säkerställd väljarflykt från KD i Sentios junimätning |url=https://nyheteridag.se/plus/statistiskt-sakerstalld-valjarflykt-fran-kd-i-sentios-junimatning/ |language=Swedish |work=Nyheter Idag |date=20 June 2019}}</ref>
+| data-sort-value="2019-06-13"| 3–13 Jun 2019
+|–
+| 8.8
+| style="background:#F9BDC5;"| '''25.7'''
+| 4.8
+| 7.4
+| 3.7
+| 17.0
+| 7.9
+| 21.8
+|2.9 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.5 [[Alternative for Sweden|AfS]]: 0.7 [[Citizens' Coalition|MED]]: 0.4 [[Pirate Party (Sweden)|PP]]: 0.4}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 3.9
+|-
+| Sifo<ref>{{cite web |title=valjarbrometer_juni_2019 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/valjarbrometer_juni_2019.pdf |language=Swedish |work=Kantar Sifo |date=14 June 2019}}</ref>
+| data-sort-value="2019-06-13"| 3–13 Jun 2019
+| 9,261
+| 8.6
+| style="background:#F9BDC5;"| '''26.5'''
+| 4.9
+| 8.8
+| 3.7
+| 18.4
+| 9.5
+| 18.1
+| 1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.1
+|-
+| Demoskop<ref>{{cite web |title=Busch Thors ras – 260 000 sviker KD |url=https://www.expressen.se/nyheter/kd-backar-stort-efter-abortdebatten/ |language=Swedish |work=Expressen |date=6 June 2019}}</ref>
+| data-sort-value="2019-06-03"| 27 May–3 Jun 2019
+| 1,614
+| 8.0
+| style="background:#F9BDC5;"| '''27.1'''
+| 5.1
+| 8.9
+| 3.8
+| 18.2
+| 7.5
+| 19.9
+| 1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.2
+|-
+| Novus<ref>{{cite web |title=Novus/SVT juni: Begynnande problem för Kristdemokraterna? |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/novus-svt-juni-begynnande-problem-for-kristdemokraterna/ |language=Swedish |work=Novus |date=6 June 2019}}</ref>
+| data-sort-value="2019-06-02"| 6 May–2 Jun 2019
+| 3,644
+| 9.0
+| style="background:#F9BDC5;"| '''25.9'''
+| 5.5
+| 8.7
+| 4.1
+| 17.7
+| 10.0
+| 17.6
+| 1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.2
+|-
+| Inizio<ref>{{cite web |title=Moderaterna är fortfarande mindre än Sverigedemokraterna |url=https://www.aftonbladet.se/nyheter/kolumnister/a/Opzvaq/moderaterna-ar-fortfarande-mindre-an-sverigedemokraterna |language=Swedish |work=Aftonbladet |date=31 May 2019}}</ref>
+| data-sort-value="2019-05-28"| 21–28 May 2019
+| 2,147
+| 8.3
+| style="background:#F9BDC5;"| '''26.1'''
+| 4.4
+| 10.1
+| 3.0
+| 18.2
+| 9.0
+| 18.4
+| 2.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.7
+|-
+| SCB<ref>{{cite web |title=KD:s rusning – L under spärren i SCB:s partisympatiundersökning |url=https://www.expressen.se/nyheter/nu-far-partiledarna-valjarnas-dom/ |language=Swedish |work=Expressen |date=4 June 2019}}</ref>
+| data-sort-value="2019-05-28"| 29 Apr–28 May 2019
+| 4,506
+| 8.7
+| style="background:#F9BDC5;"| '''27.6'''
+| 5.6
+| 6.9
+| 3.7
+| 16.0
+| 13.0
+| 17.1
+| 1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.5
+|-
+|- style="background:#E9E9E9;"
+| [[2019 European Parliament election in Sweden|2019 EP election]]
+| data-sort-value="2019-05-26"| 26 May 2019
+| –
+| 6.8
+| style="background:#F9BDC5;"| '''23.5'''
+| 11.5
+| 10.8
+| 4.1
+| 16.8
+| 8.6
+| 15.3
+| 2.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 6.7
+|-
+| SKOP<ref>{{cite web |title=SKOP:s väljarbarometer, 7 juni 2019 |url=https://skop.se/main/wp-content/uploads/2019/06/SKOPs-Valjarbarometer-7-juni-2019.pdf |language=Swedish |work=SKOP |date=7 June 2019}}</ref>
+| data-sort-value="2019-05-24"| 19–24 May 2019
+| 1,938
+| 10.5
+| style="background:#F9BDC5;"| '''25.3'''
+| 3.7
+| 9.6
+| 4.0
+| 16.4
+| 12.8
+| 16.9
+| 0.9
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| Sentio<ref>{{cite web |title=Sentio: Botten ur för M |url=https://nyheteridag.se/plus/sentio-botten-ur-for-m/ |language=Swedish |work=Nyheter Idag |date=24 May 2019}}</ref>
+| data-sort-value="2019-05-24"| 17–21 May 2019
+| 1,007
+| 10.1
+| style="background:#F9BDC5;"| '''25.0'''
+| 4.7
+| 6.8
+| 3.3
+| 15.5
+| 10.4
+| 21.2
+| 3.1 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.7 [[Alternative for Sweden|AfS]]: 0.6 [[Citizens' Coalition|MED]]: 0.9 [[Pirate Party (Sweden)|PP]]: 0.3}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 3.8
+|-
+| Ipsos<ref>{{cite web |title=KD befäster stark position i opinionen |url=https://www.dn.se/nyheter/politik/kd-befaster-stark-position-i-opinionen/ |language=Swedish |work=Dagens Nyheter |date=21 May 2019}}</ref>
+| data-sort-value="2019-05-21"| 6–21 May 2019
+| 2,144
+| 10
+| style="background:#F9BDC5;"| '''26'''
+| 4
+| 9
+| 4
+| 16
+| 12
+| 17
+| 2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9
+|-
+| Sifo<ref>{{cite web |title=Mall Väljarbarometer Rapport 20190517 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/valjarbarometer_maj_2019.pdf |language=Swedish |work=Kantar Sifo |date=17 May 2019}}</ref>
+| data-sort-value="2019-05-16"| 6–16 May 2019
+| 9,626
+| 8.9
+| style="background:#F9BDC5;"| '''27.0'''
+| 4.5
+| 8.2
+| 3.8
+| 15.9
+| 12.0
+| 18.1
+| 1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.9
+|-
+| Demoskop<ref>{{cite web |title=Lägre stöd för M än när Kinberg Batra tvingades gå |url=https://www.expressen.se/nyheter/lagre-stod-for-m-an-nar-kinberg-batra-tvingades-ga/ |language=Swedish |work=Expressen |date=10 May 2019}}</ref>
+| data-sort-value="2019-05-07"| 29 Apr–7 May 2019
+| 1,618
+| 8.7
+| style="background:#F9BDC5;"| '''26.6'''
+| 4.3
+| 9.1
+| 3.1
+| 15.7
+| 11.5
+| 19.2
+| 1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.4
+|-
+| Novus<ref>{{cite web |title=Novus/SVT maj: MP ökar signifikant |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/novus-svt-maj-mp-okar-signifikant/ |language=Swedish |work=Novus |date=10 May 2019}}</ref>
+| data-sort-value="2019-05-05"| 8 Apr–5 May 2019
+| 3,404
+| 8.8
+| style="background:#F9BDC5;"| '''26.4'''
+| 4.6
+| 8.8
+| 3.5
+| 18.0
+| 10.7
+| 17.8
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| Inizio<ref>{{cite web |title=Ny bottensiffra för Ulf Kristersson |url=https://www.aftonbladet.se/nyheter/samhalle/a/zGloVK/ny-bottensiffra-for-ulf-kristersson |language=Swedish |work=Aftonbladet |date=30 April 2019}}</ref>
+| data-sort-value="2019-04-29"| 22–29 Apr 2019
+| 2,111
+| 9.5
+| style="background:#F9BDC5;"| '''25.6'''
+| 3.9
+| 9.3
+| 4.2
+| 15.7
+| 11.4
+| 18.6
+| 1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.0
+|-
+| Ipsos<ref>{{cite web |title=DN/Ipsos: Minsta avståndet någonsin mellan M och KD |url=https://www.dn.se/nyheter/politik/dnipsos-minsta-avstandet-nagonsin-mellan-m-och-kd/ |language=Swedish |work=Dagens Nyheter |date=24 April 2019}}</ref>
+| data-sort-value="2019-04-22"| 9–22 Apr 2019
+| 1,486
+| 10
+| style="background:#F9BDC5;"| '''27'''
+| 4
+| 8
+| 4
+| 16
+| 12
+| 17
+| 2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10
+|-
+| Sifo<ref>{{cite web |title=valjarbarometer_april_2019 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/valjarbarometer_april_2019.pdf |language=Swedish |work=Kantar Sifo |date=12 April 2019}}</ref>
+| data-sort-value="2019-04-11"| 1–11 Apr 2019
+| 8,278
+| 8.7
+| style="background:#F9BDC5;"| '''27.3'''
+| 4.6
+| 7.5
+| 3.4
+| 16.0
+| 12.2
+| 18.9
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| Sentio<ref>{{cite web |title=Sentio april: Blytung majoritet för ett konservativt block |url=https://nyheteridag.se/plus/sentio-april-blytung-majoritet-for-ett-konservativt-block/ |language=Swedish |work=Nyheter Idag |date=13 April 2019}}</ref>
+| data-sort-value="2019-04-10"| 4–10 Apr 2019
+| 789
+| 9.3
+| style="background:#F9BDC5;"| '''25.6'''
+| 4.3
+| 6.4
+| 3.8
+| 17.5
+| 10.7
+| 20.1
+| 2.3 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.4 [[Alternative for Sweden|AfS]]: 0.5 [[Citizens' Coalition|MED]]: 0.6 [[Pirate Party (Sweden)|PP]]: 0.4}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 5.5
+|-
+| Demoskop<ref>{{cite web |title=Efter SD-öppnandet: KD stora vinnaren i opinionen |url=https://www.expressen.se/nyheter/efter-sd-oppnandet-kd-stora-vinnaren-i-opinionen/ |language=Swedish |work=Expressen |date=5 April 2019}}</ref>
+| data-sort-value="2019-04-03"| 26 Mar–3 Apr 2019
+| 1,616
+| 9.6
+| style="background:#F9BDC5;"| '''25.4'''
+| 4.5
+| 8.2
+| 3.9
+| 16.6
+| 11.7
+| 18.0
+| 2.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.4
+|-
+| Novus<ref>{{cite web |title=Novus/SVT April: KD ökar signifikant |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/novus-svt-april-kd-okar-signifikant/ |language=Swedish |work=Novus |date=3 April 2019}}</ref>
+| data-sort-value="2019-03-31"| 4–31 Mar 2019
+| 3,668
+| 9.7
+| style="background:#F9BDC5;"| '''27.2'''
+| 3.5
+| 8.2
+| 3.7
+| 17.5
+| 10.6
+| 18.1
+| 1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.1
+|-
+| Inizio<ref>{{cite web |title=KD ny toppnotering – Väljarbarometer mars 2019 |url=https://inizio.se/valjarbarometer/kd-ny-toppnotering-valjarbarometer-mars-2019/ |language=Swedish |work=Inizio |date=20 February 2019}}</ref>
+| data-sort-value="2019-03-28"| 23–28 Mar 2019
+| 2,980
+| 8.6
+| style="background:#F9BDC5;"| '''26.5'''
+| 4.2
+| 9.1
+| 3.3
+| 16.5
+| 12.1
+| 18.2
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.3
+|-
+| Sentio<ref>{{cite web |title=Högsta stödet någonsin för KD i Sentios marsmätning |url=https://nyheteridag.se/hogsta-stodet-nagonsin-for-kd-i-sentios-marsmatning/ |language=Swedish |work=Nyheter Idag |date=27 March 2019}}</ref>
+| data-sort-value="2019-03-27"| 22–27 Mar 2019
+| 1,002
+| 10.2
+| style="background:#F9BDC5;"| '''24.7'''
+| 3.9
+| 6.1
+| 3.1
+| 17.4
+| 12.7
+| 19.2
+| 2.5 {{efn|[[Feminist Initiative (Sweden)|FI]]: ? [[Alternative for Sweden|AfS]]: ? [[Citizens' Coalition|MED]]: ? [[Pirate Party (Sweden)|PP]]: ?}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 5.5
+|-
+| SKOP<ref>{{cite web |title=SKOP:s Väljarbarometer den 29 mars 2019 |url=https://skop.se/main/wp-content/uploads/2019/03/SKOPs-Valjarbarometer-29-mars-2019.pdf |language=Swedish |work=SKOP |date=29 March 2019}}</ref>
+| data-sort-value="2019-03-27"| 7–27 Mar 2019
+| 1,510
+| 8.8
+| style="background:#F9BDC5;"| '''28.7'''
+| 3.1
+| 9.5
+| 4.2
+| 18.0
+| 10.1
+| 16.5
+| 1.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.7
+|-
+| Ipsos<ref>{{cite web |title=S fortsätter tappa efter januariavtalet |url=https://www.dn.se/nyheter/politik/s-fortsatter-tappa-efter-januariavtalet/ |language=Swedish |work=Dagens Nyheter |date=26 March 2019}}</ref>
+| data-sort-value="2019-03-25"| 12–25 Mar 2019
+| 1,529
+| 10
+| style="background:#F9BDC5;"| '''27'''
+| 4
+| 8
+| 4
+| 18
+| 9
+| 19
+| 1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8
+|-
+| Sifo<ref>{{cite web |title=valjarbarometer_15_mars_2019 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/valjarbarometer_15_mars_2019.pdf |language=Swedish |work=Kantar Sifo |date=15 March 2019}}</ref>
+| data-sort-value="2019-03-14"| 3–14 Mar 2019
+| 9,059
+| 9.8
+| style="background:#F9BDC5;"| '''27.4'''
+| 3.8
+| 8.3
+| 3.3
+| 17.5
+| 9.4
+| 19.1
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.3
+|-
+| Demoskop<ref>{{cite web |title=Ebba Busch Thors revansch – KD blir fjärde största parti |url=https://www.expressen.se/nyheter/ebba-busch-thors-revansch-kd-blir-fjarde-storsta-parti/ |language=Swedish |work=Expressen |date=10 March 2019}}</ref>
+| data-sort-value="2019-03-05"| 26 Feb–5 Mar 2019
+| 1,611
+| 9.3
+| style="background:#F9BDC5;"| '''25.8'''
+| 4.1
+| 7.5
+| 3.0
+| 18.4
+| 10.6
+| 19.4
+| 1.9
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 6.4
+|-
+| Novus<ref>{{cite web |title=Novus/SVT mars: Kristdemokraterna nu större än Centerpartiet |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/novus-svt-mars-kristdemokraterna-nu-storre-an-centerpartiet/ |language=Swedish |work=Novus |date=6 March 2019}}</ref>
+| data-sort-value="2019-03-03"| 4 Feb–3 Mar 2019
+| 3,707
+| 9.1
+| style="background:#F9BDC5;"| '''28.2'''
+| 4.0
+| 7.3
+| 3.5
+| 18.3
+| 8.6
+| 19.3
+| 1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.9
+|-
+| Sentio<ref>{{cite web |title=Sentio februari: L, C och MP rasar när KD tokrusar mot rekordsiffror |url=https://nyheteridag.se/plus/sentio-februari-l-c-och-mp-rasar-nar-kd-tokrusar-mot-rekordsiffror/ |language=Swedish |work=Nyheter Idag |date=27 February 2019}}</ref>
+| data-sort-value="2019-02-25"| 22–25 Feb 2019
+| 1,000
+| 10.5
+| style="background:#F9BDC5;"| '''26.5'''
+| 3.4
+| 5.5
+| 2.6
+| 18.3
+| 9.4
+| 21.4
+| 2.4 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.4 [[Alternative for Sweden|AfS]]: 0.2 [[Citizens' Coalition|MED]]: 0.6 [[Pirate Party (Sweden)|PP]]: 0.4}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 5.1
+|-
+| Ipsos<ref>{{cite web |title=DN/Ipsos: Största stödet för Kristdemokraterna på över 16 år |url=https://www.dn.se/nyheter/politik/dnipsos-storsta-stodet-for-kd-pa-over-16-ar/ |language=Swedish |work=Dagens Nyheter |date=21 February 2019}}</ref>
+| data-sort-value="2019-02-20"| 7–20 Feb 2019
+| 1,504
+| 10
+| style="background:#F9BDC5;"| '''28'''
+| 4
+| 8
+| 4
+| 17
+| 9
+| 19
+| 1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9
+|-
+| Inizio<ref>{{cite web |title=Väljarbarometer februari |url=https://inizio.se/valjarbarometer/valjarbarometer-februari/ |language=Swedish |work=Inizio |date=20 February 2019}}</ref>
+| data-sort-value="2019-02-18"| 11–18 Feb 2019
+| 2,137
+| 9.2
+| style="background:#F9BDC5;"| '''27.1'''
+| 3.4
+| 9.7
+| 2.7
+| 17.7
+| 9.0
+| 19.5
+| 1.9
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.6
+|-
+| Sifo<ref>{{cite web |title=Väljarbarometer Rapport 20190215 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/valjarbarometer_15_feb_2019.pdf |language=Swedish |work=Kantar Sifo |date=15 February 2019}}</ref>
+| data-sort-value="2019-02-14"| 4–14 Feb 2019
+| 8,186
+| 9.6
+| style="background:#F9BDC5;"| '''28.4'''
+| 4.3
+| 7.7
+| 3.8
+| 17.2
+| 8.6
+| 19.2
+| 1.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.2
+|-
+| Demoskop<ref>{{cite web |title=Kristerssons revansch – smällen mot Löfvens pakt |url=https://www.expressen.se/nyheter/val-2018/kristerssons-revansch-smallen-mot-lofvens-pakt-/ |language=Swedish |work=Expressen |date=8 February 2019}}</ref>
+| data-sort-value="2019-02-05"| 29 Jan–5 Feb 2019
+| 1,604
+| 9.6
+| style="background:#F9BDC5;"| '''27.9'''
+| 3.2
+| 8.5
+| 3.3
+| 19.5
+| 7.0
+| 19.4
+| 1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| Novus<ref>{{cite web |title=Novus/SVT februari: S tappar signifikant och L statistiskt säkerställt under 4 % |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2019-2/ |language=Swedish |work=Novus |date=7 February 2019}}</ref>
+| data-sort-value="2019-02-03"| 14 Jan–3 Feb 2019
+| 3,045
+| 9.1
+| style="background:#F9BDC5;"| '''29.0'''
+| 3.4
+| 7.5
+| 2.7
+| 18.3
+| 7.4
+| 21.2
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.8
+|-
+| Sentio<ref>{{cite web |title=Sentio januari: KD går om C i svensk väljaropinion |url=https://nyheteridag.se/plus/sentio-januari-kd-gar-om-c-i-svensk-valjaropinion/ |language=Swedish |work=Nyheter Idag |date=2 February 2019}}</ref>
+| data-sort-value="2019-01-30"| 24–30 Jan 2019
+| 1,001
+| 9.5
+| style="background:#F9BDC5;"| '''27.8'''
+| 4.0
+| 7.1
+| 3.9
+| 17.7
+| 7.3
+| 20.4
+| 2.3 {{efn|[[Feminist Initiative (Sweden)|FI]]: 0.5 [[Alternative for Sweden|AfS]]: 0.9 [[Citizens' Coalition|MED]]: 0.3 [[Pirate Party (Sweden)|PP]]: 0.4}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 6.1
+|-
+| Inizio<ref>{{cite web |title=Väljarbarometer januari 2019 |url=https://inizio.se/valjarbarometer/valjarbarometer-januari-2019/ |language=Swedish |work=Inizio |date=25 January 2019}}</ref>
+| data-sort-value="2019-01-23"| 16–23 Jan 2019
+| 2,089
+| 9.7
+| style="background:#F9BDC5;"| '''28.2'''
+| 3.8
+| 8.3
+| 3.2
+| 19.0
+| 8.3
+| 18.4
+| 1.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.2
+|-
+| Ipsos<ref>{{cite web |title=Ipsos: De är vinnare efter stökiga maktkampen |url=https://www.dn.se/nyheter/politik/ipsos-de-ar-vinnare-efter-stokiga-maktkampen/ |language=Swedish |work=Dagens Nyheter |date=22 January 2019}}</ref>
+| data-sort-value="2019-01-20"| 10–20 Jan 2019
+| 1,589
+| 8
+| style="background:#F9BDC5;"| '''30'''
+| 4
+| 8
+| 5
+| 18
+| 7
+| 18
+| 2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 12
+|-
+| Sifo<ref>{{cite web |title=kantarsifo_vb_januari_2019 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/kantarsifo_vb_januari_2019.pdf |language=Swedish |work=Kantar Sifo |date=18 January 2019}}</ref>
+| data-sort-value="2019-01-17"| 14–17 Jan 2019
+| 4,317
+| 8.5
+| style="background:#F9BDC5;"| '''29.3'''
+| 3.9
+| 6.9
+| 3.6
+| 19.5
+| 7.5
+| 19.9
+| 1.0
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.4
+|-
+| SKOP<ref>{{cite web |title=SKOPs Väljarbarometer, 00 januair 2019 |url=https://skop.se/main/wp-content/uploads/2019/01/SKOPs-Valjarbarometer-24-januari-2019.pdf |language=Swedish |work=SKOP |date=24 January 2019}}</ref>
+| data-sort-value="2019-01-17"| 3–17 Jan 2019
+| 1,116
+| 8.9
+| style="background:#F9BDC5;"| '''30.2'''
+| 3.1
+| 8.3
+| 4.0
+| 18.1
+| 9.5
+| 16.9
+| 1.0
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 12.1
+|-
+| Novus<ref>{{cite web |title=SVT/Novus: S och SD har ökat sedan valet |url=https://www.svt.se/nyheter/inrikes/svt-novus-s-och-sd-har-okat-sedan-valet |language=Swedish |work=SVT |date=17 January 2019}}</ref>
+| data-sort-value="2019-01-13"| 2–13 Jan 2019
+| 2,342
+| 7.6
+| style="background:#F9BDC5;"| '''31.8'''
+| 3.9
+| 7.6
+| 3.4
+| 18.9
+| 6.2
+| 19.2
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 12.6
+|-
+| Demoskop<ref>{{cite web |title=Lööfs kalldusch – när Busch Thor rusar förbi |url=https://www.expressen.se/nyheter/val-2018/loofs-kalldusch-nar-busch-thor-rusar-forbi/ |language=Swedish |work=Expressen |date=10 January 2019}}</ref>
+| data-sort-value="2019-01-08"| 2–8 Jan 2019
+| 1,614
+| 8.0
+| style="background:#F9BDC5;"| '''30.2'''
+| 3.8
+| 6.9
+| 4.5
+| 17.1
+| 7.7
+| 19.5
+| 2.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.7
+|-
+| Inizio<ref>{{cite web |title=Väljarnas dom: KD går framåt – motigt för C |url=https://www.aftonbladet.se/nyheter/samhalle/a/0E62EB/valjarnas-dom-kd-gar-framat--motigt-for-c |language=Swedish |work=Aftonbladet |date=27 December 2018}}</ref>
+| data-sort-value="2018-12-26"| 19–26 Dec 2018
+| 2,300
+| 7.7
+| style="background:#F9BDC5;"| '''29.8'''
+| 4.2
+| 8.4
+| 3.2
+| 18.3
+| 8.2
+| 18.8
+| 1.5
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 11.0
+|-
+| Ipsos<ref>{{cite web |title=DN/Ipsos: Stort tapp för Centerpartiet |url=https://www.dn.se/nyheter/politik/dnipsos-stort-tapp-for-centerpartiet/ |language=Swedish |work=Dagens Nyheter |date=18 December 2018}}</ref>
+| data-sort-value="2018-12-16"| 5–16 Dec 2018
+| 1,537
+| 8
+| style="background:#F9BDC5;"| '''32'''
+| 4
+| 7
+| 4
+| 18
+| 8
+| 18
+| 1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 14
+|-
+| Novus<ref>{{cite web |title=Novus/SVT december: S högsta nivå på 12 månader |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2018-2/novus-svt-december-s-hogsta-niva-pa-12-manader/ |language=Swedish |work=Novus |date=20 December 2018}}</ref>
+| data-sort-value="2018-12-16"| 12 Nov–16 Dec 2018
+| 5,414
+| 7.7
+| style="background:#F9BDC5;"| '''30.0'''
+| 4.0
+| 8.6
+| 3.9
+| 18.3
+| 6.5
+| 19.8
+| 1.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.2
+|-
+| Sifo<ref>{{cite web |title=valjarbarometer_14_dec_2018 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/valjarbarometer_14_dec_2018.pdf |language=Swedish |work=Kantar Sifo |date=14 December 2018}}</ref>
+| data-sort-value="2018-12-13"| 3–13 Dec 2018
+| 8,658
+| 7.7
+| style="background:#F9BDC5;"| '''29.7'''
+| 4.2
+| 7.7
+| 4.0
+| 19.0
+| 6.6
+| 20.0
+| 1.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.7
+|-
+| Inizio<ref>{{cite web |title=Väljarbarometer 14 december 2018 |url=https://inizio.se/valjarbarometer/valjarbarometer-14-december-2018/ |language=Swedish |work=Inizio |date=14 December 2018}}</ref>
+| data-sort-value="2018-12-12"| 4–12 Dec 2018
+| 2,238
+| 7.2
+| style="background:#F9BDC5;"| '''29.4'''
+| 3.7
+| 9.0
+| 3.3
+| 18.5
+| 7.7
+| 19.4
+| 1.9
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.0
+|-
+| Demoskop<ref>{{cite web |title=SD enda partiet som tjänar på extra val |url=https://www.expressen.se/nyheter/sd-ar-enda-partiet-tjanar-pa-extra-val/ |language=Swedish |work=Expressen |date=6 December 2018}}</ref>
+| data-sort-value="2018-12-04"| 27 Nov–4 Dec 2018
+| 1,616
+| 8.0
+| style="background:#F9BDC5;"| '''28.4'''
+| 4.1
+| 8.4
+| 4.4
+| 18.9
+| 5.8
+| 20.7
+| 1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.7
+|-
+| Sentio<ref>{{cite web |title=C rasar och SD rusar i Sentios decembermätning |url=https://nyheteridag.se/plus/c-rasar-och-sd-rusar-i-sentios-decembermatning/ |language=Swedish |work=Nyheter Idag |date=8 December 2018}}</ref>
+| data-sort-value="2018-12-03"| 29 Nov–3 Dec 2018
+| 1,035
+| 8.0
+| style="background:#F9BDC5;"| '''28.4'''
+| 3.9
+| 6.9
+| 4.2
+| 18.0
+| 6.1
+| 22.3
+| 2.3 {{efn|[[Feminist Initiative (Sweden)|FI]]: ? [[Alternative for Sweden|AfS]]: ? [[Citizens' Coalition|MED]]: ? [[Pirate Party (Sweden)|PP]]: ?}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 6.1
+|-
+| SCB<ref>{{cite web |title=Partisympatiundersökningen november 2018 |url=https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatiundersokningen-psu-i-november-2018---val-idag/ |language=Swedish |work=SCB |date=4 December 2018}}</ref>
+| data-sort-value="2018-11-27"| 29 Oct–27 Nov 2018
+| 4,721
+| 8.4
+| style="background:#F9BDC5;"| '''30.5'''
+| 4.0
+| 8.6
+| 4.3
+| 19.2
+| 5.3
+| 18.3
+| 1.2
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 11.3
+|-
+| Inizio<ref>{{cite web |title=Väljarbarometer 21 november |url=https://inizio.se/valjarbarometer/valjarbarometer-21-november/ |language=Swedish |work=Inizio |date=21 November 2018}}</ref>
+| data-sort-value="2018-11-19"| 14–19 Nov 2018
+| 2,414
+| 7.3
+| style="background:#F9BDC5;"| '''29.3'''
+| 3.5
+| 9.2
+| 3.9
+| 19.1
+| 7.0
+| 18.8
+| 1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.2
+|-
+| Ipsos<ref>{{cite web |title=DN/Ipsos: Extraval skulle inte lösa regeringsknuten |url=https://www.dn.se/nyheter/politik/dnipsos-extraval-skulle-inte-losa-regeringsknuten/ |language=Swedish |work=Dagens Nyheter |date=22 November 2018}}</ref>
+| data-sort-value="2018-11-19"| 8–19 Nov 2018
+| 1,521
+| 8.2
+| style="background:#F9BDC5;"| '''28.3'''
+| 4.1
+| 10.1
+| 4.5
+| 18.2
+| 5.3
+| 20.0
+| 1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.3
+|-
+| Sifo<ref>{{cite web |title=valjarbarometer_19_november_2018 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/valjarbarometer_19_november_2018.pdf |language=Swedish |work=Kantar Sifo |date=19 November 2018}}</ref>
+| data-sort-value="2018-11-15"| 5–15 Nov 2018
+| 9,324
+| 7.6
+| style="background:#F9BDC5;"| '''29.0'''
+| 4.1
+| 9.0
+| 4.9
+| 18.1
+| 6.7
+| 19.3
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.7
+|-
+| Novus<ref>{{cite web |title=Novus/SVT November: L under 4 % spärren för första gången |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2018-2/novus-svt-november-l-under-4-sparren-for-forsta-gangen/ |language=Swedish |work=Novus |date=16 November 2018}}</ref>
+| data-sort-value="2018-11-11"| 15 Oct–11 Nov 2018
+| 5,050
+| 7.9
+| style="background:#F9BDC5;"| '''29.8'''
+| 4.3
+| 8.9
+| 3.7
+| 19.2
+| 5.9
+| 19.2
+| 1.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.6
+|-
+| Sentio<ref>{{cite web |title=Liberalerna under riksdagsspärren i Sentios novembermätning |url=https://nyheteridag.se/plus/liberalerna-under-riksdagssparren-i-sentios-novembermatning/ |language=Swedish |work=Nyheter Idag |date=10 November 2018}}</ref>
+| data-sort-value="2018-11-07"| 1–7 Nov 2018
+| 1,006
+| 9.3
+| style="background:#F9BDC5;"| '''28.1'''
+| 3.8
+| 9.3
+| 3.3
+| 18.6
+| 5.3
+| 20.2
+| 1.7 {{efn|[[Feminist Initiative (Sweden)|FI]]: ? [[Alternative for Sweden|AfS]]: ? [[Citizens' Coalition|MED]]: ? [[Pirate Party (Sweden)|PP]]: ?}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.9
+|-
+| Demoskop<ref>{{cite web |title=SD rusar i ny mätning – är näst största parti |url=https://www.expressen.se/nyheter/val-2018/sd-rusar-i-ny-matning-ar-nast-storsta-parti-/ |language=Swedish |work=Expressen |date=8 November 2018}}</ref>
+| data-sort-value="2018-11-06"| 30 Oct–6 Nov 2018
+| 1,616
+| 7.8
+| style="background:#F9BDC5;"| '''29.2'''
+| 4.2
+| 8.8
+| 4.1
+| 18.3
+| 4.9
+| 21.1
+| 1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.1
+|-
+| Inizio<ref>{{cite web |title=Väljarbarometer november |url=https://inizio.se/valjarbarometer/valjarbarometer-november/ |language=Swedish |work=Inizio |date=8 November 2018}}</ref>
+| data-sort-value="2018-11-06"| 26 Oct–6 Nov 2018
+| 2,187
+| 7.8
+| style="background:#F9BDC5;"| '''29.4'''
+| 3.8
+| 9.8
+| 4.0
+| 18.2
+| 5.9
+| 18.9
+| 2.1
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.5
+|-
+| Ipsos<ref>{{cite web |title=DN/Ipsos Oktober 2018 |url=https://www.ipsos.com/sites/default/files/ct/news/documents/2018-11/dn_ipsos_valjarbarometer_oktober.pdf |language=Swedish |work=Ipsos |date=1 November 2018}}</ref>
+| data-sort-value="2018-10-24"| 16–24 Oct 2018
+| 1,556
+| 8.1
+| style="background:#F9BDC5;"| '''28.6'''
+| 4.8
+| 9.2
+| 5.0
+| 19.1
+| 5.1
+| 18.8
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.5
+|-
+| Sifo<ref>{{cite web |title=vb_oktober_2018_svd |url=https://www.kantarsifo.se/sites/default/files/reports/documents/vb_oktober_2018_svd.pdf |language=Swedish |work=Kantar Sifo |date=19 October 2018}}</ref>
+| data-sort-value="2018-10-18"| 8–18 Oct 2018
+| 8,583
+| 7.9
+| style="background:#F9BDC5;"| '''29.4'''
+| 4.1
+| 9.1
+| 4.9
+| 18.8
+| 6.0
+| 18.6
+| 1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.6
+|-
+| Sentio<ref>{{cite web |title=Sentio oktober: SD skulle gynnas av ett extra val |url=https://nyheteridag.se/plus/sentio-oktober-sd-skulle-gynnas-av-ett-extra-val/ |language=Swedish |work=Nyheter Idag |date=12 October 2018}}</ref>
+| data-sort-value="2018-10-09"| 5–9 Oct 2018
+| 1,011
+| 8.4
+| style="background:#F9BDC5;"| '''27.4'''
+| 5.0
+| 7.5
+| 4.2
+| 20.0
+| 5.6
+| 20.3
+| 1.6 {{efn|[[Feminist Initiative (Sweden)|FI]]: ? [[Alternative for Sweden|AfS]]: ? [[Citizens' Coalition|MED]]: ? [[Pirate Party (Sweden)|PP]]: ?}}
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 7.1
+|-
+| Inizio<ref>{{cite web |title=Aftonbladet Inizio. 1 okt-8 okt |url=https://inizio.se/wp-content/uploads/2018/10/va%CC%88ljarbarometer-oktober-20181008.pdf |language=Swedish |work=Inizio |date=9 October 2018}}</ref>
+| data-sort-value="2018-10-08"| 1–8 Oct 2018
+| 1,763
+| 7.3
+| style="background:#F9BDC5;"| '''30.0'''
+| 4.3
+| 8.7
+| 4.9
+| 19.4
+| 6.3
+| 17.6
+| 1.7
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 10.6
+|-
+| Novus<ref>{{cite web |title=Novus/SVT oktober: Avvaktande väljare |url=https://novus.se/valjaropinionen/svtnovus-valjarbarometer/2018-2/novus-svt-oktober-avvaktande-valjare/ |language=Swedish |work=Novus |date=18 October 2018}}</ref>
+| data-sort-value="2018-10-04"| 1–4 Oct 2018
+| 2,200
+| 8.4
+| style="background:#F9BDC5;"| '''28.3'''
+| 4.4
+| 8.4
+| 4.6
+| 19.7
+| 6.0
+| 18.8
+| 1.4
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.6
+|-
+| Demoskop<ref>{{cite web |title=Stödet för Löfven växer i första mätningen efter valet |url=https://www.expressen.se/nyheter/val-2018/stodet-for-lofven-vaxer-i-forsta-matningen-efter-valet/ |language=Swedish |work=Expressen |date=4 October 2018}}</ref>
+| data-sort-value="2018-10-02"| 25 Sep–2 Oct 2018
+| 1,616
+| 7.7
+| style="background:#F9BDC5;"| '''30.6'''
+| 3.5
+| 8.7
+| 4.8
+| 18.8
+| 6.1
+| 18.0
+| 1.8
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 11.8
+|-
+| Sifo<ref>{{cite web |title=Väljarbarometer Rapport 20181003 |url=https://www.kantarsifo.se/sites/default/files/reports/documents/kantarsifovb_3_oktober_2018.pdf |language=Swedish |work=Kantar Sifo |date=3 October 2018}}</ref>
+| data-sort-value="2018-10-02"| 24 Sep–2 Oct 2018
+| 8,108
+| 7.8
+| style="background:#F9BDC5;"| '''28.5'''
+| 4.3
+| 8.8
+| 5.3
+| 19.2
+| 6.4
+| 18.3
+| 1.3
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 9.3
+|- style="background:#E9E9E9;"
+| [[2018 Swedish general election|2018 election]]
+| data-sort-value="2018-09-09"| 9 Sep 2018
+| –
+| 8.0
+| style="background:#F9BDC5;"| '''28.3'''
+| 4.4
+| 8.6
+| 5.5
+| 19.8
+| 6.3
+| 17.5
+| 1.6
+| style="background:{{Swedish Social Democratic Party/meta/color}};color:#FFFFFF;"| 8.4
+|}

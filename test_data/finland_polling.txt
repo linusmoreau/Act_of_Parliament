@@ -1,0 +1,931 @@
+=== Vote share ===
+{| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
+|-
+! rowspan="2"| Polling firm
+! rowspan="2"| Fieldwork date
+! rowspan="2"| Sample<br>size
+! class="unsortable" style="width:50px;" | [[Social Democratic Party of Finland|SDP]]
+! class="unsortable" style="width:50px;" | [[Finns Party|PS]]
+! class="unsortable" style="width:50px;" |[[National Coalition Party|KOK]]
+! class="unsortable" style="width:50px;" |[[Centre Party (Finland)|KESK]]
+! class="unsortable" style="width:50px;" |[[Green League|VIHR]]
+! class="unsortable" style="width:50px;" |[[Left Alliance (Finland)|VAS]]
+! class="unsortable" style="width:50px;" |[[Swedish People's Party of Finland|SFP]]
+! class="unsortable" style="width:50px;" |[[Christian Democrats (Finland)|KD]]
+! class="unsortable" style="width:50px;" |[[Movement Now|LIIK]]
+! class="unsortable" style="width:30px;" rowspan="2"| Others
+! class="unsortable" style="width:30px;" rowspan="2"| Lead
+! class="unsortable" style="width:20px;" rowspan="2"| {{H:title|Government coalition (SDP, KESK, VIHR, VAS, SFP)|Gov.}}
+! class="unsortable" style="width:20px;" rowspan="2"| {{H:title|Opposition parties (PS, KOK, KD, LIIK)|Opp.}}
+|-
+! data-sort-type="number" style="background:{{Social Democratic Party of Finland/meta/color}};" |
+! data-sort-type="number" style="background:{{Finns Party/meta/color}};" |
+! data-sort-type="number" style="background:{{National Coalition Party/meta/color}};" |
+! data-sort-type="number" style="background:{{Centre Party (Finland)/meta/color}};" |
+! data-sort-type="number" style="background:{{Green League/meta/color}};" |
+! data-sort-type="number" style="background:{{Left Alliance (Finland)/meta/color}};" |
+! data-sort-type="number" style="background:{{Swedish People's Party of Finland/meta/color}};" |
+! data-sort-type="number" style="background:{{Christian Democrats (Finland)/meta/color}};" |
+! data-sort-type="number" style="background:{{Movement Now/meta/color}};" |
+|-
+| Kantar TNS<ref>{{Cite web|url=https://www.hs.fi/politiikka/art-2000007975313.html|title=Perussuomalaiset yhä suosituin puolue: ”Lähtökohdat kuntavaalimenestykselle ovat ehkä puolueen historian parhaat”|first=Marjukka|last=Liiten|website=Helsingin Sanomat |date=14 May 2021|access-date=17 May 2021}}</ref>
+| data-sort-value="2021-5-7"| 12 Apr–7 May 2021
+| 2,456
+| 19.0
+| style="background:#FFF5CC;" |'''21.6'''
+| 17.0
+| 11.1
+| 10.0
+| 8.1
+| 4.4
+| 3.8
+| 2.6
+| 2.4
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-2.6"| 2.6
+| {{#expr:8.1+19.0+10.0+4.4+11.1}}
+| {{#expr:2.6+17.0+3.8+21.6}}
+|-
+| Kantar TNS<ref>{{Cite web|url=https://www.hs.fi/politiikka/art-2000007922196.html|title=Perussuomalaiset kasvatti kaulaansa Sdp:hen – pääministeripuolueen kannatus heikkeni alle 20 prosenttiin ensimmäisen kerran korona-aikana|first=Elina|last=Kervinen|website=Helsingin Sanomat |date=16 April 2021|access-date=16 April 2021}}</ref>
+| data-sort-value="2021-4-9"| 15 Mar–9 Apr 2021
+| 2,462
+| 19.7
+| style="background:#FFF5CC;" |'''21.6'''
+| 16.2
+| 11.4
+| 10.0
+| 7.8
+| 4.3
+| 3.8
+| 2.5
+| 2.7
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-1.9"| 1.9
+| {{#expr:7.8+19.7+10.0+4.3+11.4}}
+| {{#expr:2.5+16.2+3.8+21.6}}
+|-
+| Kantar TNS<ref>{{Cite web|url=https://www.hs.fi/politiikka/art-2000007866626.html|title=Perussuomalaiset kasvatti kaulaa Sdp:hen: Puolueella on ”historiansa paras lähtökohta kuntavaaleihin”, sanoo tutkija|first=Minna|last=Nalbantoglu|website=Helsingin Sanomat |date=18 March 2021|access-date=18 March 2021}}</ref>
+| data-sort-value="2021-3-12"| 15 Feb–12 Mar 2021
+| 2,462
+| 20.5
+| style="background:#FFF5CC;" |'''21.5'''
+| 16.0
+| 11.8
+| 9.8
+| 7.3
+| 4.4
+| 3.7
+| 2.6
+| 2.4
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-1.0"| 1.0
+| {{#expr:7.3+20.5+9.8+4.4+11.8}}
+| {{#expr:2.6+16.0+3.7+21.5}}
+|-
+| Kantar TNS<ref>{{Cite web|url=https://www.hs.fi/politiikka/art-2000007812241.html|title=Perussuomalaiset ja Sdp jatkavat kisaamista suosituimman puolueen paikasta, vihreiden kannatus laski alle 10 prosentin|first=Marjukka|last=Liiten|website=Helsingin Sanomat |date=19 February 2021|access-date=19 February 2021}}</ref>
+| data-sort-value="2021-2-19"| 18 Jan–12 Feb 2021
+| 2,480
+| 21.0
+| style="background:#FFF5CC;" |'''21.1'''
+| 16.4
+| 11.0
+| 9.9
+| 7.6
+| 4.2
+| 3.7
+| 2.4
+| 2.7
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-0.1"| 0.1
+| {{#expr:7.6+21.0+9.9+4.2+11.0}}
+| {{#expr:2.4+16.4+3.7+21.1}}
+|-
+| Kantar TNS<ref>{{Cite web|url=https://www.hs.fi/politiikka/art-2000007750266.html|title=Perussuomalaiset kipusi suosituimmaksi puolueeksi niukasti Sdp:n ohi, vihreiden kannatus palautui|first=Elina|last=Kervinen|website=Helsingin Sanomat |date=20 January 2021|access-date=20 January 2021}}</ref>
+| data-sort-value="2021-1-19"| 21 Dec 2020–15 Jan 2021
+| 2,610
+| 20.8
+| style="background:#FFF5CC;" |'''21.0'''
+| 16.2
+| 10.8
+| 10.6
+| 7.7
+| 4.3
+| 3.7
+| 2.4
+| 2.5
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-0.2"| 0.2
+| {{#expr:7.7+20.8+10.6+4.3+10.8}}
+| {{#expr:2.4+16.2+3.7+21.0}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11726460|title=Ylen mittaus: Perussuomalaisilla taas kannatushyppäys, eläkeputken poisto syö SDP:n, mutta ei vasemmistoliiton suosiota|first=Terhi|last=Toivonen|website=Yle Uutiset|language=fi|access-date=8 January 2021|date=8 January 2021}}</ref>
+| data-sort-value="2020-12-08"| 2 Dec 2020–5 Jan 2021
+| 2,221
+| 21.4
+| style="background:#FFF5CC;" |'''21.9'''
+| 16.2
+| 11.7
+| 11.4
+| 7.6
+| 4.3
+| 2.8
+| 1.3
+| 1.4
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-0.5"| 0.5
+| {{#expr:7.6+21.4+11.4+4.3+11.7}}
+| {{#expr:1.3+16.2+2.8+21.9}}
+|-
+| Kantar TNS<ref>{{cite news |first=Marjukka|last=Liiten|title=Vihreiden kannatus painui alle kymmenen prosentin, mikä on viimeksi nähty kesällä 2015|url=https://www.hs.fi/politiikka/art-2000007700216.html |newspaper=Helsingin Sanomat |date=23 December 2020 |access-date=23 December 2020 |language=fi}}</ref>
+| data-sort-value="2020-12-18"|23 Nov–18 Dec 2020
+| 2,614
+| style="background:#FCCFCF;" |'''21.4'''
+| 20.6
+| 16.2
+| 11.4
+| 9.9
+| 7.7
+| 4.3
+| 3.8
+| 2.3
+| 2.4
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-0.8"| 0.8
+| {{#expr:7.7+21.4+9.9+4.3+11.4}}
+| {{#expr:2.3+16.2+3.8+20.6}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11677649|title=Ylen kannatusmittaus: Perussuomalaiset nousi SDP:n ohi suosituimmaksi puolueeksi – kokoomus vajoaa edelleen|first=Matti|last=Koivisto|website=Yle Uutiset|language=fi|access-date=3 December 2020|date=3 December 2020}}</ref>
+| data-sort-value="2020-12-03"| 9 Nov–1 Dec 2020
+| 2,707
+| 20.6
+| style="background:#FFF5CC;" |'''20.9'''
+| 15.9
+| 12.1
+| 11.6
+| 7.2
+| 4.4
+| 3.0
+| 2.2
+| 2.1
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-0.3"| 0.3
+| {{#expr:7.2+20.6+11.6+4.4+12.1}}
+| {{#expr:2.2+15.9+3.0+20.9}}
+|-
+| Kantar TNS<ref>{{cite news |first=Marjukka|last=Liiten|title=Keskustalle pientä ilon aihetta kannatusmittauksesta, Sdp jatkaa yhä Suomen suosituimpana puolueena|url=https://www.hs.fi/politiikka/art-2000007639753.html |newspaper=Helsingin Sanomat |date=25 November 2020 |access-date=25 November 2020 |language=fi}}</ref>
+| data-sort-value="2020-11-20"|19 Oct–20 Nov 2020
+| 2,620
+| style="background:#FCCFCF;" |'''20.8'''
+| 19.9
+| 16.5
+| 11.7
+| 11.1
+| 7.5
+| 4.4
+| 3.7
+| 2.2
+| 2.2
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-0.9"| 0.9
+| {{#expr:7.5+20.8+11.1+4.4+11.7}}
+| {{#expr:2.2+16.5+3.7+19.9}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11630056|title=Ylen kannatusmittaus: Perussuomalaiset kirii lähemmäs SDP:tä, kokoomus vajoaa lisää – keskustan kannatus on noussut|first=Jyrki|last=Hara|website=Yle Uutiset|language=fi|access-date=9 November 2020|date=9 November 2020}}</ref>
+| data-sort-value="2020-11-03"| 12 Oct–3 Nov 2020
+| 2,457
+| style="background:#FCCFCF;" |'''21.2'''
+| 19.5
+| 16.6
+| 12.4
+| 10.8
+| 7.7
+| 4.3
+| 4.0
+| 1.6
+| 1.9
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-1.7"| 1.7
+| {{#expr:7.7+21.2+10.8+4.3+12.4}}
+| {{#expr:1.6+16.6+4.0+19.5}}
+|-
+| Kantar TNS<ref>{{cite news |author=Sara Vainio |title=Keskustelu koronakriisin hoidosta ei ainakaan vielä näy hallituspuolueiden kannatuksessa: Sdp jatkaa suosituimpana puolueena |url=https://www.hs.fi/politiikka/art-2000006675997.html |newspaper=Helsingin Sanomat |date=21 October 2020 |access-date=21 October 2020 |language=fi}}</ref>
+| data-sort-value="2020-10-16"|14 Sep–16 Oct 2020
+| 2,683
+| style="background:#FCCFCF;" |'''20.9'''
+| 19.9
+| 16.8
+| 11.2
+| 11.0
+| 7.8
+| 4.4
+| 3.8
+| 2.1
+| 2.1
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-1.0"| 1.0
+| {{#expr:7.8+20.9+11.0+4.4+11.2}}
+| {{#expr:2.1+16.8+3.8+19.9}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11582470|title=Ylen kannatusmittaus: Saarikon valinta ei nostanut keskustaa, eikä talousväittely kokoomusta – SDP jatkaa johdossa|first=Jyrki|last=Hara|website=Yle Uutiset|language=fi|access-date=8 October 2020|date=8 October 2020}}</ref>
+| data-sort-value="2020-10-06"| 7 Sep–6 Oct 2020
+| 2,284
+| style="background:#FCCFCF;" |'''21.8'''
+| 19.0
+| 17.7
+| 11.5
+| 10.9
+| 7.9
+| 4.5
+| 3.3
+| 1.8
+| 1.6
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-2.8"| 2.8
+| {{#expr:7.9+21.8+10.9+4.5+11.5}}
+| {{#expr:1.8+17.7+3.3+19.0}}
+|-
+| Kantar TNS<ref>{{cite news |author=Anu-Elina Ervasti |title=Sdp:n ja kokoomuksen talouskiistat eivät näy kummankaan kannatuksessa – Samana pysyvät gallupluvut voivat olla ”tyyntä myrskyn edellä” |url=https://www.hs.fi/politiikka/art-2000006636965.html |newspaper=Helsingin Sanomat |date=16 September 2020 |access-date=16 September 2020 |language=fi}}</ref>
+| data-sort-value="2020-09-12"|17 Aug–12 Sep 2020
+| 2,486
+| style="background:#FCCFCF;" |'''21.0'''
+| 19.5
+| 17.0
+| 10.8
+| 11.8
+| 7.6
+| 4.3
+| 3.7
+| 2.0
+| 2.3
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-1.5"| 1.5
+| {{#expr:7.6+21.0+11.8+4.3+10.8}}
+| {{#expr:2.0+17.0+3.7+19.5}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11523136|title=SDP:n kannatushuippu taittui puoluekokoukseen – kokoomus kiri kiinni perussuomalaisia|first=Pekka|last=Kinnunen|website=Yle Uutiset|language=fi|access-date=3 September 2020|date=3 September 2020}}</ref>
+| data-sort-value="2020-09-01"| 10 Aug–1 Sep 2020
+| 2,442
+| style="background:#FCCFCF;" |'''21.4'''
+| 18.8
+| 18.3
+| 11.3
+| 11.7
+| 8.0
+| 4.1
+| 3.0
+| 1.3
+| 2.1
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-2.6"| 2.6
+| {{#expr:8.0+21.4+11.7+4.1+11.3}}
+| {{#expr:1.3+18.3+3.0+18.8}}
+|-
+| Kantar TNS<ref>{{cite news |author=Salla Varpula |title=EU:n tukipakettikeskustelu piristi perussuomalaisten kannatusta, Sdp jatkaa suosituimpana puolueena |url=https://www.hs.fi/politiikka/art-2000006606053.html |newspaper=Helsingin Sanomat |date=19 August 2020 |access-date=19 August 2020 |language=fi}}</ref>
+| data-sort-value="2020-08-14"|13 Jul–14 Aug 2020
+| 2,612
+| style="background:#FCCFCF;" |'''21.0'''
+| 19.0
+| 16.9
+| 11.3
+| 12.1
+| 7.5
+| 4.4
+| 3.9
+| 1.7
+| 2.2
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-2.0"| 2.0
+| {{#expr:7.5+21.0+12.1+4.4+11.3}}
+| {{#expr:1.7+16.9+3.9+19.0}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11479982|title=Ylen kannatusmittaus: SDP:n suosio huipussaan ja PS paransi juoksuaan, mutta keskusta rypee pohjalukemissa|first=Kristiina|last=Tolkki|website=Yle Uutiset|language=fi|access-date=6 August 2020|date=6 August 2020}}</ref>
+| data-sort-value="2020-08-04"| 6 Jul–4 Aug 2020
+| 2,435
+| style="background:#FCCFCF;" |'''23.4'''
+| 18.9
+| 17.3
+| 10.5
+| 11.6
+| 8.1
+| 4.0
+| 3.6
+| 1.2
+| 1.4
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-4.5"| 4.5
+| {{#expr:8.1+23.4+11.6+4.0+10.5}}
+| {{#expr:1.2+17.3+3.6+18.9}}
+|-
+| Kantar TNS<ref>{{cite news |author=Laura Kukkonen |title=Sdp:n kannatus jatkaa tasaantumistaan, myös keskustan suosio laski – ”Siellä on kaksi taisteluparia” |url=https://www.hs.fi/politiikka/art-2000006572077.html |newspaper=Helsingin Sanomat |date=15 July 2020 |access-date=15 July 2020 |language=fi}}</ref>
+| data-sort-value="2020-07-10"|15 Jun–10 Jul 2020
+| 2,168
+| style="background:#FCCFCF;" |'''21.2'''
+| 17.9
+| 17.7
+| 11.6
+| 11.3
+| 8.2
+| 4.4
+| 3.9
+| 1.8
+| 2.0
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-3.3"| 3.3
+| {{#expr:8.2+21.2+11.3+4.4+11.6}}
+| {{#expr:1.8+17.7+3.9+17.9}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11427899|title=Ylen kannatusmittaus: SDP:n suosio taipui laskuun, vihreät luisussa ja PS jatkaa entisissä lukemissa kohuista huolimatta|first=Tulikukka|last=de Fresnes|website=Yle Uutiset|language=fi|access-date=2 July 2020|date=2 July 2020}}</ref>
+| data-sort-value="2020-06-30"| 3 Jun–30 Jun 2020
+| 2,451
+| style="background:#FCCFCF;" |'''21.9'''
+| 18.1
+| 17.9
+| 11.4
+| 10.9
+| 8.7
+| 4.3
+| 3.4
+| 1.8
+| 1.6
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-3.8"| 3.8
+| {{#expr:8.7+21.9+10.9+4.3+11.4}}
+| {{#expr:1.8+17.9+3.4+18.1}}
+|-
+| Kantar TNS<ref>{{cite news |author=Marjukka Liiten |title=Pääministeripuolue Sdp on yhä suosituin, mutta kannatuksen nousu tasaantui |url=https://www.hs.fi/politiikka/art-2000006543472.html |newspaper=Helsingin Sanomat |date=17 June 2020 |access-date=17 June 2020 |language=fi}}</ref>
+| data-sort-value="2020-06-14"|18 May–14 Jun 2020
+| 2,144
+| style="background:#FCCFCF;" |'''21.9'''
+| 17.6
+| 17.4
+| 12.4
+| 10.8
+| 7.4
+| 4.4
+| 4.0
+| 1.8
+| 2.3
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-4.3"| 4.3
+| {{#expr:7.4+21.9+10.8+4.4+12.4}}
+| {{#expr:1.8+17.4+4.0+17.6}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11382120|title=Ylen kannatusmittaus: Keskustalla kunnon sukellus, koronakriisin hoito sataa demareiden laariin|first=Terhi|last=Toivonen|website=Yle Uutiset|language=fi|access-date=4 June 2020|date=4 June 2020}}</ref>
+| data-sort-value="2020-06-02"| 11 May–2 Jun 2020
+| 2,447
+| style="background:#FCCFCF;" |'''23.2'''
+| 18.1
+| 17.5
+| 10.7
+| 11.9
+| 7.8
+| 3.9
+| 3.5
+| 2.3
+| 1.1
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-5.1"| 5.1
+| {{#expr:7.8+23.2+11.9+3.9+10.7}}
+| {{#expr:2.3+17.5+3.5+18.1}}
+|-
+| Kantar TNS<ref>{{cite news |author=Liisa Kauppinen |title=Sdp:n kannatus kohosi yli 22 prosentin, perussuomalaisten kannattajia palasi takaisin katsomoon |url=https://www.hs.fi/politiikka/art-2000006513027.html |newspaper=Helsingin Sanomat |date=20 May 2020 |access-date=20 May 2020 |language=fi}}</ref>
+| data-sort-value="2020-05-14"|20 Apr–14 May 2020
+| 2,214
+| style="background:#FCCFCF;" |'''22.1'''
+| 18.1
+| 17.0
+| 12.3
+| 11.2
+| 7.6
+| 4.2
+| 3.7
+| 1.9
+| 1.9
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-4.0"| 4.0
+| {{#expr:7.6+22.1+11.2+4.2+12.3}}
+| {{#expr:1.9+17.0+3.7+18.1}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11337395|title=Ylen kannatusmittaus: SDP veti kaulan muihin, nousu poikkeuksellinen – perussuomalaiset romahti kokoomuksen taakse|first=Antti|last=Pilke|website=Yle Uutiset|language=fi|access-date=7 May 2020|date=7 May 2020}}</ref>
+| data-sort-value="2020-05-05"| 14 Apr–5 May 2020
+| 2,448
+| style="background:#FCCFCF;" |'''22.1'''
+| 17.9
+| 18.2
+| 12.2
+| 11.4
+| 7.7
+| 4.1
+| 3.7
+| 1.5
+| 1.2
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-3.9"| 3.9
+| {{#expr:7.7+22.1+11.4+4.1+12.2}}
+| {{#expr:1.5+18.2+3.7+17.9}}
+|-
+| Tietoykkönen<ref>{{cite news |author=Tommi Parkkonen |title=Alman kysely: SDP:n kannatus jo yli 24 %, perussuomalaisten laskenut – ”Mediahuomio keskittyy pääministeriin”|url=https://www.iltalehti.fi/politiikka/a/6c38044e-74c1-4fa2-970d-65450a0021cd|newspaper=Iltalehti (in Finnish)|date=1 May 2020 |access-date=4 May 2020 |language=fi}}</ref>
+| data-sort-value="2020-04-29"|14–29 Apr 2020
+| 1,500
+| style="background:#FCCFCF;" |'''24.1'''
+| 18.8
+| 16.2
+| 12.9
+| 9.7
+| 7.3
+| 4.0
+| 3.2
+| 1.4
+| 2.4
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-5.3"| 5.3
+| {{#expr:7.3+24.1+9.7+4.0+12.9}}
+| {{#expr:1.4+16.2+3.2+18.8}}
+|-
+| Kantar TNS<ref>{{cite news |author=Teemu Luukka |title=Sdp nousi Suomen suosituimmaksi puolueeksi |url=https://www.hs.fi/politiikka/art-2000006478796.html |newspaper=Helsingin Sanomat |date=18 April 2020 |access-date=20 April 2020 |language=fi}}</ref>
+| data-sort-value="2020-04-15"|16 Mar–15 Apr 2020
+| 2,360
+| style="background:#FCCFCF;" |'''20.4'''
+| 20.2
+| 16.8
+| 12.6
+| 11.2
+| 7.4
+| 4.2
+| 3.5
+| 2.0
+| 1.7
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="-0.2"| 0.2
+| {{#expr:7.4+20.4+11.2+4.2+12.6}}
+| {{#expr:2.0+16.8+3.5+20.2}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11298139|title=Ylen kannatusmittaus: SDP hyppäsi lähes tasoihin perussuomalaisten kanssa – kärkikaksikon välinen ero on hiuksenhieno|first=Robert|last=Sundman|website=Yle Uutiset|language=fi|access-date=9 April 2020|date=9 April 2020}}</ref>
+| data-sort-value="2020-04-07"| 4 Mar–7 Apr 2020
+| 3,921
+| 19.6
+| style="background:#FFF5CC;" |'''20.0'''
+| 17.6
+| 12.4
+| 12.0
+| 7.9
+| 4.1
+| 3.9
+| 1.3
+| 1.2
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-0.4"| 0.4
+| {{#expr:7.9+19.6+12.0+4.1+12.4}}
+| {{#expr:1.3+17.6+3.9+20.0}}
+|-
+| Tietoykkönen<ref>{{cite news |author=Marko-Oskari Lehtonen |title=Alma-kysely: Sdp nousi perussuomalaisten ohi – taustalla poikkeusolot ja pääministeri Sanna Marin |url=https://www.aamulehti.fi/a/65b8bc02-b037-4a3f-91ca-5981b77cd3f7?c=1522737894164 |newspaper=Aamulehti |date=31 March 2020 |access-date=1 April 2020 |language=fi}}</ref>
+| data-sort-value="2020-03-27"| 20–27 Mar 2020
+| 1,200
+| style="background:#FCCFCF;" |'''21.1'''
+| 20.1
+| 16.8
+| 11.9
+| 10.7
+| 7.8
+| 4.6
+| 2.9
+| 1.3
+| 2.8
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;" data-sort-value="1.0"| 1.0
+| {{#expr:7.8+21.1+10.7+4.6+11.9}}
+| {{#expr:1.3+16.8+2.9+20.1}}
+|-
+| Kantar TNS<ref>{{cite news |author=Anna-Liina Kauhanen |title=Hallituspuolueet harppaavat poikkeusaikaan kannatuksen kasvaessa, perussuomalaiset yhä Suomen suurin puolue |url=https://www.hs.fi/politiikka/art-2000006443015.html |newspaper=Helsingin Sanomat |date=18 March 2020 |access-date=18 March 2020 |language=fi}}</ref>
+| data-sort-value="2020-03-13"|15 Feb–13 Mar 2020
+| 2,234
+| 17.1
+| style="background:#FFF5CC;" |'''21.6'''
+| 16.9
+| 12.0
+| 12.4
+| 8.0
+| 4.4
+| 3.7
+| 1.9
+| 2.0
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-4.5"| 4.5
+| {{#expr:8.0+17.1+12.4+4.4+12.0}}
+| {{#expr:1.9+16.9+3.7+21.6}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11239959|title=Ylen kannatusmittaus: SDP:n nousu jatkuu, myös keskusta ja kokoomus piristyvät – Perussuomalaisten etumatka kaventuu hieman|first=Jyrki|last=Hara|website=Yle Uutiset|language=fi|access-date=5 March 2020|date=5 March 2020}}</ref>
+| data-sort-value="2020-03-03"| 5 Feb–3 Mar 2020
+| 3,409
+| 16.6
+| style="background:#FFF5CC;" |'''22.4'''
+| 18.0
+| 12.4
+| 12.5
+| 7.4
+| 4.1
+| 2.9
+| 1.7
+| 2.0
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-4.4"| 4.4
+| {{#expr:16.6+12.4+12.5+7.4+4.1}}
+| {{#expr:22.4+18.0+2.9+1.7}}
+|-
+| Kantar TNS<ref>{{cite news|author=Paavo Teittinen|title=HS-gallup: Sdp:n ja keskustan kannatus kääntyi nousuun|url=https://www.hs.fi/politiikka/art-2000006411833.html|newspaper=Helsingin Sanomat|date=19 February 2020|accessdate=19 February 2020}}</ref>
+| data-sort-value="2020-02-14"|19 Jan–14 Feb 2020
+| 2,204
+| 16.3
+| style="background:#FFF5CC;" |'''22.4'''
+| 17.3
+| 12.0
+| 12.3
+| 7.7
+| 4.2
+| 3.6
+| 1.9
+| 2.3
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.1"| 5.1
+| {{#expr:7.7+16.3+12.3+4.2+12.0}}
+| {{#expr:1.9+17.3+3.6+22.4}}
+|-
+| Tietoykkönen<ref>{{Cite web|url=https://www.aamulehti.fi/a/63c5fb4c-b23e-4c98-bb5e-7cea24ba803a?c=1522737894164|title=Alma-kysely: Perussuomalaiset jatkaa suosituimpana puolueena – puolueella myös uskollisimmat äänestäjät|first=Lauri|last=Nurmi|website=Aamulehti|language=fi|access-date=11 February 2020|date=11 February 2020}}</ref>
+| data-sort-value="2020-02-10"| 21 Jan–10 Feb 2020
+| 1,500
+| 16.7
+| style="background:#FFF5CC;" |'''21.7'''
+| 17.5
+| 12.0
+| 12.6
+| 7.6
+| 4.3
+| 3.5
+| 1.4
+| 2.7
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-4.2"| 4.2
+| {{#expr:7.6+16.7+12.6+4.3+12.0}}
+| {{#expr:1.4+17.5+3.5+21.7}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11193715|title=Ylen kannatusmittaus: Keskustan kannatus sukeltaa jälleen, vihreiden suosio kasvaa ja perussuomalaisten kannatushuippu takana|first=Hannu|last=Tikkala|website=Yle Uutiset|language=fi|access-date=6 February 2020|date=6 February 2020}}</ref>
+| data-sort-value="2020-02-04"| 13 Jan–4 Feb 2020
+| 2,944
+| 16.0
+| style="background:#FFF5CC;" |'''23.3'''
+| 17.5
+| 10.8
+| 13.3
+| 8.3
+| 4.4
+| 3.0
+| 1.3
+| 2.1
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.8"| 5.8
+| {{#expr:16.0+10.8+13.3+8.3+4.4}}
+| {{#expr:23.3+17.5+3.0+1.3}}
+|-
+| Kantar TNS<ref>{{cite news|author=Teemu Luukka|title=Puolueiden kannatus on vakiintunut: Perussuomalaiset selvästi suurin, Marin-ilmiö ei ole nostanut Sdp:tä|url=https://www.hs.fi/politiikka/art-2000006380217.html|newspaper=Helsingin Sanomat|date=22 January 2020|accessdate=22 January 2020}}</ref>
+| data-sort-value="2020-01-17"|23 Dec 2019–17 Jan 2020
+| 2,218
+| 15.1
+| style="background:#FFF5CC;" |'''22.8'''
+| 17.5
+| 11.5
+| 12.8
+| 8.3
+| 4.3
+| 3.9
+| 1.7
+| 2.1
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.3"| 5.3
+| {{#expr:15.1+11.5+12.8+8.3+4.3}}
+| {{#expr:22.8+17.5+3.9+1.7}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11149436|title=Ylen mittaus: Pääministerin vaihdos piristi SDP:n ja keskustan suosiota, vihreät menetti kannatustaan vasemmistolle ja kokoomukselle|first=Pekka|last=Kinnunen|website=Yle Uutiset|language=fi|access-date=10 January 2020|date=10 January 2020}}</ref>
+| data-sort-value="2020-01-08"| 9 Dec 2019–8 Jan 2020
+| 1,461
+| 14.9
+| style="background:#FFF5CC;" |'''24.3'''
+| 19.3
+| 12.0
+| 12.0
+| 8.1
+| 3.9
+| 2.2
+| 1.4
+| 1.9
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.0"| 5.0
+| {{#expr:14.9+12.0+12.0+8.1+3.9}}
+| {{#expr:24.3+19.3+2.2+1.4}}
+|-
+| Kantar TNS<ref>{{cite news|author=Teemu Muhonen|title=Perussuomalaisten kannatus jatkaa kasvua, keskustan tulos kaikkien aikojen huonoin|url=https://www.hs.fi/politiikka/art-2000006356267.html|newspaper=Helsingin Sanomat|date=28 December 2019|accessdate=28 December 2019}}</ref>
+| data-sort-value="2019-12-20"|25 Nov–20 Dec 2019
+| 2,226
+| 15.1
+| style="background:#FFF5CC;" |'''22.7'''
+| 17.2
+| 11.1
+| 12.5
+| 8.4
+| 4.5
+| 4.0
+| 1.7
+| 2.8
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.5"| 5.5
+| {{#expr:15.1+11.1+12.5+8.4+4.5}}
+| {{#expr:22.7+17.2+4.0+1.7}}
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11102651|title=Ylen mittaus: Perussuomalaiset jyristelivät taas eteenpäin, keskustalle kaikkien aikojen murskaluvut|website=Yle Uutiset|language=fi|access-date=2019-12-05}}</ref>
+| data-sort-value="2019-12-03"| 11 Nov–3 Dec 2019
+| 2,944
+| 13.2
+| style="background:#FFF5CC;" |'''24.3'''
+| 18.6
+| 10.6
+| 13.9
+| 8.4
+| 3.9
+| 3.9
+| 1.2
+| 2.0
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.7"| 5.7
+| {{#expr:13.2+10.6+13.9+8.4+3.9}}
+| {{#expr:24.3+18.6+3.9+1.2}}
+|-
+| Kantar TNS<ref>{{cite news|author=Joonas Turunen|title=Perussuomalaisten kannatus nousi taas roimasti – näin tutkijat ja puolue itse kommentoivat ennätysmäistä suosiota|url=https://www.hs.fi/politiikka/art-2000006323111.html|newspaper=Helsingin Sanomat|date=27 November 2019|accessdate=28 November 2019}}</ref>
+| data-sort-value="2019-11-27"|24 Oct–21 Nov 2019
+| 2,314
+| 15.2
+| style="background:#FFF5CC;" |'''22.4'''
+| 17.3
+| 11.7
+| 13.1
+| 7.9
+| 4.3
+| 3.8
+| 1.6
+| 2.7
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.1"| 5.1
+| 52.2
+| 45.1
+|-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-11054082|title=Ylen kysely: Perussuomalaisten kannatuksessa kunnon hyppäys, demarien alamäki vain jatkuu|website=Yle Uutiset|language=fi|access-date=2019-11-07}}</ref>
+| data-sort-value="2019-11-07"|20 Oct–5 Nov 2019
+| 2,397
+| 13.9
+| style="background:#FFF5CC;" |'''23.0'''
+| 17.3
+| 12.9
+| 14.2
+| 7.9
+| 4.3
+| 3.2
+| 1.6
+| 1.6
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-5.7"| 5.7
+| {{#expr:13.9+12.9+14.2+7.9+4.3}}
+| {{#expr:23.0+17.3+3.2+1.6}}
+|-
+| Kantar TNS<ref>{{cite news|author=Elina Kervinen|title=Perussuomalaiset yhä suurin puolue, keskustan puheenjohtajavaihdos ei näy kannatuksessa|url=https://www.hs.fi/paivanlehti/24102019/art-2000006283153.html|newspaper=Helsingin Sanomat|date=24 October 2019|accessdate=24 October 2019}}</ref>
+| data-sort-value="2019-10-21"| 23 Sep–21 Oct 2019
+| 2,186
+| 17.0
+| style="background:#FFF5CC;" |'''20.5'''
+| 17.0
+| 12.2
+| 13.9
+| 8.2
+| 4.3
+| 3.3
+| 1.3
+| 2.3
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-3.5"| 3.5
+| 55.6 || 42.1
+|-
+| Tietoykkönen<ref>{{cite news|author=Minna Karkkola|title=Alma-kysely: Perussuomalaiset jyrää – kokoomus kärsii oppositio-ongelmasta|url=https://www.iltalehti.fi/politiikka/a/6ab1895c-2007-4938-9961-4c10d408c471|publisher=Iltalehti|date=10 October 2019|accessdate=10 October 2019}}</ref>
+| data-sort-value="2019-10-10"| 17 Sep–8 Oct 2019
+| 1,500
+| 17.2
+| style="background:#FFF5CC;" |'''20.4'''
+| 17.2
+| 12.5
+| 13.2
+| 7.7
+| 4.2
+| 3.2
+| 1.6
+| 2.8
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-3.2"| 3.2
+| 54.8 || 42.4
+|-
+| Taloustutkimus<ref>{{cite news|author=Pekka Kinnunen|title=Ylen mittaus: Perussuomalaiset repi etumatkaa, SDP sukelsi ja keskusta elpyi|url=https://yle.fi/uutiset/3-11000815|publisher=Yle|date=3 October 2019|accessdate=3 October 2019}}</ref>
+| data-sort-value="2019-10-01"| 9 Sep–1 Oct 2019
+| 2,446
+| 15.6
+| style="background:#FFF5CC;" |'''20.9'''
+| 17.1
+| 12.8
+| 14.5
+| 7.9
+| 3.9
+| 3.7
+| 1.6
+| 2.0
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-3.8"| 3.8
+| 54.7 || 43.3
+|-
+| Kantar TNS<ref>{{cite news|author=Teemu Luukka|title=Keskustan puheenjohtajan vaihto ei näy puolueen kannatuksessa, perussuomalaiset pysynyt suosituimpana puolueena|url=https://www.hs.fi/politiikka/art-2000006248789.html|newspaper=Helsingin Sanomat|date=24 September 2019|accessdate=24 September 2019}}</ref>
+| data-sort-value="2019-09-22"| 26 Aug–22 Sep 2019
+| 2,236
+| 17.3
+| style="background:#FFF5CC;" |'''19.8'''
+| 17.3
+| 11.9
+| 14.2
+| 8.2
+| 4.4
+| 3.4
+| 1.5
+| 2.0
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-2.5"| 2.5
+| 56 || 42
+|-
+| Taloustutkimus<ref>{{cite news|author=Pekka Kinnunen|title=Perussuomalaisten kannatus pomppasi yli 20 prosentin – keskusta vajosi alle 12 prosentin|url=https://yle.fi/uutiset/3-10954150|publisher=Yle|date=5 September 2019|accessdate=5 September 2019}}</ref>
+| data-sort-value="2019-09-03"| 12 Aug–3 Sep 2019
+| 2,440
+| 16.9
+| style="background:#FFF5CC;" |'''20.6'''
+| 17.4
+| 11.6
+| 14.6
+| 8.1
+| 3.8
+| 3.4
+| 1.4
+| 2.2
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-3.2"| 3.2
+| 55 || 42.8
+|-
+| Kantar TNS<ref>{{cite news|author=Ines Sirén|title=Perussuomalaisten kannatus nitkahti alaspäin|url=https://www.hs.fi/politiikka/art-2000006218638.html|newspaper=Helsingin Sanomat|date=28 August 2019|accessdate=28 August 2019}}</ref>
+| data-sort-value="2019-08-23"| 29 Jul–23 Aug 2019
+| 2,235
+| 17.2
+| style="background:#FFF5CC;" |'''20.0'''
+| 17.4
+| 12.1
+| 13.7
+| 8.3
+| 4.4
+| 3.8
+| 1.0
+| 2.1
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-2.6"| 2.6
+| 55.7 || 42.2
+|-
+| Taloustutkimus<ref>{{cite news|author=Antti Pilke|title=Ylen mittaus: Hallituspuolueiden suosio nousi ensi kertaa, keskusta pääsi aallonpohjasta|url=https://yle.fi/uutiset/3-10911921|publisher=Yle|date=8 August 2019|accessdate=8 August 2019}}</ref>
+| data-sort-value="2019-08-06"| 8 Jul–6 Aug 2019
+| 2,451
+| 16.3
+| style="background:#FFF5CC;" |'''19.6'''
+| 16.8
+| 12.6
+| 15.1
+| 8.7
+| 4.3
+| 3.5
+| 1.2
+| 1.9
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-2.8"| 2.8
+| 57 || 41.1
+|-
+| Kantar TNS<ref>{{cite news|author=Anton Rinta-Jouppi|title=Perussuomalaisten kannatus kasvoi jälleen: "Vastaavaa ei ole viime aikoina nähty", arvioi tutkija|url=https://www.hs.fi/politiikka/art-2000006188541.html|newspaper=Helsingin Sanomat|date=30 July 2019|accessdate=30 July 2019}}</ref>
+| data-sort-value="2019-07-27"| 1–27 Jul 2019
+| 2,248
+| 16.5
+| style="background:#FFF5CC;" |'''20.7'''
+| 16.7
+| 12.2
+| 14.0
+| 8.1
+| 4.5
+| 3.9
+| 1.1
+| 2.3
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-4.0"| 4.0
+| 55.3 || 42.4
+|-
+| Taloustutkimus<ref>{{cite news|author=Matti Koivisto|title=Ylen mittaus: Keskustan kannatus painui ennätyksellisen alas – perussuomalaiset jatkaa selvästi suurimpana puolueena|url=https://yle.fi/uutiset/3-10859955|publisher=Yle|date=4 July 2019|accessdate=4 July 2019}}</ref>
+| data-sort-value="2019-07-02"| 5 Jun–2 Jul 2019
+| 2,446
+| 16.1
+| style="background:#FFF5CC;" |'''19.7'''
+| 16.8
+| 11.7
+| 14.3
+| 8.8
+| 4.6
+| 3.8
+| 1.7
+| 2.5
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-2.9"| 2.9
+| 55.5 || 42
+|-
+| Kantar TNS<ref>{{cite news|author=Elli-Alina Hiilamo|title=Perussuomalaisten suosio jatkaa kasvuaan, myös vihreiden kannatus nousussa|url=https://www.hs.fi/politiikka/art-2000006159743.html|newspaper=Helsingin Sanomat|date=1 July 2019|accessdate=1 July 2019}}</ref>
+| data-sort-value="2019-06-28"| 3–28 Jun 2019
+| 2,326
+| 17.5
+| style="background:#FFF5CC;" |'''19.2'''
+| 17.3
+| 13.1
+| 13.1
+| 8.0
+| 4.4
+| 3.7
+| 1.4
+| 2.3
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-1.7"| 1.7
+| 56.1 || 41.6
+|-
+| Tietoykkönen<ref>{{cite news|author=Markku Huusko|title=Alman mittaus: Perussuomalaiset karkasi kilpailijoilta - kannatus kasvanut yhä kokoomukseen ja SDP:hen verrattuna|url=https://www.iltalehti.fi/politiikka/a/6012eca6-ad26-43e1-9176-0a9f96523bca|newspaper=Iltalehti|date=19 June 2019|accessdate=19 June 2019}}</ref>
+| data-sort-value="2019-06-14"| 4–14 Jun 2019
+| 1,510
+| 16.2
+| style="background:#FFF5CC;" |'''20.1'''
+| 17.2
+| 13.0
+| 13.6
+| 8.2
+| 4.8
+| 3.0
+| –
+| 3.9
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-2.9"| 2.9
+| 55.8 || 40.3
+|-
+| Taloustutkimus<ref>{{cite news|author=Jyrki Hara|title=Ylen kannatusmittaus: Perussuomalaisten etumatka kasvaa – hallitukseen lähtenyt keskusta vajoaa lisää|url=https://yle.fi/uutiset/3-10816424|publisher=Yle|date=7 June 2019|accessdate=7 June 2019}}</ref>
+| data-sort-value="2019-06-04"| 13 May–4 Jun 2019
+| 2,436
+| 17.4
+| style="background:#FFF5CC;" |'''19.5'''
+| 16.7
+| 12.4
+| 13.9
+| 7.8
+| 4.5
+| 3.6
+| 1.7
+| 2.5
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-2.1"| 2.1
+| – || –
+|-
+| Kantar TNS<ref>{{cite news|author=Teemu Muhonen|title=Sdp:n kannatus kääntyi nousuun, perussuomalaiset yhä suurin puolue|url=https://www.hs.fi/politiikka/art-2000006095506.html|newspaper=Helsingin Sanomat|date=5 June 2019|accessdate=5 June 2019}}</ref>
+| data-sort-value="2019-06-02"| 6 May–2 Jun 2019
+| 2,314
+| 17.5
+| style="background:#FFF5CC;" |'''18.2'''
+| 17.5
+| 13.2
+| 12.2
+| 8.5
+| 4.5
+| 3.9
+| 2.1
+| 2.4
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-0.7"| 0.7
+| – || –
+|-
+| Tietoykkönen<ref>{{cite news|author=Ossi Kurki-Suonio|title=Alma-gallup: Perussuomalaisilla hurja kannatusloikka kärkeen – SDP kovassa luisussa|url=https://www.iltalehti.fi/politiikka/a/2e5cc508-17df-4e84-a53b-c581c59d8f0c|newspaper=Iltalehti|date=16 May 2019|accessdate=16 May 2019}}</ref>
+| data-sort-value="2019-05-14"| 3–14 May 2019
+| 1,508
+| 16.4
+| style="background:#FFF5CC;" |'''19.2'''
+| 17.9
+| 13.4
+| 12.1
+| 9.4
+| 4.7
+| 3.5
+| –
+| 3.4
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-1.3"| 1.3
+| – || –
+|-
+| Taloustutkimus<ref>{{cite news|author=Antti Pilke|title=Ylen kannatusmittaus: Perussuomalaiset nousi kärkeen, vihreät kiri keskustan kiinni|url=https://yle.fi/uutiset/3-10774915|publisher=Yle|date=10 May 2019|accessdate=10 May 2019}}</ref>
+| data-sort-value="2019-05-07"| 15 Apr–7 May 2019
+| 1,961
+| 17.8
+| style="background:#FFF5CC;" |'''18.8'''
+| 16.9
+| 13.3
+| 13.3
+| 8.0
+| 4.0
+| 3.7
+| 1.7
+| 2.5
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-1.0"| 1.0
+| – || –
+|-
+| Kantar TNS<ref>{{cite news|author=Teija Sutinen|title=Perussuomalaiset nousi suurimmaksi puolueeksi – Hallitusta kokoava Sdp on nyt kolmantena|url=https://www.hs.fi/politiikka/art-2000006095506.html|newspaper=Helsingin Sanomat|date=6 May 2019|accessdate=6 May 2019}}</ref>
+| data-sort-value="2019-05-03"| 16 Apr–3 May 2019
+| 1,505
+| 16.9
+| style="background:#FFF5CC;" |'''18.7'''
+| 17.1
+| 12.7
+| 12.8
+| 8.3
+| 4.4
+| 4.1
+| 2.5
+| 2.0{{efn|[[Blue Reform|SIN]] with 0.5%}}
+| style="background:{{Finns Party/meta/color}};color:#000000;" data-sort-value="-1.6"| 1.6
+| – || –
+|- style="background:#E9E9E9;"
+| [[2019 Finnish parliamentary election|2019 election]]
+| data-sort-value="2019-04-14"| 14 Apr 2019
+| –
+| style="background:#FCCFCF;" |'''17.7'''
+| 17.5
+| 17.0
+| 13.8
+| 11.5
+| 8.2
+| 4.5
+| 3.9
+| 2.3
+| 3.7
+| style="background:{{Social Democratic Party of Finland/meta/color}};color:#FFFFFF;"| 0.2
+| – || –
+|}

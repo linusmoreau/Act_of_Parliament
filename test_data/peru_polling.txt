@@ -21,6 +21,14 @@
 |-
 | colspan="8" style="background:#A0A0A0"|
 |-
+| IEP/La Republica<ref>{{Cite web|date=2021-05-23|title=Encuesta IEP: Pedro Castillo supera a Keiko Fujimori por más de 10 puntos|url=https://larepublica.pe/elecciones/2021/05/23/encuesta-iep-pedro-castillo-supera-a-keiko-fujimori-por-mas-de-10-puntos-pltc/|url-status=live|archive-date=2021-05-20|website=larepublica.pe|language=es}}</ref>
+| 20–21 May 2021
+| 1,208
+| style="background:#FFD0D7" |'''44.8'''
+| 34.4
+| 12.8
+| 5.8
+|-
 | Datum/Gestión/Perú 21<ref>{{cite web|title=Simulacro Datum: Pedro Castillo sube punto y medio, Keiko Fujimori baja uno y voto blanco crece uno|url=https://peru21.pe/politica/simulacro-datum-pedro-castillo-sube-punto-y-medio-keiko-fujimori-baja-uno-y-voto-blanco-crece-uno-noticia/|website=peru21.pe|date=21 May 2021}}</ref>
 | 18–20 May 2021
 | 1,201

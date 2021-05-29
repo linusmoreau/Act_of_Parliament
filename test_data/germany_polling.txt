@@ -22,10 +22,88 @@
 ! style="background:{{The Left (Germany)/meta/color}};"|
 ! style="background:{{Alliance 90/The Greens/meta/color}};"|
 |-
+| [https://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2021-05-25"| 21–25 May 2021
+| 2,128
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 16
+| 11.5
+| 12.5
+| 6.5
+| 22
+| 5.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 4
+|-
+| [https://www.wahlrecht.de/umfragen/emnid.htm Kantar]
+| data-sort-value="2021-05-28"| 19–25 May 2021
+| 1,422
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 15
+| 12
+| 12
+| 7
+| 23
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 2
+|-
+| [https://www.wahlrecht.de/umfragen/ipsos.htm Ipsos]
+| data-sort-value="2021-05-28"| 18–25 May 2021
+| 2,014
+| –
+| style="background:#D7D5D7;"| '''25'''
+| 13
+| 13
+| 11
+| 9
+| 23
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 2
+|-
+| [https://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2021-05-27"| 21–24 May 2021
+| 1,706
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 15
+| 11
+| 12
+| 7
+| 22
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 4
+|-
+| [https://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2021-05-26"| 18–21 May 2021
+| 2,004
+| 24
+| 24
+| 14
+| 10
+| 13
+| 6
+| style="background:#DCEAD0;"| '''25'''
+| 8
+| style="background:{{Alliance 90/The Greens/meta/color}};color:#FFFFFF;" | 1
+|-
+| [https://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2021-05-23"| 17–21 May 2021
+| 1,405
+| –
+| style="background:#D7D5D7;"| '''24'''
+| 17
+| 12
+| 13
+| 6
+| 23
+| 5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 1
+|-
 | [https://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
 | data-sort-value="2021-05-07"| 18–20 May 2021
 | 1,229
-| –
+| 22
 | 24
 | 14
 | 11
@@ -168,7 +246,7 @@
 | [https://redfieldandwiltonstrategies.com/first-german-federal-election-voting-intention-5-6-may-2021/ Redfield & Wilton Strategies]
 | data-sort-value="2021-05-11"| 5–6 May 2021
 | 1,950
-| -
+| –
 | style="background:#D7D5D7;"| '''22'''
 | 16
 | 11

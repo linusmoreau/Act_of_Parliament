@@ -31,6 +31,23 @@
 ! style="background:{{Action (Italy)/meta/color}};"|
 ! style="background:{{Italia Viva/meta/color}};"|
 |-
+| 22 May
+| [https://www.dire.it/22-05-2021/636344-monitor-italia-boom-di-draghi-e-il-piu-amato-e-giorgia-meloni-supera-il-pd/ Tecnè]
+|
+| 16.7
+| 19.0
+| style="background:#D2EED9;"| '''21.1'''
+| 9.3
+| 19.1
+| 2.5
+|
+| 1.6
+|
+| 3.3
+| 2.0
+| 5.4
+| style="background:#008000; color:white;"| 2.0
+|-
 |20 May
 |[https://www.facebook.com/PiazzapulitaLA7/photos/pcb.4355259694493555/4355259324493592 Index]
 |800

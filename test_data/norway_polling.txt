@@ -6,16 +6,16 @@
 ! style="width:130px;" rowspan="2"| Fieldwork date
 ! style="width:35px;" rowspan="2"| Sample<br />size
 ! style="width:30px;" rowspan="2"| {{abbr|Resp.|Response rate}}
-! class="unsortable" style="width:40px;"| [[Red Party (Norway)|R]]
-! class="unsortable" style="width:40px;"| [[Socialist Left Party (Norway)|SV]]
-! class="unsortable" style="width:40px;"| [[Green Party (Norway)|MDG]]
-! class="unsortable" style="width:40px;"| [[Labour Party (Norway)|Ap]]
-! class="unsortable" style="width:40px;"| [[Centre Party (Norway)|Sp]]
-! class="unsortable" style="width:40px;"| [[Liberal Party (Norway)|V]]
-! class="unsortable" style="width:40px;"| [[Christian Democratic Party (Norway)|KrF]]
-! class="unsortable" style="width:40px;"| [[Conservative Party (Norway)|H]]
-! class="unsortable" style="width:40px;"| [[Progress Party (Norway)|FrP]]
-! class="unsortable" style="width:30px;" rowspan="2"| Others
+! class="unsortable" style="width:30px;"| [[Red Party (Norway)|R]]
+! class="unsortable" style="width:30px;"| [[Socialist Left Party (Norway)|SV]]
+! class="unsortable" style="width:30px;"| [[Green Party (Norway)|MDG]]
+! class="unsortable" style="width:30px;"| [[Labour Party (Norway)|Ap]]
+! class="unsortable" style="width:30px;"| [[Centre Party (Norway)|Sp]]
+! class="unsortable" style="width:30px;"| [[Liberal Party (Norway)|V]]
+! class="unsortable" style="width:30px;"| [[Christian Democratic Party (Norway)|KrF]]
+! class="unsortable" style="width:30px;"| [[Conservative Party (Norway)|H]]
+! class="unsortable" style="width:30px;"| [[Progress Party (Norway)|FrP]]
+! class="unsortable" style="width:20px;" rowspan="2"| Others
 ! style="width:30px;" rowspan="2"| Lead
 |-
 ! style="background:{{Red Party (Norway)/meta/color}};"|
@@ -27,6 +27,38 @@
 ! style="background:{{Christian Democratic Party (Norway)/meta/color}};"|
 ! style="background:{{Conservative Party (Norway)/meta/color}};"|
 ! style="background:{{Progress Party (Norway)/meta/color}};"|
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4339 Norstat]
+|18–25 May 2021
+|967
+|–
+|4.9
+|7.5
+|2.6
+|style="background:#F7BDC5;"| '''25.0'''
+|16.2
+|2.7
+|3.6
+|23.7
+|9.9
+|4.0
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="1.3"| 1.3
+|-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4341 Norstat]
+|20–24 May 2021
+|999
+|–
+|3.9
+|7.8
+|5.3
+|style="background:#F7BDC5;"| '''24.5'''
+|16.2
+|3.2
+|2.9
+|22.8
+|10.9
+|2.6
+|style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="1.7"| 1.7
 |-
 |[http://www.pollofpolls.no/?cmd=Maling&gallupid=4336 Sentio]
 | data-sort-value="2021-05-16"|11–16 May 2021
