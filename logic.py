@@ -142,6 +142,9 @@ class OpinionModifier(CustomObject):
     def identifier(self):
         return self.json_dump()
 
+    def get_effect(self):
+        return self.effect
+
 
 class Person(CustomObject):
     id_num = 0
@@ -182,20 +185,22 @@ class Person(CustomObject):
         if titles is None:
             self.titles = []
 
-        if opinions is None:
-            self.opinions: Dict[str, Dict[Union[str, int], List[OpinionModifier]]] = {}
-            # str: opinion type (e.g. person, party, org, etc.)
-            # Union(str, int): identifier for object of the opinion (person, org, etc.)
-            # OpinionModifier: information about how opinion is changed
-        else:
-            self.opinions = {}
+        self.opinions: Dict[str, Dict[Union[str, int], List[OpinionModifier]]] = {}
+        # str: opinion type (e.g. person, party, org, etc.)
+        # Union(str, int): identifier for object of the opinion (person, org, etc.)
+        # OpinionModifier: information about how opinion is changed
+        if opinions is not None:
             for subj, spec in opinions.items():
+                layer1 = {}
                 for obj, oms in spec.items():
+                    layer2 = []
                     for om in oms:
                         if not isinstance(om, OpinionModifier):
-                            self.opinions[subj][obj] = OpinionModifier(**om)
+                            layer2.append(OpinionModifier(**om))
                         else:
-                            self.opinions[subj][obj] = om
+                            layer2.append(om)
+                    layer1[obj] = layer2
+                self.opinions[subj] = layer1
 
         self.supports = supports
         self.best_opinion = best_opinion
@@ -263,17 +268,35 @@ class Person(CustomObject):
         return attr
 
     def do_turn(self):
-        new_age = date_kit.age(self.birthdate, data.game_state["date"])
-        self.age = new_age
+        self.age = date_kit.age(self.birthdate, data.game_state["date"])
+        self.consider_party(random.choice(list(parties.keys())))
 
-    def consider_parties(self, ballot):  # ballot is the tags (strings) of what parties are available in the region
+    def add_opinion(self, obj_type: str, obj_tag: Union[str, int], opinion: OpinionModifier):
+        if obj_type not in self.opinions:
+            self.opinions[obj_type] = {}
+        if obj_tag not in self.opinions[obj_type]:
+            self.opinions[obj_type][obj_tag] = []
+        self.opinions[obj_type][obj_tag].append(opinion)
+
+    def consider_party(self, party: str):
+        issue = random.choice(list(self.values.keys()))
+        effect = -abs(self.values[issue] - parties[party].values[issue]) * self.values_importance[issue]
+        opinion = OpinionModifier(effect, date=data.game_state['date'], desc='Policy (dis)agreement')
+        self.add_opinion('parties', party, opinion)
+
+    def consider_parties(self, ballot: List[str]):
+        # ballot is the tags (strings) of what parties are available in the region
         opinion_of_parties = {}
         for p in ballot:
-            party_opinion = 0
-            for issue in self.values:
-                policy_opinion = -abs(self.values[issue] - parties[p].values[issue]) * self.values_importance[issue]
-                party_opinion += policy_opinion
-            party_opinion = party_opinion / len(self.values)
+            # party_opinion = 0
+            # for issue in self.values:
+            #     policy_opinion = -abs(self.values[issue] - parties[p].values[issue]) * self.values_importance[issue]
+            #     party_opinion += policy_opinion
+            # party_opinion = party_opinion / len(self.values)
+            if 'parties' in self.opinions and p in self.opinions['parties']:
+                party_opinion = sum([modifier.get_effect() for modifier in self.opinions['parties'][p]])
+            else:
+                party_opinion = 0
             opinion_of_parties[p] = party_opinion
         best_party = toolkit.largest_in_dictionary(opinion_of_parties)
         self.supports = best_party  # party that is supported (string)
