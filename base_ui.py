@@ -1346,8 +1346,10 @@ class Image(Widget):
             self.width = self.cropped_x
             self.height = int(self.width / width * height)
         self.dimensions = (int(self.width), int(self.height))
-
-        self.surface = pygame.transform.smoothscale(surface, self.dimensions)
+        try:
+            self.surface = pygame.transform.smoothscale(surface, self.dimensions)
+        except ValueError:
+            self.surface = pygame.transform.scale(surface, self.dimensions)
         super().__init__(position, area, align, self.surface, catchable=catchable)
 
 
@@ -1433,7 +1435,7 @@ class ScrollDisplayBase(Widget):
 
 class ScrollButtonDisplay(ScrollDisplayBase):
 
-    def __init__(self, position, area, total_size, align=TOPLEFT, edge=DEFAULT_EDGE, button_size=None,
+    def __init__(self, position, area, total_size: int, align=TOPLEFT, edge=DEFAULT_EDGE, button_size=None,
                  colour=light_grey, parent=None):
         super().__init__(position, area, align, margin=edge, total_size=total_size + SHADOW, parent=parent,
                          catchable=True)
@@ -1445,6 +1447,9 @@ class ScrollButtonDisplay(ScrollDisplayBase):
         self.button_tags = {}
 
         self.draw_borders()
+
+    def add_select_buttons(self, buttons):
+        self.components.extend(buttons)
 
 
 class ScrollDisplay(ScrollDisplayBase):
@@ -1515,7 +1520,7 @@ class GraphDisplay(Widget):
         if self.x_min is None:
             self.x_min = min([min(self.dat[k].keys()) for k in self.dat])
         if self.x_max is None:
-            self.x_max = max([max(self.dat[k].keys()) for k in self.dat])  # current date
+            self.x_max = self.get_x_max()  # current date
         x_range = self.x_max - self.x_min
 
         if self.y_min is None:
@@ -1602,14 +1607,14 @@ class GraphDisplay(Widget):
         if self.on_top(mouse):
             Widget.new_cursor_type = 0
             if self.graph_rect.y < mouse[1] < self.graph_rect.y + self.graph_rect.h:
-                self.moment(mouse)
+                self.moment((mouse[0] - self.graph_rect.x) / self.x_scale)
                 return True
             else:
                 self.no_focus()
             return False
 
     def no_focus(self):
-        self.moment((self.graph_rect.right, 0))
+        self.moment(self.get_x_max() - self.x_min)
         Widget.change = True
 
     def handle(self, event, mouse):
@@ -1619,12 +1624,14 @@ class GraphDisplay(Widget):
         else:
             return False
 
-    def moment(self, pos):
-        place = (pos[0] - self.graph_rect.x) / self.x_scale
+    def get_x_max(self):
+        return max([max(self.dat[k].keys()) for k in self.dat])
+
+    def moment(self, place):
         if place < 0:
             place = 0
         elif place > self.x_max - self.x_min:
-            place = self.x_max - self.x_min
+            place = self.get_x_max() - self.x_min
         x = self.graph_rect.x + self.x_scale * place
         y_vals = {}
         for line in self.dat.keys():
