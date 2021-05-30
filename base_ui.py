@@ -641,7 +641,7 @@ class SelectButton(Button):
                         if self.state is not SELECT_STATE:
                             if self.parent is not None and self.exclusive:
                                 for comp in self.parent.select_buttons:
-                                    if comp is not self:
+                                    if comp is not self and comp.state is not DISABLE_STATE:
                                         comp.state = NORMAL_STATE
                                         comp.update()
                             self.state = SELECT_STATE
