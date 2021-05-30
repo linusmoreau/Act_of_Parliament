@@ -18,8 +18,10 @@ def choice_setting(choice):
         key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
         col = {'CDU/CSU': (0, 0, 0), 'Gr\u00fcne': (100, 161, 45), 'SPD': (235, 0, 31), 'FDP': (255, 237, 0),
                'AfD': (0, 158, 224), 'Linke': (190, 48, 117),
-               'Left': (235, 0, 31), 'Right': (0, 158, 224)}
+               'Left': (235, 0, 31), 'Right': (0, 0, 0),
+               'Government': (0, 0, 0), 'Opposition': (100, 161, 45)}
         blocs = {'Left': ['Gr\u00fcne', 'SPD', 'Linke'], 'Right': ['CDU/CSU', 'FDP', 'AfD']}
+        gov = {'Government': ['CDU/CSU', 'SPD'], 'Opposition': ['Gr\u00fcne', 'Linke', 'FDP', 'AfD']}
         file_name = 'test_data/germany_polling.txt'
         spread = 30
         start = 4
@@ -35,14 +37,18 @@ def choice_setting(choice):
     elif choice == 'Czechia':
         key = ['ANO', 'SPOLU', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD']
         col = {'ANO': (38, 16, 96), 'SPOLU': (35, 44, 119), 'Pirati+STAN': (0, 0, 0), 'SPD': (33, 117, 187),
-               'KSCM': (204, 0, 0), 'CSSD': (236, 88, 0)}
+               'KSCM': (204, 0, 0), 'CSSD': (236, 88, 0),
+               'Government': (38, 16, 96), 'Opposition': (0, 0, 0)}
+        gov = {'Government': ['ANO', 'KSCM', 'CSSD'], 'Opposition': ['SPOLU', 'Pirati+STAN', 'SPD']}
         file_name = 'test_data/czechia_polling.txt'
         spread = 60
         start = 4
     elif choice == 'Canada':
         key = ['CON', 'LIB', 'NDP', 'BQ', 'GPC', 'PPC']
         col = {'CON': (100, 149, 237), 'LIB': (234, 109, 106), 'NDP': (244, 164, 96), 'BQ': (135, 206, 250),
-               'GPC': (153, 201, 85), 'PPC': (131, 120, 158)}
+               'GPC': (153, 201, 85), 'PPC': (131, 120, 158),
+               'Government': (234, 109, 106), 'Opposition': (100, 149, 237)}
+        gov = {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GPC', 'PPC']}
         file_name = 'test_data/canada_polling.txt'
         spread = 60
         start = 3
@@ -58,9 +64,9 @@ def choice_setting(choice):
         date = 0
         start = 2
     elif choice == 'Cyprus':
-        key = ['DISY', 'AKEL', 'DIKO', 'EDEK-SYPOL', 'KA', 'KOP', 'ELAM', 'DIPA', 'Anex']
+        key = ['DISY', 'AKEL', 'DIKO', 'EDEK-SYPOL', 'KA', 'KOSP', 'ELAM', 'DIPA', 'Anex']
         col = {'DISY': (21, 105, 199), 'AKEL': (179, 27, 27), 'DIKO': (255, 126, 0), 'EDEK-SYPOL': (22, 79, 70),
-               'KA': (0, 75, 145), 'KOP': (127, 255, 0), 'ELAM': (0, 0, 0), 'DIPA': (255, 126, 0),
+               'KA': (0, 75, 145), 'KOSP': (127, 255, 0), 'ELAM': (0, 0, 0), 'DIPA': (255, 126, 0),
                'Anex': (68, 36, 100)}
         file_name = 'test_data/cyprus_polling.txt'
         date = 0
@@ -94,7 +100,7 @@ def choice_setting(choice):
                'Red-Greens': (237, 27, 52), 'Alliance': (245, 137, 28),
                'Government': (237, 27, 52), 'Opposition': (245, 137, 28)}
         blocs = {'Red-Greens': ['S', 'V', 'MP'], 'Alliance': ['C', 'L', 'M', 'KD'], 'SD': ['SD']}
-        # blocs.update({'Government': ['S', 'MP', 'V', 'C', 'L'], 'Opposition': ['M', 'KD', 'SD']})
+        gov = {'Government': ['S', 'MP', 'V', 'C', 'L'], 'Opposition': ['M', 'KD', 'SD']}
         file_name = 'test_data/sweden_polling.txt'
         start = 3
         restart = 'http'
@@ -132,11 +138,13 @@ def choice_setting(choice):
 def make_graph(dat, view, choice, spread, election, col, blocs, gov):
     global graph
 
-    if view == 'blocs' or view == 'both':
-        if blocs is None:
-            return
+    if view in ['blocs', 'gov']:
+        if view == 'blocs':
+            relev = blocs
+        else:
+            relev = gov
         bdat = {}
-        for b, ps in blocs.items():
+        for b, ps in relev.items():
             bdat[b] = {}
             for p in ps:
                 for x, ys in dat[p].items():
@@ -149,10 +157,10 @@ def make_graph(dat, view, choice, spread, election, col, blocs, gov):
                             bdat[b][x][i] += count
                     else:
                         bdat[b][x] = ys.copy()
-        if view == 'both':
-            dat.update(bdat)
-        else:
-            dat = bdat
+        # if view == 'both':
+        #     dat.update(bdat)
+        # else:
+        dat = bdat
 
     for line, vals in dat.items():
         for x, ys in vals.items():
@@ -314,6 +322,8 @@ def change_setting(change, dat, view, choice, spread, election, col, blocs, gov)
         view = 'blocs'
     elif change == 1:
         view = 'parties'
+    elif change == 2:
+        view = 'gov'
     make_graph(dat, view, choice, spread, election, col, blocs, gov)
 
 
@@ -349,12 +359,24 @@ def graph_page(choice, view='parties', to_election=False):
     bloc_button = SelectButton((screen_width - 3/2 * unit_size, height * 2/3),
                                (unit_size, unit_size),
                                align=CENTER, label="BLOC", parent=pinboard)
+    pinboard.select_buttons.append(bloc_button)
     bloc_button.callback(functools.partial(change_setting, 0, dat, view, choice, spread, election, col, blocs, gov))
     bloc_button.release_callback(
         functools.partial(change_setting, 1, dat, view, choice, spread, election, col, blocs, gov))
     if blocs is None:
         bloc_button.disable()
     bloc_button.show()
+
+    gov_button = SelectButton((screen_width - 3 * unit_size, height * 2 / 3),
+                              (unit_size, unit_size),
+                              align=CENTER, label="GOV", parent=pinboard)
+    pinboard.select_buttons.append(gov_button)
+    gov_button.callback(functools.partial(change_setting, 2, dat, view, choice, spread, election, col, blocs, gov))
+    gov_button.release_callback(
+        functools.partial(change_setting, 1, dat, view, choice, spread, election, col, blocs, gov))
+    if gov is None:
+        gov_button.disable()
+    gov_button.show()
 
     make_graph(dat, view, choice, spread, election, col, blocs, gov)
 
@@ -374,9 +396,10 @@ def menu_page():
                    (display.contain_rect.w, button_size), parent=display)
         b.callback(functools.partial(graph_page, entry))
         img_path = 'images/flags/' + entry.lower() + '.png'
-        img = Image((b.rect.centerx - b.rect.w / 8, b.rect.centery), (b.rect.h * 3/4, b.rect.h * 3/4),
-                    img_path, align=RIGHT)
-        label = Text(entry.upper(), (b.rect.centerx - b.rect.w / 16, b.rect.centery), 24, align=LEFT)
+        img = Image((b.rect.centerx + b.rect.w / 8, b.rect.centery), (b.rect.h * 3/4, b.rect.h * 3/4),
+                    img_path, align=LEFT)
+        label = Text(entry.upper(), (b.rect.centerx + b.rect.w / 16, b.rect.centery), 24, align=RIGHT,
+                     background_colour=display.colour)
         b.components.append(img)
         b.components.append(label)
         buttons.append(b)
