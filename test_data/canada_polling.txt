@@ -3,8 +3,8 @@
 [[File:Opinion polling during the pre-campaign period of the 44th Canadian federal election.svg|800px|thumb|left|Evolution of voting intentions according to polls conducted during the pre-campaign period of the 44th Canadian federal election, graphed from the data in the table below. Trendlines are [[local regression]]s, with polls weighted by proximity in time and a [[Logarithmic growth|logarithmic function]] of sample size. 95% confidence ribbons represent uncertainty about the trendlines, not the likelihood that actual election results would fall within the intervals.]]
 {{clear}}
 
-{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px"
-|- style="height:10px"
+{| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px"
+|-
 ! style="width:105px" rowspan="2"| Polling firm
 ! style="width:105px" rowspan="2"| Last date<br>of polling{{ref label|order|1|1}}
 ! rowspan="2"| Link
@@ -26,7 +26,14 @@
 ! style="background:{{Canadian party colour|CA|BQ}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|Green}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|PPC}}" data-sort-type="number"|
+|-
+| [[Léger Marketing|Leger]] || {{dts|May 23, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Legers-North-American-Tracker-May-25th-2021_v2.pdf PDF] || 30 || {{Party shading/Liberal}}|'''34''' || 19 || 7 || 7 || {{n/a}} || 3 || ±2.43 pp || 1,624 || online || {{Party shading/Liberal}}|'''4'''
+|-
+| [[Mainstreet Research]] || {{dts|May 23, 2021}} || [https://ipolitics.ca/wp-content/uploads/2021/05/Canada-iPolitics-25may2021.pdf PDF] || 31.4 || {{Party shading/Liberal}}|'''37.2''' || 13.3 || 5.2 || 6.9 || {{n/a}} || 6.0 || ±2.7 pp || 1,332 || IVR || {{Party shading/Liberal}}|'''5.8'''
+|-
 | [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|May 17, 2021}} || [https://angusreid.org/wp-content/uploads/2021/05/2021.05.20_federal_politics.pdf PDF] || 32 || {{Party shading/Liberal}}|'''34''' || 18 || 7 || 5|| {{n/a}} || 4 || ±2.5 pp || 1,601 || online || {{Party shading/Liberal}}|'''2'''
+|-
+| [[Léger Marketing|Leger]] || {{dts|May 16, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/PostMedia_NationalPost_COVIDTrustMay2021.pdf PDF] || 31 || {{Party shading/Liberal}}|'''32''' || 19 || 7 || 8 || {{n/a}} || 2 || ±2.5 pp || 1,516 || online || {{Party shading/Liberal}}|'''1'''
 |-
 | [[Ipsos]] || {{dts|May 14, 2021}} || [https://www.ipsos.com/en-ca/news-polls/liberals-in-drivers-seat-over-conservatives-as-vaccination-rollout-hits-its-stride HTML] || 29 || {{Party shading/Liberal}}|'''38''' || 21 ||  6 || 5 || 1 || 1 || ±3.5 pp || 1,001 || online || {{Party shading/Liberal}}|'''9'''
 |-
@@ -42,7 +49,7 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|April 25, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Legers-North-American-Tracker-April-26th-2021-compressed.pdf PDF] || 28 || {{Party shading/Liberal}}|'''34''' || 20 || 7 || 7 || {{n/a}} || 4 || ±2.48 pp || 1,548 || online || {{Party shading/Liberal}}|'''6'''
 |-
-| [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|April 25, 2021}} || [https://angusreid.org/federal-politics-budget-2021/ HTML] || 32 || {{Party shading/Liberal}}|'''34''' || 20 || 7 || 5|| {{n/a}} || 5 || ±2.2 pp || 2,008 || online || {{Party shading/Liberal}}|'''2'''
+| [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|April 25, 2021}} || [https://angusreid.org/wp-content/uploads/2021/04/2021.04.27_Fed_Vote_Budget-1.pdf PDF] || 32 || {{Party shading/Liberal}}|'''34''' || 20 || 7 || 5|| {{n/a}} || 5 || ±2.2 pp || 2,008 || online || {{Party shading/Liberal}}|'''2'''
 |-
 | [[Abacus Data]] || {{dts|April 25, 2021}} || [https://abacusdata.ca/post-budget-liberals-lead-abacus-data/ HTML] || 29 || {{Party shading/Liberal}}|'''36''' || 17 ||  7 || 7 || 2 || 1 || ±2.1 pp || 2,201 || online || {{Party shading/Liberal}}|'''7'''
 |-
@@ -204,7 +211,7 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|October 4, 2020}} || [https://leger360.com/wp-content/uploads/2020/10/Legers-Weekly-Survey-October-5th-2020.pdf PDF] || 32 || {{Party shading/Liberal}}|'''36''' || 20 || 7 || 4 || {{n/a}} || 1 || ±2.51 pp || 1,523 || online || {{Party shading/Liberal}}|'''4'''
 |-
-|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|October 3, 2020}}''' || colspan="12" style="border-right-style:hidden;" | '''[[Annamie Paul]] is elected leader of the Green Party'''
+|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|October 3, 2020}}''' || colspan="12"| '''[[Annamie Paul]] is elected leader of the Green Party'''
 |-
 | [[Ipsos]] || {{dts|October 1, 2020}} || [https://www.ipsos.com/en-ca/liberals-36-3-bounce-ahead-conservatives-31-1-after-throne-speech-and-pms-televised-address HTML] || 31 || {{Party shading/Liberal}}|'''36''' || 18 || 7 || 6 || {{n/a}} || 1 || ±3.5 pp || 1,000 || online || {{Party shading/Liberal}}|'''5'''
 |-
@@ -244,7 +251,7 @@
 |-
 | [[Nanos Research]] || {{dts|August 28, 2020}} || [https://twitter.com/CTVNews/status/1301964153293336576 Twitter] || 31 || {{Party shading/Liberal}}|'''33''' || 18 || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 || telephone/online (rolling) || {{Party shading/Liberal}}|'''2'''
 |-
-|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|August 24, 2020}}''' || colspan="12" style="border-right-style:hidden;" | '''[[Erin O'Toole]] is elected leader of the Conservative Party'''
+|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|August 24, 2020}}''' || colspan="12"| '''[[Erin O'Toole]] is elected leader of the Conservative Party'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|August 23, 2020}} || [https://leger360.com/wp-content/uploads/2020/08/Legers-Weekly-Survey-august-24th-2020.pdf PDF] || 30 || {{Party shading/Liberal}}|'''38''' || 18 || 7 || 6 || {{n/a}} || 2 || ±2.52 pp || 1,516 || online || {{Party shading/Liberal}}|'''8'''
 |-
@@ -370,7 +377,7 @@
 |-
 | [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|December 15, 2019}} || [http://angusreid.org/wp-content/uploads/2019/12/2019.12.16_federal_issues.pdf PDF] || {{Party shading/Conservative (Canada)}}|'''33''' || 30 || 19 || 8 || 7 || {{n/a}} || 3 || ±2.0 pp || 2,011 || online || {{Party shading/Conservative (Canada)}}|'''3'''
 |-
-|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|December 12, 2019}}''' || colspan="12" style="border-right-style:hidden;" | '''[[Andrew Scheer]] announces his intention to resign as the leader of the [[Conservative Party of Canada|Conservative Party]]'''
+|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|December 12, 2019}}''' || colspan="12"| '''[[Andrew Scheer]] announces his intention to resign as the leader of the [[Conservative Party of Canada|Conservative Party]]'''
 |-
 | [[Ekos Research Associates|EKOS]] || {{dts|December 10, 2019}} || [https://www.ekospolitics.com/wp-content/uploads/full_report_december_12_2019.pdf PDF] || 29.6 || {{Party shading/Liberal}}|'''31.1''' || 16.8 || 5.8 || 9.8 || 4.2 || 2.7 || ±2.0 pp || 2,339 || IVR || {{Party shading/Liberal}}|'''1.5'''
 |-
@@ -378,14 +385,15 @@
 |-
 | [[Nanos Research]] || {{dts|November 22, 2019}} || [https://www.hilltimes.com/2019/12/02/change-from-a-celebrity-to-a-humble-leader-right-approach-for-trudeau-but-unclear-if-its-an-actual-conversion-or-just-a-different-role-for-now/226649 HTML] || 30.9 || {{Party shading/Liberal}}|'''33.6''' || 17.2 || {{n/a}} || 9.2 || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 (3/4) || telephone (rolling) ||{{Party shading/Liberal}} | '''2.7'''
 |-
-|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|November 4, 2019}}''' || colspan="12" style="border-right-style:hidden;" | '''[[Jo-Ann Roberts]] is named interim leader of the Green Party'''
+|style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|November 4, 2019}}''' || colspan="12"| '''[[Jo-Ann Roberts]] is named interim leader of the Green Party'''
 |-
 | [[Nanos Research]] || {{dts|November 1, 2019}} || [https://www.ctvnews.ca/politics/no-honeymoon-period-for-liberals-who-remain-deadlocked-with-conservatives-after-election-nanos-1.4671649 HTML] || {{Party shading/Conservative (Canada)}}|'''32.5''' || 31.1 || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) || {{Party shading/Conservative (Canada)}}|'''1.4'''
-|- style="background:Darkgrey"
-| colspan="14" |
-|- style="background:#FFD"
-| ''[[2019 Canadian federal election|2019 election]]''{{ref label|2019 results|7|7}} || {{dts|October 21, 2019}} || [https://www.elections.ca/res/rep/off/ovr2019app/51/table9E.html HTML] || style="background:#FFD" {{Party shading/Conservative (Canada)}}|'''''34.3''''' || ''33.1'' || ''16.0'' || ''7.6''|| ''6.5'' || ''1.6'' || ''0.9'' || || || || {{Party shading/Conservative (Canada)}} | '''''1.2'''''
+|-
+! colspan="14" |
+|-
+| style="background:#ffd"| ''[[2019 Canadian federal election|2019 election]]''{{ref label|2019 results|7|7}} ||style="background:#ffd"| {{dts|October 21, 2019}} ||style="background:#ffd"| [https://www.elections.ca/res/rep/off/ovr2019app/51/table9E.html HTML] ||{{Party shading/Conservative (Canada)}}| '''''34.3''''' ||style="background:#ffd"| ''33.1'' ||style="background:#ffd"| ''16.0'' ||style="background:#ffd"| ''7.6''||style="background:#ffd"| ''6.5'' ||style="background:#ffd"| ''1.6'' ||style="background:#ffd"| ''0.9'' ||{{n/a}} ||style="background:#ffd"|18,170,880 ||{{n/a}} || {{Party shading/Conservative (Canada)}}| '''''1.2'''''
 |}
+
 ===Campaign period===
 [[File:Opinion polling during the campaign period of 2019 Canadian federal election.svg|800px|thumb|left|Evolution of voting intentions according to polls conducted during the 2019 Canadian federal election campaign, graphed from the data in the table below. Trendlines are [[local regression]]s, with polls weighted by proximity in time and a [[Logarithmic growth|logarithmic function]] of sample size. 95% confidence ribbons represent uncertainty about the trendlines, not the likelihood that actual election results would fall within the intervals.]]
 {{clear}}

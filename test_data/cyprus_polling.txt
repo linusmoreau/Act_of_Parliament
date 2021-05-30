@@ -9,7 +9,7 @@
 ! style="font-size:95%"| [[Movement for Social Democracy|EDEK]]
 ! style="font-size:95%"| [[Citizens' Alliance (Cyprus)|SYPOL]]
 ! style="font-size:95%"| [[Solidarity Movement (Cyprus)|KA]]
-! style="font-size:95%"| [[Ecological and Environmental Movement|KOP]]
+! style="font-size:95%"| [[Ecological and Environmental Movement|KOSP]]
 ! style="font-size:95%"| [[ELAM (Cyprus)|ELAM]]
 ! style="font-size:95%"| [[Democratic Front (Cyprus)|DIPA]]
 ! style="font-size:95%"| Anex
@@ -27,64 +27,50 @@
 ! style="background:#FF7E00; width:40px;"|
 ! style="background:#442464; width:40px;"|
 |-
-| 17–21 May 2021
-| [https://twitter.com/EuropeElects/status/1396588089557016582 Pulse]
-| style="background:#C8D9EC"| '''25.5'''
-| 23.4
-| 12.8
-| colspan="2" |6.4
-| 2.8
-| 7.1
-| 7.8
-| 3.5
-| 3.5
-| 7.2{{efn|Hunters’ Party 2.1%, Famagusta for Cyprus 1.4%}}
-| style="background:#1569C7; color:white;"| 2.1
-|-
-| 10-18 May 2021
-| [https://twitter.com/EuropeElects/status/1396586209741352971 Cypronetwork]
-| style="background:#C8D9EC"| '''25.2'''
-| 23.4
+| 14-20 May 2021
+| [https://m.kathimerini.com.cy/gr/politiki/boyleytikes-ekloges/boyleytikes-dimoskopiseis-grafika/dimoskopisi-k-syrriknosi-ton-megalon-adynamia-kefalaiopoiisis-ton-mikrwn Symmetron]
+| style="background:#C8D9EC"| '''26.3'''
+| 24.9
 | 12.4
-| colspan="2" |7.2
-| 3.7
-| 6.9
-| 5.9
-| 3.7
-| 5.8
-| 5.8{{efn|Hunters’ Party 2.0%, Famagusta for Cyprus 1.7%, Animal Party Cyprus 1.1%}}
-| style="background:#1569C7; color:white;"| 3.1
+| colspan="2" |6.2
+|
+| 6.2
+| 6.7
+| 4.9
+|
+|
+| style="background:#1569C7; color:white;"| 1.4
 |-
 | 5-15 May 2021
-| [https://twitter.com/EuropeElects/status/1396587878231248897 IMR/UNic]
-| style="background:#C8D9EC"| '''26.4'''
-| 23.9
-| 11.9
-| colspan="2" |6.9
-| 1.9
-| 6.9
-| 6.9
-| 3.8
-| 3.1
-| 8.3{{efn|Hunters’ Party 1.9%}}
-| style="background:#1569C7; color:white;"| 2.5
+| [https://riknews.com.cy/article/2021/5/22/ti-katedeixe-e-teleutaia-megale-demoskopese-tou-rik-gia-tis-bouleutikes-ekloges/ IMR/UNic]
+| style="background:#C8D9EC"| '''21.0'''
+| 19.0
+| 9.5
+| colspan="2" |5.5
+| 1.5
+| 5.5
+| 5.5
+| 3.0
+| 2.5
+| 6.5{{efn|Hunters’ Party 1.5%}}
+| style="background:#1569C7; color:white;"| 2.0
 |-
 | 10-14 May 2021
-| [https://twitter.com/EuropeElects/status/1396585907004837890 Prime]
-| style="background:#C8D9EC"| '''25.8'''
-| 23.5
-| 13.2
-| colspan="2" |5.8
-| 1.6
+| [https://www.sigmalive.com/news/politics/vouleftikes2021/786863/vouleftikes-2021ta-apotelesmata-tis-dimoskopisis-sigma-9-meres-prin-tin-kalpi Prime]
+| style="background:#C8D9EC"| '''25.7'''
+| 23.4
+| 13.0
+| colspan="2" |5.7
+| 1.5
 | 5.4
 | 6.8
-| 3.6
-| 3.6
-| 10.3{{efn|Hunters’ Party 2.6%, Animal Party Cyprus 1.6%, Famagusta for Cyprus 1.4%, A2020 0.8%}}
-| style="background:#1569C7; color:white;"| 2.1
+| 3.5
+| 3.4
+| 11.5
+| style="background:#1569C7; color:white;"| 2.3
 |-
 | 5-13 May 2021
-| [https://twitter.com/EuropeElects/status/1393962517228048390 Noverna]
+| [https://politis.com.cy/politis-news/kypros/dimoskopisi-politi-i-proteyoysa-machi-metaxy-disy-akel/ Noverna]
 | style="background:#C8D9EC"| '''26.1'''
 | 24.8
 | 10.7
@@ -98,21 +84,21 @@
 | style="background:#1569C7; color:white;"| 1.3
 |-
 | 6-12 May 2021
-| [https://twitter.com/EuropeElects/status/1393962875367170050 Prime]
-| style="background:#C8D9EC"| '''25.6'''
-| 23.5
-| 12.9
-| colspan="2" |5.7
-| 2.4
-| 6.2
-| 6.7
-| 3.8
-| 3.3
-| 9.9{{efn|Hunters’ Party 3.0%}}
-| style="background:#1569C7; color:white;"| 2.1
+| [https://cyprustimes.com/vouleftikes/dimoskopisi-cyprus-times-maches-se-tria-metopa-stis-voyleytikes/ Prime]
+| style="background:#C8D9EC"| '''18.8'''
+| 17.3
+| 9.5
+| colspan="2" |4.2
+| 1.8
+| 4.6
+| 4.9
+| 2.8
+| 2.5
+| 7.2{{efn|Hunters’ Party 2.2%}}
+| style="background:#1569C7; color:white;"| 1.5
 |-
 | 4-12 May 2021
-| [https://twitter.com/EuropeElects/status/1395268540723249166 CYMAR]
+| [https://www.ant1.com.cy/news/vouleutikes-2021/%CE%94%CE%97%CE%9C%CE%9F%CE%A3%CE%9A%CE%9F%CE%A0%CE%97%CE%A3%CE%95%CE%99%CE%A3/article/423957/analutika-i-deuteri-megali-dimoskopisi-tou-ad1-gia-tis-vouleutikes-ekloges-/?expandedarticle=true CYMAR]
 | style="background:#C8D9EC"| '''26.9'''
 | 22.9
 | 14.3
@@ -126,21 +112,21 @@
 | style="background:#1569C7; color:white;"| 4.0
 |-
 | 4-7 May 2021
-| [https://twitter.com/EuropeElects/status/1392391529046679554 Pulse]
-| style="background:#C8D9EC"| '''25.7'''
-| 22.9
-| 12.1
-| colspan="2" |5.7
-| 2.9
-| 7.1
-| 7.1
-| 3.6
-| 3.6
-| 9.3{{efn|Famagusta for Cyprus 2.1%, Hunters’ Party 2.1%, A2020 1.4%}}
-| style="background:#1569C7; color:white;"| 2.8
+| [https://www.alphanews.live/dimoskopisi-alpha-ola-anoihta-gia-tin-protia-mahi-gia-tin-tetarti-thesi Pulse]
+| style="background:#C8D9EC"| '''25.0'''
+| 23.0
+| 12.0
+| colspan="2" |6.0
+| 3.0
+| 7.0
+| 7.0
+| 3.5
+| 3.5
+| 9.0{{efn|Famagusta for Cyprus 2.0%, Hunters’ Party 2.0%, A2020 1.5%}}
+| style="background:#1569C7; color:white;"| 2.0
 |-
 | 7-23 Apr 2021
-| [https://twitter.com/EuropeElects/status/1386948146677358592 Noverna]
+| [https://politis.com.cy/politis-news/kypros/dimoskopisi-noverna-gia-logariasmo-toy-politi-poia-kommata-mpainoyn-sti-nea-voyli/ Noverna]
 | style="background:#C8D9EC"| '''28.4'''
 | 26.9
 | 12.9
@@ -154,7 +140,7 @@
 | style="background:#1569C7; color:white;"| 1.5
 |-
 | 13-17 Apr 2021
-| [https://twitter.com/EuropeElects/status/1385521925221404672 Cypronetwork]
+| [https://politis.com.cy/wp-content/uploads/2021/04/cards.pdf Cypronetwork]
 | style="background:#C8D9EC"| '''25.8'''
 | 22.7
 | 14.0
@@ -168,7 +154,7 @@
 | style="background:#1569C7; color:white;"| 3.1
 |-
 | 12-16 Apr 2021
-| [https://twitter.com/EuropeElects/status/1385521121831882752 Prime]
+| [https://politis.com.cy/wp-content/uploads/2021/04/4%CE%B7-%CE%94%CE%97%CE%9C%CE%9F%CE%A3%CE%9A%CE%9F%CE%A0%CE%97%CE%A3%CE%97-%CE%A4%CE%97%CE%9B%CE%95%CE%9F%CE%A1%CE%91%CE%A3%CE%97-%CE%A3%CE%99%CE%93%CE%9C%CE%91-22%CE%91%CE%A0%CE%A1%CE%99%CE%9B%CE%99%CE%9F%CE%A5-2021.pdf Prime]
 | style="background:#C8D9EC"| '''26.3'''
 | 24.0
 | 13.3
@@ -182,7 +168,7 @@
 | style="background:#1569C7; color:white;"| 2.3
 |-
 | 31 Mar-16 Apr 2021
-| [https://twitter.com/EuropeElects/status/1385521522455060483 IMR/UNic]
+| [https://riknews-live-3b6a59f16159442b91f0247e09-b5029b8.divio-media.org/documents/DHMOSKOPISI_RIK_2021.pdf IMR/UNic]
 | style="background:#C8D9EC"| '''27.2'''
 | 24.5
 | 13.6
@@ -196,7 +182,7 @@
 | style="background:#1569C7; color:white;"| 2.7
 |-
 | 2-9 Apr 2021
-| [https://twitter.com/EuropeElects/status/1381620363000418311 Symmetron]
+| [https://www.kathimerini.com.cy/gr/politiki/dimoskopiseis/1-to-toxiko-klima-enisxyei-elam-theologoy Symmetron]
 | style="background:#C8D9EC"| '''26.4'''
 | 23.9
 | 14.5
@@ -210,7 +196,7 @@
 | style="background:#1569C7; color:white;"| 2.5
 |-
 | 26 Mar-9 Apr 2021
-| [https://twitter.com/EuropeElects/status/1383060737195663361 CYMAR]
+| [https://www.philenews.com/eidiseis/politiki/article/1171908/dimoskopisi-ant1-polykommatiki-boyli-i-katanomi-edron CYMAR]
 | style="background:#C8D9EC"| '''28.1'''
 | 24.6
 | 12.0
@@ -224,7 +210,7 @@
 | style="background:#1569C7; color:white;"| 3.5
 |-
 | 9 Mar - 4 Apr 2021
-| [https://twitter.com/EuropeElects/status/1383061188620193803 Conread]
+| [https://www.philenews.com/eidiseis/politiki/article/1161668/dimoskopisi-f-ntermpi-se-ola-ta-metopa Conread]
 | style="background:#C8D9EC"| '''26.9'''
 | 22.1
 | 14.1
@@ -237,22 +223,8 @@
 | 7.4{{efn|People's Breath 0.5%}}
 | style="background:#1569C7; color:white;"| 4.8
 |-
-| 21-30 Mar 2021
-| [https://twitter.com/EuropeElects/status/1378803304495509504 Cypronetwork]
-| style="background:#C8D9EC"| '''26.2'''
-| 22.5
-| 13.1
-| colspan="2" |6.0
-| 2.6
-| 6.6
-| 7.4
-| 3.9
-| 6.7
-| 5.0{{efn|[[Animal Party Cyprus]] 1.9%}}
-| style="background:#1569C7; color:white;"| 2.7
-|-
 | 8-20 Mar 2021
-| [https://twitter.com/EuropeElects/status/1375523451713286147 IMR/UNic]
+| [https://www.kathimerini.com.cy/gr/politiki/boyleytikes-ekloges/dimoskopisi-rik-stis-dyo-monades-diafora-disy-akel IMR/UNic]
 | style="background:#C8D9EC"| '''26.0'''
 | 23.3
 | 14.4
@@ -266,7 +238,7 @@
 | style="background:#1569C7; color:white;"| 2.7
 |-
 | 8-18 Mar 2021
-| [https://twitter.com/EuropeElects/status/1375523137513750530 Pulse]
+| [https://www.alphanews.live/dimoskopisi-alpha-poio-komma-kanei-tin-megali-ekplixi-grafika Pulse]
 | style="background:#C8D9EC"| '''25.8'''
 | 21.2
 | 13.6
@@ -280,7 +252,7 @@
 | style="background:#1569C7; color:white;"| 4.8
 |-
 | 8-12 Mar 2021
-| [https://twitter.com/EuropeElects/status/1327321222615592961 Prime]
+| [https://www.sigmalive.com/news/politics/755232/deite-ti-nea-megali-dimoskopisi-tou-sigma-gia-tis-vouleftikes-tou-mai Prime]
 | style="background:#C8D9EC"| '''23.9'''
 | 21.3
 | 11.9
@@ -295,7 +267,7 @@
 | style="background:#1569C7; color:white;"| 2.6
 |-
 | 25 Feb - 2 Mar 2021
-| [https://twitter.com/EuropeElects/status/1370040763619418114 GPO]
+| [https://dialogos.com.cy/diafthora-oikonomia-plittoyn-kairia-tin-kyvernisi/ GPO]
 | style="background:#C8D9EC"| '''28.1'''
 | 26.3
 | 13.8
@@ -309,7 +281,7 @@
 | style="background:#1569C7; color:white;"| 2.3
 |-
 | 12-19 Feb 2021
-| [https://twitter.com/EuropeElects/status/1363878670885138433 Symmetron]
+| [https://www.kathimerini.com.cy/gr/politiki/dimoskopiseis/1-se-kathestws-eleytheris-ptwsis-i-kybernisi Symmetron]
 | style="background:#C8D9EC"| '''26.9'''
 | 22.0
 | 14.2
@@ -323,7 +295,7 @@
 | style="background:#1569C7; color:white;"| 4.9
 |-
 | 1-6 Feb 2021
-| [https://twitter.com/EuropeElects/status/1360654598235684873 Prime]
+| [https://www.sigmalive.com/news/politics/738794/deite-ti-megali-dimoskopisi-tou-sigma-gia-tis-vouleftikes-ekloges-tou-maiou Prime]
 | style="background:#C8D9EC"| '''28.4'''
 | 24.5
 | 13.5
@@ -337,7 +309,7 @@
 | style="background:#1569C7; color:white;"| 3.9
 |-
 | 20-25 Jan 2021
-| [https://twitter.com/EuropeElects/status/1356671061010624512 Interview]
+| [https://politis.com.cy/politis-news/kypros/dimoskopisi-tis-interview-gia-logariasmo-toy-p-apogoiteymenoi-oi-polites-proto-komma-o-disy/ Interview]
 | style="background:#C8D9EC"| '''30.0'''
 | 20.5
 | 12.0
@@ -351,7 +323,7 @@
 | style="background:#1569C7; color:white;"| 9.5
 |-
 | 16-23 Oct 2020
-| [https://twitter.com/EuropeElects/status/1327321222615592961 Prime]
+| [https://www.philenews.com/eidiseis/politiki/article/1058539 Prime]
 | style="background:#C8D9EC"| '''30.5'''
 | 26.1
 | 13.2
