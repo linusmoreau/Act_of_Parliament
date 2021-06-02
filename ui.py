@@ -2,6 +2,7 @@ import logic
 import random
 import data
 import threading
+import time
 from base_ui import *
 from collections import OrderedDict
 
@@ -1735,7 +1736,7 @@ class ToolBar(Widget):
         }
 
         self.back_button = Button((3 / 2 * self.unit_size, self.height / 2), (self.unit_size, self.unit_size),
-                             align=CENTER, parent=self)
+                                  align=CENTER, parent=self)
         img = Image(self.back_button.rect.center,
                     (self.back_button.rect.width * 3 / 4, self.back_button.rect.height * 3 / 4),
                     "images/arrow.png")
@@ -1959,10 +1960,6 @@ def terminate():
     raise SystemExit
 
 
-def get_all_wids():
-    return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances
-
-
 def game_start():
     set_cursor(0)
     pygame.display.set_caption(data.game_title)
@@ -1974,7 +1971,13 @@ def game_start():
 
 
 def game_loop():
+    def get_all_wids():
+        return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances + [fps]
+
     old_mouse = pygame.mouse.get_pos()
+    frame = 0
+    t = time.time()
+    fps = Text('', (0, 0), align=TOPLEFT)
     while True:
         mouse = pygame.mouse.get_pos()
 
@@ -2034,6 +2037,14 @@ def game_loop():
             pygame.display.update()
             Widget.change = False
         old_mouse = mouse
+
+        frame += 1
+        nt = time.time()
+        dif = nt - t
+        if dif >= 1:
+            fps.update('FPS: ' + str(round(frame / dif)), align=TOPLEFT, pos=(0, 0))
+            t = nt
+            frame = 0
 
         clock.tick(60)
 
