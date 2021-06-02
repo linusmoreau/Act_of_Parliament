@@ -1,0 +1,1066 @@
+== Poll results ==
+{{For|the events during those years|2019 in Austria|2020 in Austria}}
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! rowspan="2"| Polling firm
+! rowspan="2"| Fieldwork date
+! rowspan="2"| Sample<br>size
+! rowspan="2"| Method
+! class="unsortable" style="width:60px;"| [[Austrian People's Party|ÖVP]]
+! class="unsortable" style="width:60px;"| [[Social Democratic Party of Austria|SPÖ]]
+! class="unsortable" style="width:60px;"| [[Freedom Party of Austria|FPÖ]]
+! class="unsortable" style="width:60px;"| [[The Greens – The Green Alternative|Grüne]]
+! class="unsortable" style="width:60px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
+! class="unsortable" style="width:60px;"| Others
+! rowspan="2" class="unsortable" style="width:60px;" | Lead
+|-
+! style="background:{{Austrian People's Party (2017)/meta/color}};"|
+! style="background:{{Social Democratic Party of Austria/meta/color}};"|
+! style="background:{{Freedom Party of Austria/meta/color}};"|
+! style="background:{{The Greens – The Green Alternative/meta/color}};"|
+! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
+! style="background:{{Independent/meta/color}};"|
+|-
+|[https://www.market.at/newsroom/sonntagsfrage-spoe-kommt-der-oevp-immer-naeher/ Market]
+| data-sort-value="2021-05-30"| 24–30 May 2021{{Efn|Fieldwork presented in survey as "KW21" (Kalenderwoche 21 - Week 21)}}
+| 1,000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''29'''
+| <!-- Social Democratic Party --> | 28
+| <!-- Freedom Party --> | 20
+| <!-- Greens --> | 10
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 1
+|-
+|[https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/478792409 Research Affairs]
+| data-sort-value="2021-05-27"| 25–27 May 2021
+| 500
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''34'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
+|[https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/478034196 Research Affairs]
+| data-sort-value="2021-05-20"| 18–20 May 2021
+| 523
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''34'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> |  11
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 12
+|-
+|[https://www.ots.at/presseaussendung/OTS_20210520_OTS0030/zur-sache-umfrage-mehrheit-fuer-verbleib-des-kanzlers-bei-anklage-wegen-falschaussage Demox Research]
+| data-sort-value="2021-05-14"| 14 May 2021
+| 1,000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''33'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 10
+|-
+|[https://www.profil.at/oesterreich/umfrage-mehrheit-haelt-u-ausschuesse-fuer-nuetzlich/401381978 Research Affairs]
+| data-sort-value="2021-05-13"| 11–13 May 2021
+| 500
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 13
+|-
+|Unique Research{{Citation needed|date=June 2021}}
+| data-sort-value="2021-05-12"| 10–12 May 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''34'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
+|Research Affairs{{Citation needed|date=June 2021}}
+| data-sort-value="2021-05-06"| 4–6 May 2021
+| 504
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 21
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 15
+|-
+| [https://www.oe24.at/video/fellnerlive/fellner-live-die-aktuelle-polit-umfrage/475769500 Research Affairs]
+| data-sort-value="2021-04-29"| 27–29 Apr 2021
+| 511
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 20
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 16
+|-
+|[https://www.vienna.at/73-prozent-der-oesterreicher-wuerden-sich-nicht-mit-astrazeneca-impfen-lassen/6977130 Peter Hajek]
+|26–29 May 2021
+|800
+|Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''33'''
+| <!-- Social Democratic Party --> | 25
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 13
+| <!-- NEOS--> | 9
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 8
+|-
+| [https://www.oe24.at/video/fellnerlive/fellner-live-die-aktuelle-polit-umfrage/474882702 Research Affairs]
+| data-sort-value="2021-04-22"| 20–22 Apr 2021
+| 507
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 21
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 15
+|-
+| [https://www.unique-research.at/post/profil-umfrage-w%C3%A4hlertrend-april-2021 Unique Research]
+| data-sort-value="2021-04-08"| 5–8 Apr 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''33'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 19
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 9
+|-
+| [https://www.ogm.at/2021/04/03/sonntagsfrage-kurier-april/ OGM]
+| data-sort-value="2021-04-01"| 30 Mar – 1 Apr 2021
+| 801
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
+| [https://www.oe24.at/oesterreich/politik/oevp-weiter-bei-36-aber-koalition-ohne-mehrheit/472018139 Research Affairs]
+| data-sort-value="2021-04-01"| 30 Mar – 1 Apr 2021
+| 1000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 21
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 9
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 15
+|-
+| [https://www.derstandard.at/story/2000125587095/tuerkis-gruene-koalition-hat-laut-umfrage-ihre-mehrheit-verloren Market]
+| data-sort-value="2021-03-30"| 26–30 Mar 2021
+| 800
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 26
+| <!-- Freedom Party --> | 15
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 10
+|-
+| [https://www.heute.at/s/kurz-in-krise-vorn-so-wuerde-oesterreich-heute-waehlen-100134572 Unique Research]
+| data-sort-value="2021-03-25"| 23–25 Mar 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 13
+|-
+| [https://www.youtube.com/watch?v=P-13i-1Yb5Y Research Affairs]
+| data-sort-value="2021-03-25"| 23–25 Mar 2021
+| 501
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 9
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 5
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 14
+|-
+| [https://www.epaper-oesterreich.at/issue.act?issueId=814197&issueMutation=CITYW&issueDate=20210319&region=NOE Research Affairs]
+| data-sort-value="2021-03-17"| 15–17 Mar 2021
+| 1000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''37'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 9
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 13
+|-
+| [https://www.tt.com/artikel/30784772/umfrage-nur-42-prozent-mit-arbeit-der-regierung-zufrieden Peter Hajek]
+| data-sort-value="2021-03-11"| 8–11 Mar 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 25
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 10
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 10
+|-
+| [https://www.oe24.at/oesterreich/politik/neue-umfrage-so-wuerde-oesterreich-morgen-waehlen/467905698 Research Affairs]
+| data-sort-value="2021-03-04"| 2–4 Mar 2021
+| 510
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''37'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 9
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 14
+|-
+| [https://www.profil.at/oesterreich/umfrage-regierung-verliert-an-zustimmung/401209453 Unique Research]
+| data-sort-value="2021-03-04"| 1–4 Mar 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 10
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
+| [https://www.oe24.at/oesterreich/politik/umfrage-tuerkis-gruene-koalition-rutscht-ab/465866463 Research Affairs]
+| data-sort-value="2021-02-18"| 15–18 Feb 2021
+| 508
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''37'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 8
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 13
+|-
+| [https://www.derstandard.at/story/2000124319631/unzufriedenheit-mit-corona-management-der-regierung-steigt Market]
+| data-sort-value="2021-02-17"| 15–17 Feb 2021
+| 1000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''37'''
+| <!-- Social Democratic Party --> | 25
+| <!-- Freedom Party --> | 14
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 12
+|-
+| [https://www.profil.at/oesterreich/umfrage-oevp-leicht-ruecklaeufig-gruene-sacken-stark-ab/401187187 Unique Research]
+| data-sort-value="2021-02-11"| 8–11 Feb 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 10
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 13
+|-
+| [https://www.oe24.at/oesterreich/politik/umfrage-immer-weniger-mit-corona-management-zufrieden/464928514 Research Affairs]
+| data-sort-value="2021-02-11"| 8–11 Feb 2021
+| 500
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''38'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 9
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 14
+|-
+| [https://www.ots.at/presseaussendung/OTS_20210204_OTS0160/oesterreich-76-sind-gegen-lockerung-von-asylgesetzen Research Affairs]
+| data-sort-value="2021-02-04"| 1–4 Feb 2021
+| 500
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''39'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 15
+| <!-- Greens --> | 9
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 15
+|-
+| [https://www.krone.at/2336301 IFDD]
+| data-sort-value="2021-02-01"| 25 Jan – 1 Feb 2021
+| 800
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 10
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
+| [https://www.profil.at/oesterreich/sonntagsfrage-oevp-verliert-spoe-gruene-und-fpoe-legen-zu/401158095 Unique Research]
+| data-sort-value="2021-01-14"| 11–14 Jan 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''37'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 14
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 15
+|-
+| [https://www.atv.at/oesterreichtrend/ Peter Hajek]
+| data-sort-value="2020-12-12"| 8–12 Dec 2020
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''39'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 13
+| <!-- NEOS--> | 9
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 17
+|-
+| [https://www.oe24.at/oesterreich/politik/die-aktuelle-oesterreich-umfrage-vorab/454705507 Research Affairs]
+| data-sort-value="2020-11-12"| 9–12 Nov 2020
+| 1000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''41'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 12
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 19
+|-
+| [https://www.unique-research.at/post/profil-umfrage-wählertrend-november-2020 Unique Research]
+| data-sort-value="2020-11-06"|2–6 Nov 2020
+| 804
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''38'''
+| <!-- Social Democratic Party --> | 21
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 10
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 17
+|-
+| [https://twitter.com/EuropeElects/status/1307238366652567554 Unique Research]
+| data-sort-value="2020-09-18"| 14–18 Sep 2020
+| 804
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''39'''
+| <!-- Social Democratic Party --> | 20
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 16
+| <!-- NEOS--> | 8
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 19
+|-
+| [https://twitter.com/EuropeElects/status/1300819268880269313 Research Affairs]
+| data-sort-value="2020-09-16"| 14–16 Sep 2020
+| 1000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''42'''
+| <!-- Social Democratic Party --> | 19
+| <!-- Freedom Party --> | 12
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 9
+| <!-- Independent--> | 5
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|-
+| [https://twitter.com/EuropeElects/status/1300819268880269313 Research Affairs]
+| data-sort-value="2020-08-27"| 25–27 Aug 2020
+| 500
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''41'''
+| <!-- Social Democratic Party --> | 19
+| <!-- Freedom Party --> | 13
+| <!-- Greens --> | 14
+| <!-- NEOS--> | 8
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://twitter.com/EuropeElects/status/1297533170905231365 Research Affairs]
+| data-sort-value="2020-08-20"| 17–20 Aug 2020
+| 505
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''41'''
+| <!-- Social Democratic Party --> | 18
+| <!-- Freedom Party --> | 15
+| <!-- Greens --> | 13
+| <!-- NEOS--> | 8
+| <!-- Independent--> | 5
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|-
+| [https://twitter.com/EuropeElects/status/1294624354265964550 Unique Research]
+| data-sort-value="2020-08-13"| 10–13 Aug 2020
+| 806
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''41'''
+| <!-- Social Democratic Party --> | 18
+| <!-- Freedom Party --> | 15
+| <!-- Greens --> | 16
+| <!-- NEOS--> | 9
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|-
+| [https://twitter.com/EuropeElects/status/1286782194837524481 Research Affairs]
+| data-sort-value="2020-07-22"| 20–22 Jul 2020
+| 500
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''42'''
+| <!-- Social Democratic Party --> | 19
+| <!-- Freedom Party --> | 11
+| <!-- Greens --> | 15
+| <!-- NEOS--> | 8
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|-
+| [https://www.profil.at/oesterreich/umfrage-regierung-buesst-an-zustimmung-ein/400975088 Unique Research]
+| data-sort-value="2020-07-16"| 13–16 Jul 2020
+| 801
+| Phone & Online
+| style="background:#D2EDF1;"| '''41'''
+| 19
+| 15
+| 16
+| 8
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://twitter.com/EuropeElects/status/1281596898055462912 Research Affairs]
+| data-sort-value="2020-07-09"| 06–09 Jul 2020
+| 503
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''41'''
+| <!-- Social Democratic Party --> | 20
+| <!-- Freedom Party --> | 11
+| <!-- Greens --> | 15
+| <!-- NEOS--> | 8
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 21
+|-
+| [https://www.ogm.at/sonntagsfrage/ogm-sonntagsfrage-nationalratswahl-2020/ OGM]
+| data-sort-value="2020-06-25"| 23–25 Jun 2020
+| 805
+| Phone & Online
+| style="background:#D2EDF1;"| '''42'''
+| 19
+| 13
+| 16
+| 8
+| 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|-
+| [https://www.profil.at/oesterreich/umfrage-der-hoehenflug-der-oevp-ist-vorbei/400939163 Unique Research]
+| data-sort-value="2020-06-12"| 9–12 Jun 2020
+| 802
+| Phone & Online
+| style="background:#D2EDF1;"| '''44'''
+| 17
+| 14
+| 16
+| 8
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 27
+|-
+| [https://www.puls24.at/news/politik/kanzler-sebastian-kurz-im-sommergespraech-bei-milborn/206531 Karmasin Research & Identity]
+| data-sort-value="2020-06-09"| 5–9 Jun 2020
+| 1,000
+| Phone & Online
+| style="background:#D2EDF1;"| '''42'''
+| 19
+| 13
+| 15
+| 8
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|-
+| [https://apps.derstandard.at/privacywall/story/2000117812844/bevoelkerung-ueberstand-corona-krise-bisher-ueberwiegend-gluecklich Market]
+| data-sort-value="2020-05-26"| 21–26 May 2020
+| 809
+| Phone & Online
+| style="background:#D2EDF1;"| '''44'''
+| 20
+| 12
+| 16
+| 7
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 24
+|-
+| [https://www.derstandard.at/story/2000117614965/weniger-persoenliche-sorgen-weniger-zustimmung-zu-kurz Market]
+| data-sort-value="2020-05-19"| 18–19 May 2020
+| 1,000
+| Online
+| style="background:#D2EDF1;"| '''43'''
+| 21
+| 12
+| 17
+| 6
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://kurier.at/politik/inland/profil-umfrage-oevp-und-sebastian-kurz-sinken-auf-hohem-niveau/400843790 Unique Research]
+| data-sort-value="2020-05-14"| 11–14 May 2020
+| 802
+| Phone & Online
+| style="background:#D2EDF1;"| '''46'''
+| 17
+| 14
+| 15
+| 6
+| 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 29
+|-
+| [https://www.derstandard.at/story/2000117493669/oevp-bleibt-weit-vorn-spoe-sichert-zweiten-platz-ab Market]
+| data-sort-value="2020-05-13"| 11–13 May 2020
+| 1,000
+| Online
+| style="background:#D2EDF1;"| '''44'''
+| 21
+| 11
+| 17
+| 6
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|-
+| [https://www.derstandard.at/story/2000117068886/umfrage-virus-besser-im-griff-zustimmung-zu-regierung-sinkt Market]
+| data-sort-value="2020-04-22"| 20–22 Apr 2020
+| 1,000
+| Online
+| style="background:#D2EDF1;"| '''44'''
+| 20
+| 10
+| 18
+| 7
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 24
+|-
+| [https://www.profil.at/oesterreich/umfrage-oevp-corona-11452832 Unique Research]
+| data-sort-value="2020-04-16"| 13–16 Apr 2020
+| 806
+| Phone & Online
+| style="background:#D2EDF1;"| '''48'''
+| 16
+| 13
+| 16
+| 6
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 32
+|-
+| [https://www.derstandard.at/story/2000116755429/nach-100-tagen-ist-die-tuerkis-gruene-regierung-im-umfragehoch Market]
+| data-sort-value="2020-04-07"| 3–7 Apr 2020
+| 1,800
+| Phone & Online
+| style="background:#D2EDF1;"| '''44'''
+| 19
+| 11
+| 19
+| 6
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 25
+|-
+| [https://kurier.at/politik/inland/in-der-corona-krise-oevp-auf-45-prozent-spoe-hinter-gruenen/400802834 OGM]
+| data-sort-value="2020-04-02"| 31 Mar–2 Apr 2020
+| 800
+| Phone & Online
+| style="background:#D2EDF1;"| '''45'''
+| 16
+| 12
+| 18
+| 7
+| 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 27
+|-
+| [https://www.derstandard.at/story/2000116462666/oevp-und-gruene-legen-bei-der-sonntagsfrage-deutlich-zu Market]
+| data-sort-value="2020-03-31"| 24–31 Mar 2020
+| 1,000
+| Online
+| style="background:#D2EDF1;"| '''43'''
+| 19
+| 11
+| 19
+| 7
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 24
+|-
+| [https://www.unique-research.at/post/profil-umfrage-w%C3%A4hlertrend-m%C3%A4rz-2020 Unique Research]
+| data-sort-value="2020-03-13"| 9–13 Mar 2020
+| 811
+| Phone & Online
+| style="background:#D2EDF1;"| '''39'''
+| 16
+| 17
+| 16
+| 9
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.derstandard.at/story/2000115709451/73-prozent-halten-massnahmen-gegen-coronavirus-fuer-gerechtfertigt Market]
+| data-sort-value="2020-03-12"| 11–12 Mar 2020
+| 1,000
+| Online
+| style="background:#D2EDF1;"| '''40'''
+| 20
+| 13
+| 17
+| 9
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 20
+|-
+| [https://www.unique-research.at/post/profil-umfrage-w%C3%A4hlertrend-februar-2020 Unique Research]
+| data-sort-value="2020-02-14"| 10–14 Feb 2020
+| 804
+| Phone & Online
+| style="background:#D2EDF1;"| '''38'''
+| 15
+| 16
+| 17
+| 10
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 21
+|-
+| [https://www.youtube.com/watch?v=1Qc-hXI4mQc Research Affairs]
+| data-sort-value="2020-02-12"| 7–12 Feb 2020
+| 661
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 18
+| 13
+| 17
+| 9
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 21
+|-
+| [https://www.derstandard.at/story/2000114340647/stimmung-fuer-die-regierung-gut-aber-erste-kratzer-am-image?ref=rss Market]
+| data-sort-value="2020-02-06"| 4–6 Feb 2020
+| 813
+| Phone & Online
+| style="background:#D2EDF1;"| '''39'''
+| 19
+| 15
+| 17
+| 9
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 20
+|-
+| [https://www.youtube.com/watch?v=0ab1egrWxdk Research Affairs]
+| data-sort-value="2020-01-31"| 28–31 Jan 2020
+| 500
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 17
+| 13
+| 17
+| 10
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.youtube.com/watch?v=kli_YellAUY Research Affairs]
+| data-sort-value="2020-01-23"| 17–23 Jan 2020
+| 877
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 16
+| 13
+| 17
+| 11
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.oe24.at/oesterreich/politik/Umfrage-Beben-Gruene-ueberholen-SPOe/413380380 Research Affairs]
+| data-sort-value="2020-01-16"| 10–16 Jan 2020
+| 863
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 16
+| 13
+| 17
+| 10
+| 5
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://twitter.com/puls24news/status/1217760974205325313 Karmasin Research & Identity]
+| data-sort-value="2020-01-15"| 10–15 Jan 2020
+| 1,000
+| Phone & Online
+| style="background:#D2EDF1;"| '''39'''
+| 17
+| 15
+| 17
+| 9
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.profil.at/oesterreich/umfrage-oevp-gruene-11303467 Unique Research]
+| data-sort-value="2020-01-10"| 6–10 Jan 2020
+| 806
+| Phone & Online
+| style="background:#D2EDF1;"| '''38'''
+| 16
+| 16
+| 17
+| 10
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 21
+|-
+| [https://www.oe24.at/oesterreich/politik/Umfrage-Sensation-Gruene-holen-SPOe-ein/412526090 Research Affairs]
+| data-sort-value="2020-01-09"| 3–9 Jan 2020
+| 859
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 17
+| 13
+| 17
+| 9
+| 5
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.derstandard.at/story/2000112674560/starke-umfragewerte-fuer-oevp-und-gruene-schlechte-fuer-fpoe-und?ref=rss Market]
+| data-sort-value="2019-12-04"| 16–19 Dec 2019
+| 806
+| Phone & Online
+| style="background:#D2EDF1;"| '''39'''
+| 19
+| 14
+| 16
+| 10
+| 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 20
+|-
+| [https://www.oe24.at/oesterreich/politik/Umfrage-Immer-weniger-fuer-Tuerkis-Gruen/410111433 Research Affairs]
+| data-sort-value="2019-12-19"| 12–19 Dec 2019
+| 877
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 17
+| 15
+| 16
+| 9
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.profil.at/oesterreich/umfrage-fpoe-gruene-11275273 Unique Research]
+| data-sort-value="2019-12-13"| 9–13 Dec 2019
+| 807
+| Phone & Online
+| style="background:#D2EDF1;"| '''39'''
+| 18
+| 15
+| 17
+| 10
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 21
+|-
+| [https://www.oe24.at/oesterreich/politik/Umfrage-Strache-noch-nicht-drin/409320681 Research Affairs]
+| data-sort-value="2019-12-12"| 6–12 Dec 2019
+| 875
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 17
+| 14
+| 16
+| 9
+| 5
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.oe24.at/oesterreich/politik/SPOe-und-Gruene-Kopf-an-Kopf/408487182 Research Affairs]
+| data-sort-value="2019-12-05"| 29 Nov–5 Dec 2019
+| 831
+| Online
+| style="background:#D2EDF1;"| '''39'''
+| 17
+| 14
+| 16
+| 10
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.derstandard.at/story/2000111975024/massiver-sympathieschub-fuer-die-gruenen-spoe-mit-18-prozent-in Market]
+| data-sort-value="2019-12-04"| 29 Nov–4 Dec 2019
+| 792
+| Phone & Online
+| style="background:#D2EDF1;"| '''39'''
+| 18
+| 15
+| 16
+| 10
+| 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 21
+|-
+| [https://www.oe24.at/oesterreich/politik/OeSTERREICH-Umfrage-SPOe-stuerzt-auf-historischen-Tiefstand/407631380 Research Affairs]
+| data-sort-value="2019-11-28"| 22–28 Nov 2019
+| 867
+| Online
+| style="background:#D2EDF1;"| '''38'''
+| 18
+| 14
+| 16
+| 10
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 20
+|-
+| [https://www.oe24.at/oesterreich/politik/Umfrage-Absturz-fuer-FPOe/406817371 Research Affairs]
+| data-sort-value="2019-11-21"| 15–21 Nov 2019
+| 878
+| Online
+| style="background:#D2EDF1;"| '''38'''
+| 20
+| 14
+| 16
+| 9
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 18
+|-
+| [https://www.profil.at/oesterreich/umfrage-tuerkis-gruen-11219737 Unique Research]
+| data-sort-value="2019-11-15"| 11–15 Nov 2019
+| 817
+| Phone & Online
+| style="background:#D2EDF1;"| '''38'''
+| 19
+| 17
+| 16
+| 9
+| 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 19
+|-
+| [https://www.oe24.at/oesterreich/politik/Umfrage-33-Prozent-fuer-Tuerkis-Gruen/405927114 Research Affairs]
+| data-sort-value="2019-11-14"| 8–14 Nov 2019
+| 844
+| Online
+| style="background:#D2EDF1;"| '''38'''
+| 20
+| 15
+| 16
+| 8
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 18
+|-
+| [https://twitter.com/thomas_mohr/status/1197142449719775232 Karmasin Research & Identity]
+| data-sort-value="2019-11-13"| 8–13 Nov 2019
+| 3,000
+| Phone & Online
+| style="background:#D2EDF1;"| '''38'''
+| 20
+| 15
+| 15
+| 9
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 18
+|-
+| [https://www.oe24.at/oesterreich/politik/OeVP-baut-leicht-ab-SPOe-zeigt-Zeichen-von-Erholung/404954882 Research Affairs]
+| data-sort-value="2019-11-07"| 2–7 Nov 2019
+| 736
+| Online
+| style="background:#D2EDF1;"| '''37'''
+| 20
+| 15
+| 16
+| 9
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 17
+|-
+| [https://www.oe24.at/oesterreich/politik/Umfrage-Hammer-Gruene-ueberholen-FPOe/404260355 Research Affairs]
+| data-sort-value="2019-10-31"| 26–31 Oct 2019
+| 788
+| Online
+| style="background:#D2EDF1;"| '''38'''
+| 19
+| 15
+| 16
+| 9
+| 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 19
+|-
+| [https://www.oe24.at/oesterreich/politik/SPOe-faellt-erstmals-in-ihrer-Geschichte-unter-20/403303234 Research Affairs]
+| data-sort-value="2019-10-25"| 22–25 Oct 2019
+| 1,000
+| Online
+| style="background:#D2EDF1;"| '''38'''
+| 19
+| 15
+| 15
+| 9
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 19
+|-
+| [https://twitter.com/EuropeElects/status/1186794710226079745 Market]
+| data-sort-value="2019-10-17"| 15–17 Oct 2019
+| 802
+| Phone & Online
+| style="background:#D2EDF1;"| '''38'''
+| 20
+| 16
+| 15
+| 9
+| 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 18
+|-
+| [https://www.oe24.at/oesterreich/politik/1-Umfrage-nach-der-Wahl-Erstmals-Mehrheit-fuer-Tuerkis-Gruen/402201078 Research Affairs]
+| data-sort-value="2019-10-16"| 10–16 Oct 2019
+| 1,001
+| Online
+| style="background:#D2EDF1;"| '''38'''
+| 20
+| 15
+| 15
+| 8
+| 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 18
+|-
+| [https://www.profil.at/oesterreich/umfrage-mehrheit-regierung-weihnachten-11168447 Unique Research]
+| data-sort-value="2019-10-11"| 7–11 Oct 2019
+| 807
+| Phone & Online
+| style="background:#D2EDF1;"| '''37'''
+| 20
+| 17
+| 15
+| 9
+| 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 17
+|- style="background:#E9E9E9;"
+| [[2019 Austrian legislative election|2019 legislative election]]
+| data-sort-value="2019-09-29"| 29 Sep 2019
+| –
+| –
+| style="background:#D2EDF1;"| '''37.5'''
+| 21.2
+| 16.2
+| 13.9
+| 8.1
+| 3.1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 16.3
+|}
+
+=== By state ===
+'''Vienna'''
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! rowspan="2"| Polling firm
+! rowspan="2"| Fieldwork date
+! rowspan="2"| Sample<br>size
+! rowspan="2"| Method
+! class="unsortable" style="width:60px;"| [[Social Democratic Party of Austria|SPÖ]]
+! class="unsortable" style="width:60px;"| [[Austrian People's Party|ÖVP]]
+! class="unsortable" style="width:60px;"| [[The Greens – The Green Alternative|Grüne]]
+! class="unsortable" style="width:60px;"| [[Freedom Party of Austria|FPÖ]]
+! class="unsortable" style="width:60px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
+! class="unsortable" style="width:60px;"| Others
+! rowspan="2" class="unsortable" style="width:60px;" | Lead
+|-
+! style="background:{{Social Democratic Party of Austria/meta/color}};"|
+! style="background:{{Austrian People's Party (2017)/meta/color}};"|
+! style="background:{{The Greens – The Green Alternative/meta/color}};"|
+! style="background:{{Freedom Party of Austria/meta/color}};"|
+! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
+! style="background:{{Independent/meta/color}};"|
+|-
+| [https://www.oe24.at/video/fellnerlive/Fellner-Live-Die-aktuelle-Polit-Umfrage/404982578 Research Affairs (subsample)]
+| 2–7 Nov 2019
+| 736 (total)
+| Online
+| style="background:#F4C6C9;"| '''30'''
+|26
+|19
+|12
+|12
+|1
+| style="background:{{Social Democratic Party of Austria/meta/color}};color:#FFFFFF;"| 4
+|- style="background:#E9E9E9;"
+| [[2019 Austrian legislative election|2019 legislative election]]
+| 29 Sep 2019
+|–
+|–
+| style="background:#F4C6C9;"| '''27.1'''
+| 24.6
+| 20.7
+| 12.8
+| 9.9
+| 4.9
+| style="background:{{Social Democratic Party of Austria/meta/color}};color:#FFFFFF;"| 2.5
+|}
+
+'''Tyrol'''
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! rowspan="2"| Polling firm
+! rowspan="2"| Fieldwork date
+! rowspan="2"| Sample<br>size
+! rowspan="2"| Method
+! class="unsortable" style="width:60px;"| [[Austrian People's Party|ÖVP]]
+! class="unsortable" style="width:60px;"| [[The Greens – The Green Alternative|Grüne]]
+! class="unsortable" style="width:60px;"| [[Freedom Party of Austria|FPÖ]]
+! class="unsortable" style="width:60px;"| [[Social Democratic Party of Austria|SPÖ]]
+! class="unsortable" style="width:60px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
+! class="unsortable" style="width:60px;"| Others
+! rowspan="2" class="unsortable" style="width:60px;" | Lead
+|-
+! style="background:{{Austrian People's Party (2017)/meta/color}};"|
+! style="background:{{The Greens – The Green Alternative/meta/color}};"|
+! style="background:{{Freedom Party of Austria/meta/color}};"|
+! style="background:{{Social Democratic Party of Austria/meta/color}};"|
+! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
+! style="background:{{Independent/meta/color}};"|
+|-
+| [https://www.krone.at/2054894 IMAD]
+| 11–15 Nov 2019
+| 500
+| Phone
+|style="background:#D2EDF1"|'''42'''
+|19
+|10
+|11
+|10
+|7
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 23
+|- style="background:#E9E9E9;"
+| [[2019 Austrian legislative election|2019 legislative election]]
+| 29 Sep 2019
+|–
+|–
+|style="background:#D2EDF1"|'''45.8'''
+| 14.7
+| 14.7
+| 13.0
+| 8.9
+| 2.9
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 31.1
+|}

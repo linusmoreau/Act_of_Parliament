@@ -387,8 +387,6 @@
 |-
 |style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|November 4, 2019}}''' || colspan="12"| '''[[Jo-Ann Roberts]] is named interim leader of the Green Party'''
 |-
-| [[Nanos Research]] || {{dts|November 1, 2019}} || [https://www.ctvnews.ca/politics/no-honeymoon-period-for-liberals-who-remain-deadlocked-with-conservatives-after-election-nanos-1.4671649 HTML] || {{Party shading/Conservative (Canada)}}|'''32.5''' || 31.1 || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) || {{Party shading/Conservative (Canada)}}|'''1.4'''
-|-
 ! colspan="14" |
 |-
 | style="background:#ffd"| ''[[2019 Canadian federal election|2019 election]]''{{ref label|2019 results|7|7}} ||style="background:#ffd"| {{dts|October 21, 2019}} ||style="background:#ffd"| [https://www.elections.ca/res/rep/off/ovr2019app/51/table9E.html HTML] ||{{Party shading/Conservative (Canada)}}| '''''34.3''''' ||style="background:#ffd"| ''33.1'' ||style="background:#ffd"| ''16.0'' ||style="background:#ffd"| ''7.6''||style="background:#ffd"| ''6.5'' ||style="background:#ffd"| ''1.6'' ||style="background:#ffd"| ''0.9'' ||{{n/a}} ||style="background:#ffd"|18,170,880 ||{{n/a}} || {{Party shading/Conservative (Canada)}}| '''''1.2'''''

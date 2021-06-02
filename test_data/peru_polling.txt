@@ -21,6 +21,38 @@
 |-
 | colspan="8" style="background:#A0A0A0"|
 |-
+| IDICE/La Razón<ref>{{cite web|title=Keiko sobrepasó a Pedro Castillo por cuatro puntos|url=https://larazon.pe/keiko-sobrepaso-a-pedro-castillo-por-cuatro-puntos/|website=larazon.pe|accessdate=2021-05-31}}</ref>
+| 28–29 May 2021
+| 1,200
+| 43.9
+| style="background:#FF9966"|'''47.8'''
+| 6.0
+| 2.3
+|-
+| Ipsos Perú/El Comercio<ref>{{cite web|url=https://elcomercio.pe/elecciones-2021/ultimo-simulacro-publicable-el-comercio-ipsos-pedro-castillo-obtiene-511-y-keiko-fujimori-489-noticia/|title=Último simulacro publicable El Comercio-Ipsos: Pedro Castillo obtiene 51,1% y Keiko Fujimori 48,9%|last=|first=|accessdate=2021-05-30|website=elcomercio.pe|language=es}}</ref>
+| 28 May 2021
+| 1,526
+| style="background:#FFD0D7"|'''42'''
+| 40
+| 10
+| 8
+|-
+| IEP/La Republica<ref>{{Cite web|date=2021-05-23|title=Encuesta IEP: Pedro Castillo supera a Keiko Fujimori por más de 10 puntos|url=https://larepublica.pe/elecciones/2021/05/30/encuesta-iep-pedro-castillo-y-keiko-fujimori-en-empate-tecnico-pltc/|url-status=live|archive-date=2021-05-30|website=larepublica.pe|language=es}}</ref>
+| 27–28 May 2021
+| 1,227
+| style="background:#FFD0D7" |'''40.3'''
+| 38.3
+| 13.0
+| 8.3
+|-
+| Datum/Gestión/Perú 21<ref>{{cite web|title=Datum: Pedro Castillo cae a 42.6%, mientras que Keiko Fujimori sube a 41.7% en tercer simulacro|url=https://gestion.pe/peru/politica/datum-pedro-castillo-cae-a-426-mientras-que-keiko-fujimori-sube-a-417-en-tercer-simulacro-peru-libre-fuerza-popular-elecciones-2021-noticia/|website=peru21.pe|date=28 May 2021}}</ref>
+| 25–27 May 2021
+| 1,201
+| style="background:#FFD0D7"|'''41.6'''
+| 41.5
+| 10.9
+| 6.0
+|-
 | IEP/La Republica<ref>{{Cite web|date=2021-05-23|title=Encuesta IEP: Pedro Castillo supera a Keiko Fujimori por más de 10 puntos|url=https://larepublica.pe/elecciones/2021/05/23/encuesta-iep-pedro-castillo-supera-a-keiko-fujimori-por-mas-de-10-puntos-pltc/|url-status=live|archive-date=2021-05-20|website=larepublica.pe|language=es}}</ref>
 | 20–21 May 2021
 | 1,208
