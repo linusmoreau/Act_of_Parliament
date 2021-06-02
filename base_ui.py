@@ -1006,10 +1006,16 @@ class Text(Widget):
         if text is not None:
             self.text = text
             self.make_surface()
-        if align is not None:
-            self.rect = self.surface.get_rect()
-            self.contain_rect = self.rect.copy()
-            self.align(align, pos)
+        if pos is None and align is None:
+            align = CENTER
+            pos = self.rect.center
+        elif align is None:
+            align = self.alignment
+        elif pos is None:
+            pos = self.rect.center
+        self.rect = self.surface.get_rect()
+        self.contain_rect = self.rect.copy()
+        self.align(align, pos)
         if type(self.parent).__name__ == "TextInput":
             self.parent.cursor_row = 0
             self.parent.cursor_col = self.parent.cursor_pos
