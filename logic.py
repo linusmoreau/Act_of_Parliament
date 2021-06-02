@@ -38,8 +38,8 @@ def make_save(f_name):
     f.write(save_doc_formatted)
     f.close()
 
-    loc = save_doc_formatted.find('"opinions"')
-    print(save_doc_formatted[loc:loc+1000])
+    # loc = save_doc_formatted.find('"opinions"')
+    # print(save_doc_formatted[loc:loc+1000])
 
 
 def load_save(f_name):
@@ -128,7 +128,7 @@ class Policy(CustomObject):
 
 
 class OpinionModifier(CustomObject):
-    def __init__(self, effect: float, date: Optional[Date] = None, desc: str = '', **kwargs):
+    def __init__(self, effect: int, date: Optional[Date] = None, desc: str = '', **kwargs):
         self.effect = effect
         if date is None:
             self.date = data.game_state['date']
@@ -189,6 +189,7 @@ class Person(CustomObject):
         # str: opinion type (e.g. person, party, org, etc.)
         # Union(str, int): identifier for object of the opinion (person, org, etc.)
         # OpinionModifier: information about how opinion is changed
+        # print(opinions)
         if opinions is not None:
             for subj, spec in opinions.items():
                 layer1 = {}
@@ -280,7 +281,7 @@ class Person(CustomObject):
 
     def consider_party(self, party: str):
         issue = random.choice(list(self.values.keys()))
-        effect = -abs(self.values[issue] - parties[party].values[issue]) * self.values_importance[issue]
+        effect = int(round(-abs(self.values[issue] - parties[party].values[issue]) * self.values_importance[issue]))
         opinion = OpinionModifier(effect, date=data.game_state['date'], desc='Policy (dis)agreement')
         self.add_opinion('parties', party, opinion)
 
