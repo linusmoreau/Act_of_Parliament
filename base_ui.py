@@ -1,4 +1,4 @@
-from typing import Dict, List, Set, Tuple, Any
+from typing import Dict, List, Set, Tuple, Any, Optional
 
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
@@ -639,18 +639,12 @@ class SelectButton(Button):
                 else:
                     if event.type == pygame.MOUSEBUTTONDOWN and pygame.mouse.get_pressed(3)[0]:
                         if self.state is not SELECT_STATE:
-                            if self.parent is not None and self.exclusive:
-                                for comp in self.parent.select_buttons:
-                                    if comp is not self and comp.state is not DISABLE_STATE:
-                                        comp.state = NORMAL_STATE
-                                        comp.update()
-                            self.state = SELECT_STATE
+                            self.select()
                             self.call_funcs()
                         elif self.deselectable:
                             self.state = HIGHLIGHT_STATE
+                            self.update()
                             self.call_release_funcs()
-                    if state != self.state:
-                        self.update()
             return True
         else:
             return False
@@ -669,6 +663,15 @@ class SelectButton(Button):
                 func(self)
             else:
                 func()
+
+    def select(self):
+        if self.parent is not None and self.exclusive:
+            for comp in self.parent.select_buttons:
+                if comp is not self and comp.state is not DISABLE_STATE:
+                    comp.state = NORMAL_STATE
+                    comp.update()
+        self.state = SELECT_STATE
+        self.update()
 
 
 class CircleSelectButton(CircleButton, SelectButton):
@@ -1023,6 +1026,7 @@ class Text(Widget):
         self.rect.height = self.surface.get_height()
         self.contain_rect = self.rect.copy()
         self.transparency()
+        Widget.change = True
 
     @staticmethod
     def det_command_secs(text):
@@ -1503,6 +1507,8 @@ class GraphDisplay(Widget):
         self.title_font_width, self.title_font_height = text_size(self.title_font_size)
         self.colours = colours
         self.slopes = {}
+        self.tips_mem: Dict[str, Text] = {}
+        self.line_tips_mem: Dict[str, Text] = {}
 
         self.top_margin = self.rect.h / 12
         self.bottom_margin = self.rect.h / 12
@@ -1554,7 +1560,7 @@ class GraphDisplay(Widget):
         if y_min is None:
             self.y_min = (self.y_min / self.y_step - 1) * self.y_step
         if y_max is None:
-            self.y_max = (self.y_max / self.y_step + 2) * self.y_step
+            self.y_max = (self.y_max / self.y_step + 1) * self.y_step
         y_range = self.y_max - self.y_min
 
         # Determine scale factors for the sketching of the curves
@@ -1612,7 +1618,9 @@ class GraphDisplay(Widget):
     def catch(self, mouse):
         if self.on_top(mouse):
             Widget.new_cursor_type = 0
-            if self.graph_rect.y < mouse[1] < self.graph_rect.y + self.graph_rect.h:
+            if self.graph_rect.y < mouse[1] < self.graph_rect.y + self.graph_rect.h and \
+                    self.graph_rect.x - self.left_margin / 4 < mouse[0] < \
+                    self.graph_rect.x + self.graph_rect.w + self.right_margin / 4:
                 self.moment((mouse[0] - self.graph_rect.x) / self.x_scale)
                 return True
             else:
@@ -1682,28 +1690,48 @@ class GraphDisplay(Widget):
 
         self.show_leader(order, x, x_val, y_vals)
 
-        alignment = RIGHT
-        x_pos = x - 10
+        r = int(screen_height / 180) + 1
+        offset = r * 2
 
         tips = []
+        line_tips = []
         for line in order:
             y_val = y_vals[line]
             y_pos = self.rect.y + self.rect.h - ((y_val - self.y_min) * self.y_scale + self.bottom_margin)
             if line in self.colours:
-                colour = fade_colour(self.colours[line])
+                orig_colour = self.colours[line]
+                colour = tuple(fade_colour(orig_colour))[:3]
             else:
                 colour = white
-            tip = Text(str(round(float(y_val), 2 - self.y_mag)), (x_pos, y_pos), align=alignment, colour=black,
-                       background_colour=colour, solid_background=True)
-            tip.surface.set_alpha(200)
-            tips.append(tip)
+                orig_colour = colour
+            if line in self.tips_mem.keys():
+                num_tip = self.tips_mem[line]
+                txt = str(round(float(y_val), 2 - self.y_mag))
+                if txt == num_tip.text:
+                    txt = None
+                num_tip.update(txt, align=RIGHT, pos=(x - offset, y_pos))
+            else:
+                num_tip = Text(str(round(float(y_val), 2 - self.y_mag)), (x - offset, y_pos), align=RIGHT,
+                           colour=black, background_colour=colour, solid_background=True, margin=2)
+                self.tips_mem[line] = num_tip
+            num_tip.surface.set_alpha(200)
+            tips.append(num_tip)
 
-            r = int(screen_height / 180) + 1
+            if line in self.line_tips_mem.keys():
+                line_tip = self.line_tips_mem[line]
+                line_tip.update(align=LEFT, pos=(x + offset, y_pos))
+            else:
+                line_tip = Text(line, (x + offset, y_pos), align=LEFT,
+                               colour=black, background_colour=colour, solid_background=True, margin=2)
+                self.line_tips_mem[line] = line_tip
+            line_tip.surface.set_alpha(200)
+            line_tips.append(line_tip)
+
             s = Widget((round(x), round(y_pos)), (2 * r + 1, 2 * r + 1), align=CENTER)
             s.surface.fill(white)
             s.surface.set_colorkey(white)
-            pygame.gfxdraw.aacircle(s.surface, r, r, r, colour)
-            pygame.gfxdraw.filled_circle(s.surface, r, r, r, colour)
+            pygame.gfxdraw.aacircle(s.surface, r, r, r, orig_colour)
+            pygame.gfxdraw.filled_circle(s.surface, r, r, r, orig_colour)
             self.at_line.extensions.append(s)
         while True:
             for i in range(len(tips) - 1):
@@ -1715,10 +1743,13 @@ class GraphDisplay(Widget):
             else:
                 break
         self.at_line.extensions.extend(tips)
+        for i, tip in enumerate(line_tips):
+            tip.rect.y = tips[i].rect.y
+        self.at_line.extensions.extend(line_tips)
 
     def show_leader(self, order, x, x_val, y_vals):
         lead = None
-        y_pos = self.rect.y + self.top_margin + self.graph_rect.h / 12
+        y_pos = self.rect.y + self.top_margin + self.graph_rect.h / 24
         if self.leader and len(order) >= 2:
             line = order[-1]
             dif = str(round(float(y_vals[line] - y_vals[order[-2]]), 2 - self.y_mag))
@@ -1874,8 +1905,10 @@ class GraphDisplay(Widget):
                 for y in ys:
                     p = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
                          int(self.rect.h - ((y - self.y_min) * self.y_scale + self.bottom_margin)))
-                    pygame.gfxdraw.filled_circle(self.surface, p[0], p[1], 2, colour)
-                    pygame.gfxdraw.aacircle(self.surface, p[0], p[1], 2, colour)
+                    if self.graph_rect.x <= p[0] <= self.graph_rect.x + self.graph_rect.w and \
+                            self.graph_rect.y <= p[1] <= self.graph_rect.y + self.graph_rect.h:
+                        pygame.gfxdraw.filled_circle(self.surface, p[0], p[1], 2, colour)
+                        pygame.gfxdraw.aacircle(self.surface, p[0], p[1], 2, colour)
 
     def sketch_curves(self):
         order = sorted(self.dat.keys(), key=lambda line: self.dat[line][max(self.dat[line].keys())])
@@ -1908,7 +1941,7 @@ class GraphDisplay(Widget):
             # pygame.draw.aalines(self.surface, line_colour, False, points)
             # pygame.draw.lines(self.surface, line_colour, False, points, 3)
 
-        self.legend(order)
+        # self.legend(order)
 
     def legend(self, order):
         notes = []
@@ -2189,7 +2222,7 @@ def set_press_colour(shade):
         return shade
 
 
-def fade_colour(colour, amount=64):
+def fade_colour(colour, amount=100):
     if colour not in faded_colours:
         blanket = pygame.Surface((1, 1))
         blanket.fill(whitish)
