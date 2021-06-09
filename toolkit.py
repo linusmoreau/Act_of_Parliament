@@ -110,7 +110,7 @@ def central_rolling_average(dat: Dict[float, List[float]], breadth: float):
     return ndat
 
 
-def variable_weight(disp, breadth, loc=3):
+def variable_weight(disp, breadth, loc: float = 3):
     w = (1 - (abs(disp) / breadth) ** 2) ** loc
     if w < 0:
         raise ValueError("Displacement is outside of range")
@@ -119,7 +119,7 @@ def variable_weight(disp, breadth, loc=3):
 
 
 def cube_weight(disp, breadth):
-    w = (1 - (abs(disp) / (breadth / 2)) ** 3) ** 3
+    w = (1 - (abs(disp) / breadth) ** 3) ** 3
     if w < 0:
         raise ValueError("Displacement is outside of range")
     else:
@@ -178,9 +178,9 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
         # print(relv, upcome)
         try:
             if loc:
-                intloc = (int(sum([variable_weight(x - place, breadth, 4) for x in relv])) + 1)
-                ndat[place] = (sum([sum(dat[x]) * variable_weight(x - place, breadth, intloc) for x in relv]) /
-                               sum([len(dat[x]) * variable_weight(x - place, breadth, intloc) for x in relv]))
+                locnum = sum([cube_weight(x - place, breadth) for x in relv])
+                ndat[place] = (sum([sum(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]) /
+                               sum([len(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]))
             else:
                 ndat[place] = (sum([sum(dat[x]) * cube_weight(x - place, breadth) for x in relv]) /
                                sum([len(dat[x]) * cube_weight(x - place, breadth) for x in relv]))
