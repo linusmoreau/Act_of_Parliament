@@ -1,0 +1,4075 @@
+=== 2021 ===
+{{For|events during the year|2021 in Poland}}
+
+{| class="wikitable sortable collapsible" style="text-align:center; font-size:95%; line-height:16px;
+|- style="height:42px; background-color:#E9E9E9"
+! rowspan="2" style="width:150px;" | Polling Firm/<br />Link
+! rowspan="2" data-sort-type="date" | Fieldwork<br />Period
+! rowspan="2" style="width:20px;" | Sample<br/>Size
+! style="width:60px;" class="unsortable" | [[United Right (Poland)|United<br/>Right]]
+! style="width:60px;" class="unsortable" | [[Civic Coalition (Poland)|Civic<br/>Coalition]]
+! style="width:60px;" class="unsortable" | [[The Left (Poland)|The Left]]
+! style="width:60px;" class="unsortable" | [[Polish Coalition|Polish<br/>Coalition]]
+! style="width:60px;" class="unsortable" | [[Kukiz'15]]
+! style="width:60px;" class="unsortable" | [[Confederation Liberty and Independence|Confederation]]
+! style="width:60px;" class="unsortable" | [[Poland 2050|Poland<br/>2050]]
+! rowspan="2" data-sort-type="number" style="width:50px;" | Others /<br />Don't know
+! rowspan="2" data-sort-type="number" style="width:30px;" | Lead
+|-
+! data-sort-type="number" style="height:1px; background:{{Law and Justice/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:{{Civic Platform/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#ac145a;" |
+! data-sort-type="number" style="height:1px; background:{{Polish People's Party/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:{{Kukiz'15/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#122746;" |
+! data-sort-type="number" style="height:1px; background:#F9C013;" |
+|-
+| [https://wiadomosci.onet.pl/tylko-w-onecie/sondaz-ibris-dla-onetu-sondaz-poparcia-dla-partii-politycznych-maj-2021/k29jw7h IBRiS / Onet]
+| data-sort-value="2021-05-31" | 31 May 2021
+| 1,100
+| style="background:#C0DBFC;" | '''34.9'''
+| 14.1
+| 8.4
+| 5.0
+|
+| 4.4
+| 20.2
+| 12.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.7'''
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/553415-sondaz-pis-odrabia-straty-rekordowe-poparcie-dla-holowni Social Changes / wPolityce.pl]
+| data-sort-value="2021-05-30" | 28–31 May 2021
+| 1,057
+| style="background:#C0DBFC;" | '''35'''
+| 15
+| 9
+| 3
+| 3
+| 7
+| 27
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| [https://wydarzenia.interia.pl/polska/news-sondaz-dla-interii-pis-na-czele-koalicja-obywatelska-za-pols,nId,5268021 IBRiS / Interia]
+| data-sort-value="2021-05-28" | 28 May 2021
+| 1,100
+| style="background:#C0DBFC;" | '''40.3'''
+| 15.9
+| 9.4
+| 4.4
+|
+| 7.3
+| 22.9
+| -{{efn|Without undecided voters}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.4'''
+|-
+| style="letter-spacing: -1px;"| [https://www.rmf24.pl/polityka/news-sondaz-dla-rmf-fm-i-dgp-stabilne-poparcie-pis-najwiecej-trac,nId,5256994#crp_state=1 United Survey / DGP, RMF]
+| data-sort-value="2021-05-25" | 25 May 2021
+| 1,000
+| style="background:#C0DBFC;" | '''33.7'''
+| 13.0
+| 8.0
+| 4.3
+|
+| 8.2
+| 22.7
+| 9.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.0'''
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/552480-nasz-sondaz-poparcia-dla-partii-czy-to-mala-stabilizacja Social Changes / wPolityce.pl]
+| data-sort-value="2021-05-24" | 21–24 May 2021
+| 1,088
+| style="background:#C0DBFC;" | '''34'''
+| 17
+| 9
+| 2
+| 3
+| 10
+| 24
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| [https://twitter.com/IBRiS_PL/status/1397071848530137089 IBRiS / "Rz"]
+| data-sort-value="2021-05-22" | 21–22 May 2021
+| 1,100
+| style="background:#C0DBFC;" | '''33.6'''
+| 14.6
+| 10.4
+| 4.9
+|
+| 6.9
+| 18.6
+| 11.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.0'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-nowy-lad-nie-pomogl-pis-6642797208599296a United Survey / WP.pl]
+| data-sort-value="2021-05-21" | 21 May 2021
+| 1,000
+| style="background:#C0DBFC;" | '''34.8'''
+| 13.2
+| 9.1
+| 5.3
+|
+| 5.7
+| 22.1
+| 9.8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.7'''
+|-
+| [https://dorzeczy.pl/tylko-na-dorzeczy/185688/sondaz-ruch-trzaskowskiego-zagrozeniem-dla-ko.html Estymator / DoRzeczy.pl]
+| data-sort-value="2021-05-21" | 20–21 May 2021
+| 1,022
+| style="background:#C0DBFC;" | '''38.4'''
+| 14.6
+| 10.8
+| 4.7
+| 1.9
+| 7.1
+| 22.2
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.2'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/najnowszy-sondaz-super-expressu-lewica-stracila-pis-zyskal-na-polskim-ladzie-aa-fvz2-TiNF-f9or.html Pollster / SE.pl]
+| rowspan="2" data-sort-value="2021-05-20" | 19–20 May 2021
+| rowspan="2" | 1,013
+| style="background:#C0DBFC;" | '''38.10'''
+| 19.20
+| 7.26
+| 4.95
+|
+| 8.72
+| 20.90
+| 0.87
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.20'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/wielki-sondaz-se-polacy-chca-wyborow-w-tym-roku-czy-pis-rzadzilby-samodzielnie-aa-DnoF-A8D3-HgSo.html Pollster / SE.pl]
+| style="background:#C0DBFC;" | '''36.14'''{{efn|name="pis-only"}}
+| 18.84
+| 6.93
+| 5.84
+|
+| 8.60
+| 21.03
+| 2.62{{efn|[[United Poland]] – 1.20%, [[Agreement (political party)|Agreement]] – 0.72%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.11'''
+|-
+| [https://mobile.twitter.com/PGBOpinium/status/1395636728065523717/photo/1 PGB Opinium]
+| data-sort-value="2021-05-20" | 18–20 May 2021
+| 1,011
+| style="background:#C0DBFC;" | '''31.7'''
+| 14.7
+| 8.1
+| 3.5
+| 0.7
+| 8.7
+| 23.4
+| 9.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.3'''
+|-
+| style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1395437885944385539 IBRiS / "Wydarzenia" Polsat]
+| rowspan="2" data-sort-value="2021-05-19" | 19 May 2021
+| rowspan="2" | 1,100
+| style="background:#C0DBFC;" | '''34.4'''
+| 14.2
+| 9.5
+| 5.2
+|
+| 6.9
+| 20.4
+| 9.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.0'''
+|-
+| TBA
+| style="background:#C0DBFC;" | '''29.6'''{{efn|name="pis-only"}}
+|
+|
+|
+|
+|
+|
+| NaN{{efn|[[United Poland]] – 1.7%, [[Agreement (political party)|Agreement]] – 2.6%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''NaN'''
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/551709-sondaz-lewica-odrabia-straty-holownia-wciaz-wygrywa-z-ko Social Changes / wPolityce.pl]
+| data-sort-value="2021-05-17" | 14–17 May 2021
+| 1,064
+| style="background:#C0DBFC;" | '''33'''
+| 16
+| 9
+| 3
+| 3
+| 12
+| 23
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| rowspan="2" | [https://natemat.pl/354345,sondaz-research-partner-partia-trzaskowskiego-i-holowni-wygralaby-wybory Reaserch Partner]
+| rowspan="2" data-sort-value="2021-05-17" | 14–17 May 2021
+| rowspan="2" | 1,098
+| style="background:#C0DBFC;" | '''30.9'''
+| 16.6
+| 6.4
+| 1.7
+| 2.0
+| 7.7
+| 20.5
+| 14.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.4'''
+|-
+| 31.5
+| 8.1
+| 4.9
+| 2.1
+| 1.6
+| 7.2
+| style="background:#FCDE83;" | '''32.1'''{{efn|Party of [[Szymon Hołownia]] and [[Rafał Trzaskowski]]}}
+| 12.5
+| style="background:#F9C013;"| '''0.6'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-jaroslaw-kaczynski-moze-byc-dumny-6640959486135040a UCE RESEARCH / WP]
+| data-sort-value="2021-05-16" | 15–16 May 2021
+| 1,122
+| style="background:#C0DBFC;" | '''35.66'''
+| 17.34
+| 5.60
+| 3
+| 6.43
+| 9.74
+| 20.53
+| 1.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.13'''
+|-
+| [https://twitter.com/CBOS_Info/status/1394280810753183750 CBOS]
+| data-sort-value="2021-05-16" | 6–16 May 2021
+| 1,163
+| style="background:#C0DBFC;" | '''32.8'''
+| 11.0
+| 5.5
+| 2
+| 1
+| 6.1
+| 17.1
+| 19
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.7'''
+|-
+| [https://stanpolityki.pl/sondaz-parlamentarny-maj-2021-ibsp-dla-stanpolityki-pl/ IBSP]
+| data-sort-value="2021-05-14" | 13–14 May 2021
+| 1,001
+| style="background:#C0DBFC;" | '''30.80'''
+| 15.05
+| 9.98
+| 2.40
+|
+| 11.54
+| 27.68
+| 2.61{{efn|Agrounia – 2.40%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''3.12'''
+|-
+| [https://www.wnp.pl/parlamentarny/spoleczenstwo/kantar-pis-33-proc-ko-21-proc-polska-2050-17-proc,142435.html Kantar]
+| data-sort-value="2021-05-12" | 7–12 May 2021
+| 984
+| style="background:#C0DBFC;" | '''33'''
+| 21
+| 6
+| 3
+| 2
+| 5
+| 17
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12'''
+|-
+| [https://wyborcza.pl/7,75398,27076647,sondaz-traci-tylko-ko-wszyscy-inni-zyskuja.html Kantar]
+| data-sort-value="2021-05-11" | 11 May 2021
+| 1,100
+| style="background:#C0DBFC;" | '''32'''
+| 19
+| 10
+| 4
+| 4
+| 11
+| 21
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8162277,sondaz-przedwyborczy-pis-ko-opozycja-holownia.html United Survey / DGP, RMF]
+| rowspan="2" data-sort-value="2021-05-11" | 11 May 2021
+| rowspan="2" | 1,000
+| style="background:#C0DBFC;" | '''33.5'''{{efn|name="pis-only"}}
+| 12.1
+| 9.6
+| 4.3
+|
+| 8.6
+| 21.9
+| 9.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.6'''
+|-
+| style="background:#C0DBFC;" | '''34.0'''
+| 15.7{{efn|[[Borys Budka]] and [[Rafał Trzaskowski]] as party leaders}}
+| 9.1
+| 6.4{{efn|[[Władysław Kosiniak-Kamysz]] and [[Bronisław Komorowski]] as party leaders}}
+|
+| 6.9
+| 19.6
+| 8.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.4'''
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/550658-nasz-sondaz-holownia-z-duza-przewaga-nad-ko-lewica-traci Social Changes / wPolityce.pl]
+| data-sort-value="2021-05-10" | 7–10 May 2021
+| 1,073
+| style="background:#C0DBFC;" | '''34'''
+| 18
+| 7
+| 2
+| 2
+| 10
+| 25
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-ibris-pis-na-czele-blisko-siebie-koalicja-obywatelska-i-polska-2050/ttdp3tc,79cfc278 IBRiS / Onet]
+| data-sort-value="2021-05-09" | 8–9 May 2021
+| 1,100
+| style="background:#C0DBFC;" | '''35.1'''
+| 14.7
+| 9.1
+| 5.6
+|
+| 5.8
+| 19.9
+| 9.8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.2'''
+|-
+| style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1390351569611333634 IBRiS / "Wydarzenia" Polsat]
+| rowspan="2" data-sort-value="2021-05-05" | 5 May 2021
+| rowspan="2" | 1,100
+| style="background:#C0DBFC;" | '''33.9'''
+| 15.3
+| 10.7
+| 4.5
+|
+| 9.0
+| 18.9
+| 7.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.0'''
+|-
+| style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1390358220649152513 IBRiS / "Wydarzenia" Polsat]
+| style="background:#C0DBFC;" | '''30.1'''{{efn|name="pis-only"}}
+| 15.8
+| 10.1
+| 4.4
+|
+| 10.3
+| 17.9
+| 10.4{{efn|[[United Poland]] – 1.0%, [[Agreement (political party)|Agreement]] – 1.7%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.2'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-pis-wciaz-liderem-ale-znow-traci-wiekszosc-6636412191910656a United Survey / WP.pl]
+| data-sort-value="2021-05-04" | 4 May 2021
+| 1,000
+| style="background:#C0DBFC;" | '''35.4'''
+| 15.1
+| 10.4
+| 5.1
+|
+| 5.7
+| 20.4
+| 7.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.0'''
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/549874-sondaz-pis-lekko-w-gore-po-ostro-w-dol-lewica-nie-traci Social Changes / wPolityce.pl]
+| data-sort-value="2021-05-04" | 30 Apr–4 May 2021
+| 1,070
+| style="background:#C0DBFC;" | '''34'''
+| 16
+| 10
+| 2
+| 3
+| 10
+| 23
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://www.wnp.pl/parlamentarny/sondaze/sondaz-polska-2050-zmniejsza-dystans-do-zjednoczonej-prawicy,886.html Research Partner]
+| data-sort-value="2021-05-03" | 30 Apr–3 May 2021
+| 1,127
+| style="background:#C0DBFC;" | '''27.9'''
+| 17.2
+| 7.2
+| 1.5
+| 1.6
+| 7.7
+| 23.6
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4.3'''
+|-
+| [https://fakty.tvn24.pl/fakty-po-poludniu,96/sondaz-dla-faktow-tvn-i-tvn24-prawo-i-sprawiedliwosc-i-polska-2050-zyskuja-koalicja-obywatelska-traci,1058588.html Kantar / TVN]
+| rowspan="2" data-sort-value="2021-04-28" | 27–28 Apr 2021
+| rowspan="2" | 1,001
+| style="background:#C0DBFC;" | '''30'''
+| 21
+| 9
+| 3
+| 2
+| 7
+| 20
+| 8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| [https://tvn24.pl/polska/sondaz-dla-faktow-tvn-i-tvn24-poparcie-dla-partii-politycznych-pis-porozumienie-solidarna-polska-oddzielnie-5081527 Kantar / TVN]
+| style="background:#C0DBFC;" | '''25'''{{efn|name="pis-only"}}
+| 21
+| 8
+| 3
+| 3
+| 7
+| 21
+| 12{{efn|[[United Poland]] – 1%, [[Agreement (political party)|Agreement]] – 2%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4'''
+|-
+| [https://oko.press/pis-sie-odbija-holownia-pozre-budke-sondaz-oko-press/ IPSOS / OKO.press]
+| data-sort-value="2021-04-28" | 26–28 Apr 2021
+| 1,000
+| style="background:#C0DBFC;" | '''33'''
+| 18
+| 9
+| 2
+|
+| 11
+| 22
+| 5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| style="letter-spacing: -1px;"|  [https://wpolityce.pl/polityka/548893-sondaz-platforma-znow-blizej-holowni-w-sejmie-piec-partii Social Changes / wPolityce.pl]
+| data-sort-value="2021-04-26" | 23–26 Apr 2021
+| 1,067
+| style="background:#C0DBFC;" | '''32'''
+| 20
+| 10
+| 2
+| 3
+| 8
+| 24
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-ibris-pis-na-czele-blisko-siebie-koalicja-obywatelska-i-polska-2050/ttdp3tc,79cfc278 IBRiS / Onet]
+| data-sort-value="2021-04-25" | 24–25 Apr 2021
+| 1,100
+| style="background:#C0DBFC;" | '''33.1'''
+| 16.1
+| 10.0
+| 4.4
+|
+| 7.7
+| 17.1
+| 11.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.0'''
+|-
+| rowspan="2" | [https://www.se.pl/wiadomosci/polityka/ziobro-i-gowin-niesamodzielni-aa-KXhD-ow71-fbBG.html Pollster / SE.pl]
+| rowspan="2" data-sort-value="2021-04-20" | 20 Apr 2021
+| rowspan="2" | 1,066
+| style="background:#C0DBFC;" | '''35.77'''
+| 17.34
+| 10.08
+| 5.14
+|
+| 8.64
+| 21.91
+| 1.12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.86'''
+|-
+| style="background:#C0DBFC;" | '''33.89'''{{efn|name="pis-only"}}
+| 16.86
+| 9.66
+| 5.58
+|
+| 8.89
+| 21.38
+| 3.74{{efn|[[United Poland]] – 1.63%, [[Agreement (political party)|Agreement]] – 0.95%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.51'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://www.polsatnews.pl/wiadomosc/2021-04-21/sondaz-dla-wydarzen-holownia-lowi-wyborcow-lewicy-i-po-pis-traci-bez-koalicjantow/ IBRiS / "Wydarzenia" Polsat]
+| rowspan="2" data-sort-value="2021-04-20" | 20 Apr 2021
+| rowspan="2" | 1,100
+| style="background:#C0DBFC;" | '''32.6'''
+| 16.4
+| 11.5
+| 4.9
+|
+| 8.2
+| 15.7
+| 10.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.2'''
+|-
+| style="background:#C0DBFC;" | '''30.1'''{{efn|name="pis-only"}}
+| 17.3
+| 10.6
+| 4.4
+|
+| 7.3
+| 15.5
+| 14.8{{efn|[[United Poland]] – 2.2%, [[Agreement (political party)|Agreement]] – 1.6%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.8'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/548113-sondaz-pis-wciaz-zyskuje-holownia-zwieksza-przewage-nad-ko Social Changes / wPolityce.pl]
+| data-sort-value="2021-04-19" | 16–19 Apr 2021
+| 1,072
+| style="background:#C0DBFC;" | '''34'''
+| 16
+| 10
+| 2
+| 3
+| 8
+| 26
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| [https://natemat.pl/350035,najnowszy-sondaz-polityczny-research-partner-pis-lekko-odrabia-straty Research Partner]
+| data-sort-value="2021-04-19" | 16–19 Apr 2021
+| 1,115
+| style="background:#C0DBFC;" | '''29.4'''
+| 17.0
+| 9.2
+| 2.4
+| 2.3
+| 8.4
+| 21.1
+| 10.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.3'''
+|-
+| [https://twitter.com/CBOS_Info/status/1384145767242240000/photo/1 CBOS]
+| data-sort-value="2021-04-18" | 8–18 Apr 2021
+| 1,131
+| style="background:#C0DBFC;" | '''32.0'''
+| 14.2
+| 5.1
+| 1.3
+| 1.2
+| 4.9
+| 15.6
+| 20.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.4'''
+|-
+| rowspan="2" | [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-sprawdzilismy-wariant-kiedy-pis-walczy-o-glosy-bez-koalicjantow-6630157696109248a United Survey / WP.pl]
+| rowspan="2" data-sort-value="2021-04-16" | 16 Apr 2021
+| rowspan="2" | 1,000
+| style="background:#C0DBFC;" | '''32.2'''
+| 17.0
+| 7.7
+| 4.9
+|
+| 7.0
+| 17.3
+| 14.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.9'''
+|-
+| style="background:#C0DBFC;" | '''30.3'''{{efn|name="pis-only"}}
+| 16.6
+| 8.2
+| 5.0
+|
+| 5.7
+| 17.0
+| 17.3{{efn|[[United Poland]] – 2.1%, [[Agreement (political party)|Agreement]] – 1.4%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.3'''
+|-
+| [https://dorzeczy.pl/sondaz/179853/nowy-sondaz-estymator-dla-dorzeczypl.html Estymator / DoRzeczy.pl]
+| data-sort-value="2021-04-16" | 15–16 Apr 2021
+| 1,029
+| style="background:#C0DBFC;" | '''35.9'''
+| 18.1
+| 10.7
+| 5.2
+| 2.1
+| 6.8
+| 20.9
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.0'''
+|-
+| [https://wiadomosci.onet.pl/kraj/sondaz-partyjny-pis-i-polska-2050-w-gore-spadek-ko/t15twzf Kantar]
+| data-sort-value="2021-04-14" | 9–14 Apr 2021
+| 980
+| style="background:#C0DBFC;" | '''31'''
+| 22
+| 9
+| 3
+| 2
+| 6
+| 16
+| 11
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/547064-sondaz-zyskuja-pis-i-polska-2050-platforma-w-dol-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2021-04-12" | 9–12 Apr 2021
+| 1,069
+| style="background:#C0DBFC;" | '''33'''
+| 18
+| 10
+| 2
+| 3
+| 9
+| 24
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| [https://www.rp.pl/Polityka/304149919-Sondaz-PiS-z-31-proc-poparcia-Holownia-przed-Koalicja-Obywatelska.html IBRiS / "Rz"]
+| data-sort-value="2021-04-10" | 9–10 Apr 2021
+| 1,100
+| style="background:#C0DBFC;" | '''31.0'''
+| 15.2
+| 8.1
+| 5.1
+|
+| 7.2
+| 19.1
+| 14.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.9'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://www.rmf24.pl/fakty/polska/news-sondaz-dla-rmf-fm-i-dgp-porozumienie-i-solidarna-polska-bez-,nId,5164998 United Survey / DGP, RMF]
+| rowspan="2" data-sort-value="2021-04-09" | 9 Apr 2021
+| rowspan="2" | 1,000
+| style="background:#C0DBFC;" | '''33.3'''
+| 17.9
+| 8.9
+| 4.9
+|
+| 4.8
+| 19.0
+| 11.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.3'''
+|-
+| style="background:#C0DBFC;" | '''30.2'''{{efn|name="pis-only"}}
+| 16.2
+| 10.3
+| 5.0
+|
+| 4.7
+| 16.7
+| 17{{efn|[[United Poland]] – 2.2%, [[Agreement (political party)|Agreement]] – 1.8%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.5'''
+|-
+| [https://twitter.com/StanPolityki/status/1381845791539609601 IBSP]
+| data-sort-value="2021-04-09" | 7–9 Apr 2021
+| 1,000
+| style="background:#C0DBFC;" | '''30.36'''
+| 20.32
+| 10.81
+| 2.00
+|
+| 8.77
+| 25.05
+| 2.69{{efn|Agrounia – 2.08%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5.31'''
+|-
+| [https://www.polsatnews.pl/wiadomosc/2021-04-07/polska-2050-szymona-holowni-tuz-za-pis-najnowszy-sondaz/ Research Partner]
+| data-sort-value="2021-04-06" | 2–6 Apr 2021
+| 1,129
+| style="background:#C0DBFC;" | '''27.1'''
+| 17.5
+| 7.3
+| 2.3
+| 2.8
+| 7.6
+| 23.8
+| 11.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''3.3'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/546253-nasz-sondaz-pis-lekko-w-gore-psl-pod-progiem-sprawdz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-04-05" | 2–5 Apr 2021
+| rowspan="2" | 1,074
+| style="background:#C0DBFC;" | '''34'''
+| 24
+| 14
+| 3
+| 3
+| 8
+|
+| 14
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| style="background:#C0DBFC;" | '''30'''
+| 20
+| 13
+| 2
+| 3
+| 8
+| 22
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| [https://www.rp.pl/Polityka/210409704-Sondaz-Solidarna-Polska-moze-wejsc-do-Sejmu-samodzielnie.html CBM Indicator / "Rz"]
+| data-sort-value="2021-03-30" | 25–30 Mar 2021
+| 1,000
+| style="background:#C0DBFC;" | '''26.1'''{{efn|name="pis-only"}}
+| 15.9
+| 8.2
+| 5.1
+| 1.2
+| 6.1
+| 17.8
+| 19.6{{efn|[[United Poland]] – 5.2%, [[Agreement (political party)|Agreement]] – 1.6%, [[The Greens (Poland)|The Greens]] – 0.4%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.3'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/545423-najnowszy-sondaz-cala-czolowka-traci-w-sejmie-az-6-partii Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-03-29" | 26–29 Mar 2021
+| rowspan="2" | 1,094
+| style="background:#C0DBFC;" | '''32'''
+| 22
+| 13
+| 3
+| 4
+| 11
+|
+| 15
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| style="background:#C0DBFC;" | '''28'''
+| 17
+| 12
+| 5
+| 4
+| 10
+| 22
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-ibris-pis-na-czele-blisko-siebie-koalicja-obywatelska-i-polska-2050/rfrd8bz,79cfc278 IBRiS / Onet]
+| data-sort-value="2021-03-28" | 27–28 Mar 2021
+| 1,100
+| style="background:#C0DBFC;" | '''31.0'''
+| 17.3
+| 9.1
+| 5.0
+|
+| 7.3
+| 17.2
+| 13.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.7'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/544574-najnowszy-sondaz-poparcia-dla-partii-kukiz15-wyzej-niz-psl Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-03-22" | 19–22 Mar 2021
+| rowspan="2" | 1,085
+| style="background:#C0DBFC;" | '''32'''
+| 23
+| 12
+| 4
+| 4
+| 10
+|
+| 15
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| style="background:#C0DBFC;" | '''29'''
+| 18
+| 10
+| 3
+| 4
+| 10
+| 24
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5'''
+|-
+| [https://wiadomosci.wp.pl/sondaz-zmiany-w-czolowce-dwie-partie-poza-sejmem-6621623349242720a Research Partner]
+| data-sort-value="2021-03-22" | 19–22 Mar 2021
+| 1,128
+| style="background:#C0DBFC;" | '''29.8'''
+| 15.7
+| 8.7
+| 2.3
+| 1.8
+| 8.7
+| 22.1
+| 10.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7.7'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-jaroslaw-kaczynski-ma-powod-do-radosci-6620409430125216a United Survey / WP.pl]
+| data-sort-value="2021-03-19" | 19 Mar 2021
+| 1,000
+| style="background:#C0DBFC;" | '''33.2'''
+| 18.5
+| 9.3
+| 6.3
+|
+| 6.5
+| 13.2
+| 12.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.7'''
+|-
+| [https://tvn24.pl/polska/poparcie-dla-pis-i-innych-partii-politycznych-sondaz-kantar-dla-polityki-5056929 Kantar / Polityka]
+| data-sort-value="2021-03-19" | 19 Mar 2021
+| 1,000
+| style="background:#C0DBFC;" | '''28'''
+| 17
+| 10
+| 2
+|
+| 8
+| 25
+| 10{{efn|Don't know - 8%, others - 2%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''3'''
+|-
+|style="letter-spacing: -1px;"| [https://oko.press/holownia-23-proc-prawie-dogania-kaczynskiego-26-proc-ko-z-tylu/?u=true Kantar / "GW", OKO.press]
+| data-sort-value="2021-03-19" | 17–19 Mar 2021
+| 1,000
+| style="background:#C0DBFC;" | '''26'''
+| 16
+| 8
+| 3
+|
+| 9
+| 23
+| 16
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''3'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/543657-najnowszy-sondaz-poparcia-dla-partii-jest-wazna-zmiana Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-03-15" | 12–15 Mar 2021
+| rowspan="2" | 1,078
+| style="background:#C0DBFC;" | '''33'''
+| 24
+| 13
+| 3
+| 3
+| 10
+|
+| 14
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| style="background:#C0DBFC;" | '''31'''
+| 18
+| 10
+| 2
+| 3
+| 9
+| 25
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| [https://dorzeczy.pl/sondaz/175712/pis-wyraznie-prowadzi-holownia-przegania-po-zobacz-najnowszy-sondaz.html Estymator / DoRzeczy.pl]
+| data-sort-value="2021-03-12" | 11–12 Mar 2021
+| 1,025
+| style="background:#C0DBFC;" | '''37.7'''
+| 17.1
+| 11.6
+| 5.9
+| 2.4
+| 6.8
+| 18.3
+| 0.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''19.4'''
+|-
+| [https://twitter.com/PGBOpinium/status/1370679750923026433/photo/1 PGB Opinium]
+| data-sort-value="2021-03-12" | 11–12 Mar 2021
+| 1,098
+| style="background:#C0DBFC;" | '''30.0'''
+| 18.8
+| 8.6
+| 4.1
+| 1.1
+| 8.3
+| 21.6
+| 7.48
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.4'''
+
+|-
+| [https://twitter.com/CBOS_Info/status/1370393270447144963 CBOS]
+| data-sort-value="2021-03-11" | 1–11 Mar 2021
+| 1,154
+| style="background:#C0DBFC;" | '''33.3'''
+| 11.3
+| 6.0
+| 2.4
+| 0.8
+| 6.7
+| 17.2
+| 22.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.1'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-kantar-topnieje-przewaga-pis-nad-ko-spadek-poparcia-polski-2050/c08zl0j,79cfc278 Kantar]
+| data-sort-value="2021-03-10" | 5–10 Mar 2021
+| 985
+| style="background:#C0DBFC;" | '''30'''
+| 24
+| 8
+| 3
+| 2
+| 5
+| 14
+| 14
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/542599-najnowszy-sondaz-partyjny-w-sejmie-5-partii-ale-bez-psl Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-03-08" | 5–8 Mar 2021
+| rowspan="2" | 1,054
+| style="background:#C0DBFC;" | '''32'''
+| 24
+| 13
+| 4
+| 4
+| 10
+|
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| style="background:#C0DBFC;" | '''31'''
+| 20
+| 12
+| 3
+| 3
+| 9
+| 20
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://www.rmf24.pl/fakty/polska/news-sondaz-dla-rmf-fm-polska-2050-przed-koalicja-obywatelska-psl,nId,5096334 Opinia24 / RMF]
+| data-sort-value="2021-03-07" | 1–7 Mar 2021
+| 3,007
+| style="background:#C0DBFC;" | '''29'''
+| 20
+| 9
+| 2
+| 2
+| 8
+| 24
+| 7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5'''
+|-
+| [https://twitter.com/IBRiS_PL/status/1368823376979103752 IBRiS / "Rz"]
+| data-sort-value="2021-03-06" | 5–6 Mar 2021
+| 1,100
+| style="background:#C0DBFC;" | '''32.3'''
+| 18.1
+| 7.4
+| 6.0
+|
+| 6.2
+| 17.9
+| 12.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.2'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-pis-wciaz-na-czele-zmiana-wicelidera-6615436858956320a United Survey / WP.pl]
+| data-sort-value="2021-03-05" | 5 Mar 2021
+| 1,000
+| style="background:#C0DBFC;" | '''33.0'''
+| 17.5
+| 9.6
+| 5.3
+|
+| 5.3
+| 17.7
+| 11.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.3'''
+|-
+| rowspan="2" | [https://www.se.pl/wiadomosci/polityka/ziobro-i-gowin-nie-istnieja-bez-kaczynskiego-aa-Ua6T-9nzf-y3Hg.html Pollster / SE.pl]
+| rowspan="2" data-sort-value="2021-03-04" | 3–4 Mar 2021
+| rowspan="2" | 1,033
+| style="background:#C0DBFC;" | '''39.86'''
+| 20.32
+| 9.79
+| 4.8
+|
+| 6.95
+| 17.32
+| 0.96
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''19.54'''
+|-
+| style="background:#C0DBFC;" | '''38.07'''{{efn|name="pis-only"}}
+| 20.39
+| 9.61
+| 4.33
+|
+| 7.02
+| 17.79
+| 2.79{{efn|[[United Poland]] - 1.04%, [[Agreement (political party)|Agreement]] - 0.8%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.68'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/541736-krajobraz-partyjny-platforma-znow-wyprzedza-polske-2050 Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-03-01" | 26 Feb–1 Mar 2021
+| rowspan="2" | 1,071
+| style="background:#C0DBFC;" | '''30'''
+| 28
+| 12
+| 3
+| 4
+| 10
+|
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''2'''
+|-
+| style="background:#C0DBFC;" | '''28'''
+| 22
+| 11
+| 3
+| 4
+| 9
+| 21
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-ibris-dla-onetu-rosnie-poparcie-pis-i-lewicy-spada-ko-i-konfederacji/834wcx1,79cfc278 IBRiS / Onet]
+| data-sort-value="2021-02-28" | 27–28 Feb 2021
+| 1,100
+| style="background:#C0DBFC;" | '''32.9'''
+| 18.2
+| 10.1
+| 5.9
+|
+| 5.0
+| 17.3
+| 10.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.7'''
+|-
+| [https://stanpolityki.pl/sondaz-parlamentarny-marzec-2021/ IBSP]
+| data-sort-value="2021-02-26" | 25–26 Feb 2021
+| 1,001
+| 26.96
+| 18.85
+| 9.34
+| 3.23
+|
+| 6.96
+| style="background:#FCDE83;" | '''31.26'''
+| 3.40{{efn| [[Agrounia]] - 3.01%}}
+| style="background:#F9C013;"| '''4.30'''
+|-
+| [https://dorzeczy.pl/sondaz/173965/sondaz-estymator-dla-dorzeczypl-traca-ko-i-konfederacja.html Estymator / doRzeczy.pl]
+| data-sort-value="2021-02-26" | 25–26 Feb 2021
+| 1,041
+| style="background:#C0DBFC;" | '''37.6'''
+| 19.2
+| 11.4
+| 5.5
+| 2.1
+| 6.9
+| 17.1
+| 0.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18.4'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/540594-krajobraz-partyjny-najnowszy-sondaz-mala-stabilizacja Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-02-22" | 19–22 Feb 2021
+| rowspan="2" | 1,076
+| style="background:#C0DBFC;" | '''33'''
+| 26
+| 13
+| 3
+| 4
+| 10
+|
+| 11
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|-
+| style="background:#C0DBFC;" | '''30'''
+| 19
+| 12
+| 2
+| 4
+| 8
+| 23
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-pis-prowadzi-ale-traci-wiekszosc-parlamentarna-6610590638627680a United Survey / WP.pl]
+| data-sort-value="2021-02-19" | 19 Feb 2021
+| 1,000
+| style="background:#C0DBFC;" | '''33.5'''
+| 19.3
+| 11.4
+| 5.8
+|
+| 6.0
+| 14.6
+| 9.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.2'''
+|-
+| [https://twitter.com/PGBOpinium/status/1361949001126354945/photo/1 PGB Opinium]
+| data-sort-value="2021-02-16" | 15–16 Feb 2021
+| 1,100
+| style="background:#C0DBFC;" | '''31.2'''
+| 19.0
+| 7.5
+| 4.9
+| 0.5
+| 8.2
+| 20.6
+| 8.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.6'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/539597-polska-2050-zwieksza-przewage-nad-koalicja-obywatelska Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-02-15" | 12–15 Feb 2021
+| rowspan="2" | 1,095
+| style="background:#C0DBFC;" | '''33'''
+| 24
+| 15
+| 3
+| 3
+| 9
+|
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| style="background:#C0DBFC;" | '''30'''
+| 17
+| 12
+| 3
+| 3
+| 10
+| 23
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|-
+|-
+| [https://dorzeczy.pl/sondaz/172554/mocna-pozycja-pis-koalicja-276-bez-wiekszosci-w-sejmie.html Estymator / DoRzeczy.pl]
+| data-sort-value="2021-02-13" | 12–13 Feb 2021
+| 1,022
+| style="background:#C0DBFC;" | '''37.4'''
+| 21.5
+| 9.7
+| 5.4
+| 2.4
+| 7.1
+| 16.2
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.9'''
+|-
+| [https://oko.press/pis-w-stagnacji-od-wiekszosci-dzieli-go-przepasc-sondaz-oko-press/ IPSOS / OKO.press]
+| data-sort-value="2021-02-12" | 10–12 Feb 2021
+| 1,014
+| style="background:#C0DBFC;" | '''29'''
+| 20
+| 10
+| 4
+|
+| 10
+| 20
+| 7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Sondaz-CBOS-w-lutym.-Tylko-cztery-sily-w-Sejmie.-PiS-ma-33-proc.-fatalny-wynik-KO.-Drugi-Holownia CBOS]
+| data-sort-value="2021-02-11" | 1–11 Feb 2021
+| 1,179
+| style="background:#C0DBFC;" | '''33.2'''
+| 12.4
+| 4.4
+| 2.0
+| 1.0
+| 5.5
+| 19.2
+| 22.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.0'''
+|-
+| [https://wiadomosci.onet.pl/kraj/sondaz-kantar-pis-bez-samodzielnej-wiekszosci-ponad-dwie-trzecie-polakow-chce/vz802wh Kantar]
+| data-sort-value="2021-02-10" | 5–10 Feb 2021
+| 676
+| style="background:#C0DBFC;" | '''31'''
+| 18
+| 7
+| 4
+| 2
+| 7
+| 15
+| 17
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/539011-holownia-nadal-przed-platforma-ale-traci-kukiz-w-sejmie Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-02-08" | 5–8 Feb 2021
+| rowspan="2" | 1,051
+| style="background:#C0DBFC;" | '''30'''
+| 25
+| 11
+| 4
+| 6
+| 10
+|
+| 14
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5'''
+|-
+| style="background:#C0DBFC;" | '''29'''
+| 20
+| 10
+| 2
+| 5
+| 9
+| 23
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| [https://www.rp.pl/Polityka/302079939-Sondaz-PiS-bez-wiekszosci-w-Sejmie.html IBRiS / "Rz"]
+| data-sort-value="2021-02-06" | 5–6 Feb 2021
+| 1,100
+| style="background:#C0DBFC;" | '''32'''
+| 19
+| 8
+| 5
+|
+| 6
+| 18
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| [https://wiadomosci.wp.pl/nowy-sondaz-dla-wp-pis-zdecydowanym-liderem-6605620359011008a United Survey / WP.pl]
+| data-sort-value="2021-02-05" | 5 Feb 2021
+| 1,000
+| style="background:#C0DBFC;" | '''33.5'''
+| 19.7
+| 8.0
+| 5.6
+|
+| 7.0
+| 15.0
+| 11.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.8'''
+|-
+| [http://biznes.pap.pl/pl/news/all/info/3048689,w-styczniu-poparcie-dla-zp-wzroslo-do-29-proc---dla-ko-spadlo-do-23-proc----kantar Kantar]
+| data-sort-value="2021-02-03" | 29 Jan–3 Feb 2021
+| 980
+| style="background:#C0DBFC;" | '''29'''
+| 23
+| 6
+| 4
+| 2
+| 5
+| 14
+| 17
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/537676-holownia-ucieka-platformie-ma-juz-10-punktow-przewagi Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-02-01" | 29 Jan–1 Feb 2021
+| rowspan="2" | 1,074
+| style="background:#C0DBFC;" | '''34'''
+| 23
+| 12
+| 2
+| 4
+| 9
+|
+| 16
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| style="background:#C0DBFC;" | '''31'''
+| 17
+| 9
+| 2
+| 3
+| 9
+| 27
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4'''
+|-
+| [https://www.rmf24.pl/polityka/news-protesty-nie-zaszkodzily-pis-najnowszy-sondaz,nId,5029163 Pollster / SE.pl]
+| data-sort-value="2021-02-01" | 29 Jan–1 Feb 2021
+| 1,081
+| style="background:#C0DBFC;" | '''41.42'''
+| 23.21
+| 9.73
+| 3.59
+|
+| 5.64
+| 15.25
+|
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18.21'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-ibris-dla-onetu-ruch-holowni-dogania-ko/pdpshjc,79cfc278 IBRiS / Onet]
+| data-sort-value="2021-01-31" | 30–31 Jan 2021
+| 1,100
+| style="background:#C0DBFC;" | '''31.1'''
+| 19.2
+| 8.9
+| 5.5
+|
+| 7.4
+| 16.9
+| 11.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.9'''
+|-
+| [https://dorzeczy.pl/sondaz/170759/klopoty-po-ogromna-przewaga-pis-nad-koalicja-obywatelska.html Estymator / DoRzeczy.pl]
+| data-sort-value="2021-01-29" | 28–29 Jan 2021
+| 1,029
+| style="background:#C0DBFC;" | '''38.4'''
+| 21.8
+| 11.1
+| 5.2
+| 2.0
+| 6.7
+| 14.6
+| 0.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.6'''
+|-
+| [https://stanpolityki.pl/sondaz-parlamentarny-ibsp/ IBSP]
+| data-sort-value="2021-01-26" | 25–26 Jan 2021
+| 1,001
+| 26.96
+| 20.24
+| 7.56
+| 2.61
+|
+| 10.99
+| style="background:#FCDE83;" | '''27.70'''
+| 3.94{{efn| [[Agrounia]] - 3.67%}}
+| style="background:#F9C013;"| '''0.74'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/536683-partia-holowni-wyraznie-wyprzedza-platforme-sprawdz-wyniki Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-01-25" | 22–25 Jan 2021
+| rowspan="2" | 1,066
+| style="background:#C0DBFC;" | '''31'''
+| 26
+| 12
+| 5
+| 4
+| 10
+|
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5'''
+|-
+| style="background:#C0DBFC;" | '''29'''
+| 21
+| 9
+| 4
+| 3
+| 8
+| 24
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5'''
+|-
+| [https://wiadomosci.wp.pl/sondaz-ibris-dla-wp-pis-i-po-ze-spadkami-duzy-wzrost-polski-2050-6600620996582368a IBRiS / WP.pl]
+| data-sort-value="2021-01-23" | 23 Jan 2021
+| 1,100
+| style="background:#C0DBFC;" | '''30.0'''
+| 19.6
+| 9.5
+| 5.0
+|
+| 7.5
+| 17.5
+| 10.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.4'''
+|-
+| style="letter-spacing: -1px;"| [https://www.rmf24.pl/fakty/polska/news-spadek-poparcia-dla-ko-i-pis-wzrost-notowan-polski-2050,nId,5008564 United Survey / DGP, RMF]
+| data-sort-value="2021-01-22" | 22 Jan 2021
+| 1,000
+| style="background:#C0DBFC;" | '''32.5'''
+| 20.9
+| 10.2
+| 3.6
+|
+| 4.6
+| 16.2
+| 12.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.6'''
+|-
+| [https://twitter.com/PGBOpinium/status/1352555760656523265/photo/1 PGB Opinium]
+| data-sort-value="2021-01-21" | 20-21 Jan 2021
+| 1,100
+| style="background:#C0DBFC;" | '''34.7'''
+| 20.8
+| 8.6
+| 5.5
+| 0.9
+| 6.5
+| 14.3
+| 8.8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.9'''
+|-
+| [https://twitter.com/IBRiS_PL/status/1352691936403091458 IBRiS / Fakt.pl]
+| data-sort-value="2021-01-19" | 19 Jan 2021
+| 1,100
+| style="background:#C0DBFC;" | '''32.3'''{{efn|name="pis-only"}}
+| 20.0
+| 7.4
+| 5.0
+|
+| 6.6
+| 13.5
+| 15.2{{efn|[[United Poland]] - 1.2%, [[Agreement (political party)|Agreement]] - 1.0%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.3'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/535712-krajobraz-partyjny-polska-2050-i-ko-ida-leb-w-leb-sprawdz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-01-18" | 15–18 Jan 2021
+| rowspan="2" | 1,097
+| style="background:#C0DBFC;" | '''33'''
+| 29
+| 12
+| 3
+| 4
+| 11
+|
+| 8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4'''
+|-
+| style="background:#C0DBFC;" | '''30'''
+| 22
+| 10
+| 2
+| 3
+| 10
+| 22
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| [https://dorzeczy.pl/sondaz/168866/sondaz-dla-dorzeczypl-dobre-wiesci-dla-pis-co-z-opozycja.html Estymator / DoRzeczy.pl]
+| data-sort-value="2021-01-15" | 14–15 Jan 2021
+| 1,020
+| style="background:#C0DBFC;" | '''39.6'''
+| 22.1
+| 10.2
+| 6.6
+| 2.3
+| 6.0
+| 12.9
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.5'''
+|-
+| [https://www.tvp.info/51819914/sondaz-pis-na-czele-ko-przegrywa-z-ruchem-holowni-tvp-info CBOS]
+| data-sort-value="2021-01-14" | 4–14 Jan 2021
+| 1,150
+| style="background:#C0DBFC;" | '''35.2'''
+| 13.7
+| 5.0
+| 2.0
+| 1.0
+| 5.3
+| 18.2
+| 19.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.0'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/534797-pis-lekko-w-gore-psl-ponizej-progu-najnowszy-sondaz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-01-11" | 8–11 Jan 2021
+| rowspan="2" | 1,085
+| style="background:#C0DBFC;" | '''35'''
+| 27
+| 12
+| 3
+| 4
+| 10
+|
+| 9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| style="background:#C0DBFC;" | '''32'''
+| 23
+| 9
+| 2
+| 3
+| 8
+| 22
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| [https://www.rp.pl/Polityka/301109950-Sondaz-Partia-rzadzaca-bliska-odbicia.html IBRiS / "Rz"]
+| data-sort-value="2021-01-09" | 8–9 Jan 2021
+| 1,100
+| style="background:#C0DBFC;" | '''33.2'''
+| 20.6
+| 7.7
+| 5.2
+|
+| 6.4
+| 12.6
+| 14.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.6'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/533836-krajobraz-partyjny-najnowszy-sondaz-sprawdz-wyniki Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-01-05" | 1–5 Jan 2021
+| rowspan="2" | 1,090
+| style="background:#C0DBFC;" | '''33'''
+| 29
+| 12
+| 4
+| 4
+| 9
+|
+| 9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4'''
+|-
+| style="background:#C0DBFC;" | '''31'''
+| 24
+| 10
+| 2
+| 4
+| 7
+| 19
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|}
+=== 2020 ===
+{{For|events during the year|2020 in Poland}}
+
+{| class="wikitable sortable collapsible" style="text-align:center; font-size:95%; line-height:16px;
+|- style="height:42px; background-color:#E9E9E9"
+! rowspan="2" style="width:150px;" | Polling Firm/<br />Link
+! rowspan="2" data-sort-type="date" | Fieldwork<br />Period
+! rowspan="2" style="width:20px;" | Sample<br/>Size
+! style="width:60px;" class="unsortable" | [[United Right (Poland)|United<br/>Right]]
+! style="width:60px;" class="unsortable" | [[Civic Coalition (Poland)|Civic<br/>Coalition]]
+! style="width:60px;" class="unsortable" | [[The Left (Poland)|The Left]]
+! style="width:60px;" class="unsortable" | [[Polish Coalition|Polish<br/>Coalition]]
+! style="width:60px;" class="unsortable" | [[Kukiz'15]]
+! style="width:60px;" class="unsortable" | [[Confederation Liberty and Independence|Confederation]]
+! style="width:60px;" class="unsortable" | [[Poland 2050|Poland<br/>2050]]
+! rowspan="2" data-sort-type="number" style="width:50px;" | Others /<br />Don't know
+! rowspan="2" data-sort-type="number" style="width:30px;" | Lead
+|-
+! data-sort-type="number" style="height:1px; background:{{Law and Justice/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:{{Civic Platform/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#ac145a;" |
+! data-sort-type="number" style="height:1px; background:{{Polish People's Party/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:{{Kukiz'15/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#122746;" |
+! data-sort-type="number" style="height:1px; background:#F9C013;" |
+|-
+| [https://dorzeczy.pl/kraj/166986/ostatni-sondaz-w-2020-roku-pis-psl-i-lewica-rosna-reszta-traci.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-12-29" | 28–29 Dec 2020
+| 1,031
+| style="background:#C0DBFC;" | '''39.2'''
+| 23.6
+| 10.9
+| 7.4
+|
+| 4.8
+| 12.9
+| 1.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.6'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/532903-w-ostatnim-tegorocznym-badaniu-pis-zwieksza-przewage-nad-ko Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-12-28" | 25–28 Dec 2020
+| rowspan="2" | 1,040
+| style="background:#C0DBFC;" | '''35'''
+| 25
+| 13
+| 3
+| 5
+| 9
+|
+| 10
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| style="background:#C0DBFC;" | '''33'''
+| 19
+| 11
+| 3
+| 4
+| 8
+| 20
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| [https://wiadomosci.wp.pl/sondaz-ibris-dla-wp-pis-przed-ko-polska-2050-ostro-w-dol-6589675313769280a IBRiS / WP.pl]
+| data-sort-value="2020-12-22" | 21–22 Dec 2020
+| 1100
+| style="background:#C0DBFC;" | '''33.2'''
+| 23.6
+| 8.9
+| 6.0
+|
+| 4.5
+| 9.1
+| 14.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9.7'''
+|-
+| [https://www.rp.pl/Polityka/312309913-Sondaz-Bez-partii-Ziobry-PiS-traci-wladze.html CBM Indicator / "Rz"]
+| data-sort-value="2020-12-22" | 17–22 Dec 2020
+| 1000
+| style="background:#C0DBFC;" | '''25.7'''{{efn|name="pis-only"}}
+| 20.3
+| 8.6
+| 5.4
+| 3.4
+| 6.5
+| 13.2
+| 16.9{{efn| [[United Poland]] - 5.4%, [[Agreement (political party)|Agreement]] - 2.8%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5.4'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/532182-pis-lekko-traci-ko-nie-zyskuje-kukiz15-przed-psl-sprawdz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-12-20" | 18–21 Dec 2020
+| rowspan="2" | 1,096
+| style="background:#C0DBFC;" | '''33'''
+| 26
+| 14
+| 2
+| 5
+| 9
+|
+| 11
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|-
+| style="background:#C0DBFC;" | '''31'''
+| 20
+| 11
+| 4
+| 2
+| 10
+| 20
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-ibris-dla-onetu-pis-ze-sporym-wzrostem-poparcia/71vxynk,79cfc278 IBRiS / Onet.pl]
+| data-sort-value="2020-12-16" | 16 Dec 2020
+| 1,100
+| style="background:#C0DBFC;" | '''33.0'''
+| 22.3
+| 7.1
+| 6.1
+|
+| 4.9
+| 11.0
+| 15.5{{efn|Agrounia – 2%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.7'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/531207-nasz-sondaz-potwierdza-pis-odrabia-straty-duzy-wzrost Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-12-14" | 11–14 Dec 2020
+| rowspan="2" | 1,092
+| style="background:#C0DBFC;" | '''36'''
+| 26
+| 12
+| 4
+| 3
+| 10
+|
+| 9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| style="background:#C0DBFC;" | '''34'''
+| 20
+| 10
+| 4
+| 3
+| 8
+| 19
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/pierwszy-sondaz-po-unijnym-szczycie-morawiecki-ratuje-pis-aa-1yze-KRmE-admH.html Pollster / SE.pl]
+| data-sort-value="2020-12-12" | 12 Dec 2020
+| 1,067
+| style="background:#C0DBFC;" | '''40.05'''
+| 26.29
+| 8.52
+| 5.27
+|
+| 6.03
+| 12.44
+| 1.40
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.76'''
+|-
+| [https://wiadomosci.onet.pl/kraj/nowy-sondaz-ibris-stabilne-poparcie-dla-pis/1z6t865 IBRiS / WP.pl]
+| data-sort-value="2020-12-12" | 11–12 Dec 2020
+| 1,100
+| style="background:#C0DBFC;" | '''34.0'''
+| 23.4
+| 9.7
+| 6.2
+|
+| 4.0
+| 14.4
+| 8.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.6'''
+|-
+| [https://dorzeczy.pl/kraj/164687/pis-i-lewica-w-gore-po-i-ruch-holowni-notuja-strate.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-12-11" | 10–11 Dec 2020
+| 1,023
+| style="background:#C0DBFC;" | '''38.3'''
+| 24.9
+| 10.9
+| 5.7
+| 2.4
+| 4.4
+| 13.2
+| 0.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.4'''
+|-
+| [https://twitter.com/PGBOpinium/status/1337381827783385088/photo/1 PGB Opinium]
+| data-sort-value="2020-12-10" | 9–10 Dec 2020
+| 1,100
+| style="background:#C0DBFC;" | '''33.7'''
+| 23.8
+| 9.0
+| 4.8
+| 0.7
+| 5.9
+| 13.6
+| 8.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9.9'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Sondaz-CBOS.-PiS-wyraznie-na-czele-potem-KO-i-Szymon-Holownia.-4-ugrupowania-w-Sejmie CBOS]
+| data-sort-value="2020-12-10" | 30 Nov–10 Dec 2020
+| 1,010
+| style="background:#C0DBFC;" | '''31.1'''
+| 18.1
+| 3.9
+| 2.0
+| 2.0
+| 5.1
+| 15.6
+| 22.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.0'''
+|-
+| [https://wyborcza.pl/7,75398,26611549,kantar-i-sensacyjny-wynik-pis-i-po-po-25-proc.html#S.DT-K.C-B.1-L.1.duzy Kantar Public]
+| data-sort-value="2020-12-09" | 4–9 Dec 2020
+| 987
+| '''25'''
+| '''25'''
+| 8
+| 5
+| 2
+| 6
+| 13
+| 16
+| '''Tie'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/530168-kukiz15-z-takim-samym-poparciem-jak-psl-sprawdz-wyniki Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-12-08" | 4–8 Dec 2020
+| rowspan="2" | 1,079
+| style="background:#C0DBFC;" | '''31'''
+| 27
+| 13
+| 3
+| 3
+| 10
+|
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4'''
+|-
+| style="background:#C0DBFC;" | '''28'''
+| 22
+| 11
+| 3
+| 3
+| 10
+| 22
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+|
+| data-sort-value="2020-12-26" | 26 Nov 2020
+|colspan=10 |'''The [[Polish Coalition]] parts ways with member party [[Kukiz'15]]'''
+|}
+
+{| class="wikitable sortable collapsible" style="text-align:center; font-size:95%; line-height:16px;
+|- style="height:42px; background-color:#E9E9E9"
+! rowspan="2" style="width:150px;" | Polling Firm/<br />Link
+! rowspan="2" data-sort-type="date" | Fieldwork<br />Period
+! rowspan="2" style="width:20px;" | Sample<br/>Size
+! style="width:60px;" class="unsortable" | [[United Right (Poland)|United<br/>Right]]
+! style="width:60px;" class="unsortable" colspan="2" | [[Civic Coalition (Poland)|Civic<br/>Coalition]]
+! style="width:60px;" class="unsortable" | [[The Left (Poland)|The Left]]
+! style="width:60px;" class="unsortable" | [[Polish Coalition|Polish<br/>Coalition]]
+! style="width:60px;" class="unsortable" | [[Confederation Liberty and Independence|Confederation]]
+! style="width:60px;" class="unsortable" | [[Poland 2050|Poland<br/>2050]]
+! rowspan="2" data-sort-type="number" style="width:50px;" | Others /<br />Don't know
+! rowspan="2" data-sort-type="number" style="width:30px;" | Lead
+|-
+! data-sort-type="number" style="height:1px; background:{{Law and Justice/meta/color}};" |
+! colspan="2" data-sort-type="number" style="height:1px; background:{{Civic Platform/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#ac145a;" |
+! data-sort-type="number" style="height:1px; background:{{Polish People's Party/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#122746;" |
+! data-sort-type="number" style="height:1px; background:#F9C013;" |
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/529204-pis-ustabilizowalo-poparcie-ludowcy-pod-progiem-sprawdz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-11-30" | 17–30 Nov 2020
+| rowspan="2" | 1,079
+| style="background:#C0DBFC;" | '''32'''
+| colspan="2" | 28
+| 14
+| 3
+| 11
+|
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4'''
+|-
+| style="background:#C0DBFC;" | '''29'''
+| colspan="2" | 21
+| 12
+| 3
+| 10
+| 23
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| style="letter-spacing: -1px;"| [https://www.gazetaprawna.pl/artykuly/1497717,sondaz-wyborczy-dgp-rmf-fm.html United Survey / DGP, RMF]
+| data-sort-value="2020-11-28" | 27–28 Nov 2020
+| 1,000
+| style="background:#C0DBFC;" | '''33.6'''
+| colspan="2" |23.0
+| 9.8
+| 6.1
+| 4.7
+| 11.8
+| 11.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.6'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-ibris-dla-wp-spadki-w-poparciu-sa-trzy-wyjatki-6580619974478752a IBRiS / WP.pl]
+| data-sort-value="2020-11-27" | 27 Nov 2020
+| 1,100
+| style="background:#C0DBFC;" | '''32.7'''
+| colspan="2" |22.4
+| 10.1
+| 5.8
+| 5.4
+| 12.6
+| 11.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.3'''
+|-
+| [https://dorzeczy.pl/kraj/162936/holownia-goni-koalicje-obywatelska-jak-radza-sobie-pozostale-partie.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-11-26" | 26–27 Nov 2020
+| 1,019
+| style="background:#C0DBFC;" | '''36.9'''
+| colspan="2" |27.4
+| 9.6
+| 4.8
+| 5.2
+| 15.8
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9.5'''
+|-
+| [https://oko.press/ko-i-polska-2050-gonia-pis-20-proc-holowni-demokraci-mieliby-az-265-mandatow-sondaz-oko-press/ IPSOS / OKO.press]
+| data-sort-value="2020-11-25" | 23–25 Nov 2020
+| 1,000
+| style="background:#C0DBFC;" | '''29'''
+| colspan="2" |23
+| 10
+| 4
+| 9
+| 20
+| 5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| [https://fakty.tvn24.pl/ogladaj-online,60/prawo-i-sprawiedliwosc-z-minimalna-przewaga-nad-koalicja-obywatelska-sondaz-poparcia-dla-partii-politycznych,1038893.html Kantar Public / TVN]
+| data-sort-value="2020-11-23" | 20–23 Nov 2020
+| 1,003
+| style="background:#C0DBFC;" | '''27'''
+| colspan="2" |25
+| 8
+| 4
+| 7
+| 14
+| 15
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''2'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/528156-pis-leciutko-zyskuje-duzy-spadek-ko-psl-na-progu-sprawdz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-11-23" | 20–23 Nov 2020
+| rowspan="2" | 1,058
+| style="background:#C0DBFC;" | '''33'''
+| colspan="2" |26
+| 13
+| 5
+| 10
+|
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|-
+| style="background:#C0DBFC;" | '''32'''
+| colspan="2" |21
+| 10
+| 4
+| 9
+| 21
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/527111-pis-zachowuje-prowadzenie-ale-ko-wciaz-zyskuje-sprawdz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-11-16" | 13–16 Nov 2020
+| rowspan="2" | 1,049
+| style="background:#C0DBFC;" | '''32'''
+| colspan="2" |31
+| 12
+| 6
+| 8
+|
+| 11
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''1'''
+|-
+| style="background:#C0DBFC;" | '''28'''
+| colspan="2" |24
+| 10
+| 6
+| 7
+| 22
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4'''
+|-
+| [https://www.tvp.info/50824401/cbos-na-czele-nowego-sondazu-pis-z-wynikiem-298-proc-duzy-wzrost-poparcia-dla-ruchu-szymona-holowni-polska-2050 CBOS]
+| data-sort-value="2020-11-15" | 5–15 Nov 2020
+| 1,052
+| style="background:#C0DBFC;" | '''29.8'''
+| colspan="2" |16.3
+| 6.0
+| 2.5
+| 6.8
+| 16.3
+| 22.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.5'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-ibris-dla-wp-pis-przerywa-zla-passe-6575852050074528a IBRiS / WP.pl]
+| data-sort-value="2020-11-14" | 13–14 Nov 2020
+| 1,100
+| style="background:#C0DBFC;" | '''33.0'''
+| colspan="2" |24.1
+| 8.4
+| 5.0
+| 2.3
+| 13.1
+| 14.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.9'''
+|-
+| [https://dorzeczy.pl/kraj/161210/pis-odrabia-straty-konfederacja-i-lewica-blisko-siebie.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-11-13" | 12–13 Nov 2020
+| 1,025
+| style="background:#C0DBFC;" | '''36.8'''
+| colspan="2" |29.3
+| 9.4
+| 4.6
+| 6.6
+| 12.7
+| 0.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7.5'''
+|-
+| [https://wiadomosci.onet.pl/kraj/sondaz-spadek-pis-i-ko-wzrost-polski-2050-szymona-holowni/rywy6lf Kantar Public]
+| data-sort-value="2020-11-12" | 6–12 Nov 2020
+| 981
+| style="background:#C0DBFC;" | '''30'''
+| colspan="2" |24
+| 6
+| 6
+| 6
+| 13
+| 15
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/526123-najnowszy-sondaz-partyjny-czy-pis-odrabia-straty-sprawdz Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-11-09" | 6–9 Nov 2020
+| rowspan="2" | 1,088
+| style="background:#C0DBFC;" | '''32'''
+| colspan="2" |29
+| 15
+| 7
+| 9
+|
+| 8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''3'''
+|-
+| style="background:#C0DBFC;" | '''31'''
+| colspan="2" |21
+| 12
+| 5
+| 8
+| 22
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-partyjny-zmniejsza-sie-przewaga-pis-nad-ko/rjndc7v,79cfc278 IBRiS / Onet]
+| data-sort-value="2020-11-03" | 3 Nov 2020
+| 1,100
+| style="background:#C0DBFC;" | '''28.7'''
+| colspan="2" |24.7
+| 7.0
+| 5.1
+| 5.1
+| 11.3
+| 18.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4.0'''
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/524996-nasz-sondaz-pis-sporo-traci-ale-zyski-opozycji-minimalne Social Changes / wPolityce.pl]
+| data-sort-value="2020-11-02" | 30 Oct–2 Nov 2020
+| 1,080
+| style="background:#C0DBFC;" | '''30'''
+| colspan="2" |27
+| 14
+| 6
+| 10
+|
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''3'''
+|-
+| [https://www.gazetaprawna.pl/artykuly/1495071,orzeczenie-tk-aborcja-protesty-sondaz-poparcie-ustawa-prezydenta.html United Survey / RMF]
+| data-sort-value="2020-10-31" | 31 Oct 2020
+| 1,000
+| style="background:#C0DBFC;" | '''30.9'''
+| colspan="2" |25.3
+| 6.0
+| 2.7
+| 4.9
+| 14.7
+| 15.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5.6'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-pis-z-duzym-spadkiem/jdsbbsf,79cfc278 IBRiS / "Rz"]
+| data-sort-value="2020-10-31" | 30–31 Oct 2020
+| 1,100
+| style="background:#C0DBFC;" | '''28.0'''
+| colspan="2" |23.1
+| 6.2
+| 2.8
+| 4.4
+| 14.9
+| 20.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''4.9'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-zla-passa-pis-6570862598417184a IBRiS / WP.pl]
+| data-sort-value="2020-10-30" | 30 Oct 2020
+| 1,100
+| style="background:#C0DBFC;" | '''29.0'''
+| colspan="2" |24.0
+| 6.9
+| 3.3
+| 5.3
+| 14.9
+| 16.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5.0'''
+|-
+| [https://dorzeczy.pl/kraj/159330/strajk-kobiet-w-sejmie-co-z-opozycja.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-10-30" | 29–30 Oct 2020
+| 1,017
+| style="background:#C0DBFC;" | '''33.4'''
+| colspan="2" |26.8
+| 10.4
+| 4.1
+| 8.7
+| 13.0
+| 3.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6.6'''
+|-
+| [https://wiadomosci.gazeta.pl/wiadomosci/7,114884,26463033,sondaz-cbos-duzy-spadek-poparcia-dla-zjednoczonej-prawicy.html CBOS]
+| data-sort-value="2020-10-29" | 19–29 Oct 2020
+| 1,040
+| style="background:#C0DBFC;" | '''31.3'''
+| colspan="2" |18.1
+| 6.9
+| 3.7
+| 8.1
+| 9.7
+| 22.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.2'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/kaczynski-zalamany-wszystko-sie-sypie-niepokojace-wiesci-aa-1wBG-dbP7-MNDY.html Pollster / SE.pl]
+| data-sort-value="2020-10-28" | 27–28 Oct 2020
+| 1,022
+| style="background:#C0DBFC;" | '''37.83'''
+| colspan="2" |31.57
+| 9.76
+| 5.12
+| 5.98
+| 8.35
+| 1.39
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6.26'''
+|-
+| [https://twitter.com/PGBOpinium/status/1321776617782497280 PGB Opinium]
+| data-sort-value="2020-10-28" | 26–28 Oct 2020
+| 1,100
+| style="background:#C0DBFC;" | '''32.6'''
+| colspan=2| 25.5
+| 8.2
+| 4.1
+| 9.3
+| 12.8
+| 7.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7.1'''
+|-
+| [https://wyborcza.pl/7,75398,26450212,spektakularny-spadek-poparcia-dla-pis-sondaz-dla-wyborczej.html#S.koronawirus-K.C-B.1-L.1.duze Kantar Public / "GW"]
+| data-sort-value="2020-10-27" | 26–27 Oct 2020
+| 1,000
+| style="background:#C0DBFC;" | '''26'''
+| colspan=2| 24
+| 8
+| 3
+| 8
+| 18
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''2'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/524079-najnowszy-sondaz-zrealizowany-juz-po-werdykcie-tk-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2020-10-26" | 23–26 Oct 2020
+| 1,069
+| style="background:#C0DBFC;" | '''37'''
+| colspan=2| 26
+| 13
+| 6
+| 11
+|
+| 7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://dorzeczy.pl/kraj/158378/najnowszy-sondaz-dla-dorzeczypl-pis-traci-najwiecej-psl-poza-sejmem.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-10-23" | 22–23 Oct 2020
+| 1,021
+| style="background:#C0DBFC;" | '''39.8'''
+| colspan=2| 27.0
+| 7.0
+| 4.3
+| 9.2
+| 12.2
+| 0.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.8'''
+|-
+|
+|22 Oct 2020
+| colspan="10" |'''[[Constitutional Tribunal (Poland)|Constitutional Tribunal]]'s landmark decision on [[abortion]]s, [[2020–2021 women's strike protests in Poland|sparking protests]]'''<ref>{{Cite web|title=Wyrok ws. aborcji. Jest uzasadnienie TK do wyroku z 22 października 2020 r.|url=https://www.rp.pl/Prawo-karne/301279922-Wyrok-ws-aborcji-Jest-uzasadnienie-TK-do-wyroku-z-22-pazdziernika-2020-r.html|access-date=2021-05-04|website=www.rp.pl|language=pl}}</ref><ref>{{Cite web|title=Pawłowicz przerwała rozprawę w sprawie konstytucyjności prawa UE|url=https://wyborcza.pl/7,75398,27027703,prawo-ue-sprzeczne-z-polska-konstytucja-trwa-rozprawa-w-tk.html?disableRedirects=true|url-status=live|access-date=2021-05-04|website=wyborcza.pl}}</ref>
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-poparcia-ibris-pis-wygrywa-ruch-holowni-na-podium/yk1q03y,79cfc278 IBRiS / Onet.pl]
+| data-sort-value="2020-10-20" | 20 Oct 2020
+| 1,100
+| style="background:#C0DBFC;" | '''37.0'''
+| colspan=2| 26.8
+| 7.5
+| 3.8
+| 7.2
+| 8.7
+| 9.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.2'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/523012-pis-odrabia-straty-konfederacja-wyprzedza-lewice-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2020-10-19" | 16–19 Oct 2020
+| 1,069
+| style="background:#C0DBFC;" | '''39'''
+| colspan=2| 26
+| 11
+| 7
+| 12
+|
+| 5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-ibris-dla-wp-duzy-spadek-pis-traca-wiekszosc-6565733689764480a?c=336&src01=f1e45 IBRiS / WP.pl]
+| data-sort-value="2020-10-16" | 16 Oct 2020
+| 1,100
+| style="background:#C0DBFC;" | '''36.1'''
+| colspan=2| 28.2
+| 6.4
+| 2.5
+| 7.8
+| 9.4
+| 9.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7.9'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/522105-najnowszy-sondaz-pis-gubi-punkty-zyskuja-ko-i-konfederacja Social Changes / wPolityce.pl]
+| data-sort-value="2020-10-12" | 9–12 Oct 2020
+| 1,083
+| style="background:#C0DBFC;" | '''36'''
+| colspan=2| 27
+| 14
+| 5
+| 12
+|
+| 6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
+| [https://twitter.com/CBOS_Info/status/1314557559697739783 CBOS]
+| data-sort-value="2020-10-08" | 28 Sep–8 Oct 2020
+| 1,133
+| style="background:#C0DBFC;" | '''40.4'''
+| colspan=2| 15.7
+| 5.3
+| 3.1
+| 8.1
+| 7.7
+| 19.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''24.7'''
+|-
+| [https://www.wnp.pl/parlamentarny/sondaze/pis-notuje-spadek-notowan-psl-laduje-poza-sejmem-nowy-sondaz,813.html Kantar Public]
+| data-sort-value="2020-10-05" | 2–7 Oct 2020
+| 977
+| style="background:#C0DBFC;" | '''36'''
+| colspan=2| 28
+| 7
+| 4
+| 5
+| 9
+| 9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/521424-partia-holowni-ze-stabilnym-poparciem-ale-wyraznie-za-ko Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2020-10-05" | 2–5 Oct 2020
+| rowspan="2" | 1,076
+| style="background:#C0DBFC;" | '''36'''
+| colspan=2| 20
+| 13
+| 4
+| 10
+| 15
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/520966-pis-gubi-punkty-w-gore-lewica-i-konfederacja-sprawdz Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''38'''
+| colspan=2| 24
+| 14
+| 6
+| 11
+|
+| 7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-ibris-dla-wp-mocna-pozycja-pis-po-rekonstrukcji-rzadu-6560953752111968a IBRiS / WP.pl]
+| data-sort-value="2020-10-02" | 2 Oct 2020
+| 1,100
+| style="background:#C0DBFC;" | '''41.6'''
+| colspan=2| 22.1
+| 7.2
+| 4.0
+| 7.5
+| 9.0
+| 8.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''19.5'''
+|-
+|style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/520038-zjednoczona-prawica-zyskuje-i-jest-na-granicy-wiekszosci Social Changes / wPolityce.pl]
+| data-sort-value="2020-09-28" | 25–28 Sep 2020
+| 1,067
+| style="background:#C0DBFC;" | '''42'''
+| colspan=2| 25
+| 11
+| 7
+| 9
+|
+| 6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|-
+| rowspan=2 | [https://dorzeczy.pl/kraj/155025/pis-z-wiekszoscia-w-sejmie-jedna-z-partii-na-granicy-progu-wyborczego.html Estymator / DoRzeczy.pl]
+| rowspan=2 data-sort-value="2020-09-26" | 25–26 Sep 2020
+| rowspan=2 | 1,014
+| style="background:#C0DBFC;" | '''42.9'''
+| colspan="2"| 25.6
+| 6.4
+| 5.2
+| 8.2
+| 11.4
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.3'''
+|-
+| style="background:#C0DBFC;" |'''43.6'''
+| colspan="2"| 29.2
+| 8.9
+| 6.8
+| 9.8
+|
+| 1.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.4'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/kaczynski-w-euforii-kapitalny-sondaz-to-bedzie-jego-as-w-rekawie-aa-FFB7-gxgu-VUrT.html Pollster / SE.pl]
+| data-sort-value="2020-09-22" | 21–22 Sep 2020
+| 1,076
+| style="background:#C0DBFC;" | '''39.3'''{{efn|name="pis-only"}}
+| colspan=2| 24.2
+| 8.3
+| 5.7
+| 8.5
+| 9.9
+| 4.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.2'''
+|-
+| [https://www.rp.pl/Polityka/200929736-Sondaz-PiS-wygrywa-wybory-jego-koalicjanci-pod-progiem.html CBM Indicator / "Rz"]
+| data-sort-value="2020-09-22" | 21–22 Sep 2020
+| 603
+| style="background:#C0DBFC;" | '''36.3'''{{efn|name="pis-only"}}
+| colspan=2| 25.9
+| 7.5
+| 4.3
+| 8.0
+|
+| 12.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.4'''
+|-
+|style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/519003-czy-kryzys-w-koalicji-zaszkodzil-zjednoczonej-prawicy Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-09-21" | 18–21 Sep 2020
+| rowspan=2 | 1,058
+| style="background:#C0DBFC;" | '''40'''
+| colspan=2| 27
+| 15
+| 5
+| 9
+|
+| 4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+|style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/519440-holownia-slabnie-juz-nie-wyprzedza-koalicji-obywatelskiej Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''37'''
+| colspan=2| 20
+| 12
+| 5
+| 10
+| 15
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|-
+| [https://www.rp.pl/Polityka/200929971-Sondaz-Kaczynski-traci-wiekszosc-w-Sejmie.html IBRiS / "Rz"]
+| data-sort-value="2020-09-19" | 19 Sep 2020
+| 1,100
+| style="background:#C0DBFC;" | '''36.0'''{{efn|name="pis-only"}}
+| colspan=2| 21.8
+| 6.1
+| 3.4
+| 8.2
+| 9.2
+| 15.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.2'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-parlamentarny-dla-wp-pis-na-czele-porozumienie-i-solidarna-polska-bez-szans-na-wejscie-do-sejmu-6556020600707680a United Survey / RMF]
+| data-sort-value="2020-09-19" | 18–19 Sep 2020
+| 1,000
+| style="background:#C0DBFC;" | '''40.5'''
+| colspan=2| 23.3
+| 6.0
+| 5.0
+| 6.7
+| 9.1
+| 9.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.2'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-parlamentarny-dla-wp-pis-na-czele-porozumienie-i-solidarna-polska-bez-szans-na-wejscie-do-sejmu-6556020600707680a IBRiS / WP.pl]
+| data-sort-value="2020-09-18" | 18 Sep 2020
+| 1,100
+| style="background:#C0DBFC;" | '''40.9'''
+| colspan=2| 22.4
+| 5.4
+| 3.2
+| 8.1
+| 11.2
+| 8.8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18.5'''
+|-
+| [https://twitter.com/CBOS_Info/status/1306954328297607168 CBOS]
+| data-sort-value="2020-09-17" | 7–17 Sep 2020
+| 1,149
+| style="background:#C0DBFC;" | '''40.7'''
+| colspan=2| 22.0
+| 5.1
+| 2.7
+| 7.6
+|
+| 21.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18.7'''
+|-
+|style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/517973-poparcie-dla-partii-czy-glosne-spory-przyniosly-zmiany Social Changes / wPolityce.pl]
+| data-sort-value="2020-09-14" | 11–14 Sep 2020
+| 1,055
+| style="background:#C0DBFC;" | '''42'''
+| colspan=2| 26
+| 10
+| 7
+| 8
+|
+| 7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| [https://fakty.interia.pl/polska/newsamp-sondaz-poparcia-kantar-pis-na-czele,nId,4731235 Kantar Public]
+| data-sort-value="2020-09-09" | 4–9 Sep 2020
+| 977
+| style="background:#C0DBFC;" | '''39'''
+| colspan="2"| 26
+| 4
+| 4
+| 6
+| 11
+| 10
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/517102-pis-z-wyzszym-poparciem-niz-ko-lewica-i-psl-laczniesprawdz Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-09-07" | 4–7 Sep 2020
+| rowspan=2 | 1,095
+| style="background:#C0DBFC;" | '''42'''
+| colspan="2"| 25
+| 12
+| 6
+| 9
+|
+| 6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/517436-nowe-ruchy-holowni-i-trzaskowskiego-zagrazaja-lewicy-i-psl Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''37'''
+| 7{{efn|name="ko-rt"}}
+| 20{{efn|name="ko-rt"}}
+| 4
+| 3
+| 7
+| 22
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-ibris-dla-wp-wybory-parlamentarne-6551030892403584a IBRiS / WP.pl]
+| data-sort-value="2020-09-05" | 4–5 Sep 2020
+| 1,100
+| style="background:#C0DBFC;" | '''41.3'''
+| colspan="2"|28.6
+| 6.7
+| 5.9
+| 8.4
+|
+| 9.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.7'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/515995-krajobraz-partyjny-traci-lewica-w-gore-pis-i-ko-stabilnie Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-08-31" | 28–31 Aug 2020
+| rowspan=2 | 1,078
+| style="background:#C0DBFC;" | '''42'''
+| colspan="2"| 26
+| 11
+| 7
+| 8
+|
+| 6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/516680-wyborcy-opozycji-sa-zmeczeni-starymi-partiami-i-to-bardzo Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''36'''
+| 6{{efn|name="ko-rt"}}
+| 20{{efn|name="ko-rt"}}
+| 4
+| 3
+| 7
+| 23
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Nowy-sondaz-CBOS.-Konfederacja-rosnie-w-sile.-PiS-z-ogromna-przewaga-nad-KO CBOS]
+| data-sort-value="2020-08-27" | 18–27 Aug 2020
+|
+| style="background:#C0DBFC;" | '''44'''
+| 19{{efn|name="ko-rt"}}
+| 0.2{{efn|name="ko-rt"}}
+| 4
+| 3
+| 8
+| 2.3
+| 19.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''25'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/515319-krajobraz-partyjny-w-sejmie-piec-partii-najwieksi-traca Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-08-24" | 21–24 Aug 2020
+| rowspan=2 | 1,062
+| style="background:#C0DBFC;" | '''41'''
+| colspan="2"| 25
+| 13
+| 6
+|
+| 9
+| 6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/515767-platforma-drzy-w-posadach-nowe-sily-moga-ja-zmiesc-ze-sceny Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''36'''
+| 5{{efn|name="ko-rt"}}
+| 20{{efn|name="ko-rt"}}
+| 5
+| 2
+| 9
+| 23
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://wiadomosci.wp.pl/wybory-parlamentarne-najnowszy-sondaz-ibris-dla-wp-6546080386828928a IBRiS / WP.pl]
+| data-sort-value="2020-08-22" | 21–22 Aug 2020
+| 1,100
+| style="background:#C0DBFC;" | '''38.6'''
+| colspan="2"|23.8
+| 5.1
+| 5.4
+| 7.3
+| 8.4
+| 11.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.8'''
+|-
+| [https://www.rmf24.pl/fakty/polska/news-sondaz-dla-rmf-fm-i-dgp-pis-na-czele-ruchy-holowni-i-trzasko,nId,4693148 United Survey / RMF]
+| data-sort-value="2020-08-21" | 21 Aug 2020
+| 1,100
+| style="background:#C0DBFC;" | '''41.3'''
+| 22.5{{efn|name="ko-rt"}}
+| 6.8{{efn|name="ko-rt"}}
+| 3.2
+| 2.4
+| 6.7
+| 7.1
+| 10.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/514713-mocny-spadek-po-pis-wciaz-samodzielnie-rzadzi-nasz-sondaz Social Changes / wPolityce.pl]
+| data-sort-value="2020-08-17" | 14–17 Aug 2020
+| 1,078
+| style="background:#C0DBFC;" | '''43'''
+| colspan="2"| 26
+| 11
+| 6
+| 9
+|
+| 5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|-
+| rowspan=2 | [https://dorzeczy.pl/kraj/150581/holownia-nie-zaszkodzi-prawu-i-sprawiedliwosci-partia-kaczynskiego-z-wiekszoscia-w-sejmie.html Estymator / DoRzeczy.pl]
+| rowspan=2 data-sort-value="2020-08-14" | 13–14 Aug 2020
+| rowspan=2 | 1,022
+| style="background:#C0DBFC;" | '''44.0'''
+| colspan="2"| 29.8
+| 9.6
+| 6.9
+| 8.5
+|
+| 1.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.2'''
+|-
+| style="background:#C0DBFC;" |'''42.1'''
+| colspan="2"| 25.9
+| 7.3
+| 5.2
+| 6.8
+| 12.4
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.2'''
+|-
+| [https://wiadomosci.onet.pl/kraj/nowy-sondaz-partyjny-zjednoczona-prawica-wyraznym-liderem-nowe-ruchy-znalazlyby-sie-w/07q84y7 Kantar Public]
+| data-sort-value="2020-08-12" | 7–12 Aug 2020
+| 971
+| style="background:#C0DBFC;" | '''38'''
+| 23{{efn|name="ko-rt"}}
+| 5{{efn|name="ko-rt"|The [[Civic Coalition (Poland)|Civic Coalition]] and "''[[Rafał Trzaskowski#Wspólna Polska movement|Rafał Trzaskowski]]'s movement''" or ''New Solidarity'' (later branded ''Wspólna Polska'') were counted separately}}
+| 6
+| 3
+| 4
+| 5
+| 16
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/513717-zjednoczona-prawica-zyskuje-poparcie-wciaz-traci-psl Social Changes / wPolityce.pl]
+| data-sort-value="2020-08-10" | 7–10 Aug 2020
+| 1,078
+| style="background:#C0DBFC;" | '''43'''
+| colspan="2"|29
+| 11
+| 4
+| 8
+|
+| 5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| rowspan=2 | [https://wiadomosci.wp.pl/najnowszy-sondaz-ibris-dla-wp-pis-traci-poparcie-holownia-wciaz-na-podium-6541248302840800a IBRiS / WP.pl]
+| rowspan=2 data-sort-value="2020-08-07" | 6–7 Aug 2020
+| rowspan=2 | 1,100
+| style="background:#C0DBFC;" | '''36.0'''
+| colspan="2" | 31.0
+| 9.1
+| 5.0
+| 6.7
+|
+| 12.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5.0'''
+|- style="background-color:#FFFFEE;"
+| style="background:#C0DBFC;" |'''34.3'''
+| colspan="2" | 27.1
+| 5.6
+| 2.8
+| 6.1
+| 11.7
+| 12.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7.2'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/512491-krajobraz-partyjny-pis-i-ko-zdecydowanie-na-prowadzeniu Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-08-03" | 31 Jul–3 Aug 2020
+| rowspan=2 | 1,081
+| style="background:#C0DBFC;" | '''41'''
+| colspan="2" | 30
+| 11
+| 6
+| 8
+|
+| 4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|- style="background-color:#FFFFEE;"
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/512684-holownia-juz-nie-wygrywa-z-platforma-ale-nadal-jest-blisko Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''39'''
+| colspan="2" | 21
+| 9
+| 3
+| 7
+| 20
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-ibris-pis-przed-ko-reszta-daleko-w-tyle/c3fynyd,79cfc278 IBRiS / KO]
+| data-sort-value="2020-07-29" | 29 Jul 2020
+| 1,100
+| style="background:#C0DBFC;" | '''36'''
+| colspan="2" | 33
+| 6
+| 5
+| 6
+|
+| 14
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''3'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/511441-pis-na-granicy-wiekszosci-ko-tez-zyskuje-psl-wraca-do-sil Social Changes / wPolityce.pl]
+| data-sort-value="2020-07-27" | 24–27 Jul 2020
+| 1,062
+| style="background:#C0DBFC;" | '''43'''
+| colspan="2" | 29
+| 8
+| 7
+| 9
+|
+| 4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| rowspan=2 | [https://wiadomosci.wp.pl/sondaz-ibris-dla-wp-wybory-parlamentarne-jak-wypada-ugrupowanie-szymona-holowni-6536187992786561a IBRiS / WP.pl]
+| rowspan=2 data-sort-value="2020-07-25" | 24–25 Jul 2020
+| rowspan=2 | 1,100
+| style="background:#C0DBFC" | '''39.2'''
+| colspan="2" | 26.5
+| 9.8
+| 5.1
+| 9.3
+|
+| 10.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.7'''
+|- style="background-color:#FFFFEE;"
+| style="background:#C0DBFC" | '''38.8'''
+| colspan="2" | 25.6
+| 4.8
+| 2.0
+| 6.6
+| 11.8
+| 10.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.2'''
+|-
+| rowspan=2 | [https://dorzeczy.pl/kraj/148273/rosnie-poparcie-dla-pis-trudna-sytuacja-ludowcow.html Estymator / DoRzeczy.pl]
+| rowspan=2 data-sort-value="2020-07-24" | 23–24 Jul 2020
+| rowspan=2 | 1,034
+| style="background:#C0DBFC" | '''43.9'''
+| colspan="2" | 30.8
+| 9.4
+| 6.5
+| 8.8
+|
+| 0.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.1'''
+|- style="background-color:#FFFFEE;"
+| style="background:#C0DBFC" | '''41.5'''
+| colspan="2" | 24.7
+| 8.7
+| 5.4
+| 7.9
+| 11.4
+| 0.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.8'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/510618-krajobraz-partyjny-mocny-pis-zyskuje-kotraca-lewica-i-psl Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-07-20" | 17–20 Jul 2020
+| rowspan=2 | 1,076
+| style="background:#C0DBFC;" | '''42'''
+| colspan="2" | 28
+| 10
+| 5
+| 11
+|
+| 4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|- style="background-color:#FFFFEE;"
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/510704-ugrupowanie-holowni-wygrywa-z-platforma-i-to-wyraznie Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''39'''
+| colspan="2" | 19
+| 6
+| 3
+| 9
+| 23
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| [https://www.gazetaprawna.pl/artykuly/1486615,wynik-wyborow-prezydenckich-sondaz.html United Survey / RMF]
+| data-sort-value="2020-07-18" | 18 Jul 2020
+| 1,100
+| style="background:#C0DBFC;" | '''37.5'''
+| colspan="2" | 29.1
+| 8.0
+| 5.4
+| 8.7
+|
+| 11.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.4'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/sondaz-wybory-parlamentarne-dla-zjednoczonej-prawicy/qebbjxz,79cfc278 IBRiS / Onet]
+| data-sort-value="2020-07-18" | 17–18 Jul 2020
+| 1,100
+| style="background:#C0DBFC;" | '''39.7'''
+| colspan="2" | 28.1
+| 9.9
+| 5.8
+| 8.0
+|
+| 8.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.6'''
+|-
+| style="background:#D5D5D5;" | [https://wybory.gov.pl/prezydent20200628/en/wyniki/2/pl Presidential election, 2nd round]
+| style="background:#D5D5D5;" data-sort-value="2020-07-12" | 12 Jul 2020
+| style="background:#D5D5D5;" | {{ small|20,458,911}}
+| style="background:#C0DBFC;" | '''51.03'''
+| colspan="2" style="background:#fcd9b1;" | 48.97
+| style="background:#D5D5D5;" | -
+| style="background:#D5D5D5;" | -
+| style="background:#D5D5D5;" | -
+| style="background:#D5D5D5;" | -
+| style="background:#D5D5D5;" | -
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''2.06'''
+|-
+| [https://www.onet.pl/informacje/onetwiadomosci/nowy-sondaz-partyjny-stowarzyszenie-holowni-na-podium/4dbg7hj,79cfc278 Pollster / SE.pl]
+| data-sort-value="2020-07-09" | 8–9 Jul 2020
+| 1,058
+| style="background:#C0DBFC;" | '''41.40'''
+| colspan="2" | 23.02
+| 9.98
+| 4.24
+| 8.54
+| 12.12
+| 0.70
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18.38'''
+|-
+| [https://twitter.com/CBOS_Info/status/1282616990901903361 CBOS]
+| data-sort-value="2020-07-20" | 30 Jun–9 Jul 2020
+| 1,339
+| style="background:#C0DBFC" | '''42.3'''
+| colspan="2" | 23.9
+| 5.7
+| 3.2
+| 7.2
+|
+| 17.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''28.4'''
+|-
+| [https://wiadomosci.onet.pl/tylko-w-onecie/sondaz-partyjny-szesc-partii-w-sejmie-w-tym-ruch-holowni/d1ys346 IBRiS / Onet]
+| data-sort-value="2020-07-04" | 4 Jul 2020
+| 1,100
+| style="background:#C0DBFC;" | '''38.0'''
+| colspan="2" | 23.6
+| 7.3
+| 5.2
+| 7.3
+| 11.9
+| 6.8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.4'''
+|-
+| style="background:#D5D5D5;" | [https://wybory.gov.pl/prezydent20200628/en/wyniki/1/pl Presidential election, 1st round]
+| style="background:#D5D5D5;" data-sort-value="2020-06-28" | 28 Jun 2020
+| style="background:#D5D5D5;" | {{ small|19,425,459}}
+| style="background:#C0DBFC;" | '''43.50'''
+| colspan="2" style="background:#fcd9b1;" | 30.46
+| style="background:#D5D5D5;" | 2.22
+| style="background:#D5D5D5;" | 2.46
+| style="background:#D5D5D5;" | 6.78
+| style="background:#D5D5D5;" | 13.87
+| style="background:#D5D5D5;" | 0.79
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.04'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/507399-nasz-sondaz-pis-znaczaco-zwiekszylo-przewage-nad-ko Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-06-27" | 26–27 Jun 2020
+| rowspan=2 | 1,045
+| style="background:#C0DBFC;" | '''42'''
+| colspan="2" | 25
+| 14
+| 8
+| 9
+|
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|- style="background-color:#FFFFEE;"
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/507932-partia-holowni-zabiera-glosy-po-sld-konfederacji-i-psl Social Changes / wPolityce.pl]
+| style="background:#C0DBFC;" | '''41'''
+| colspan="2" | 20
+| 9
+| 5
+| 6
+| 18
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''21'''
+|-
+| [https://stanpolityki.pl/sondaz-parlamentarny-ibsp-kto-wygra-wybory-do-sejmu/ IBSP]
+| data-sort-value="2020-06-26" | 25–26 Jun 2020
+| 1,092
+| style="background:#C0DBFC" | '''43.85'''
+| colspan="2" | 30.94
+| 8.88
+| 6.15
+| 9.75
+|
+| 0.43
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.91'''
+|-
+| [https://twitter.com/CBOS_Info/status/1277974658516582401 CBOS]
+| data-sort-value="2020-06-25" | 15–25 Jun 2020
+| 1,378
+| style="background:#C0DBFC" | '''44.2'''
+| colspan="2" | 23.9
+| 6.6
+| 4.1
+| 5.6
+|
+| 15.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''20.3'''
+|-
+| [https://oko.press/trzaskowski-48-proc-duda-44-proc-pis-moze-stracic-prezydenta-sondaz-oko-press/ IPSOS / OKO.press]
+| data-sort-value="2020-06-23" | 22–23 Jun 2020
+| 1,017
+| style="background:#C0DBFC" | '''35'''
+| colspan="2" | 23
+| 9
+| 8
+| 10
+|
+| 16
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/506533-krajobraz-partyjny-rosnie-poparcie-i-dla-pis-i-dla-ko Social Changes / wPolityce.pl]
+| rowspan=2 data-sort-value="2020-06-23" | 19–23 Jun 2020
+| rowspan=2|1,066
+| style="background:#C0DBFC;" | '''40'''
+| colspan="2" | 30
+| 13
+| 7
+| 8
+|
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|- style="background-color:#FFFFEE;"
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/506320-szokujacy-wynik-partia-holowni-z-ogromnym-poparciem Social Changes / wPolityce.pl]
+| style="background:#C0DBFC" | '''38'''
+| colspan="2" | 20
+| 11
+| 4
+| 7
+| 19{{efn|name="Pol2050"|Respondents were suggested "[[Szymon Hołownia]]'s party", then unregistered.}}
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18'''
+|-
+| [https://dorzeczy.pl/kraj/144159/sondaz-dla-dorzeczypl-ko-pis-i-konfederacja-w-gore-zle-wiesci-dla-lewicy.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-06-19" | 18–19 Jun 2020
+| 1,017
+| style="background:#C0DBFC" | '''42.8'''
+| colspan="2" | 28.4
+| 9.6
+| 10.4
+| 7.5
+|
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.4'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/pis-traci-ale-jest-na-czele-zobacz-najnowszy-sondaz-aa-fsKK-H8Hf-pXqH.html Pollster / SE.pl]
+| data-sort-value="2020-06-17" | 16–17 Jun 2020
+| 1,047
+| style="background:#C0DBFC" | '''41.3'''
+| colspan="2" | 29.6
+| 10.7
+| 9.1
+| 8.8
+|
+| 0.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.7'''
+|-
+| [https://oko.press/sondaz-oko-press-jaka-droga-prowadzi-do-zwyciestwa-nad-duda/ IPSOS / OKO.press]
+| data-sort-value="2020-06-16" | 15–16 Jun 2020
+| 1,017
+| style="background:#C0DBFC" | '''37'''
+| colspan="2" | 24
+| 10
+| 6
+| 10
+|
+| 13
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/505525-krajobraz-partyjnyczy-trzaskowski-ciagnie-w-gore-platforme Social Changes / wPolityce.pl]
+| data-sort-value="2020-06-12" | 12–16 Jun 2020
+| 1,065
+| style="background:#C0DBFC" | '''39'''
+| colspan="2" | 28
+| 13
+| 9
+| 8
+|
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/w-nowym-sondazu-super-expressu-rosnie-poparcie-dla-pis-ko-tez-zyskuje-aa-JG2q-N1a8-2gxC.html Pollster / SE.pl]
+| data-sort-value="2020-06-10" | 9–10 Jun 2020
+| 1,091
+| style="background:#C0DBFC" | '''42.2'''
+| colspan="2" | 26.5
+| 11.4
+| 8.9
+| 9.7
+|
+| 1.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.7'''
+|-
+| [https://www.rmf24.pl/fakty/polska/news-sondaz-pis-z-37-proc-poparcia-duzy-wzrost-koalicji-obywatels,nId,4561655 Kantar Public]
+| data-sort-value="2020-05-10" | 5–10 Jun 2020
+| 986
+| style="background:#C0DBFC" | '''37'''
+| colspan="2" | 31
+| 7
+| 7
+| 7
+|
+| 10
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/504497-pis-balansuje-na-granicy-samodzielnej-wiekszosci-w-sejmie Social Changes / wPolityce.pl]
+| data-sort-value="2020-06-09" | 5–9 Jun 2020
+| 1,069
+| style="background:#C0DBFC" | '''42'''
+| colspan="2" | 26
+| 13
+| 9
+| 8
+|
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| [https://wiadomosci.onet.pl/kraj/wybory-prezydenckie-sondaz-kantar-dla-po-maleje-przewaga-pis/w77j9k4 Kantar Public / PO]
+| data-sort-value="2020-06-08" | 8 Jun 2020
+| 1,000
+| style="background:#C0DBFC" | '''36'''
+| colspan="2" | 29
+| 8
+| 5
+| 10
+|
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|-
+| [https://www.dorzeczy.pl/kraj/142624/pis-zdecydowanym-liderem-ale-bez-samodzielnych-rzadow-piec-partii-w-sejmie.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-06-04" | 3–4 Jun 2020
+| 1,022
+| style="background:#C0DBFC" | '''42.6'''
+| colspan="2" | 27.4
+| 10.1
+| 11.4
+| 7.2
+|
+| 1.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.2'''
+|-
+| [https://twitter.com/CBOS_Info/status/1268934871357030403 CBOS]
+| data-sort-value="2020-06-04" | 22 May–4 Jun 2020
+| 1,308
+| style="background:#C0DBFC" | '''46.4'''
+| colspan="2" | 19.7
+| 5.1
+| 5.0
+| 5.8
+|
+| 18.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''26.7'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/503584-krajobraz-partyjny-pis-z-prawdopodobna-wiekszoscia-w-sejmie Social Changes / wPolityce.pl]
+| data-sort-value="2020-06-02" | 29 May–2 Jun 2020
+| 1,058
+| style="background:#C0DBFC" | '''43'''
+| colspan="2" | 24
+| 13
+| 8
+| 9
+|
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''19'''
+|-
+| [https://www.rp.pl/Polityka/306019910-Sondaz-Zyskuje-PiS-zyskuje-Koalicja-Obywatelska.html IBRiS / "Rz"]
+| data-sort-value="2020-05-29" | 29 May 2020
+| 1,100
+| style="background:#C0DBFC" | '''41.0'''
+| colspan="2" | 24.3
+| 9.0
+| 11.2
+| 7.5
+|
+| 7.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.7'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/jak-naprawde-wyglada-poparcie-dla-pis-nowy-sondaz-se-aa-38tf-AdiF-1FAf.html Pollster / SE.pl]
+| data-sort-value="2020-05-27" | 26–27 May 2020
+| 1,038
+| style="background:#C0DBFC" | '''39.9'''
+| colspan="2" | 26.0
+| 14.1
+| 9.4
+| 9.5
+|
+| 1.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.9'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/502820-sondaz-partyjny-pis-na-granicy-wiekszosci-opozycja-w-gore Social Changes / wPolityce.pl]
+| data-sort-value="2020-05-25" | 22–25 May 2020
+| 1,056
+| style="background:#C0DBFC" | '''42'''
+| colspan="2" | 24
+| 14
+| 9
+| 9
+|
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18'''
+|-
+| [https://wiadomosci.wp.pl/sondaz-ibris-dla-wp-piec-sil-w-sejmie-403-proc-dla-pis-6514304969455745a IBRiS / WP.pl]
+| data-sort-value="2020-05-23" | 22–23 May 2020
+| 1,100
+| style="background:#C0DBFC" | '''40.3'''
+| colspan="2" | 23.4
+| 8.1
+| 13.4
+| 6.6
+|
+| 8.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.9'''
+|-
+| [https://dorzeczy.pl/sondaz/141182/zaskakujace-wyniki-pis-traci-samodzielna-wiekszosc.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-05-22" | 21–22 May 2020
+| 1,100
+| style="background:#C0DBFC" | '''41.9'''
+| colspan="2" | 26.1
+| 11.6
+| 11.9
+| 6.6
+|
+| 1.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.8'''
+|-
+| [https://wiadomosci.onet.pl/kraj/wybory-parlamentarne-kantar-publikuje-najnowszy-sondaz/08421tl Kantar Public]
+| data-sort-value="2020-05-19" | 18–19 May 2020
+| 954
+| style="background:#C0DBFC" | '''37'''
+| colspan="2" | 23
+| 8
+| 7
+| 11
+|
+| 14
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/501366-pis-z-poparciem-ktore-daje-samodzielna-wiekszosc-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2020-05-18" | 11–18 May 2020
+| 1,062
+| style="background:#C0DBFC" | '''47'''
+| colspan="2" | 21
+| 14
+| 8
+| 7
+|
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''26'''
+|-
+| [https://www.polsatnews.pl/wiadomosc/2020-05-26/pis-traci-samodzielna-wiekszosc-w-sejmie-to-drugi-taki-sondaz/ Pollster / SE.pl]
+| data-sort-value="2020-05-17" | 15–17 May 2020
+| 1,089
+| style="background:#C0DBFC" | '''38.5'''
+| colspan="2" | 24.5
+| 13.6
+| 12.6
+| 9
+|
+| 1.8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.0'''
+|-
+| rowspan=2 | [https://dorzeczy.pl/kraj/140360/pis-rzadzi-samodzielnie-ko-traci-mandaty-a-co-jesli-bedzie-partia-holowni.html Estymator / DoRzeczy.pl]
+| rowspan=2 data-sort-value="2020-05-15" | 14–15 May 2020
+| rowspan=2 |1,025
+| style="background:#C0DBFC" | '''45.8'''
+| colspan="2" | 17.3
+| 12.8
+| 14.1
+| 8.9
+|
+| 1.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''28.5'''
+|- style="background-color:#FFFFEE;"
+| style="background:#C0DBFC" | '''44.1'''
+| colspan="2" | 13.4
+| 10.2
+| 12.9
+| 8.8
+| 10.6{{efn|name="Pol2050"}}
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''30.7'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-pis-nie-ustepuje-miejsca-przeciwnikom-6511092361296001a Kantar Public / KO]
+| data-sort-value="2020-05-14" | 14 May 2020
+| 1,000
+| style="background:#C0DBFC" | '''41.1'''
+| colspan="2" | 29.7
+| 10.3
+| 8.0
+| 9.7
+|
+| 1.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.4'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/500478-krajobraz-partyjny-rosnie-frekwencja-wyniki-blizej-normy Social Changes / wPolityce.pl]
+| data-sort-value="2020-05-14" | 12–14 May 2020
+| 1,070
+| style="background:#C0DBFC" | '''47'''
+| colspan="2" | 18
+| 12
+| 11
+| 9
+|
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''29'''
+|-
+| [https://wiadomosci.onet.pl/kraj/wybory-prezydenckie-2020-sondaz-wyrazne-prowadzenie-pis-konfederacja-przed-lewica/wh8r9w8 IBRiS / Onet]
+| data-sort-value="2020-05-09" | 8–9 May 2020
+| 1,100
+| style="background:#C0DBFC" | '''37.7'''
+| colspan="2" | 15.6
+| 8.2
+| 12.8
+| 8.7
+|
+| 17.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''22.1'''
+|-
+| [https://wiadomosci.onet.pl/kraj/wybory-nowy-sondaz-partyjny-pis-traci-zyskuje-ko/n3zlehm Kantar Public / KO]
+| data-sort-value="2020-05-08" | 8 May 2020
+| 1,000
+| style="background:#C0DBFC" | '''39.3'''
+| colspan="2" | 28.5
+| 13.0
+| 9.4
+| 8.9
+|
+| 0.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.8'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/499471-krajobraz-partyjny-najnowszy-sondaz-rosnie-frekwencja Social Changes / wPolityce.pl]
+| data-sort-value="2020-05-07" | 6–7 May 2020
+| 1,073
+| style="background:#C0DBFC" | '''52'''
+| colspan="2" | 17
+| 12
+| 8
+| 10
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''35'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/epidemia-nie-szkodzi-pis-najnowszy-sondaz-super-expressu-aa-jxGP-FY2e-uGyp.html Pollster / SE.pl]
+| data-sort-value="2020-05-03" | 30 Apr–4 May 2020
+| 1,109
+| style="background:#C0DBFC" | '''40.2'''
+| colspan="2" | 23.7
+| 14.7
+| 11.0
+| 9.4
+|
+| 1.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.5'''
+|-
+| [https://oko.press/w-normalnych-wyborach-duda-z-holownia-w-ii-turze/ IPSOS / OKO.press]
+| data-sort-value="2020-04-29" | 27–29 Apr 2020
+| 1,016
+| style="background:#C0DBFC" | '''38'''
+| colspan="2" | 16
+| 10
+| 8
+| 8
+|
+| 20{{efn|Includes: 6% – [[Nonpartisan Local Government Activists]].}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''22'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/498319-krajobraz-partyjny-pis-z-poparciem-ponad-polowy-wyborcow Social Changes / wPolityce.pl]
+| data-sort-value="2020-04-27" | 24–27 Apr 2020
+| 1,081
+| style="background:#C0DBFC" | '''52'''
+| colspan="2" | 17
+| 12
+| 8
+| 9
+|
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''35'''
+|-
+| [https://dorzeczy.pl/kraj/137823/pis-dominuje-psl-juz-niemal-dogania-ko.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-04-24" | 23–24 Apr 2020
+| 1,018
+| style="background:#C0DBFC" | '''42.7'''
+| colspan="2" | 19.7
+| 14.4
+| 15.8
+| 7.2
+|
+| 0.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''23.0'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/497318-pis-wciaz-zyskuje-w-gore-takze-ko-wazne-rosnie-frekwencja Social Changes / wPolityce.pl]
+| data-sort-value="2020-04-20" | 17–20 Apr 2020
+| 1,063
+| style="background:#C0DBFC" | '''53'''
+| colspan="2" | 17
+| 12
+| 7
+| 10
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''36'''
+|-
+| [https://wiadomosci.dziennik.pl/polityka/artykuly/7434981,poparcie-zjednoczona-prawica-koalicja-obywatelska-nowy-sondaz.html Kantar Public]
+| data-sort-value="2020-04-17" | 16–17 Apr 2020
+| 954
+| style="background:#C0DBFC" | '''36'''
+| colspan="2" | 21
+| 11
+| 12
+| 8
+|
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/496212-pis-z-poparciem-ponad-polowy-polakow-ko-wciaz-gubi-punkty Social Changes / wPolityce.pl]
+| data-sort-value="2020-04-13" | 10–13 Apr 2020
+| 1,060
+| style="background:#C0DBFC" | '''52'''
+| colspan="2" | 15
+| 11
+| 8
+| 11
+|
+| 3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''37'''
+|-
+| [https://dorzeczy.pl/kraj/136156/rosnie-przewaga-pis-kolejny-spadek-koalicji-obywatelskiej.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-04-09" | 8–9 Apr 2020
+| 1,023
+| style="background:#C0DBFC" | '''45.4'''
+| colspan="2" | 20.4
+| 15.9
+| 12.6
+| 5.4
+|
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''25.0'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/najnowszy-sondaz-super-expressu-pis-owi-rosnie-w-czasie-epidemii-aa-gvrE-enY6-7QBz.html Pollster / SE.pl]
+| data-sort-value="2020-04-06" | 6–7 Apr 2020
+| 1,054
+| style="background:#C0DBFC" | '''44.0'''
+| colspan="2" | 22.4
+| 15.7
+| 8.7
+| 7.7
+|
+| 1.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''21.6'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/495440-pis-z-ogromna-przewaga-nad-konkurencja-ko-dalej-slabnie Social Changes / wPolityce.pl]
+| data-sort-value="2020-04-06" | 3–6 Apr 2020
+| 1,064
+| style="background:#C0DBFC" | '''49'''
+| colspan="2" | 18
+| 14
+| 10
+| 9
+|
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''31'''
+|-
+| [https://stanpolityki.pl/najnowszy-sondaz-parlamentarny-ibsp/ IBSP / wp.pl]
+| data-sort-value="2020-04-02" | 31 Mar–2 Apr 2020
+| 1,002
+| style="background:#C0DBFC" | '''42.0'''
+| colspan="2" | 27.1
+| 12.5
+| 9.6
+| 8.7
+|
+| 0.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.9'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/494248-rekordowe-poparcie-dla-pis-choc-przy-niskiej-frekwencji Social Changes / wPolityce.pl]
+| data-sort-value="2020-03-30" | 27–30 Mar 2020
+| 1,062
+| style="background:#C0DBFC" | '''51'''
+| colspan="2" | 21
+| 12
+| 7
+| 8
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''30'''
+|-
+| [https://www.dorzeczy.pl/kraj/134307/sondaz-dla-dorzeczypl-zyskuja-pis-i-psl-fatalne-wiesci-dla-ko.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-03-26" | 25–26 Mar 2020
+| 1,032
+| style="background:#C0DBFC" | '''44.3'''
+| colspan="2" | 22.9
+| 15.0
+| 12.3
+| 5.2
+|
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''21.4'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/493252-pis-sporo-zyskuje-opozycja-traci-najnowszy-sondaz-wyniki Social Changes / wPolityce.pl]
+| data-sort-value="2020-03-23" | 20–23 Mar 2020
+| 1,055
+| style="background:#C0DBFC" | '''44'''
+| colspan="2" | 24
+| 16
+| 8
+| 8
+|
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''20'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/sondaz-tak-koronawirus-wplywa-na-wyniki-pis-co-na-to-kaczynski-aa-KW7f-aNPQ-UnS3.html Pollster / SE.pl]
+| data-sort-value="2020-03-18" | 17–18 Mar 2020
+| 1,077
+| style="background:#C0DBFC" | '''41.9'''
+| colspan="2" | 23.8
+| 15.4
+| 10.2
+| 8.2
+|
+| 0.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18.1'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/492332-pis-bezdyskusyjnie-prowadzi-ale-traci-sprawdz-wyniki Social Changes / wPolityce.pl]
+| data-sort-value="2020-03-17" | 13–17 Mar 2020
+| 1,065
+| style="background:#C0DBFC" | '''40'''
+| colspan="2" | 26
+| 17
+| 10
+| 7
+|
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| [https://twitter.com/CBOS_Info/status/1268934871357030403 CBOS]
+| data-sort-value="2020-03-15" | 5–15 Mar 2020
+| 919
+| style="background:#C0DBFC" | '''49.1'''
+| colspan="2" | 20.6
+| 7.7
+| 7.0
+| 6.9
+|
+| 8.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''28.5'''
+|-
+| [https://dorzeczy.pl/kraj/132671/zdecydowana-przewaga-pis-spada-poparcie-dla-po.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-03-13" | 12–13 Mar 2020
+| 1,028
+| style="background:#C0DBFC" | '''42.0'''
+| colspan="2" | 25.3
+| 15.2
+| 10.3
+| 6.5
+|
+| 0.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.7'''
+|-
+| [https://stanpolityki.pl/pis-znowu-wygrywa-zdecydowanie/ IBSP / wp.pl]
+| data-sort-value="2020-03-13" | 10–13 Mar 2020
+| 1,002
+| style="background:#C0DBFC" | '''47.6'''
+| colspan="2" | 21.9
+| 12.4
+| 8.1
+| 9.8
+|
+| 0.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''25.7'''
+|-
+| [http://www.tnsglobal.pl/archiwumraportow/files/2020/03/K.013_20_PrefPARLAM_O03a-20.pdf Kantar Public]
+| data-sort-value="2020-03-11" | 6–11 Mar 2020
+| 981
+| style="background:#C0DBFC" | '''41'''
+| colspan="2" | 28
+| 10
+| 7
+| 5
+|
+| 9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/491204-pis-zyskuje-az-4-p-i-szybko-zwieksza-przewage-nad-opozycja Social Changes / wPolityce.pl]
+| data-sort-value="2020-03-10" | 6–10 Mar 2020
+| 1,063
+| style="background:#C0DBFC" | '''45'''
+| colspan="2" | 24
+| 15
+| 9
+| 7
+|
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''21'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/490749-pis-z-mocnym-poparciem-w-gore-lewica-sprawdz-wyniki Social Changes / wPolityce.pl]
+| data-sort-value="2020-03-02" | 28 Feb–2 Mar 2020
+| 1,052
+| style="background:#C0DBFC" | '''41'''
+| colspan="2" | 26
+| 18
+| 7
+| 8
+|
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15'''
+|-
+| [https://www.dorzeczy.pl/kraj/131101/rosnie-poparcie-pis-co-sie-dzieje-z-koalicja-obywatelska.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-02-28" | 27–28 Feb 2020
+| 1,031
+| style="background:#C0DBFC" | '''41.7'''
+| colspan="2" | 28.6
+| 13.4
+| 9.6
+| 6.2
+|
+| 0.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.1'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/najnowszy-sondaz-dla-super-expressu-pis-ucieka-koalicji-obywatelskiej-aa-RgVA-GnUG-mTdz.html Pollster / SE.pl]
+| data-sort-value="2020-02-26" | 24–26 Feb 2020
+| 1,097
+| style="background:#C0DBFC" | '''41.4'''
+| colspan="2" | 25.1
+| 14.4
+| 9.8
+| 8.3
+|
+| 1.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.3'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/489445-pis-odrabia-straty-z-polowy-lutego-opozycja-stoi-w-miejscu Social Changes / wPolityce.pl]
+| data-sort-value="2020-02-24" | 21–24 Feb 2020
+| 1,090
+| style="background:#C0DBFC" | '''41'''
+| colspan="2" | 25
+| 16
+| 8
+| 9
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| [https://oko.press/78-proc-wyborcow-dudy-uwaza-ze-to-kandydat-marzen/ IPSOS / OKO.press]
+| data-sort-value="2020-02-22" | 20–22 Feb 2020
+| 1,013
+| style="background:#C0DBFC" | '''38'''
+| colspan="2" | 26
+| 13
+| 7
+| 8
+|
+| 8{{efn|Includes: 3% – [[Nonpartisan Local Government Activists]].}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12'''
+|-
+| [https://stanpolityki.pl/pis-bez-samodzielnej-wiekszosci-w-sejmie/ IBSP / wp.pl]
+| data-sort-value="2020-02-20" | 18–20 Feb 2020
+| 1,000
+| style="background:#C0DBFC" | '''38.4'''
+| colspan="2" | 30.9
+| 13.4
+| 7.9
+| 9.0
+|
+| 0.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7.5'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/488550-pis-prowadzi-ale-nie-obylo-sie-bez-strat-zyskuje-psl Social Changes / wPolityce.pl]
+| data-sort-value="2020-02-18" | 14–18 Feb 2020
+| 1,053
+| style="background:#C0DBFC" | '''39'''
+| colspan="2" | 25
+| 16
+| 11
+| 9
+|
+| 0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Sondaz-CBOS-PiS-prowadzi-w-lutym-ma-44-proc.-poparcia-rozbity-wynik-Lewicy CBOS]
+| data-sort-value="2020-02-16" | 6–16 Feb 2020
+| 994
+| style="background:#C0DBFC" | '''44'''
+| colspan="2" | 24
+| 9
+| 5
+| 6
+|
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''20'''
+|-
+| [https://dorzeczy.pl/kraj/129722/sondaz-dla-dorzeczypl-pis-traci-samodzielna-wiekszosc-lewica-zyskuje.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-02-13" | 12–13 Feb 2020
+| 1,009
+| style="background:#C0DBFC" | '''40.6'''
+| colspan="2" | 29.8
+| 13.2
+| 9.3
+| 6.4
+|
+| 0.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.8'''
+|-
+| [https://wiadomosci.onet.pl/kraj/sondaz-poparcie-dla-pis-rosnie-traci-koalicja-obywatelska/w6dbwbt Kantar Public]
+| data-sort-value="2020-02-12" | 7–12 Feb 2020
+| 969
+| style="background:#C0DBFC" | '''41'''
+| colspan="2" | 26
+| 10
+| 7
+| 4
+|
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/487162-pis-odrabia-straty-z-poczatku-roku-ko-traci-sprawdz-wyniki Social Changes / wPolityce.pl]
+| data-sort-value="2020-02-11" | 7–11 Feb 2020
+| 1,085
+| style="background:#C0DBFC" | '''42'''
+| colspan="2" | 25
+| 15
+| 8
+| 8
+|
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|-
+| [https://www.rp.pl/Wybory-prezydenckie-2020/302099959-Sondaz-Duda-wygrywa-z-kandydatami-opozycji-PiS-traci.html IBRiS / "Rz"]
+| data-sort-value="2020-02-08" | 7–8 Feb 2020
+| 1,100
+| style="background:#C0DBFC" | '''35.9'''
+| colspan="2" | 27.2
+| 15.6
+| 7.3
+| 6.3
+|
+| 7.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.7'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/486227-pis-ze-stabilnym-prowadzeniem-ko-zyskuje-kosztem-lewicy Social Changes / wPolityce.pl]
+| data-sort-value="2020-02-04" | 1–4 Feb 2020
+| 1,080
+| style="background:#C0DBFC" | '''39'''
+| colspan="2" | 28
+| 15
+| 9
+| 7
+|
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://fakty.tvn24.pl/fakty-po-poludniu,96/sondaz-partyjny-dla-faktow-tvn-i-tvn24-poparcie-dla-pis-spada,1002836.html Kantar Public / TVN]
+| data-sort-value="2020-01-30" | 29–30 Jan 2020
+| 1,000
+| style="background:#C0DBFC" | '''35'''
+| colspan="2" | 30
+| 13
+| 7
+| 7
+|
+| 8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/485138-pis-na-czele-z-niewielka-strata-wciaz-wysoko-sld-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2020-01-27" | 24–27 Jan 2020
+| 1,062
+| style="background:#C0DBFC" | '''39'''
+| colspan="2" | 27
+| 17
+| 9
+| 7
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12'''
+|-
+| [https://wiadomosci.onet.pl/kraj/nowa-krs-i-uchwaly-polaczonych-izb-sn-sondaz-kogo-popieraja-polacy/cswnf5r IBRiS / RMF]
+| data-sort-value="2020-01-25" | 24–25 Jan 2020
+| 1,100
+| style="background:#C0DBFC" | '''38'''
+| colspan="2" | 26
+| 15
+| 7
+| 6
+|
+| 8
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12'''
+|-
+| [https://dorzeczy.pl/kraj/127475/sondaz-dla-dorzeczypl-pis-na-czele-wzrost-ko-i-lewicy.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-01-24" | 23–24 Jan 2020
+| 1,027
+| style="background:#C0DBFC" | '''43.5'''
+| colspan="2" | 29.7
+| 11.8
+| 8.7
+| 5.9
+|
+| 0.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.8'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/pis-owi-spada-poparcie-najnowszy-sondaz-aa-LGTc-Z8Vo-GFTM.html Pollster / SE.pl]
+| data-sort-value="2020-01-23" | 22–23 Jan 2020
+| 1,091
+| style="background:#C0DBFC" | '''40.5'''
+| colspan="2" | 27.4
+| 14.7
+| 8.3
+| 8.5
+|
+| 0.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.1'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/484414-pis-na-czele-ko-rosnie-w-sile-lewica-wciaz-mocna-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2020-01-21" | 17–21 Jan 2020
+| 1,054
+| style="background:#C0DBFC" | '''41'''
+| colspan="2" | 26
+| 17
+| 7
+| 8
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Nowy-sondaz.-Koalicja-Obywatelska-coraz-blizej-PiS IBSP / wp.pl]
+| data-sort-value="2020-01-16" | 14–16 Jan 2020
+| 1,001
+| style="background:#C0DBFC" | '''37.8'''
+| colspan="2" | 31.3
+| 13.3
+| 7.4
+| 9.7
+|
+| 0.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6.5'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/pis-lapie-zadyszke-najnowszy-sondaz-dla-se-spada-poparcie-dla-partii-rzadzacej-aa-vuM8-hd7g-5gMA.html Pollster / SE.pl]
+| data-sort-value="2020-01-16" | 14–16 Jan 2020
+| 1,075
+| style="background:#C0DBFC" | '''41.1'''
+| colspan="2" | 27.5
+| 14.5
+| 8.5
+| 8.1
+|
+| 0.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.6'''
+|-
+| [https://wiadomosci.onet.pl/kraj/sondaz-cbos-pis-zdecydowanie-na-czele-choc-z-pewnym-spadkiem/1scd8fk CBOS]
+| data-sort-value="2020-01-16" | 9–16 Jan 2020
+| 1,069
+| style="background:#C0DBFC" | '''44'''
+| colspan="2" | 23
+| 10
+| 7
+| 5
+|
+| 11
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''21'''
+|-
+| [https://fakty.interia.pl/polska/news-pis-na-prowadzeniu-sondaz-poparcia-kantar,nId,4274391 Kantar Public]
+| data-sort-value="2020-01-15" | 9–15 Jan 2020
+| 984
+| style="background:#C0DBFC" | '''38'''
+| colspan="2" | 28
+| 13
+| 6
+| 3
+|
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/483204-pis-zdecydowanie-prowadzi-lewica-bardzo-blisko-ko-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2020-01-14" | 10–14 Jan 2020
+| 1,057
+| style="background:#C0DBFC" | '''42'''
+| colspan="2" | 23
+| 18
+| 8
+| 8
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''19'''
+|-
+| [https://www.rp.pl/Wybory-prezydenckie-2020/301139890-Sondaz-44-proc-dla-Dudy-373-proc-dla-PiS.html IBRiS / "Rz"]
+| data-sort-value="2020-01-11" | 10–11 Jan 2020
+| 1,100
+| style="background:#C0DBFC" | '''37.3'''
+| colspan="2" | 26.9
+| 12.9
+| 4.7
+| 5.0
+|
+| 13.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.4'''
+|-
+| [https://www.dorzeczy.pl/kraj/125974/rosnie-poparcie-dla-pis-traci-lewica-oto-najnowszy-sondaz-dla-dorzeczypl.html Estymator / DoRzeczy.pl]
+| data-sort-value="2020-01-10" | 9–10 Jan 2020
+| 1,018
+| style="background:#C0DBFC" | '''45.4'''
+| colspan="2" | 28.2
+| 10.5
+| 8.6
+| 6.4
+|
+| 0.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.2'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/482018-pis-mocno-siedzi-w-siodle-konkurencja-nie-nadrabia-dystansu Social Changes / wPolityce.pl]
+| data-sort-value="2020-01-07" | 3–7 Jan 2020
+| 1,033
+| style="background:#C0DBFC" | '''41'''
+| colspan="2" | 24
+| 16
+| 10
+| 8
+|
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|}
+=== 2019 ===
+{{For|events during the year|2019 in Poland}}
+{| class="wikitable sortable collapsible" style="text-align:center; font-size:95%; line-height:16px;
+|- style="height:42px; background-color:#E9E9E9"
+! rowspan="2" style="width:150px;" | Polling Firm/<br />Link
+! rowspan="2" data-sort-type="date" | Fieldwork<br />Period
+! rowspan="2" style="width:20px;" | Sample<br />Size
+! style="width:60px;" class="unsortable" | [[United Right (Poland)|United Right]]
+! style="width:60px;" class="unsortable" | [[Civic Coalition (Poland)|Civic Coalition]]
+! style="width:60px;" class="unsortable" | [[The Left (Poland)|The Left]]
+! style="width:60px;" class="unsortable" | [[Polish Coalition]]
+! style="width:60px;" class="unsortable" | [[Confederation Liberty and Independence|Confederation]]
+! rowspan="2" data-sort-type="number" style="width:50px;" | Others /<br />Don't know
+! rowspan="2" data-sort-type="number" style="width:30px;" | Lead
+|-
+! data-sort-type="number" style="height:1px; background:{{Law and Justice/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:{{Civic Platform/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#ac145a;" |
+! data-sort-type="number" style="height:1px; background:{{Polish People's Party/meta/color}};" |
+! data-sort-type="number" style="height:1px; background:#122746;" |
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/480790-krajobraz-na-koniec-roku-wszyscy-stoja-w-miejscu-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2019-12-31" | 27–31 Dec 2019
+| 1,042
+| style="background:#C0DBFC" | '''41'''
+| 23
+| 17
+| 8
+| 9
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/479701-polityczna-flauta-czyli-wszyscy-stoja-w-miejscu-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2019-12-24" | 20–24 Dec 2019
+| 1,044
+| style="background:#C0DBFC" | '''41'''
+| 23
+| 17
+| 8
+| 9
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18'''
+|-
+| [http://www.rp.pl/Polityka/191229838-Sondaz-PiS-niemal-12-punktow-procentowych-przed-KO.html IBSP / wp.pl]
+| data-sort-value="2019-12-22" | 22 Dec 2019
+|
+| style="background:#C0DBFC" | '''39.1'''
+| 27.9
+| 16.1
+| 7.0
+| 9.8
+| 0.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.2'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/najnowszy-sondaz-partyjny-scena-polityczna-jest-zabetonowana-aa-PznZ-nXwG-dWAS.html Pollster / SE.pl]
+| data-sort-value="2019-12-22" | 20–22 Dec 2019
+| 1,060
+| style="background:#C0DBFC" | '''43.5'''
+| 25.5
+| 14.4
+| 8.1
+| 8.0
+| 0.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18.0'''
+|-
+| [https://www.rp.pl/Polityka/312239933-Sondaz-Spor-o-ustawe-kagancowa-sluzy-PiS-i-PO-Lewica-traci.html IBRiS / "Rz"]
+| data-sort-value="2019-12-20" | 19–20 Dec 2019
+| 1,100
+| style="background:#C0DBFC" | '''39.8'''
+| 26.8
+| 9.9
+| 7.5
+| 6.1
+| 9.9
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.0'''
+|-
+| [https://dorzeczy.pl/kraj/124193/mocna-pozycja-pis-czy-opozycja-moze-zagrozic-partii-rzadzacej.html Estymator / DoRzeczy.pl]
+| data-sort-value="2019-12-20" | 19–20 Dec 2019
+| 1,021
+| style="background:#C0DBFC" | '''44.2'''
+| 27.9
+| 11.8
+| 8.8
+| 6.6
+| 0.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.3'''
+|-
+| [https://tvn24.pl/najnowsze-poparcie-polityczne-sondaz-partyjny-dla-tvn24-i-faktow-tvn,994449,s.html Kantar Public / TVN]
+| data-sort-value="2019-12-18" | 17–18 Dec 2019
+| 1,003
+| style="background:#C0DBFC" | '''41'''
+| 27
+| 12
+| 7
+| 7
+| 6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/lifestyle/478627-lewica-wciaz-blisko-ko-pis-bez-zmian-w-gore-konfederacja Social Changes / wPolityce.pl]
+| data-sort-value="2019-12-17" | 13–17 Dec 2019
+| 1,029
+| style="background:#C0DBFC" | '''40'''
+| 23
+| 18
+| 7
+| 10
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Nowy-sondaz-Kantar.-PiS-Lewica-i-PSL-ze-wzrostem-poparcia2 Kantar Public]
+| data-sort-value="2019-12-11" | 6–11 Dec 2019
+| 971
+| style="background:#C0DBFC" | '''39'''
+| 26
+| 11
+| 8
+| 6
+| 10
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/477750-lewica-coraz-blizej-ko-juz-tylko-3-punkty-roznicy-sprawdz Social Changes / wPolityce.pl]
+| data-sort-value="2019-12-10" | 6–10 Dec 2019
+| 1,037
+| style="background:#C0DBFC" | '''40'''
+| 22
+| 19
+| 10
+| 8
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18'''
+|-
+| [https://wiadomosci.dziennik.pl/polityka/artykuly/615082,sondaz-marian-banas-nik-pis.html IBRiS / RMF]
+| data-sort-value="2019-12-07" | 6–7 Dec 2019
+| 1,100
+| style="background:#C0DBFC" | '''35'''
+| 25
+| 12
+| 5
+| 7
+| 16
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+|-
+| [https://twitter.com/CBOS_Info/status/1202947823630729217 CBOS]
+| data-sort-value="2019-12-05" | 28 Nov–5 Dec 2019
+| 971
+| style="background:#C0DBFC" | '''45.2'''
+| 21.7
+| 11.2
+| 6.2
+| 6.3
+| 9.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''23.5'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/477039-pis-i-ko-bez-zmian-spada-lewica-rosnie-konfederacja Social Changes / wPolityce.pl]
+| data-sort-value="2019-12-03" | 28 Nov–3 Dec 2019
+| 1,028
+| style="background:#C0DBFC" | '''40'''
+| 24
+| 16
+| 9
+| 9
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Sondaz.-PiS-traci-poparcie.-Bardzo-dobry-wynik-Konfederacji Kantar Public / PO]
+| data-sort-value="2019-11-30" | 29–30 Nov 2019
+| ~1,000
+| style="background:#C0DBFC" | '''35'''
+| 28
+| 14
+| 9
+| 12
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
+|-
+| [https://www.se.pl/wiadomosci/polityka/sondaz-partyjny-konfederacja-i-sld-rosna-w-sile-aa-2UuC-29uz-PRzM.html Pollster / SE.pl]
+| data-sort-value="2019-11-27" | 27 Nov 2019
+|
+| style="background:#C0DBFC" | '''44.6'''
+| 23.3
+| 14.9
+| 7.8
+| 8.4
+| 1.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''21.3'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/475362-lewica-coraz-blizej-koalicji-obywatelskiej-bedzie-mijanka Social Changes / wPolityce.pl]
+| data-sort-value="2019-11-26" | 22–26 Nov 2019
+| 1,037
+| style="background:#C0DBFC" | '''40'''
+| 24
+| 18
+| 10
+| 6
+| 2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16'''
+|-
+| [https://www.rp.pl/Polityka/311259904-Sondaz-PiS-z-poparciem-blisko-40-proc-Wyborcy-wierza-w-Lewice.html IBRiS / "Rz"]
+| data-sort-value="2019-11-23" | 22–23 Nov 2019
+| 1,100
+| style="background:#C0DBFC" | '''39.6'''
+| 24.8
+| 12.8
+| 6.0
+| 6.2
+| 10.6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.8'''
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/Sondaz-Kantar.-PiS-Lewica-i-Konfederacja-traca-poparcie Kantar Public]
+| data-sort-value="2019-11-20" | 15–20 Nov 2019
+| 972
+| style="background:#C0DBFC" | '''38'''
+| 27
+| 10
+| 7
+| 6
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/474380-pis-prowadzi-ale-zyskuja-skrzydla-lewica-i-konfederacja Social Changes / wPolityce.pl]
+| data-sort-value="2019-11-19" | 15–19 Nov 2019
+| 1,029
+| style="background:#C0DBFC" | '''40'''
+| 25
+| 17
+| 8
+| 9
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15'''
+|-
+| [https://twitter.com/CBOS_Info/status/1196431260056522752 CBOS]
+| data-sort-value="2019-11-17" | 7–17 Nov 2019
+| 996
+| style="background:#C0DBFC" | '''45.7'''
+| 20.0
+| 11.6
+| 8.8
+| 6.2
+| 7.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''25.7'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/473234-pis-utrzymuje-wyrazne-prowadzenie-w-sejmie-piec-komitetow Social Changes / wPolityce.pl]
+| data-sort-value="2019-11-12" | 8–12 Nov 2019
+| 1,028
+| style="background:#C0DBFC" | '''42'''
+| 25
+| 15
+| 9
+| 8
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17'''
+|-
+| [https://www.wysokieobcasy.pl/wysokie-obcasy/7,163229,25410621,konfederacja-oslabia-pis-mlodzi-mezczyzni-wybieraja-nacjonalistow.html Kantar Public / "WO"]
+| data-sort-value="2019-11-12" | 5–12 Nov 2019
+| 1,502
+| style="background:#C0DBFC" | '''38'''
+| 27
+| 14
+| 7
+| 9
+| 5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11'''
+|-
+| [https://fakty.interia.pl/prasa/news-super-express-przewaga-pis-rosnie-sondaz,nId,3330875 Pollster / SE.pl]
+| data-sort-value="2019-11-06" | 5–6 Nov 2019
+| 1,099
+| style="background:#C0DBFC" | '''46.4'''
+| 25.0
+| 12.7
+| 8.8
+| 5.7
+| 1.4
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''21.4'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/472164-pis-powieksza-przewage-nad-konkurencja-sld-znow-blizej-po Social Changes / wPolityce.pl]
+| data-sort-value="2019-11-05" | 1–5 Nov 2019
+| 1,033
+| style="background:#C0DBFC" | '''43'''
+| 24
+| 17
+| 8
+| 7
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''19'''
+|-
+| [https://www.tvp.info/45224170/sondaz-parlamentarny-18-pkt-proc-roznicy-miedzy-pis-a-ko CBM Indicator / TVP]
+|  data-sort-value="2019-11-04" | 31 Oct–4 Nov 2019
+| 1,000
+| style="background:#C0DBFC" | '''44.0'''
+| 26.1
+| 14.4
+| 8.8
+| 6.2
+| 0.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.9'''
+|-
+| style="letter-spacing: -1px;"|[https://wpolityce.pl/polityka/471197-kto-zyskuje-a-kto-traci-pierwszy-partyjny-sondaz-po-13-x Social Changes / wPolityce.pl]
+| data-sort-value="2019-10-30" | 25–30 Oct 2019
+| 1,040
+| style="background:#C0DBFC" | '''41.1'''
+| 24.9
+| 15.9
+| 9.8
+| 8.3
+| 0.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.2'''
+|-
+| [https://oko.press/10-dni-po-wyborach-pis-nie-mialby-wiekszosci-lewica-nadgryza-koalicje-ipsos-dla-oko-press/ IPSOS / OKO.press]
+| data-sort-value="2019-10-23" | 21–23 Oct 2019
+| 1,004
+| style="background:#C0DBFC" | '''41'''
+| 23
+| 15
+| 9
+| 7
+| 5{{efn|Includes: 1% – [[Nonpartisan local government activists]].}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''18'''
+|-
+| [https://www.rp.pl/Polityka/310219926-Sondaz-582-proc-Polakow-dobrze-ocenia-prezydenta-Dude.html IBRiS / "Rz"]
+| data-sort-value="2019-10-19" | 18–19 Oct 2019
+| 1,100
+| style="background:#C0DBFC" | '''41.3'''
+| 21.7
+| 12.3
+| 7.1
+| 6.5
+| 11.1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''19.6'''
+|-
+| [https://wiadomosci.onet.pl/kraj/sondaz-kantar-wzrost-notowan-konfederacji-koalicji-i-lewicy/9dts9c5 Kantar Public]
+| data-sort-value="2019-10-16" | 11–16 Oct 2019
+| 986
+| style="background:#C0DBFC" | '''39'''
+| 27
+| 14
+| 7
+| 7
+| 6
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12'''
+|-
+| colspan="14" style="background:#A0A0A0" |
+|- style="background:#EFEFEF;"
+| [[2019 Polish parliamentary election|Parliamentary election]]
+| data-sort-value="2019-10-13" | 13 Oct 2019
+|
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''43.6'''
+| 27.4
+| 12.6
+| 8.6
+| 6.8
+| 1.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.2'''
+|-
+| colspan="14" style="background:#A0A0A0" |
+|-
+|}

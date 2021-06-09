@@ -21,6 +21,23 @@
 |-
 | colspan="8" style="background:#A0A0A0"|
 |-
+| Ipsos<ref>{{cite web|url=https://www.reuters.com/world/americas/ipsos-poll-shows-tie-eve-perus-election-with-fujimori-slightly-ahead-2021-06-05/|tittle=Ipsos poll shows tie on eve of Peru's election, with Fujimori slightly ahead|author=Marco Aquino and Marcelo Rochabrun|website=Reuters|date=2021-06-05|accessdate=2021-06-06}}</ref>
+| 5 June 2021
+| 5,117
+| 44.1
+| style="background:#FF9966"|'''44.8'''
+| 11.1
+|
+|-
+|-
+| IEP<ref>{{cita web|título=Encuestas en Perú pronostican empate técnico de cara a segunda vuelta electoral |url= https://www.wradio.com.co/noticias/internacional/encuestas-en-peru-pronostican-empate-tecnico-de-cara-a-segunda-vuelta-electoral/20210605/nota/4140861.aspx |sitioweb=wradio.com.co |fecha=5 de junio de 2021}}</ref>
+| 2-4 June 2021
+| 2,057
+| 40.8
+| style="background:#FF9966"|'''40.9'''
+| 11.5
+| 6.8
+|-
 | IDICE/La Razón<ref>{{cite web|title=Keiko sobrepasó a Pedro Castillo por cuatro puntos|url=https://larazon.pe/keiko-sobrepaso-a-pedro-castillo-por-cuatro-puntos/|website=larazon.pe|accessdate=2021-05-31}}</ref>
 | 28–29 May 2021
 | 1,200

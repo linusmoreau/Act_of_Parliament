@@ -27,9 +27,17 @@
 ! style="background:{{Canadian party colour|CA|Green}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|PPC}}" data-sort-type="number"|
 |-
+| [[Léger Marketing|Leger]] || {{dts|June 6, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Legers-North-American-Tracker-June-7th-2021_v3.pdf PDF] || 29 || {{Party shading/Liberal}}|'''32''' || 22 || 6 || 6 || {{n/a}} || 5 || ±2.5 pp || 1,539 || online || {{Party shading/Liberal}}|'''3'''
+|-
+| Innovative Research || {{dts|May 31, 2021}} || [https://innovativeresearch.ca/wp-content/uploads/2021/06/CTM2105-Federal-Report-Release-Deck.pdf PDF] || 27 || {{Party shading/Liberal}}|'''38''' || 15 || 8 || 8 || 4 || 1 || {{n/a}} || 2,579 || online || {{Party shading/Liberal}}|'''11'''
+|-
+| [[Abacus Data]] || {{dts|May 28, 2021}} || [https://abacusdata.ca/mood-brightens-canadian-politics// HTML] || 31 || {{Party shading/Liberal}}|'''34''' || 17 ||  7 || 7 || 2 || 2 || ±2.1 pp || 2,000 || online || {{Party shading/Liberal}}|'''3'''
+|-
+| [[Ekos Research Associates|EKOS]] || {{dts|May 27, 2021}} || [https://twitter.com/VoiceOfFranky/status/1398844725789143041/ Twitter] || 27.8 || {{Party shading/Liberal}}|'''35.4''' || 17.9 || 5.6 || 7.0 ||  4.0 || 3.0 || ±1.7 pp || 1,948 || IVR || {{Party shading/Liberal}}|'''7.6'''
+|-
 | [[Léger Marketing|Leger]] || {{dts|May 23, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Legers-North-American-Tracker-May-25th-2021_v2.pdf PDF] || 30 || {{Party shading/Liberal}}|'''34''' || 19 || 7 || 7 || {{n/a}} || 3 || ±2.43 pp || 1,624 || online || {{Party shading/Liberal}}|'''4'''
 |-
-| [[Mainstreet Research]] || {{dts|May 23, 2021}} || [https://ipolitics.ca/wp-content/uploads/2021/05/Canada-iPolitics-25may2021.pdf PDF] || 31.4 || {{Party shading/Liberal}}|'''37.2''' || 13.3 || 5.2 || 6.9 || {{n/a}} || 6.0 || ±2.7 pp || 1,332 || IVR || {{Party shading/Liberal}}|'''5.8'''
+| [[Mainstreet Research]] || {{dts|May 23, 2021}} || [https://www.mainstreetresearch.ca/poll/may-2021-national-vote-intention/ HTML] || 31.4 || {{Party shading/Liberal}}|'''37.2''' || 13.3 || 5.2 || 6.9 || {{n/a}} || 6.0 || ±2.7 pp || 1,332 || IVR || {{Party shading/Liberal}}|'''5.8'''
 |-
 | [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|May 17, 2021}} || [https://angusreid.org/wp-content/uploads/2021/05/2021.05.20_federal_politics.pdf PDF] || 32 || {{Party shading/Liberal}}|'''34''' || 18 || 7 || 5|| {{n/a}} || 4 || ±2.5 pp || 1,601 || online || {{Party shading/Liberal}}|'''2'''
 |-

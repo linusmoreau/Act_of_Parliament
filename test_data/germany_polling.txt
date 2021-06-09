@@ -23,6 +23,45 @@
 ! style="background:{{Alliance 90/The Greens/meta/color}};"|
 |-
 | [https://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2021-06-07"| 4–7 June 2021
+| 2,015
+| –
+| style="background:#D7D5D7;"| '''26.5'''
+| 15.5
+| 11
+| 13.5
+| 7
+| 20.5
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6
+|-
+| [https://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2021-06-06"| 31 May–4 June 2021
+| 1,380
+| –
+| style="background:#D7D5D7;"| '''26'''
+| 17
+| 12
+| 12
+| 6
+| 21
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
+|-
+| [https://www.wahlrecht.de/umfragen/emnid.htm Kantar]
+| data-sort-value="2021-06-05"| 26 May–1 June 2021
+| 1,419
+| –
+| style="background:#D7D5D7;"| '''24'''
+| 16
+| 11
+| 13
+| 7
+| 22
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 2
+|-
+| [https://www.wahlrecht.de/umfragen/insa.htm INSA]
 | data-sort-value="2021-05-31"| 28–31 May 2021
 | 2,040
 | –
