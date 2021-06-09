@@ -110,8 +110,15 @@ def central_rolling_average(dat: Dict[float, List[float]], breadth: float):
     return ndat
 
 
-def weight(disp, breadth):
-    # w = (1 - (abs(disp) / (breadth / 2))) ** power
+def variable_weight(disp, breadth, loc=3):
+    w = (1 - (abs(disp) / breadth) ** 2) ** loc
+    if w < 0:
+        raise ValueError("Displacement is outside of range")
+    else:
+        return w
+
+
+def cube_weight(disp, breadth):
     w = (1 - (abs(disp) / (breadth / 2)) ** 3) ** 3
     if w < 0:
         raise ValueError("Displacement is outside of range")
@@ -131,10 +138,12 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
     return ndat
 
 
-def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
+def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False):
     ndat = {}
     relv: List[int] = []
-    upcome = sorted(list(dat.keys()))
+    # print(dat)
+
+    upcome = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
     # print(upcome)
     mini = upcome[0]
     maxi = upcome[-1]
@@ -146,8 +155,8 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
 
         cutoff: int = -1
         for j, x in enumerate(upcome):
-            # print(x, place, breadth / 2)
-            if x >= place + breadth / 2:
+            # print(x, place, breadth)
+            if x >= place + breadth:
                 cutoff = j
                 break
         if cutoff == -1:
@@ -159,7 +168,7 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
 
         cutoff = -1
         for j, x in enumerate(relv):
-            if x >= place - breadth / 2:
+            if x >= place - breadth:
                 cutoff = j
                 break
         if cutoff == -1:
@@ -168,8 +177,13 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
             relv = relv[cutoff:]
         # print(relv, upcome)
         try:
-            ndat[place] = (sum([sum(dat[x]) * weight(x - place, breadth) for x in relv]) /
-                           sum([len(dat[x]) * weight(x - place, breadth) for x in relv]))
+            if loc:
+                intloc = (int(sum([variable_weight(x - place, breadth, 4) for x in relv])) + 1)
+                ndat[place] = (sum([sum(dat[x]) * variable_weight(x - place, breadth, intloc) for x in relv]) /
+                               sum([len(dat[x]) * variable_weight(x - place, breadth, intloc) for x in relv]))
+            else:
+                ndat[place] = (sum([sum(dat[x]) * cube_weight(x - place, breadth) for x in relv]) /
+                               sum([len(dat[x]) * cube_weight(x - place, breadth) for x in relv]))
         except ZeroDivisionError:
             pass
     return ndat
@@ -212,34 +226,63 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int):
 #             relv = relv[cutoff:]
 #         # print(relv, upcome)
 #         try:
-#             w = sum([weight(x - place, breadth) for x in relv])
-#             xavg = sum([x * weight(x - place, breadth) for x in relv]) / w
+#             # w = sum([weight(x - place, breadth) for x in relv])
+#             # xavg = sum([x * weight(x - place, breadth) for x in relv]) / w
 #             yavg = (sum([sum(dat[x]) * weight(x - place, breadth) for x in relv]) /
 #                     sum([len(dat[x]) * weight(x - place, breadth) for x in relv]))
-#             beta1 = ((sum([weight(x - place, breadth) * x * sum(dat[x]) for x in relv]) - xavg * yavg * w) /
-#                      (sum([weight(x - place, breadth) * x**2 for x in relv]) - xavg**2 * w))
-#             beta0 = yavg - beta1 * xavg
-#             print(beta1)
+#             # beta1 = ((sum([weight(x - place, breadth) * x * sum(dat[x]) for x in relv]) - xavg * yavg * w) /
+#             #          (sum([weight(x - place, breadth) * x**2 for x in relv]) - xavg**2 * w))
+#             # beta0 = yavg - beta1 * xavg
+#             # print(beta1)
 #             ndat[place] = yavg
 #         except ZeroDivisionError:
 #             pass
 #     return ndat
 
 
-def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None) \
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None, loc=False) \
         -> Dict[str, Dict[float, List[float]]]:
+    # Breadth is the x-distance considered in either direction
     ndat = {}
     for line, points in dat.items():
         if res is None:
-            inres = (max(list(points.keys())) - min(list(points.keys()))) // 6
+            inres = (max(list(points.keys())) - min(list(points.keys()))) // 4
             if inres == 0:
                 inres = 1
             elif inres < 50:
                 inres = 50
         else:
             inres = res
-        ndat[line] = weighted_average(points, breadth, inres)
+        ndat[line] = weighted_average(points, breadth, inres, loc)
     return ndat
+
+
+def geothmetic_meandian(seq):
+    def arithmetic_mean(seq):
+        return sum(seq) / len(seq)
+
+    def geometric_mean(seq):
+        tot = None
+        for t in seq:
+            if tot is None:
+                tot = t
+            else:
+                tot *= t
+        return tot ** (1 / len(seq))
+
+    def median(seq):
+        seq = sorted(seq)
+        if len(seq) % 2 == 0:
+            return (seq[(len(seq) + 1) // 2 - 1] + seq[(len(seq) + 1) // 2]) / 2
+        else:
+            return seq[(len(seq) + 1) // 2 - 1]
+
+    if len(seq) == 3 and abs(seq[0] - seq[1]) + abs(seq[0] - seq[2]) + abs(seq[1] - seq[2]) < 0.001:
+        return round(median(seq), 3)
+    else:
+        inter = (arithmetic_mean(seq), geometric_mean(seq), median(seq))
+        # print(inter)
+        return geothmetic_meandian(inter)
 
 
 class CustomObject:
@@ -266,3 +309,8 @@ class CustomObject:
 
     def identifier(self):
         raise ValueError("No identifier")
+
+
+if __name__ == '__main__':
+    seq = tuple(range(1, 90))
+    print(geothmetic_meandian(seq))
