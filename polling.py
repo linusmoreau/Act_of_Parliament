@@ -16,9 +16,15 @@ def read_data(content, key, start, restart, date, choice):
         # print(rot, line, end='')
         if '===' in line:
             year = line.strip().strip('=').strip()
+            if choice == 'Poland' and year == "2019":
+                key = ['United Right', 'Civic Coalition', 'The Left', 'Polish Coalition', 'Confederation']
         elif line[:2] == '|}':
             rot = None
-        if restart in line:
+        elif choice == 'Poland':
+            if "The [[Polish Coalition]] parts ways with member party [[Kukiz'15]]" in line:
+                key = ['United Right', 'Civic Coalition', 'The Left', 'Polish Coalition', 'Confederation',
+                       'Poland 2050']
+        if sum(map(lambda r: r in line, restart)):
             rot = 0
         if rot is not None:
             if rot == date:
@@ -30,12 +36,18 @@ def read_data(content, key, start, restart, date, choice):
                         continue
                 elif choice == "Peru":
                     line = line.strip().strip('}')
-                elif choice == 'Czechia' and 'rowspan="2"' in line:
-                    i += 20
-                    rot += 2
-                elif choice in ["Italy", "Cyprus"]:
+                elif choice == 'Czechia':
+                    if 'rowspan="2"' in line:
+                        i += 20
+                        rot += 2
+                elif choice in ["Italy", "Cyprus", 'Slovakia']:
                     line = prevline
                     if line[0] == '!':
+                        rot = None
+                        i += 1
+                        continue
+                elif choice == "Poland":
+                    if 'style=' in line:
                         rot = None
                         i += 1
                         continue
@@ -48,6 +60,10 @@ def read_data(content, key, start, restart, date, choice):
                     temp = dates.split('â€“')
                 temp = temp[-1].strip()
                 temps = temp.split()
+                # print(temps)
+                if choice == 'Spain' and temps in [['?'], ['66.5']]:
+                    rot += 2
+                    continue
                 if len(temps) == 2:
                     try:
                         year = int(temps[-1])
@@ -99,26 +115,43 @@ def read_data(content, key, start, restart, date, choice):
                 continue
             elif start <= rot < start + len(key):
                 p = rot - start
-                temp = line.split('|')[-1].strip()
+                temp = line
+                if '{{efn' in temp:
+                    temp = temp[:temp.find('{{efn')]
+                if choice == 'Spain' and '<br/>' in line:
+                    temp = temp[:temp.find('<br/>')]
+                temp = temp.split('|')[-1].strip()
                 if choice == 'Cyprus' and temp == '-' and p == 4:
                     i += 1
                     continue
+                temp = temp.replace(',', '.')
                 if temp == 'â€“' or temp == '-' or temp == '' or "small" in temp:
                     share = None
                 else:
                     try:
-                        share = float(temp.strip().strip("'"))
+                        share = float(temp.strip().strip("'").strip('%'))
                     except ValueError:
                         share = None
                 # print(key[rot], share)
                 if key[p] not in dat:
                     dat[key[p]] = {}
                 if end in dat[key[p]]:
-                    dat[key[p]][end].append(share)
+                    if choice == 'Slovakia' and len(dat[key[p]][end]) > 0 and (p == 5 or p in range(10, 13)):
+                        if dat[key[p]][end][-1] is not None:
+                            if share is not None:
+                                dat[key[p]][end][-1] += share
+                        else:
+                            dat[key[p]][end][-1] = share
+                    else:
+                        dat[key[p]][end].append(share)
                 else:
                     dat[key[p]][end] = [share]
-            elif restart in line or 'election' in line:
+                if choice == 'Slovakia' and 'colspan="' in line:
+                    temp = line[line.find('colspan="'):]
+                    rot += int(temp.split('"')[1]) - 1
+            elif sum(map(lambda r: r in line, restart)) or 'election' in line:
                 rot = 0
+                # print('here')
             rot += 1
         i += 1
         prevline = line
@@ -126,6 +159,7 @@ def read_data(content, key, start, restart, date, choice):
 
 
 class GraphPage:
+    spread = 60
 
     def __init__(self, choice, view='parties', to_election=False):
         widgets.clear()
@@ -133,8 +167,9 @@ class GraphPage:
         self.graph = None
         self.choice = choice
         self.view = view
-        self.file_name, self.key, self.col, self.blocs, self.gov, self.spread, self.start, self.restart, self.date, \
-            self.election = self.choice_setting(self.choice)
+        self.spread = GraphPage.spread
+        self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, self.election = \
+            self.choice_setting(self.choice)
 
         if not to_election:
             self.election = None
@@ -143,6 +178,7 @@ class GraphPage:
             content = f.readlines()
 
         self.dat = read_data(content, self.key, self.start, self.restart, self.date, self.choice)
+        # print(self.dat)
 
         height = screen_height / 12
         unit_size = height * 2 / 3
@@ -161,23 +197,41 @@ class GraphPage:
 
         bloc_button = SelectButton((screen_width - 3 / 2 * unit_size, height * 2 / 3),
                                    (unit_size, unit_size),
-                                   align=CENTER, label="BLOC", parent=pinboard)
+                                   align=CENTER, parent=pinboard, deselectable=False)
         pinboard.select_buttons.append(bloc_button)
+        bloc_img = Image(bloc_button.rect.center, (bloc_button.rect.w * 4 / 5, bloc_button.rect.h * 4 / 5),
+                         img_path='images/hierarchy.png')
+        bloc_button.components.append(bloc_img)
+        bloc_button.set_tooltip('Blocs')
         bloc_button.callback(functools.partial(self.change_view, 'blocs'))
-        bloc_button.release_callback(functools.partial(self.change_view, 'parties'))
         if self.blocs is None:
             bloc_button.disable()
         bloc_button.show()
 
         gov_button = SelectButton((screen_width - 3 * unit_size, height * 2 / 3),
                                   (unit_size, unit_size),
-                                  align=CENTER, label="GOV", parent=pinboard)
+                                  align=CENTER, parent=pinboard, deselectable=False)
+        gov_img = Image(gov_button.rect.center, (gov_button.rect.w * 4/5, gov_button.rect.h * 4/5),
+                        img_path='images/parliament.png')
+        gov_button.components.append(gov_img)
+        gov_button.set_tooltip('Government/Opposition')
         pinboard.select_buttons.append(gov_button)
         gov_button.callback(functools.partial(self.change_view, 'gov'))
-        gov_button.release_callback(functools.partial(self.change_view, 'parties'))
         if self.gov is None:
             gov_button.disable()
         gov_button.show()
+
+        party_button = SelectButton((screen_width - 9 / 2 * unit_size, height * 2 / 3),
+                                    (unit_size, unit_size),
+                                    align=CENTER, parent=pinboard, deselectable=False)
+        pinboard.select_buttons.append(party_button)
+        party_img = Image(party_button.rect.center, (party_button.rect.w * 4 / 5, party_button.rect.h * 4 / 5),
+                          img_path='images/ballot.png')
+        party_button.components.append(party_img)
+        party_button.set_tooltip('Parties')
+        party_button.callback(functools.partial(self.change_view, 'parties'))
+        party_button.select()
+        party_button.show()
 
         self.spread_txt = Text(str(self.spread), (screen_rect.centerx, height * 2 / 3))
         self.spread_txt.show()
@@ -205,9 +259,8 @@ class GraphPage:
 
     @staticmethod
     def choice_setting(choice):
-        restart = '[http'
+        restart = ['[http']
         date = 1
-        spread = 60
         election = None
         blocs = None
         gov = None
@@ -232,12 +285,61 @@ class GraphPage:
             blocs = {'Progressive': ['SPÖ', 'Gr\u00fcne', 'NEOS'], 'Conservative': ['ÖVP', 'FPÖ']}
             file_name = 'test_data/austria_polling.txt'
             start = 4
+        elif choice == 'Poland':
+            key = ['United Right', 'Civic Coalition', 'The Left', 'Polish Coalition', 'Kukiz\'15', 'Confederation',
+                   'Poland 2050']
+            col = {'United Right':  (38, 55, 120), 'Civic Coalition': (246, 143, 45), 'The Left': (172, 20, 90),
+                   'Polish Coalition': (27, 177, 0), 'Kukiz\'15': (0, 0, 0), 'Confederation': (18, 39, 70),
+                   'Poland 2050': (249, 192, 19),
+                   'Government': (38, 55, 120), 'Opposition': (246, 143, 45),
+                   'United Opposition': (246, 143, 45), 'Misc. Right': (18, 39, 70)}
+            gov = {'Government': ['United Right'],
+                   'Opposition': ['Civic Coalition', 'The Left', 'Polish Coalition', 'Kukiz\'15', 'Confederation',
+                                  'Poland 2050']}
+            blocs = {'United Right': ['United Right'],
+                     'United Opposition': ['Civic Coalition', 'The Left', 'Polish Coalition', 'Poland 2050'],
+                     'Misc. Right': ['Kukiz\'15', 'Confederation']}
+            file_name = 'test_data/poland_polling.txt'
+            start = 3
+        elif choice == 'Slovakia':
+            key = ['OL\'aNO', 'SMER-SD', 'SR', 'L\'SNS', 'PS-SPOLU', 'PS-SPOLU', 'SaS', 'ZL\'', 'KDH',
+                   'Magyar', 'Magyar', 'Magyar', 'Magyar', 'SNS', 'DV', 'HLAS-SD', 'REP']
+            col = {'OL\'aNO': (190, 214, 47), 'SMER-SD': (217, 39, 39), 'SR': (11, 76, 159), 'L\'SNS': (11, 87, 16),
+                   'PS-SPOLU': (0, 188, 255), 'SaS': (166, 206, 58), 'ZL\'': (255, 187, 0), 'KDH': (253, 209, 88),
+                   'Magyar': (39, 93, 51), 'SNS': (37, 58, 121), 'DV': (255, 0, 43), 'HLAS-SD': (180, 40, 70),
+                   'REP': (220, 1, 22),
+                   'Government': (190, 214, 47), 'Opposition': (180, 40, 70),
+                   'Left': (180, 40, 70), 'Right': (190, 214, 47)}
+            gov = {'Government': ['OL\'aNO', 'SR', 'SaS', 'ZL\''],
+                   'Opposition': ['SMER-SD', 'L\'SNS', 'PS-SPOLU', 'KDH', 'Magyar', 'SNS', 'DV', 'HLAS-SD', 'REP']}
+            blocs = {'Left': ['SMER-SD', 'PS-SPOLU', 'DV', 'HLAS-SD'],
+                     'Right': ['OL\'aNO', 'SR', 'L\'SNS', 'SaS', 'ZL\'', 'KDH', 'Magyar', 'SNS', 'REP']}
+            file_name = 'test_data/slovakia_polling.txt'
+            date = 0
+            start = 2
+            restart = ['Focus', 'AKO']
+        elif choice == 'Spain':
+            key = ['PSOE', 'PP', 'VOX', 'UP', 'Cs', 'ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+',
+                   'PRC']
+            col = {'PSOE': (239, 28, 39), 'PP': (29, 132, 206), 'VOX': (99, 190, 33), 'UP': (123, 73, 119),
+                   'Cs': (235, 97, 9), 'ERC': (255, 178, 50), 'MP': (15, 222, 196), 'JxCat': (0, 199, 174),
+                   'PNV': (74, 174, 74), 'EHB': (181, 207, 24), 'CUP': (255, 237, 0), 'CC': (255, 215, 0),
+                   'BNG': (173, 207, 239), 'NA+': (129, 157, 163), 'PRC': (194, 206, 12),
+                   'Government': (239, 28, 39), 'Opposition': (29, 132, 206),
+                   'Left': (239, 28, 39), 'Right': (29, 132, 206), 'Regionalist': (255, 178, 50)}
+            gov = {'Government': ['PSOE', 'UP', 'PNV', 'MP', 'BNG'],
+                   'Opposition': ['PP', 'VOX', 'Cs', 'JxCat', 'CUP', 'CC', 'PRC']}
+            blocs = {'Left': ['PSOE', 'UP'], 'Right': ['PP', 'VOX', 'Cs'],
+                     'Regionalist': ['ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+', 'PRC']}
+            file_name = 'test_data/spain_polling.txt'
+            restart = ['http']
+            start = 4
         elif choice == 'Peru':
             key = ['Castillo', 'Fujimori']
             col = {'Castillo': (192, 10, 10), 'Fujimori': (255, 128, 0)}
             file_name = 'test_data/peru_polling.txt'
             start = 3
-            restart = 'http'
+            restart = ['http']
             election = Date(2021, 6, 6)
         elif choice == 'Czechia':
             key = ['ANO', 'SPOLU', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD']
@@ -261,9 +363,11 @@ class GraphPage:
                    'FdI': (3, 56, 106), 'LeU': (199, 40, 55), '+Eu': (255, 215, 0), 'EV': (115, 193, 112),
                    'C!': (229, 131, 33), 'A': (0, 57, 170), 'IV': (214, 65, 140), 'NcI': (31, 107, 184),
                    'PaP': (160, 20, 46),
-                   'Left': (239, 28, 39), 'Right': (0, 128, 0)}
+                   'Left': (239, 28, 39), 'Right': (0, 128, 0),
+                   'Government': (255, 235, 59), 'Opposition': (3, 56, 106)}
             blocs = {'Left': ['PD', '+Eu', 'EV', 'LeU', 'IV', 'A', 'M5S', 'PaP'],
                      'Right': ['Lega', 'FI', 'FdI', 'C!', 'NcI']}
+            gov = {'Government': ['M5S', 'Lega', 'PD', 'FI', 'LeU', 'IV'], 'Opposition': ['FdI', '+Eu', 'C!', 'A']}
             file_name = 'test_data/italy_polling.txt'
             date = 0
             start = 2
@@ -294,18 +398,18 @@ class GraphPage:
             gov = {'Government': ['SDP', 'KESK', 'VIHR', 'VAS', 'SFP'], 'Opposition': ['KOK', 'PS', 'KD', 'LIIK']}
             file_name = 'test_data/finland_polling.txt'
             start = 3
-            restart = 'http'
+            restart = ['http']
         elif choice == 'Sweden':
             key = ['V', 'S', 'MP', 'C', 'L', 'M', 'KD', 'SD']
             col = {'V': (176, 0, 0), 'S': (237, 27, 52), 'MP': (43, 145, 44), 'C': (1, 106, 57), 'L': (0, 106, 179),
                    'M': (1, 156, 219), 'KD': (0, 70, 120), 'SD': (254, 223, 9),
-                   'Red-Greens': (237, 27, 52), 'Alliance': (245, 137, 28),
+                   'Red-Green': (237, 27, 52), 'Alliance': (245, 137, 28),
                    'Government': (237, 27, 52), 'Opposition': (245, 137, 28)}
-            blocs = {'Red-Greens': ['S', 'V', 'MP'], 'Alliance': ['C', 'L', 'M', 'KD'], 'SD': ['SD']}
+            blocs = {'Red-Green': ['S', 'V', 'MP'], 'Alliance': ['C', 'L', 'M', 'KD'], 'SD': ['SD']}
             gov = {'Government': ['S', 'MP', 'V', 'C', 'L'], 'Opposition': ['M', 'KD', 'SD']}
             file_name = 'test_data/sweden_polling.txt'
             start = 3
-            restart = 'http'
+            restart = ['http']
         elif choice == 'Norway':
             key = ['R', 'SV', 'MDG', 'Ap', 'Sp', 'V', 'KrF', 'H', 'FrP']
             col = {'R': (231, 52, 69), 'SV': (188, 33, 73), 'MDG': (106, 147, 37), 'Ap': (227, 24, 54),
@@ -337,7 +441,7 @@ class GraphPage:
             start = 4
         else:
             raise ValueError("No such choice.")
-        return file_name, key, col, blocs, gov, spread, start, restart, date, election
+        return file_name, key, col, blocs, gov, start, restart, date, election
 
     def make_graph(self):
         dat = copy.deepcopy(self.dat)
@@ -359,14 +463,14 @@ class GraphPage:
                                     count = y
                                 bdat[b][x][i] += count
                         else:
-                            bdat[b][x] = ys.copy()
+                            bdat[b][x] = list(map(lambda y: 0 if y is None else y, ys))
             dat = bdat
 
         for line, vals in dat.items():
             for x, ys in vals.items():
-                dat[line][x] = list(filter(lambda x: x is not None, ys))
+                dat[line][x] = list(filter(lambda x: x is not None and (x != 0 or self.view == 'parties'), ys))
 
-        ndat = weighted_averages(dat, self.spread)
+        ndat = weighted_averages(dat, self.spread, loc=True)
         date = Date(2021, 1, 1)
         if self.election is not None:
             x_max = date_kit.date_dif(date, self.election)
@@ -407,7 +511,7 @@ def menu_page():
     widgets.clear()
 
     options = ['Austria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Iceland', 'Italy', 'Norway',
-               'Peru', 'Portugal', 'Sweden']
+               'Peru', 'Poland', 'Portugal', 'Spain', 'Slovakia', 'Sweden']
 
     button_size = 64
     display = ScrollButtonDisplay(screen_center, (300, screen_height * 4 / 5), button_size * len(options), CENTER,
@@ -432,5 +536,6 @@ def menu_page():
     display.show()
 
 
-menu_page()
-game_loop()
+if __name__ == '__main__':
+    menu_page()
+    game_loop()
