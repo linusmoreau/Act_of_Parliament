@@ -4,6 +4,9 @@ import date_kit
 import types
 
 
+today = Date(2021, 6, 9)
+
+
 def read_data(content, key, start, restart, date, choice):
     dat: Dict[str, Dict[int, List[float]]] = {}
     rot = None
@@ -34,8 +37,6 @@ def read_data(content, key, start, restart, date, choice):
                     if 'ref' in line:
                         i += 1
                         continue
-                elif choice == "Peru":
-                    line = line.strip().strip('}')
                 elif choice == 'Czechia':
                     if 'rowspan="2"' in line:
                         i += 20
@@ -51,6 +52,7 @@ def read_data(content, key, start, restart, date, choice):
                         rot = None
                         i += 1
                         continue
+                line = line.strip().strip('}')
                 dates = line.split('|')[-1]
                 if '-' in dates:
                     temp = dates.split('-')
@@ -66,14 +68,15 @@ def read_data(content, key, start, restart, date, choice):
                     continue
                 if len(temps) == 2:
                     try:
-                        year = int(temps[-1])
-                        temp = '1 ' + temp
+                        y = int(temps[-1])
+                        m = temps[0]
+                        temp = str(date_kit.get_month_length(date_kit.get_month_number(m), y)) + ' ' + temp
                     except ValueError:
                         temp = temp + ' ' + year
                 elif len(temps) == 1:
-                    temp = '1' + ' ' + temp + ' ' + year
+                    temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
+                           ' ' + temp + ' ' + year
                 temp = temp.strip("'")
-                # print(temp)
                 end_date = date_kit.Date(text=temp, form='dmy')
                 end = date_kit.date_dif(date_kit.Date(2021, 1, 1), end_date)
                 if choice == "Italy":
@@ -161,18 +164,17 @@ def read_data(content, key, start, restart, date, choice):
 class GraphPage:
     spread = 60
 
-    def __init__(self, choice, view='parties', to_election=False):
+    def __init__(self, choice, view='parties', to_end_date=False):
         widgets.clear()
 
         self.graph = None
         self.choice = choice
         self.view = view
         self.spread = GraphPage.spread
-        self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, self.election = \
-            self.choice_setting(self.choice)
+        self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, \
+            self.end_date = self.choice_setting(self.choice)
 
-        if not to_election:
-            self.election = None
+        self.to_end_date = to_end_date
 
         with open(self.file_name, 'r', encoding='utf-8') as f:
             content = f.readlines()
@@ -261,7 +263,7 @@ class GraphPage:
     def choice_setting(choice):
         restart = ['[http']
         date = 1
-        election = None
+        end_date = None
         blocs = None
         gov = None
         if choice == 'Germany':
@@ -282,7 +284,7 @@ class GraphPage:
             gov = {'Government': ['CDU/CSU', 'SPD'], 'Opposition': ['Gr\u00fcne', 'Linke', 'FDP', 'AfD']}
             file_name = 'test_data/germany_polling.txt'
             start = 4
-            election = Date(2021, 9, 26)
+            end_date = Date(2021, 9, 26)
         elif choice == 'Austria':
             key = ['ÖVP', 'SPÖ', 'FPÖ', 'Gr\u00fcne', 'NEOS']
             col = {'ÖVP': (99, 195, 208), 'SPÖ': (206, 0, 12), 'FPÖ': (0, 86, 162), 'Gr\u00fcne': (136, 182, 38),
@@ -348,7 +350,7 @@ class GraphPage:
             file_name = 'test_data/peru_polling.txt'
             start = 3
             restart = ['http']
-            election = Date(2021, 6, 6)
+            end_date = Date(2021, 6, 6)
         elif choice == 'Czechia':
             key = ['ANO', 'SPOLU', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD']
             col = {'ANO': (38, 16, 96), 'SPOLU': (35, 44, 119), 'Pirati+STAN': (0, 0, 0), 'SPD': (33, 117, 187),
@@ -449,7 +451,7 @@ class GraphPage:
             start = 4
         else:
             raise ValueError("No such choice.")
-        return file_name, key, col, blocs, gov, start, restart, date, election
+        return file_name, key, col, blocs, gov, start, restart, date, end_date
 
     def make_graph(self):
         dat = copy.deepcopy(self.dat)
@@ -478,10 +480,14 @@ class GraphPage:
             for x, ys in vals.items():
                 dat[line][x] = list(filter(lambda x: x is not None and (x != 0 or self.view == 'parties'), ys))
 
-        ndat = weighted_averages(dat, self.spread, loc=True)
         date = Date(2021, 1, 1)
-        if self.election is not None:
-            x_max = date_kit.date_dif(date, self.election)
+        if self.end_date is not None and date_kit.date_dif(today, self.end_date) < 0:
+            end = date_kit.date_dif(date, self.end_date)
+        else:
+            end = None
+        ndat = weighted_averages(dat, self.spread, loc=True, end=end)
+        if self.to_end_date and self.end_date is not None:
+            x_max = date_kit.date_dif(date, self.end_date)
         else:
             x_max = None
         title = "Opinion Polling for " + self.choice
@@ -528,7 +534,7 @@ def menu_page():
     for i, entry in enumerate(options):
         b = Button((display.contain_rect.left, display.contain_rect.top + i * button_size),
                    (display.contain_rect.w, button_size), parent=display)
-        b.callback(functools.partial(GraphPage, entry))
+        b.callback(functools.partial(GraphPage, entry, to_end_date=True))
         img_path = 'images/flags/' + entry.lower() + '.png'
         try:
             img = Image((b.rect.centerx + b.rect.w / 8, b.rect.centery), (b.rect.h * 3 / 4, b.rect.h * 3 / 4),
