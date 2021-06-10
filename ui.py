@@ -2042,7 +2042,7 @@ def game_loop():
         nt = time.time()
         dif = nt - t
         if dif >= 1:
-            fps.update('FPS: ' + str(round(frame / dif)), align=TOPLEFT, pos=(0, 0))
+            fps.update(str(round(frame / dif)) + ' ' + 'FPS', align=BOTTOMRIGHT, pos=screen_rect.bottomright)
             t = nt
             frame = 0
 
