@@ -24,6 +24,42 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| rowspan="2"|  [https://www.se.pl/wiadomosci/polityka/holownia-moze-otwierac-szampana-najnowszy-sondaz-partyjny-se-to-kleska-budki-aa-V9tE-y48K-J9at.html Pollster / SE.pl]
+| rowspan="2" data-sort-value="2021-06-06" | 5–6 Jun 2021
+| rowspan="2"|  1,047
+| style="background:#C0DBFC;" | '''36.18'''
+| 18.44
+| 7.01
+| 4.92
+|
+| 9.70
+| 23.02
+| 0.73
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''13.16'''
+|-
+| style="background:#C0DBFC;" | '''35.29'''{{efn|name="pis-only"}}
+| 17.79
+| 6.52
+| 5.65
+|
+| 9.70
+| 22.99
+| 2.06{{efn|[[United Poland]] – 1.06%, [[Agreement (political party)|Agreement]] – 0.54%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.30'''
+|-
+| [https://wiadomosci.wp.pl/najnowszy-sondaz-dla-wp-pis-na-czele-ale-opozycja-bardzo-mocna-6648070769011392a United Survey / WP.pl]
+| data-sort-value="2021-06-04" | 4 Jun 2021
+| 1,000
+| style="background:#C0DBFC;" | '''34.4'''
+| 14.0
+| 8.1
+| 4.7
+|
+| 7.6
+| 23.0
+| 8.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.4'''
+|-
 | [https://wiadomosci.onet.pl/tylko-w-onecie/sondaz-ibris-dla-onetu-sondaz-poparcia-dla-partii-politycznych-maj-2021/k29jw7h IBRiS / Onet]
 | data-sort-value="2021-05-31" | 31 May 2021
 | 1,100
@@ -128,7 +164,7 @@
 | 0.3
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.2'''
 |-
-| [https://www.se.pl/wiadomosci/polityka/najnowszy-sondaz-super-expressu-lewica-stracila-pis-zyskal-na-polskim-ladzie-aa-fvz2-TiNF-f9or.html Pollster / SE.pl]
+| rowspan="2"| [https://www.se.pl/wiadomosci/polityka/najnowszy-sondaz-super-expressu-lewica-stracila-pis-zyskal-na-polskim-ladzie-aa-fvz2-TiNF-f9or.html Pollster / SE.pl]
 | rowspan="2" data-sort-value="2021-05-20" | 19–20 May 2021
 | rowspan="2" | 1,013
 | style="background:#C0DBFC;" | '''38.10'''
@@ -141,7 +177,6 @@
 | 0.87
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''17.20'''
 |-
-| [https://www.se.pl/wiadomosci/polityka/wielki-sondaz-se-polacy-chca-wyborow-w-tym-roku-czy-pis-rzadzilby-samodzielnie-aa-DnoF-A8D3-HgSo.html Pollster / SE.pl]
 | style="background:#C0DBFC;" | '''36.14'''{{efn|name="pis-only"}}
 | 18.84
 | 6.93
@@ -1489,6 +1524,7 @@
 | 3
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''7'''
 |}
+
 === 2020 ===
 {{For|events during the year|2020 in Poland}}
 

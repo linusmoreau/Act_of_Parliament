@@ -20,8 +20,8 @@
 ! class="unsortable" style="width:40px;" | [[Vegan Party|G]]
 ! class="unsortable" style="width:40px;" rowspan="2"| Others
 ! rowspan="2"| Lead
-! class="unsortable" style="width:40px;"| {{H:title|Ø, F, G, Å, A and B|Red}}
-! class="unsortable" style="width:40px;"| {{H:title|E, K, V, C, I, O, D, and P|Blue}}
+! class="unsortable" style="width:40px;"| {{H:title|A, B, F, Ø, Å and G|Red}}
+! class="unsortable" style="width:40px;"| {{H:title|V, O, C, D, I, P, K, E|Blue}}
 ! style="width:30px;" rowspan="2"| Lead
 |-
 ! data-sort-type="number" style="background:{{Social Democrats (Denmark)/meta/color}};" |
@@ -41,8 +41,123 @@
 ! data-sort-type="number" style="background:{{Social Democrats (Denmark)/meta/color}};"|
 ! data-sort-type="number" style="background:{{Venstre (Denmark)/meta/color}};"|
 |-
+|[https://www.bt.dk/politik/tulle-haler-ind-paa-vermund-i-ny-meningsmaaling YouGov]
+|4–6 Jun 2021
+| 1,258
+| style="background:#FACECD;" |'''33.4'''
+|11.6
+|7.3
+|3.9
+|8.1
+|8.0
+|14.1
+|0.7
+|8.8
+|2.6
+|–
+|1.2
+|–
+|0.6
+|–
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |19.3
+| style="background:#FACECD;" |'''54.0'''
+|45.5
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |8.5
+|-
+|[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmetermåling-06-06-2021.pdf Voxmeter]
+|31 May–6 Jun 2021
+| 1,044
+| style="background:#FACECD;" |'''30.5'''
+|13.3
+|6.7
+|6.1
+|8.2
+|8.1
+|13.0
+|0.6
+|7.0
+|2.7
+|–
+|1.9
+|–
+|0.6
+|1.3
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |17.2
+| style="background:#FACECD;" |'''54.1'''
+|44.6
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |9.5
+|-
+|[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmetermåling-30-05-2021.pdf Voxmeter]
+|24–30 May 2021
+| 1,005
+| style="background:#FACECD;" |'''31.7'''
+|12.5
+|5.7
+|5.9
+|8.6
+|8.4
+|13.5
+|0.4
+|7.5
+|2.2
+|–
+|1.6
+|–
+|0.0
+|2.0
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |18.2
+| style="background:#FACECD;" |'''55.0'''
+|43.0
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |12.0
+|-
+|[https://nyheder.tv2.dk/politik/2021-05-27-maaling-giver-laveste-opbakning-til-socialdemokratiet-laenge Megafon]
+|25–27 May 2021
+| 1,002
+| style="background:#FACECD;" |'''27.3'''
+|12.7
+|4.7
+|6.1
+|8.4
+|8.6
+|15.2
+|0.6
+|10.2
+|2.5
+|–
+|2.4
+|–
+|0.3
+|1.0
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |12.1
+| style="background:#FACECD;" |'''51.0'''
+|47.7
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |3.3
+|-
+|[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-23-05-2021.pdf Voxmeter]
+|17-23 May 2021
+|1,011
+| style="background:#FACECD;" |'''31.0'''
+|11.4
+|5.5
+|5.5
+|8.0
+|9.0
+|14.2
+|0.9
+|7.7
+|2.5
+|–
+|1.8
+|–
+|0.2
+|2.3
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |16.8
+| style="background:#FACECD;" |'''54.6'''
+|43.1
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |11.5
+|-
 |[https://www.altinget.dk/artikel/ny-maaling-efter-et-aar-med-fremgang-gaar-nye-borgerlige-tilbage Epinion]
-|11-19 May 2021
+|11–19 May 2021
 |1,552
 | style="background:#FACECD;" |'''28.6'''
 |12.3
@@ -65,7 +180,7 @@
 | style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |6.7
 |-
 |[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-16-05-2021.pdf Voxmeter]
-|10-16 May 2021
+|10–16 May 2021
 |1,008
 | style="background:#FACECD;" |'''31.8'''
 |11.8
@@ -87,8 +202,31 @@
 |42.4
 | style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |13.9
 |-
+|[https://www.bt.dk/politik/tulle-haler-ind-paa-vermund-i-ny-meningsmaaling YouGov]
+|7–9 May 2021
+|1,263
+| style="background:#FACECD;" |'''33.0'''
+|10.7
+|5.5
+|3.7
+|7.8
+|7.5
+|13.7
+|0.8
+|11.6
+|2.9
+| –
+|1.7
+| –
+|0.8
+| –
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" | 19.3
+| style="background:#FACECD;" | '''52.8'''
+|46.2
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" | 6.6
+|-
 |[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-09-05-2021.pdf Voxmeter]
-|3-8 May 2021
+|3–8 May 2021
 |1,023
 | style="background:#FACECD;" |'''32.1'''
 |11.6
@@ -111,7 +249,7 @@
 | style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" | 12.6
 |-
 |[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-02-05-2021.pdf Voxmeter]
-|26 Apr–2 May 2021
+|{{nowrap|26 Apr–2 May 2021}}
 |1,022
 | style="background:#FACECD;" |'''31.2'''
 |12.3
@@ -201,6 +339,29 @@
 | style="background:#FACECD;" | '''52.9'''
 |44.7
 | style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" | 8.2
+|-
+|[https://yougov.dk/news/2021/04/14/valgmaling-april-2021/ YouGov]
+|9–11 Apr 2021
+|1,258
+| style="background:#FACECD;" |'''33.2'''
+|8.7
+|6.8
+|4.8
+|7.4
+|7.4
+|15.0
+|0.3
+|11.7
+|2.9
+| –
+|1.2
+| –
+|0.6
+| –
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" | 18.2
+| style="background:#FACECD;" | '''53.0'''
+|46.4
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" | 6.6
 |-
 |[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-11-04-2021.pdf Voxmeter]
 |5–10 Apr 2021
@@ -734,6 +895,7 @@
 | style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" | ''4.3''
 |-
 |}
+
 === 2020 ===
 {| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
 |-

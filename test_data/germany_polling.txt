@@ -22,6 +22,32 @@
 ! style="background:{{The Left (Germany)/meta/color}};"|
 ! style="background:{{Alliance 90/The Greens/meta/color}};"|
 |-
+| [https://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
+| data-sort-value="2021-06-10"| 7–9 June 2021
+| 1,316
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 14
+| 12
+| 12
+| 7
+| 20
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8
+|-
+| [https://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2021-06-10"| 7–9 June 2021
+| 1,232
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 15
+| 11
+| 10
+| 7
+| 22
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6
+|-
 | [https://www.wahlrecht.de/umfragen/insa.htm INSA]
 | data-sort-value="2021-06-07"| 4–7 June 2021
 | 2,015
@@ -34,6 +60,19 @@
 | 20.5
 | 6
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 6
+|-
+| [https://www.wahlrecht.de/umfragen/forsa.htm Forsa]
+| data-sort-value="2021-06-09"| 1–7 June 2021
+| 2,501
+| 24
+| style="background:#D7D5D7;"| '''27'''
+| 14
+| 9
+| 14
+| 6
+| 22
+| 8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
 |-
 | [https://www.wahlrecht.de/umfragen/insa.htm INSA]
 | data-sort-value="2021-06-06"| 31 May–4 June 2021
