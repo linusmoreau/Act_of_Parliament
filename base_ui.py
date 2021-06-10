@@ -796,7 +796,8 @@ class ScrollCursor(Button):
 
 class Slider(Widget):
 
-    def __init__(self, pos, area, effect, point, align=CENTER, parent=None, minimum=0, maximum=1, log=False):
+    def __init__(self, pos, area, effect, point, align=CENTER, parent=None, minimum=0, maximum=1, log=False,
+                 shape='rect'):
         super().__init__(pos, area, align=align, parent=parent)
         self.surface.fill((230, 230, 230))
         self.effect = effect
@@ -810,7 +811,7 @@ class Slider(Widget):
             self.max = maximum
             self.point = point
         r = int(self.rect.h / 2)
-        self.slider = SliderButton((0, self.rect.centery), r, parent=self)
+        self.slider = SliderButton((0, self.rect.centery), (r, 2 * r), parent=self, shape=shape)
         self.set_value(point)
         self.components.append(self.slider)
 
@@ -858,15 +859,19 @@ class Slider(Widget):
 
 class SliderButton(Button):
 
-    def __init__(self, pos, radius, parent, align=CENTER):
-        self.radius = radius
-        super().__init__(pos, (self.radius * 2, self.radius * 2), align,
-                         parent=parent, threed=False)
+    def __init__(self, pos, dim, parent, align=CENTER, shape='rect', col=gold):
+        self.shape = shape
+        if self.shape == 'circ':
+            self.radius = dim[0]
+            area = (self.radius * 2, self.radius * 2)
+        else:
+            area = dim
+        super().__init__(pos, area, align, parent=parent, threed=False)
         self.mouse_loc = None
         self.loc = self.rect.centerx
-        self.min = self.parent.rect.left + self.radius + self.parent.rect.h
-        self.max = self.parent.rect.right - self.radius - self.parent.rect.h
-        self.normal_colour = gold
+        self.min = self.parent.rect.left + self.rect.w / 2 + self.parent.rect.h
+        self.max = self.parent.rect.right - self.rect.w / 2 - self.parent.rect.h
+        self.normal_colour = col
         self.surface.set_colorkey(white)
         self.update()
 
@@ -897,21 +902,27 @@ class SliderButton(Button):
         self.rect.centerx = loc
 
     def on_top(self, pos):
-        if ((pos[0] - self.rect.centerx) ** 2 + (pos[1] - self.rect.centery) ** 2) ** (1 / 2) < self.radius:
-            return True
+        if self.shape == 'circ':
+            if ((pos[0] - self.rect.centerx) ** 2 + (pos[1] - self.rect.centery) ** 2) ** (1 / 2) < self.radius:
+                return True
+            else:
+                return False
         else:
-            return False
+            return super().on_top(pos)
 
     def update(self):
-        self.update_colours()
-        self.surface.fill(white)
-        r = self.radius - 1
-        pygame.gfxdraw.filled_circle(self.surface, r, r, r, self.colours[self.state])
-        pygame.gfxdraw.aacircle(self.surface, r, r, r, self.colours[self.state])
-        if self.tooltip_display is not None and not self.on_top(pygame.mouse.get_pos()):
-            self.tooltip_display.hide()
-            self.tooltip_display = None
-        Widget.change = True
+        if self.shape == 'circ':
+            self.update_colours()
+            self.surface.fill(white)
+            r = self.radius - 1
+            pygame.gfxdraw.filled_circle(self.surface, r, r, r, self.colours[self.state])
+            pygame.gfxdraw.aacircle(self.surface, r, r, r, self.colours[self.state])
+            if self.tooltip_display is not None and not self.on_top(pygame.mouse.get_pos()):
+                self.tooltip_display.hide()
+                self.tooltip_display = None
+            Widget.change = True
+        else:
+            super().update()
 
     def animate(self, move=None):
         mouse = pygame.mouse.get_pos()
@@ -919,7 +930,7 @@ class SliderButton(Button):
             if not pygame.mouse.get_pressed(3)[0]:
                 self.state = NORMAL_STATE
                 self.update()
-            if self.min - self.radius <= mouse[0] <= self.max + self.radius:
+            if self.min - self.rect.w / 2 <= mouse[0] <= self.max + self.rect.w / 2:
                 move = mouse[0] - self.mouse_loc
         if move is not None:
             if self.loc + move > self.max:
