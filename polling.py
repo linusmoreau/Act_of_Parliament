@@ -268,9 +268,17 @@ class GraphPage:
             key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
             col = {'CDU/CSU': (0, 0, 0), 'Gr\u00fcne': (100, 161, 45), 'SPD': (235, 0, 31), 'FDP': (255, 237, 0),
                    'AfD': (0, 158, 224), 'Linke': (190, 48, 117),
-                   'Left': (235, 0, 31), 'Right': (0, 0, 0),
+                   'Red-Red-Green': (190, 48, 117), 'Black-Yellow': (255, 237, 0), 'Jamaica': (118, 132, 15),
+                   'Grand Coalition': (0, 0, 0), 'Traffic Light': (235, 0, 31), 'Black-Green': (100, 161, 45),
+                   'Old Guard': (245, 118, 15),
                    'Government': (0, 0, 0), 'Opposition': (100, 161, 45)}
-            blocs = {'Left': ['Gr\u00fcne', 'SPD', 'Linke'], 'Right': ['CDU/CSU', 'FDP', 'AfD']}
+            blocs = {'Red-Red-Green': ['Gr\u00fcne', 'SPD', 'Linke'],
+                     'Black-Yellow': ['CDU/CSU', 'FDP'],
+                     'Jamaica': ['CDU/CSU', 'FDP', 'Gr\u00fcne'],
+                     'Traffic Light': ['SPD', 'Gr\u00fcne', 'FDP'],
+                     'Grand Coalition': ['CDU/CSU', 'SPD'],
+                     'Black-Green': ['CDU/CSU', 'Gr\u00fcne'],
+                     'Old Guard': ['CDU/CSU', 'SPD', 'FDP']}
             gov = {'Government': ['CDU/CSU', 'SPD'], 'Opposition': ['Gr\u00fcne', 'Linke', 'FDP', 'AfD']}
             file_name = 'test_data/germany_polling.txt'
             start = 4
