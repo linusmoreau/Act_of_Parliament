@@ -1644,7 +1644,7 @@ class GraphDisplay(Widget):
     def moment(self, place):
         if place < 0:
             place = 0
-        elif place > self.x_max - self.x_min:
+        elif place > self.get_x_max() - self.x_min:
             place = self.get_x_max() - self.x_min
         x = self.graph_rect.x + self.x_scale * place
         y_vals = {}
