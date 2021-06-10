@@ -18,19 +18,13 @@ class Date(CustomObject):
             elif form == "mdy":
                 month, day, year = text.split()
                 day = day.strip(',')
-                for num, name in months.items():
-                    if month == name or month == name[:3]:
-                        month = num
+                month = get_month_number(month)
             elif form == "dmy":
                 day, month, year = text.split()
-                for num, name in months.items():
-                    if month == name or month == name[:3]:
-                        month = num
+                month = get_month_number(month)
             elif form == "ymd":
                 year, month, day = text.split()
-                for num, name in months.items():
-                    if month == name or month == name[:3]:
-                        month = num
+                month = get_month_number(month)
             year = int(year)
             month = int(month)
             day = int(day)
@@ -101,6 +95,14 @@ class Date(CustomObject):
             else:
                 break
         return year, month, day
+
+
+def get_month_number(month: str):
+    for num, name in months.items():
+        if month == name or month == name[:3]:
+            return num
+    else:
+        return month
 
 
 def get_month_length(month, year):
