@@ -138,7 +138,7 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
     return ndat
 
 
-def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False):
+def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False, end=None):
     ndat = {}
     relv: List[int] = []
     # print(dat)
@@ -146,7 +146,10 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
     upcome = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
     # print(upcome)
     mini = upcome[0]
-    maxi = upcome[-1]
+    if end is None:
+        maxi = upcome[-1]
+    else:
+        maxi = end
     step = (maxi - mini) / res
     for i in range(res + 1):
         place = round(mini + step * i)
@@ -178,7 +181,7 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
         # print(relv, upcome)
         try:
             if loc:
-                locnum = sum([cube_weight(x - place, breadth) for x in relv])
+                locnum = sum([variable_weight(x - place, breadth, 1) for x in relv])
                 ndat[place] = (sum([sum(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]) /
                                sum([len(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]))
             else:
@@ -240,7 +243,7 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
 #     return ndat
 
 
-def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None, loc=False) \
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None, loc=False, end=None) \
         -> Dict[str, Dict[float, List[float]]]:
     # Breadth is the x-distance considered in either direction
     ndat = {}
@@ -253,7 +256,7 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, 
                 inres = 50
         else:
             inres = res
-        ndat[line] = weighted_average(points, breadth, inres, loc)
+        ndat[line] = weighted_average(points, breadth, inres, loc, end)
     return ndat
 
 
