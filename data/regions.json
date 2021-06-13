@@ -9,6 +9,13 @@
       "NDP": 11,
       "GRN": 2
     },
+    "vote_dist": {
+      "LIB": 26.1,
+      "CON": 34.1,
+      "NDP": 24.4,
+      "GRN": 12.4,
+      "PPC": 1.7
+    },
     "min_seats": 28,
     "senate_seats": 6,
     "language_demo": {
@@ -25,6 +32,13 @@
       "CON": 33,
       "NDP": 1
     },
+    "vote_dist": {
+      "CON": 69.2,
+      "LIB": 13.7,
+      "NDP": 11.5,
+      "GRN": 2.8,
+      "PPC": 2.2
+    },
     "min_seats": 21,
     "senate_seats": 6,
     "language_demo": {
@@ -39,6 +53,13 @@
     "population": 1178657,
     "seat_dist": {
       "CON": 14
+    },
+    "vote_dist": {
+      "LIB": 11.7,
+      "CON": 64.0,
+      "NDP": 19.6,
+      "GRN": 2.6,
+      "PPC": 1.8
     },
     "min_seats": 14,
     "senate_seats": 6,
@@ -57,6 +78,13 @@
       "CON": 7,
       "NDP": 3
     },
+    "vote_dist": {
+      "LIB": 26.5,
+      "CON": 45.2,
+      "NDP": 20.8,
+      "GRN": 5.1,
+      "PPC": 1.7
+    },
     "min_seats": 14,
     "senate_seats": 6,
     "language_demo": {
@@ -73,6 +101,13 @@
       "LIB": 79,
       "CON": 36,
       "NDP": 6
+    },
+    "vote_dist": {
+      "LIB": 41.6,
+      "CON": 33.1,
+      "NDP": 16.8,
+      "GRN": 6.2,
+      "PPC": 1.6
     },
     "min_seats": 95,
     "senate_seats": 24,
@@ -92,6 +127,14 @@
       "BQ": 32,
       "NDP": 1
     },
+    "vote_dist": {
+      "LIB": 34.3,
+      "CON": 16.0,
+      "NDP": 10.8,
+      "GRN": 4.5,
+      "PPC": 1.5,
+      "BQ": 32.4
+    },
     "min_seats": 75,
     "senate_seats": 24,
     "language_demo": {
@@ -109,6 +152,13 @@
       "CON": 3,
       "GRN": 1
     },
+    "vote_dist": {
+      "LIB": 37.5,
+      "CON": 32.8,
+      "NDP": 9.4,
+      "GRN": 17.2,
+      "PPC": 2.0
+    },
     "min_seats": 10,
     "senate_seats": 10,
     "language_demo": {
@@ -124,6 +174,13 @@
     "seat_dist": {
       "LIB": 10,
       "CON": 1
+    },
+    "vote_dist": {
+      "LIB": 41.4,
+      "CON": 25.7,
+      "NDP": 18.9,
+      "GRN": 7.2,
+      "PPC": 1.2
     },
     "min_seats": 11,
     "senate_seats": 10,
@@ -141,6 +198,13 @@
       "LIB": 6,
       "NDP": 1
     },
+    "vote_dist": {
+      "LIB": 44.9,
+      "CON": 27.9,
+      "NDP": 23.7,
+      "GRN": 3.1,
+      "PPC": 0.1
+    },
     "min_seats": 7,
     "senate_seats": 6,
     "language_demo": {
@@ -155,6 +219,13 @@
     "population": 157901,
     "seat_dist": {
       "LIB": 4
+    },
+    "vote_dist": {
+      "LIB": 43.7,
+      "CON": 27.3,
+      "NDP": 7.6,
+      "GRN": 20.9,
+      "PPC": 0.0
     },
     "min_seats": 4,
     "senate_seats": 4,
@@ -171,6 +242,13 @@
     "seat_dist": {
       "LIB": 1
     },
+    "vote_dist": {
+      "LIB": 33.5,
+      "CON": 32.7,
+      "NDP": 22.0,
+      "GRN": 10.5,
+      "PPC": 1.4
+    },
     "min_seats": 1,
     "senate_seats": 1,
     "language_demo": {
@@ -186,6 +264,13 @@
     "seat_dist": {
       "LIB": 1
     },
+    "vote_dist": {
+      "LIB": 39.7,
+      "CON": 25.5,
+      "NDP": 22.3,
+      "GRN": 10.6,
+      "PPC": 1.8
+    },
     "min_seats": 1,
     "senate_seats": 1,
     "language_demo": {
@@ -200,6 +285,13 @@
     "population": 38873,
     "seat_dist": {
       "NDP": 1
+    },
+    "vote_dist": {
+      "LIB": 30.9,
+      "CON": 26.1,
+      "NDP": 40.8,
+      "GRN": 2.2,
+      "PPC": 1.8
     },
     "min_seats": 1,
     "senate_seats": 1,
