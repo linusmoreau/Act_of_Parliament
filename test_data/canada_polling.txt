@@ -1,6 +1,6 @@
 ==Pre-campaign period==
 
-[[File:Opinion polling during the pre-campaign period of the 44th Canadian federal election.svg|800px|thumb|left|Evolution of voting intentions according to polls conducted during the pre-campaign period of the 44th Canadian federal election, graphed from the data in the table below. Trendlines are [[local regression]]s, with polls weighted by proximity in time and a [[Logarithmic growth|logarithmic function]] of sample size. 95% confidence ribbons represent uncertainty about the trendlines, not the likelihood that actual election results would fall within the intervals.]]
+[[File:Opinion polling during the pre-campaign period of the 44th Canadian federal election.svg|800px|thumb|left|Evolution of voting intentions according to polls conducted during the pre-campaign period of the 44th Canadian federal election, graphed from the data in the table below. Trendlines are 30-poll [[local regression]]s, with polls weighted by proximity in time and a [[Logarithmic growth|logarithmic function]] of sample size. 95% confidence ribbons represent uncertainty about the trendlines, not the likelihood that actual election results would fall within the intervals.]]
 {{clear}}
 
 {| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px"
@@ -27,7 +27,13 @@
 ! style="background:{{Canadian party colour|CA|Green}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|PPC}}" data-sort-type="number"|
 |-
+| [[Ekos Research Associates|EKOS]] || {{dts|June 11, 2021}} || [https://twitter.com/VoiceOfFranky/status/1403544902240288773 Twitter] || 25.7 || {{Party shading/Liberal}}|'''36.8''' || 16.7 || 6.4 || 8.9 ||  2.9 || 2.7 || {{n/a}} || 922 || IVR || {{Party shading/Liberal}}|'''11.1'''
+|-
+| [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|June 7, 2021}} || [https://angusreid.org/wp-content/uploads/2021/06/2021.06.11_Federal-Politics.pdf PDF] || 30 || {{Party shading/Liberal}}|'''33''' || 21 || 6 || 4|| {{n/a}} || 5 || ±2.0 pp || 4,948 || online || {{Party shading/Liberal}}|'''3'''
+|-
 | [[Léger Marketing|Leger]] || {{dts|June 6, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Legers-North-American-Tracker-June-7th-2021_v3.pdf PDF] || 29 || {{Party shading/Liberal}}|'''32''' || 22 || 6 || 6 || {{n/a}} || 5 || ±2.5 pp || 1,539 || online || {{Party shading/Liberal}}|'''3'''
+|-
+| Counsel || {{dts|June 4, 2021}} || [https://counselpa.com/insight/path-to-majority-government-will-need-to-look-beyond-quebec/ HTML] || 27.6 || {{Party shading/Liberal}}|'''31.9''' || 17.9 || 7.7 || 6.9 || 4.2 || {{n/a}} || ±1.7 pp || 3,175 || online || {{Party shading/Liberal}}|'''4.3'''
 |-
 | Innovative Research || {{dts|May 31, 2021}} || [https://innovativeresearch.ca/wp-content/uploads/2021/06/CTM2105-Federal-Report-Release-Deck.pdf PDF] || 27 || {{Party shading/Liberal}}|'''38''' || 15 || 8 || 8 || 4 || 1 || {{n/a}} || 2,579 || online || {{Party shading/Liberal}}|'''11'''
 |-

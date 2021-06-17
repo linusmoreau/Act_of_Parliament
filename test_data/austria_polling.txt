@@ -21,7 +21,67 @@
 ! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
 ! style="background:{{Independent/meta/color}};"|
 |-
-|[https://www.market.at/newsroom/sonntagsfrage-spoe-kommt-der-oevp-immer-naeher/ Market]
+| [https://www.ots.at/presseaussendung/OTS_20210616_OTS0215/die-puls-24-sonntagsfrage-spoe-mit-27-prozent-im-hoehenflug-oevp-kommt-aktuell-auf-nur-mehr-32-prozent IFDD]
+| data-sort-value="2021-06-15"| 10–15 Jun 2021
+| 803
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''32'''
+| <!-- Social Democratic Party --> | 27
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 5
+|-
+| [https://www.derstandard.at/story/2000127329480/market-umfrage-zeigt-tuerkises-tief-und-gruenes-zwischenhoch Market]
+| data-sort-value="2021-06-10"| 8–10 Jun 2021
+| 841
+| Online & CAPI
+| <!-- People Party -->  style="background:#D2EDF1;"| '''32'''
+| <!-- Social Democratic Party --> | 27
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 13
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 5
+|-
+| [https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/480299575 Research Affairs]
+| data-sort-value="2021-06-10"| 8–10 Jun 2021
+| 502
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 14
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 12
+|-
+| [https://www.profil.at/oesterreich/umfrage-oevp-verliert-leicht-gruene-und-neos-im-plus/401410155 Unique Research]
+| data-sort-value="2021-06-10"| 7–10 Jun 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''33'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 13
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 10
+|-
+| [https://www.oe24.at/oesterreich/politik/umfrage-fpoe-stark-im-sinkflug/479557178 Research Affairs]
+| data-sort-value="2021-06-02"| 31 May – 2 Jun 2021
+| 506
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 15
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
+| [https://www.market.at/newsroom/sonntagsfrage-spoe-kommt-der-oevp-immer-naeher/ Market]
 | data-sort-value="2021-05-30"| 24–30 May 2021{{Efn|Fieldwork presented in survey as "KW21" (Kalenderwoche 21 - Week 21)}}
 | 1,000
 | Online
@@ -33,7 +93,7 @@
 | <!-- Independent--> | 2
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 1
 |-
-|[https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/478792409 Research Affairs]
+| [https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/478792409 Research Affairs]
 | data-sort-value="2021-05-27"| 25–27 May 2021
 | 500
 | Online
@@ -45,7 +105,7 @@
 | <!-- Independent--> | 4
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
 |-
-|[https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/478034196 Research Affairs]
+| [https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/478034196 Research Affairs]
 | data-sort-value="2021-05-20"| 18–20 May 2021
 | 523
 | Online
@@ -57,7 +117,7 @@
 | <!-- Independent--> | 4
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 12
 |-
-|[https://www.ots.at/presseaussendung/OTS_20210520_OTS0030/zur-sache-umfrage-mehrheit-fuer-verbleib-des-kanzlers-bei-anklage-wegen-falschaussage Demox Research]
+| [https://www.ots.at/presseaussendung/OTS_20210520_OTS0030/zur-sache-umfrage-mehrheit-fuer-verbleib-des-kanzlers-bei-anklage-wegen-falschaussage Demox Research]
 | data-sort-value="2021-05-14"| 14 May 2021
 | 1,000
 | Online
@@ -69,7 +129,7 @@
 | <!-- Independent--> | 3
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 10
 |-
-|[https://www.profil.at/oesterreich/umfrage-mehrheit-haelt-u-ausschuesse-fuer-nuetzlich/401381978 Research Affairs]
+| [https://www.youtube.com/watch?v=go6PKp5Ucy4 Research Affairs]
 | data-sort-value="2021-05-13"| 11–13 May 2021
 | 500
 | Online
@@ -81,7 +141,7 @@
 | <!-- Independent--> | 3
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 13
 |-
-|Unique Research{{Citation needed|date=June 2021}}
+| [https://www.profil.at/oesterreich/umfrage-mehrheit-haelt-u-ausschuesse-fuer-nuetzlich/401381978 Unique Research]
 | data-sort-value="2021-05-12"| 10–12 May 2021
 | 800
 | Phone & Online
@@ -93,7 +153,7 @@
 | <!-- Independent--> | 3
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
 |-
-|Research Affairs{{Citation needed|date=June 2021}}
+| [https://www.youtube.com/watch?v=ylp0HMciHSc Research Affairs]
 | data-sort-value="2021-05-06"| 4–6 May 2021
 | 504
 | Online
@@ -117,10 +177,10 @@
 | <!-- Independent--> | 4
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 16
 |-
-|[https://www.vienna.at/73-prozent-der-oesterreicher-wuerden-sich-nicht-mit-astrazeneca-impfen-lassen/6977130 Peter Hajek]
-|26–29 May 2021
-|800
-|Phone & Online
+| [https://www.vienna.at/73-prozent-der-oesterreicher-wuerden-sich-nicht-mit-astrazeneca-impfen-lassen/6977130 Peter Hajek]
+| 26–29 April 2021
+| 800
+| Phone & Online
 | <!-- People Party -->  style="background:#D2EDF1;"| '''33'''
 | <!-- Social Democratic Party --> | 25
 | <!-- Freedom Party --> | 18

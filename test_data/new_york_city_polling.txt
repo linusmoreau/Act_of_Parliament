@@ -1,0 +1,497 @@
+==== First-past-the-post polls ====
+{| class="wikitable plainrowheaders mw-collapsible mw-collapsed" style="text-align:center; font-size:90%;"
+!scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;"| Poll source
+!scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;"| Date(s)<br />administered
+!scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;"| Sample<br />size{{efn-ua|name="Key"}}
+!scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;"| Margin<br />of error
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Eric Adams}}
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Shaun Donovan}}
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Kathryn Garcia}}
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Raymond McGuire}}
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Dianne Morales}}
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Scott Stringer}}
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Maya Wiley}}
+!scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Andrew Yang}}
+!scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;" | Others
+!scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;" | Undecided
+|-
+!scope="row"| [https://changeresearch.com/post/new-york-city-mayoral-democratic-primary-poll/ Change Research (D)]{{efn-ua|This poll was sponsored by New Generation of Leadership, which supports Garcia for mayor|name=NGL}}{{efn|name=first|group=first}}
+|June 11–14, 2021
+|822 (LV)
+|±&nbsp;3.4%
+| style="background:#d7e7ff" |'''23%'''
+|4%
+|19%
+|3%
+|1%
+|8%
+|19%
+|12%
+|{{Hidden|0%|Chang:&nbsp;0%<br>Foldenauer:&nbsp;0%<br>Prince:&nbsp;0%<br>Taylor:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|10%
+|-
+!scope="row"| [https://strongleadershipnyc.com/wp-content/uploads/2021/06/Strong-Leadership-NYC-Poll-06.14.21.pdf Schoen Cooperman Research (D)]{{efn-ua|This poll was sponsored by Strong Leadership NYC, which supports Adams for mayor|name=SLNYC}}{{efn|name=first|group=first}}
+|June 10–13, 2021
+|1,000 (LV)
+|±&nbsp;3.1%
+| style="background:#d7e7ff" |'''22%'''
+|6%
+|14%
+|4%
+|4%
+|9%
+|16%
+|18%
+|0%
+|7%
+|-
+!scope="row"| [https://media4.manhattan-institute.org/sites/default/files/Manhattan-Institute-June-2021-nyc-democratic-primary-study-interview-schedule.pdf Public Opinion Strategies (R)]{{efn-ua|name=MI}}{{efn|name=first|group=first}}
+|June 9–13, 2021
+|500 (LV)
+|±&nbsp;4.4%
+| style="background:#d7e7ff" |'''21%'''
+|4%
+|20%
+|2%
+|2%
+|8%
+|18%
+|13%
+|{{Hidden|2%|Chang:&nbsp;1%<br>Taylor:&nbsp;1%<br>Prince:&nbsp;<1%<br>Foldenauer:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|9%
+|-
+!scope="row"| [https://www.filesforprogress.org/datasets/2021/6/dfp_nyc_electoral_crosstabs.pdf Data for Progress (D)]
+|June 7–13, 2021
+|998 (LV)
+|±&nbsp;3.0%
+| style="background:#d7e7ff" |'''26%'''
+|2%
+|14%
+|4%
+|3%
+|8%
+|20%
+|16%
+|3%
+|4%
+|-
+!scope="row"| [http://maristpoll.marist.edu/wp-content/uploads/2021/06/20210612_WNBC_Telemundo-47_POLITICO_Marist-Poll_NYC-NOS-and-Tables_RCV_20210611256-3.pdf Marist College]{{efn-ua|This poll was sponsored by [[WNBC]], [[WNJU]], and [[Politico]]|name=WNBC}}{{efn|name=first|group=first}}
+|Jun 3–9, 2021
+|876 (LV)
+|±&nbsp;3.8%
+| style="background:#d7e7ff" |'''24%'''
+|3%
+|17%
+|3%
+|3%
+|7%
+|15%
+|13%
+|{{Hidden|2%|Chang:&nbsp;1%<br>Prince:&nbsp;1%<br>Foldenauer:&nbsp;<1%<br>Taylor:&nbsp;<1%<br>Wright:&nbsp;<1%|headerstyle=font-weight:normal;|multiline=n}}
+|13%
+|-
+!scope="row"| [https://emersonpolling.reportablenews.com/pr/adams-takes-back-lead-as-wiley-emerges-in-nyc-mayor-race Emerson College]{{efn-ua|name=WPIXNN}}{{efn|name=first|group=first}}
+|Jun 7–8, 2021
+|725 (LV)
+|±&nbsp;3.6%
+| style="background:#d7e7ff" |'''23%'''
+|4%
+|12%
+|3%
+|2%
+|9%
+|17%
+|15%
+|{{Hidden|4%|Taylor:&nbsp;2%<br>Chang:&nbsp;1%<br>Prince:&nbsp;1%<br>Foldenauer:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|12%
+|-
+!scope="row"| [https://web.archive.org/web/20210608223452/https://us7.campaign-archive.com/?u=fc3fa5461264b980b31b5b614&id=c4df8f8908 Slingshot Strategies (D)]{{efn-ua|name=YangCampaign}}{{efn|name=first|group=first}}
+|Jun 1–6, 2021
+|1,191 (LV)
+|±&nbsp;2.8%
+| style="background:#d7e7ff" |'''17%'''
+|3%
+|14%
+|4%
+|7%
+|12%
+|8%
+|16%
+|{{Hidden|7%|Foldenauer:&nbsp;4%<br>Chang:&nbsp;1%<br>Prince:&nbsp;1%<br>Wright:&nbsp;1%<br>Taylor:&nbsp;0%<br>"Other":&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|12%
+|-
+!scope="row"| [https://www.univision.com/local/nueva-york-wxtv/yang-es-el-candidato-favorito-de-los-hispanos-para-la-alcaldia-de-nueva-york-dice-encuesta-de-univision Media Predict]{{efn-ua|name=WXTV}}
+|May 27 – June 6, 2021
+|501 (RV)
+|±&nbsp;6.0%
+| style="background:#d7e7ff" |'''20%'''
+|4%
+|15%
+|1%
+|5%
+|8%
+|7%
+|19%
+|–
+| {{party shading/Undecided}} |'''20%'''
+|-
+!scope="row"| [https://www.ny1.com/content/dam/News/static/nyc/pdfs/Wave_2_Topline_FRI_6_11_FULL_Spectrum_News_NY1_Poll.pdf Ipsos]{{efn-ua|name=NY1}}
+|May 17–31, 2021
+|906 (LV)
+|±&nbsp;4.5%
+| style="background:#d7e7ff" |'''22%'''
+|3%
+|15%
+|4%
+|5%
+|10%
+|9%
+|16%
+|<1%
+|16%
+|-
+!scope="row"| [https://emersonpolling.reportablenews.com/pr/garcia-surges-to-lead-in-nyc-mayor-race-while-adams-holds-his-base Emerson College]{{efn-ua|name=WPIXNN}}{{efn|name=first|group=first}}
+|May 23–24, 2021
+|570 (LV)
+|±&nbsp;4.1%
+|20%
+|5%
+| style="background:#d7e7ff" |'''21%'''
+|2%
+|7%
+|10%
+|9%
+|16%
+|{{Hidden|2%|Foldenauer:&nbsp;1%<br>Prince:&nbsp;1%<br>Chang:&nbsp;0%<br>Taylor:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|9%
+|-
+!scope="row"| [https://www.politico.com/states/f/?id=00000179-9a53-d9ac-adf9-9f7739490000 Slingshot Strategies (D)]{{efn-ua|name=YangCampaign}}{{efn|name=first|group=first}}
+|May 17–20, 2021
+|749 (LV)
+|±&nbsp;3.6%
+|16%
+|4%
+|10%
+|5%
+|7%
+|13%
+|8%
+| style="background:#d7e7ff" |'''19%'''
+|{{Hidden|7%|Foldenauer:&nbsp;4%<br>Chang:&nbsp;2%<br>Prince:&nbsp;1%<br>Taylor:&nbsp;0%<br>Wright:&nbsp;0%<br>"Other":&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|13%
+|-
+!scope="row"| [https://pulseoftheprimary.com/sites/default/files/2021-05/Fontas-CODA-May-Pulse-Of-The-Primary-Full-Poll-Report-FINAL-FOR-RELEASE-0526.pdf Core Decision Analytics]{{efn-ua|name=Fontas}}
+|May 15–19, 2021
+|800 (LV)
+|±&nbsp;3.5%
+| style="background:#d7e7ff" |'''18%'''
+|4%
+|11%
+|4%
+|9%
+|7%
+|9%
+|13%
+|1%
+| {{party shading/Undecided}} |'''26%'''
+|-
+!scope="row"| [https://media4.manhattan-institute.org/sites/default/files/Manhattan-Institute-May-2021-nyc-democratic-primary-study-crosstabs.pdf Public Opinion Strategies (R)]{{efn-ua|name=MI}}{{efn|name=first|group=first}}
+|May 14–17, 2021
+|500 (LV)
+|±&nbsp;4.4%
+|18%
+|4%
+|11%
+|6%
+|6%
+|8%
+|10%
+| style="background:#d7e7ff" |'''19%'''
+|{{Hidden|2%|Prince:&nbsp;1%<br>Wright:&nbsp;1%<br>Chang:&nbsp;0%<br>Foldenauer:&nbsp;0%<br>Taylor:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|14%
+|-
+!scope="row"| [https://emersonpolling.reportablenews.com/pr/nyc-mayoral-poll-adams-new-leader-in-nyc-mayor-race-as-field-remains-open Emerson College]{{efn-ua|name=WPIXNN}}{{efn|name=first|group=first}}
+|May 13–15, 2021
+|631 (LV)
+|±&nbsp;3.8%
+| style="background:#d7e7ff" |'''18%'''
+|5%
+|8%
+|4%
+|6%
+|15%
+|4%
+|15%
+|{{Hidden|3%|Chang:&nbsp;2%<br>Taylor:&nbsp;1%<br>Foldenauer:&nbsp;0%<br>Prince:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+| {{party shading/Undecided}} |'''23%'''
+|-
+!scope="row"| [https://changeresearch.com/wp-content/uploads/2021/05/NYC-May-2021-Survey-Memo.pdf Change Research (D)]{{efn|name=first|group=first}}
+|May 11–12, 2021
+|418 (LV)
+|±&nbsp;4.8%
+| style="background:#d7e7ff" |'''21%'''
+|6%
+|11%
+|6%
+|5%
+|8%
+|6%
+|18%
+|{{Hidden|2%|"Would not vote":&nbsp;1%<br>Wright:&nbsp;1%<br>Chang:&nbsp;0%<br>Prince:&nbsp;0%<br>Taylor:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|18%
+|-
+!scope="row"| [https://changeresearch.com/wp-content/uploads/2021/05/NYC-May-2021-Survey-Memo.pdf Change Research (D)]{{efn|name=first|group=first}}
+|May 6–12, 2021
+|1,422 (LV)
+|±&nbsp;2.6%
+| style="background:#d7e7ff" |'''19%'''
+|7%
+|7%
+|7%
+|5%
+|9%
+|7%
+|16%
+|{{Hidden|2%|"Would not vote":&nbsp;1%<br>Wright:&nbsp;1%<br>Chang:&nbsp;0%<br>Prince:&nbsp;0%<br>Taylor:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+| {{party shading/Undecided}} |'''20%'''
+|-
+!scope="row"| [https://www.politico.com/states/f/?id=00000179-89f2-d60d-a9f9-ddf78b8e0000 Schoen Cooperman Research (D)]{{efn-ua|name=NYFABF}}{{efn|name=first|group=first}}
+|May 4–9, 2021
+|1,003 (LV)
+|±&nbsp;3.1%
+|17%
+|6%
+|8%
+|6%
+|4%
+|10%
+|10%
+| style="background:#d7e7ff" |'''21%'''
+|1%
+|17%
+|-
+!scope="row"| [https://www.politico.com/states/f/?id=00000179-53d0-d7df-a37d-ffdb2dc50000 Honan Strategy Group (D)]{{efn-ua|This poll was sponsored by Hotel Workers for Stronger Communities, which supports Adams for mayor|name=HTC}}
+|Apr 24 – May 2, 2021<!-- DATES FROM END OF PDF, QUESTION SAM -->
+|1,100 (LV)
+|±&nbsp;3.0%
+| style="background:#d7e7ff" |'''22%'''<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|0%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|1%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|2%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|12%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|13%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|3%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|20%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+|1%<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED -->
+| {{party shading/Undecided}} |'''25%'''<!-- NUMBERS INCLUDE LEANERS, QUESTION 20+23 COMBINED; FOR UNDECIDEDS, REMOVES RESPONDENTS WHO WERE INITIALLY UNDECIDED BUT PICKED A CANDIDATE IN QUESTION 23 -->
+|-
+!scope="row"| [https://www.politico.com/states/f/?id=00000179-6c26-d9cd-af7f-6fbf4e390000 Mercury Public Affairs (D)]{{efn-ua|name=FFNYC}}{{efn|name=first|group=first}}
+|Apr 26 – May 1, 2021
+|600 (LV)
+|±&nbsp;4.0%
+|14%
+|6%
+|4%
+|6%
+|3%
+|14%
+|6%
+| style="background:#d7e7ff" |'''21%'''
+|–
+| {{party shading/Undecided}} |'''26%'''
+|-
+!scope="row"| [https://www.politico.com/states/f/?id=00000179-66dd-d60d-a9f9-f7df1f330000 GQR Research (D)]{{efn-ua|This poll was sponsored by [[Corey Johnson (politician)|Corey Johnson]]'s [[2021 New York City Comptroller election|comptroller campaign]] committee|name=GQRCoreyJ}}
+|Apr 27–29, 2021
+|500 (LV)
+|±&nbsp;4.4%
+| style="background:#d7e7ff" |'''21%'''
+|8%
+|6%
+|6%
+|6%
+|15%
+|7%
+|18%
+|1%
+|11%
+|-
+!scope="row"| [https://www.politico.com/states/f/?id=00000179-40e5-dbfc-a5ff-7ce737d50000 Slingshot Strategies (D)]{{efn-ua|name=YangCampaign}}{{efn|name=first|group=first}}
+|Apr 20–27, 2021
+|824 (LV)
+|±&nbsp;3.4%
+|11%
+|6%
+|3%
+|9%
+|5%
+|16%
+|6%
+| style="background:#d7e7ff" |'''24%'''
+|{{Hidden|5%|Foldenauer:&nbsp;3%<br>Chang:&nbsp;1%<br>"Other":&nbsp;1%<br>Prince:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|14%
+|-
+!scope="row"| [https://www.politico.com/f/?id=00000179-1ff1-d356-affd-3ffddc4e0000 Benenson Strategy Group (D)]{{efn-ua|name=SFNY}}{{efn|name=first|group=first}}
+|Apr 16–21, 2021
+|1,558 (LV)
+|±&nbsp;2.5%
+|17%
+|7%
+|5%
+|8%
+|7%
+|11%
+|8%
+| style="background:#d7e7ff" |'''22%'''
+|1%
+|14%
+|-
+!scope="row"| [https://www.ipsos.com/sites/default/files/ct/news/documents/2021-04/Topline%20Spectrum%20News%20NY1%20Poll_Apr%2018%20release.pdf Ipsos]{{efn-ua|name=NY1}}
+|Apr 1–15, 2021
+|1,000 (LV)
+|±&nbsp;4.7%
+|13%
+|6%
+|4%
+|6%
+|5%
+|11%
+|7%
+| style="background:#d7e7ff" |'''22%'''
+|<1%
+| {{party shading/Undecided}} |'''26%'''
+|-
+!scope="row"| [https://www.politico.com/states/f/?id=00000178-d838-d112-a97e-ffb868c20000 Data for Progress (D)]
+|Mar 21 – Apr 5, 2021
+|1,007 (LV)
+|±&nbsp;3.0%
+|13%
+|7%
+|4%
+|6%
+|3%
+|11%
+|10%
+| style="background:#d7e7ff" |'''26%'''
+|{{Hidden|5%|"A different candidate":&nbsp;4%<br>Menchaca:&nbsp;1%|headerstyle=font-weight:normal;|multiline=n}}
+|14%
+|-
+!scope="row"| [https://pulseoftheprimary.com/sites/default/files/2021-03/Fontas-CODA-Pulse-of-the-Primary-March-Detailed-Poll-Report-FINAL-FOR-RELEASE-0324.pdf Core Decision Analytics]{{efn-ua|name=Fontas}}
+|Mar 15–18, 2021
+|800 (LV)
+|±&nbsp;3.5%
+|10%
+|2%
+|2%
+|4%
+|2%
+|5%
+|6%
+| style="background:#d7e7ff" |'''16%'''
+|1%
+| {{party shading/Undecided}} |'''50%'''
+|-
+!scope="row"| [https://www.politico.com/f/?id=00000178-6132-d9ca-af78-7dbabb150000 Slingshot Strategies (D)]{{efn-ua|name=YangCampaign}}{{efn|First-choice results from a ranked-choice poll|name=first|group=first}}
+|Mar 12–18, 2021
+|1,000 (LV)
+|±&nbsp;3.1%
+|15%
+|4%
+|6%
+|5%
+|3%
+|12%
+|7%
+| style="background:#d7e7ff" |'''25%'''
+|{{Hidden|3%|Menchaca:&nbsp;2%<br>"Other":&nbsp;1%|headerstyle=font-weight:normal;|multiline=n}}
+|20%
+|-
+!scope="row"| [https://emersonpolling.reportablenews.com/pr/new-york-city-poll-yang-adams-wiley-lead-crowded-mayoral-democratic-primary-field Emerson College]{{efn-ua|This poll was sponsored by [[WPIX]] and [[NewsNation (American TV channel)|NewsNation]]|name=WPIXNN}}
+|Mar 4–6, 2021
+|644 (LV)
+|±&nbsp;3.8%
+|19%
+|4%
+|5%
+|3%
+|4%
+|6%
+|9%
+| style="background:#d7e7ff" |'''32%'''
+|{{Hidden|2%|Chang:&nbsp;1%<br>Menchaca:&nbsp;1%<br>Foldenauer:&nbsp;0%<br>Kavovit:&nbsp;0%<br>Sutton:&nbsp;0%<br>Taylor:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|17%
+|-
+!scope="row"| [https://web.archive.org/web/20210327144642/https://twitter.com/MayorsRace2021/status/1375503729504489473 Media Predict]{{efn-ua|This poll was sponsored by Univision 41 Nueva York ([[WXTV-DT|WXTV]])|name=WXTV}}
+|Feb 12–25, 2021
+|894 (RV)
+|±&nbsp;3.3%
+|11%
+|2%
+|4%
+|2%
+|3%
+|9%
+|6%
+| style="background:#d7e7ff" |'''27%'''
+|{{Hidden|2%|Menchaca:&nbsp;2%|headerstyle=font-weight:normal;|multiline=n}}
+| {{party shading/Undecided}} |'''34%'''
+|-
+!scope="row"| [https://www.politico.com/f/?id=00000177-8978-dccf-a777-f97ca4670000 Core Decision Analytics]{{efn-ua|This poll was sponsored by the NYC-based lobbying group Fontas Advisors, which is not working on behalf of any candidates|name=Fontas}}
+|Jan 20–25, 2021
+|842 (LV)
+|±&nbsp;3.4%
+|17%
+|8%
+|2%
+|2%
+|2%
+|13%
+|8%
+| style="background:#d7e7ff" |'''28%'''
+|{{Hidden|1%|Iscol:&nbsp;1%|headerstyle=font-weight:normal;|multiline=n}}
+|19%
+|-
+!scope="row"| [https://www.scribd.com/document/492194557/Yang-Mayoral-Topline-1-20-21 Slingshot Strategies (D)]{{efn-ua|name=YangCampaign}}{{efn|name=first|group=first}}
+|Jan 15–19, 2021
+|1,000 (LV)
+|±&nbsp;3.1%
+|17%
+|1%
+|1%
+|1%
+|1%
+|12%
+|8%
+| style="background:#d7e7ff" |'''25%'''
+|{{Hidden|1%|"Other":&nbsp;1%<br>Iscol:&nbsp;<1%<br>Menchaca:&nbsp;<1%<br>Sutton:&nbsp;<1%|headerstyle=font-weight:normal;|multiline=n}}
+| {{party shading/Undecided}} |'''32%'''
+|-
+!scope="row"| [http://dfer.org/wp-content/uploads/2020/12/NYC-Full-Results-12.21.2020.pdf Public Policy Polling (D)]{{efn-ua|This poll was sponsored by [[Democrats for Education Reform]], a pro-charter schools group|name=DFER}}
+|Dec 16–17, 2020
+|755 (LV)
+|±&nbsp;3.6%
+|16%
+|–
+|–
+|4%
+|5%
+|5%
+|7%
+| style="background:#d7e7ff" |'''17%'''
+|{{Hidden|6%|Quinn:&nbsp;6%|headerstyle=font-weight:normal;|multiline=n}}
+| {{party shading/Undecided}} |'''40%'''
+|-
+!scope="row"| [http://www.slingshotstrat.com/polling Slingshot Strategies (D)]
+|Nov 30 – Dec 6, 2020
+|1,000 (LV)
+|±&nbsp;3.1%
+|14%
+|2%
+|3%
+|2%
+|2%
+|11%
+|7%
+| style="background:#d7e7ff" |'''20%'''
+|{{Hidden|17%|Quinn:&nbsp;7%<br>Rose:&nbsp;6%<br>Menchaca:&nbsp;2%<br>Iscol:&nbsp;1%<br>Sutton:&nbsp;1%<br>"Other":&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+| {{party shading/Undecided}} |'''20%'''
+|-
