@@ -141,10 +141,8 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
 def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False, end=None):
     ndat = {}
     relv: List[int] = []
-    # print(dat)
 
     upcome = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
-    # print(upcome)
     mini = upcome[0]
     if end is None:
         maxi = upcome[-1]
@@ -181,7 +179,7 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
         # print(relv, upcome)
         try:
             if loc:
-                locnum = sum([variable_weight(x - place, breadth, 1) for x in relv])
+                locnum = sum([variable_weight(x - place, breadth, 3) for x in relv])
                 ndat[place] = (sum([sum(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]) /
                                sum([len(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]))
             else:
