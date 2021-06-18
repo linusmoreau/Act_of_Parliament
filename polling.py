@@ -2,9 +2,10 @@ from ui import *
 from toolkit import *
 import date_kit
 import types
+import urllib.request
+from bs4 import BeautifulSoup
 
-
-today = Date(2021, 6, 9)
+today = Date(2021, 6, 18)
 
 
 def read_data(content, key, start, restart, date, choice):
@@ -16,7 +17,7 @@ def read_data(content, key, start, restart, date, choice):
     prevline = None
     while i < len(content):
         line = content[i]
-        # print(rot, line, end='')
+        print(rot, line, end='')
         if '===' in line:
             year = line.strip().strip('=').strip()
             if choice == 'Poland' and year == "2019":
@@ -27,6 +28,9 @@ def read_data(content, key, start, restart, date, choice):
             if "The [[Polish Coalition]] parts ways with member party [[Kukiz'15]]" in line:
                 key = ['United Right', 'Civic Coalition', 'The Left', 'Polish Coalition', 'Confederation',
                        'Poland 2050']
+        elif choice == 'New York':
+            if '<!--' in line:
+                line = line[:line.find('<!--')]
         if sum(map(lambda r: r in line, restart)):
             rot = 0
         if rot is not None:
@@ -38,9 +42,15 @@ def read_data(content, key, start, restart, date, choice):
                         i += 1
                         continue
                 elif choice == 'Czechia':
-                    if 'rowspan="2"' in line:
-                        i += 20
-                        rot += 2
+                    if 'Oct–Jan' in line:
+                        rot = None
+                        i += 1
+                        continue
+                    elif 'rowspan="2"' not in line:
+                        rot += 23
+                        i += 1
+                    if 'rowspan="2"' in prevline:
+                        rot += 1
                 elif choice in ["Italy", "Cyprus", 'Slovakia']:
                     line = prevline
                     if line[0] == '!':
@@ -55,18 +65,25 @@ def read_data(content, key, start, restart, date, choice):
                 line = line.strip().strip('}')
                 dates = line.split('|')[-1]
                 if '-' in dates:
-                    temp = dates.split('-')
+                    s = dates.split('-')
                 elif '–' in dates:
-                    temp = dates.split('–')
+                    s = dates.split('–')
                 else:
-                    temp = dates.split('â€“')
-                temp = temp[-1].strip()
-                temps = temp.split()
-                # print(temps)
+                    s = dates.split('â€“')
+                temp = s[-1].strip()
+                temps = temp.strip().split()
                 if choice == 'Spain' and temps in [['?'], ['66.5']]:
                     rot += 2
                     continue
-                if len(temps) == 2:
+                if choice == 'New York':
+                    y = temps[-1]
+                    d = temps[-2].strip(',')
+                    if len(temps) == 3:
+                        m = temps[-3][-3:]
+                    else:
+                        m = s[0].split()[0][-3:]
+                    temp = d + ' ' + m + ' ' + y
+                elif len(temps) == 2:
                     try:
                         y = int(temps[-1])
                         m = temps[0]
@@ -102,6 +119,11 @@ def read_data(content, key, start, restart, date, choice):
                         num = parts[start + n].split('|')[-1].strip()
                         if num == '{{n/a}}' or num == '' or \
                                 parts[start + n].split('|')[0].strip() == 'style="color:#F8F9FA;"':
+                            if n <= 2:
+                                for m in range(n):
+                                    dat[key[m]][end].pop()
+                                    if len(dat[key[m]][end]) == 0:
+                                        del dat[key[m]][end]
                             continue
                         else:
                             share = float(num)
@@ -149,12 +171,22 @@ def read_data(content, key, start, restart, date, choice):
                         dat[key[p]][end].append(share)
                 else:
                     dat[key[p]][end] = [share]
-                if choice == 'Slovakia' and 'colspan="' in line:
-                    temp = line[line.find('colspan="'):]
-                    rot += int(temp.split('"')[1]) - 1
-            elif sum(map(lambda r: r in line, restart)) or 'election' in line:
+                if choice in 'Slovakia':
+                    if 'colspan="' in line:
+                        temp = line[line.find('colspan="'):]
+                        rot += int(temp.split('"')[1]) - 1
+            elif sum(map(lambda r: r in line, restart)):
                 rot = 0
-                # print('here')
+            if choice == 'Czechia':
+                if rot != 0:
+                    if 'colspan=' in line:
+                        temp: str = line[line.find('colspan=') + len('colspan='):]
+                        num = int(temp.strip('|').split()[0].split('|')[0].strip('" '))
+                        rot += num - 1
+                    elif 'rowspan="' in line:
+                        temp: str = line[line.find('rowspan=') + len('rowspan='):]
+                        num = int(temp.strip('|').split()[0].split('|')[0].strip('" '))
+                        rot += num - 1
             rot += 1
         i += 1
         prevline = line
@@ -352,19 +384,20 @@ class GraphPage:
             restart = ['http']
             end_date = Date(2021, 6, 6)
         elif choice == 'Czechia':
-            key = ['ANO', 'SPOLU', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD']
+            key = ['ANO', 'SPOLU', 'SPOLU', 'SPOLU', 'Pirati+STAN', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD']
             col = {'ANO': (38, 16, 96), 'SPOLU': (35, 44, 119), 'Pirati+STAN': (0, 0, 0), 'SPD': (33, 117, 187),
                    'KSCM': (204, 0, 0), 'CSSD': (236, 88, 0),
                    'Government': (38, 16, 96), 'Opposition': (0, 0, 0)}
             gov = {'Government': ['ANO', 'KSCM', 'CSSD'], 'Opposition': ['SPOLU', 'Pirati+STAN', 'SPD']}
             file_name = 'test_data/czechia_polling.txt'
-            start = 4
+            start = 26
         elif choice == 'Canada':
             key = ['CON', 'LIB', 'NDP', 'BQ', 'GPC', 'PPC']
             col = {'CON': (100, 149, 237), 'LIB': (234, 109, 106), 'NDP': (244, 164, 96), 'BQ': (135, 206, 250),
                    'GPC': (153, 201, 85), 'PPC': (131, 120, 158),
                    'Government': (234, 109, 106), 'Opposition': (100, 149, 237)}
             gov = {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GPC', 'PPC']}
+            blocs = {'Progressive': ['LIB', 'NDP', 'BQ', 'GPC'], 'Conservative': ['CON', 'PPC']}
             file_name = 'test_data/canada_polling.txt'
             start = 3
         elif choice == 'Italy':
@@ -449,8 +482,25 @@ class GraphPage:
             blocs = {'Left': ['PS', 'BE', 'CDU', 'PAN', 'LIVRE'], 'Right': ['PSD', 'CDS-PP', 'Chega', 'IL']}
             file_name = 'test_data/portugal_polling.txt'
             start = 4
+        elif choice == 'New York':
+            key = ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
+                   'Scott Stringer', 'Maya Wiley', 'Andrew Yang']
+            col = {'Eric Adams': (0, 0, 255), 'Shaun Donovan': (102, 0, 102), 'Kathryn Garcia': (255, 128, 0),
+                   'Raymond McGuire': (0, 102, 0), 'Dianne Morales': (255, 153, 255),
+                   'Scott Stringer': (120, 120, 255), 'Maya Wiley': red, 'Andrew Yang': yellow}
+            file_name = 'test_data/new_york_city_polling.txt'
+            start = 4
+            end_date = Date(2021, 6, 22)
         else:
             raise ValueError("No such choice.")
+        if blocs is not None:
+            for line in blocs.keys():
+                if line not in col.keys():
+                    col[line] = col[blocs[line][0]]
+        if gov is not None:
+            for line in gov.keys():
+                if line not in col.keys():
+                    col[line] = col[gov[line][0]]
         return file_name, key, col, blocs, gov, start, restart, date, end_date
 
     def make_graph(self):
@@ -524,9 +574,6 @@ class GraphPage:
 def menu_page():
     widgets.clear()
 
-    options = ['Austria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Iceland', 'Italy', 'Norway',
-               'Peru', 'Poland', 'Portugal', 'Spain', 'Slovakia', 'Sweden']
-
     button_size = 64
     display = ScrollButtonDisplay(screen_center, (300, screen_height * 4 / 5), button_size * len(options), CENTER,
                                   button_size=button_size)
@@ -549,7 +596,65 @@ def menu_page():
     display.add_select_buttons(buttons)
     display.show()
 
+    update_b = Button((screen_rect.centerx / 2, screen_rect.centery), align=CENTER, label='Update Data')
+    update_b.callback(update_data)
+    update_b.show()
+
+
+def update_data():
+    urls = {
+        'Austria':  'https://en.wikipedia.org/w/index.php?title'
+                    '=Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
+        'Canada':   'https://en.wikipedia.org/w/index.php?title'
+                    '=Opinion_polling_for_the_44th_Canadian_federal_election&action=edit&section=1',
+        'Czechia':  'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_2021_Czech_legislative_election&action=edit&section=3',
+        'Denmark':  'https://en.wikipedia.org/w/index.php?title'
+                    '=Opinion_polling_for_the_next_Danish_general_election&action=edit&section=3',
+        'Germany':  'https://en.wikipedia.org/w/index.php?title'
+                    '=Opinion_polling_for_the_2021_German_federal_election&action=edit&section=3',
+        'Portugal': 'https://en.wikipedia.org/w/index.php?title'
+                    '=Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3',
+        'Sweden':   'https://en.wikipedia.org/w/index.php?title'
+                    '=Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
+        'New York': 'https://en.wikipedia.org/w/index.php?title'
+                    '=Template:Opinion_polling_for_the_2021_New_York_City_mayoral_election/Democratic_primaries&action'
+                    '=edit'
+    }
+    files = {
+        'New York': 'test_data/new_york_city_polling.txt'
+    }
+    olddata = {
+        'Canada':   'test_data/old_canada_polling.txt',
+        'Denmark':  'test_data/old_denmark_polling.txt',
+        'Germany':  'test_data/old_germany_polling.txt'
+    }
+    for tag, url in urls.items():
+        if tag in files:
+            dest = files[tag]
+        else:
+            dest = 'test_data/' + tag.lower() + '_polling.txt'
+        content = urllib.request.urlopen(url)
+        read_content = content.read()
+        soup = BeautifulSoup(read_content, 'html.parser')
+        content = soup.find_all('textarea')
+        if tag == 'New York':
+            text = content[0].text
+            text = text[text.find('=== First-past-the-post polls ==='):
+                        text.find('!scope="row"| [https://www.filesforprogress.org/datasets/2020/1/'
+                                  'dfp_poll_january_ny.pdf Data for Progress (D)]')]
+        else:
+            text = content[0].text
+        if tag in olddata:
+            with open(olddata[tag], 'r', encoding='utf-8') as f:
+                text += f.read()
+        final = text.encode('utf-8')
+        with open(dest, 'wb') as f:
+            f.write(final)
+
 
 if __name__ == '__main__':
+    options = ['Austria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Iceland', 'Italy', 'Norway',
+               'Peru', 'Poland', 'Portugal', 'Spain', 'Slovakia', 'Sweden', 'New York']
     menu_page()
     game_loop()
