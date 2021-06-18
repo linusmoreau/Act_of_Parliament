@@ -1,4 +1,4 @@
-==== First-past-the-post polls ====
+=== First-past-the-post polls ====
 {| class="wikitable plainrowheaders mw-collapsible mw-collapsed" style="text-align:center; font-size:90%;"
 !scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;"| Poll source
 !scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;"| Date(s)<br />administered
@@ -14,9 +14,39 @@
 !scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Andrew Yang}}
 !scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;" | Others
 !scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;" | Undecided
+|-<!-- The June 14-17 Slingshot Strategies/Yang for NY internal poll only released numbers among THOSE WHO HAVE ALREADY VOTED (54% of the electorate, n=599 out of n=1,100 likely Dem primary voters) and shouldn't be added here as the results are not comparable – this was a selective release of results because of his stronger performance among those who have already voted than the 46% of primary day in-person voters, the results of which the campaign refused to disclose -->
+!scope="row"| [https://emersonpolling.reportablenews.com/pr/nyc-mayor-2021-adams-stays-ahead-but-rank-choice-voting-closes-gap-for-wiley-and-garcia Emerson College]{{efn-ua|name=WPIXNN}}{{efn|name=first|group=first}}
+|Jun 15–16, 2021
+|664 (LV)
+|±&nbsp;3.7%
+| style="background:#d7e7ff" |'''23%'''
+|2%
+|17%
+|3%
+|2%
+|9%
+|18%
+|14%
+|{{Hidden|1%|Chang:&nbsp;1%<br>Foldenauer:&nbsp;0%<br>Prince:&nbsp;0%<br>Taylor:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|10%
 |-
-!scope="row"| [https://changeresearch.com/post/new-york-city-mayoral-democratic-primary-poll/ Change Research (D)]{{efn-ua|This poll was sponsored by New Generation of Leadership, which supports Garcia for mayor|name=NGL}}{{efn|name=first|group=first}}
-|June 11–14, 2021
+!scope="row"| [https://nypost.com/2021/06/18/eric-adams-leads-primary-race-with-wiley-garcia-on-his-heels/ McLaughlin & Associates (R)]{{efn-ua|This poll was sponsored by the ''[[New York Post]]'', whose editorial board endorsed Adams|name=NYP}}
+|Jun 10–15, 2021
+|1,000 (LV)
+|±&nbsp;3.1%
+| style="background:#d7e7ff" |'''21%'''
+|3%
+|16%
+|2%
+|3%
+|7%
+|17%
+|10%
+|1%
+| {{party shading/Undecided}} |'''21%'''
+|-
+!scope="row"| [https://changeresearch.com/post/new-york-city-mayoral-democratic-primary-poll/ Change Research (D)]{{efn-ua|This poll was sponsored by New Generation of Leadership PAC, which supports Garcia for mayor|name=NGL}}{{efn|name=first|group=first}}
+|Jun 11–14, 2021
 |822 (LV)
 |±&nbsp;3.4%
 | style="background:#d7e7ff" |'''23%'''
@@ -30,8 +60,8 @@
 |{{Hidden|0%|Chang:&nbsp;0%<br>Foldenauer:&nbsp;0%<br>Prince:&nbsp;0%<br>Taylor:&nbsp;0%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
 |10%
 |-
-!scope="row"| [https://strongleadershipnyc.com/wp-content/uploads/2021/06/Strong-Leadership-NYC-Poll-06.14.21.pdf Schoen Cooperman Research (D)]{{efn-ua|This poll was sponsored by Strong Leadership NYC, which supports Adams for mayor|name=SLNYC}}{{efn|name=first|group=first}}
-|June 10–13, 2021
+!scope="row"| [https://strongleadershipnyc.com/wp-content/uploads/2021/06/Strong-Leadership-NYC-Poll-06.14.21.pdf Schoen Cooperman Research (D)]{{efn-ua|This poll was sponsored by Strong Leadership NYC, Inc., which supports Adams for mayor|name=SLNYC}}{{efn|name=first|group=first}}
+|Jun 10–13, 2021
 |1,000 (LV)
 |±&nbsp;3.1%
 | style="background:#d7e7ff" |'''22%'''
@@ -46,7 +76,7 @@
 |7%
 |-
 !scope="row"| [https://media4.manhattan-institute.org/sites/default/files/Manhattan-Institute-June-2021-nyc-democratic-primary-study-interview-schedule.pdf Public Opinion Strategies (R)]{{efn-ua|name=MI}}{{efn|name=first|group=first}}
-|June 9–13, 2021
+|Jun 9–13, 2021
 |500 (LV)
 |±&nbsp;4.4%
 | style="background:#d7e7ff" |'''21%'''
@@ -61,7 +91,7 @@
 |9%
 |-
 !scope="row"| [https://www.filesforprogress.org/datasets/2021/6/dfp_nyc_electoral_crosstabs.pdf Data for Progress (D)]
-|June 7–13, 2021
+|Jun 7–13, 2021
 |998 (LV)
 |±&nbsp;3.0%
 | style="background:#d7e7ff" |'''26%'''
@@ -74,6 +104,21 @@
 |16%
 |3%
 |4%
+|-
+!scope="row"| [https://www.capalino.com/wp-content/uploads/2021/06/HSG-Capalino-NYC-Election-Poll-Full-Report.pdf Honan Strategy Group (D)]{{efn-ua|This poll was sponsored by the NYC-based lobbying group Capalino & Company, which is not working on behalf of any candidates|name=Capalino}}
+|May 26 – Jun 10, 2021
+|950 (LV)
+|±&nbsp;3.2%
+| style="background:#d7e7ff" |'''31%'''
+|9%
+|15%
+|1%
+|1%
+|6%
+|7%
+|21%
+|–
+|9%
 |-
 !scope="row"| [http://maristpoll.marist.edu/wp-content/uploads/2021/06/20210612_WNBC_Telemundo-47_POLITICO_Marist-Poll_NYC-NOS-and-Tables_RCV_20210611256-3.pdf Marist College]{{efn-ua|This poll was sponsored by [[WNBC]], [[WNJU]], and [[Politico]]|name=WNBC}}{{efn|name=first|group=first}}
 |Jun 3–9, 2021
@@ -121,7 +166,7 @@
 |12%
 |-
 !scope="row"| [https://www.univision.com/local/nueva-york-wxtv/yang-es-el-candidato-favorito-de-los-hispanos-para-la-alcaldia-de-nueva-york-dice-encuesta-de-univision Media Predict]{{efn-ua|name=WXTV}}
-|May 27 – June 6, 2021
+|May 27 – Jun 6, 2021
 |501 (RV)
 |±&nbsp;6.0%
 | style="background:#d7e7ff" |'''20%'''
@@ -269,6 +314,34 @@
 | style="background:#d7e7ff" |'''21%'''
 |1%
 |17%
+|-
+!scope="row" rowspan="2"| [https://web.archive.org/web/20210507161207/https://us7.campaign-archive.com/?u=fc3fa5461264b980b31b5b614&id=e2707ca67c Slingshot Strategies (D)]{{efn-ua|name=YangCampaign}}{{efn|name=first|group=first}}
+|rowspan="2"|Apr 20–27 and<br>May 3–6, 2021
+|1,393 (LV)
+|±&nbsp;2.6%
+|11%
+|6%
+|5%
+|10%
+|6%
+|15%
+|7%
+| style="background:#d7e7ff" |'''21%'''
+|{{Hidden|6%|Foldenauer:&nbsp;3%<br>Chang:&nbsp;1%<br>Wright:&nbsp;1%<br>"Other":&nbsp;1%<br>Prince:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|13%
+|-
+|275 (LV)
+|±&nbsp;5.9%
+|12%
+|10%
+|5%
+|9%
+|4%
+|–{{efn-ua|Hypothetical scenario excluding Stringer|name=StringerHypothetical}}
+|8%
+| style="background:#d7e7ff" |'''27%'''
+|{{Hidden|9%|"Other":&nbsp;4%<br>Foldenauer:&nbsp;3%<br>Chang:&nbsp;1%<br>Prince:&nbsp;1%<br>Wright:&nbsp;0%|headerstyle=font-weight:normal;|multiline=n}}
+|15%
 |-
 !scope="row"| [https://www.politico.com/states/f/?id=00000179-53d0-d7df-a37d-ffdb2dc50000 Honan Strategy Group (D)]{{efn-ua|This poll was sponsored by Hotel Workers for Stronger Communities, which supports Adams for mayor|name=HTC}}
 |Apr 24 – May 2, 2021<!-- DATES FROM END OF PDF, QUESTION SAM -->
@@ -435,7 +508,7 @@
 |{{Hidden|2%|Menchaca:&nbsp;2%|headerstyle=font-weight:normal;|multiline=n}}
 | {{party shading/Undecided}} |'''34%'''
 |-
-!scope="row"| [https://www.politico.com/f/?id=00000177-8978-dccf-a777-f97ca4670000 Core Decision Analytics]{{efn-ua|This poll was sponsored by the NYC-based lobbying group Fontas Advisors, which is not working on behalf of any candidates|name=Fontas}}
+!scope="row"| [https://www.politico.com/f/?id=00000177-8978-dccf-a777-f97ca4670000 Core Decision Analytics]{{efn-ua|This poll was conducted by Core Decision Analytics, which is working with Garcia's campaign, and was sponsored by the NYC-based lobbying group Fontas Advisors, which is not working on behalf of any candidates|name=Fontas}}
 |Jan 20–25, 2021
 |842 (LV)
 |±&nbsp;3.4%

@@ -21,6 +21,18 @@
 ! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
 ! style="background:{{Independent/meta/color}};"|
 |-
+| [https://epaper-oesterreich.at/issue.act?issueId=836199&issueMutation=CITYW&issueDate=20210618&region=WIEN Research Affairs]
+| data-sort-value="2021-06-17"| 15–17 Jun 2021
+| 1,000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 15
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 5
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 13
+|-
 | [https://www.ots.at/presseaussendung/OTS_20210616_OTS0215/die-puls-24-sonntagsfrage-spoe-mit-27-prozent-im-hoehenflug-oevp-kommt-aktuell-auf-nur-mehr-32-prozent IFDD]
 | data-sort-value="2021-06-15"| 10–15 Jun 2021
 | 803
@@ -227,7 +239,7 @@
 |-
 | [https://www.oe24.at/oesterreich/politik/oevp-weiter-bei-36-aber-koalition-ohne-mehrheit/472018139 Research Affairs]
 | data-sort-value="2021-04-01"| 30 Mar – 1 Apr 2021
-| 1000
+| 1,000
 | Online
 | <!-- People Party -->  style="background:#D2EDF1;"| '''36'''
 | <!-- Social Democratic Party --> | 21
@@ -275,7 +287,7 @@
 |-
 | [https://www.epaper-oesterreich.at/issue.act?issueId=814197&issueMutation=CITYW&issueDate=20210319&region=NOE Research Affairs]
 | data-sort-value="2021-03-17"| 15–17 Mar 2021
-| 1000
+| 1,000
 | Online
 | <!-- People Party -->  style="background:#D2EDF1;"| '''37'''
 | <!-- Social Democratic Party --> | 24
@@ -335,7 +347,7 @@
 |-
 | [https://www.derstandard.at/story/2000124319631/unzufriedenheit-mit-corona-management-der-regierung-steigt Market]
 | data-sort-value="2021-02-17"| 15–17 Feb 2021
-| 1000
+| 1,000
 | Online
 | <!-- People Party -->  style="background:#D2EDF1;"| '''37'''
 | <!-- Social Democratic Party --> | 25
@@ -419,7 +431,7 @@
 |-
 | [https://www.oe24.at/oesterreich/politik/die-aktuelle-oesterreich-umfrage-vorab/454705507 Research Affairs]
 | data-sort-value="2020-11-12"| 9–12 Nov 2020
-| 1000
+| 1,000
 | Online
 | <!-- People Party -->  style="background:#D2EDF1;"| '''41'''
 | <!-- Social Democratic Party --> | 22
@@ -455,7 +467,7 @@
 |-
 | [https://twitter.com/EuropeElects/status/1300819268880269313 Research Affairs]
 | data-sort-value="2020-09-16"| 14–16 Sep 2020
-| 1000
+| 1,000
 | Online
 | <!-- People Party -->  style="background:#D2EDF1;"| '''42'''
 | <!-- Social Democratic Party --> | 19

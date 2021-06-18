@@ -40,6 +40,42 @@
 ! class="unsortable" style="background:{{Green Party (Czech Republic)/meta/color}};" |
 ! class="unsortable" style="background:#0033FF;" |
 |-
+|rowspan="2" |[https://www.datacollect.cz/wp-content/uploads/2021/06/Vyzkum-volebniho-modelu-a-otazky-na-aktualni-temata_cerven-2021.pdf Data Collect]
+|rowspan="2" |31 May–11 Jun
+|910
+|rowspan="2" |75.0
+|{{Party shading/ANO 2011}}|'''20.0'''
+|12.5
+|3.0
+|4.5
+|16.5
+|11.0
+|10.5
+|5.0
+|4.5
+|colspan=2|3.5
+|{{N/A}}
+|4.0
+|5.0
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |3.5
+|'''24.5'''
+|{{No|'''63.0'''}}
+|-
+|882
+|20.5
+| colspan="3" |19.5
+| colspan="2" style="background:#d3d3d3;"|'''25.5'''
+|10.5
+|5.5
+|5.0
+|colspan=2|3.0
+|{{N/A}}
+|5.0
+|5.5
+|style="background:#000000;color:#FFFFFF;" |4.0
+|'''24.5'''
+|{{No|'''61.0'''}}
+|-
 |[https://www.median.eu/cs/wp-content/uploads/2021/06/MEDIAN_volebni_model_2021_05.pdf Median]
 |1–31 May
 |1072
@@ -256,7 +292,7 @@
 |'''29.0'''
 |{{No|'''63.3'''}}
 |-
-| style="border-right-style:hidden;" |
+| style="border-right-style:hidden;" | 
 | style="border-right-style:hidden;" data-sort-value="2021-04-13" |'''13 Apr'''
 | colspan="19" | '''[[Communist Party of Bohemia and Moravia]] terminated its support of the government'''<ref name="KSČM_endssupport">{{cite web |title=S podporou je konec. Komunisté vypověděli dohodu o toleranci vlády, hlasování o nedůvěře ale vyvolávat nebudou |url=https://domaci.ihned.cz/c1-66909430-s-podporou-je-konec-komuniste-vypovedeli-dohodu-o-toleranci-vlady-hlasovani-o-neduvere-ale-vyvolavat-nebudou |website=[[Hospodářské noviny]] |accessdate=13 April 2021}}</ref>
 |-
@@ -355,6 +391,8 @@
 |'''26.5'''
 |{{No|'''55.0'''}}
 |-
+|919
+|{{N/A}}
 |22.1
 | colspan="3" |18.2
 | colspan="2" style="background:#d3d3d3;"|'''28.5'''
@@ -481,7 +519,7 @@
 | '''34.3'''
 | {{No|'''52.8'''}}
 |-
-| style="border-right-style:hidden;" |
+| style="border-right-style:hidden;" | 
 | style="border-right-style:hidden;" data-sort-value="2021-03-04" |'''5 Mar'''
 | colspan="19" | '''[[Tricolour Citizens' Movement|Trikolóra]], [[Svobodní]] and [[Freeholder Party of the Czech Republic|SsČR]] form an electoral alliance'''<ref>{{cite web |title=Trikolóra, Soukromníci a Svobodní půjdou do voleb spolu. Jsme otevřeni i pro další subjekty, řekl Klaus mladší |url=https://ct24.ceskatelevize.cz/domaci/3278602-trikolora-soukromnici-a-svobodni-pujdou-do-voleb-spolu-jsme-otevreni-i-pro-dalsi |website=[[Czech Television]] |accessdate=4 March 2021}}</ref>
 |-
@@ -635,6 +673,28 @@
 | '''35.5'''
 |{{No|'''59.5'''}}
 |-
+| [https://ct24.ceskatelevize.cz/sites/default/files/2536514-trendy_ceska_2021_vlna66_volebni_model.pdf Kantar CZ]
+| data-sort-value="2021-01-31" |Oct–Jan
+| 2744
+| {{N/A}}
+| {{Party shading/ANO 2011}} |'''25.5'''
+| 11.5
+| 4.5
+| 5.5
+| 20.0
+| 10.5
+| 10.0
+| 4.5
+| 3.5
+| {{N/A}}
+| 1.5
+| {{N/A}}
+| {{N/A}}
+| 3.0
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |5.5
+| '''33.5'''
+|{{No|'''62.0'''}}
+|-
 | [https://www.median.eu/cs/wp-content/uploads/2021/02/Volby_2021_01_v03_FINAL.pdf Median]
 | data-sort-value="2020-11-15" |1–29 Jan
 | 1062
@@ -711,4 +771,25 @@
 | '''35.2'''
 |{{No|'''48.6'''}}
 |- style="background:#E9E9E9;"
+|[[2017 Czech legislative election|2017 election]]
+| data-sort-value="2017-10-21" | 20–21 Oct 2017
+| –
+| 60.8
+| {{Party shading/ANO 2011}} |'''29.6'''
+| 11.3
+| 5.8
+| 5.3
+| 10.8
+| 5.2
+| 10.6
+| 7.8
+| 7.3
+| 1.6
+| {{N/A}}
+| 1.5
+| {{N/A}}
+| 3.2
+| style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" | 18.3
+|44.7
+| {{No2|'''49.0'''}}
 |}
