@@ -16,7 +16,7 @@
 ! class="unsortable" style="width:40px;"| [[Icelandic Socialist Party|J]]
 ! class="unsortable" style="width:40px;" rowspan="2"| Others
 ! style="width:30px;" rowspan="2"| Lead
-|-
+|-   
 ! style="background:{{Independence Party (Iceland)/meta/color}};"|
 ! style="background:{{Left-Green Movement/meta/color}};"|
 ! style="background:{{Social Democratic Alliance/meta/color}};"|
@@ -42,6 +42,22 @@
 | –
 | 1.5
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
+|-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/880-kosningaaetlan-i-juni-2021 MMR]
+| data-sort-value="2021-06-01"| 4–14 June 2021
+| 973
+| –
+| style="background:#C6ECFB;"| '''27.0'''
+| 12.4
+| 11.2
+| 7.3
+| 8.8
+| 13.1
+| 5.5
+| 7.8
+| 5.3
+| 1.6
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 13.9
 |-
 | [https://mmr.is/frettir/birtar-nieurstoeeur/879-kosningaaetlan-i-byrjun-juni-2021 MMR]
 | data-sort-value="2021-06-01"| 25 May–1 June 2021
@@ -374,7 +390,7 @@
 | 8.3
 | 15.0
 | 3.6
-| 9.4
+| 9.4 
 | 4.3
 | 1.7
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 10.6
@@ -390,7 +406,7 @@
 | 8.9
 | 14.3
 | 4.8
-| 10.0
+| 10.0 
 | 3.4
 | 2.2
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.1
@@ -454,7 +470,7 @@
 | 8.6
 | 10.7
 | 3.6
-| 10.5
+| 10.5 
 | 3.8
 | 0.1
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.1
@@ -470,7 +486,7 @@
 | 6.1
 | 13.2
 | 5.4
-| 10.0
+| 10.0 
 | 3.5
 | 2.4
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.0
@@ -502,7 +518,7 @@
 | 6.4
 | 14.6
 | 3.6
-| 11.3
+| 11.3 
 | 4.1
 | 1.7
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.9
@@ -534,7 +550,7 @@
 | 9.8
 | 12.3
 | 4.7
-| 10.0
+| 10.0 
 | 5.6
 | 2.0
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.6
@@ -550,7 +566,7 @@
 | 8.8
 | 12.2
 | 3.4
-| 9.6
+| 9.6 
 | 3.4
 | 2.1
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.4
@@ -582,7 +598,7 @@
 | 8.1
 | 10.2
 | 3.7
-| 9.7
+| 9.7 
 | 4.7
 | 0.5
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 12.7
@@ -614,7 +630,7 @@
 | 6.8
 | 10.4
 | 4.6
-| 9.7
+| 9.7 
 | 5.3
 | 2.1
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 6.9

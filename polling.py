@@ -17,7 +17,8 @@ def read_data(content, key, start, restart, date, choice):
     prevline = None
     while i < len(content):
         line = content[i]
-        print(rot, line, end='')
+        nline = line
+        # print(rot, line, end='')
         if '===' in line:
             year = line.strip().strip('=').strip()
             if choice == 'Poland' and year == "2019":
@@ -105,6 +106,11 @@ def read_data(content, key, start, restart, date, choice):
                         key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'LeU', '+Eu', 'EV', 'C!']
                     elif end_date.__repr__() == "2019-08-12":
                         key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'LeU', '+Eu', 'EV']
+                    elif 'https://www.youtrend.it/2021/05/25/draghi-cento-giorni/' in nline:
+                        key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'LeU', '+Eu', 'EV', 'C!', 'A', 'IV']
+                    elif 'https://www.termometropolitico.it/1595537_sondaggi-tp-un-italiano-su-due-non-vuole-draghi-' \
+                         'al-quirinale.html' in nline:
+                        key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV']
                 # print('\n' + str(end), end_date)
             elif rot == 0 and choice == 'Canada':
                 # print(line)
@@ -171,10 +177,11 @@ def read_data(content, key, start, restart, date, choice):
                         dat[key[p]][end].append(share)
                 else:
                     dat[key[p]][end] = [share]
-                if choice in 'Slovakia':
-                    if 'colspan="' in line:
-                        temp = line[line.find('colspan="'):]
-                        rot += int(temp.split('"')[1]) - 1
+                if choice in ['Slovakia', 'Italy']:
+                    if 'colspan=' in line:
+                        temp: str = line[line.find('colspan=') + len('colspan='):]
+                        num = int(temp.strip('|').split()[0].split('|')[0].strip('" '))
+                        rot += num - 1
             elif sum(map(lambda r: r in line, restart)):
                 rot = 0
             if choice == 'Czechia':
@@ -183,7 +190,7 @@ def read_data(content, key, start, restart, date, choice):
                         temp: str = line[line.find('colspan=') + len('colspan='):]
                         num = int(temp.strip('|').split()[0].split('|')[0].strip('" '))
                         rot += num - 1
-                    elif 'rowspan="' in line:
+                    elif 'rowspan=' in line:
                         temp: str = line[line.find('rowspan=') + len('rowspan='):]
                         num = int(temp.strip('|').split()[0].split('|')[0].strip('" '))
                         rot += num - 1
@@ -317,6 +324,7 @@ class GraphPage:
             file_name = 'test_data/germany_polling.txt'
             start = 4
             end_date = Date(2021, 9, 26)
+            restart.append('election')
         elif choice == 'Austria':
             key = ['ÖVP', 'SPÖ', 'FPÖ', 'Gr\u00fcne', 'NEOS']
             col = {'ÖVP': (99, 195, 208), 'SPÖ': (206, 0, 12), 'FPÖ': (0, 86, 162), 'Gr\u00fcne': (136, 182, 38),
@@ -327,6 +335,7 @@ class GraphPage:
             blocs = {'Progressive': ['SPÖ', 'Gr\u00fcne', 'NEOS'], 'Conservative': ['ÖVP', 'FPÖ']}
             file_name = 'test_data/austria_polling.txt'
             start = 4
+            restart.append('election')
         elif choice == 'Poland':
             key = ['United Right', 'Civic Coalition', 'The Left', 'Polish Coalition', 'Kukiz\'15', 'Confederation',
                    'Poland 2050']
@@ -343,6 +352,7 @@ class GraphPage:
                      'Misc. Right': ['Kukiz\'15', 'Confederation']}
             file_name = 'test_data/poland_polling.txt'
             start = 3
+            restart.append('election')
         elif choice == 'Slovakia':
             key = ['OL\'aNO', 'SMER-SD', 'SR', 'L\'SNS', 'PS-SPOLU', 'PS-SPOLU', 'SaS', 'ZL\'', 'KDH',
                    'Magyar', 'Magyar', 'Magyar', 'Magyar', 'SNS', 'DV', 'HLAS-SD', 'REP']
@@ -359,7 +369,7 @@ class GraphPage:
             file_name = 'test_data/slovakia_polling.txt'
             date = 0
             start = 2
-            restart = ['Focus', 'AKO']
+            restart = ['Focus', 'AKO', '2020 elections']
         elif choice == 'Spain':
             key = ['PSOE', 'PP', 'VOX', 'UP', 'Cs', 'ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+',
                    'PRC']
@@ -376,6 +386,7 @@ class GraphPage:
             file_name = 'test_data/spain_polling.txt'
             restart = ['http']
             start = 4
+            restart.append('Spanish general election')
         elif choice == 'Peru':
             key = ['Castillo', 'Fujimori']
             col = {'Castillo': (192, 10, 10), 'Fujimori': (255, 128, 0)}
@@ -401,16 +412,17 @@ class GraphPage:
             file_name = 'test_data/canada_polling.txt'
             start = 3
         elif choice == 'Italy':
-            key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'LeU', '+Eu', 'EV', 'C!', 'A', 'IV']
+            key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV', 'CI']
             col = {'M5S': (255, 235, 59), 'PD': (239, 28, 39), 'Lega': (0, 128, 0), 'FI': (0, 135, 220),
                    'FdI': (3, 56, 106), 'LeU': (199, 40, 55), '+Eu': (255, 215, 0), 'EV': (115, 193, 112),
                    'C!': (229, 131, 33), 'A': (0, 57, 170), 'IV': (214, 65, 140), 'NcI': (31, 107, 184),
-                   'PaP': (160, 20, 46),
+                   'PaP': (160, 20, 46), 'Art.1': (210, 27, 48), 'SI': (239, 62, 62), 'CI': (49, 39, 131),
                    'Left': (239, 28, 39), 'Right': (0, 128, 0),
                    'Government': (255, 235, 59), 'Opposition': (3, 56, 106)}
             blocs = {'Left': ['PD', '+Eu', 'EV', 'LeU', 'IV', 'A', 'M5S', 'PaP'],
                      'Right': ['Lega', 'FI', 'FdI', 'C!', 'NcI']}
-            gov = {'Government': ['M5S', 'Lega', 'PD', 'FI', 'LeU', 'IV'], 'Opposition': ['FdI', '+Eu', 'C!', 'A']}
+            gov = {'Government': ['M5S', 'Lega', 'PD', 'FI', 'LeU', 'IV', 'Art.1'],
+                   'Opposition': ['FdI', '+Eu', 'C!', 'A', 'SI', 'CI']}
             file_name = 'test_data/italy_polling.txt'
             date = 0
             start = 2
@@ -432,6 +444,7 @@ class GraphPage:
             blocs = {'Red': ['A', 'B', 'F', '\u00d8', '\u00c5', 'G'], 'Blue': ['V', 'O', 'C', 'D', 'I', 'P', 'K', 'E']}
             file_name = 'test_data/denmark_polling.txt'
             start = 3
+            restart.append('election')
         elif choice == 'Finland':
             key = ['SDP', 'PS', 'KOK', 'KESK', 'VIHR', 'VAS', 'SFP', 'KD', 'LIIK']
             col = {'SDP': (245, 75, 75), 'PS': (255, 222, 85), 'KOK': (0, 98, 136), 'KESK': (52, 154, 43),
@@ -441,7 +454,7 @@ class GraphPage:
             gov = {'Government': ['SDP', 'KESK', 'VIHR', 'VAS', 'SFP'], 'Opposition': ['KOK', 'PS', 'KD', 'LIIK']}
             file_name = 'test_data/finland_polling.txt'
             start = 3
-            restart = ['http']
+            restart = ['http', 'election']
         elif choice == 'Sweden':
             key = ['V', 'S', 'MP', 'C', 'L', 'M', 'KD', 'SD']
             col = {'V': (176, 0, 0), 'S': (237, 27, 52), 'MP': (43, 145, 44), 'C': (1, 106, 57), 'L': (0, 106, 179),
@@ -452,7 +465,7 @@ class GraphPage:
             gov = {'Government': ['S', 'MP', 'V', 'C', 'L'], 'Opposition': ['M', 'KD', 'SD']}
             file_name = 'test_data/sweden_polling.txt'
             start = 3
-            restart = ['http']
+            restart = ['http', '2018 election']
         elif choice == 'Norway':
             key = ['R', 'SV', 'MDG', 'Ap', 'Sp', 'V', 'KrF', 'H', 'FrP']
             col = {'R': (231, 52, 69), 'SV': (188, 33, 73), 'MDG': (106, 147, 37), 'Ap': (227, 24, 54),
@@ -462,6 +475,7 @@ class GraphPage:
             blocs = {'Red-Green': ['R', 'SV', 'Ap', 'Sp'], 'Blue': ['V', 'KrF', 'H', 'FrP'], 'MDG': ['MDG']}
             file_name = 'test_data/norway_polling.txt'
             start = 4
+            restart.append('election')
         elif choice == 'Iceland':
             key = ['D', 'V', 'S', 'M', 'B', 'P', 'F', 'C', 'J']
             col = {'D': (0, 173, 239), 'V': (0, 184, 120), 'S': (234, 0, 56), 'M': (0, 33, 105), 'B': (160, 208, 103),
@@ -473,6 +487,7 @@ class GraphPage:
 
             file_name = 'test_data/iceland_polling.txt'
             start = 4
+            restart.append('election')
         elif choice == 'Portugal':
             key = ['PS', 'PSD', 'BE', 'CDU', 'CDS-PP', 'PAN', 'Chega', 'IL', 'LIVRE']
             col = {'PS': (255, 102, 255), 'PSD': (255, 153, 0), 'BE': (139, 0, 0), 'CDU': (255, 0, 0),
@@ -482,6 +497,7 @@ class GraphPage:
             blocs = {'Left': ['PS', 'BE', 'CDU', 'PAN', 'LIVRE'], 'Right': ['PSD', 'CDS-PP', 'Chega', 'IL']}
             file_name = 'test_data/portugal_polling.txt'
             start = 4
+            restart.append('election')
         elif choice == 'New York':
             key = ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
                    'Scott Stringer', 'Maya Wiley', 'Andrew Yang']
@@ -603,23 +619,29 @@ def menu_page():
 
 def update_data():
     urls = {
-        'Austria':  'https://en.wikipedia.org/w/index.php?title'
-                    '=Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
-        'Canada':   'https://en.wikipedia.org/w/index.php?title'
-                    '=Opinion_polling_for_the_44th_Canadian_federal_election&action=edit&section=1',
+        'Austria':  'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
+        'Canada':   'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_44th_Canadian_federal_election&action=edit&section=1',
         'Czechia':  'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_2021_Czech_legislative_election&action=edit&section=3',
-        'Denmark':  'https://en.wikipedia.org/w/index.php?title'
-                    '=Opinion_polling_for_the_next_Danish_general_election&action=edit&section=3',
-        'Germany':  'https://en.wikipedia.org/w/index.php?title'
-                    '=Opinion_polling_for_the_2021_German_federal_election&action=edit&section=3',
-        'Portugal': 'https://en.wikipedia.org/w/index.php?title'
-                    '=Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3',
-        'Sweden':   'https://en.wikipedia.org/w/index.php?title'
-                    '=Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
-        'New York': 'https://en.wikipedia.org/w/index.php?title'
-                    '=Template:Opinion_polling_for_the_2021_New_York_City_mayoral_election/Democratic_primaries&action'
-                    '=edit'
+        'Denmark':  'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Danish_general_election&action=edit&section=3',
+        'Germany':  'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_2021_German_federal_election&action=edit&section=3',
+        'Iceland':  'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Icelandic_parliamentary_election&action=edit&section=2',
+        'Italy':    'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Italian_general_election&action=edit&section=3',
+        'Poland':   'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Polish_parliamentary_election&action=edit&section=3',
+        'Portugal': 'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3',
+        'Sweden':   'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
+        'New York': 'https://en.wikipedia.org/w/index.php?title='
+                    'Template:Opinion_polling_for_the_2021_New_York_City_mayoral_election/Democratic_primaries&action='
+                    'edit'
     }
     files = {
         'New York': 'test_data/new_york_city_polling.txt'
@@ -627,7 +649,9 @@ def update_data():
     olddata = {
         'Canada':   'test_data/old_canada_polling.txt',
         'Denmark':  'test_data/old_denmark_polling.txt',
-        'Germany':  'test_data/old_germany_polling.txt'
+        'Germany':  'test_data/old_germany_polling.txt',
+        'Italy':    'test_data/old_italy_polling.txt',
+        'Poland':   'test_data/old_poland_polling.txt'
     }
     for tag, url in urls.items():
         if tag in files:
