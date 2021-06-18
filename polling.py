@@ -617,7 +617,26 @@ def menu_page():
     update_b.show()
 
 
-def update_data():
+def update_data(sel="All"):
+    def update_dat(dest, url, olddat=None):
+        content = urllib.request.urlopen(url)
+        read_content = content.read()
+        soup = BeautifulSoup(read_content, 'html.parser')
+        content = soup.find_all('textarea')
+        if tag == 'New York':
+            text = content[0].text
+            text = text[text.find('=== First-past-the-post polls ==='):
+                        text.find('!scope="row"| [https://www.filesforprogress.org/datasets/2020/1/'
+                                  'dfp_poll_january_ny.pdf Data for Progress (D)]')]
+        else:
+            text = content[0].text
+        if olddat is not None:
+            with open(olddat, 'r', encoding='utf-8') as f:
+                text += f.read()
+        final = text.encode('utf-8')
+        with open(dest, 'wb') as f:
+            f.write(final)
+
     urls = {
         'Austria':  'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
@@ -633,10 +652,16 @@ def update_data():
                     'Opinion_polling_for_the_next_Icelandic_parliamentary_election&action=edit&section=2',
         'Italy':    'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_next_Italian_general_election&action=edit&section=3',
+        'Norway':   'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_2021_Norwegian_parliamentary_election&action=edit&section=3',
         'Poland':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_next_Polish_parliamentary_election&action=edit&section=3',
         'Portugal': 'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3',
+        'Slovakia': 'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Slovak_parliamentary_election&action=edit&section=1',
+        'Spain':    'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_Spanish_general_election&action=edit&section=4',
         'Sweden':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
         'New York': 'https://en.wikipedia.org/w/index.php?title='
@@ -651,34 +676,24 @@ def update_data():
         'Denmark':  'test_data/old_denmark_polling.txt',
         'Germany':  'test_data/old_germany_polling.txt',
         'Italy':    'test_data/old_italy_polling.txt',
+        'Norway':   'test_data/old_norway_polling.txt',
         'Poland':   'test_data/old_poland_polling.txt'
     }
-    for tag, url in urls.items():
-        if tag in files:
-            dest = files[tag]
-        else:
-            dest = 'test_data/' + tag.lower() + '_polling.txt'
-        content = urllib.request.urlopen(url)
-        read_content = content.read()
-        soup = BeautifulSoup(read_content, 'html.parser')
-        content = soup.find_all('textarea')
-        if tag == 'New York':
-            text = content[0].text
-            text = text[text.find('=== First-past-the-post polls ==='):
-                        text.find('!scope="row"| [https://www.filesforprogress.org/datasets/2020/1/'
-                                  'dfp_poll_january_ny.pdf Data for Progress (D)]')]
-        else:
-            text = content[0].text
-        if tag in olddata:
-            with open(olddata[tag], 'r', encoding='utf-8') as f:
-                text += f.read()
-        final = text.encode('utf-8')
-        with open(dest, 'wb') as f:
-            f.write(final)
+    if sel == 'All':
+        for tag, url in urls.items():
+            if tag in files:
+                dest = files[tag]
+            else:
+                dest = 'test_data/' + tag.lower() + '_polling.txt'
+            if tag in olddata:
+                olddat = olddata[tag]
+            else:
+                olddat = None
+            update_dat(dest, url, olddat)
 
 
 if __name__ == '__main__':
     options = ['Austria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Iceland', 'Italy', 'Norway',
-               'Peru', 'Poland', 'Portugal', 'Spain', 'Slovakia', 'Sweden', 'New York']
+               'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain', 'Sweden', 'New York']
     menu_page()
     game_loop()

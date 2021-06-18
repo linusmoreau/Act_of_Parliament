@@ -40,6 +40,154 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 ! style="background:{{Navarra Suma/meta/color}};"|
 ! style="background:{{Regionalist Party of Cantabria/meta/color}};"|
 |-
+| CIS<ref name="CISJun21">{{cite web |title=Barómetro de junio 2021 (Estudio nº 3326. Junio 2021) |url=http://datos.cis.es/pdf/Es3326marMT_A.pdf |language=es |work=CIS |date=18 June 2021}}</ref><ref>{{cite web |title=Estimación de voto (Estudio nº 3326. Barómetro de junio 2021) |url=http://datos.cis.es/pdf/3326_Estimacion.pdf |language=es |work=CIS |date=18 June 2021}}</ref><ref>{{cite web |title=ESPAÑA. Encuesta CIS 18/06/2021: UP-ECP-EC 12,0%, MÁS PAÍS-EQUO 4,1%, PSOE 27,4%, Cs 5,7%, PP 23,9%, VOX 13,0% |url=https://www.electograph.com/2021/06/encuesta-cis-210618.html |language=es |work=Electograph |date=18 June 2021}}</ref>
+| 2–15 Jun 2021
+| 3,814
+|?
+| {{Party shading/PSOE}}| '''27.4'''<br/>{{font|size=75%|font=Verdana|text=122}}
+| 23.9<br/>{{font|size=75%|font=Verdana|text=103}}
+| 13.0<br/>{{font|size=75%|font=Verdana|text=41}}
+| 12.0<br/>{{font|size=75%|font=Verdana|text=33}}
+| 5.7<br/>{{font|size=75%|font=Verdana|text=8}}
+| 3.6<br/>{{font|size=75%|font=Verdana|text=14}}
+| 4.1<br/>{{font|size=75%|font=Verdana|text=6}}
+| 1.6<br/>{{font|size=75%|font=Verdana|text=7}}
+| 1.4<br/>{{font|size=75%|font=Verdana|text=6}}
+| 1.0<br/>{{font|size=75%|font=Verdana|text=4}}
+| 0.8<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.2<br/>{{font|size=75%|font=Verdana|text=0}}
+| 0.7<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.1<br/>{{font|size=75%|font=Verdana|text=0}}
+| style="background:{{Spanish Socialist Workers' Party/meta/color}}; color:white;"| 3.5
+|-
+| ElectoPanel/Electomanía<ref>{{cite web |title=ElectoPanel (13J): los partidos asistentes a Colón superarían hoy el 47% de voto |url=https://electomania.es/ep13j21/ |language=es |work=Electomanía |date=13 June 2021}}</ref>
+| 5–11 Jun 2021
+| 1,673
+|?
+| 25.3<br/>{{font|size=75%|font=Verdana|text=99}}
+| {{Party shading/PP}}| '''28.4'''<br/>{{font|size=75%|font=Verdana|text=121}}
+| 16.2<br/>{{font|size=75%|font=Verdana|text=54}}
+| 10.0<br/>{{font|size=75%|font=Verdana|text=24}}
+| 3.1<br/>{{font|size=75%|font=Verdana|text=1}}
+| 3.4<br/>{{font|size=75%|font=Verdana|text=14}}
+| 3.9<br/>{{font|size=75%|font=Verdana|text=8}}
+| 2.3<br/>{{font|size=75%|font=Verdana|text=9}}
+| 1.7<br/>{{font|size=75%|font=Verdana|text=7}}
+| 1.2<br/>{{font|size=75%|font=Verdana|text=5}}
+| 0.9<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.5<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.6<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.3<br/>{{font|size=75%|font=Verdana|text=1}}
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 3.1
+|-
+|-
+| GAD3/NIUS<ref>{{cite web |title=ENCUESTA ELECTORAL DE GAD3 PARA NIUS: ESTIMACIÓN DE VOTO Y ESCAÑOS EN ELECCIONES GENERALES |url=https://www.gad3.com/encuesta-electoral-de-gad3-para-nius-estimacion-de-voto-y-escanos-en-elecciones-generales-2/ |language=es |work=GAD3 |date=14 June 2021}}</ref>
+| 7–10 Jun 2021
+| 1,026
+| 65
+| 25.5<br/>{{font|size=75%|font=Verdana|text=101/103}}
+| {{Party shading/PP}}| '''30.7'''<br/>{{font|size=75%|font=Verdana|text=136/138}}
+| 12.4<br/>{{font|size=75%|font=Verdana|text=37/39}}
+| 9.2<br/>{{font|size=75%|font=Verdana|text=19/21}}
+| 2.9<br/>{{font|size=75%|font=Verdana|text=1/2}}
+| 3.0<br/>{{font|size=75%|font=Verdana|text=11/12}}
+| 4.5<br/>{{font|size=75%|font=Verdana|text=8}}
+| 2.6<br/>{{font|size=75%|font=Verdana|text=10/11}}
+| 1.4<br/>{{font|size=75%|font=Verdana|text=6/7}}
+| 1.2<br/>{{font|size=75%|font=Verdana|text=5}}
+| 1.1<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.6<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.7<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.2<br/>{{font|size=75%|font=Verdana|text=1}}
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 5.2
+|-
+| Simple Lógica<ref name="SLJun21">{{cite web |title=Intención de voto y valoración de líderes políticos (junio 2021) |url=https://www.simplelogica.com/es/intencion-de-voto-y-valoracion-de-lideres-politicos-junio-2021/ |language=es |work=Simple Lógica |date=18 June 2021}}</ref>
+| 1–9 Jun 2021
+| 1,017
+| 64.4
+| 23.0
+| {{Party shading/PP}}| '''27.1'''
+| 17.0
+| 9.3
+| 3.4
+| –
+| 6.0
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 4.1
+|-
+| ElectoPanel/Electomanía<ref>{{cite web |title=ElectoPanel 6J: descenso de UP que se acerca al unidígito, el bloque de derechas mantiene sus opciones |url=https://electomania.es/ep6j21/ |language=es |work=Electomanía |date=6 June 2021}}</ref>
+| 30 May–4 Jun 2021
+| 1,462
+|?
+| 25.4<br/>{{font|size=75%|font=Verdana|text=98}}
+| {{Party shading/PP}}| '''27.9'''<br/>{{font|size=75%|font=Verdana|text=121}}
+| 16.8<br/>{{font|size=75%|font=Verdana|text=55}}
+| 10.4<br/>{{font|size=75%|font=Verdana|text=25}}
+| 3.0<br/>{{font|size=75%|font=Verdana|text=1}}
+| 3.5<br/>{{font|size=75%|font=Verdana|text=14}}
+| 3.5<br/>{{font|size=75%|font=Verdana|text=7}}
+| 2.3<br/>{{font|size=75%|font=Verdana|text=9}}
+| 1.7<br/>{{font|size=75%|font=Verdana|text=7}}
+| 1.1<br/>{{font|size=75%|font=Verdana|text=5}}
+| 0.9<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.5<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.6<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.3<br/>{{font|size=75%|font=Verdana|text=1}}
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 2.5
+|-
+| Data10/OKDiario<ref>{{cite web |title=El PP sigue disparado: logra la mayoría con Vox mientras Sánchez se entrega al golpismo |url=https://okdiario.com/espana/pp-sigue-disparado-logra-mayoria-vox-mientras-sanchez-entrega-golpismo-7321558 |language=es |work=OKDiario |date=6 June 2021}}</ref>
+| 1–3 Jun 2021
+| 1,000
+|?
+| 25.5<br/>{{font|size=75%|font=Verdana|text=103}}
+| {{Party shading/PP}}| '''28.7'''<br/>{{font|size=75%|font=Verdana|text=124}}
+| 15.8<br/>{{font|size=75%|font=Verdana|text=52}}
+| 8.6<br/>{{font|size=75%|font=Verdana|text=18}}
+| 2.7<br/>{{font|size=75%|font=Verdana|text=1}}
+| 3.3<br/>{{font|size=75%|font=Verdana|text=13}}
+| 5.2<br/>{{font|size=75%|font=Verdana|text=10}}
+| 2.4<br/>{{font|size=75%|font=Verdana|text=10}}
+| 1.6<br/>{{font|size=75%|font=Verdana|text=6}}
+| 1.1<br/>{{font|size=75%|font=Verdana|text=5}}
+| 0.8<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.5<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.6<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.3<br/>{{font|size=75%|font=Verdana|text=1}}
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 3.6
+|-
+| Sigma Dos/El Mundo<ref>{{cite web |title=El PP se consolida como primera fuerza política y podría gobernar con Vox |url=https://www.elmundo.es/espana/encuestas/2021/06/05/60bb9758e4d4d867218b45f5.html |language=es |work=El Mundo |date=6 June 2021}}</ref><ref>{{cite web |title=ESPAÑA. Encuesta SigmaDos 06/06/2021: UP-ECP-EC 10,2% (24), MÁS PAÍS-EQUO 4,3% (9), PSOE 25,0% (100), Cs 3,2% (2), PP 29,5% (132), VOX 15,4% (51) |url=https://www.electograph.com/2021/06/encuesta-sigmados-210606.html |language=es |work=Electograph |date=5 June 2021}}</ref>
+| 31 May–1 Jun 2021
+| 1,000
+|?
+| 25.0<br/>{{font|size=75%|font=Verdana|text=100}}
+| {{Party shading/PP}}| '''29.5'''<br/>{{font|size=75%|font=Verdana|text=132}}
+| 15.4<br/>{{font|size=75%|font=Verdana|text=51}}
+| 10.2<br/>{{font|size=75%|font=Verdana|text=24}}
+| 3.2<br/>{{font|size=75%|font=Verdana|text=2}}
+| 3.2<br/>{{font|size=75%|font=Verdana|text=10}}
+| 4.3<br/>{{font|size=75%|font=Verdana|text=9}}
+| 1.8<br/>{{font|size=75%|font=Verdana|text=8}}
+| 1.7<br/>{{font|size=75%|font=Verdana|text=7}}
+| –
+| –
+| –
+| –
+| –
+| –
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 4.5
+|-
 | SocioMétrica/El Español<ref>{{cite web |title=El PP sobrepasa por primera vez al PSOE justo cuando Sánchez cumple tres años en el Gobierno |url=https://www.elespanol.com/espana/politica/20210530/pp-sobrepasa-primera-psoe-sanchez-cumple-gobierno/584942067_0.html |language=es |work=El Español |date=30 May 2021}}</ref><ref>{{cite web |title=ESPAÑA. Encuesta SocioMétrica 30/05/2021: UP-ECP-EC 9,3% (20), MÁS PAÍS-EQUO 4,0% (7), PSOE 25,4% (102), Cs 3,1 (1), PP 26,5% (114), VOX 16,9% (60) |url=https://www.electograph.com/2021/05/encuesta-sociometrica-210530.html |language=es |work=El Español |date=30 May 2021}}</ref>
 | 26–29 May 2021
 | 1,100
@@ -302,7 +450,7 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 | 8.7
 | 4.0
 | –
-| –
+| 4.0
 | –
 | –
 | –
@@ -594,7 +742,7 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 | 11.1
 | 3.8
 | –
-| –
+| 2.6
 | –
 | –
 | –
@@ -804,7 +952,7 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 | 11.0
 | 7.6
 | –
-| –
+| 2.7
 | –
 | –
 | –
@@ -1180,7 +1328,7 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 | 10.3
 | 9.2
 | –
-| –
+| 2.2
 | –
 | –
 | –
@@ -1367,7 +1515,7 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 | 10.7
 | 8.9
 | –
-| –
+| 2.6
 | –
 | –
 | –
