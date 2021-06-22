@@ -128,13 +128,13 @@ class Policy(CustomObject):
 
 
 class OpinionModifier(CustomObject):
-    def __init__(self, effect: int, date: Optional[Date] = None, desc: str = '', **kwargs):
+    def __init__(self, tag: str, effect: int, date: Optional[Date] = None):
+        self.tag = tag
         self.effect = effect
         if date is None:
             self.date = data.game_state['date']
         else:
             self.date = date
-        self.desc = desc
 
     def json_dump(self):
         return super().json_dump()
@@ -197,6 +197,7 @@ class Person(CustomObject):
                     layer2 = []
                     for om in oms:
                         if not isinstance(om, OpinionModifier):
+                            del om['type']
                             layer2.append(OpinionModifier(**om))
                         else:
                             layer2.append(om)
@@ -282,7 +283,7 @@ class Person(CustomObject):
     def consider_party(self, party: str):
         issue = random.choice(list(self.values.keys()))
         effect = int(round(-abs(self.values[issue] - parties[party].values[issue]) * self.values_importance[issue]))
-        opinion = OpinionModifier(effect, date=data.game_state['date'], desc='Policy (dis)agreement')
+        opinion = OpinionModifier(tag='policy', effect=effect, date=data.game_state['date'])
         self.add_opinion('parties', party, opinion)
 
     def consider_parties(self, ballot: List[str]):
