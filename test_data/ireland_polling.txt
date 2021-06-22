@@ -1,0 +1,508 @@
+==Opinion polls==
+[[File:Ireland 2025 polls.svg|thumb|center|964x964px|Graph of opinion polls conducted. Trend lines represent [[local regression]]s.]]
+<!-- Talk page consensus is to include Ireland Thinks polls conducted for the Irish Daily Mail. --><!-- Talk page consensus on Irish general election articles is to NOT add "events" such as party leadership changes. -->
+{|class="wikitable sortable collapsible" style="text-align:center;font-size:95%;line-height:14px;"
+|- style="height:42px; background-color:#E9E9E9"
+! style="width:110px;" rowspan="2"| Last date<br />of polling
+! style="width:300px;" rowspan="2"| Polling firm / Commissioner
+! class="unsortable" style="width:50px;" rowspan="2"| Sample<br />size
+! class="unsortable" style="width:50px;"| [[Sinn Féin|SF]]
+! class="unsortable" style="width:50px;"| [[Fianna Fáil|FF]]
+! class="unsortable" style="width:50px;"| [[Fine Gael|FG]]
+! class="unsortable" style="width:50px;"| [[Green Party (Ireland)|GP]]
+! class="unsortable" style="width:50px;"| [[Labour Party (Ireland)|Lab]]
+! class="unsortable" style="width:50px;"| [[Social Democrats (Ireland)|SD]]
+! class="unsortable" style="width:50px;"| {{nowrap|[[People Before Profit/Solidarity|PBP/S]]}}
+! class="unsortable" style="width:50px;"| [[Aontú|Aon]]
+! class="unsortable" style="width:50px;" rowspan="2"| {{abbr|O/I|Others/Independents}}<ref group="nb" name="remainder">The figure for 'Others/Independents' is the remainder when all others are removed. As with all such calculations, the figure shown may be slightly inaccurate due to [[rounding]] effects.</ref>
+|-
+! style="background:{{Sinn Féin/meta/color}};"|
+! style="background:{{Fianna Fáil/meta/color}};"|
+! style="background:{{Fine Gael/meta/color}};"|
+! style="background:{{Green Party (Ireland)/meta/color}};"|
+! style="background:{{Labour Party (Ireland)/meta/color}};"|
+! style="background:{{Social Democrats (Ireland)/meta/color}};"|
+! style="background:{{Solidarity–People Before Profit/meta/color}};"|
+! style="background:{{Aontú/meta/color}};"|<!--
+
+PLEASE READ THIS!  Opinion polls are listed by default in reverse chronological order - latest first - but users can sort the table. In order to preserve the ability to sort by polling date, please include an entry for data-sort-value in front of the polling date. In order to preserve the ability to sort by polling company, please increment the relevant data-sort-value by one each time you add a new poll. So a new Behaviour & Attitudes poll would become "B&A14" if the last one was "B&A13". Please also wikilink the most recent poll (link goes to the publishing media outlet, piped to show the commissioning publisher and polling company) and please also unlink the prior poll from that company. If the above doesn't make sense to you, please do not make major changes. -->
+|-
+|data-sort-value="2021-06-15"|15 June 2021
+|data-sort-value="Ipsos4"|[[The Irish Times|Ipsos MRBI/Irish Times]]<ref group="p">{{Cite web|last=Leahy|first=Pat|date=2021-06-16|title=Irish Times poll: Sinn Féin hits record high as Fine Gael drops among voters|url=https://www.irishtimes.com/news/politics/irish-times-poll-sinn-f%C3%A9in-hits-record-high-as-fine-gael-drops-among-voters-1.4595323|url-status=live|access-date=16 June 2021|website=[[The Irish Times]]|language=en}}</ref>
+|1,200
+|style="background:#D7ECEA"|'''31'''
+|20
+|27
+|6
+|3
+|2
+|2
+|1
+|8
+|-
+|data-sort-value="2021-06-08"|8 June 2021
+|data-sort-value="B&A08"|[[The Times, Ireland edition|Behavior and Attitudes/The Sunday Times]]<ref group="p">{{Cite web|last=Lehane|first=Mícheál|date=2021-06-12|title=SF increases support in last month, poll suggests|url=https://www.rte.ie/news/politics/2021/0612/1227770-sf-increases-support-in-last-month-poll-suggests/|url-status=live|access-date=13 June 2021|website=[[RTÉ]]|language=en}}</ref>
+|909
+|style="background:#D7ECEA"|'''34'''
+|20
+|24
+|4
+|3
+|4
+|1
+|1
+|9
+|-
+|data-sort-value="2021-05-27"|27 May 2021
+|data-sort-value="RedC09"|[[Business Post|Red C/Business Post]]<ref group="p">{{Cite web|url=https://www.irishexaminer.com/news/politics/arid-40301855.html|title=Increased support brings Sinn Féin level with Fine Gael in latest poll|last=Murphy|first=Greg|publisher=Irish Examiner|date=30 May 2021|access-date=30 May 2021|language=en}}</ref><ref group="p">{{cite web|url=https://redcresearch.ie/wp-content/uploads/2021/05/Business-Post-RED-C-Opinion-Poll-Report-May-2021.pdf|title=Red C Business Post Opinion Poll Report 2021|publisher=Red C|date=31 May 2021|access-date=31 May 2021}}</ref>
+|1,034
+|style="background:#D7ECEA"|'''29'''
+|14
+|style="background:#D9E9F4"|'''29'''
+|5
+|3
+|5
+|3
+|2
+|10
+|-
+|data-sort-value="2021-05-18"|18 May 2021
+|data-sort-value="B&A07"|Behaviour and Attitudes/The Sunday Times<ref group="p">{{Cite web|last=Ryan|first=Órla|title=Sinn Féin is the most popular political party in the country, according to poll|url=https://www.thejournal.ie/sinn-fein-opinion-poll-4-5445529-May2021/|date=2021-05-23|website=TheJournal.ie|access-date=2021-05-23|language=en}}</ref>
+|914
+|style="background:#D7ECEA"|'''30'''
+|22
+|28
+|5
+|4
+|2
+|1
+|– <ref name="absent" group="nb" />
+|8
+|-
+|data-sort-value="2021-05-15"|15 May 2021
+|data-sort-value="ITMos10"|[[Irish Daily Mail|Ireland Thinks/Irish Mail on Sunday]]<ref group="p">{{Cite web|date=16 May 2021|title=Next Irish General Election|url=https://twitter.com/nextirishge/status/1393706725820309505|url-status=live|access-date=2021-05-16|website=Twitter|language=en}}</ref>
+|1,237
+|style="background:#D7ECEA"|'''30'''
+|15
+|25
+|3
+|4
+|7
+|3
+|4
+|9
+|-
+|data-sort-value="2021-04-22"|22 April 2021
+|data-sort-value="RedC08"|Red C/Business Post<ref group="p">{{Cite web|url=https://www.redcresearch.ie/wp-content/uploads/2021/04/Business-Post-RED-C-Opinion-Poll-Report-April-2021.pdf|title=Opinion Poll Report - April 2021|access-date=2021-04-27}}</ref>
+|1,025
+|27
+|13
+|style="background:#D9E9F4"|'''30'''
+|4
+|5
+|5
+|2
+|2
+|11
+|-
+|data-sort-value="2021-04-15"|15 April 2021
+|data-sort-value="ITMos09"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|url=https://twitter.com/toghanneire/status/1383565074204299269|title=Ireland Thinks poll, 15 April 2021|access-date=2021-04-19|website=Twitter|language=en}}</ref>
+|1,087
+|style="background:#D7ECEA"|'''27'''
+|16
+|26
+|3
+|5
+|6
+|3
+|4
+|10
+|-
+|data-sort-value="2021-03-25"|25 March 2021
+|data-sort-value="RedC07"|Red C/Business Post<ref group="p">{{Cite web|url=https://redcresearch.ie/wp-content/uploads/2021/03/Business-Post-RED-C-Opinion-Poll-Report-March-2021-1.pdf|title=Opinion Poll Report - March 2021|access-date=2021-03-29}}</ref>
+|1,000
+|29
+|11
+|style="background:#D9E9F4"|'''30'''
+|5
+|4
+|5
+|2
+|2
+|11
+|-
+|data-sort-value="2021-03-20"|20 March 2021
+|data-sort-value="ITMos08"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|url=https://twitter.com/toghanneire/status/1373435409376632838|title=Ireland Thinks poll, 20 March 2021|access-date=2021-03-21}}</ref>
+|1,026
+|style="background:#D7ECEA"|'''31'''
+|14
+|27
+|2
+|5
+|7
+|3
+|3
+|8
+|-
+|data-sort-value="2021-02-25"|25 February 2021
+|data-sort-value="RedC06"|Red C/Business Post<ref group="p">{{Cite web|last=Brennan|first=Michael|title=Fianna Fáil takes hit over lockdown and slow rate of vaccine rollout|url=https://www.businesspost.ie/ireland/fianna-fail-takes-hit-over-lockdown-and-slow-rate-of-vaccine-rollout-006120a3|access-date=2021-03-01|website=Business Post|language=en}}</ref><ref group="p">{{Cite web|title=Poll: Business Post/Red C|url=https://twitter.com/gavreilly/status/1365774327803752450|access-date=2021-03-01|website=Twitter|language=en}}</ref>
+|1,000
+|style="background:#D7ECEA"|'''29'''
+|13
+|style="background:#D9E9F4"|'''29'''
+|3
+|4
+|6
+|2
+|2
+|12
+|-
+|data-sort-value="2021-02-23"|23 February 2021
+|data-sort-value="Ipsos3"|Ipsos MRBI/Irish Times<ref group="p">{{Cite web|last=Leahy|first=Pat|date=2021-02-24|title=Fall in support for Fianna Fáil, Fine Gael as confidence in Covid-19 management slumps – poll
+|url=https://www.irishtimes.com/news/politics/fall-in-support-for-fianna-f%C3%A1il-fine-gael-as-confidence-in-covid-19-management-slumps-poll-1.4494233|access-date=2021-02-16|website=Irish Examiner|language=en}}</ref>
+|1,200
+|28
+|14
+|style="background:#D9E9F4"| '''30'''
+|6
+|3
+|3
+|1
+|1
+|14
+|-
+|data-sort-value="2021-02-12"|12 February 2021
+|data-sort-value="ITMos07"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|last=Hosford|first=Paul|date=2021-02-14|title=Sinn Féin leads in new poll despite slippage|url=https://www.irishexaminer.com/news/politics/arid-40226633.html|access-date=2021-02-16|website=Irish Examiner|language=en}}</ref>
+|1,068
+|style="background:#D7ECEA"|'''28'''
+|15
+|26
+|5
+|5
+|6
+|3
+|4
+|9
+|-
+|data-sort-value="2021-01-28"|28 January 2021
+|data-sort-value="RedC05"|Red C/Business Post<ref group="p">{{Cite web|title=Fianna Fáil and Social Democrats make gains in latest Business Post/Red C poll|url=https://www.businesspost.ie/ireland/fianna-fail-and-social-democrats-make-gains-in-latest-business-postred-c-poll-dacfb340|access-date=2021-01-30|website=Business Post|language=en}}</ref><ref group="p">{{Cite web|title=Business Post/Red C Poll|url=https://twitter.com/gavreilly/status/1355625820933541891|access-date=2021-01-30|website=Twitter|language=en}}</ref>
+|1,000
+|27
+|16
+|style="background:#D9E9F4"|'''29'''
+|5
+|3
+|5
+|3
+|2
+|10
+|-
+|data-sort-value="2021-01-17"|17 January 2021
+|data-sort-value="ITMos06"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|title=Next Irish General Election|url=https://twitter.com/NextIrishGE/status/1350604420585762816|access-date=2021-01-16|website=Twitter|language=en}}</ref>
+|1,247
+|style="background:#D7ECEA"|'''29'''
+|15
+|28
+|3
+|5
+|5
+|3
+|4
+|7
+|-
+|data-sort-value="2020-12-15"|15 December 2020
+|data-sort-value="B&A06"|Behaviour and Attitudes/The Sunday Times<ref group="p">{{Cite news|last=Moloney|first=Marita|title=Sinn Féin has overtaken Fine Gael to become the most popular political party in the country|language=en|url=https://www.newstalk.com/news/sinn-fein-overtakes-fine-gael-as-irelands-most-popular-party-poll-finds-1125122|date=20 December 2020|access-date=20 December 2020}}</ref> 
+|916
+|style="background:#D7ECEA"|'''32'''
+|22
+|27
+|3
+|5
+|1
+|2
+|0
+|7
+|-
+|data-sort-value="2020-11-29"|29 November 2020
+|data-sort-value="ITMos05"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|title=Next Irish General Election|url=https://twitter.com/NextIrishGE/status/1332853886021996546|access-date=2020-11-30|website=Twitter|language=en}}</ref>
+|1,044
+|style="background:#D7ECEA"|'''28'''
+|17
+|style="background:#D9E9F4"|'''28'''
+|4
+|4
+|5
+|2
+|4
+|9
+|-
+|data-sort-value="2020-11-25"|25 November 2020
+|data-sort-value="RedC05"|Red C/Business Post<ref group="p">{{Cite web|title=Boost for Sinn Féin in latest poll but Fine Gael remains most popular party
+|url=https://www.irishexaminer.com/news/arid-40098056.html|access-date=2020-11-28|website=Irish Examiner|language=en}}</ref> 
+|1,000
+|30
+|12
+|style="background:#D9E9F4"|'''33'''
+|5
+|3
+|4
+|3
+|2
+|8
+|-
+|data-sort-value="2020-10-24"|24 October 2020
+|data-sort-value="RedC04"|Red C/Business Post<ref group="p">{{Cite web|title=Budget earns Fiana Fáil ‘baby bounce’ of just 1% in latest poll|url=https://www.businesspost.ie/ireland/budget-earns-fiana-fail-baby-bounce-of-just-1-in-latest-poll-1f8fedbb|access-date=2020-10-25|website=Business Post|language=en}}</ref><ref group="p">{{Cite web|title=Red C Research|url=https://twitter.com/redcresearch/status/1320139714951847937|access-date=2020-10-25|website=Twitter|language=en}}</ref>
+|1,000
+|27
+|11
+|style="background:#D9E9F4"|'''37'''
+|6
+|3
+|3
+|2
+|2
+|9
+|-
+|data-sort-value="2020-10-17"|17 October 2020
+|data-sort-value="B&A05"|Behaviour and Attitudes/The Sunday Times<ref group="p">{{Cite news|last=O'Brien|first=Stephen|title=Steady support locked down for Fianna Fail, Fine Gael and government in poll|language=en|url=https://www.thetimes.co.uk/article/steady-support-locked-down-for-fianna-fail-fine-gael-and-government-in-poll-5jrfbcfzw|access-date=2020-10-31|issn=0140-0460}}</ref> 
+|931
+|30
+|19
+|style="background:#D9E9F4"|'''31'''
+|5
+|4
+|2
+|2
+|1
+|5
+|-
+|data-sort-value="2020-10-06"|6 October 2020
+|data-sort-value="Ipsos2"|Ipsos MRBI/Irish Times<ref group="p" name=":0">{{Cite web|last=Leahy|first=Pat|title=Fall in support for Fianna Fáil, Fine Gael as confidence in Covid-19 management slumps – poll|url=https://www.irishtimes.com/news/politics/fall-in-support-for-fianna-f%C3%A1il-fine-gael-as-confidence-in-covid-19-management-slumps-poll-1.4494233|url-status=live|access-date=2021-02-24|website=The Irish Times|language=en}}</ref>
+|1,200
+|29
+|17
+|style="background:#D9E9F4"|'''35'''
+|4
+|4
+|2
+|1
+|– <ref name="absent" group="nb" />
+|8
+|-
+|data-sort-value="2020-09-26"|26 September 2020
+|data-sort-value="ITMos05"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{cite news|url=https://extra.ie/2020/09/27/news/politics/new-poll-finally-shows-surge-in-support-for-taoiseach-as-sinn-fein-start-to-drop-off|title=New poll finally shows surge in support for Taoiseach as Sinn Fein start to drop off|last=Grennan|first=Dan|date=27 September 2020|website=extra.ie|access-date=27 September 2020}}</ref>
+|1,200
+|28
+|14
+|style="background:#D9E9F4"|'''32'''
+|4
+|4
+|5
+|3
+|3
+|7
+|-
+|data-sort-value="2020-09-15"|15 September 2020
+|data-sort-value="B&A04"|Behaviour and Attitudes/The Sunday Times<ref group="p">{{Cite journal|last=Cunningham|first=Paul|date=2020-09-19|title=Slight rise in support for Sinn Féin and Fine Gael|url=https://www.rte.ie/news/politics/2020/0919/1166237-sunday-times-poll/|work=RTÉ|language=en}}</ref>
+|900
+|style="background:#D7ECEA"|'''32'''
+|19
+|30
+|5
+|3
+|1
+|1
+|0
+|9
+|-
+|data-sort-value="2020-09-09"|9 September 2020
+|data-sort-value="RedC03"|Red C/Business Post<ref group="p">{{Cite web|title=Poll: Fianna Fáil fades in office as Fine Gael holds strong|url=https://www.businesspost.ie/ireland/poll-fianna-fail-fades-in-office-as-fine-gael-holds-strong-99a4f4fc|access-date=2020-09-13|website=Business Post|language=en}}</ref>
+|1,000
+|27
+|10
+|style="background:#D9E9F4"|'''35'''
+|6
+|3
+|4
+|2
+|2
+|10
+|-
+|data-sort-value="2020-08-22"|22 August 2020
+|data-sort-value="ITMos04"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|date=2020-08-23|title=Fine Gael remains most popular party as support for Sinn Féin surges in new opinion poll|url=https://www.galwaydaily.com/news/politics/fine-gael-remains-most-popular-party-as-support-for-sinn-fein-surges-in-new-opinion-poll/|access-date=2020-08-24|website=Galway Daily|language=en-US}}</ref>
+|1000
+|30
+|11
+|style="background:#D9E9F4"|'''35'''
+|3
+|5
+|5
+|2
+|2
+|7
+|-
+|data-sort-value="2020-07-28"|28 July 2020
+|data-sort-value="B&A03"|Behaviour and Attitudes/The Sunday Times<ref group="p">{{Cite web|last=McShane|first=Ian|date=July 2020|title=Sunday Times and Behaviour & Attitudes - July Opinion Poll 2020|url=https://banda.ie/wp-content/uploads/J.202038-Sunday-Times-July-2020-Report.pdf|url-status=live|access-date=2 June 2021|website=Behaviour & Attitudes}}</ref>
+|921
+|style="background:#D7ECEA"|'''30'''
+|20
+|29
+|6
+|3
+|1
+|1
+|0
+|11
+|-
+|data-sort-value="2020-07-18"|18 July 2020
+|data-sort-value="ITMos03"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|last=McDermott|first=Stephen|title=Fine Gael's popularity continues to rise as support for coalition partners falls|url=https://www.thejournal.ie/ireland-politics-opinion-poll-july-2020-5154009-Jul2020/|date=19 July 2020|access-date=2020-07-19|website=TheJournal.ie|language=en}}</ref>
+|1,000
+|26
+|12
+|style="background:#D9E9F4"|'''38'''
+|5
+|4
+|3
+|2
+|– <ref name="absent" group="nb" />
+|10
+|-
+|data-sort-value="2020-06-20"|20 June 2020
+|data-sort-value="ITMos02"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{Cite web|title=Opinion Poll by Ireland Thinks for Mail on Sunday, 19–20 June 2020|url=https://filipvanlaenen.github.io/irish_ep_polls/2020-06-20-IrelandThinks.html|date=15 June 2020|access-date=2020-08-08|website=filipvanlaenen.github.io}}</ref>
+|1,000
+|27
+|13
+|style="background:#D9E9F4"|'''34'''
+|8
+|4
+|3
+|2
+|– <ref name="absent" group="nb" />
+|10
+|-
+|data-sort-value="2020-06-14"|14 June 2020
+|data-sort-value="Ipsos1"|Ipsos MRBI/|Irish Times<ref group="p">{{cite news |last1=Leahy |first1=Pat |title=Irish Times poll: Almost half of Green voters support proposed coalition government|url=https://www.irishtimes.com/news/politics/irish-times-poll-almost-half-of-green-voters-support-proposed-coalition-government-1.4279892?mode=sample&auth-failed=1&pw-origin=https%3A%2F%2Fwww.irishtimes.com%2Fnews%2Fpolitics%2Firish-times-poll-almost-half-of-green-voters-support-proposed-coalition-government-1.4279892|access-date=16 June 2020 |work=The Irish Times}}</ref>
+|1,200
+|25
+|13
+|style="background:#D9E9F4"|'''37'''
+|12
+|2
+|<ref group="nb" name="MrbiOthers">The figure for 'Others/Independents' is the remainder when all others are removed. In the ''MRBI Poll conducted up to 14 June'' this figure appears to include all independents as well as all of PBP/S, Aontú and the SocDems.</ref>
+|<ref group="nb" name="MrbiOthers" />
+|<ref group="nb" name="MrbiOthers" />
+|10<ref group="nb" name="MrbiOthers" />
+|-
+|data-sort-value="2020-05-27"|27 May 2020
+|data-sort-value="RedC03"|Red C/Business Post<ref group="p">{{cite news|url=https://www.irishpost.com/news/new-opinion-poll-shows-support-for-fine-gael-remains-high-during-covid-19-pandemic-185905|title=New opinion poll shows support for Fine Gael remains high during Covid-19 pandemic|last=Beresford|first=Jack|work=Irish Post|date=31 May 2020|access-date=31 May 2020}}</ref><ref group="p">{{cite web |last1=Colwell |first1=Richard |title=General Election Opinion Poll May 2020 |url=https://www.redcresearch.ie/wp-content/uploads/2020/06/423820-SBP-31st-May-2020-Poll-Report.pdf |publisher=RedC/Business Post |access-date=7 June 2020}}</ref>
+|1,000
+|27
+|15
+|style="background:#D9E9F4"|'''35'''
+|5
+|3
+|4
+|2
+|1
+|8
+|-
+|data-sort-value="2020-05-23"|23 May 2020
+|data-sort-value="ITMos01"|Ireland Thinks/Irish Mail on Sunday<ref group="p">{{cite news|url=https://extra.ie/2020/05/24/news/politics/fianna-fail-support-drops-poll/|title=Latest poll shows support for Fianna Fail has dropped with one winner|last=Drennan|first=John|work=Extra.ie|date=24 May 2020|access-date=24 May 2020}}</ref>
+|1,012
+|27
+|16
+|style="background:#D9E9F4"|'''36'''
+|6
+|4
+|3
+|2
+|– <ref name="absent" group="nb" />
+|6
+|-
+|data-sort-value="2020-04-29"|29 April 2020
+|data-sort-value="RedC02"|Red C/Business Post<ref group="p">{{cite news|url=https://extra.ie/2020/05/03/must-see/fine-gael-pull-streets-ahead-of-sinn-fein-in-latest-poll-sparking-rumours-of-new-election|title=Fine Gael pull streets ahead of Sinn Fein in latest poll sparking rumours of new election|last=Lee|first=John|work=Extra.ie|date=3 May 2020|access-date=3 May 2020}}</ref><ref group="p">{{cite web|url=https://redcresearch.ie/wp-content/uploads/2020/05/423820-SBP-3rd-May-2020-Poll-Report.pdf|title=General Election Poll, May 2020|date=3 May 2020|access-date=10 May 2020}}</ref>
+|1,019
+|27
+|14
+|style="background:#D9E9F4"|'''35'''
+|7
+|3
+|3
+|2
+|1
+|8
+|-
+|data-sort-value="2020-03-25"|25 March 2020
+|data-sort-value="RedC01"|Red C/Business Post<ref group="p">{{cite news|url=https://www.thejournal.ie/varadkar-fine-gael-coronavirus-support-red-c-poll-5061090-Mar2020/|title=Coronavirus measures bring surge in public support for Fine Gael, new opinion poll suggests|last=McCrave|first=Conor|work=The Journal|date=29 March 2020|access-date=29 March 2020}}</ref><ref group="p">{{cite web|url=https://www.redcresearch.ie/wp-content/uploads/2020/03/423820-SBP-29-March-2020-Poll-Report.pdf|title=Post-Election & Covid-19 Opinion Poll March 2020|publisher=Red C|date=31 March 2020|access-date=2 April 2020}}</ref>
+|1,062
+|28
+|18
+|style="background:#D9E9F4"|'''34'''
+|5
+|3 
+|3 
+|2 
+|2 
+|5
+|-
+|data-sort-value="2020-03-10"|10 March 2020
+|data-sort-value="B&A02"|Behaviour and Attitudes/The Sunday Times<ref group="p">{{cite news|url=https://www.rte.ie/news/politics/2020/0314/1123302-poll-government/|title=Opinion poll suggests increase in support for Fine Gael|last=Cunningham|first=Paul|publisher=RTÉ|date=14 March 2020|access-date=15 March 2020}}</ref><ref group="p" name="FullPollData202003">{{Cite web|url=https://banda.ie/wp-content/uploads/J.1780-Sunday-Times-March-2020-Report.pdf|title=Sunday Times March 2020 Poll|last=McShane|first=Ian|publisher=B&A|date=14 March 2020|access-date=15 March 2020}}</ref>
+|912
+|style="background:#D7ECEA"|'''35'''
+|19
+|21
+|6
+|3
+|1
+|3
+|0
+|11
+|-
+|data-sort-value="2020-02-25"|25 February 2020
+|data-sort-value="B&A01"|Behaviour and Attitudes/The Sunday Times<ref group="p">{{cite news|url=https://www.rte.ie/news/ireland/2020/0229/1119451-sunday-times-opinion-poll/|title=Opinion poll suggests increase in Sinn Féin support|last=Lehane|first=Mícheál|publisher=RTÉ|date=1 March 2020|access-date=2 March 2020}}</ref><ref group="p" name="FullPollData202002">{{Cite web|url=https://banda.ie/wp-content/uploads/J.1608-Sunday-Times-Feb-2020-Report.pdf|title=Sunday Times February 2020 Poll|last=McShane|first=Ian|publisher=B&A|date=2 March 2020|access-date=2 March 2020}}</ref>
+|917
+|style="background:#D7ECEA"|'''35'''
+|20
+|18
+|6
+|3
+|2
+|3
+|1
+|12
+|-
+|data-sort-value="2020-02-16"|16 February 2020
+|data-sort-value="AR01"|[[Extra.ie|Amárach Research/Extra.ie]]<ref group="p">{{cite news|url=https://extra.ie/2020/02/19/news/politics/sinn-fein-second-election|title=Sinn Fein popularity would rise to 35% in event of a second election — Extra.ie Poll|last=Grennan|first=Dan|publisher=Extra.ie|date=19 February 2020|access-date=2 March 2020}}</ref><ref group="p">{{Cite web|url=https://twitter.com/europeelects/status/1230295011817816065|title=Ireland, Amárach Research poll|date=20 February 2020|website=@EuropeElects|language=en|access-date=2 March 2020}}</ref>
+|1,040
+|style="background:#D7ECEA"|'''35'''
+|17
+|18
+|9
+|3
+|5
+|3
+| – <ref group="nb" name="absent">Not specifically mentioned in the report.</ref>
+|10
+|- style="background:#EFEFEF;"
+|''8 February 2020''
+|''[[2020 Irish general election|General election]]''
+|–
+|style="background:#D7ECEA"|'''24.5'''
+|22.2
+|20.9
+|7.1
+|4.4
+|2.9
+|2.6
+|1.9
+|13.9
+|-
+|}
+
+===Opinion poll footnotes===
+{{reflist|group="nb"}}
+
+===Opinion poll sources===
+{{reflist|group="p"|2}}
+
+{{reflist|group="n"}}

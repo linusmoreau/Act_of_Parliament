@@ -25,6 +25,20 @@
 ! style="background:{{Christian Democrats (Sweden)/meta/color}};"|
 ! style="background:{{Sweden Democrats/meta/color}};"|
 |-
+|Sifo<ref>{{Cite news|title=VÄLJARBAROMETERN JUNI 2021|language=sv|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-juni-2021/|access-date=2021-06-19}}</ref>
+|7-17 Jun 2021
+|6,539
+|9.6
+| style="background:#F9BDC5;" |'''25.8'''
+|3.5
+|9.9
+|2.3
+|22.4
+|5.1
+|20.2
+|1.2
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.4
+|-
 |Novus<ref>{{Cite news|title=NOVUS/SVT VÄLJARBAROMETER
 |language=sv|url=https://novus.se/wp-content/uploads/2021/06/valjarbarometerjuni2021.pdf|access-date=2021-06-12}}</ref>
 |3 May-6 Jun 2021

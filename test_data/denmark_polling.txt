@@ -41,6 +41,30 @@
 ! data-sort-type="number" style="background:{{Social Democrats (Denmark)/meta/color}};"|
 ! data-sort-type="number" style="background:{{Venstre (Denmark)/meta/color}};"|
 |-
+|[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-20-06-2021.pdf Voxmeter]
+|14–20 Jun 2021
+| 1,022
+| style="background:#FACECD;" |'''28.4'''
+|14.6
+|6.7
+|5.3
+|9.1
+|8.6
+|13.8
+|0.8
+|6.7
+|1.8
+|–
+|1.5
+|–
+|0.1
+|2.6
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |13.8
+| style="background:#FACECD;" |'''52.3'''
+|45.1
+| style="background:{{Social Democrats (Denmark)/meta/color}};color:#FFFFFF;" |6.8
+|-
+
 |[https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-13-06-2021.pdf Voxmeter]
 |7–12 Jun 2021
 | 1,030

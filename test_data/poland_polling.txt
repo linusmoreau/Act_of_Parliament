@@ -24,6 +24,32 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| [https://www.rp.pl/Polityka/306209957-Sondaz-Polski-Lad-nie-zwieksza-poparcia-dla-Zjednoczonej-Prawicy.html IBRiS / "Rz"]
+| data-sort-value="2021-06-20" | 19–20 Jun 2021
+| 1,100
+| style="background:#C0DBFC;" | '''34.7'''
+| 13.0
+| 9.1
+| 5.1
+| 
+| 10.3
+| 20.2
+| 7.7
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.5'''
+|-
+| [https://wiadomosci.wp.pl/sondaz-dla-wp-traci-holownia-rosnie-ko-i-lewica-6652756177447904a United Survey / WP.pl]
+| data-sort-value="2021-06-19" | 19 Jun 2021
+| 1,000
+| style="background:#C0DBFC;" | '''34.2'''
+| 14.7
+| 10.4
+| 5.3
+| 
+| 7.1
+| 19.0
+| 9.3
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.2'''
+|-
 | [https://twitter.com/CBOS_Info/status/1405887017880276995 CBOS]
 | data-sort-value="2021-06-17" | 7–17 Jun 2021
 | 1,218
@@ -36,6 +62,20 @@
 | 16.1
 | 22
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''19.5''' 
+|-
+| [https://www.wnp.pl/parlamentarny/sondaze/sondaz-czolowka-partii-politycznych-zaliczyla-spadek-poparcia,905.html Kantar]
+| data-sort-value="2021-06-16" | 11–16 Jun 2021
+| 986
+| style="background:#C0DBFC;" | '''30'''
+| 20
+| 7
+| 4
+| 2
+| 6
+| 14
+| 12
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
+
 |-
 |
 | data-sort-value="2021-06-14" | 14 Jun 2021

@@ -54,8 +54,6 @@ Poll results are listed in the tables below in reverse chronological order, show
 !style="background:{{Voice – Social Democracy/meta/color}}; width:40px;"|
 !style="background:{{REPUBLIC (Slovakia)/meta/color}}; width:40px;"|
 |-
-|data-sort-value="2021-03-28"|24 Feb 2024|| colspan="20" |Assumed date for the [[Next Slovak parliamentary election|next parliamentary election]]
-|-
 |7–11 Jun 2021
 |AKO
 |1,000
@@ -568,7 +566,6 @@ Poll results are listed in the tables below in reverse chronological order, show
 !style="background:{{Voice – Social Democracy/meta/color}}; width:40px;"|
 !style="background:{{REPUBLIC (Slovakia)/meta/color}}; width:40px;"|
 !style="width:20px;" rowspan="4"| Lead
-|
 |- style="font-size:85%;"
 !rowspan="3"|[[Ordinary People (Slovakia)|OĽaNO]]
 !rowspan="3"|[[Direction – Social Democracy|SMER-SD]]

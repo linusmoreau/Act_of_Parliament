@@ -14,7 +14,37 @@
 !scope="col" {{vert header|stp=1|cellstyle=position:-webkit-sticky; position:sticky; top:-1px;|Andrew Yang}}
 !scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;" | Others
 !scope="col" style="position:-webkit-sticky; position:sticky; top:-1px;" | Undecided
-|-<!-- The June 14-17 Slingshot Strategies/Yang for NY internal poll only released numbers among THOSE WHO HAVE ALREADY VOTED (54% of the electorate, n=599 out of n=1,100 likely Dem primary voters) and shouldn't be added here as the results are not comparable – this was a selective release of results because of his stronger performance among those who have already voted than the 46% of primary day in-person voters, the results of which the campaign refused to disclose -->
+|-<!-- The June 14-17 Slingshot Strategies/Yang for NY internal poll only released numbers among THOSE WHO HAVE ALREADY VOTED (54% of the electorate, n=599 out of n=1,100 likely Dem primary voters) and shouldn't be added here as the results are not comparable – this was a selective release of results because of his stronger performance among those who have already voted than the 46% of primary day in-person voters, the results of which the campaign refused to disclose: Yang pollster Evan Roth Smith - https://twitter.com/TheRealERS/status/1405887053339017227 "No, we went out and polled as many people who had voted as possible in the time we had. If someone hadn't voted, but said they planned to, we kept them in the poll and asked them about their planned voting method. I think 75-80% of votes will be cast on Election Day [...] 54% of our sample already voted, and another 46% indicated they planned to vote so we kept them around and asked them some questions. Doesn't mean it's a projection of vote breakout." -->
+!scope="row"| [https://fairvote.app.box.com/s/uwqzhjcmu6pvjuz5qve33ioff0u7zndp Citizen Data]{{efn-ua|This poll was sponsored by [[FairVote]]|name=FV}}{{efn|name=first|group=first}}
+|Jun 14–17, 2021
+|800 (LV)
+|±&nbsp;3.5%
+| style="background:#d7e7ff" |'''32%'''
+|5%
+|18%
+|3%
+|6%
+|6%
+|18%
+|11%
+|2%
+|–
+|-
+!scope="row"| [https://www.ipsos.com/sites/default/files/ct/news/documents/2021-06/ipsos-topline-nyc-poll-wave3-062121.pdf Ipsos]
+|June 10–17, 2021
+|702 (LV)
+|±&nbsp;5.7%
+| style="background:#d7e7ff" |'''27%'''
+|4%
+|12%
+|5%
+|2%
+|9%
+|12%
+|20%
+|<1%
+|7%
+|-
 !scope="row"| [https://emersonpolling.reportablenews.com/pr/nyc-mayor-2021-adams-stays-ahead-but-rank-choice-voting-closes-gap-for-wiley-and-garcia Emerson College]{{efn-ua|name=WPIXNN}}{{efn|name=first|group=first}}
 |Jun 15–16, 2021
 |664 (LV)
