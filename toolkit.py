@@ -143,6 +143,7 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
     relv: List[int] = []
 
     upcome = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
+    disc = []
     mini = upcome[0]
     if end is None:
         maxi = upcome[-1]
@@ -175,20 +176,72 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
         if cutoff == -1:
             continue
         else:
+            disc.extend(relv[:cutoff])
             relv = relv[cutoff:]
-        # print(relv, upcome)
+        shown = relv.copy()
+        spread = breadth
+        # if place < relv[0] and len(disc) >= 1:
+        #     shown = disc[:1] + shown
+        # if place > relv[-1] and len(upcome) >= 1:
+        #     shown.extend(upcome[:1])
+        # extent = abs(shown[-1] - shown[0])
+        # if extent > breadth:
+        #     spread = extent
+        # else:
+        #     spread = breadth
         try:
             if loc:
-                locnum = sum([variable_weight(x - place, breadth, 3) for x in relv])
-                ndat[place] = (sum([sum(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]) /
-                               sum([len(dat[x]) * variable_weight(x - place, breadth, locnum) for x in relv]))
+                locnum = sum([cube_weight(x - place, spread) for x in shown])
+                if locnum < 3:
+                    locnum = 3
+                ndat[place] = (sum([sum(dat[x]) * variable_weight(x - place, spread, locnum) for x in shown]) /
+                               sum([len(dat[x]) * variable_weight(x - place, spread, locnum) for x in shown]))
             else:
-                ndat[place] = (sum([sum(dat[x]) * cube_weight(x - place, breadth) for x in relv]) /
-                               sum([len(dat[x]) * cube_weight(x - place, breadth) for x in relv]))
+                ndat[place] = (sum([sum(dat[x]) * cube_weight(x - place, spread) for x in shown]) /
+                               sum([len(dat[x]) * cube_weight(x - place, spread) for x in shown]))
         except ZeroDivisionError:
             pass
     return ndat
 
+
+# def weighted_average2(dat: Dict[float, List[float]], breadth: int, res: int, end=None):
+#     # breadth here is the number of data points included in either direction
+#     ndat = {}
+#
+#     points = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
+#     mini = points[0]
+#     if end is None:
+#         maxi = points[-1]
+#     else:
+#         maxi = end
+#     step = (maxi - mini) / res
+#     relv = []
+#     for i in range(res + 1):
+#         place = round(mini + step * i)
+#         if place > maxi:
+#             break
+#
+#         for j, x in enumerate(points):
+#             if x > place:
+#                 cutoff = j
+#                 break
+#         else:
+#             cutoff = None
+#         if cutoff is not None:
+#             s = cutoff - breadth
+#             if s < 0:
+#                 s = 0
+#             e = cutoff + breadth
+#             if e >= len(points):
+#                 e = -1
+#             relv = points[s:e]
+#         b = max([abs(relv[0] - place), abs(relv[-1] - place)])
+#         try:
+#             ndat[place] = (sum([sum(dat[x]) * cube_weight(x - place, b) for x in relv]) /
+#                            sum([len(dat[x]) * cube_weight(x - place, b) for x in relv]))
+#         except ZeroDivisionError:
+#             pass
+#     return ndat
 
 # def loess(dat: Dict[float, List[float]], breadth: float, res: int):
 #     ndat = {}
@@ -241,7 +294,7 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
 #     return ndat
 
 
-def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, res=None, loc=False, end=None) \
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, res=None, loc=False, end=None) \
         -> Dict[str, Dict[float, List[float]]]:
     # Breadth is the x-distance considered in either direction
     ndat = {}
