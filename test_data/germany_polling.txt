@@ -23,6 +23,32 @@
 ! style="background:{{Alliance 90/The Greens/meta/color}};"|
 |-
 | [https://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2021-06-21"| 18–21 Jun 2021
+| 2,082
+| –
+| style="background:#D7D5D7;"| '''28.5'''
+| 15.5
+| 10.5
+| 14
+| 7
+| 19
+| 5.5
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9.5
+|-
+| [https://www.wahlrecht.de/umfragen/gms.htm GMS]
+| data-sort-value="2021-06-21"| 16–21 Jun 2021
+| 1,002
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 16
+| 10
+| 12
+| 8
+| 20
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8
+|-
+| [https://www.wahlrecht.de/umfragen/insa.htm INSA]
 | data-sort-value="2021-06-20"| 14–18 Jun 2021
 | 1,502
 | –
