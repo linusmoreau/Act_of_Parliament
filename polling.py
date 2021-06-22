@@ -2,10 +2,9 @@ from ui import *
 from toolkit import *
 import date_kit
 import types
+from datetime import date
 import urllib.request
 from bs4 import BeautifulSoup
-
-today = Date(2021, 6, 18)
 
 
 def read_data(content, key, start, restart, date, choice):
@@ -704,8 +703,8 @@ def update_data(sel="All"):
         'Sweden':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
         'New York': 'https://en.wikipedia.org/w/index.php?title='
-                    'Template:Opinion_polling_for_the_2021_New_York_City_mayoral_election/Democratic_primaries&action='
-                    'edit'
+                    'Template:Opinion_polling_for_the_2021_New_York_City_mayoral_election/Democratic_primary&action='
+                    'edit&section=T-3'
     }
     files = {
         'New York': 'test_data/new_york_city_polling.txt'
@@ -734,5 +733,8 @@ def update_data(sel="All"):
 if __name__ == '__main__':
     options = ['Austria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Hungary', 'Iceland',
                'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain', 'Sweden', 'New York']
+    tod = str(date.today())
+    today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
+    # print(str(date.year), str(date.month), str(date.day))
     menu_page()
     game_loop()
