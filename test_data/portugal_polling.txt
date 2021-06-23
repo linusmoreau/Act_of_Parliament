@@ -9,13 +9,13 @@ Poll results are listed in the table below in reverse chronological order, showi
 ! style="width:145px;" rowspan="2"| Fieldwork date
 ! class="unsortable" style="width:50px;" rowspan="2"| Sample size
 ! class="unsortable" style="width:45px;" rowspan="2"| Turnout
-! class="sortable" style="width:35px;"| [[File:PS Logo (Text version).png|30px|link=Socialist Party (Portugal)|PS]]
-! class="sortable" style="width:35px;"| [[File:PSD Logo (Text version).png|30px|link=Social Democratic Party (Portugal)|PSD]]
+! class="sortable" style="width:35px;"| [[File:Partido Socialista (1973-).png|30px|link=Socialist Party (Portugal)|PS]]
+! class="sortable" style="width:35px;"| [[File:Partido Social Democrata Logo.svg|30px|link=Social Democratic Party (Portugal)|PSD]]
 ! class="sortable" style="width:35px;"| [[File:LeftBloc.svg|25px|link=Left Bloc|BE]]
 ! class="sortable" style="width:35px;"| [[File:PCP (Símbolo Eleitoral).png|14px|link=Unitary Democratic Coalition|CDU]][[File:Partido Ecologista "Os Verdes" (Símbolo Eleitoral).png|14px|link=Unitary Democratic Coalition|CDU]]
 ! class="sortable" style="width:35px;"| [[File:Cds simbolo 2.png|25px|link=CDS – People's Party|CDS–PP]]
-! class="sortable" style="width:35px;"| [[File:Logo Pessoas-Animais-Natureza (text only).png|30px|link=People–Animals–Nature|PAN]]
-! class="sortable" style="width:35px;"| [[File:Logo Chega!.png|33px|link=Chega (political party)|CH]]
+! class="sortable" style="width:35px;"| [[File:Pessoas-Animais-Natureza.png|30px|link=People–Animals–Nature|PAN]]
+! class="sortable" style="width:35px;"| [[File:Chega.png|33px|link=Chega (political party)|CH]]
 ! class="sortable" style="width:35px;"| [[File:Iniciativa Liberal logo 1.png|33px|link=Liberal Initiative (Portugal)|IL]]
 ! class="sortable" style="width:35px;"| [[File:Partido_LIVRE_logo.png|27px|link=LIVRE|L]]
 ! class="unsortable" style="width:35px;" rowspan="2"| {{abbr|O|Other}}

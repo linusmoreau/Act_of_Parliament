@@ -25,6 +25,20 @@
 ! style="background:{{Christian Democrats (Sweden)/meta/color}};"|
 ! style="background:{{Sweden Democrats/meta/color}};"|
 |-
+|Ipsos<ref>{{Cite news|title=DN/Ipsos: Högsta väljarstödet för V på 19 år|language=sv|url=https://www.expressen.se/nyheter/dnipsos-hogsta-valjarstodet-for-v-pa-19-ar/|access-date=2021-06-22}}</ref>
+|8-20 Jun 2021
+|1,547
+|12
+| style="background:#F9BDC5;" |'''24'''
+|3
+|10
+|2
+|22
+|6
+|19
+|–
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |2
+|-
 |Sifo<ref>{{Cite news|title=VÄLJARBAROMETERN JUNI 2021|language=sv|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-juni-2021/|access-date=2021-06-19}}</ref>
 |7-17 Jun 2021
 |6,539
