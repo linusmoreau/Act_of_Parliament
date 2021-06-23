@@ -2,7 +2,7 @@ from ui import *
 from toolkit import *
 import date_kit
 import types
-from datetime import date
+import datetime
 import urllib.request
 from bs4 import BeautifulSoup
 
@@ -53,10 +53,6 @@ def read_data(content, key, start, restart, date, choice):
                         i += 1
                         continue
                 elif choice == 'Czechia':
-                    # if 'Oct–Jan' in line:
-                    #     rot = None
-                    #     i += 1
-                    #     continue
                     if 'rowspan="2"' not in line:
                         rot += 23
                         i += 1
@@ -220,6 +216,7 @@ class GraphPage:
         self.graph = None
         self.choice = choice
         self.view = view
+        self.minx = -1
         self.spread = GraphPage.spread
         self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, \
             self.end_date = self.choice_setting(self.choice)
@@ -307,6 +304,18 @@ class GraphPage:
         self.down_spread.components.append(img)
         self.down_spread.show()
 
+        pinboard2 = types.SimpleNamespace()
+        pinboard2.select_buttons = []
+        timescales = [1, 2, 5, 10, -1]
+        for i, s in enumerate(timescales):
+            b = SelectButton((screen_width - (6 + 3/2 * i) * unit_size, height * 2 / 3),
+                             (unit_size, unit_size), label='MAX' if s == -1 else str(s),
+                             align=CENTER, parent=pinboard2, deselectable=False, exclusive=True)
+            b.callback(functools.partial(self.change_minx, s))
+            if s == -1:
+                b.select()
+            b.show()
+            pinboard2.select_buttons.append(b)
         self.make_graph()
 
     @staticmethod
@@ -582,7 +591,7 @@ class GraphPage:
                 dat[line][x] = list(filter(lambda x: x is not None and (x != 0 or self.view == 'parties'), ys))
 
         date = Date(2021, 1, 1)
-        if self.end_date is not None and date_kit.date_dif(today, self.end_date) < 0:
+        if self.end_date is not None and date_kit.date_dif(today, self.end_date) <= 0:
             end = date_kit.date_dif(date, self.end_date)
         else:
             end = None
@@ -591,6 +600,10 @@ class GraphPage:
             x_max = date_kit.date_dif(date, self.end_date)
         else:
             x_max = None
+        if self.minx == -1:
+            x_min = None
+        else:
+            x_min = -date_kit.date_dif(Date(today.year - self.minx, today.month, today.day), date)
         title = "Opinion Polling for " + self.choice
 
         if self.graph is not None:
@@ -598,7 +611,7 @@ class GraphPage:
 
         self.graph = GraphDisplay(screen_center, (screen_width, screen_height), ndat, x_title=None,
                                   y_title="Support (%)", title=title, step=1, align=CENTER, colours=self.col,
-                                  initial_date=date, leader=True, y_min=0, dat_points=dat, x_max=x_max)
+                                  initial_date=date, leader=True, y_min=0, dat_points=dat, x_max=x_max, x_min=x_min)
         self.graph.show()
 
     def change_view(self, view):
@@ -619,6 +632,10 @@ class GraphPage:
                 self.spread = 15
                 self.down_spread.disable()
         self.spread_txt.update(str(self.spread))
+        self.make_graph()
+
+    def change_minx(self, minx):
+        self.minx = minx
         self.make_graph()
 
 
@@ -733,7 +750,7 @@ def update_data(sel="All"):
 if __name__ == '__main__':
     options = ['Austria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Hungary', 'Iceland',
                'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain', 'Sweden', 'New York']
-    tod = str(date.today())
+    tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
     # print(str(date.year), str(date.month), str(date.day))
     menu_page()
