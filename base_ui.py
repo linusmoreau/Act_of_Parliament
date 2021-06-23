@@ -1652,11 +1652,18 @@ class GraphDisplay(Widget):
     def get_x_max(self):
         return max([max(self.dat[k].keys()) for k in self.dat])
 
+    def get_x_min(self):
+        return min([min(self.dat[k].keys()) for k in self.dat])
+
     def moment(self, place):
+        small = self.get_x_min() - self.x_min
+        big = self.get_x_max() - self.x_min
         if place < 0:
             place = 0
-        elif place > self.get_x_max() - self.x_min:
-            place = self.get_x_max() - self.x_min
+        elif place < small:
+            place = small
+        elif place > big:
+            place = big
         x = self.graph_rect.x + self.x_scale * place
         y_vals = {}
         for line in self.dat.keys():
@@ -1930,9 +1937,11 @@ class GraphDisplay(Widget):
                 line_colour = black
             points = []
             for x in self.dat[line].keys():
-                point = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
-                         int(self.rect.h - ((self.dat[line][x] - self.y_min) * self.y_scale + self.bottom_margin)))
-                points.append(point)
+                p = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
+                     int(self.rect.h - ((self.dat[line][x] - self.y_min) * self.y_scale + self.bottom_margin)))
+                if self.graph_rect.x <= p[0] <= self.graph_rect.x + self.graph_rect.w and \
+                        self.graph_rect.y <= p[1] <= self.graph_rect.y + self.graph_rect.h:
+                    points.append(p)
                 # pygame.gfxdraw.aacircle(self.surface, point[0], point[1], 5, line_colour)
                 # pygame.gfxdraw.filled_circle(self.surface, point[0], point[1], 5, line_colour)
                 # pygame.draw.circle(self.surface, line_colour, point, 0)
