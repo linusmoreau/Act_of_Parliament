@@ -24,6 +24,29 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/555996-najnowszy-sondaz-partyjny-takze-scenariusz-z-powrotem-tuska Social Changes / wPolityce.pl]
+| rowspan="2" data-sort-value="2021-06-21" | 18–21 Jun 2021
+| rowspan="2" | 1,060
+| style="background:#C0DBFC;" | '''33'''
+| 19
+| 9
+| 4
+| 2
+| 7
+| 25
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8''' 
+|-
+| style="background:#C0DBFC;" | '''32'''
+| 25{{efn|[[Donald Tusk]] as party leader}}
+| 8
+| 3
+| 3
+| 6
+| 22
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''7''' 
+|-
 | [https://www.rp.pl/Polityka/306209957-Sondaz-Polski-Lad-nie-zwieksza-poparcia-dla-Zjednoczonej-Prawicy.html IBRiS / "Rz"]
 | data-sort-value="2021-06-20" | 19–20 Jun 2021
 | 1,100

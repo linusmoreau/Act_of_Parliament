@@ -61,6 +61,48 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 | –
 | style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 5.6
 |-
+| DYM/Henneo<ref>{{cite web |title=PP y Vox podrían gobernar, pero el PSOE se recupera tras el bache de Madrid |url=https://www.20minutos.es/noticia/4739169/0/encuesta-dym-pp-y-vox-podrian-gobernar-pero-el-psoe-se-recupera-tras-el-bache-de-madrid/ |language=es |work=20 minutos |date=23 June 2021}}</ref><ref>{{cite web |title=ESPAÑA. Encuesta DYM 23/06/2021: UP-ECP-EC 9,9% (21/24), MÁS PAÍS-EQUO 2,3% (2/3), PSOE 25,7% (101/105), Cs 3,5% (2/3), PP 27,9% (120/125), VOX 16,0% (53/57) |url=https://www.electograph.com/2021/06/encuesta-dym-210623.html |language=es |work=Electograph |date=23 June 2021}}</ref>
+| 17–21 Jun 2021
+| 1,002
+|?
+| 25.7<br/>{{font|size=75%|font=Verdana|text=101/105}}
+| {{Party shading/PP}}| '''27.9'''<br/>{{font|size=75%|font=Verdana|text=120/125}}
+| 16.0<br/>{{font|size=75%|font=Verdana|text=53/57}}
+| 9.9<br/>{{font|size=75%|font=Verdana|text=21/24}}
+| 3.5<br/>{{font|size=75%|font=Verdana|text=2/3}}
+| –
+| 2.3<br/>{{font|size=75%|font=Verdana|text=2/3}}
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 2.2
+|-
+| Celeste-Tel/Onda Cero<ref>{{cite web |title=ESPAÑA. Encuesta Celeste-Tel 23/06/2021: UP-ECP-EC 9,5% (21), MÁS PAÍS-EQUO 5,7% (9), PSOE 25,3% (98), Cs 2,4% (1), PP 29,8% (131), VOX 15,5% (49) |url=https://www.electograph.com/2021/06/encuesta-celeste-tel-210623.html |language=es |work=Electograph |date=23 June 2021}}</ref>
+| 14–18 Jun 2021
+| 1,100
+|?
+| 25.3<br/>{{font|size=75%|font=Verdana|text=98}}
+| {{Party shading/PP}}| '''29.8'''<br/>{{font|size=75%|font=Verdana|text=131}}
+| 15.5<br/>{{font|size=75%|font=Verdana|text=49}}
+| 9.5<br/>{{font|size=75%|font=Verdana|text=21}}
+| 2.4<br/>{{font|size=75%|font=Verdana|text=1}}
+| 3.2<br/>{{font|size=75%|font=Verdana|text=13}}
+| 5.7<br/>{{font|size=75%|font=Verdana|text=9}}
+| 2.2<br/>{{font|size=75%|font=Verdana|text=8}}
+| 1.4<br/>{{font|size=75%|font=Verdana|text=6}}
+| 1.1<br/>{{font|size=75%|font=Verdana|text=5}}
+| 0.9<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.7<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=2}}
+| 0.2<br/>{{font|size=75%|font=Verdana|text=1}}
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 4.5
+|-
 | ElectoPanel/Electomanía<ref>{{cite web |title=ElectoPanel (20J): Sánchez sube tras la manifestación de Colón |url=https://electomania.es/ep20j21/ |language=es |work=Electomanía |date=20 June 2021}}</ref>
 | 12–18 Jun 2021
 | 1,332
