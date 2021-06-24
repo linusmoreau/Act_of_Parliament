@@ -1991,8 +1991,12 @@ def game_loop():
         # handle events
         all_wids = get_all_wids()
         for event in pygame.event.get():
+            try:
+                isdebug = data.settings['debug']
+            except AttributeError:
+                isdebug = True
             if event.type == pygame.QUIT or \
-                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and data.settings['debug']):
+                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and isdebug):
                 terminate()
             elif event.type == pygame.USEREVENT:
                 Music.channel.new_track()
