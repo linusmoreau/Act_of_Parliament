@@ -653,11 +653,14 @@ class Bill(CustomObject):
 
     '''provisions in {subject: position, subject: position, etc.} format'''
 
-    def __init__(self, sponsor, provisions, kind, parliament=data.game_state["parliament"], name=None, **kwargs):
+    def __init__(self, sponsor, provisions, kind, parliament=None, name=None, **kwargs):
         self.sponsor = sponsor
         self.provisions = provisions
         self.kind = kind
-        self.parliament = parliament
+        if parliament is None:
+            self.parliament = data.game_state["parliament"]
+        else:
+            self.parliament = parliament
         self.main_provision = kwargs.get("main_provision", list(self.provisions.keys())[0])
         self.draft_cost = kwargs.get("draft_cost", self.det_draft_cost())
         self.draft_progress = kwargs.get("draft_progress", 0)
@@ -1018,8 +1021,8 @@ def replenish_oop(eligible, num, times):
         over = False
     else:
         over = True
-    for i in range(len(data.LCPMB)):
-        id_num = data.LCPMB.pop(0)
+    for i in range(len(data.lcpmb)):
+        id_num = data.lcpmb.pop(0)
         if (len(politicians[id_num].bwfc) == times and eligible.count(id_num) < times) or \
                 len(politicians[id_num].bwfc) > times:
             eligible.append(id_num)
@@ -1077,12 +1080,12 @@ def establish_pol():
     random.shuffle(mps)
     for mp in mps:
         if mp not in cabinet:
-            data.LCPMB.append(mp.id_num)
+            data.lcpmb.append(mp.id_num)
 
 
 def new_parliament():
     data.government_orders.clear()
-    data.LCPMB.clear()
+    data.lcpmb.clear()
     establish_pol()
     data.order_of_precedence.clear()
     for b in bills.values():
@@ -1119,5 +1122,4 @@ ridings: Dict[str, Riding] = {}  # keys are region's postal code + district numb
 bills: Dict[int, Bill] = {}  # keys are id_num
 policies: Dict[str, Policy] = {}     # keys are policy tags
 
-all_data = [parties, politicians, former_politicians, persons, regions, ridings, bills, policies]
-all_data.extend(data.containers)
+all_data: List = [parties, politicians, former_politicians, persons, regions, ridings, bills, policies]

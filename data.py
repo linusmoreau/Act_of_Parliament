@@ -25,12 +25,13 @@ order_of_precedence: List[int]
 government_orders: List[int]
 lcpmb: List[int]
 default_game_state: Dict
+page_history: List
 
 
 def init():
     global credit, order_paper, poll_types, settings, game_title, soundtrack, containers, regions, parties, \
         all_values, game_state, votes, vote_subjects, opinion_polls, policies, colours, imminent_progress, \
-        order_of_precedence, government_orders, lcpmb, default_game_state
+        order_of_precedence, government_orders, lcpmb, default_game_state, page_history
 
     government_orders = []  # contains ID numbers of bills the government is bringing up
 
@@ -82,8 +83,9 @@ def init():
         default_game_state = {"player": None, "parliament": doc["parliament"], "turn": 1, "date": date}
         game_state = default_game_state.copy()
         soundtrack = doc["soundtrack"]
+        page_history = []
 
-        containers = [votes, vote_subjects, game_state, opinion_polls, government_orders, lcpmb,
+        containers = [votes, vote_subjects, page_history, game_state, opinion_polls, government_orders, lcpmb,
                       order_of_precedence, imminent_progress]
 
     try:

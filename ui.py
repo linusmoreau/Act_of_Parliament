@@ -1762,7 +1762,8 @@ class ToolBar(Widget):
                              int(BASE_FONT_SIZE * 1.5), background_colour=light_grey, parent=self, align=TOPLEFT)
         self.components.append(self.turn_txt)
 
-        self.date_txt = Text(data.game_state["date"].__repr__(), (self.turn_txt.rect.left, self.forw_button.rect.bottom),
+        self.date_txt = Text(data.game_state["date"].__repr__(),
+                             (self.turn_txt.rect.left, self.forw_button.rect.bottom),
                              align=BOTTOMLEFT, parent=self, background_colour=light_grey,
                              font_size=int(BASE_FONT_SIZE * 1.2))
         self.components.append(self.date_txt)
@@ -1961,6 +1962,8 @@ def terminate():
 
 
 def game_start():
+    data.init()
+    logic.all_data.extend(data.containers)
     set_cursor(0)
     pygame.display.set_caption(data.game_title)
     Music(list(data.soundtrack.keys()))
@@ -1971,8 +1974,12 @@ def game_start():
 
 
 def game_loop():
+    global background
+
     def get_all_wids():
         return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances + [fps]
+
+    background = make_background()
 
     old_mouse = pygame.mouse.get_pos()
     frame = 0
@@ -2058,10 +2065,10 @@ def get_page(page, loc=None):
         pages[page].open_page()
 
 
-background = make_background()
 current_page = None
 page_index = -1
 pages = {}
+background = make_background()
 
 if __name__ == "__main__":
     game_loop()
