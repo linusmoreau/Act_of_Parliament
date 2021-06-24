@@ -24,6 +24,19 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| [https://wiadomosci.dziennik.pl/polityka/artykuly/8197534,koalicja-obywatelska-zjednoczona-prawica-sondaz.html Research Partner]
+| data-sort-value="2021-06-22" | 18–21 Jun 2021
+| 1,048
+| style="background:#C0DBFC;" | '''31.2'''
+| 17.4
+| 7.0
+| 3.1
+| 2.0
+| 6.1
+| 22.5
+| 10.8{{efn|0.9% others, 9.9% don't know}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''8.7''' 
+|-
 | rowspan="2" style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/555996-najnowszy-sondaz-partyjny-takze-scenariusz-z-powrotem-tuska Social Changes / wPolityce.pl]
 | rowspan="2" data-sort-value="2021-06-21" | 18–21 Jun 2021
 | rowspan="2" | 1,060

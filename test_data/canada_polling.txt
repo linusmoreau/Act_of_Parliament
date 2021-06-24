@@ -27,19 +27,21 @@
 ! style="background:{{Canadian party colour|CA|Green}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|PPC}}" data-sort-type="number"|
 |-
+| [[Abacus Data]] || {{dts|June 21, 2021}} || [https://abacusdata.ca/liberal-fortunes-improve-lead-by-10/ HTML] || 27 || {{Party shading/Liberal}}|'''37''' || 18 || 9 || 5 || 3 || 1 || ±2.2 pp || 2,070 || online || {{Party shading/Liberal}}|'''10'''
+|-
 | [[Léger Marketing|Leger]] || {{dts|June 20, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Legers-North-American-Tracker-June-21st-2021.pdf PDF] || 30 || {{Party shading/Liberal}}|'''34''' || 20 || 8 || 5 || {{n/a}} || 4 || ±2.49 pp || 1,542 || online || {{Party shading/Liberal}}|'''4'''
 |-
 | [[Nanos Research]] || {{dts|June 18, 2021}} || [https://nationalpost.com/opinion/john-ivison-with-conservatives-down-in-the-polls-erin-otoole-faced-with-a-brave-choice/ HTML] || 25.3 || {{Party shading/Liberal}}|'''37.4''' || 18.0 ||  {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.1'''
 |-
-| [[Abacus Data]] || {{dts|June 16, 2021}} || [https://abacusdata.ca/liberals-lead-by-5-ndp-gaining/ HTML] || 29 || {{Party shading/Liberal}}|'''34''' || 21 ||  8 || 6 || 1 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''5'''
+| [[Abacus Data]] || {{dts|June 16, 2021}} || [https://abacusdata.ca/liberals-lead-by-5-ndp-gaining/ HTML] || 29 || {{Party shading/Liberal}}|'''34''' || 21 || 8 || 6 || 1 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''5'''
 |-
-| Research Co. || {{dts|June 14, 2021}} || [https://researchco.ca/2021/06/17/cdnpoli-june2021/ HTML] || 30 || {{Party shading/Liberal}}|'''38''' || 20 ||  5 || 5 || 1 || 1 || ±3.1 pp || 1,000 || online || {{Party shading/Liberal}}|'''8'''
+| Research Co. || {{dts|June 14, 2021}} || [https://researchco.ca/2021/06/17/cdnpoli-june2021/ HTML] || 30 || {{Party shading/Liberal}}|'''38''' || 20 || 5 || 5 || 1 || 1 || ±3.1 pp || 1,000 || online || {{Party shading/Liberal}}|'''8'''
 |-
 | [[Mainstreet Research]] || {{dts|June 14, 2021}} || [https://ipolitics.ca/2021/06/17/liberals-maintain-lead-as-tory-support-drops-mainstreet-poll/ HTML] || 27.3 || {{Party shading/Liberal}}|'''37.7''' || 17.2 || 5.0 || 5.9 || {{n/a}} || 6.9 || ±2.7 pp || 1,291 || IVR || {{Party shading/Liberal}}|'''10.4'''
 |-
 | [[Ekos Research Associates|EKOS]] || {{dts|June 14, 2021}} || [https://www.ekospolitics.com/index.php/2021/06/politics-and-pandemic/ HTML] || 26.2 || {{Party shading/Liberal}}|'''35.0''' || 17.3 || 6.6 || 8.3 ||  3.9 || 2.7 || ±2.6 pp || 1,412 || IVR || {{Party shading/Liberal}}|'''8.8'''
 |-
-| [[Nanos Research]] || {{dts|June 11, 2021}} || [https://www.hilltimes.com/wp-content/uploads/2021/06/062121_ht_1.pdf#page=20 PDF] || 26.3 || {{Party shading/Liberal}}|'''37.4''' || 17.4 ||  {{n/a}} || 7.0 || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) || {{Party shading/Liberal}}|'''11.1'''
+| [[Nanos Research]] || {{dts|June 11, 2021}} || [https://www.hilltimes.com/wp-content/uploads/2021/06/062121_ht_1.pdf#page=20 PDF] || 26.3 || {{Party shading/Liberal}}|'''37.4''' || 17.4 || {{n/a}} || 7.0 || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) || {{Party shading/Liberal}}|'''11.1'''
 |-
 | [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|June 7, 2021}} || [https://angusreid.org/wp-content/uploads/2021/06/2021.06.11_Federal-Politics.pdf PDF] || 30 || {{Party shading/Liberal}}|'''33''' || 21 || 6 || 4|| {{n/a}} || 5 || ±2.0 pp || 4,948 || online || {{Party shading/Liberal}}|'''3'''
 |-
@@ -49,7 +51,7 @@
 |-
 | Innovative Research || {{dts|May 31, 2021}} || [https://innovativeresearch.ca/wp-content/uploads/2021/06/CTM2105-Federal-Report-Release-Deck.pdf PDF] || 27 || {{Party shading/Liberal}}|'''38''' || 15 || 8 || 8 || 4 || 1 || {{n/a}} || 2,579 || online || {{Party shading/Liberal}}|'''11'''
 |-
-| [[Abacus Data]] || {{dts|May 28, 2021}} || [https://abacusdata.ca/mood-brightens-canadian-politics/ HTML] || 31 || {{Party shading/Liberal}}|'''34''' || 17 ||  7 || 7 || 2 || 2 || ±2.1 pp || 2,000 || online || {{Party shading/Liberal}}|'''3'''
+| [[Abacus Data]] || {{dts|May 28, 2021}} || [https://abacusdata.ca/mood-brightens-canadian-politics/ HTML] || 31 || {{Party shading/Liberal}}|'''34''' || 17 || 7 || 7 || 2 || 2 || ±2.1 pp || 2,000 || online || {{Party shading/Liberal}}|'''3'''
 |-
 | [[Ekos Research Associates|EKOS]] || {{dts|May 27, 2021}} || [https://twitter.com/VoiceOfFranky/status/1398844725789143041/ Twitter] || 27.8 || {{Party shading/Liberal}}|'''35.4''' || 17.9 || 5.6 || 7.0 ||  4.0 || 3.0 || ±1.7 pp || 1,948 || IVR || {{Party shading/Liberal}}|'''7.6'''
 |-
@@ -63,7 +65,7 @@
 |-
 | [[Ipsos]] || {{dts|May 14, 2021}} || [https://www.ipsos.com/en-ca/news-polls/liberals-in-drivers-seat-over-conservatives-as-vaccination-rollout-hits-its-stride HTML] || 29 || {{Party shading/Liberal}}|'''38''' || 21 ||  6 || 5 || 1 || 1 || ±3.5 pp || 1,001 || online || {{Party shading/Liberal}}|'''9'''
 |-
-| [[Abacus Data]] || {{dts|May 12, 2021}} || [https://abacusdata.ca/liberals-conservatives-neck-and-neck-poll-canadian-politics/ HTML] || 32 || {{Party shading/Liberal}}|'''34''' || 17 ||  6 || 7 || 3 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''2'''
+| [[Abacus Data]] || {{dts|May 12, 2021}} || [https://abacusdata.ca/liberals-conservatives-neck-and-neck-poll-canadian-politics/ HTML] || 32 || {{Party shading/Liberal}}|'''34''' || 17 || 6 || 7 || 3 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''2'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|May 9, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Legers-North-American-Tracker-May-10th-2021.pdf PDF] || 30 || {{Party shading/Liberal}}|'''33''' || 19 || 7 || 7 || {{n/a}} || 4 || ±2.51 pp || 1,529 || online || {{Party shading/Liberal}}|'''3'''
 |-
@@ -75,19 +77,19 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|April 25, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Legers-North-American-Tracker-April-26th-2021-compressed.pdf PDF] || 28 || {{Party shading/Liberal}}|'''34''' || 20 || 7 || 7 || {{n/a}} || 4 || ±2.48 pp || 1,548 || online || {{Party shading/Liberal}}|'''6'''
 |-
-| [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|April 25, 2021}} || [https://angusreid.org/wp-content/uploads/2021/04/2021.04.27_Fed_Vote_Budget-1.pdf PDF] || 32 || {{Party shading/Liberal}}|'''34''' || 20 || 7 || 5|| {{n/a}} || 5 || ±2.2 pp || 2,008 || online || {{Party shading/Liberal}}|'''2'''
+| [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|April 25, 2021}} || [https://angusreid.org/wp-content/uploads/2021/04/2021.04.27_Fed_Vote_Budget-1.pdf PDF] || 32 || {{Party shading/Liberal}}|'''34''' || 20 || 7 || 5 || {{n/a}} || 5 || ±2.2 pp || 2,008 || online || {{Party shading/Liberal}}|'''2'''
 |-
-| [[Abacus Data]] || {{dts|April 25, 2021}} || [https://abacusdata.ca/post-budget-liberals-lead-abacus-data/ HTML] || 29 || {{Party shading/Liberal}}|'''36''' || 17 ||  7 || 7 || 2 || 1 || ±2.1 pp || 2,201 || online || {{Party shading/Liberal}}|'''7'''
+| [[Abacus Data]] || {{dts|April 25, 2021}} || [https://abacusdata.ca/post-budget-liberals-lead-abacus-data/ HTML] || 29 || {{Party shading/Liberal}}|'''36''' || 17 || 7 || 7 || 2 || 1 || ±2.1 pp || 2,201 || online || {{Party shading/Liberal}}|'''7'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|April 21, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/45952-001_PostMedia_NationalPost_FederalBudgetOpinion_April2021_04.22.pdf PDF] || 30 || {{Party shading/Liberal}}|'''35''' || 19 || 6 || 6 || {{n/a}} || 5 || ±2.5 pp || 1,504 || online || {{Party shading/Liberal}}|'''5'''
 |-
-| [[Ipsos]] || {{dts|April 21, 2021}} || [https://www.ipsos.com/sites/default/files/ct/news/documents/2021-04/GlobalNews-Budget-Factum-2021-04-26-v1.pdf PDF] || 27 || {{Party shading/Liberal}}|'''38''' || 19 ||  7 || 7 || {{n/a}} || 1 || ±3.5 pp || 1,000 || online || {{Party shading/Liberal}}|'''11'''
+| [[Ipsos]] || {{dts|April 21, 2021}} || [https://www.ipsos.com/sites/default/files/ct/news/documents/2021-04/GlobalNews-Budget-Factum-2021-04-26-v1.pdf PDF] || 27 || {{Party shading/Liberal}}|'''38''' || 19 || 7 || 7 || {{n/a}} || 1 || ±3.5 pp || 1,000 || online || {{Party shading/Liberal}}|'''11'''
 |-
-| [[Abacus Data]] || {{dts|April 21, 2021}} || [https://twitter.com/DavidColetto/status/1384966410514976770/ Twitter] || 28 || {{Party shading/Liberal}}|'''39''' || 16 ||  7 || 7 || {{n/a}} || {{n/a}} || {{n/a}} || 1,900 || online || {{Party shading/Liberal}}|'''11'''
+| [[Abacus Data]] || {{dts|April 21, 2021}} || [https://twitter.com/DavidColetto/status/1384966410514976770/ Twitter] || 28 || {{Party shading/Liberal}}|'''39''' || 16 || 7 || 7 || {{n/a}} || {{n/a}} || {{n/a}} || 1,900 || online || {{Party shading/Liberal}}|'''11'''
 |-
 | [[Mainstreet Research]] || {{dts|April 18, 2021}} || [https://www.mainstreetresearch.ca/poll/april-2021-national-vote-intention/ HTML] || 29.6 || {{Party shading/Liberal}}|'''36.8''' || 14.9 || 5.8 || 6.6 || {{n/a}} || 6.2 || ±2.7 pp || 1,246 || IVR || {{Party shading/Liberal}}|'''7.2'''
 |-
-| [[Nanos Research]] || {{dts|April 16, 2021}} || [https://twitter.com/niknanos/status/1384187106885439494?s=20 Twitter] || 29.0 || {{Party shading/Liberal}}|'''36.1''' || 18.5 ||  6.8 || 7.4 || 1.7 || {{n/a}} || ±3.1 pp || 1,000 (1/2) || telephone (rolling) || {{Party shading/Liberal}}|'''7.1'''
+| [[Nanos Research]] || {{dts|April 16, 2021}} || [https://twitter.com/niknanos/status/1384187106885439494?s=20 Twitter] || 29.0 || {{Party shading/Liberal}}|'''36.1''' || 18.5 || 6.8 || 7.4 || 1.7 || {{n/a}} || ±3.1 pp || 1,000 (1/2) || telephone (rolling) || {{Party shading/Liberal}}|'''7.1'''
 |-
 | [[Abacus Data]] || {{dts|April 14, 2021}} || [https://abacusdata.ca/grim-mood-canadian-politics-liberals-lead-abacus-data// HTML] || 29 || {{Party shading/Liberal}}|'''37''' || 19 || 6 || 6 || 2 || 2 || ±2.1 pp || 1,981 || online || {{Party shading/Liberal}}|'''8'''
 |-

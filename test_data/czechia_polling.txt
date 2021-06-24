@@ -40,6 +40,24 @@
 ! class="unsortable" style="background:{{Green Party (Czech Republic)/meta/color}};" |
 ! class="unsortable" style="background:#0033FF;" |
 |-
+|[https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/volby-a-strany/5387-volebni-model-v-cervnu-2021 CVVM]
+|29 May–13 Jun
+|643
+|–
+|{{Party shading/ANO 2011}}|'''24.5'''
+| colspan="3" |19.5
+| colspan="2" |22.5
+|9.5
+|7.5
+|7.5
+| colspan="2" |3.5
+|1.5
+|2.5
+|1.5
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |2.0
+|'''32.0'''
+|{{No|'''57.5'''}}
+|-
 |rowspan="2" |[https://www.datacollect.cz/wp-content/uploads/2021/06/Vyzkum-volebniho-modelu-a-otazky-na-aktualni-temata_cerven-2021.pdf Data Collect]
 |rowspan="2" |31 May–11 Jun
 |910

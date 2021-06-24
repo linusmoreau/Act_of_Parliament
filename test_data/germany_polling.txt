@@ -25,7 +25,7 @@
 | [https://www.wahlrecht.de/umfrage/forsa.htm Forsa]
 | data-sort-value="2021-06-23"| 15–21 Jun 2021
 | 2,502
-| -
+| 24
 | style="background:#D7D5D7;"| '''29'''
 | 15
 | 9
