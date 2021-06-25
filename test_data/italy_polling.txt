@@ -32,6 +32,23 @@
 ! style="background:{{Italia Viva/meta/color}};"|
 ! style="background:{{Coraggio Italia/meta/color}};"|
 |-
+|24 Jun
+|[https://www.termometropolitico.it/1596067_sondaggi-tp-razzismo-solo-il-262-degli-italiani-considera-inginocchiarsi-un-gesto-utile-e-significativo.html Termometro Politico]
+|
+|16.1
+|19.9
+| style="background:#D2EED9;" | '''21.8'''
+|6.1
+|19.6
+|colspan="2"|3.1
+|1.6
+|1.6
+|2.7
+|2.6
+|
+|4.9
+| style="background:#008000; color:white;" | 1.9
+|-
 |22 Jun
 |[https://twitter.com/you_trend/status/1407591300128555009/photo/1 EMG]
 |

@@ -24,6 +24,20 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| [https://fakty.tvn24.pl/fakty-po-poludniu,96/pis-na-czele-potem-polska-2050-nowy-sondaz-dla-faktow-tvn-i-tvn24,1066242.html Kantar / TVN]
+| data-sort-value="2021-06-25" | 24–25 Jun 2021
+| 1,001
+| style="background:#C0DBFC;" | '''30'''
+| 19
+| 6
+| 4
+| 1
+| 8
+| 21
+| 11
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9''' 
+
+|-
 | [https://wiadomosci.dziennik.pl/polityka/artykuly/8197534,koalicja-obywatelska-zjednoczona-prawica-sondaz.html Research Partner]
 | data-sort-value="2021-06-22" | 18–21 Jun 2021
 | 1,048
