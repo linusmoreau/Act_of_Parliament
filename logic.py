@@ -10,6 +10,10 @@ import random
 from typing import Dict, List, Union, Optional
 
 
+# todo add negative vs. positive parliamentarism (does the government need to win an investiture vote)
+# todo make a placeholder party containing Independents make more sense
+
+
 class Encoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, set):
@@ -177,7 +181,7 @@ class Person(CustomObject):
         self.modifiers = modifiers
 
         self.radicalism = radicalism
-        if type(party).__name__ == "str":
+        if type(party).__name__ == "str" and party in parties:
             self.party = parties[party]
         else:
             self.party = party
@@ -523,9 +527,9 @@ class Region(CustomObject):
 
         self.vote_history = kwargs.get("vote_history", {})
         if not loaded:
-            seat_dist = kwargs["seat_dist"]
-            self.num_of_districts = sum(list(seat_dist.values()))
-            self.gen_ridings(seat_dist)
+            iridings = kwargs["iridings"]
+            self.num_of_districts = len(iridings)
+            self.gen_ridings(iridings)
         else:
             self.num_of_districts = kwargs["num_of_districts"]
 
@@ -537,16 +541,11 @@ class Region(CustomObject):
         del attr["ridings"]
         return attr
 
-    def gen_ridings(self, seat_distribution):
-        i = 1
-        party_held_seats = []
-        for party in seat_distribution:
-            for s in range(seat_distribution[party]):
-                party_held_seats.append(party)
-        random.shuffle(party_held_seats)
-        for party in party_held_seats:
-            Riding(self.tag, self.tag + '-' + str(i), int(self.simulated / self.num_of_districts), self.ballot, party)
-            i += 1
+    def gen_ridings(self, ridings):
+        for i, riding in enumerate(ridings):
+            tag = self.tag + '-' + str(i + 1)
+            pops = int(self.simulated / self.num_of_districts)
+            Riding(self.tag, tag, riding['name'], pops, self.ballot, riding['party'], dat=riding)
 
     def election(self):
         self.total_votes = 0
@@ -570,11 +569,12 @@ class Region(CustomObject):
 
 class Riding(CustomObject):
 
-    def __init__(self, region, tag, population, ballot, incumbent, loaded=False, **kwargs):
+    def __init__(self, region, tag, name, population, ballot, incumbent, loaded=False, **kwargs):
         self.region = region
         self.tag = tag
+        self.name = name
         self.ballot = ballot
-        self.population = population
+        self.population = population    # number of simulated persons
         self.incumbent = incumbent
 
         self.persons = []
@@ -585,10 +585,10 @@ class Riding(CustomObject):
         regions[self.region].ridings[self.tag] = self
         ridings[self.tag] = self
 
-        self.values = kwargs.get("values", parties[self.incumbent].values.copy())
+        # self.values = kwargs.get("values", parties[self.incumbent].values.copy())
         self.vote_history = kwargs.get("vote_history", {})
         if not loaded:
-            self.gen_population()
+            self.gen_population(kwargs['dat'])
             if policies["electsys"].current_law == 100:
                 self.set_mp()
 
@@ -601,16 +601,25 @@ class Riding(CustomObject):
         del attr["mp"]
         return attr
 
-    def gen_population(self):
+    def gen_population(self, dat):
         d = data.settings['individual_differential']
-        for i in range(self.population):
-            values, values_importance, radicalism = self.gen_beliefs(self.values, d)
-            Person(self.region, self.tag, values, values_importance, radicalism)
+        tot = sum([dat[p] for p in self.ballot])
+        ratios = list(map(lambda p: dat[p] / tot, self.ballot))
+        for i, p in enumerate(self.ballot):
+            vals = parties[p].values
+            for a in range(round(ratios[i] * self.population)):
+                values, values_importance, radicalism = self.gen_beliefs(vals, d)
+                peep = Person(self.region, self.tag, values, values_importance, radicalism)
+                opinion = OpinionModifier(tag='voted', effect=100, date=data.game_state['date'])
+                peep.add_opinion('parties', p, opinion)
+        self.population = len(self.persons)
 
     def set_mp(self):
         d = 10
-        values, values_importance, radicalism = self.gen_beliefs(parties[self.incumbent].values, d)
-        ParliamentMember(self.region, self.tag, values, values_importance, radicalism, parties[self.incumbent])
+        p = parties[self.incumbent]
+        vals = p.values
+        values, values_importance, radicalism = self.gen_beliefs(vals, d)
+        ParliamentMember(self.region, self.tag, values, values_importance, radicalism, p)
 
     @staticmethod
     def gen_beliefs(base, d):
@@ -1101,8 +1110,9 @@ def init_game():
             Policy(tag, area, **policy_list[tag])
     for tag, attr in data.parties.items():
         Party(tag, **attr)
+    init_ridings = data.get_riding_data()
     for tag, attr in data.regions.items():
-        Region(tag, **attr)
+        Region(tag, iridings=init_ridings[tag], **attr)
     for kind in data.poll_types:
         data.opinion_polls[kind] = {}
     data.game_state["player"] = random.choice(list(politicians.keys()))

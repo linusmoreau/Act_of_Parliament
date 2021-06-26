@@ -677,7 +677,7 @@ class PersonCard(PopUp):
 
     def descriptors(self, pos, area, colour, char_h):
         descriptors = [self.person.age, self.person.gender, self.person.background, self.person.language,
-                       self.person.party.name, self.person.riding]
+                       self.person.party.name, logic.ridings[self.person.riding].name]
         desc_names = ["Age", "Gender", "Background", "Language", "Party", "Riding"]
         x = 0
         y = 0
@@ -1543,8 +1543,8 @@ class PageRidings(PageListBase):
             layer = OrderedDict()
             for riding in logic.regions[region].ridings:
                 tag = region + '/' + riding
-                layer[tag] = {"funcs": [self.update], "label": riding}
-                labels[tag] = riding
+                layer[tag] = {"funcs": [self.update], "label": logic.ridings[riding].name}
+                labels[tag] = logic.ridings[riding].name
             labels[region] = logic.regions[region].name
             categories[region] = layer
         x = MENU_WIDTH / 8

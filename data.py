@@ -127,16 +127,14 @@ def get_riding_data():
             doc = csv.reader(f)
             dat = {}
             region = None
-            count = 1
             for i, row in enumerate(doc):
                 if i == 0:
                     keys = row
                 else:
                     if row[1] != region:
                         region = row[1]
-                        count = 1
-                    tag = region + '-' + str(count)
-                    dat[tag] = {}
+                        dat[region] = []
+                    riding = {}
                     for j, k in enumerate(keys):
                         v = row[j]
                         if k == 'turnout':
@@ -146,9 +144,8 @@ def get_riding_data():
                                 v = 0
                             else:
                                 v = int(v)
-                        dat[tag][k] = v
-                    count += 1
-            # print(dat)
+                        riding[k] = v
+                    dat[region].append(riding)
     except FileNotFoundError:
         raise FileNotFoundError('Could not find ridings.csv in data folder')
     return dat
