@@ -606,7 +606,6 @@ class GraphPage:
             end = date_kit.date_dif(date, self.end_date)
         else:
             end = None
-        ndat = weighted_averages(dat, self.spread, loc=True, end=end)
         if self.to_end_date and self.end_date is not None:
             x_max = date_kit.date_dif(date, self.end_date)
         else:
@@ -614,8 +613,14 @@ class GraphPage:
         if self.minx == -1:
             x_min = None
         else:
-            x_min = -date_kit.date_dif(Date(today.year - self.minx, today.month, today.day), date)
+            if x_max is not None:
+                end_date = self.end_date
+            else:
+                end_date = today
+            x_min = -date_kit.date_dif(Date(end_date.year - self.minx, end_date.month, end_date.day), date)
         title = "Opinion Polling for " + self.choice
+
+        ndat = weighted_averages(dat, self.spread, loc=True, start=x_min, end=end)
 
         if self.graph is not None:
             self.graph.hide()
