@@ -227,7 +227,8 @@ class HierarchyButtonDisplay(ScrollButtonDisplay):
                     text = toolkit.entitle(button_tag.split('/')[-1])
                 b.components.append(
                     Text(text, b.rect.center, font_size=BASE_FONT_SIZE,
-                         align=CENTER, colour=font_colour, background_colour=b.normal_colour)
+                         align=CENTER, colour=font_colour, background_colour=b.normal_colour, width=b.rect.w,
+                         multiline=True, justify=CENTER)
                 )
                 if categories[button_tag] is not None:
                     for func in categories[button_tag]["funcs"]:
