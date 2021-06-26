@@ -95,7 +95,7 @@
       "electoral": -20
     }
   },
-  "PP": {
+  "PPC": {
     "name": "People's Party",
     "isincumbent": false,
     "colour": [78, 81, 128],
@@ -111,6 +111,22 @@
       "environment": 80,
       "transport": 70,
       "justice": 40,
+      "electoral": 0
+    }
+  },
+  "IND": {
+    "name": "Independent",
+    "isincumbent": false,
+    "colour": [128, 128, 128],
+    "values": {
+      "finance": 0,
+      "public_services": 0,
+      "welfare": 0,
+      "economy": 0,
+      "foreign": 0,
+      "environment": 0,
+      "transport": 0,
+      "justice": 0,
       "electoral": 0
     }
   }
