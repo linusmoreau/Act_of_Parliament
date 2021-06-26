@@ -138,13 +138,16 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
     return ndat
 
 
-def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False, end=None):
+def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False, start=None, end=None):
     ndat = {}
     relv: List[int] = []
 
     upcome = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
     disc = []
-    mini = upcome[0]
+    if start is None:
+        mini = upcome[0]
+    else:
+        mini = start
     if end is None:
         maxi = upcome[-1]
     else:
@@ -294,8 +297,8 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
 #     return ndat
 
 
-def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, res=None, loc=False, end=None) \
-        -> Dict[str, Dict[float, List[float]]]:
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, res=None, loc=False,
+                      start=None, end=None) -> Dict[str, Dict[float, List[float]]]:
     # Breadth is the x-distance considered in either direction
     ndat = {}
     for line, points in dat.items():
@@ -307,7 +310,7 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, re
                 inres = 50
         else:
             inres = res
-        ndat[line] = weighted_average(points, breadth, inres, loc, end)
+        ndat[line] = weighted_average(points, breadth, inres, loc, start, end)
     return ndat
 
 
