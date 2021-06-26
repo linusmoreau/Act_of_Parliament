@@ -21,6 +21,30 @@
 ! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
 ! style="background:{{Independent/meta/color}};"|
 |-
+| [https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/481852043 Research Affairs]
+| data-sort-value="2021-06-24"| 22–24 Jun 2021
+| 500
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''34'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 16
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
+| [https://www.krone.at/2446923 Peter Hajek]
+| data-sort-value="2021-06-24"| 21–24 Jun 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''34'''
+| <!-- Social Democratic Party --> | 23
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 11
+|-
 | [https://epaper-oesterreich.at/issue.act?issueId=836199&issueMutation=CITYW&issueDate=20210618&region=WIEN Research Affairs]
 | data-sort-value="2021-06-17"| 15–17 Jun 2021
 | 1,000
