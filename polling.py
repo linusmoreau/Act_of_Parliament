@@ -209,6 +209,14 @@ def read_data(content, key, start, restart, date, choice):
 
 class GraphPage:
     spread = 60
+    olddata = {
+        'Canada': 'test_data/old_canada_polling.txt',
+        'Denmark': 'test_data/old_denmark_polling.txt',
+        'Germany': 'test_data/old_germany_polling.txt',
+        'Italy': 'test_data/old_italy_polling.txt',
+        'Norway': 'test_data/old_norway_polling.txt',
+        'Poland': 'test_data/old_poland_polling.txt'
+    }
 
     def __init__(self, choice, view='parties', to_end_date=False):
         widgets.clear()
@@ -225,6 +233,9 @@ class GraphPage:
 
         with open(self.file_name, 'r', encoding='utf-8') as f:
             content = f.readlines()
+        if self.choice in self.olddata:
+            with open(self.olddata[self.choice], 'r', encoding='utf-8') as f:
+                content.extend(f.readlines())
 
         self.dat = read_data(content, self.key, self.start, self.restart, self.date, self.choice)
         # print(self.dat)
@@ -670,7 +681,7 @@ def menu_page():
 
 
 def update_data(sel="All"):
-    def update_dat(dest, url, olddat=None):
+    def update_dat(dest, url):
         content = urllib.request.urlopen(url)
         read_content = content.read()
         soup = BeautifulSoup(read_content, 'html.parser')
@@ -682,9 +693,6 @@ def update_data(sel="All"):
                                   'dfp_poll_january_ny.pdf Data for Progress (D)]')]
         else:
             text = content[0].text
-        if olddat is not None:
-            with open(olddat, 'r', encoding='utf-8') as f:
-                text += f.read()
         final = text.encode('utf-8')
         with open(dest, 'wb') as f:
             f.write(final)
@@ -726,25 +734,13 @@ def update_data(sel="All"):
     files = {
         'New York': 'test_data/new_york_city_polling.txt'
     }
-    olddata = {
-        'Canada':   'test_data/old_canada_polling.txt',
-        'Denmark':  'test_data/old_denmark_polling.txt',
-        'Germany':  'test_data/old_germany_polling.txt',
-        'Italy':    'test_data/old_italy_polling.txt',
-        'Norway':   'test_data/old_norway_polling.txt',
-        'Poland':   'test_data/old_poland_polling.txt'
-    }
     if sel == 'All':
         for tag, url in urls.items():
             if tag in files:
                 dest = files[tag]
             else:
                 dest = 'test_data/' + tag.lower() + '_polling.txt'
-            if tag in olddata:
-                olddat = olddata[tag]
-            else:
-                olddat = None
-            update_dat(dest, url, olddat)
+            update_dat(dest, url)
 
 
 if __name__ == '__main__':
@@ -752,6 +748,5 @@ if __name__ == '__main__':
                'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain', 'Sweden', 'New York']
     tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
-    # print(str(date.year), str(date.month), str(date.day))
     menu_page()
     game_loop()
