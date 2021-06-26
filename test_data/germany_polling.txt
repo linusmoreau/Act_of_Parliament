@@ -25,7 +25,7 @@
 | [https://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
 | data-sort-value="2021-06-25"| 22–24 Jun 2021
 | 1,271
-| 21
+| 24
 | style="background:#D7D5D7;"| '''29'''
 | 14
 | 10
@@ -47,6 +47,19 @@
 | 21
 | 7
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7
+|-
+| [https://www.wahlrecht.de/umfragen/emnid.htm Kantar]
+| data-sort-value="2021-06-25"| 15–22 Jun 2021
+| 1,430
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 10
+| 11
+| 7
+| 19
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
 |-
 | [https://www.wahlrecht.de/umfrage/forsa.htm Forsa]
 | data-sort-value="2021-06-23"| 15–21 Jun 2021

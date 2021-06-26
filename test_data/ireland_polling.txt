@@ -27,6 +27,19 @@
 
 PLEASE READ THIS!  Opinion polls are listed by default in reverse chronological order - latest first - but users can sort the table. In order to preserve the ability to sort by polling date, please include an entry for data-sort-value in front of the polling date. In order to preserve the ability to sort by polling company, please increment the relevant data-sort-value by one each time you add a new poll. So a new Behaviour & Attitudes poll would become "B&A14" if the last one was "B&A13". Please also wikilink the most recent poll (link goes to the publishing media outlet, piped to show the commissioning publisher and polling company) and please also unlink the prior poll from that company. If the above doesn't make sense to you, please do not make major changes. -->
 |-
+|data-sort-value="2021-06-19"|19 June 2021
+|data-sort-value="ITMos10"|[[Irish Daily Mail|Ireland Thinks/Irish Mail on Sunday]]<ref group="p">{{Cite web|date=19 May 2021|title=Ireland Elects|url=https://twitter.com/ToghannEire/status/1406385645619122176|url-status=live|access-date=2021-05-26|website=Twitter|language=en}}</ref>
+|1,274
+|style="background:#D7ECEA"|'''32'''
+|15
+|24
+|3
+|4
+|5
+|4
+|4
+|10
+|-
 |data-sort-value="2021-06-15"|15 June 2021
 |data-sort-value="Ipsos4"|[[The Irish Times|Ipsos MRBI/Irish Times]]<ref group="p">{{Cite web|last=Leahy|first=Pat|date=2021-06-16|title=Irish Times poll: Sinn Féin hits record high as Fine Gael drops among voters|url=https://www.irishtimes.com/news/politics/irish-times-poll-sinn-f%C3%A9in-hits-record-high-as-fine-gael-drops-among-voters-1.4595323|url-status=live|access-date=16 June 2021|website=[[The Irish Times]]|language=en}}</ref>
 |1,200

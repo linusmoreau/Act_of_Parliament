@@ -43,6 +43,8 @@
 |-
 | [[Nanos Research]] || {{dts|June 11, 2021}} || [https://www.hilltimes.com/wp-content/uploads/2021/06/062121_ht_1.pdf#page=20 PDF] || 26.3 || {{Party shading/Liberal}}|'''37.4''' || 17.4 || {{n/a}} || 7.0 || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) || {{Party shading/Liberal}}|'''11.1'''
 |-
+| Innovative Research || {{dts|June 8, 2021}} || [https://innovativeresearch.ca/wp-content/uploads/2021/06/CTM2106-April-to-June-Seat-Clusters-Merge-Post-Deck-.pdf#page=3 PDF] || 26 || {{Party shading/Liberal}}|'''37''' || 17 || 7 || 8 || 5 || {{n/a}} || {{n/a}} || 1,043 || online || {{Party shading/Liberal}}|'''11'''
+|-
 | [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|June 7, 2021}} || [https://angusreid.org/wp-content/uploads/2021/06/2021.06.11_Federal-Politics.pdf PDF] || 30 || {{Party shading/Liberal}}|'''33''' || 21 || 6 || 4|| {{n/a}} || 5 || ±2.0 pp || 4,948 || online || {{Party shading/Liberal}}|'''3'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|June 6, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Legers-North-American-Tracker-June-7th-2021_v3.pdf PDF] || 29 || {{Party shading/Liberal}}|'''32''' || 22 || 6 || 6 || {{n/a}} || 5 || ±2.5 pp || 1,539 || online || {{Party shading/Liberal}}|'''3'''
