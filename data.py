@@ -120,10 +120,35 @@ def init():
         policies = doc['policies']
         all_values = list(policies.keys())
 
+
+def get_riding_data():
     try:
         with open('data/ridings.csv', 'r') as f:
             doc = csv.reader(f)
-            for row in doc:
-                print(row)
+            dat = {}
+            region = None
+            count = 1
+            for i, row in enumerate(doc):
+                if i == 0:
+                    keys = row
+                else:
+                    if row[1] != region:
+                        region = row[1]
+                        count = 1
+                    tag = region + '-' + str(count)
+                    dat[tag] = {}
+                    for j, k in enumerate(keys):
+                        v = row[j]
+                        if k == 'turnout':
+                            v = float(v)
+                        elif j >= 4:
+                            if v == '':
+                                v = 0
+                            else:
+                                v = int(v)
+                        dat[tag][k] = v
+                    count += 1
+            # print(dat)
     except FileNotFoundError:
         raise FileNotFoundError('Could not find ridings.csv in data folder')
+    return dat
