@@ -4,6 +4,7 @@ import date_kit
 import types
 import datetime
 import urllib.request
+import threading
 from bs4 import BeautifulSoup
 
 
@@ -686,7 +687,7 @@ def menu_page():
 
 
 def update_data(sel="All"):
-    def update_dat(dest, url):
+    def update_dat(dest, url, tag):
         content = urllib.request.urlopen(url)
         read_content = content.read()
         soup = BeautifulSoup(read_content, 'html.parser')
@@ -745,7 +746,8 @@ def update_data(sel="All"):
                 dest = files[tag]
             else:
                 dest = 'test_data/' + tag.lower() + '_polling.txt'
-            update_dat(dest, url)
+            thread = threading.Thread(target=update_dat, args=(dest, url, tag))
+            thread.start()
 
 
 if __name__ == '__main__':
