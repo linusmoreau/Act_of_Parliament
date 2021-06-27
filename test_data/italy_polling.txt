@@ -32,6 +32,24 @@
 ! style="background:{{Italia Viva/meta/color}};"|
 ! style="background:{{Coraggio Italia/meta/color}};"|
 |-
+|25 Jun
+|[https://twitter.com/SBidimedia/status/1408741245455847425/photo/1 Tecnè]
+|1,000
+|15.2
+|19.1
+|20.4
+|9.3
+| style="background:#E5E7FF;" |'''20.5'''
+|
+|1.9
+|1.4
+|1.8
+|3.2
+|2.2
+|1.0
+|4.0
+| style="background:#03386A; color:white;"| 0.1
+|-
 |23–24 Jun
 |[https://www.demopolis.it/?p=9155 Demopolis]
 |2,000
@@ -39,7 +57,7 @@
 |20.0
 | style="background:#D2EED9;" |'''21.0'''
 |6.8
-| style="background:#C2DBF2;" |'''21.0'''
+| style="background:#E5E7FF;" |'''21.0'''
 |2.0
 |2.3
 |
@@ -70,7 +88,7 @@
 |-
 |24 Jun
 |[https://www.termometropolitico.it/1596067_sondaggi-tp-razzismo-solo-il-262-degli-italiani-considera-inginocchiarsi-un-gesto-utile-e-significativo.html Termometro Politico]
-|
+|3,000
 |16.1
 |19.9
 | style="background:#D2EED9;" | '''21.8'''

@@ -21,6 +21,18 @@
 ! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
 ! style="background:{{Independent/meta/color}};"|
 |-
+| [https://image.kurier.at/images/cfs_616w/6146649/ogm_umfrage_27._6._online-01.png OGM]
+| data-sort-value="2021-06-24"| 22–24 Jun 2021
+| 801
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''33'''
+| <!-- Social Democratic Party --> | 25
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 8
+|-
 | [https://www.oe24.at/video/fellnerlive/fellner-live-die-umfrage-der-woche/481852043 Research Affairs]
 | data-sort-value="2021-06-24"| 22–24 Jun 2021
 | 500

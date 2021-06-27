@@ -27,6 +27,19 @@
 
 PLEASE READ THIS!  Opinion polls are listed by default in reverse chronological order - latest first - but users can sort the table. In order to preserve the ability to sort by polling date, please include an entry for data-sort-value in front of the polling date. In order to preserve the ability to sort by polling company, please increment the relevant data-sort-value by one each time you add a new poll. So a new Behaviour & Attitudes poll would become "B&A14" if the last one was "B&A13". Please also wikilink the most recent poll (link goes to the publishing media outlet, piped to show the commissioning publisher and polling company) and please also unlink the prior poll from that company. If the above doesn't make sense to you, please do not make major changes. -->
 |-
+|data-sort-value="2021-06-26"|26 June 2021
+|data-sort-value="RedC10"|[[Business Post|Red C/Business Post]]<ref group="p">{{Cite web|url=https://www.businesspost.ie/politics-extra/red-c-poll-fine-gael-has-narrow-lead-over-sinn-fein-as-fianna-fail-continues-to-lag-behind-62927d05|title=Red C poll: Fine Gael has narrow lead over Sinn Féin as Fianna Fáil continues to lag behind|last=Brennan|first=Michael|publisher=Business Post|date=26 June 2021|access-date=27 June 2021|language=en}}</ref>
+|1,020
+|29
+|13
+|style="background:#D9E9F4"|'''30'''
+|5
+|3
+|4
+|2
+|2
+|12
+|-
 |data-sort-value="2021-06-19"|19 June 2021
 |data-sort-value="ITMos11"|[[Irish Daily Mail|Ireland Thinks/Irish Mail on Sunday]]<ref group="p">{{Cite web|date=19 June 2021|title=Ireland Elects|url=https://twitter.com/ToghannEire/status/1406385645619122176|url-status=live|access-date=2021-06-26|website=Twitter|language=en}}</ref>
 |1,274
@@ -67,7 +80,7 @@ PLEASE READ THIS!  Opinion polls are listed by default in reverse chronological 
 |9
 |-
 |data-sort-value="2021-05-27"|27 May 2021
-|data-sort-value="RedC09"|[[Business Post|Red C/Business Post]]<ref group="p">{{Cite web|url=https://www.irishexaminer.com/news/politics/arid-40301855.html|title=Increased support brings Sinn Féin level with Fine Gael in latest poll|last=Murphy|first=Greg|publisher=Irish Examiner|date=30 May 2021|access-date=30 May 2021|language=en}}</ref><ref group="p">{{cite web|url=https://redcresearch.ie/wp-content/uploads/2021/05/Business-Post-RED-C-Opinion-Poll-Report-May-2021.pdf|title=Red C Business Post Opinion Poll Report 2021|publisher=Red C|date=31 May 2021|access-date=31 May 2021}}</ref>
+|data-sort-value="RedC09"|Red C/Business Post<ref group="p">{{Cite web|url=https://www.irishexaminer.com/news/politics/arid-40301855.html|title=Increased support brings Sinn Féin level with Fine Gael in latest poll|last=Murphy|first=Greg|publisher=Irish Examiner|date=30 May 2021|access-date=30 May 2021|language=en}}</ref><ref group="p">{{cite web|url=https://redcresearch.ie/wp-content/uploads/2021/05/Business-Post-RED-C-Opinion-Poll-Report-May-2021.pdf|title=Red C Business Post Opinion Poll Report 2021|publisher=Red C|date=31 May 2021|access-date=31 May 2021}}</ref>
 |1,034
 |style="background:#D7ECEA"|'''29'''
 |14
