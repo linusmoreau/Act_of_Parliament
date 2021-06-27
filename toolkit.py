@@ -1,5 +1,5 @@
 import random
-from typing import Dict, List, Set, Tuple, Any
+from typing import Dict, List, Tuple
 
 
 def round_up(num):
@@ -138,29 +138,33 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
     return ndat
 
 
-def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False, start=None, end=None):
+def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False, start=None, end=None,
+                     line_starts=None, line_ends=None):
     ndat = {}
     relv: List[int] = []
 
     upcome = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
     disc = []
-    if start is None:
+    if upcome[0] - breadth / 4 <= line_starts:
+        mini = line_starts
+    else:
         mini = upcome[0]
-    else:
+    # print(mini, start, line_starts, upcome[0])
+    if start is not None and mini < start:
         mini = start
-    if end is None:
-        maxi = upcome[-1]
+    if upcome[-1] + breadth / 4 >= line_ends:
+        maxi = line_ends
     else:
+        maxi = upcome[-1]
+    if end is not None and maxi > start:
         maxi = end
-    step = (maxi - mini) / res
-    for i in range(res + 1):
-        place = round(mini + step * i)
+    place = mini
+    step = (upcome[-1] - upcome[0]) / res
+    while True:
         if place > maxi:
-            break
-
+            place = maxi
         cutoff: int = -1
         for j, x in enumerate(upcome):
-            # print(x, place, breadth)
             if x >= place + breadth:
                 cutoff = j
                 break
@@ -176,22 +180,11 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
             if x >= place - breadth:
                 cutoff = j
                 break
-        if cutoff == -1:
-            continue
-        else:
+        if cutoff != -1:
             disc.extend(relv[:cutoff])
             relv = relv[cutoff:]
         shown = relv.copy()
         spread = breadth
-        # if place < relv[0] and len(disc) >= 1:
-        #     shown = disc[:1] + shown
-        # if place > relv[-1] and len(upcome) >= 1:
-        #     shown.extend(upcome[:1])
-        # extent = abs(shown[-1] - shown[0])
-        # if extent > breadth:
-        #     spread = extent
-        # else:
-        #     spread = breadth
         try:
             if loc:
                 locnum = sum([cube_weight(x - place, spread) for x in shown])
@@ -204,6 +197,10 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
                                sum([len(dat[x]) * cube_weight(x - place, spread) for x in shown]))
         except ZeroDivisionError:
             pass
+        if place == maxi:
+            break
+        else:
+            place += step
     return ndat
 
 
@@ -301,6 +298,16 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, re
                       start=None, end=None) -> Dict[str, Dict[float, List[float]]]:
     # Breadth is the x-distance considered in either direction
     ndat = {}
+    mini = min([min(list(d.keys())) for d in dat.values()])
+    if start is not None and mini - breadth <= start:
+        line_starts = start
+    else:
+        line_starts = mini
+    maxi = max([max(list(d.keys())) for d in dat.values()])
+    if end is not None and maxi + breadth >= end:
+        line_ends = end
+    else:
+        line_ends = maxi
     for line, points in dat.items():
         if res is None:
             inres = (max(list(points.keys())) - min(list(points.keys()))) // 4
@@ -310,7 +317,7 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, re
                 inres = 50
         else:
             inres = res
-        ndat[line] = weighted_average(points, breadth, inres, loc, start, end)
+        ndat[line] = weighted_average(points, breadth, inres, loc, start, end, line_starts, line_ends)
     return ndat
 
 
