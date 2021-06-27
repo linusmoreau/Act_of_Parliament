@@ -8,7 +8,7 @@ import threading
 from bs4 import BeautifulSoup
 
 
-def read_data(content, key, start, restart, date, choice):
+def read_data(content, key, start, restart, date, choice, include=None):
     def isrestart(line):
         if choice == 'Slovakia' and \
                 'url=https://sava.sk/en/clenstvo/zoznam-clenov/|access-date=2021-03-27|language=en-US}}' in line:
@@ -25,7 +25,6 @@ def read_data(content, key, start, restart, date, choice):
     while i < len(content):
         line = content[i]
         nline = line
-        # print(rot, line, end='')
         if '===' in line:
             year = line.strip().strip('=').strip()
             if choice == 'Poland' and year == "2019":
@@ -76,6 +75,8 @@ def read_data(content, key, start, restart, date, choice):
                     s = dates.split('-')
                 elif '–' in dates:
                     s = dates.split('–')
+                elif '−' in dates:
+                    s = dates.split('−')
                 else:
                     s = dates.split('â€“')
                 temp = s[-1].strip()
@@ -205,6 +206,9 @@ def read_data(content, key, start, restart, date, choice):
             rot += 1
         i += 1
         prevline = line
+
+    if include is not None:
+        dat = {k: v for (k, v) in dat.items() if k in include}
     return dat
 
 
@@ -228,7 +232,7 @@ class GraphPage:
         self.minx = -1
         self.spread = GraphPage.spread
         self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, \
-            self.end_date = self.choice_setting(self.choice)
+            self.end_date, include = self.choice_setting(self.choice)
 
         self.to_end_date = to_end_date
 
@@ -238,7 +242,7 @@ class GraphPage:
             with open(self.olddata[self.choice], 'r', encoding='utf-8') as f:
                 content.extend(f.readlines())
 
-        self.dat = read_data(content, self.key, self.start, self.restart, self.date, self.choice)
+        self.dat = read_data(content, self.key, self.start, self.restart, self.date, self.choice, include)
         # print(self.dat)
 
         height = screen_height / 12
@@ -338,6 +342,7 @@ class GraphPage:
         blocs = None
         gov = None
         file_name = None
+        include = None
         if choice == 'Germany':
             key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
             col = {'CDU/CSU': (0, 0, 0), 'Gr\u00fcne': (100, 161, 45), 'SPD': (235, 0, 31), 'FDP': (255, 237, 0),
@@ -552,6 +557,15 @@ class GraphPage:
             date = 0
             start = 2
             restart = ['Cite web', 'cite web']
+        elif choice == 'Brazil':
+            key = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
+                   'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck']
+            include = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Gomes (PDT)', 'Doria (PSDB)']
+            col = {'Bolsanaro (PSL/APB)': (0, 103, 188), 'Lula (PT)': (204, 0, 0), 'Haddad (PT)': (204, 0, 0),
+                   'Dino (PCdoB)': (163, 0, 0), 'Gomes (PDT)': (238, 22, 31), 'Boulos (PSOL)': (163, 0, 0),
+                   'Doria (PSDB)': (0, 95, 164), 'Amoedo (NOVO)': (240, 118, 42), 'Silva (REDE)': (46, 139, 87),
+                   'Moro': dark_grey, 'Huck': grey}
+            start = 3
         elif choice == 'New York':
             key = ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
                    'Scott Stringer', 'Maya Wiley', 'Andrew Yang']
@@ -573,7 +587,9 @@ class GraphPage:
             for line in gov.keys():
                 if line not in col.keys():
                     col[line] = col[gov[line][0]]
-        return file_name, key, col, blocs, gov, start, restart, date, end_date
+        if include is None:
+            include = key
+        return file_name, key, col, blocs, gov, start, restart, date, end_date, include
 
     def make_graph(self):
         dat = copy.deepcopy(self.dat)
@@ -706,6 +722,8 @@ def update_data(sel="All"):
     urls = {
         'Austria':  'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
+        'Brazil':   'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_2022_Brazilian_general_election&action=edit&section=3',
         'Canada':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_44th_Canadian_federal_election&action=edit&section=1',
         'Czechia':  'https://en.wikipedia.org/w/index.php?title='
@@ -751,7 +769,7 @@ def update_data(sel="All"):
 
 
 if __name__ == '__main__':
-    options = ['Austria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Hungary', 'Iceland',
+    options = ['Austria', 'Brazil', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Hungary', 'Iceland',
                'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain', 'Sweden', 'New York']
     tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))

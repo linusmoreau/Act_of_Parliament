@@ -1,0 +1,574 @@
+====2021====
+{| class="wikitable" style="text-align:center;font-size:85%;line-height:14px;"
+! rowspan="2"| Pollster/client(s)
+! rowspan="2"| Date(s)<br>conducted
+! rowspan="2" data-sort-type="number"| Sample<br>size
+! class="unsortable" style="width:50px;"|[[Jair Bolsonaro|Bolsonaro]]<br>{{small|[[Social Liberal Party (Brazil)|PSL]]/[[Alliance for Brazil|APB]]}}
+! class="unsortable" style="width:50px;"|[[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Workers' Party (Brazil)|PT]]}}
+! class="unsortable" style="width:50px;"|[[Fernando Haddad|Haddad]]<br>{{small|[[Workers' Party (Brazil)|PT]]}}
+! class="unsortable" style="width:50px;"|[[Flávio Dino|Dino]]<br>{{small|[[Communist Party of Brazil|PCdoB]]}}
+! class="unsortable" style="width:50px;"|[[Ciro Gomes|Gomes]]<br>{{small|[[Democratic Labour Party (Brazil)|PDT]]}}
+! class="unsortable" style="width:50px;"|[[Guilherme Boulos|Boulos]]<br>{{small|[[Socialism and Liberty Party|PSOL]]}}
+! class="unsortable" style="width:50px;"|[[João Doria|Doria]]<br>{{small|[[Brazilian Social Democracy Party|PSDB]]}}
+! class="unsortable" style="width:50px;"|[[João Amoêdo|Amoêdo]]<br>{{small|[[New Party (Brazil)|NOVO]]}}
+! class="unsortable" style="width:50px;"|[[Marina Silva|Silva]]<br>{{small|[[Sustainability Network|REDE]]}}
+! class="unsortable" style="width:50px;"|[[Sérgio Moro|Moro]]<br>{{small|Indep.}}
+! class="unsortable" style="width:50px;"|[[Luciano Huck|Huck]]<br>{{small|Indep.}}
+! rowspan="2" class="unsortable"| Others
+! rowspan="2" class="unsortable"| Abst.<br>Undec.
+! rowspan="2" data-sort-type="number"| Lead
+|-
+! data-sort-type="number" class="sortable" style="background:#0067bc;"|
+! data-sort-type="number" class="sortable" style="background:#cc0000;"|
+! data-sort-type="number" class="sortable" style="background:#cc0000;"|
+! data-sort-type="number" class="sortable" style="background:#a30000;"|
+! data-sort-type="number" class="sortable" style="background:#ee161f;"|
+! data-sort-type="number" class="sortable" style="background:#a30000;"|
+! data-sort-type="number" class="sortable" style="background:#005fa4;"|
+! data-sort-type="number" class="sortable" style="background:#f0762a;"|
+! data-sort-type="number" class="sortable" style="background:#2e8b57;"|
+! data-sort-type="number" class="sortable" style="background:#bbbbbb;"|
+! data-sort-type="number" class="sortable" style="background:#bbbbbb;"|
+|-
+|[https://www.ipec-inteligencia.com.br/ Instituto Ipec]
+|17–21 June
+|2,002
+|23%
+|style="background:#ffb7b7;"| '''49%'''
+|–
+|–
+|7%
+|–
+|5%
+|–
+|–
+|–
+|–
+|3%
+|13%
+|style="background:#cc0000;color:#ffffff;"| 26%
+|-
+|[https://ndmais.com.br/politica-brasileira/eleicoes-2022-pesquisa-dos-grupos-nd-e-ric-aponta-lula-a-frente-de-bolsonaro/?utm_source=whatsapp&utm_campaign=wp-itajai&utm_medium=wp-grupos Instituto Mapa]
+|18–20 May
+|2,000
+|26.8%
+|style="background:#ffb7b7;"| '''36.8%'''
+|–
+|–
+|5.0%
+|–
+|3.3%
+|2.6%
+|–
+|5.1%
+|4.5%
+|2.7%
+|13.5%
+|style="background:#cc0000;color:#ffffff;"| 10%
+|-
+|[https://www.metropoles.com/brasil/pesquisa-vox-populi-lula-vence-bolsonaro-no-primeiro-turno-da-eleicao Vox Populi]
+|12–16 May
+|2,000
+|24%
+|style="background:#ffb7b7;"| '''43%'''
+|–
+|–
+|5%
+|–
+|2%
+|2%
+|–
+|–
+|8%
+|–
+|14%
+|style="background:#cc0000;color:#ffffff;"| 19%
+|-
+|[https://www1.folha.uol.com.br/poder/2021/05/datafolha-lula-lidera-corrida-eleitoral-de-2022-e-marca-55-contra-32-de-bolsonaro-no-2o-turno.shtml Datafolha]
+|11–12 May
+|2,071
+|23%
+|style="background:#ffb7b7;"| '''41%'''
+|–
+|–
+|6%
+|–
+|3%
+|2%
+|–
+|7%
+|4%
+|2%{{efn|Luiz Henrique Mandetta (DEM) with 2%}}
+|13%
+|style="background:#cc0000;color:#ffffff;"| 18%
+|-
+|[https://exame.com/brasil/exame-ideia-pela-primeira-vez-lula-vence-bolsonaro-em-2022/ Exame/Ideia]
+|19–22 Apr
+|1,200
+|32%
+|style="background:#ffb7b7;"| '''33%'''
+|–
+|–
+|9%
+|–
+|4%
+|3%
+|–
+|–
+|6%
+|5%{{efn|Luiz Henrique Mandetta (DEM) with 3%; [[Danilo Gentili]] with 2%}}
+|9%
+|style="background:#cc0000;color:#ffffff;"| 1%
+|-
+|[https://www.poder360.com.br/poderdata/lula-amplia-vantagem-sobre-bolsonaro-no-2o-turno-e-venceria-por-52-a-34/ PoderData]
+|12–14 Apr
+|3,500
+|31%
+|style="background:#ffb7b7;"| '''34%'''
+|–
+|–
+|6%
+|–
+|4%
+|5%
+|–
+|3%
+|6%
+|2%{{efn|Luiz Henrique Mandetta (DEM) with 2%}}
+|9%
+|style="background:#cc0000;color:#ffffff;"| 3%
+|-
+|[https://conteudos.xpi.com.br/wp-content/uploads/2021/04/Pesquisa-XP_-2021_04.pdf XP/Ipespe]
+|29–31 Mar
+|1,000
+|28%
+|style="background:#ffb7b7;"| '''29%'''
+|–
+|–
+|9%
+|3%
+|3%
+|–
+|–
+|9%
+|5%
+|3%{{efn|Luiz Henrique Mandetta (DEM) with 3%}}
+|12%
+|style="background:#cc0000;color:#ffffff;"| 1%
+|-
+|[https://www.poder360.com.br/poderdata/lula-e-ciro-venceriam-bolsonaro-no-2o-turno-diz-poderdata/ PoderData]
+|15–17 Mar
+|3,500
+|30%
+|style="background:#ffb7b7;"| '''34%'''
+|–
+|–
+|5%
+|–
+|3%
+|3%
+|–
+|6%
+|4%
+|2%{{efn|Luiz Henrique Mandetta (DEM) with 2%}}
+|13%
+|style="background:#cc0000;color:#ffffff;"| 4%
+|-
+| rowspan="3" |[https://revistaforum.com.br/pesquisaforum/pesquisa-forum-lula-dobra-em-intencao-de-votos-e-venceria-bolsonaro-se-eleicao-fosse-hoje/ Revista Fórum/Offerwise]
+| rowspan="3" |11–15 Mar
+| rowspan="3" |1,000
+|30.7%
+|style="background:#ffb7b7;"| '''31.2%'''
+|–
+|–
+|7.4%
+|–
+|6.4%
+|–
+|–
+|–
+|–
+|–
+|24.3%
+|style="background:#cc0000;color:#ffffff;"| 0.5%
+|-
+|style="background:#b2d1ea;" |'''29.2%'''
+|27.1%
+|–
+|0.2%
+|6.1%
+|1.5%
+|4.9%
+|1.6%
+|–
+|7.8%
+|6.8%
+|–
+|14.6%
+|style="background:#0067bc;color:#ffffff;" | 2.1%
+|-
+|style="background:#b2d1ea;" |'''31.2%'''
+|–
+|13.3%
+|–
+|7.7%
+|3.2%
+|7.0%
+|2.0%
+|–
+|–
+|6.8%
+|–
+|28.8%
+|style="background:#0067bc;color:#ffffff;" | 17.9%
+|-
+| rowspan="2"| [https://conteudos.xpi.com.br/wp-content/uploads/2021/03/Pesquisa-XP_-2021_03.pdf XP/Ipespe]
+| rowspan="2"| 9–11 Mar
+| rowspan="2"| 1,000
+| style="background:#b2d1ea;" |'''27%'''
+| 25%
+| –
+| –
+| 9%
+| 3%
+| 3%
+| 3%
+| –
+| 10%
+| 6%
+| 2%{{efn|Luiz Henrique Mandetta (DEM) with 2%}}
+| 13%
+| style="background:#0067bc;color:#ffffff;" | 2%
+|-
+| style="background:#b2d1ea;" |'''28%'''
+| –
+| 11%
+| –
+| 11%
+| 6%
+| 4%
+| 3%
+| –
+| 11%
+| 7%
+| 3%{{efn|Luiz Henrique Mandetta (DEM) with 3%}}
+| 17%
+| style="background:#0067bc;color:#ffffff;" | 17%
+|-
+|[https://exame.com/brasil/exame-ideia-bolsonaro-seria-reeleito-com-ao-menos-7-pontos-de-vantagem-contra-lula-ou-huck-em-2022/ Exame/IDEIA]
+|10–11 Mar
+|1,000
+| style="background:#b2d1ea;" |'''33%'''
+|18%
+|–
+|–
+|9%
+|5%
+|7%
+|3%
+|–
+|11%
+|6%
+|2%
+|7%
+| style="background:#0067bc;color:#ffffff;" |15%
+|-
+| rowspan="2"| [https://brasil.elpais.com/brasil/2021-03-11/lula-ciro-e-mandetta-bateriam-bolsonaro-no-segundo-turno-em-2022-mostra-pesquisa-atlas.html Atlas]
+| rowspan="2"| 8–10 Mar
+| rowspan="2"| 3,721
+| style="background:#b2d1ea;" | '''32.7%'''
+| 27.4%
+| –
+| 0.7%
+| 7.5%
+| 0.9%
+| 4.3%
+| 2.0%
+| 1.3%
+| 9.7%
+| 2.5%
+| 5.0%
+| 6.1%
+| style="background:#0067bc;color:#ffffff;" | 5.3%
+|-
+| style="background:#b2d1ea;" | '''32.3%'''
+| –
+| 15.7%
+| 1.3%
+| 11.6%
+| 2.3%
+| 5.3%
+| 2.5%
+| 1.3%
+| 10.4%
+| 4.4%
+| 6.0%
+| 7.1%
+| style="background:#0067bc;color:#ffffff;" | 16.6%
+|-
+| [https://www.cnnbrasil.com.br/politica/2021/03/10/pesquisa-exclusiva-cnn-mostra-bolsonaro-em-1-dez-pontos-a-frente-de-lula CNN Brasil/Real Time Big Data]
+| 8–9 Mar
+| 1,200
+| style="background:#b2d1ea;" |'''31%'''
+| 21%
+| –
+| –
+| 9%
+| –
+| 4%
+| 2%
+| 1%
+| 10%
+| 7%
+| –
+| 15%
+| style="background:#0067bc;color:#ffffff;" | 10%
+|-
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;" {{opdrts||8|Mar|2021}}
+| colspan="14" align="center" style="font-weight:bold;" |[[Luiz Inácio Lula da Silva|Lula]]'s corruption charges annulled; political rights restored.<ref>{{cite news |last= |first= |date=8 March 2021 |title=Judge opens door for Lula da Silva to run in Brazil in 2022 |url=https://www.aljazeera.com/news/2021/3/8/judge-opens-door-for-lula-da-silva-to-run-in-brazil-in-2022 |work=[[Al Jazeera English]] |location= |access-date=9 March 2021}}</ref>
+|-
+| rowspan="5" |[http://www.paranapesquisas.com.br/wp-content/uploads/2021/03/M%C3%ADdiaBR_Mar21.pdf Paraná Pesquisas]
+| rowspan="5" |28 Feb−1 Mar
+| rowspan="5" |2,080
+| style="background:#b2d1ea;" |'''37.6%'''
+|−
+|14.3%
+|−
+|13%
+|−
+|6.9%
+|3.9%
+|−
+|−
+|−
+|2.7%
+|21.5%
+| style="background:#0067bc;color:#ffffff;" |23.3%
+|-
+| style="background:#b2d1ea;" |'''32.2%'''
+|18%
+|−
+|−
+|8.7%
+|3.5%
+|5.3%
+|3%
+|−
+|11.6%
+|−
+|1.4%
+|16.3%
+| style="background:#0067bc;color:#ffffff;" |14.2%
+|-
+| style="background:#b2d1ea;" |'''32.9%'''
+|−
+|10.8%
+|−
+|10.3%
+|3.2%
+|−
+|3%
+|−
+|12%
+|8.7%
+|2.3%
+|17.2%
+| style="background:#0067bc;color:#ffffff;" |20.4%
+|-
+| style="background:#b2d1ea;" |'''33.9%'''
+|−
+|11.8%
+|−
+|10.7%
+|3.2%
+|6.3%
+|3.2%
+|−
+|12.3%
+|−
+|−
+|18.6%
+| style="background:#0067bc;color:#ffffff;" |21.6%
+|-
+| style="background:#b2d1ea;" |'''31.9%'''
+|−
+|10.5%
+|−
+|10%
+|3.2%
+|5.3%
+|2.8%
+|−
+|11.5%
+|8%
+|−
+|16.8%
+| style="background:#0067bc;color:#ffffff;" |20.5%
+|-
+| rowspan="3" |[https://exame-membercenter-static.s3.us-east-2.amazonaws.com/imagens/RELATORIO+EXAME+IDEIA+29+JANEIRO+(12).pdf Exame/IDEIA]
+| rowspan="3" |24−28 Jan
+| rowspan="3" |1,200
+| style="background:#b2d1ea;" |'''36%'''
+|17%
+|−
+|−
+|11%
+|8%
+|6%
+|−
+|−
+|−
+|−
+|−
+|22%
+| style="background:#0067bc;color:#ffffff;" |19%
+|-
+| style="background:#b2d1ea;" |'''33%'''
+|15%
+|−
+|−
+|10%
+|5%
+|−
+|−
+|−
+|−
+|10%
+|−
+|26%
+| style="background:#0067bc;color:#ffffff;" |18%
+|-
+| style="background:#b2d1ea;" |'''32%'''
+|17%
+|−
+|3%
+|10%
+|5%
+|3%
+|−
+|−
+|7%
+|8%
+|1%
+|15%
+| style="background:#0067bc;color:#ffffff;" |15%
+|-
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2021/01/M%C3%ADdiaSitua%C3%A7%C3%A3oEleitoral_Jan21.pdf Paraná Pesquisas]
+| rowspan="3" |22−26 Jan
+| rowspan="3" |2,002
+| style="background:#b2d1ea;" |'''30.5%'''
+|−
+|9.5%
+|−
+|10.6%
+|3.5%
+|5.4%
+|2.9%
+|−
+|12%
+|8.1%
+|−
+|17.4%
+| style="background:#0067bc;color:#ffffff;" |18.5%
+|-
+| style="background:#b2d1ea;" |'''31%'''
+|17.3%
+|−
+|−
+|9.2%
+|3.6%
+|5.3%
+|3.3%
+|2.3%
+|12.1%
+|−
+|−
+|15.8%
+| style="background:#0067bc;color:#ffffff;" |13.7%
+|-
+| style="background:#b2d1ea;" |'''33.7%'''
+|−
+|11.7%
+|1%
+|12.1%
+|−
+|6.7%
+|3.1%
+|−
+|−
+|9.4%
+|3.8%
+|19.1%
+| style="background:#0067bc;color:#ffffff;" |21.6%
+|-
+| rowspan="2" |''[https://valor.globo.com/politica/noticia/2021/01/27/bolsonaro-lidera-disputa-eleitoral-mesmo-com-popularidade-em-queda-diz-atlas.ghtml Atlas Político]''
+| rowspan="2" |20−24 Jan
+| rowspan="2" |3,073
+| style="background:#b2d1ea;" |'''34.4%'''
+|−
+|13.4%
+|−
+|11.6%
+|−
+|4.3%
+|−
+|−
+|11.6%
+|−
+|4.8%
+|19.9%
+| style="background:#0067bc;color:#ffffff;" |21%
+|-
+| style="background:#b2d1ea;" |'''34.5%'''
+|22.3%
+|−
+|1.4%
+|8.8%
+|−
+|3.6%
+|−
+|−
+|11.3%
+|1.9%
+|3.4%
+|12.8%
+| style="background:#0067bc;color:#ffffff;" |12.2%
+|-
+|''[https://www.ocafezinho.com/2021/01/18/bolsonaro-lidera-favoritismo-para-2022-moro-e-ciro-aparecem-na-sequencia-diz-pesquisa-xp/ XP/Ipespe]''
+|11−14 Jan
+|1,000
+| style="background:#b2d1ea;" |'''28%'''
+|−
+|11%
+| −
+|11%
+|5%
+|4%
+|3%
+|−
+|12%
+|7%
+| -
+| collspan="2" |18%
+| style="background:#0067bc;color:#ffffff;" |16%
+|-
+|[[2018 Brazilian general election|'''2018 general election''']]
+|7 Oct
+|−
+| style="background:#b2d1ea;" |'''46.03%'''
+|−
+|'''29.28%'''
+|−
+|12.47%
+|0.58%
+|4.76%
+|2.50%
+|1.00%
+|−
+|−
+|3.38%
+|−
+| style="background:#0067bc;color:#ffffff;" |16.75%
+|}
