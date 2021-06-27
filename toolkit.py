@@ -156,7 +156,7 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
         maxi = line_ends
     else:
         maxi = upcome[-1]
-    if end is not None and maxi > start:
+    if end is not None and maxi > end:
         maxi = end
     place = mini
     step = (upcome[-1] - upcome[0]) / res
