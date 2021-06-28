@@ -1,6 +1,6 @@
 === 2021 ===
 
-{| class="wikitable sortable mw-collapsible" style="text-align:center;font-size:90%;line-height:14px;"
+{| class="wikitable sortable mw-datatable mw-collapsible mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
 |- style="height:40px;"
 ! style="width:160px;" rowspan="2"| Polling firm
 ! style="width:125px;" rowspan="2"| Fieldwork date
@@ -1686,17 +1686,17 @@
 | 6
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 19
 |-
-|- style="background:#E9E9E9;"
-| [[2017 German federal election|2017 federal election]]
-| data-sort-value="2017-09-24"| 24 Sep 2017
-| –
-| 23.8
+|-
+| style="background:#E9E9E9;"| [[2017 German federal election|2017 federal election]]
+| style="background:#E9E9E9;" data-sort-value="2017-09-24"| 24 Sep 2017
+| style="background:#E9E9E9;"| –
+| style="background:#E9E9E9;"| 23.8
 | style="background:#D7D5D7;"| '''32.9'''
-| 20.5
-| 12.6
-| 10.7
-| 9.2
-| 8.9
-| 5.0
+| style="background:#E9E9E9;"| 20.5
+| style="background:#E9E9E9;"| 12.6
+| style="background:#E9E9E9;"| 10.7
+| style="background:#E9E9E9;"| 9.2
+| style="background:#E9E9E9;"| 8.9
+| style="background:#E9E9E9;"| 5.0
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 12.4
 |}

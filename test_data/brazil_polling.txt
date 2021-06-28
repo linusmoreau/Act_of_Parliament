@@ -18,17 +18,35 @@
 ! rowspan="2" class="unsortable"| Abst.<br>Undec.
 ! rowspan="2" data-sort-type="number"| Lead
 |-
-! data-sort-type="number" class="sortable" style="background:#0067bc;"|
-! data-sort-type="number" class="sortable" style="background:#cc0000;"|
-! data-sort-type="number" class="sortable" style="background:#cc0000;"|
-! data-sort-type="number" class="sortable" style="background:#a30000;"|
-! data-sort-type="number" class="sortable" style="background:#ee161f;"|
-! data-sort-type="number" class="sortable" style="background:#a30000;"|
-! data-sort-type="number" class="sortable" style="background:#005fa4;"|
-! data-sort-type="number" class="sortable" style="background:#f0762a;"|
-! data-sort-type="number" class="sortable" style="background:#2e8b57;"|
-! data-sort-type="number" class="sortable" style="background:#bbbbbb;"|
-! data-sort-type="number" class="sortable" style="background:#bbbbbb;"|
+! data-sort-type="number" class="sortable" style="background:#0067BC;"|
+! data-sort-type="number" class="sortable" style="background:#CC0000;"|
+! data-sort-type="number" class="sortable" style="background:#CC0000;"|
+! data-sort-type="number" class="sortable" style="background:#A30000;"|
+! data-sort-type="number" class="sortable" style="background:#EE161F;"|
+! data-sort-type="number" class="sortable" style="background:#A30000;"|
+! data-sort-type="number" class="sortable" style="background:#005fA4;"|
+! data-sort-type="number" class="sortable" style="background:#F0762A;"|
+! data-sort-type="number" class="sortable" style="background:#2E8B57;"|
+! data-sort-type="number" class="sortable" style="background:#BBBBBB;"|
+! data-sort-type="number" class="sortable" style="background:#BBBBBB;"|
+|-
+|[https://tribunapr.uol.com.br/noticias/brasil/bolsonaro-e-lula-empatam-na-pesquisa-exame-ideia-para-as-eleicoes-2022/ Exame/Ideia]
+|22–24 June
+|1,200
+|31%
+|style="background:#ffb7b7;"| '''39%'''
+|–
+|–
+|14%
+|–
+|8%
+|–
+|–
+|–
+|–
+|–
+|8%
+|style="background:#cc0000;color:#ffffff;"| 8%
 |-
 |[https://www.ipec-inteligencia.com.br/ Instituto Ipec]
 |17–21 June
