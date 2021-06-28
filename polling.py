@@ -175,8 +175,9 @@ def read_data(content, key, start, restart, date, choice, include=None):
                 if key[p] not in dat:
                     dat[key[p]] = {}
                 if end in dat[key[p]]:
-                    if (choice == 'Slovakia' and len(dat[key[p]][end]) > 0 and p in (5, 10, 11, 12)) \
-                            or choice == 'Czechia' and len(dat[key[p]][end]) > 0 and p in (2, 3, 5, 10):
+                    if (choice == 'Slovakia' and len(dat[key[p]][end]) > 0 and p in (5, 10, 11, 12)) or \
+                            (choice == 'Czechia' and len(dat[key[p]][end]) > 0 and p in (2, 3, 5, 10)) or \
+                            (choice == 'Bulgaria' and len(dat[key[p]][end])) > 0 and p in (7, 8):
                         if dat[key[p]][end][-1] is not None:
                             if share is not None:
                                 dat[key[p]][end][-1] += share
@@ -186,7 +187,7 @@ def read_data(content, key, start, restart, date, choice, include=None):
                         dat[key[p]][end].append(share)
                 else:
                     dat[key[p]][end] = [share]
-                if choice in ['Slovakia', 'Italy', 'Hungary']:
+                if choice in ['Slovakia', 'Italy', 'Hungary', 'Bulgaria']:
                     if 'colspan=' in line:
                         temp: str = line[line.find('colspan=') + len('colspan='):]
                         num = int(temp.strip('|').split()[0].split('|')[0].strip('" '))
@@ -214,14 +215,6 @@ def read_data(content, key, start, restart, date, choice, include=None):
 
 class GraphPage:
     spread = 60
-    olddata = {
-        'Canada': 'test_data/old_canada_polling.txt',
-        'Denmark': 'test_data/old_denmark_polling.txt',
-        'Germany': 'test_data/old_germany_polling.txt',
-        'Italy': 'test_data/old_italy_polling.txt',
-        'Norway': 'test_data/old_norway_polling.txt',
-        'Poland': 'test_data/old_poland_polling.txt'
-    }
 
     def __init__(self, choice, view='parties', to_end_date=False):
         widgets.clear()
@@ -238,8 +231,8 @@ class GraphPage:
 
         with open(self.file_name, 'r', encoding='utf-8') as f:
             content = f.readlines()
-        if self.choice in self.olddata:
-            with open(self.olddata[self.choice], 'r', encoding='utf-8') as f:
+        if self.choice in olddata:
+            with open(olddata[self.choice], 'r', encoding='utf-8') as f:
                 content.extend(f.readlines())
 
         self.dat = read_data(content, self.key, self.start, self.restart, self.date, self.choice, include)
@@ -561,11 +554,21 @@ class GraphPage:
             key = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
                    'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck']
             include = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Gomes (PDT)', 'Doria (PSDB)']
-            col = {'Bolsanaro (PSL/APB)': (0, 103, 188), 'Lula (PT)': (204, 0, 0), 'Haddad (PT)': (204, 0, 0),
-                   'Dino (PCdoB)': (163, 0, 0), 'Gomes (PDT)': (238, 22, 31), 'Boulos (PSOL)': (163, 0, 0),
+            col = {'Bolsanaro (PSL/APB)': (0, 140, 0), 'Lula (PT)': (204, 0, 0), 'Haddad (PT)': (204, 0, 0),
+                   'Dino (PCdoB)': (163, 0, 0), 'Gomes (PDT)': (238, 100, 100), 'Boulos (PSOL)': (163, 0, 0),
                    'Doria (PSDB)': (0, 95, 164), 'Amoedo (NOVO)': (240, 118, 42), 'Silva (REDE)': (46, 139, 87),
                    'Moro': dark_grey, 'Huck': grey}
             start = 3
+        elif choice == 'Bulgaria':
+            key = ['GERB', 'ITN', 'BSPzB', 'DPS', 'DB', 'ISMV', 'BP', 'BP', 'BP', 'Revival', 'BL']
+            col = {'GERB': (0, 86, 167), 'ITN': (75, 185, 222), 'BSPzB': (219, 15, 40), 'DPS': (0, 96, 170),
+                   'DB': (0, 74, 128), 'ISMV': (91, 165, 70), 'BP': black, 'Revival': (192, 159, 98),
+                   'BL': (243, 129, 20)}
+            blocs = {'GERB': ['GERB'], 'BSPzB': ['BSPzB'], 'DPS': ['DPS'], 'Nationalist': ['BP', 'Revival', 'BL'],
+                     'Populist': ['ITN', 'DB', 'ISMV']}
+            start = 4
+            end_date = Date(2021, 7, 11)
+            restart.append('2021 election')
         elif choice == 'New York':
             key = ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
                    'Scott Stringer', 'Maya Wiley', 'Andrew Yang']
@@ -724,6 +727,8 @@ def update_data(sel="All"):
                     'Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
         'Brazil':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_2022_Brazilian_general_election&action=edit&section=3',
+        'Bulgaria': 'https://en.wikipedia.org/w/index.php?title='
+                    'July_2021_Bulgarian_parliamentary_election&action=edit&section=4',
         'Canada':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_44th_Canadian_federal_election&action=edit&section=1',
         'Czechia':  'https://en.wikipedia.org/w/index.php?title='
@@ -751,9 +756,6 @@ def update_data(sel="All"):
                     'Opinion_polling_for_the_next_Spanish_general_election&action=edit&section=4',
         'Sweden':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
-        'New York': 'https://en.wikipedia.org/w/index.php?title='
-                    'Template:Opinion_polling_for_the_2021_New_York_City_mayoral_election/Democratic_primary&action='
-                    'edit&section=T-3'
     }
     files = {
         'New York': 'test_data/new_york_city_polling.txt'
@@ -769,8 +771,17 @@ def update_data(sel="All"):
 
 
 if __name__ == '__main__':
-    options = ['Austria', 'Brazil', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany', 'Hungary', 'Iceland',
-               'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain', 'Sweden', 'New York']
+    options = ['Austria', 'Brazil', 'Bulgaria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany',
+               'Hungary', 'Iceland', 'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain',
+               'Sweden', 'New York']
+    olddata = {
+        'Canada': 'test_data/old_canada_polling.txt',
+        'Denmark': 'test_data/old_denmark_polling.txt',
+        'Germany': 'test_data/old_germany_polling.txt',
+        'Italy': 'test_data/old_italy_polling.txt',
+        'Norway': 'test_data/old_norway_polling.txt',
+        'Poland': 'test_data/old_poland_polling.txt'
+    }
     tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
     menu_page()
