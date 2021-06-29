@@ -32,6 +32,24 @@
 ! style="background:{{Italia Viva/meta/color}};"|
 ! style="background:{{Coraggio Italia/meta/color}};"|
 |-
+|23–28 Jun
+|[https://tg.la7.it/sondaggi/il-sondaggio-politico-di-luned%C3%AC-28-giugno-2021-28-06-2021-162237 SWG]
+|1,200
+|16.6
+|18.8
+|20.3
+|7.0
+|style="background:#E5E7FF;" |'''20.7'''
+|2.3
+|2.7
+|1.8
+|1.5
+|3.9
+|2.1
+|1.0
+|1.3
+| style="background:#03386A; color:white;" | 0.4
+|-
 |25 Jun
 |[https://twitter.com/SBidimedia/status/1408741245455847425/photo/1 Tecnè]
 |1,000

@@ -61,7 +61,7 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 | 0.4<br/>{{font|size=75%|font=Verdana|text=1}}
 | style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 2.1
 |-
-| ElectoPanel/Electomanía<ref>{{cite web |title=ElectoPanel (20J): Sánchez sube tras la manifestación de Colón |url=https://electomania.es/ep27j21/ |language=es |work=Electomanía |date=27 June 2021}}</ref>
+| ElectoPanel/Electomanía<ref>{{cite web |title=ElectoPanel (27J): subida de Vox y bajada del PSOE tras los indultos |url=https://electomania.es/ep27j21/ |language=es |work=Electomanía |date=27 June 2021}}</ref>
 | 24–26 Jun 2021
 | 1,627
 |?

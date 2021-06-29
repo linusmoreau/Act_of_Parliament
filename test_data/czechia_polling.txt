@@ -43,7 +43,7 @@
 |rowspan="2" |[https://ct24.ceskatelevize.cz/sites/default/files/2569764-trendy_ceska_2021_vlna_71_volebni_model.pdf Kantar CZ]
 |rowspan="2" |7 - 18 June
 |rowspan="2" |1200
-|rowspan="2" |75.0
+|rowspan="2" |77.0
 |{{Party shading/ANO 2011}}|'''20.0'''
 |11.5
 |3.0
@@ -68,7 +68,8 @@
 |12.5
 |4.5
 |3.5
-|colspan=2|N/A
+|{{N/A}}
+|{{N/A}}
 |{{N/A}}
 |6.0
 |4.5

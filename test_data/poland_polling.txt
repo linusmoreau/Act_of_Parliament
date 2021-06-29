@@ -24,6 +24,29 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| rowspan="2"|  [https://www.se.pl/wiadomosci/polityka/nowy-sondaz-partyjny-jest-tylko-jeden-sposob-na-pokonanie-kaczynskiego-przez-tuska-to-nie-zart-aa-e7TV-kysW-1QtG.html Pollster / SE.pl]
+| rowspan="2" data-sort-value="2021-06-27" | 26–27 Jun 2021
+| rowspan="2"|  1,088
+| style="background:#C0DBFC;" | '''35.79'''
+| 20.96
+| 6.32
+| 4.84
+| 
+| 7.99
+| 23.04
+| 1.06
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.75''' 
+|-
+| style="background:#C0DBFC;" | '''34.31'''{{efn|name="pis-only"}}
+| 21.12
+| 6.42
+| 5.18
+| 
+| 7.30
+| 23.88
+| 1.79{{efn|[[United Poland]] – 0.59%, [[Agreement (political party)|Agreement]] – 0.46%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.43''' 
+|-
 | [https://fakty.tvn24.pl/fakty-po-poludniu,96/pis-na-czele-potem-polska-2050-nowy-sondaz-dla-faktow-tvn-i-tvn24,1066242.html Kantar / TVN]
 | data-sort-value="2021-06-25" | 24–25 Jun 2021
 | 1,001
@@ -36,7 +59,6 @@
 | 21
 | 11
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''9''' 
-
 |-
 | [https://wiadomosci.dziennik.pl/polityka/artykuly/8197534,koalicja-obywatelska-zjednoczona-prawica-sondaz.html Research Partner]
 | data-sort-value="2021-06-22" | 18–21 Jun 2021

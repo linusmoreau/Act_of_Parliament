@@ -48,7 +48,7 @@
 | colspan="3" | 6.4%
 | 1.4%
 | –
-| 9.3%{{efn|[[Republicans for Bulgaria]] 1.2%, Left Union for a Clean and Holy Republic 1.9%}}
+| 9.3%{{efn|[[Republicans for Bulgaria]] 1.2%, [[Left Union for a Clean and Holy Republic]] 1.9%}}
 | style="background:{{GERB/meta/color}}; color:white;"| 4.3%
 |-
 | [https://rctrend.bg/project/209520/ Trend]
@@ -64,7 +64,7 @@
 | colspan="3" | 3.9%
 | 2.3%
 | 1.9%
-| 6.8%{{efn|Left Union for a Clean and Holy Republic 1.1%}}
+| 6.8%{{efn|[[Left Union for a Clean and Holy Republic]] 1.1%}}
 | style="background:{{GERB/meta/color}}; color:white;"| 1.5%
 |-
 | [https://www.facebook.com/sovaharris/photos/pcb.4101030563349767/4101029686683188 Sova Harris]
@@ -128,7 +128,7 @@
 | colspan="3" | 4.8%
 | 2.8%
 | 0.9%
-| 10.4%{{efn|[[Republicans for Bulgaria]] 0.9%, Left Union for a Clean and Holy Republic 1.5%}}
+| 10.4%{{efn|[[Republicans for Bulgaria]] 0.9%, [[Left Union for a Clean and Holy Republic]] 1.5%}}
 | style="background:{{GERB/meta/color}}; color:white;"| 1.6%
 |-
 | [https://alpharesearch.bg/post/980-elektoralni-naglasi-na-starta-na-predizbornata-kampania.html Alpha Research]
@@ -144,7 +144,7 @@
 | colspan="3" | 3.4%
 | 2.8%
 | 1.1%
-| 12.7%{{efn|Left Union for a Clean and Holy Republic 1.8%}}
+| 12.7%{{efn|[[Left Union for a Clean and Holy Republic]] 1.8%}}
 | style="background:{{GERB/meta/color}}; color:white;"| 2.1%
 |-
 | [https://trud.bg/барометър-българия-46-ото-народно-събрание-ще-е-също-така-фрагментирано-като-45-ото/ Barometer]
@@ -160,7 +160,7 @@
 | colspan="3" | 6.1%
 | 1.5%
 | –
-| 10.0%{{efn|[[Republicans for Bulgaria]] 1.3%, Left Union for a Clean and Holy Republic 1.1%}}
+| 10.0%{{efn|[[Republicans for Bulgaria]] 1.3%, [[Left Union for a Clean and Holy Republic]] 1.1%}}
 | style="background:{{GERB/meta/color}}; color:white;"| 7.0%
 |-
 | [https://www.marketlinks.bg/bg/news/elektoralnite-naglasi-sled-parlamentarnite-izbori-april-2021-86.html Market Links]
