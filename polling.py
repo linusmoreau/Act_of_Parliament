@@ -22,9 +22,11 @@ def read_data(content, key, start, restart, date, choice, include=None):
     year = '2021'
     i = 0
     prevline = None
+    flag = False
     while i < len(content):
         line = content[i]
         nline = line
+        # print(rot, line, end='')
         if '===' in line:
             year = line.strip().strip('=').strip()
             if choice == 'Poland' and year == "2019":
@@ -42,6 +44,9 @@ def read_data(content, key, start, restart, date, choice, include=None):
             if rot == 1 and 'url=' in line:
                 i += 1
                 continue
+            if '|8 February 2020' in line:
+                key = ['FG', 'FF', 'SF', 'Lab', 'PBP/S', 'SD', 'GP', 'O/I', 'O/I', 'O/I']
+                flag = True
         if isrestart(line):
             rot = 0
         if rot is not None:
@@ -69,40 +74,47 @@ def read_data(content, key, start, restart, date, choice, include=None):
                         rot = None
                         i += 1
                         continue
-                line = line.strip().strip('}')
-                dates = line.split('|')[-1]
-                if '-' in dates:
-                    s = dates.split('-')
-                elif '–' in dates:
-                    s = dates.split('–')
-                elif '−' in dates:
-                    s = dates.split('−')
-                else:
-                    s = dates.split('â€“')
-                temp = s[-1].strip()
-                temps = temp.strip().split()
-                if choice == 'Spain' and temps in [['?'], ['66.5']]:
-                    rot += 2
-                    continue
-                if choice == 'New York':
-                    y = temps[-1]
-                    d = temps[-2].strip(',')
-                    if len(temps) == 3:
-                        m = temps[-3][-3:]
-                    else:
-                        m = s[0].split()[0][s[0].find('|') + 1:]
+                line = line.strip().strip('}\'')
+                if choice == 'Ireland' and 'dts' in line:
+                    temp = line.strip('|').split('|')
+                    d = temp[-1]
+                    m = temp[-2]
+                    y = temp[-3]
                     temp = d + ' ' + m + ' ' + y
-                elif len(temps) == 2:
-                    try:
-                        y = int(temps[-1])
-                        m = temps[0]
-                        temp = str(date_kit.get_month_length(date_kit.get_month_number(m), y)) + ' ' + temp
-                    except ValueError:
-                        temp = temp + ' ' + year
-                elif len(temps) == 1:
-                    temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
-                           ' ' + temp + ' ' + year
-                temp = temp.strip("'")
+                else:
+                    dates = line.split('|')[-1]
+                    if '-' in dates:
+                        s = dates.split('-')
+                    elif '–' in dates:
+                        s = dates.split('–')
+                    elif '−' in dates:
+                        s = dates.split('−')
+                    else:
+                        s = dates.split('â€“')
+                    temp = s[-1].strip()
+                    temps = temp.strip().split()
+                    if choice == 'Spain' and temps in [['?'], ['66.5']]:
+                        rot += 2
+                        continue
+                    if choice == 'New York':
+                        y = temps[-1]
+                        d = temps[-2].strip(',')
+                        if len(temps) == 3:
+                            m = temps[-3][-3:]
+                        else:
+                            m = s[0].split()[0][s[0].find('|') + 1:]
+                        temp = d + ' ' + m + ' ' + y
+                    elif len(temps) == 2:
+                        try:
+                            y = int(temps[-1])
+                            m = temps[0]
+                            temp = str(date_kit.get_month_length(date_kit.get_month_number(m), y)) + ' ' + temp
+                        except ValueError:
+                            temp = temp + ' ' + year
+                    elif len(temps) == 1:
+                        temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
+                               ' ' + temp + ' ' + year
+                    temp = temp.strip("'")
                 end_date = date_kit.Date(text=temp, form='dmy')
                 end = date_kit.date_dif(date_kit.Date(2021, 1, 1), end_date)
                 if choice == "Italy":
@@ -119,9 +131,7 @@ def read_data(content, key, start, restart, date, choice, include=None):
                     elif 'https://www.termometropolitico.it/1595537_sondaggi-tp-un-italiano-su-due-non-vuole-draghi-' \
                          'al-quirinale.html' in nline:
                         key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV']
-                # print('\n' + str(end), end_date)
             elif rot == 0 and choice == 'Canada':
-                # print(line)
                 parts = line.split('||')
                 temp = parts[date].split('|')[-1].strip().strip('}')
                 end_date = date_kit.Date(text=temp, form='mdy')
@@ -159,25 +169,27 @@ def read_data(content, key, start, restart, date, choice, include=None):
                     temp = temp[:temp.find('{{efn')]
                 if choice == 'Spain' and '<br/>' in line:
                     temp = temp[:temp.find('<br/>')]
+                elif choice == 'Ireland' and '<ref' in line:
+                    temp = temp[:temp.find('<ref')]
                 temp = temp.split('|')[-1].strip()
                 if choice == 'Cyprus' and temp == '-' and p == 4:
                     i += 1
                     continue
                 temp = temp.replace(',', '.')
-                if temp == 'â€“' or temp == '-' or temp == '' or "small" in temp:
+                if temp in ['â€“', '-', ''] or "small" in temp:
                     share = None
                 else:
                     try:
-                        share = float(temp.strip().strip("'").strip('%'))
+                        share = float(temp.strip().strip("'%"))
                     except ValueError:
                         share = None
-                # print(key[rot], share)
                 if key[p] not in dat:
                     dat[key[p]] = {}
                 if end in dat[key[p]]:
                     if (choice == 'Slovakia' and len(dat[key[p]][end]) > 0 and p in (5, 10, 11, 12)) or \
                             (choice == 'Czechia' and len(dat[key[p]][end]) > 0 and p in (2, 3, 5, 10)) or \
-                            (choice == 'Bulgaria' and len(dat[key[p]][end])) > 0 and p in (7, 8):
+                            (choice == 'Bulgaria' and len(dat[key[p]][end])) > 0 and p in (7, 8) or \
+                            (flag and choice == 'Ireland' and len(dat[key[p]][end]) > 0 and p in (8, 9)):
                         if dat[key[p]][end][-1] is not None:
                             if share is not None:
                                 dat[key[p]][end][-1] += share
@@ -236,7 +248,6 @@ class GraphPage:
                 content.extend(f.readlines())
 
         self.dat = read_data(content, self.key, self.start, self.restart, self.date, self.choice, include)
-        # print(self.dat)
 
         height = screen_height / 12
         unit_size = height * 2 / 3
@@ -549,7 +560,7 @@ class GraphPage:
             gov = {'Government': ['FF', 'FG', 'GP'], 'Opposition': ['SF', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I']}
             date = 0
             start = 2
-            restart = ['Cite web', 'cite web']
+            restart = ['Cite web', 'cite web', 'General election', 'cite news', 'Cite news']
         elif choice == 'Brazil':
             key = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
                    'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck']
@@ -775,12 +786,13 @@ if __name__ == '__main__':
                'Hungary', 'Iceland', 'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain',
                'Sweden', 'New York']
     olddata = {
-        'Canada': 'test_data/old_canada_polling.txt',
-        'Denmark': 'test_data/old_denmark_polling.txt',
-        'Germany': 'test_data/old_germany_polling.txt',
-        'Italy': 'test_data/old_italy_polling.txt',
-        'Norway': 'test_data/old_norway_polling.txt',
-        'Poland': 'test_data/old_poland_polling.txt'
+        'Canada':   'test_data/old_canada_polling.txt',
+        'Denmark':  'test_data/old_denmark_polling.txt',
+        'Germany':  'test_data/old_germany_polling.txt',
+        'Ireland':  'test_data/old_ireland_polling.txt',
+        'Italy':    'test_data/old_italy_polling.txt',
+        'Norway':   'test_data/old_norway_polling.txt',
+        'Poland':   'test_data/old_poland_polling.txt'
     }
     tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
