@@ -307,6 +307,9 @@ class GraphPage:
         end_button.callback(functools.partial(self.change_toend, True))
         end_button.release_callback(functools.partial(self.change_toend, False))
         end_button.set_tooltip('Show up to next election')
+        end_img = Image(end_button.rect.center, (end_button.rect.w * 4 / 5, end_button.rect.h * 4 / 5),
+                        img_path='images/next.png')
+        end_button.components.append(end_img)
         if self.end_date is None:
             end_button.disable()
         else:
