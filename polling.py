@@ -302,6 +302,17 @@ class GraphPage:
         party_button.select()
         party_button.show()
 
+        end_button = SelectButton((screen_width - 12 / 2 * unit_size, height * 2 / 3),
+                                  (unit_size, unit_size), align=CENTER, deselectable=True)
+        end_button.callback(functools.partial(self.change_toend, True))
+        end_button.release_callback(functools.partial(self.change_toend, False))
+        end_button.set_tooltip('Show up to next election')
+        if self.end_date is None:
+            end_button.disable()
+        else:
+            end_button.select()
+        end_button.show()
+
         self.spread_txt = Text(str(self.spread), (screen_rect.centerx, height * 2 / 3))
         self.spread_txt.show()
 
@@ -328,7 +339,7 @@ class GraphPage:
         pinboard2.select_buttons = []
         timescales = [1, 2, 5, 10, -1]
         for i, s in enumerate(timescales):
-            b = SelectButton((screen_width - (6 + 3/2 * i) * unit_size, height * 2 / 3),
+            b = SelectButton((screen_width - (15 / 2 + 3/2 * i) * unit_size, height * 2 / 3),
                              (unit_size, unit_size), label='MAX' if s == -1 else str(s),
                              align=CENTER, parent=pinboard2, deselectable=False, exclusive=True)
             b.callback(functools.partial(self.change_minx, s))
@@ -683,6 +694,10 @@ class GraphPage:
 
     def change_minx(self, minx):
         self.minx = minx
+        self.make_graph()
+
+    def change_toend(self, toend):
+        self.to_end_date = toend
         self.make_graph()
 
 
