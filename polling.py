@@ -615,8 +615,6 @@ class GraphPage:
             for line in gov.keys():
                 if line not in col.keys():
                     col[line] = col[gov[line][0]]
-        if include is None:
-            include = key
         return file_name, key, col, blocs, gov, start, restart, date, end_date, include
 
     def make_graph(self):
