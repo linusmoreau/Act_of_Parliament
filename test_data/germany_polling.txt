@@ -1,6 +1,6 @@
 === 2021 ===
 
-{| class="wikitable sortable mw-datatable mw-collapsible mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
+{| class="wikitable sortable mw-datatable mw-collapsible" style="text-align:center;font-size:90%;line-height:14px;"
 |- style="height:40px;"
 ! style="width:160px;" rowspan="2"| Polling firm
 ! style="width:125px;" rowspan="2"| Fieldwork date
@@ -34,6 +34,32 @@
 | 18
 | 5
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11.5
+|-
+| [https://www.wahlrecht.de/umfrage/forsa.htm Forsa]
+| data-sort-value="2021-06-30"| 22–28 Jun 2021
+| 2,501
+| 22
+| style="background:#D7D5D7;"| '''30'''
+| 14
+| 9
+| 12
+| 7
+| 20
+| 8
+| style="background: {{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [https://www.wahlrecht.de/umfragen/ipsos.htm Ipsos]
+| data-sort-value="2021-06-29"| 21–27 Jun 2021
+| 2,002
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 15
+| 10
+| 11
+| 8
+| 21
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7
 |-
 | [https://www.wahlrecht.de/umfragen/insa.htm INSA]
 | data-sort-value="2021-06-27"| 21–25 Jun 2021

@@ -27,6 +27,8 @@
 ! style="background:{{Canadian party colour|CA|Green}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|PPC}}" data-sort-type="number"|
 |-
+| [[Ipsos]] || {{dts|June 22, 2021}} || [https://www.ipsos.com/en-ca/news-polls/Liberals-Support-Plateaus-Back-Vaccination-Programme HTML] || 26 || {{Party shading/Liberal}}|'''38''' || 20 || 8 || 7 || 1 || 1 || ±2.9 pp || 1,501 || online/telephone || {{Party shading/Liberal}}|'''12'''
+|-
 | [[Abacus Data]] || {{dts|June 21, 2021}} || [https://abacusdata.ca/liberal-fortunes-improve-lead-by-10/ HTML] || 27 || {{Party shading/Liberal}}|'''37''' || 18 || 9 || 5 || 3 || 1 || ±2.2 pp || 2,070 || online || {{Party shading/Liberal}}|'''10'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|June 20, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Legers-North-American-Tracker-June-21st-2021.pdf PDF] || 30 || {{Party shading/Liberal}}|'''34''' || 20 || 8 || 5 || {{n/a}} || 4 || ±2.49 pp || 1,542 || online || {{Party shading/Liberal}}|'''4'''
@@ -55,7 +57,7 @@
 |-
 | [[Abacus Data]] || {{dts|May 28, 2021}} || [https://abacusdata.ca/mood-brightens-canadian-politics/ HTML] || 31 || {{Party shading/Liberal}}|'''34''' || 17 || 7 || 7 || 2 || 2 || ±2.1 pp || 2,000 || online || {{Party shading/Liberal}}|'''3'''
 |-
-| [[Ekos Research Associates|EKOS]] || {{dts|May 27, 2021}} || [https://twitter.com/VoiceOfFranky/status/1398844725789143041/ Twitter] || 27.8 || {{Party shading/Liberal}}|'''35.4''' || 17.9 || 5.6 || 7.0 ||  4.0 || 3.0 || ±1.7 pp || 1,948 || IVR || {{Party shading/Liberal}}|'''7.6'''
+| [[Ekos Research Associates|EKOS]] || {{dts|May 27, 2021}} || [https://twitter.com/VoiceOfFranky/status/1398844725789143041/ Twitter] || 27.8 || {{Party shading/Liberal}}|'''35.4''' || 17.9 || 5.6 || 7.0 || 4.0 || 3.0 || ±1.7 pp || 1,948 || IVR || {{Party shading/Liberal}}|'''7.6'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|May 23, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Legers-North-American-Tracker-May-25th-2021_v2.pdf PDF] || 30 || {{Party shading/Liberal}}|'''34''' || 19 || 7 || 7 || {{n/a}} || 3 || ±2.43 pp || 1,624 || online || {{Party shading/Liberal}}|'''4'''
 |-
@@ -65,7 +67,7 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|May 16, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/PostMedia_NationalPost_COVIDTrustMay2021.pdf PDF] || 31 || {{Party shading/Liberal}}|'''32''' || 19 || 7 || 8 || {{n/a}} || 2 || ±2.5 pp || 1,516 || online || {{Party shading/Liberal}}|'''1'''
 |-
-| [[Ipsos]] || {{dts|May 14, 2021}} || [https://www.ipsos.com/en-ca/news-polls/liberals-in-drivers-seat-over-conservatives-as-vaccination-rollout-hits-its-stride HTML] || 29 || {{Party shading/Liberal}}|'''38''' || 21 ||  6 || 5 || 1 || 1 || ±3.5 pp || 1,001 || online || {{Party shading/Liberal}}|'''9'''
+| [[Ipsos]] || {{dts|May 14, 2021}} || [https://www.ipsos.com/en-ca/news-polls/liberals-in-drivers-seat-over-conservatives-as-vaccination-rollout-hits-its-stride HTML] || 29 || {{Party shading/Liberal}}|'''38''' || 21 || 6 || 5 || 1 || 1 || ±3.5 pp || 1,001 || online || {{Party shading/Liberal}}|'''9'''
 |-
 | [[Abacus Data]] || {{dts|May 12, 2021}} || [https://abacusdata.ca/liberals-conservatives-neck-and-neck-poll-canadian-politics/ HTML] || 32 || {{Party shading/Liberal}}|'''34''' || 17 || 6 || 7 || 3 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''2'''
 |-

@@ -47,6 +47,19 @@
 | 1.79{{efn|[[United Poland]] – 0.59%, [[Agreement (political party)|Agreement]] – 0.46%}}
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.43''' 
 |-
+| [https://twitter.com/IBRiS_PL/status/1409758322442616833 IBRiS / Onet]
+| data-sort-value="2021-06-26" | 25–26 Jun 2021
+| 1,100
+| style="background:#C0DBFC;" | '''33.5'''
+| 16.1
+| 8.3
+| 5.4
+| 
+| 9.3
+| 17.9
+| 9.5
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''15.6''' 
+|-
 | [https://fakty.tvn24.pl/fakty-po-poludniu,96/pis-na-czele-potem-polska-2050-nowy-sondaz-dla-faktow-tvn-i-tvn24,1066242.html Kantar / TVN]
 | data-sort-value="2021-06-25" | 24–25 Jun 2021
 | 1,001

@@ -43,8 +43,24 @@
 | 1.5
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
 |-
+| [https://www.visir.is/k/d6846724-66dd-41d0-845b-30a376a1d3f9-1624820698494 Maskina]
+| data-sort-value="2021-06-01"| June 2021
+| {{TBA}}
+| {{TBA}}
+| style="background:#C6ECFB;"| '''23.8'''
+| 15.0
+| 12.4
+| 5.0
+| 11.4
+| 11.6
+| 4.2
+| 12.3
+| 4.3
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.8
+|-
 | [https://mmr.is/frettir/birtar-nieurstoeeur/880-kosningaaetlan-i-juni-2021 MMR]
-| data-sort-value="2021-06-01"| 4–14 June 2021
+| data-sort-value="2021-06-14"| 4–14 June 2021
 | 973
 | –
 | style="background:#C6ECFB;"| '''27.0'''
@@ -76,9 +92,9 @@
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 11.1
 |-
 |[https://www.gallup.is/nidurstodur/thjodarpuls/fylgi-flokka/ Gallup]
-|May 2021
-|{{TBA}}
-|{{TBA}}
+|1–31 May 2021
+|11,779
+|48.7
 | style="background:#C6ECFB;"| '''23.5'''
 |14.7
 |12.4
