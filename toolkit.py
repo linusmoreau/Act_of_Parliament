@@ -113,7 +113,7 @@ def central_rolling_average(dat: Dict[float, List[float]], breadth: float):
 def variable_weight(disp, breadth, loc: float = 3):
     w = (1 - (abs(disp) / breadth) ** 2) ** loc
     if w < 0:
-        raise ValueError("Displacement is outside of range")
+        return 0
     else:
         return w
 
@@ -121,7 +121,7 @@ def variable_weight(disp, breadth, loc: float = 3):
 def cube_weight(disp, breadth):
     w = (1 - (abs(disp) / breadth) ** 3) ** 3
     if w < 0:
-        raise ValueError("Displacement is outside of range")
+        return 0
     else:
         return w
 
