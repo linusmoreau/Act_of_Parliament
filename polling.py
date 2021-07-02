@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 
 def read_data(content, key, start, restart, date, choice, include=None):
+
     def isrestart(line):
         if choice == 'Slovakia' and \
                 'url=https://sava.sk/en/clenstvo/zoznam-clenov/|access-date=2021-03-27|language=en-US}}' in line:
@@ -115,8 +116,9 @@ def read_data(content, key, start, restart, date, choice, include=None):
                         temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
                                ' ' + temp + ' ' + year
                     temp = temp.strip("'")
+                temp = temp.replace('X', '0')
                 end_date = date_kit.Date(text=temp, form='dmy')
-                end = date_kit.date_dif(date_kit.Date(2021, 1, 1), end_date)
+                end = date_kit.date_dif(today, end_date)
                 if choice == "Italy":
                     if end_date.__repr__() == "2019-04-09":
                         key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'LeU', '+Eu', 'NcI', 'PaP']
@@ -135,7 +137,7 @@ def read_data(content, key, start, restart, date, choice, include=None):
                 parts = line.split('||')
                 temp = parts[date].split('|')[-1].strip().strip('}')
                 end_date = date_kit.Date(text=temp, form='mdy')
-                end = date_kit.date_dif(date_kit.Date(2021, 1, 1), end_date)
+                end = date_kit.date_dif(today, end_date)
                 for n, p in enumerate(key):
                     if "''" in parts[start + n]:
                         share = float(parts[start + n].split('|')[-1].strip().strip("'"))
@@ -237,7 +239,7 @@ class GraphPage:
         self.minx = -1
         self.spread = GraphPage.spread
         self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, \
-            self.end_date, include = self.choice_setting(self.choice)
+            self.end_date, include, self.vlines = self.choice_setting(self.choice)
 
         self.to_end_date = to_end_date
 
@@ -361,6 +363,7 @@ class GraphPage:
         gov = None
         file_name = None
         include = None
+        vlines = None
         if choice == 'Germany':
             key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
             col = {'CDU/CSU': (0, 0, 0), 'Gr\u00fcne': (100, 161, 45), 'SPD': (235, 0, 31), 'FDP': (255, 237, 0),
@@ -470,6 +473,7 @@ class GraphPage:
             blocs = {'Progressive': ['LIB', 'NDP', 'BQ', 'GPC'], 'Conservative': ['CON', 'PPC']}
             file_name = 'test_data/canada_polling.txt'
             start = 3
+            vlines = {Date(2019, 10, 21): "General Election"}
         elif choice == 'Italy':
             key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV', 'CI']
             col = {'M5S': (255, 235, 59), 'PD': (239, 28, 39), 'Lega': (0, 128, 0), 'FI': (0, 135, 220),
@@ -575,6 +579,7 @@ class GraphPage:
             date = 0
             start = 2
             restart = ['Cite web', 'cite web', 'General election', 'cite news', 'Cite news']
+            vlines = {Date(2020, 2, 8): 'General Election'}
         elif choice == 'Brazil':
             key = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
                    'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck']
@@ -585,13 +590,14 @@ class GraphPage:
                    'Moro': dark_grey, 'Huck': grey}
             start = 3
         elif choice == 'Bulgaria':
-            key = ['GERB', 'ITN', 'BSPzB', 'DPS', 'DB', 'ISMV', 'BP', 'BP', 'BP', 'Revival', 'BL']
+            key = ['GERB', 'ITN', 'BSPzB', 'DPS', 'DB', 'ISMV', 'BP', 'BP', 'BP', 'Revival', 'BL', 'RB', 'LSChSR']
             col = {'GERB': (0, 86, 167), 'ITN': (75, 185, 222), 'BSPzB': (219, 15, 40), 'DPS': (0, 96, 170),
                    'DB': (0, 74, 128), 'ISMV': (91, 165, 70), 'BP': black, 'Revival': (192, 159, 98),
-                   'BL': (243, 129, 20)}
-            blocs = {'GERB': ['GERB'], 'BSPzB': ['BSPzB'], 'DPS': ['DPS'], 'Nationalist': ['BP', 'Revival', 'BL'],
+                   'BL': (243, 129, 20), 'RB': (43, 74, 153), 'LSChSR': (241, 25, 40)}
+            blocs = {'Conservative': ['GERB', 'RB'], 'Socialist': ['BSPzB', 'LSChSR'], 'DPS': ['DPS'],
+                     'Nationalist': ['BP', 'Revival', 'BL'],
                      'Populist': ['ITN', 'DB', 'ISMV']}
-            start = 4
+            start = 3
             end_date = Date(2021, 7, 11)
             restart.append('2021 election')
         elif choice == 'New York':
@@ -615,7 +621,9 @@ class GraphPage:
             for line in gov.keys():
                 if line not in col.keys():
                     col[line] = col[gov[line][0]]
-        return file_name, key, col, blocs, gov, start, restart, date, end_date, include
+        if vlines is not None:
+            vlines = {date_kit.date_dif(today, k): v for k, v in vlines.items()}
+        return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines
 
     def make_graph(self):
         dat = copy.deepcopy(self.dat)
@@ -644,13 +652,12 @@ class GraphPage:
             for x, ys in vals.items():
                 dat[line][x] = list(filter(lambda x: x is not None and (x != 0 or self.view == 'parties'), ys))
 
-        date = Date(2021, 1, 1)
         if self.end_date is not None and date_kit.date_dif(today, self.end_date) <= 0:
-            end = date_kit.date_dif(date, self.end_date)
+            end = date_kit.date_dif(today, self.end_date)
         else:
             end = None
         if self.to_end_date and self.end_date is not None:
-            x_max = date_kit.date_dif(date, self.end_date)
+            x_max = date_kit.date_dif(today, self.end_date)
         else:
             x_max = None
         if self.minx == -1:
@@ -660,7 +667,7 @@ class GraphPage:
                 end_date = self.end_date
             else:
                 end_date = today
-            x_min = -date_kit.date_dif(Date(end_date.year - self.minx, end_date.month, end_date.day), date)
+            x_min = -date_kit.date_dif(Date(end_date.year - self.minx, end_date.month, end_date.day), today)
         title = "Opinion Polling for " + self.choice
 
         ndat = weighted_averages(dat, self.spread, loc=True, start=x_min, end=end)
@@ -670,7 +677,8 @@ class GraphPage:
 
         self.graph = GraphDisplay(screen_center, (screen_width, screen_height), ndat, x_title=None,
                                   y_title="Support (%)", title=title, step=1, align=CENTER, colours=self.col,
-                                  initial_date=date, leader=True, y_min=0, dat_points=dat, x_max=x_max, x_min=x_min)
+                                  initial_date=today, leader=True, y_min=0, dat_points=dat, x_max=x_max, x_min=x_min,
+                                  vlines=self.vlines)
         self.graph.show()
 
     def change_view(self, view):
