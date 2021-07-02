@@ -1488,7 +1488,7 @@ class GraphDisplay(Widget):
 
     def __init__(self, position, area, dat, x_title=None, y_title=None, align=TOPLEFT,
                  x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, time=True,
-                 max_y_max=None, step=1, initial_date=None, dat_points=None):
+                 max_y_max=None, step=1, initial_date=None, dat_points=None, vlines=None):
         self.time = time
         if step != 1:
             self.dat = self.rescale(dat, step)
@@ -1520,6 +1520,7 @@ class GraphDisplay(Widget):
         self.slopes = {}
         self.tips_mem: Dict[str, Text] = {}
         self.line_tips_mem: Dict[str, Text] = {}
+        self.vlines = vlines
 
         self.top_margin = self.rect.h / 12
         self.bottom_margin = self.rect.h / 12
@@ -1583,6 +1584,10 @@ class GraphDisplay(Widget):
             self.y_scale = self.graph_rect.h / y_range
         else:
             self.y_scale = self.graph_rect.h
+
+        # Add vertical lines
+        if self.vlines is not None:
+            self.sketch_vlines()
 
         # Graph Axes
         self.sketch_axes()
@@ -1808,6 +1813,15 @@ class GraphDisplay(Widget):
                          font_size=self.title_font_size, align=LEFT)
             self.components.append(title)
 
+    def sketch_vlines(self):
+        for x, desc in self.vlines.items():
+            posx = round(self.left_margin + (x - self.x_min) / (self.x_max - self.x_min) * self.graph_rect.w)
+            pygame.gfxdraw.line(self.surface,
+                                posx, round(self.top_margin + self.graph_rect.h),
+                                posx, round(self.top_margin), dark_grey)
+            t = Text(desc, (posx, self.top_margin), align=BOTTOM)
+            self.components.append(t)
+
     def sketch_axes(self):
         zero_loc = None
 
@@ -1931,7 +1945,7 @@ class GraphDisplay(Widget):
             if line in self.colours:
                 line_colour = self.colours[line]
             else:
-                line_colour = black
+                line_colour = grey
             points = []
             for x in self.dat[line].keys():
                 p = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
