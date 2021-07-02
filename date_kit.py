@@ -141,7 +141,6 @@ def random_date(year) -> Date:
 
 
 def date_dif(idate: Date, fdate: Date) -> int:
-    # idate must be less than fdate
     dif = 0
     if idate != fdate:
         fth = sum([get_month_length(m, fdate.year) for m in range(1, fdate.month)]) + fdate.day - 1
