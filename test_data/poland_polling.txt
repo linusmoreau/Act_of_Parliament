@@ -24,6 +24,43 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1410648063052558337 IBRiS / "Wydarzenia" Polsat]
+| rowspan="2" data-sort-value="2021-06-30" | 30 Jun 2021
+| rowspan="2" | 1,100
+| style="background:#C0DBFC;" | '''33.5'''
+| 16.9
+| 9.5
+| 6.6
+| 
+| 8.4
+| 17.1
+| 8.2
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''16.4''' 
+|-
+| style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1410656316536803337 IBRiS / "Wydarzenia" Polsat]
+| style="background:#C0DBFC;" | '''30.3'''{{efn|name="pis-only"}}
+| 16.8
+| 10.1
+| 5.1
+| 
+| 8.2
+| 17.4
+| 12.1{{efn|[[United Poland]] – 1.2%, [[Agreement (political party)|Agreement]] – 1.4%, [[The Republicans (Poland)|The Republicans]] – 0.0%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.9''' 
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/556979-sondaz-pis-zwieksza-przewage-w-gore-konfederacja-i-lewica Social Changes / wPolityce.pl]
+| data-sort-value="2021-06-25" | 25–28 Jun 2021
+| 1,082
+| style="background:#C0DBFC;" | '''34'''
+| 17
+| 10
+| 3
+| 2
+| 10
+| 23
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''11''' 
+|-
 | rowspan="2"|  [https://www.se.pl/wiadomosci/polityka/nowy-sondaz-partyjny-jest-tylko-jeden-sposob-na-pokonanie-kaczynskiego-przez-tuska-to-nie-zart-aa-e7TV-kysW-1QtG.html Pollster / SE.pl]
 | rowspan="2" data-sort-value="2021-06-27" | 26–27 Jun 2021
 | rowspan="2"|  1,088
@@ -108,6 +145,10 @@
 | 22
 | 1
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''7''' 
+|-
+|
+| data-sort-value="2021-06-20" | 20 Jun 2021
+|colspan=10 |'''[[The Republicans (Poland)|The Republicans]] party is officially founded and joins [[United Right (Poland)|United Right]]<ref>{{cite news|title = Powstała Partia Republikańska – nowa siła polityczna Adama Bielana. Na sali Jarosław Kaczyński|url = https://www.wprost.pl/polityka/10459148/partia-republikanska-nowa-partia-w-polsce-adam-bielan-i-jaroslaw-kaczynski-na-konwencji-w-palladium.html|date = 1 Jul 2021|website=wprost.pl}}</ref>'''
 |-
 | [https://www.rp.pl/Polityka/306209957-Sondaz-Polski-Lad-nie-zwieksza-poparcia-dla-Zjednoczonej-Prawicy.html IBRiS / "Rz"]
 | data-sort-value="2021-06-20" | 19–20 Jun 2021

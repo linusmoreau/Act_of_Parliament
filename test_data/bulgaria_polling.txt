@@ -6,7 +6,6 @@
 ! rowspan="3"| Polling firm
 ! rowspan="3"| Fieldwork date
 ! rowspan="3"| Sample<br>size
-! rowspan="3"| Margin<br />of error
 ! rowspan="2" class="unsortable" style="width:50px;"| [[GERB]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[There Is Such a People|ITN]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[BSP for Bulgaria|BSPzB]]
@@ -14,8 +13,10 @@
 ! rowspan="2" class="unsortable" style="width:50px;"| [[Democratic Bulgaria|DB]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[Stand Up! Mafia, Get Out!|ISMV]]
 ! colspan="3" class="unsortable" style="width:50px;"| [[Bulgarian Patriots|BP]]
-! rowspan="2" class="unsortable" style="width:50px;"| [[Revival (Bulgarian political party)|Revival]]
-! rowspan="2" class="unsortable" style="width:50px;"| [[Bulgarian Summer|BL]]
+! rowspan="2" class="unsortable" style="width:40px;font-size:95%;"| [[Revival (Bulgarian political party)|Revival]]
+! rowspan="2" class="unsortable" style="width:40px;font-size:95%;"| [[Bulgarian Summer|BL]]
+! rowspan="2" class="unsortable" style="width:40px;font-size:95%;"| [[Republicans for Bulgaria|RB]]
+! rowspan="2" class="unsortable" style="width:40px;font-size:95%;"| [[Left Union for a Clean and Holy Republic|LSChSR]]
 ! rowspan="3" class="unsortable" style="width:50px;"| Others / [[None of the above|None]]
 ! rowspan="3"| Lead
 |- style="font-size:85%;"
@@ -34,11 +35,12 @@
 ! class="unsortable" style="background:{{National Front for the Salvation of Bulgaria/meta/color}};"|
 ! class="unsortable" style="background:{{Revival (Bulgarian political party)/meta/color}}"|
 ! class="unsortable" style="background:{{Bulgarian Summer/meta/color}}"|
+! class="unsortable" style="background:{{Republicans for Bulgaria/meta/color}}"|
+! class="unsortable" style="background:{{Left Union for a Clean and Holy Republic/meta/color}}"|
 |-
 | [https://novini.bg/bylgariya/izbori/668133 Barometer]
 | data-sort-value="2021-06-23"| 18–23 June 2021
 | 860
-| –
 | style="background:#CCE6FF"| '''22.5%'''
 | 18.2%
 | 17.1%
@@ -48,13 +50,14 @@
 | colspan="3" | 6.4%
 | 1.4%
 | –
-| 9.3%{{efn|[[Republicans for Bulgaria]] 1.2%, [[Left Union for a Clean and Holy Republic]] 1.9%}}
+| 1.2%
+| 1.9%
+| 6.2%
 | style="background:{{GERB/meta/color}}; color:white;"| 4.3%
 |-
 | [https://rctrend.bg/project/209520/ Trend]
 | data-sort-value="2021-06-18"| 11–18 June 2021
 | 1,003
-| –
 | style="background:#CCE6FF"| '''21.7%'''
 | 20.2%
 | 16.1%
@@ -64,13 +67,14 @@
 | colspan="3" | 3.9%
 | 2.3%
 | 1.9%
-| 6.8%{{efn|[[Left Union for a Clean and Holy Republic]] 1.1%}}
+| –
+| 1.1%
+| 5.7%
 | style="background:{{GERB/meta/color}}; color:white;"| 1.5%
 |-
 | [https://www.facebook.com/sovaharris/photos/pcb.4101030563349767/4101029686683188 Sova Harris]
 | data-sort-value="2021-06-15"| 10–15 June 2021
 | 1,000
-| –
 | style="background:#CCE6FF"| '''22.4%'''
 | 21.7%
 | 18.7%
@@ -80,13 +84,14 @@
 | colspan="3" | 4.9%
 | –
 | –
+| –
+| –
 | 4.4%
 | style="background:{{GERB/meta/color}}; color:white;"| 0.7%
 |-
 | [http://www.mediana.bg/download-analysis/PRESS_062021.doc Mediana]
 | data-sort-value="2021-06-15"| 10–15 June 2021
 | 1,008
-| –
 | 21.4%
 | style="background:#CCE6FF"|'''24.0%'''
 | 21.3%
@@ -96,13 +101,14 @@
 | colspan="3" | 5.1%
 | 1.5%
 | –
+| –
+| –
 | 1.4%
 | style="background:{{There_Are_Such_People/meta/color}}; color:white;"| 2.6%
 |-
 | [https://www.gallup-international.bg/44810/current-electoral-snapshot/ Gallup]
 | data-sort-value="2021-06-14"| 3–11 June 2021
 | 1,012
-| –
 | 21.0%
 | style="background:#CCE6FF"|'''21.2%'''
 | 15.9%
@@ -112,13 +118,14 @@
 | colspan="3" | 3.5%
 | 2.7%
 | 2.4%
+| –
+| –
 | 3.5%
 | style="background:{{There_Are_Such_People/meta/color}}; color:white;"| 0.2%
 |-
 | [https://blitz.bg/izbori-2021/drama-mezhdu-gerb-i-itn-i-koshmar-za-patriotite-i-mutrite-tablitsi_news822677.html Specter]
 | data-sort-value="2021-06-10"| 5–10 Jun 2021
 | 731
-| –
 | style="background:#CCE6FF"| '''21.0%'''
 | 19.4%
 | 14.1%
@@ -128,13 +135,14 @@
 | colspan="3" | 4.8%
 | 2.8%
 | 0.9%
-| 10.4%{{efn|[[Republicans for Bulgaria]] 0.9%, [[Left Union for a Clean and Holy Republic]] 1.5%}}
+| 0.9%
+| 1.5%
+| 8.0%
 | style="background:{{GERB/meta/color}}; color:white;"| 1.6%
 |-
 | [https://alpharesearch.bg/post/980-elektoralni-naglasi-na-starta-na-predizbornata-kampania.html Alpha Research]
-| data-sort-value="2021-06-07"| 30 May–7 Jun 2021
+| data-sort-value="2021-06-07"| {{nowrap|30 May–7 Jun 2021}}
 | 1,007
-| –
 | style="background:#CCE6FF"| '''20.3%'''
 | 18.2%
 | 14.4%
@@ -144,13 +152,14 @@
 | colspan="3" | 3.4%
 | 2.8%
 | 1.1%
-| 12.7%{{efn|[[Left Union for a Clean and Holy Republic]] 1.8%}}
+| –
+| 1.8%
+| 10.9%
 | style="background:{{GERB/meta/color}}; color:white;"| 2.1%
 |-
 | [https://trud.bg/барометър-българия-46-ото-народно-събрание-ще-е-също-така-фрагментирано-като-45-ото/ Barometer]
 | data-sort-value="2021-06-01"| 1–6 Jun 2021
 | 840
-| –
 | style="background:#CCE6FF"| '''24.1%'''
 | 17.1%
 | 16.9%
@@ -160,13 +169,14 @@
 | colspan="3" | 6.1%
 | 1.5%
 | –
-| 10.0%{{efn|[[Republicans for Bulgaria]] 1.3%, [[Left Union for a Clean and Holy Republic]] 1.1%}}
+| 1.3%
+| 1.1%
+| 7.6%
 | style="background:{{GERB/meta/color}}; color:white;"| 7.0%
 |-
 | [https://www.marketlinks.bg/bg/news/elektoralnite-naglasi-sled-parlamentarnite-izbori-april-2021-86.html Market Links]
 | data-sort-value="2021-05-27"| 19–27 May 2021
 | 676
-| –
 | style="background:#CCE6FF"| '''21.0%'''
 | 17.6%
 | 17.1%
@@ -177,12 +187,13 @@
 | colspan="2" | 1.2%
 | 1.8%
 | –
+| –
+| –
 | 1.8%
 | style="background:{{GERB/meta/color}}; color:white;"| 3.4%
 |-
 | [https://www.bgonair.bg/a/2-bulgaria/227787-kakvi-sa-prognozite-za-rezultatite-ot-izborite-na-11-yuli CAM]{{efn|Includes voter-only data.|name=voters|group=}}
 | data-sort-value="2021-05-21"| 14–21 May 2021
-| –
 | –
 | style="background:#CCE6FF"| '''23.8%'''
 | 20.9%
@@ -193,13 +204,14 @@
 | colspan="3" | 3.7%
 | 1.9%
 | –
+| –
+| –
 | 5.5%
 | style="background:{{GERB/meta/color}}; color:white;"| 2.9%
 |-
 | [https://www.gallup-international.bg/44777/electoral-attitudes-snapshot-2/ Gallup]{{efn|Includes voter-only data.|name=voters|group=}}
 | data-sort-value="2021-05-14"| 7–14 May 2021
 | 812
-| ± 3.5%
 | style="background:#CCE6FF"| '''22.8%'''
 | 20.1%
 | 16.1%
@@ -211,13 +223,14 @@
 | –
 | 2.6%
 | 2.8%
+| –
+| –
 | 6.9%
 | style="background:{{GERB/meta/color}}; color:white;"| 2.7%
 |-
 | [https://www.marketlinks.bg/bg/news/elektoralnite-naglasi-sled-parlamentarnite-izbori-april-2021-86.html Market Links]{{efn|Includes voters and non-voters.|name=all|group=}}{{Efn|The sum of all percentages is above or below 100.|name=perc|group=}}
 | data-sort-value="2021-04-23"| 16–23 Apr 2021
 | 1,053
-| –
 | style="background:#CCE6FF"| '''23.2%'''
 | 22.3%
 | 18.1%
@@ -229,13 +242,14 @@
 | –
 | 1.9%
 | –
+| –
+| –
 | 1.4%
 | style="background:{{GERB/meta/color}}; color:white;"| 0.9%
 |-
 | [https://www.gallup-international.bg/44755/new-gorvernment-or-new-elections-hypothesis/ Gallup]
 | data-sort-value="2021-04-14"| 12–14 Apr 2021
 | 831
-| ± 3.3%
 | style="background:#CCE6FF"| '''27.2%'''
 | 23.2%
 | 13.8%
@@ -247,12 +261,13 @@
 | –
 | –
 | –
+|
+|
 | –
 | style="background:{{GERB/meta/color}}; color:white;"| 4.0%
 |- style="background:#D5D5D5;"
 | [[April 2021 Bulgarian parliamentary election|April 2021 election]]
 | data-sort-value="2021-04-04"| 4 Apr 2021
-| –
 | –
 | style="background:#CCE6FF"| '''25.8%'''
 | 17.4%
@@ -264,7 +279,9 @@
 | colspan="2" | 2.3%
 | 2.4%
 | 2.9%
-| 11.7%
+| 1.3%
+| 0.5%
+| 4.7%
 | style="background:{{GERB/meta/color}}; color:white;"| 8.4%
 |}
 <br>

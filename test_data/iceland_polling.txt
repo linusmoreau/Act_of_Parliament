@@ -43,7 +43,7 @@
 | 1.5
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
 |-
-| [https://www.visir.is/k/d6846724-66dd-41d0-845b-30a376a1d3f9-1624820698494 Maskina]
+| [https://www.visir.is/k/d6846724-66dd-41d0-845b-30a376a1d3f9-1624820698494 Maskína]
 | data-sort-value="2021-06-01"| June 2021
 | {{TBA}}
 | {{TBA}}
@@ -394,6 +394,22 @@
 |3.9
 |–
 |style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.0
+|-
+| [https://maskina.is/hreyfing-a-fylgi-flokkanna/ Maskína]
+| data-sort-value="2020-09-28"| 24–28 Sep 2020
+| 879
+| {{TBA}}
+| style="background:#C6ECFB;"| '''22.7'''
+| 10.4
+| 17.9
+| 5.9
+| 7.8
+| 15.7
+| 5.5
+| 14.0
+| –
+| –
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 5.2
 |-
 | [https://mmr.is/frettir/birtar-nieurstoeeur/838-kosningaaetlan-i-september-2020 MMR]
 | data-sort-value="2019-09-26"| 10–23 Sep 2020
