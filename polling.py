@@ -237,6 +237,7 @@ class GraphPage:
     spread = 60
 
     def __init__(self, choice, view='parties', to_end_date=False):
+        # t = time.time()
         widgets.clear()
 
         self.graph = None
@@ -260,7 +261,7 @@ class GraphPage:
         height = screen_height / 12
         unit_size = height * 2 / 3
         back_button = Button((3 / 2 * unit_size, height * 2 / 3), (unit_size, unit_size), align=CENTER)
-        back_button.callback(menu_page)
+        back_button.callback(menu_page.show)
         img = Image(back_button.rect.center,
                     (back_button.rect.width * 3 / 4, back_button.rect.height * 3 / 4),
                     "images/arrow.png")
@@ -358,6 +359,7 @@ class GraphPage:
                 b.select()
             b.show()
             pinboard2.select_buttons.append(b)
+        # print("Initialization: " + str(time.time() - t))
         self.make_graph()
 
     @staticmethod
@@ -614,7 +616,7 @@ class GraphPage:
             date = 2
             start = 5
             vlines = {Date(2020, 4, 4): 'Starmer becomes Labour leader',
-                      Date(2021, 5, 6): 'Local Elections'}
+                      Date(2021, 5, 6): 'Local elections'}
             restart.append('2019 general election')
         elif choice == 'New York':
             key = ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
@@ -642,6 +644,7 @@ class GraphPage:
         return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines
 
     def make_graph(self):
+        # t = time.time()
         dat = copy.deepcopy(self.dat)
         if self.view in ['blocs', 'gov']:
             if self.view == 'blocs':
@@ -696,6 +699,7 @@ class GraphPage:
                                   initial_date=today, leader=True, y_min=0, dat_points=dat, x_max=x_max, x_min=x_min,
                                   vlines=self.vlines)
         self.graph.show()
+        # print('Graph: ' + str(time.time() - t))
 
     def change_view(self, view):
         self.view = view
@@ -726,34 +730,39 @@ class GraphPage:
         self.make_graph()
 
 
-def menu_page():
-    widgets.clear()
+class MenuPage:
 
-    button_size = 64
-    display = ScrollButtonDisplay(screen_center, (300, screen_height * 4 / 5), button_size * len(options), CENTER,
-                                  button_size=button_size)
-    buttons = []
-    for i, entry in enumerate(options):
-        b = Button((display.contain_rect.left, display.contain_rect.top + i * button_size),
-                   (display.contain_rect.w, button_size), parent=display)
-        b.callback(functools.partial(GraphPage, entry, to_end_date=True))
-        img_path = 'images/flags/' + entry.lower() + '.png'
-        try:
-            img = Image((b.rect.centerx + b.rect.w / 8, b.rect.centery), (b.rect.h * 3 / 4, b.rect.h * 3 / 4),
-                        img_path, align=LEFT)
-            b.components.append(img)
-        except FileNotFoundError:
-            pass
-        label = Text(entry.upper(), (b.rect.centerx + b.rect.w / 16, b.rect.centery), 24, align=RIGHT,
-                     background_colour=display.colour)
-        b.components.append(label)
-        buttons.append(b)
-    display.add_select_buttons(buttons)
-    display.show()
+    def __init__(self):
+        button_size = 64
+        self.display = ScrollButtonDisplay(screen_center, (300, screen_height * 4 / 5), button_size * len(options),
+                                           CENTER, button_size=button_size)
+        buttons = []
+        for i, entry in enumerate(options):
+            b = Button((self.display.contain_rect.left, self.display.contain_rect.top + i * button_size),
+                       (self.display.contain_rect.w, button_size), parent=self.display)
+            b.callback(functools.partial(GraphPage, entry, to_end_date=True))
+            img_path = 'images/flags/' + entry.lower() + '.png'
+            try:
+                img = Image((b.rect.centerx + b.rect.w / 8, b.rect.centery), (b.rect.h * 3 / 4, b.rect.h * 3 / 4),
+                            img_path, align=LEFT)
+                b.components.append(img)
+            except FileNotFoundError:
+                pass
+            label = Text(entry.upper(), (b.rect.centerx + b.rect.w / 16, b.rect.centery), 24, align=RIGHT,
+                         background_colour=self.display.colour)
+            b.components.append(label)
+            buttons.append(b)
+        self.display.add_select_buttons(buttons)
 
-    update_b = Button((screen_rect.centerx / 2, screen_rect.centery), align=CENTER, label='Update Data')
-    update_b.callback(update_data)
-    update_b.show()
+        self.update_b = Button((screen_rect.centerx / 2, screen_rect.centery), align=CENTER, label='Update Data')
+        self.update_b.callback(update_data)
+
+        self.show()
+
+    def show(self):
+        widgets.clear()
+        self.display.show()
+        self.update_b.show()
 
 
 def update_data(sel="All"):
@@ -840,5 +849,5 @@ if __name__ == '__main__':
     }
     tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
-    menu_page()
+    menu_page = MenuPage()
     game_loop()
