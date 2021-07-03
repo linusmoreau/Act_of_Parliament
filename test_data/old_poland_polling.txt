@@ -933,7 +933,6 @@
 |
 | style="background:#C0DBFC;" | '''44'''
 | 19{{efn|name="ko-rt"}}
-| 0.2{{efn|name="ko-rt"}}
 | 4
 | 3
 | 8

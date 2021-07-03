@@ -32,6 +32,42 @@
 ! style="background:{{Italia Viva/meta/color}};"|
 ! style="background:{{Coraggio Italia/meta/color}};"|
 |-
+|3 Jul
+|[https://www.lastampa.it/topnews/lettere-e-idee/2021/07/03/news/il-partito-di-conte-vale-il-10-al-voto-supererebbe-i-5-stelle-1.40455449/amp/ Euromedia]
+|–
+|14.5
+|19.8
+| style="background:#D2EED9;" | '''20.5'''
+|7.8
+|20.2
+|2.2
+|1.4
+|1.6
+|1.4
+|2.8
+|2.1
+|
+|5.7
+| style="background:#008000; color:white;" | 0.3
+|-
+|2 Jul
+|[https://www.dire.it/03-07-2021/650521-sondaggio-dire-tecne-boom-fiducia-draghi-fratelli-ditalia-resta-primo-partito/ Tecnè]
+|1,000
+|14.7
+|19.5
+|20.5
+|9.3
+| style="background:#E5E7FF;" |'''20.8'''
+|
+|2.0
+|1.5
+|1.7
+|3.1
+|2.1
+|0.9
+|3.9
+| style="background:#03386A; color:white;"| 0.3
+|-
 |30 Jun – 1 Jul
 |[https://www.termometropolitico.it/1596189_sondaggi-tp-la-variante-delta-fa-paura-a-sei-italiani-su-dieci.html Termometro Politico]
 |3,200
