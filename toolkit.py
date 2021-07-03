@@ -139,25 +139,25 @@ def rolling_averages(dat: Dict[str, Dict[float, List[float]]], breadth: float, c
 
 
 def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, loc=False, start=None, end=None,
-                     line_starts=None, line_ends=None):
+                     limit=None, line_end=None):
+    ratio = 2
     ndat = {}
     relv: List[int] = []
 
     upcome = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
     disc = []
-    if upcome[0] - breadth / 4 <= line_starts:
-        mini = line_starts
+    if start is not None and upcome[0] - breadth / ratio <= start:
+        mini = start
     else:
         mini = upcome[0]
-    # print(mini, start, line_starts, upcome[0])
-    if start is not None and mini < start:
-        mini = start
-    if upcome[-1] + breadth / 4 >= line_ends:
-        maxi = line_ends
+    if limit is not None and upcome[-1] + breadth / ratio >= limit and not (end is not None and end < limit):
+        maxi = limit
+    elif end is not None and upcome[-1] + breadth / ratio >= end:
+        maxi = end
+    elif line_end is not None and upcome[-1] + breadth / ratio >= line_end:
+        maxi = line_end
     else:
         maxi = upcome[-1]
-    if end is not None and maxi > end:
-        maxi = end
     place = mini
     step = (upcome[-1] - upcome[0]) / res
     while True:
@@ -204,120 +204,23 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
     return ndat
 
 
-# def weighted_average2(dat: Dict[float, List[float]], breadth: int, res: int, end=None):
-#     # breadth here is the number of data points included in either direction
-#     ndat = {}
-#
-#     points = sorted(filter(lambda k: len(dat[k]) > 0, list(dat.keys())))
-#     mini = points[0]
-#     if end is None:
-#         maxi = points[-1]
-#     else:
-#         maxi = end
-#     step = (maxi - mini) / res
-#     relv = []
-#     for i in range(res + 1):
-#         place = round(mini + step * i)
-#         if place > maxi:
-#             break
-#
-#         for j, x in enumerate(points):
-#             if x > place:
-#                 cutoff = j
-#                 break
-#         else:
-#             cutoff = None
-#         if cutoff is not None:
-#             s = cutoff - breadth
-#             if s < 0:
-#                 s = 0
-#             e = cutoff + breadth
-#             if e >= len(points):
-#                 e = -1
-#             relv = points[s:e]
-#         b = max([abs(relv[0] - place), abs(relv[-1] - place)])
-#         try:
-#             ndat[place] = (sum([sum(dat[x]) * cube_weight(x - place, b) for x in relv]) /
-#                            sum([len(dat[x]) * cube_weight(x - place, b) for x in relv]))
-#         except ZeroDivisionError:
-#             pass
-#     return ndat
-
-# def loess(dat: Dict[float, List[float]], breadth: float, res: int):
-#     ndat = {}
-#     relv: List[int] = []
-#     upcome = sorted(list(dat.keys()))
-#     # print(upcome)
-#     mini = upcome[0]
-#     maxi = upcome[-1]
-#     step = (maxi - mini) / res
-#     for i in range(res + 1):
-#         place = round(mini + step * i)
-#         if place > maxi:
-#             break
-#
-#         cutoff: int = -1
-#         for j, x in enumerate(upcome):
-#             # print(x, place, breadth / 2)
-#             if x >= place + breadth / 2:
-#                 cutoff = j
-#                 break
-#         if cutoff == -1:
-#             relv.extend(upcome)
-#             upcome = []
-#         else:
-#             relv.extend(upcome[:cutoff])
-#             upcome = upcome[cutoff:]
-#
-#         cutoff = -1
-#         for j, x in enumerate(relv):
-#             if x >= place - breadth / 2:
-#                 cutoff = j
-#                 break
-#         if cutoff == -1:
-#             continue
-#         else:
-#             relv = relv[cutoff:]
-#         # print(relv, upcome)
-#         try:
-#             # w = sum([weight(x - place, breadth) for x in relv])
-#             # xavg = sum([x * weight(x - place, breadth) for x in relv]) / w
-#             yavg = (sum([sum(dat[x]) * weight(x - place, breadth) for x in relv]) /
-#                     sum([len(dat[x]) * weight(x - place, breadth) for x in relv]))
-#             # beta1 = ((sum([weight(x - place, breadth) * x * sum(dat[x]) for x in relv]) - xavg * yavg * w) /
-#             #          (sum([weight(x - place, breadth) * x**2 for x in relv]) - xavg**2 * w))
-#             # beta0 = yavg - beta1 * xavg
-#             # print(beta1)
-#             ndat[place] = yavg
-#         except ZeroDivisionError:
-#             pass
-#     return ndat
-
-
 def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, res=None, loc=False,
-                      start=None, end=None) -> Dict[str, Dict[float, List[float]]]:
+                      start=None, end=None, limit=None) \
+        -> Dict[str, Dict[float, List[float]]]:
     # Breadth is the x-distance considered in either direction
     ndat = {}
-    mini = min([min(list(d.keys())) for d in dat.values()])
-    if start is not None and mini - breadth <= start:
-        line_starts = start
-    else:
-        line_starts = mini
-    maxi = max([max(list(d.keys())) for d in dat.values()])
-    if end is not None and maxi + breadth >= end:
-        line_ends = end
-    else:
-        line_ends = maxi
+    line_end = max([max(d) for d in dat.values()])
     for line, points in dat.items():
         if res is None:
-            inres = (max(list(points.keys())) - min(list(points.keys()))) // 4
+            inres = (max(points) - min(points)) // 4
             if inres == 0:
                 inres = 1
             elif inres < 50:
                 inres = 50
         else:
             inres = res
-        ndat[line] = weighted_average(points, breadth, inres, loc, start, end, line_starts, line_ends)
+        ndat[line] = weighted_average(points, breadth, inres, loc, start=start, end=end, limit=limit,
+                                      line_end=line_end)
     return ndat
 
 
