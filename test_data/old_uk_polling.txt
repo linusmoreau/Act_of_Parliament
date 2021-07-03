@@ -1,0 +1,2226 @@
+=== 2020 ===
+{{For|events during the year|2020 in the United Kingdom}}
+{| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
+! rowspan="2"| Pollster
+! rowspan="2"| Client
+! rowspan="2"| Dates<br>conducted
+! rowspan="2"| Area
+! rowspan="2" data-sort-type="number"| Sample<br>size
+! class="unsortable" style="width:50px;"|[[Conservative Party (UK)|Con]]
+! class="unsortable" style="width:50px;"|[[Labour Party (UK)|Lab]]
+! class="unsortable" style="width:50px;"|[[Liberal Democrats (UK)|Lib Dem]]
+! class="unsortable" style="width:50px;"|[[Scottish National Party|SNP]]
+! class="unsortable" style="width:50px;"|[[Green parties in the United Kingdom|Green]]
+! rowspan="2" class="unsortable" style="width:75px;"| Others
+! rowspan="2" data-sort-type="number"| Lead
+|-
+! data-sort-type="number" style="background:{{Conservative Party (UK)/meta/color}};"|
+! data-sort-type="number" style="background:{{Labour Party (UK)/meta/color}};"|
+! data-sort-type="number" style="background:{{Liberal Democrats (UK)/meta/color}};"|
+! data-sort-type="number" style="background:{{Scottish National Party/meta/color}};"|
+! data-sort-type="number" style="background:{{Green Party of England and Wales/meta/color}};"|
+|-
+|-
+|[http://www.deltapoll.co.uk/wp-content/uploads/2021/01/Deltapoll-Mirror201230.pdf Deltapoll]
+|''Daily Mirror''
+|{{opdrts|26|30|Dec|2020}}
+|GB
+|1,608
+|style="background:#BADEF5;" |'''43%'''
+|38%
+|4%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|5%
+|-
+|[https://docs.google.com/spreadsheets/d/1n_iziu4kEuVwjWpO3izXPd8MSlxxwH-Z2DltHbOgN2k/edit?usp=sharing Focaldata] (MRP)
+|N/A
+|{{opdrts|4|29|Dec|2020}}
+|GB
+|22,186
+|36%
+|style="background:#FFCCD9;"|'''38%'''
+|9%
+|4%
+|7%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://www.survation.com/survation-uk-voting-intention-poll-22-december-2020/ Survation]
+|N/A
+|{{opdrts||22|Dec|2020}}
+|UK
+|1,011
+| style="background:#BADEF5;" |'''39%'''
+|38%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>Other on 6%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/12/23/voting-intention-con-37-lab-41-21-22-dec YouGov]
+|''The Times''
+|{{opdrts|21|22|Dec|2020}}
+|GB
+|1,713
+|37%
+|style="background:#FFCCD9;"|'''41%'''
+|5%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Brexit Party]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|4%
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Final_DailyExpress_Tables_20201222_Private.pdf SavantaComRes]
+|''Daily Express''
+|{{opdrts|18|21|Dec|2020}}
+|UK
+|1,433
+|style="background:#BADEF5;" |'''41%'''
+|39%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://www.opinium.com/resource-center/uk-voting-intention-16th-december-2020/ Opinium]
+|''The Observer''
+|{{opdrts|16|17|Dec|2020}}
+|UK
+|2,001
+|style="background:#BADEF5;"|'''39%'''
+|style="background:#FFCCD9;"|'''39%'''
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Plaid Cymru]] on 1%<br/>[[UK Independence Party|UKIP]] on 3%<br/>Other on 3%}}
+|Tie
+|-
+|[https://docs.cdn.yougov.com/osvbwml3l8/TheTimes_VI_Tracker_201216_W.pdf YouGov]
+|''The Times''
+|{{opdrts|15|16|Dec|2020}}
+|GB
+|1,898
+|style="background:#BADEF5;"|'''39%'''
+|37%
+|6%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://www.kantar.com/inspiration/coronavirus/how-does-britain-feel-about-christmas-covid-19-regulations Kantar Public]
+|N/A
+|{{opdrts|10|14|Dec|2020}}
+|GB
+|1,137
+|style="background:#BADEF5;" |'''38%'''
+|37%
+|10%
+|5%
+|3%
+| {{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Final_MPP_20201218_Private.pdf SavantaComRes]
+|N/A
+|{{opdrts|11|13|Dec|2020}}
+|UK
+|1,295
+|style="background:#BADEF5;" |'''38%'''
+|37%
+|8%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 4%<br/>[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://www.ipsos.com/sites/default/files/ct/news/documents/2020-12/ipsos-mori-december-2020-political-monitor-tables_141220_public_0.pdf Ipsos MORI]
+|''Evening Standard''
+|{{opdrts|4|10|Dec|2020}}
+|GB
+|1,027
+|style="background:#BADEF5;"|'''41%'''
+|style="background:#FFCCD9;"|'''41%'''
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|2%|[[Brexit Party]] on 0%<br/>[[UKIP]] on 0%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|Tie
+|-
+|[https://www.survation.com/survation-uk-voting-intention-poll-10-december-2020 Survation]
+|N/A
+|{{opdrts|4|10|Dec|2020}}
+|UK
+|3,452
+| style="background:#BADEF5;" |'''39%'''
+|37%
+|8%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>Other on 5%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://docs.cdn.yougov.com/q68kqalfb2/TheTimes_VI_Tracker_201209_W.pdf YouGov]
+|''The Times''
+|{{opdrts|8|9|Dec|2020}}
+|GB
+|1,699
+|style="background:#BADEF5;"|'''37%'''
+|style="background:#FFCCD9;"|'''37%'''
+|8%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 5%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|Tie
+|-
+|[https://www.opinium.com/resource-center/uk-polling-data-a-year-on-from-the-general-election/ Opinium]
+|''The Observer''
+|{{opdrts|27|8|Dec|2020}}
+|UK
+|6,949
+|style="background:#BADEF5;"|'''40%'''
+|38%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|5%| [[Brexit Party]] on 0%<br/>[[Plaid Cymru]] on 1%<br/>[[UK Independence Party|UKIP]] on 2%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://www.opinium.com/resource-center/uk-voting-intention-3rd-december-2020/ Opinium]
+|''The Observer''
+|{{opdrts|3|4|Dec|2020}}
+|UK
+|2,002
+|38%
+|style="background:#FFCCD9;"|'''40%'''
+|6%
+|6%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|8%|[[Plaid Cymru]] on 1%<br/>[[UK Independence Party|UKIP]] on 3%<br/>Other on 4%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://docs.cdn.yougov.com/bzzqqwv3vq/TheTimes_VIResults_201203_W.pdf YouGov]
+|''The Times''
+|{{opdrts|2|3|Dec|2020}}
+|GB
+|1,706
+|style="background:#BADEF5;"|'''38%'''
+|style="background:#FFCCD9;"|'''38%'''
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+|Tie
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-2-december-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||2|Dec|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''40%'''
+|37%
+|9%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Final_VI_20201202_Private.pdf SavantaComRes]
+|N/A
+|{{opdrts|27|29|Nov|2020}}
+|UK
+|1,428
+|style="background:#BADEF5;" |'''39%'''
+|38%
+|8%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|8%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 4%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[http://www.deltapoll.co.uk/polls/christmas-lockdown Deltapoll]
+|''Daily Mail''
+|{{opdrts|26|28|Nov|2020}}
+|GB
+|1,525
+|37%
+|style="background:#FFCCD9;"|'''38%'''
+|9%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|8%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 0%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://www.ncpolitics.uk/2020/11/november-voting-intention/ Number Cruncher Politics]
+|N/A
+|{{opdrts|20|28|Nov|2020}}
+|GB
+|1,001
+|style="background:#BADEF5;" |'''39%'''
+|37%
+|7%
+|5%
+|5%
+|{{Hidden|6%|[[Brexit Party|Reform UK/Brexit Party]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%|headerstyle=font-weight:normal;line-height:9px;}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://docs.cdn.yougov.com/pjsmvz7z13/TheTimes_VI_Results_201127_W.pdf YouGov]
+|''The Times''
+|{{opdrts|26|27|Nov|2020}}
+|GB
+|1,696
+|37%
+|style="background:#FFCCD9;"|'''40%'''
+|5%
+|6%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|8%|[[Brexit Party]] on 5%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/Final_VI_20201124_Private.pdf SavantaComRes]
+|N/A
+|{{opdrts|20|22|Nov|2020}}
+|UK
+|1,272
+|style="background:#BADEF5;" |'''39%'''
+|37%
+|7%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|8%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 4%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://www.opinium.com/resource-center/uk-voting-intention-19th-november-2020/ Opinium]
+|''The Observer''
+|{{opdrts|19|20|Nov|2020}}
+|UK
+|2,001
+|style="background:#BADEF5;"|'''41%'''
+|38%
+|6%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|5%|[[Plaid Cymru]] on 1%<br/> [[UK Independence Party|UKIP]] on 2% <br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-19-november-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||19|Nov|2020}}
+|GB
+|2,500
+|style="background:#BADEF5;"|'''40%'''
+|39%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Plaid Cymru]] on 0%<br/>Other on 4%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://docs.cdn.yougov.com/8wzzyopkl9/TheTimes_VITracker_201118_W.pdf YouGov]
+|''The Times''
+|{{opdrts|17|18|Nov|2020}}
+|GB
+|1,700
+|style="background:#BADEF5;"|'''38%'''
+|37%
+|7%
+|6%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 4% <br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/Final_MPP_20201118_Private.pdf SavantaComRes]
+|N/A
+|{{opdrts|13|15|Nov|2020}}
+|UK
+|2,075
+|style="background:#BADEF5;" |'''41%'''
+|38%
+|5%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>Other on 4%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://docs.cdn.yougov.com/9pwtr2uj3h/TheTimes_VITrackerResults_201112.pdf YouGov]
+|''The Times''
+|{{opdrts|11|12|Nov|2020}}
+|GB
+|1,632
+|38%
+|style="background:#FFCCD9;"|'''40%'''
+|5%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 4%<br/>Other on 1%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-11-november-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||11|Nov|2020}}
+|GB
+|2,500
+|style="background:#BADEF5;"|'''40%'''
+|style="background:#FFCCD9;"|'''40%'''
+|7%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+|Tie
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/Final_VI_Tables_20201110_Private.pdf SavantaComRes]
+|N/A
+|{{opdrts|6|9|Nov|2020}}
+|UK
+|2,130
+|style="background:#BADEF5;" |'''40%'''
+|36%
+|8%
+|5%
+|5%
+| {{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 2%  <br/>Other on 3%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|4%
+|-
+|[https://www.kantar.com/uki/inspiration/politics/2020-Britain-Barometer-UK-public-has-a-gloomy-economic-outlook Kantar Public]
+|N/A
+|{{opdrts|5|9|Nov|2020}}
+|GB
+|1,141
+|style="background:#BADEF5;" |'''40%'''
+|36%
+|8%
+|5%
+|5%
+| {{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Plaid Cymru]] on 0%<br/>[[UK Independence Party|UKIP]] on 1%<br/>[[Brexit Party]] on 2% <br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|4%
+|-
+|[https://www.opinium.com/resource-center/uk-voting-intention-5th-november-2020/ Opinium]
+|''The Observer''
+|{{opdrts|5|6|Nov|2020}}
+|UK
+|2,003
+|38%
+|style="background:#FFCCD9;"|'''42%'''
+|7%
+|5%
+|3%
+| {{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Plaid Cymru]] on 1%<br/>[[UK Independence Party|UKIP]] on 2%  <br/>Other on 3%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|4%
+|-
+|[https://twitter.com/Survation/status/1324727268715933696 Survation]
+|N/A
+|{{opdrts|5|6|Nov|2020}}
+|UK
+|1,034
+| style="background:#BADEF5;" |'''39%'''
+|37%
+|9%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://docs.cdn.yougov.com/w35fkmlez4/TheTimes_VI_Tracker_201105_W1.pdf YouGov]
+|''The Times''
+|{{opdrts|4|5|Nov|2020}}
+|GB
+|1,665
+|35%
+|style="background:#FFCCD9;"|'''40%'''
+|7%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|9%|[[Brexit Party]] on 6%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|5%
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/Final_VI-20201111_Private.pdf SavantaComRes]
+|N/A
+|{{opdrts|30|2|Nov|2020}}
+|UK
+|2,126
+|style="background:#BADEF5;"|'''40%'''
+|style="background:#FFCCD9;"|'''40%'''
+|7%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+|Tie
+|-
+|[https://docs.cdn.yougov.com/u2vjm66rt8/TheTimes_VIResults_201029.pdf YouGov]
+|''The Times''
+|{{opdrts|28|29|OCT|2020}}
+|GB
+|1,658
+|style="background:#BADEF5;"|'''38%'''
+|style="background:#FFCCD9;"|'''38%'''
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Brexit Party]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|Tie
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-28-october-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||28|Oct|2020}}
+|GB
+|3,000
+|39%
+|style="background:#FFCCD9;"|'''41%'''
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Plaid Cymru]] on 0%<br/>Other on 4%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://www.ipsos.com/sites/default/files/ct/news/documents/2020-10/ipsos_mori_october_political_monitor_tables_public.pdf Ipsos MORI]
+|''Evening Standard''
+|{{opdrts|22|28|Oct|2020}}
+|GB
+|1,007
+|37%
+|style="background:#FFCCD9;"|'''42%'''
+|8%
+|6%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|3%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|5%
+|-
+|[https://2sjjwunnql41ia7ki31qqub1-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/Final_VI_20201027_Private.pdf SavantaComRes]
+|N/A
+|{{opdrts|23|26|Oct|2020}}
+|UK
+|2,111
+|style="background:#BADEF5;"|'''42%'''
+|39%
+|7%
+|4%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 2%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[http://www.deltapoll.co.uk/polls/deltapoll-mos_251024 Deltapoll]
+|''The Mail on Sunday''
+|{{opdrts|22|24|Oct|2020}}
+|GB
+|1,589
+|style="background:#BADEF5;"|'''42%'''
+|39%
+|7%
+|3%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 3%<br/>[[UK Independence Party|UKIP]] on 2%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://www.opinium.com/resource-center/uk-voting-intention-22nd-october-2020/ Opinium]
+|''The Observer''
+|{{opdrts|22|23|Oct|2020}}
+|UK
+|2,002
+|38%
+|style="background:#FFCCD9;"|'''40%'''
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Plaid Cymru]] on 1%<br/>[[UK Independence Party|UKIP]] on 2%  <br/>Other on 3%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[http://www.yougov.co.uk/topics/politics/articles-reports/2020/10/26/voting-intention-con-40-lab-39-21-22-oct YouGov]
+|''The Times''
+|{{opdrts|21|22|Oct|2020}}
+|GB
+|1,665
+|style="background:#BADEF5;"|'''40%'''
+|39%
+|7%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 3%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-21-october-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||21|Oct|2020}}
+|GB
+|3,000
+|style="background:#BADEF5;"|'''40%'''
+|style="background:#FFCCD9;"|'''40%'''
+|7%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+|Tie
+|-
+|[https://comresglobal.com/polls/savanta-comres-political-tracker-october-2020/ SavantaComRes]
+|N/A
+|{{opdrts|16|18|Oct|2020}}
+|UK
+|2,274
+|style="background:#BADEF5;"|'''42%'''
+|36%
+|8%
+|4%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 2%<br/>Other on 4%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|6%
+|-
+|[https://www.ncpolitics.uk/2020/10/ethnic-minorities-and-coronavirus/ Number Cruncher Politics]
+|''Peston''
+|{{opdrts|9|17|Oct|2020}}
+|GB
+|2,088
+|style="background:#BADEF5;"|'''41%'''
+|38%
+|5%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|5%|[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 4%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://docs.cdn.yougov.com/enclvxggp4/TheTimes_VI_Tracker_201014.pdf YouGov]
+|''The Times''
+|{{opdrts|14|15|Oct|2020}}
+|GB
+|1,675
+|style="background:#BADEF5;"|'''39%'''
+|38%
+|6%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 5%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|1%
+|-
+|[https://comresglobal.com/polls/westminster-voting-intention-14th-oct/ SavantaComRes]
+|N/A
+|{{opdrts|9|11|Oct|2020}}
+|UK
+|2,123
+|style="background:#BADEF5;"|'''39%'''
+|style="background:#FFCCD9;"|'''39%'''
+|7%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|7%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+|Tie
+|-
+|[https://www.opinium.com/resource-center/voting-intention-8th-october-2020/ Opinium]
+|''The Observer''
+|{{opdrts|8|9|Oct|2020}}
+|UK
+|2,001
+|style="background:#BADEF5;"|'''40%'''
+|style="background:#FFCCD9;"|'''40%'''
+|6%
+|6%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Plaid Cymru]] on 1%<br/> [[UK Independence Party|UKIP]] on 3% <br/>Other on 2%}}
+|Tie
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-6-7-october-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts|6|7|Oct|2020}}
+|GB
+|3,000
+|style="background:#BADEF5;"|'''41%'''
+|39%
+|8%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://docs.cdn.yougov.com/do0j3t84jg/TheTimes_VI_Tracker_201006.pdf YouGov]
+|''The Times''
+|{{opdrts|6|7|Oct|2020}}
+|GB
+|1,673
+|style="background:#BADEF5;"|'''41%'''
+|38%
+|5%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|5%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 3%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://www.survation.com/uk-political-polling-12-october-2020 Survation]
+|N/A
+|{{opdrts|5|6|Oct|2020}}
+|UK
+|1,022
+|style="background:#BADEF5;"|'''41%'''
+|37%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|7%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 5%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://comresglobal.com/polls/savanta-comres-voting-intention-06-10-20/ SavantaComRes]
+|N/A
+|{{opdrts|2|4|Oct|2020}}
+|UK
+|2,081
+|style="background:#BADEF5;"|'''42%'''
+|39%
+|7%
+|4%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|5%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 2%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-30-september-2020-1-october-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts|30|1|Oct|2020}}
+|GB
+|4,000
+|style="background:#BADEF5;"|'''39%'''
+|style="background:#FFCCD9;"|'''39%'''
+|8%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+|Tie
+|-
+|[https://docs.cdn.yougov.com/yoe9mva19x/TheTimes_VI_Tracker_200929.pdf YouGov]
+|''The Times''
+|{{opdrts|29|30|Sep|2020}}
+|GB
+|1,700
+|style="background:#BADEF5;"|'''39%'''
+|style="background:#FFCCD9;"|'''39%'''
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 4%<br/>Other on 1%}}
+|Tie
+|-
+|[https://comresglobal.com/polls/savanta-comres-voting-intention-29-09-20/ SavantaComRes]
+|N/A
+|{{opdrts|25|28|Sep|2020}}
+|UK
+|2,112
+|style="background:#BADEF5;"|'''41%'''
+|38%
+|8%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 2%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[http://www.deltapoll.co.uk/polls/latest-voting-intention-25th-september Deltapoll]
+|''The Mail on Sunday''
+|{{opdrts|24|25|Sep|2020}}
+|GB
+|1,583
+|style="background:#BADEF5;"|'''42%'''
+|38%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|5%|[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 3%<br/>[[UK Independence Party|UKIP]] on 2%<br/>Other on 0%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|4%
+|-
+|[https://www.opinium.com/resource-center/voting-intention-23rd-september/ Opinium]
+|''The Observer''
+|{{opdrts|23|25|Sep|2020}}
+|UK
+|2,002
+|39%
+|style="background:#FFCCD9;"|'''42%'''
+|5%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|style="background:{{Labour Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://docs.cdn.yougov.com/5l5pygu8gt/TimesResults_200924_VI_Trackers_W.pdf YouGov]
+|''The Times''
+|{{opdrts|23|24|Sep|2020}}
+|GB
+|1,623
+|style="background:#BADEF5;"|'''41%'''
+|38%
+|6%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 3%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 3%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-22-23-september-2020/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts|22|23|Sep|2020}}
+|GB
+|2,500
+|style="background:#BADEF5;"|'''40%'''
+|style="background:#FFCCD9;"|'''40%'''
+|7%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+|Tie
+|-
+|[https://www.kantar.com/inspiration/politics/what-do-people-in-the-uk-think-of-the-new-restrictions Kantar Public]
+|N/A
+|{{opdrts|17|21|Sep|2020}}
+|GB
+|1,125
+|style="background:#BADEF5;"|'''40%'''
+|38%
+|9%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 3%<br/>[[UK Independence Party|UKIP]] on 2%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 2%
+|-
+|[https://comresglobal.com/polls/savanta-comres-political-tracker-september-2020/ SavantaComRes]
+|N/A
+|{{opdrts|18|20|Sep|2020}}
+|UK
+|2,109
+|style="background:#BADEF5;"|'''40%'''
+|37%
+|8%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|7%|[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 3%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|3%
+|-
+|[https://www.standard.co.uk/news/politics/keir-starmer-vs-boris-johnson-polls-leading-a4552906.html Ipsos MORI]
+|''Evening Standard''
+|{{opdrts|11|18|Sep|2020}}
+|GB
+|1,013
+|style="background:#BADEF5;"|'''40%'''
+|37%
+|8%
+|7%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|2%|[[Plaid Cymru]] on 0%<br/>[[UK Independence Party|UKIP]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 3%
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/09/18/voting-intention-con-40-lab-40-16-17-sep YouGov]
+|''The Times''
+|{{opdrts|16|17|Sep|2020}}
+|GB
+|1,618
+|style="background:#BADEF5;"|'''40%'''
+|style="background:#FFCCD9;"|'''40%'''
+|6%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|Tie
+|-
+|[https://www.survation.com/survation-politics-international-law-poll-september-2020/ Survation]
+|N/A
+|{{opdrts|15|16|Sep|2020}}
+|UK
+|1,003
+|style="background:#BADEF5;"|'''40%'''
+|38%
+|7%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 2%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-15-16-september/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts|15|16|Sep|2020}}
+|GB
+|2,500
+|style="background:#BADEF5;"|'''41%'''
+|39%
+|8%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 2%
+|-
+|[https://www.opinium.com/resource-center/voting-intention-9th-september/ Opinium]
+|''The Observer''
+|{{opdrts|9|11|Sep|2020}}
+|GB
+|2,001
+|style="background:#BADEF5;"|'''42%'''
+|39%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Plaid Cymru]] on 1%<br/>[[UK Independence Party|UKIP]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 3%
+|-
+|[https://docs.cdn.yougov.com/ebmwgcoj77/TheTimes_VIResults_200908_W.pdf YouGov]
+|''The Times''
+|{{opdrts|8|9|Sep|2020}}
+|GB
+|1,615
+|style="background:#BADEF5;"|'''42%'''
+|37%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://www.ncpolitics.uk/bloomberg-public-finances-tabs/ Number Cruncher Politics]
+|''Bloomberg''
+|{{opdrts|4|8|Sep|2020}}
+|GB
+|1,001
+|style="background:#BADEF5;"|'''42%'''
+|38%
+|6%
+|5%
+|5%
+| {{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://docs.cdn.yougov.com/su3w7s8v81/TheTimes_VI_200903_W.pdf YouGov]
+|''The Times''
+|{{opdrts|3|4|Sep|2020}}
+|GB
+|1,633
+|style="background:#BADEF5;"|'''43%'''
+|37%
+|6%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://www.survation.com/political-polling-8-september-2020/ Survation]
+|N/A
+|{{opdrts|2|4|Sep|2020}}
+|UK
+|1,047
+|style="background:#BADEF5;"|'''40%'''
+|38%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 2%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-1-2-september/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts|1|2|Sep|2020}}
+|GB
+|2,500
+|style="background:#BADEF5;"|'''43%'''
+|37%
+|8%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|6%
+|-
+|[https://www.opinium.com/resource-center/public-opinion-on-coronavirus-26th-august/ Opinium]
+|''The Observer''
+|{{opdrts|26|28|Aug|2020}}
+|GB
+|2,002
+|style="background:#BADEF5;"|'''40%'''
+|style="background:#FFCCD9;"|'''40%'''
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Plaid Cymru]] on 0%<br/>[[UKIP]] on 2%}}
+| data-sort-value="0"| Tie
+|-
+|style="border-right-style:hidden;" |
+|style="border-right-style:hidden;" |
+|style="border-right-style:hidden;" {{opdrts||27|Aug|2020}}
+| colspan="9" |'''[[Ed Davey]] is [[2020 Liberal Democrats leadership election |elected leader]] of the [[Liberal Democrats (UK)|Liberal Democrats]]'''<ref>{{Cite news|date=2020-08-27|title=Davey wins Liberal Democrat leadership race|language=en-GB|work=BBC News|url=https://www.bbc.com/news/uk-politics-53933470|access-date=2020-08-29}}</ref>
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/08/26/voting-intention-con-43-lab-36-24-25-aug YouGov]
+|''The Times''
+|{{opdrts|24|25|Aug|2020}}
+|GB
+|1,669
+|style="background:#BADEF5;"|'''43%'''
+|36%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 7%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-24-august/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||24|Aug|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''42%'''
+|37%
+|9%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|5%
+|-
+|[https://www.survation.com/survation-political-poll-21-august-2020/ Survation]
+|N/A
+|{{opdrts||21|Aug|2020}}
+|UK
+|1,005
+|style="background:#BADEF5;"|'''41%'''
+|37%
+|9%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-19-august/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||19|Aug|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''44%'''
+|37%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|7%
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/08/19/voting-intention-con-40-lab-38-18-19-aug YouGov]
+|''The Times''
+|{{opdrts|18|19|Aug|2020}}
+|GB
+|1,652
+|style="background:#BADEF5;"|'''40%'''
+|38%
+|6%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|2%
+|-
+|[https://comresglobal.com/polls/savanta-comres-political-tracker-august-2020/ SavantaComRes]
+|N/A
+|{{opdrts|14|16|Aug|2020}}
+|UK
+|2,083
+|style="background:#BADEF5;"|'''42%'''
+|37%
+|7%
+|4%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|7%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|5%
+|-
+|[https://www.opinium.com/resource-center/public-opinion-on-coronavirus-13th-august/ Opinium]
+|''The Observer''
+|{{opdrts|13|14|Aug|2020}}
+|GB
+|2,005
+|style="background:#BADEF5;"|'''42%'''
+|39%
+|5%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[UKIP]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 3%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-12-august/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||12|Aug|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''43%'''
+|36%
+|9%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|7%
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/08/19/voting-intention-con-44-lab-35-11-12-aug YouGov]
+|''The Times''
+|{{opdrts|11|12|Aug|2020}}
+|GB
+|1,634
+|style="background:#BADEF5;"|'''44%'''
+|35%
+|5%
+|6%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|9%
+|-
+|[https://kantar.com/-/media/project/kantar/global/public-polls/2020/kantar-britain-barometer-data-tables---august-2020.pdf Kantar Public]
+|N/A
+|{{opdrts|6|10|Aug|2020}}
+|GB
+|1,161
+|style="background:#BADEF5;"|'''42%'''
+|35%
+|8%
+|6%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1% <br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 7%
+|-
+|[https://docs.cdn.yougov.com/h6za6iaccx/TheTimes_VI_Results_200805_W.pdf YouGov]
+|''The Times''
+|{{opdrts|4|5|Aug|2020}}
+|GB
+|1,606
+|style="background:#BADEF5;"|'''42%'''
+|36%
+|8%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://www.ipsos.com/ipsos-mori/en-uk/rishi-sunak-remains-popular-his-handling-coronavirus Ipsos MORI]
+|''Evening Standard''
+|{{opdrts|30|4|Aug|2020}}
+|GB
+|1,019
+|style="background:#BADEF5;"|'''45%'''
+|37%
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 8%
+|-
+|[https://www.survation.com/survation-political-poll-3-august-2020 Survation]
+|N/A
+|{{opdrts|31|3|Aug|2020}}
+|UK
+|1,019
+|style="background:#BADEF5;"|'''44%'''
+|35%
+|8%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 0%<br/>[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 9%
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/08/04/voting-intention-con-43-lab-35-30-31-jul YouGov]
+|''The Times''
+|{{opdrts|30|31|Jul|2020}}
+|GB
+|1,623
+|style="background:#BADEF5;"|'''43%'''
+|35%
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 8%
+|-
+|[https://www.opinium.com/wp-content/uploads/2020/08/Opinium-Political-Report-30th-July-2020.pdf Opinium]
+|''The Observer''
+|{{opdrts|30|31|Jul|2020}}
+|GB
+|2,002
+|style="background:#BADEF5;"|'''41%'''
+|38%
+|6%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 3%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-29-july/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||29|Jul|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''43%'''
+|38%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|5%
+|-
+|[https://www.opinium.com/resource-center/public-opinion-on-coronavirus-23rd-july/ Opinium]
+|''The Observer''
+|{{opdrts|23|24|Jul|2020}}
+|GB
+|2,002
+|style="background:#BADEF5;"|'''42%'''
+|38%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://docs.cdn.yougov.com/iljqdqy75l/TheTimes_VI_Results_200723_W.pdf YouGov]
+|''The Times''
+|{{opdrts|22|23|Jul|2020}}
+|GB
+|1,648
+|style="background:#BADEF5;"|'''44%'''
+|35%
+|7%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 9%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-22-july/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||22|Jul|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''44%'''
+|36%
+|8%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 8%
+|-
+|[https://comresglobal.com/polls/savanta-comres-political-tracker-july-2020/ SavantaComRes]
+|N/A
+|{{opdrts|17|19|Jul|2020}}
+|UK
+| 2,085
+| style="background:#BADEF5;"|'''43%'''
+|37%
+|6%
+|5%
+|2%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|7%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://www.opinium.com/resource-center/public-opinion-on-coronavirus-15th-july/ Opinium]
+|''The Observer''
+|{{opdrts|15|17|Jul|2020}}
+|GB
+|2,003
+|style="background:#BADEF5;"|'''44%'''
+|36%
+|6%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 8%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-15-july/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||15|Jul|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''44%'''
+|37%
+|8%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 7%
+|-
+|[https://www.kantar.com/uki/inspiration/politics/Eight-in-ten-in-favour-of-local-lockdowns-to-tackle-coronavirus Kantar Public]
+|N/A
+|{{opdrts|9|13|Jul|2020}}
+|GB
+|1,131
+|style="background:#BADEF5;"|'''45%'''
+|35%
+|9%
+|5%
+|2%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 2%<br/>[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 10%
+|-
+|[https://cdn.survation.com/wp-content/uploads/2020/07/13150005/Survation-Political-Poll-13-July-2020-Data-Tables-1.xlsx Survation]
+|N/A
+|{{opdrts|10|12|Jul|2020}}
+|UK
+|2,022
+|style="background:#BADEF5;"|'''42%'''
+|36%
+|8%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://www.opinium.com/wp-content/uploads/2020/07/Opinium-Political-Report-9th-July-2020.pdf Opinium]
+|''The Observer''
+|{{opdrts|9|10|Jul|2020}}
+|GB
+|2,002
+|style="background:#BADEF5;"|'''42%'''
+|38%
+|6%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[http://www.deltapoll.co.uk/polls/latest-voting-intention-10th-july Deltapoll]
+|''The Mail on Sunday''
+|{{opdrts|9|10|Jul|2020}}
+|GB
+| 1,541
+|style="background:#BADEF5;"|'''44%'''
+|38%
+|7%
+|3%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://docs.cdn.yougov.com/ai16ajr8zo/TheTimes_VI_200709_V2_W.pdf YouGov]
+|''The Times''
+|{{opdrts|8|9|Jul|2020}}
+|GB
+| 1,614
+|style="background:#BADEF5;"|'''46%'''
+|36%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 10%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-8-july/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||8|Jul|2020}}
+|GB
+| 2,000
+|style="background:#BADEF5;"|'''44%'''
+|39%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://www.survation.com/07-july-2020-survation-political-poll/ Survation]
+|N/A
+|{{opdrts|3|6|Jul|2020}}
+|UK
+| 1,012
+|style="background:#BADEF5;"|'''44%'''
+|37%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 0%<br/>[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 7%
+|-
+|[http://www.deltapoll.co.uk/polls/latest-voting-intention-3rd-july Deltapoll]
+|''The Mail on Sunday''
+|{{opdrts|2|3|Jul|2020}}
+|GB
+| 1,549
+|style="background:#BADEF5;"|'''41%'''
+|36%
+|7%
+|3%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|8%|[[Brexit Party]] on 4%<br/>[[UKIP]] on 3%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://www.opinium.com/resource-center/public-opinion-on-coronavirus-1st-july/ Opinium]
+|''The Observer''
+|{{opdrts|1|3|Jul|2020}}
+|GB
+|2,002
+|style="background:#BADEF5;"|'''41%'''
+|37%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-1-july// Redfield & Wilton Strategies]
+|''Election Maps UK''
+|{{opdrts||1|Jul|2020}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''42%'''
+|38%
+|8%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://docs.cdn.yougov.com/8wwuwnw9mq/TheTimesResults_200629_VI_W.pdf YouGov]
+|''The Times''
+|{{opdrts|26|28|Jun|2020}}
+|GB
+|1,626
+|style="background:#BADEF5;"|'''45%'''
+|37%
+|5%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 2%<br/>[[UKIP]] on 0%<br/>[[Plaid Cymru]] on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 8%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-25th-june/ Opinium]
+|''The Observer''
+|{{opdrts|25|26|Jun|2020}}
+|GB
+|2,001
+|style="background:#BADEF5;"|'''43%'''
+|39%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-25-june/ Redfield & Wilton Strategies]
+|''Election Maps UK''
+|{{opdrts||25|Jun|2020}}
+|GB
+| 2,000
+|style="background:#BADEF5;"|'''44%'''
+|38%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://cdn.survation.com/wp-content/uploads/2020/06/26152108/Survation-Political-Poll-260620.xlsx Survation]
+|N/A
+|{{opdrts|24|25|Jun|2020}}
+|UK
+| 2,003
+|style="background:#BADEF5;"|'''43%'''
+|36%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 0%<br/>[[Plaid Cymru]] on 0%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 7%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-18th-june/ Opinium]
+|''The Observer''
+|{{opdrts|18|19|Jun|2020}}
+|GB
+|2,001
+|style="background:#BADEF5;"|'''44%'''
+|40%
+|5%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-18-june/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||18|Jun|2020}}
+|GB
+| 2,000
+| style="background:#BADEF5;"|'''43%'''
+|38%
+|8%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://www.kantar.com/inspiration/politics/drop-in-public-approval-of-government-in-britain/ Kantar Public]
+| N/A
+|{{opdrts|11|15|Jun|2020}}
+|GB
+|1,124
+|style="background:#BADEF5;"|'''43%'''
+|35%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 2%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 0%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 8%
+|-
+|[https://comresglobal.com/polls/savanta-comres-political-tracker-june-2020/ SavantaComRes]
+|''The Daily Telegraph''
+|{{opdrts|12|14|Jun|2020}}
+|UK
+| 2,106
+| style="background:#BADEF5;"|'''40%'''
+|36%
+|9%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|8%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-11th-june/ Opinium]
+|''The Observer''
+|{{opdrts|11|12|Jun|2020}}
+|GB
+|2,001
+|style="background:#BADEF5;"|'''44%'''
+|39%
+|6%
+|5%
+|2%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/06/15/voting-intention-con-45-lab-37-11-12-jun/ YouGov]
+|''The Times''
+|{{opdrts|11|12|Jun|2020}}
+|GB
+|1,693
+| style="background:#BADEF5;"|'''45%'''
+|37%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 8%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-11-june/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||11|Jun|2020}}
+|GB
+| 1,500
+| style="background:#BADEF5;"|'''41%'''
+|39%
+|9%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 2%
+|-
+|[https://www.survation.com/uk-voting-intention-and-party-leadership-poll-10-june-2020 Survation]
+|N/A
+|{{opdrts|9|10|Jun|2020}}
+|UK
+| 1,062
+| style="background:#BADEF5;"|'''42%'''
+|36%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://www.ipsos.com/ipsos-mori/en-uk/starmer-achieves-best-satisfaction-ratings-leader-opposition-blair Ipsos MORI]
+|''Evening Standard''
+|{{opdrts|5|10|Jun|2020}}
+|GB
+| 1,059
+| style="background:#BADEF5;"|'''43%'''
+|38%
+|10%
+|4%
+|1%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-4th-june/ Opinium]
+|''The Observer''
+|{{opdrts|4|5|Jun|2020}}
+|GB
+| 2,002
+| style="background:#BADEF5;"|'''43%'''
+|40%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 3%
+|-
+|[http://www.deltapoll.co.uk/polls/latest-voting-intention-5th-june Deltapoll]
+|''The Mail on Sunday''
+|{{opdrts|4|5|Jun|2020}}
+|GB
+| 1,547
+| style="background:#BADEF5;"|'''41%'''
+|38%
+|8%
+|2%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 3%
+|-
+|[https://www.survation.com/uk-voting-intention-and-leadership-approval-ratings-3rd-june-2020/ Survation]
+|N/A
+|{{opdrts||3|Jun|2020}}
+|UK
+| 1,018
+| style="background:#BADEF5;"|'''41%'''
+|39%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 2%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-3-june/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||3|Jun|2020}}
+|GB
+| 1,500
+| style="background:#BADEF5;"|'''43%'''
+|36%
+|9%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 7%
+|-
+|[https://docs.cdn.yougov.com/m0487ho0nw/TheTimes_VI_Results_200530_W.pdf YouGov]
+|''The Times''
+|{{opdrts|29|30|May|2020}}
+|GB
+| 1,650
+| style="background:#BADEF5;"|'''45%'''
+|35%
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 10%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-28th-may/ Opinium]
+|''The Observer''
+|{{opdrts|28|29|May|2020}}
+|GB
+| 2,012
+| style="background:#BADEF5;"|'''43%'''
+|39%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 4%
+|-
+|[http://www.deltapoll.co.uk/wp-content/uploads/2020/05/Deltapoll-MoS200528_VI.pdf Deltapoll]
+|''The Mail on Sunday''
+|{{opdrts|27|28|May|2020}}
+|GB
+|1,557
+|style="background:#BADEF5;"|'''43%'''
+|38%
+|8%
+|3%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 0%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-poll-27-may/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||27|May|2020}}
+|GB
+| 1,500
+| style="background:#BADEF5;"|'''43%'''
+|37%
+|9%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://wixlabs-pdf-dev.appspot.com/index?cacheKiller=1590785813615&compId=comp-kasi9srs&instance=tSyFHXtTdd6Eq9IInUIrad0Rh0eW6rFbB7ZzIJIPaIQ.eyJpbnN0YW5jZUlkIjoiMzkxN2ZiN2UtMDg0ZC00NWNkLThkM2QtOGY5M2YxNzc5YzhlIiwiYXBwRGVmSWQiOiIxM2VlMTBhMy1lY2I5LTdlZmYtNDI5OC1kMmY5ZjM0YWNmMGQiLCJtZXRhU2l0ZUlkIjoiYjBkZjY1MTQtYjA3NS00NzFhLTkwODEtNTgwZGEwMzEyYTc4Iiwic2lnbkRhdGUiOiIyMDIwLTA1LTI5VDIxOjA3OjU0LjAzMFoiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6ImZkYzk4ZjI4LThlZjctNGQyNS04NDBjLTk1Zjc0YWVhY2VjNiIsImJpVG9rZW4iOiI4OWM4OWU2YS1iODM4LTAyZDctMWRiYy1kNzllNTE0NmI2ZjYiLCJzaXRlT3duZXJJZCI6ImJiZjYwMDFkLWNmN2QtNDAxNC1iYzE3LWJmNzE4MWU4ZmFiMyJ9 YouGov]
+|''DatapraxisEU''
+|{{opdrts|26|27|May|2020}}
+|GB
+| 2,029
+| style="background:#BADEF5;"|'''43%'''
+|38%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 5%
+|-
+|[https://yougov.co.uk/topics/politics/articles-reports/2020/05/26/voting-intention-con-44-lab-38-25-26-may YouGov]
+|''The Times''
+|{{opdrts|25|26|May|2020}}
+|GB
+| 1,629
+| style="background:#BADEF5;"|'''44%'''
+|38%
+|6%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 6%
+|-
+|[https://www.survation.com/westminster-voting-intention-and-leadership-approval-ratings-26-may-2020 Survation]
+|N/A
+|{{opdrts|22|26|May|2020}}
+|UK
+| 1,040
+| style="background:#BADEF5;"|'''46%'''
+|33%
+|8%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 0%<br/>[[Plaid Cymru]] on 0%<br/>Other on 4%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 13%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-21st-may/ Opinium]
+|''The Observer''
+|{{opdrts|21|22|May|2020}}
+|GB
+| 2,008
+| style="background:#BADEF5;"|'''47%'''
+|35%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 12%
+|-
+|[https://docs.cdn.yougov.com/246il6g7ik/TheTimes_VI_Trackers_200519_W.pdf YouGov]
+| ''The Times''
+|{{opdrts|18|19|May|2020}}
+|GB
+| 1,718
+| style="background:#BADEF5;"|'''48%'''
+|33%
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 15%
+|-
+|[https://www.comresglobal.com/wp-content/uploads/2020/05/Final-Savanta-ComRes-Political-Tracker-Tables-May-2020-2079-2105.pdf SavantaComRes]
+|N/A
+|{{opdrts|15|17|May|2020}}
+|GB
+| 2,079
+| style="background:#BADEF5;"|'''46%'''
+|33%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 13%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-may-15/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||15|May|2020}}
+|GB
+| 1,500
+| style="background:#BADEF5;"|'''47%'''
+|35%
+|9%
+|4%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 12%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-13th-may/ Opinium]
+|''The Observer''
+|{{opdrts|13|14|May|2020}}
+|GB
+| 1,062
+| style="background:#BADEF5;"|'''49%'''
+|34%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 15%
+|-
+|[https://www.kantar.com/inspiration/politics/public-concern-for-economy-remains-at-highest-level-since-2011 Kantar Public]
+|N/A
+|{{opdrts|5|11|May|2020}}
+|GB
+|1,130
+| style="background:#BADEF5;"|'''51%'''
+|32%
+|7%
+|5%
+|2%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 19%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-5th-may/ Opinium]
+|''The Observer''
+|{{opdrts|5|7|May|2020}}
+|GB
+| 1,053
+| style="background:#BADEF5;"|'''49%'''
+|33%
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 16%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-uk-voting-intention-may-6/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||6|May|2020}}
+|GB
+| 1,500
+| style="background:#BADEF5;"|'''50%'''
+|31%
+|7%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 0%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 19%
+|-
+|[https://docs.cdn.yougov.com/cpel4ibnpt/TheTimes_VI_Results_200506_V3_W.pdf YouGov]
+|''The Times''
+|{{opdrts|5|6|May|2020}}
+|GB
+| 1,667
+| style="background:#BADEF5;"|'''50%'''
+|30%
+|7%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 20%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-27th-april/ Opinium]
+|''The Observer''
+|{{opdrts|27|1|May|2020}}
+|GB
+| 1,072
+| style="background:#BADEF5;"|'''51%'''
+|33%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 18%
+|-
+|[https://www.survation.com/westminster-voting-intention-and-leadership-approval-ratings-amid-covid19-crisis Survation]
+|N/A
+|{{opdrts|27|28|Apr|2020}}
+|UK
+| 1,023
+| style="background:#BADEF5;"|'''48%'''
+|31%
+|8%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 3%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+|[https://redfieldandwiltonstrategies.com/research/latest-uk-voting-intention-april-27/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||26|Apr|2020}}
+|GB
+| 1,500
+| style="background:#BADEF5;"|'''50%'''
+|33%
+|7%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|1%|[[Plaid Cymru]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-21st-april/ Opinium]
+|''The Observer''
+|{{opdrts|21|23|Apr|2020}}
+|GB
+| 2,000
+| style="background:#BADEF5;"|'''50%'''
+|33%
+|7%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+|[https://www.kantar.com/inspiration/politics/one-in-three-britons-say-their-household-is-likely-to-need-financial-support-in-next-three-months Kantar Public]
+|N/A
+|{{opdrts|16|20|Apr|2020}}
+|GB
+|1,118
+| style="background:#BADEF5;"|'''54%'''
+|28%
+|9%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Brexit Party]] on 1%<br/>[[UKIP]] on 0%<br/>[[Plaid Cymru]] on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 26%
+|-
+|[https://redfieldandwiltonstrategies.com/research/latest-uk-voting-intention-april-17/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||17|Apr|2020}}
+|GB
+| 1,500
+| style="background:#BADEF5;"|'''52%'''
+|31%
+|8%
+|4%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 21%
+|-
+|[https://docs.cdn.yougov.com/elkhze55wg/TheTimes_VI_Results_200417_W.pdf YouGov]
+|''The Times''
+|{{opdrts|16|17|Apr|2020}}
+|GB
+| 2,015
+| style="background:#BADEF5;"|'''53%'''
+|32%
+|5%
+|4%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 21%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-15th-april/ Opinium]
+|''The Observer''
+|{{opdrts|15|17|Apr|2020}}
+|GB
+| 2,000
+| style="background:#BADEF5;"|'''51%'''
+|32%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 19%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-7th-april/// Opinium]
+|''The Observer''
+|{{opdrts|7|9|Apr|2020}}
+|GB
+| 2,005
+| style="background:#BADEF5;"|'''55%'''
+|29%
+|5%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 0%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 26%
+|-
+|[https://www.bmgresearch.co.uk/bmg-polling-results-on-behalf-of-the-independent-2/ BMG]
+|''The Independent''
+|{{opdrts|7|9|Apr|2020}}
+|GB
+|1,541
+|style="background:#BADEF5;"|'''46%'''
+|29%
+|10%
+|3%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 2%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;" {{opdrts||4|Apr|2020}}
+| colspan="9" style="font-weight:bold;"|[[Keir Starmer]] is [[2020 Labour Party leadership election (UK)|elected leader]] of the [[Labour Party (UK)|Labour Party]]<ref>{{Cite news|date=2020-04-04|title=Labour leadership winner: Sir Keir Starmer|language=en-GB|work=BBC News|url=https://www.bbc.com/news/uk-politics-51049756|access-date=2020-08-29}}</ref>
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-1st-april// Opinium]
+|''The Observer''
+|{{opdrts|1|3|Apr|2020}}
+|GB
+| 2,000
+| style="background:#BADEF5;"|'''53%'''
+|30%
+|7%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 23%
+|-
+|[https://redfieldandwiltonstrategies.com/research/latest-uk-voting-intention-april/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts|1|2|Apr|2020}}
+|UK
+|2,000
+|style="background:#BADEF5;"|'''49%'''
+|29%
+|8%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Plaid Cymru]] on 1%<br/>Other on 5%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 20%
+|-
+|[https://docs.cdn.yougov.com/sgj7p6jhwf/TheTimes_VI_200402_W.pdf YouGov]
+|''The Times''
+|{{opdrts|1|2|Apr|2020}}
+|GB
+| 1,631
+| style="background:#BADEF5;"|'''52%'''
+|28%
+|8%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 24%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-26th-march/ Opinium]
+|''The Observer''
+|{{opdrts|26|27|Mar|2020}}
+|GB
+| 2,006
+| style="background:#BADEF5;"|'''54%'''
+|28%
+|6%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 26%
+|-
+|[https://www.ncpolitics.uk/wp-content/uploads/sites/5/2020/03/bloomberg-vi-2020-03.pdf Number Cruncher Politics]
+|''Bloomberg''
+|{{opdrts|24|26|Mar|2020}}
+|GB
+|1,010
+| style="background:#BADEF5;"|'''54%'''
+|28%
+|7%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|2%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 0%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 26%
+|-
+|[https://redfieldandwiltonstrategies.com/research/current-uk-voting-intention-march/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||23|Mar|2020}}
+|GB
+|1,500
+|style="background:#BADEF5;"|'''47%'''
+|29%
+|8%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Plaid Cymru]] on 1%<br/>Other on 5%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 18%
+|-
+|[https://www.opinium.co.uk/public-opinion-on-coronavirus-19th-march-2020// Opinium]
+|''The Observer''
+|{{opdrts|19|20|Mar|2020}}
+|GB
+| 2,005
+| style="background:#BADEF5;"|'''51%'''
+|31%
+|7%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 20%
+|-
+|[https://www.ipsos.com/sites/default/files/ct/news/documents/2020-03/political-monitor-march-2020-tables.pdf Ipsos MORI]
+|''Evening Standard''
+|{{opdrts|13|16|Mar|2020}}
+|GB
+|1,003
+| style="background:#BADEF5;"|'''52%'''
+|30%
+|9%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|1%|[[Brexit Party]] on 0%<br/>[[Plaid Cymru]] on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 22%
+|-
+|[https://www.opinium.co.uk/political-polling-13th-march-2020/ Opinium]
+|''The Observer''
+|{{opdrts|12|13|Mar|2020}}
+|GB
+|2,005
+| style="background:#BADEF5;"|'''49%'''
+|32%
+|6%
+|5%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[Brexit Party]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+|[https://drive.google.com/file/d/1rr4hOHFOlRTAvAJesy-VTbTGh-C68MPM/view Kantar Public]
+|N/A
+|{{opdrts|5|9|Mar|2020}}
+|GB
+|1,171
+| style="background:#BADEF5;"|'''50%'''
+|29%
+|11%
+|4%
+|1%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 2%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 21%
+|-
+|[https://www.bmgresearch.co.uk/wp-content/uploads/2020/03/CONFIDENTIAL_BMG_Independent_Tax_090320.xlsx BMG]
+|''The Independent''
+|{{opdrts|3|6|Mar|2020}}
+|GB
+|1,498
+|style="background:#BADEF5;"|'''45%'''
+|28%
+|11%
+|3%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+|[https://www.comresglobal.com/wp-content/uploads/2020/02/Final-Sunday-Express-VI-BBC-Tables-210220-2c0d0h5.pdf SavantaComRes]
+|''Sunday Express''
+|{{opdrts|19|20|Feb|2020}}
+|GB
+|2,005
+| style="background:#BADEF5;"|'''47%'''
+|31%
+|9%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 16%
+|-
+|[https://www.opinium.co.uk/political-polling-12th-february-2020-2/ Opinium]
+|''The Observer''
+|{{opdrts|12|14|Feb|2020}}
+|GB
+|2,007
+| style="background:#BADEF5;"|'''47%'''
+|32%
+|7%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 15%
+|-
+|[https://redfieldandwiltonstrategies.com/research/current-uk-voting-intention-february/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||12|Feb|2020}}
+|GB
+|1,216
+| style="background:#BADEF5;"|'''49%'''
+|31%
+|9%
+|4%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Plaid Cymru]] on 1%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 18%
+|-
+|[https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/vng96w7o7b/TheTimes_VI_Results_200210_W.pdf YouGov]
+|''The Times''
+|{{opdrts|9|10|Feb|2020}}
+|GB
+|1,694
+| style="background:#BADEF5;"|'''48%'''
+|28%
+|10%
+|4%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 20%
+|-
+|[https://www.bmgresearch.co.uk/wp-content/uploads/2020/02/CONFIDENTIAL_BMG_Independent_110220.xlsx BMG]
+|''The Independent''
+|{{opdrts|4|7|Feb|2020}}
+|GB
+|1,503
+|style="background:#BADEF5;"|'''41%'''
+|29%
+|11%
+|5%
+|8%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|7%|[[Brexit Party]] on 3%<br/>[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 12%
+|-
+|[https://www.ipsos.com/ipsos-mori/en-uk/ipsos-mori-political-monitor-attitudes-labour-leadership-candidates Ipsos MORI]
+|''Evening Standard''
+|{{opdrts|31|3|Feb|2020}}
+|GB
+|1,001
+|style="background:#BADEF5;"| '''47%'''
+|30%
+|11%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+|[https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/jbrzn2vf5s/TheTimes_VI_Results_200203_W.pdf YouGov]
+|''The Times''
+|{{opdrts|31|2|Feb|2020}}
+|GB
+|1,575
+|style="background:#BADEF5;"| '''49%'''
+|30%
+|8%
+|4%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 1%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 19%
+|-
+|[https://www.survation.com/what-does-the-public-think-on-brexit-day/ Survation]
+|N/A
+|{{opdrts|30|31|Jan|2020}}
+|UK
+|1,015
+|style="background:#BADEF5;"| '''44%'''
+|33%
+|10%
+|5%
+|3%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|5%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 11%
+|-
+|[https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/pvy6e0njjl/TheTimes_VI_Results_200127_w.pdf YouGov]
+|''The Times''
+|{{opdrts|24|26|Jan|2020}}
+|GB
+|1,628
+|style="background:#BADEF5;"| '''49%'''
+|29%
+|10%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|3%|[[Brexit Party]] on 2%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 20%
+|-
+|[https://www.opinium.co.uk/political-polling-15th-january-2020/ Opinium]
+|''The Observer''
+|{{opdrts|15|17|Jan|2020}}
+|GB
+|1,978
+|style="background:#BADEF5;"| '''47%'''
+|30%
+|9%
+|5%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 0%<br/>Other on 2%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 17%
+|-
+|[https://www.bmgresearch.co.uk/bmgs-westminster-voting-intention-results-january-2020/ BMG]
+|''The Independent''
+|{{opdrts|8|10|Jan|2020}}
+|GB
+|1,508
+|style="background:#BADEF5;"| '''44%'''
+|29%
+|11%
+|3%
+|5%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|6%|[[Brexit Party]] on 4%<br/>[[UKIP]] on 2%<br/>[[Plaid Cymru]] on 0%}}
+| style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 15%
+|-
+|rowspan="2" colspan="2"| [[2019 United Kingdom general election|2019 general election]]
+|
+|rowspan="2" {{opdrts||12|Dec|2019}}
+|UK
+|rowspan="2"| –
+|style="background:#BADEF5;"| '''43.6%'''
+|32.1%
+|11.6%
+|3.9%
+|2.7%
+|6.7%
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 11.5%
+|-
+|GB
+|style="background:#BADEF5;"| '''44.7%'''
+|32.9%
+|11.8%
+|4.0%
+|2.8%
+|4.3%
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"| 11.8%
+|}

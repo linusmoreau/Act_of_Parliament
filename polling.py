@@ -82,6 +82,12 @@ def read_data(content, key, start, restart, date, choice, include=None):
                     m = temp[-2]
                     y = temp[-3]
                     temp = d + ' ' + m + ' ' + y
+                elif choice == 'UK' and 'opdrts' in line:
+                    temp = line.strip('|').split('|')
+                    y = temp[-1]
+                    m = temp[-2]
+                    d = temp[-3]
+                    temp = d + ' ' + m + ' ' + y
                 else:
                     dates = line.split('|')[-1]
                     if '-' in dates:
@@ -589,6 +595,7 @@ class GraphPage:
                    'Doria (PSDB)': (0, 95, 164), 'Amoedo (NOVO)': (240, 118, 42), 'Silva (REDE)': (46, 139, 87),
                    'Moro': dark_grey, 'Huck': grey}
             start = 3
+            vlines = {Date(2021, 3, 8): "Lula cleared of charges"}
         elif choice == 'Bulgaria':
             key = ['GERB', 'ITN', 'BSPzB', 'DPS', 'DB', 'ISMV', 'BP', 'BP', 'BP', 'Revival', 'BL', 'RB', 'LSChSR']
             col = {'GERB': (0, 86, 167), 'ITN': (75, 185, 222), 'BSPzB': (219, 15, 40), 'DPS': (0, 96, 170),
@@ -600,6 +607,15 @@ class GraphPage:
             start = 3
             end_date = Date(2021, 7, 11)
             restart.append('2021 election')
+        elif choice == 'UK':
+            key = ['Conservative', 'Labour', 'Lib Dem', 'SNP', 'Green']
+            col = {'Conservative': (0, 135, 220), 'Labour': (228, 0, 59), 'Lib Dem': (250, 166, 26),
+                   'SNP': (253, 243, 142), 'Green': (106, 176, 35)}
+            date = 2
+            start = 5
+            vlines = {Date(2020, 4, 4): 'Starmer becomes Labour leader',
+                      Date(2021, 5, 6): 'Local Elections'}
+            restart.append('2019 general election')
         elif choice == 'New York':
             key = ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
                    'Scott Stringer', 'Maya Wiley', 'Andrew Yang']
@@ -791,6 +807,9 @@ def update_data(sel="All"):
                     'Opinion_polling_for_the_next_Spanish_general_election&action=edit&section=4',
         'Sweden':   'https://en.wikipedia.org/w/index.php?title='
                     'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
+        'UK':
+                    'https://en.wikipedia.org/w/index.php?title='
+                    'Opinion_polling_for_the_next_United_Kingdom_general_election&action=edit&section=3'
     }
     files = {
         'New York': 'test_data/new_york_city_polling.txt'
@@ -808,7 +827,7 @@ def update_data(sel="All"):
 if __name__ == '__main__':
     options = ['Austria', 'Brazil', 'Bulgaria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany',
                'Hungary', 'Iceland', 'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain',
-               'Sweden', 'New York']
+               'Sweden', 'UK', 'New York']
     olddata = {
         'Canada':   'test_data/old_canada_polling.txt',
         'Denmark':  'test_data/old_denmark_polling.txt',
@@ -816,7 +835,8 @@ if __name__ == '__main__':
         'Ireland':  'test_data/old_ireland_polling.txt',
         'Italy':    'test_data/old_italy_polling.txt',
         'Norway':   'test_data/old_norway_polling.txt',
-        'Poland':   'test_data/old_poland_polling.txt'
+        'Poland':   'test_data/old_poland_polling.txt',
+        'UK':       'test_data/old_uk_polling.txt'
     }
     tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
