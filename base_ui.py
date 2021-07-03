@@ -1488,7 +1488,7 @@ class GraphDisplay(Widget):
 
     def __init__(self, position, area, dat, x_title=None, y_title=None, align=TOPLEFT,
                  x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, time=True,
-                 max_y_max=None, step=1, initial_date=None, dat_points=None, vlines=None):
+                 max_y_max=None, step=1, initial_date=None, dat_points=None, vlines=None, intg=False):
         self.time = time
         if step != 1:
             self.dat = self.rescale(dat, step)
@@ -1521,6 +1521,7 @@ class GraphDisplay(Widget):
         self.tips_mem: Dict[str, Text] = {}
         self.line_tips_mem: Dict[str, Text] = {}
         self.vlines = vlines
+        self.intg = intg
 
         self.top_margin = self.rect.h / 12
         self.bottom_margin = self.rect.h / 12
@@ -1717,7 +1718,7 @@ class GraphDisplay(Widget):
         tips = []
         line_tips = []
         for line in order:
-            y_val = y_vals[line]
+            y_val: float = y_vals[line]
             y_pos = self.rect.y + self.rect.h - ((y_val - self.y_min) * self.y_scale + self.bottom_margin)
             if line in self.colours:
                 orig_colour = self.colours[line]
@@ -1725,14 +1726,17 @@ class GraphDisplay(Widget):
             else:
                 colour = white
                 orig_colour = colour
+            if not self.intg:
+                txt = str(round(y_val, 2 - self.y_mag))
+            else:
+                txt = str(int(round(y_val)))
             if line in self.tips_mem.keys():
                 num_tip = self.tips_mem[line]
-                txt = str(round(float(y_val), 2 - self.y_mag))
                 if txt == num_tip.text:
                     txt = None
                 num_tip.update(txt, align=RIGHT, pos=(x - offset, y_pos))
             else:
-                num_tip = Text(str(round(float(y_val), 2 - self.y_mag)), (x - offset, y_pos), align=RIGHT,
+                num_tip = Text(txt, (x - offset, y_pos), align=RIGHT,
                            colour=black, background_colour=colour, solid_background=True, margin=2)
                 self.tips_mem[line] = num_tip
             num_tip.surface.set_alpha(200)
@@ -1773,7 +1777,10 @@ class GraphDisplay(Widget):
         y_pos = self.rect.y + self.top_margin + self.graph_rect.h / 24
         if self.leader and len(order) >= 2:
             line = order[-1]
-            dif = str(round(float(y_vals[line] - y_vals[order[-2]]), 2 - self.y_mag))
+            if self.intg:
+                dif = str(round(y_vals[line] - y_vals[order[-2]]))
+            else:
+                dif = str(round(y_vals[line] - y_vals[order[-2]], 2 - self.y_mag))
             if line in self.colours:
                 colour = fade_colour(self.colours[line])
             else:
@@ -2250,7 +2257,7 @@ def set_press_colour(shade):
         return shade
 
 
-def fade_colour(colour, amount=100):
+def fade_colour(colour, amount=128):
     if colour not in faded_colours:
         blanket = pygame.Surface((1, 1))
         blanket.fill(whitish)
