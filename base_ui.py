@@ -1,4 +1,5 @@
 import os
+import time
 from typing import Dict, List, Any
 
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
@@ -1487,14 +1488,14 @@ class ScrollDisplay(ScrollDisplayBase):
 class GraphDisplay(Widget):
 
     def __init__(self, position, area, dat, x_title=None, y_title=None, align=TOPLEFT,
-                 x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, time=True,
+                 x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, istime=True,
                  max_y_max=None, step=1, initial_date=None, dat_points=None, vlines=None, intg=False):
-        self.time = time
+        self.istime = istime
         if step != 1:
             self.dat = self.rescale(dat, step)
         else:
             self.dat = dat
-        if self.time:
+        if self.istime:
             self.initial_date: Date = initial_date
         if colours is None:
             colours = {}
@@ -1789,7 +1790,7 @@ class GraphDisplay(Widget):
                         solid_background=True, margin=2)
             lead.surface.set_alpha(200)
             self.at_line.extensions.append(lead)
-        if self.time:
+        if self.istime:
             txt = self.initial_date.get_date(int(x_val)).__repr__()
         else:
             txt = str(round(x_val))
@@ -1853,7 +1854,7 @@ class GraphDisplay(Widget):
             alignment = BOTTOM
         else:
             alignment = TOP
-        if self.time:
+        if self.istime:
             if num < 60:
                 unit = 'day'
             elif num < 365 * 3:
