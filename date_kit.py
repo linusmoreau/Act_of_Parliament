@@ -98,6 +98,7 @@ class Date(CustomObject):
 
 
 def get_month_number(month: str):
+    month = month[0].upper() + month[1:].lower()
     for num, name in months.items():
         if month == name or month == name[:3]:
             return num
