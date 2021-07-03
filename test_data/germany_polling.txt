@@ -35,6 +35,32 @@
 | 8
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8
 |-
+| [https://www.wahlrecht.de/umfragen/emnid.htm Kantar]
+| data-sort-value="2021-07-02"| 23–29 Jun 2021
+| 1,418
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 16
+| 11
+| 10
+| 7
+| 20
+| 8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8
+|-
+| [https://www.wahlrecht.de/umfragen/yougov.htm YouGov]
+| data-sort-value="2021-07-02"| 25–28 Jun 2021
+| 1,648
+| –
+| style="background:#D7D5D7;"| '''30'''
+| 15
+| 11
+| 11
+| 7
+| 19
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 11
+|-
 | [https://www.wahlrecht.de/umfragen/insa.htm INSA]
 | data-sort-value="2021-06-28"| 25–28 Jun 2021
 | 2,060
@@ -123,7 +149,7 @@
 | 11
 | 7
 | 19
-| 7
+| 8
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 9
 |-
 | [https://www.wahlrecht.de/umfrage/forsa.htm Forsa]
@@ -242,6 +268,19 @@
 | 20
 | 6
 | style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 7
+|-
+| [https://redfieldandwiltonstrategies.com/german-federal-election-voting-intention-8-june-2021/ Redfield & Wilton Strategies]
+| data-sort-value="2021-06-25"| 8–9 Jun 2021
+| 1,500
+| –
+| style="background:#D7D5D7;"| '''23'''
+| 18
+| 13
+| 14
+| 12
+| 15
+| 6
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 5
 |-
 | [https://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
 | data-sort-value="2021-06-10"| 7–9 Jun 2021

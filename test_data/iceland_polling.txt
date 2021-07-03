@@ -43,6 +43,22 @@
 | 1.5
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
 |-
+|[https://mcusercontent.com/b494522e5c95c8b55040a753b/files/7bc1767c-9b95-6eaf-b5ab-1aca9bf76266/Puls_0721_Fylgi_flokka.pdf Gallup]
+|1–29 June 2021
+|8,120
+|51.6
+| style="background:#C6ECFB;"| '''24.1'''
+|14.7
+|9.9
+|7.5
+|10.3
+|12.9
+|4.2
+|10.9
+|5.4
+|0.1
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 9.4
+|-
 | [https://www.visir.is/k/d6846724-66dd-41d0-845b-30a376a1d3f9-1624820698494 Maskína]
 | data-sort-value="2021-06-01"| June 2021
 | {{TBA}}

@@ -40,6 +40,24 @@
 ! class="unsortable" style="background:{{Green Party (Czech Republic)/meta/color}};" |
 ! class="unsortable" style="background:#0033FF;" |
 |-
+|[https://www.median.eu/cs/wp-content/uploads/2021/07/Volby_2021_06_FINAL_v05.pdf Median]
+|1–30 June
+|1033
+|–
+|{{Party shading/ANO 2011}}|'''26.0'''
+| colspan="3" |20.0
+| colspan="2" |21.5
+|8.0
+|5.5
+|5.0
+| colspan="2" |3.5
+|2.0
+|6.0
+|2.5
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |4.5
+|'''31.0'''
+|{{No|'''61.0'''}}
+|-
 |rowspan="2" |[https://ct24.ceskatelevize.cz/sites/default/files/2569764-trendy_ceska_2021_vlna_71_volebni_model.pdf Kantar CZ]
 |rowspan="2" |7 - 18 June
 |rowspan="2" |1200
