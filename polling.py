@@ -175,7 +175,7 @@ def read_data(content, key, start, restart, date, choice, include=None):
                 temp = line
                 if '{{efn' in temp:
                     temp = temp[:temp.find('{{efn')]
-                if choice == 'Spain' and '<br/>' in line:
+                if choice in ['Spain', 'Portugal'] and '<br/>' in line:
                     temp = temp[:temp.find('<br/>')]
                 elif choice == 'Ireland' and '<ref' in line:
                     temp = temp[:temp.find('<ref')]
