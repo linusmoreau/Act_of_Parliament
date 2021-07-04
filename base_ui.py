@@ -1,5 +1,4 @@
 import os
-import time
 from typing import Dict, List, Any
 
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
@@ -1638,8 +1637,11 @@ class GraphDisplay(Widget):
             Widget.new_cursor_type = 0
             if self.graph_rect.y < mouse[1] < self.graph_rect.y + self.graph_rect.h and \
                     self.graph_rect.x - self.left_margin / 4 < mouse[0] < \
-                    self.graph_rect.x + self.graph_rect.w + self.right_margin / 4:
-                self.moment((mouse[0] - self.graph_rect.x) / self.x_scale)
+                    self.graph_rect.x + self.graph_rect.w:
+                where = mouse[0] - self.graph_rect.x
+                if where < 0:
+                    where = 0
+                self.moment(where / self.x_scale)
                 return True
             else:
                 self.no_focus()
@@ -1940,8 +1942,8 @@ class GraphDisplay(Widget):
                 colour = [0, 0, 0, 120]
             for x, ys in points.items():
                 for y in ys:
-                    p = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
-                         int(self.rect.h - ((y - self.y_min) * self.y_scale + self.bottom_margin)))
+                    p = (round(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
+                         round(self.rect.h - ((y - self.y_min) * self.y_scale + self.bottom_margin)))
                     if self.graph_rect.x <= p[0] <= self.graph_rect.x + self.graph_rect.w and \
                             self.graph_rect.y <= p[1] <= self.graph_rect.y + self.graph_rect.h:
                         pygame.gfxdraw.filled_circle(self.surface, p[0], p[1], 2, colour)
@@ -1955,12 +1957,18 @@ class GraphDisplay(Widget):
             else:
                 line_colour = grey
             points = []
-            for x in self.dat[line].keys():
-                p = (int(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
-                     int(self.rect.h - ((self.dat[line][x] - self.y_min) * self.y_scale + self.bottom_margin)))
+            pp = None
+            for x in sorted(self.dat[line].keys()):
+                p = (round(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
+                     round(self.rect.h - ((self.dat[line][x] - self.y_min) * self.y_scale + self.bottom_margin)))
                 if self.graph_rect.x <= p[0] <= self.graph_rect.x + self.graph_rect.w and \
                         self.graph_rect.y <= p[1] <= self.graph_rect.y + self.graph_rect.h:
+                    if len(points) == 0 and pp is not None:
+                        np = (round(self.graph_rect.x),
+                              p[1] + round((pp[1] - p[1]) / (pp[0] - p[0]) * (self.graph_rect.x - p[0])))
+                        points.append(np)
                     points.append(p)
+                pp = p
 
             for j in range(len(points) - 1):
                 pygame.draw.line(self.surface, line_colour, points[j], points[j + 1], 1)
