@@ -212,7 +212,7 @@ def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, re
     line_end = max([max(d) for d in dat.values()])
     for line, points in dat.items():
         if res is None:
-            inres = (max(points) - min(points)) // 4
+            inres = len(points)
             if inres == 0:
                 inres = 1
             elif inres < 50:
