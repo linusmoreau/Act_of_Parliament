@@ -79,7 +79,7 @@ class Date(CustomObject):
                 year += 1
             elif day <= -year_length:
                 year -= 1
-                day += get_year_length(year)
+                day += year_length
             elif day > month_length:
                 day -= month_length
                 month += 1
