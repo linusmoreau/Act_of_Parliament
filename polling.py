@@ -6,10 +6,10 @@ import datetime
 import urllib.request
 import threading
 from bs4 import BeautifulSoup
+from data import get_riding_data
 
 
 def read_data(content, key, start, restart, date, choice, include=None):
-
     def isrestart(line):
         if choice == 'Slovakia' and \
                 'url=https://sava.sk/en/clenstvo/zoznam-clenov/|access-date=2021-03-27|language=en-US}}' in line:
@@ -242,6 +242,7 @@ def choice_setting(choice):
     file_name = None
     include = None
     vlines = None
+    toggle_seats = False
     if choice == 'Germany':
         key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
         col = {'CDU/CSU': (0, 0, 0), 'Gr\u00fcne': (100, 161, 45), 'SPD': (235, 0, 31), 'FDP': (255, 237, 0),
@@ -358,6 +359,7 @@ def choice_setting(choice):
         start = 3
         vlines = {Date(2019, 10, 21): "General Election"}
         end_date = Date(2023, 10, 16)
+        toggle_seats = True
     elif choice == 'Italy':
         key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV', 'CI']
         col = {'M5S': (255, 235, 59), 'PD': (239, 28, 39), 'Lega': (0, 128, 0), 'FI': (0, 135, 220),
@@ -529,7 +531,7 @@ def choice_setting(choice):
                 col[line] = col[gov[line][0]]
     if vlines is not None:
         vlines = {date_kit.date_dif(today, k): v for k, v in vlines.items()}
-    return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines
+    return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines, toggle_seats
 
 
 def filter_nils(dat, view):
@@ -545,36 +547,35 @@ class GraphPage:
     high_res = 5 / 2
     low_res = 21
 
-    def __init__(self, choice, view='parties', to_end_date=False):
+    def __init__(self, choice, view='parties', metric='percentage', to_end_date=False):
         widgets.clear()
 
         self.graph = None
         self.choice = choice
         self.view = view
+        self.metric = metric
         self.minx = -1
         self.spread = GraphPage.spread
         self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, \
-            self.end_date, include, self.vlines = choice_setting(self.choice)
+            self.end_date, self.include, self.vlines, toggle_seats = choice_setting(self.choice)
 
         self.to_end_date = to_end_date
 
-        with open(self.file_name, 'r', encoding='utf-8') as f:
-            content = f.readlines()
-        if self.choice in olddata:
-            with open(olddata[self.choice], 'r', encoding='utf-8') as f:
-                content.extend(f.readlines())
-
-        self.dat = read_data(content, self.key, self.start, self.restart, self.date, self.choice, include)
-        self.blocs_dat = self.init_group('blocs')
-        self.gov_dat = self.init_group('gov')
+        self.dat = None
+        self.blocs_dat = None
+        self.gov_dat = None
+        self.seats_dat = None
+        self.seats_blocs_dat = None
+        self.seats_gov_dat = None
 
         self.dat = filter_nils(self.dat, 'parties')
-        self.blocs_dat = filter_nils(self.blocs_dat, 'blocs')
-        self.gov_dat = filter_nils(self.gov_dat, 'gov')
 
-        self.graph_dat = self.init_graph_data(self.dat, resratio=self.low_res)
+        self.graph_dat = None
         self.graph_blocs_dat = None
         self.graph_gov_dat = None
+        self.seats_graph_dat = None
+        self.seats_graph_blocs_dat = None
+        self.seats_graph_gov_dat = None
 
         height = screen_height / 12
         unit_size = height * 2 / 3
@@ -629,7 +630,19 @@ class GraphPage:
         party_button.select()
         party_button.show()
 
-        end_button = SelectButton((screen_width - 12 / 2 * unit_size, height * 2 / 3),
+        seats_button = SelectButton((screen_width - 12 / 2 * unit_size, height * 2 / 3),
+                                    (unit_size, unit_size), align=CENTER, deselectable=True)
+        seats_button.callback(functools.partial(self.change_metric, 'seats'))
+        seats_button.release_callback(functools.partial(self.change_metric, 'percentage'))
+        seats_button.set_tooltip('Toggle estimated seat/vote distribution')
+        seats_img = Image(seats_button.rect.center, (seats_button.rect.w * 4 / 5, seats_button.rect.h * 4 / 5),
+                          img_path='images/cabinet.png')
+        seats_button.components.append(seats_img)
+        if not toggle_seats:
+            seats_button.disable()
+        seats_button.show()
+
+        end_button = SelectButton((screen_width - 15 / 2 * unit_size, height * 2 / 3),
                                   (unit_size, unit_size), align=CENTER, deselectable=True)
         end_button.callback(functools.partial(self.change_toend, True))
         end_button.release_callback(functools.partial(self.change_toend, False))
@@ -643,11 +656,12 @@ class GraphPage:
             end_button.select()
         end_button.show()
 
-        self.spread_txt = Text(str(self.spread), (screen_rect.centerx, height * 2 / 3))
+        self.spread_txt = Text(str(self.spread), (back_button.rect.centerx, back_button.rect.bottom + 8), align=TOP)
         self.spread_txt.show()
 
         area = (self.spread_txt.rect.h, self.spread_txt.rect.h)
-        self.up_spread = Button((self.spread_txt.rect.right + area[0] / 2, height * 2 / 3), area, align=LEFT)
+        self.up_spread = Button((self.spread_txt.rect.right + area[0] / 2, self.spread_txt.rect.centery), area,
+                                align=LEFT)
         self.up_spread.callback(self.change_spread, returns=True)
         img = Image(self.up_spread.rect.center,
                     (self.up_spread.rect.width * 3 / 4, self.up_spread.rect.height * 3 / 4),
@@ -656,7 +670,8 @@ class GraphPage:
         self.up_spread.components.append(img)
         self.up_spread.show()
 
-        self.down_spread = Button((self.spread_txt.rect.left - area[0] / 2, height * 2 / 3), area, align=RIGHT)
+        self.down_spread = Button((self.spread_txt.rect.left - area[0] / 2, self.spread_txt.rect.centery), area,
+                                  align=RIGHT)
         self.down_spread.callback(self.change_spread, returns=True)
         img = Image(self.down_spread.rect.center,
                     (self.down_spread.rect.width * 3 / 4, self.down_spread.rect.height * 3 / 4),
@@ -669,7 +684,7 @@ class GraphPage:
         pinboard2.select_buttons = []
         timescales = [1, 2, 5, 10, -1]
         for i, s in enumerate(timescales):
-            b = SelectButton((screen_width - (15 / 2 + 3/2 * i) * unit_size, height * 2 / 3),
+            b = SelectButton((screen_width - (9 + 3/2 * i) * unit_size, height * 2 / 3),
                              (unit_size, unit_size), label='MAX' if s == -1 else str(s),
                              align=CENTER, parent=pinboard2, deselectable=False, exclusive=True)
             b.callback(functools.partial(self.change_minx, s))
@@ -677,26 +692,62 @@ class GraphPage:
                 b.select()
             b.show()
             pinboard2.select_buttons.append(b)
-        self.make_graph()
 
-        thread = threading.Thread(target=self.improve_res, args=(self.high_res,))
-        thread.start()
+        self.change_view(view='parties')
+
+    def init_dat(self):
+        with open(self.file_name, 'r', encoding='utf-8') as f:
+            content = f.readlines()
+        if self.choice in olddata:
+            with open(olddata[self.choice], 'r', encoding='utf-8') as f:
+                content.extend(f.readlines())
+        return read_data(content, self.key, self.start, self.restart, self.date, self.choice, self.include)
+
+    def init_seats_dat(self):
+        if self.choice == 'Canada':
+            total_share, all_shares = process_riding_data(get_riding_data())
+            xs = set()
+            for party in self.dat:
+                xs.update(set(self.dat[party].keys()))
+            seats_dat = {p: {} for p in total_share.keys()}
+            for x in xs:
+                n = max([len(self.dat[p][x]) if x in self.dat[p] else 0 for p in self.dat])
+                for p in total_share:
+                    seats_dat[p][x] = [0 for _ in range(n)]
+                for ridata in all_shares.values():
+                    for i in range(n):
+                        ridat = {ridata[p] + self.dat[p][x][i] / 100 - total_share[p]
+                                 if p in self.dat and x in self.dat[p] and len(self.dat[p][x]) > i else ridata[p]: p
+                                 for p in ridata}
+                        p = ridat[max(ridat)]
+                        seats_dat[p][x][i] += 1
+        else:
+            seats_dat = None
+        return seats_dat
 
     @staticmethod
     def dat_ymax(dat):
         ymax = max([max([max(ys) if len(ys) > 0 else 0 for ys in line.values()]) for line in dat.values()])
-        return int((ymax / 10) + 1.25) * 10
+        return round_up(ymax / 10 + 0.5) * 10
 
     def improve_res(self, resratio):
-        if self.view == 'blocs':
-            self.graph_blocs_dat = self.init_graph_data(self.blocs_dat, resratio=resratio)
-        elif self.view == 'gov':
-            self.graph_gov_dat = self.init_graph_data(self.gov_dat, resratio=resratio)
+        if self.metric == 'seats':
+            if self.view == 'blocs':
+                self.seats_graph_blocs_dat = self.init_graph_data(self.seats_blocs_dat, resratio=resratio)
+            elif self.view == 'gov':
+                self.seats_graph_gov_dat = self.init_graph_data(self.seats_gov_dat, resratio=resratio)
+            else:
+                self.seats_graph_dat = self.init_graph_data(self.seats_dat, resratio=resratio)
         else:
-            self.graph_dat = self.init_graph_data(self.dat, resratio=resratio)
+            if self.view == 'blocs':
+                self.graph_blocs_dat = self.init_graph_data(self.blocs_dat, resratio=resratio)
+            elif self.view == 'gov':
+                self.graph_gov_dat = self.init_graph_data(self.gov_dat, resratio=resratio)
+            else:
+                self.graph_dat = self.init_graph_data(self.dat, resratio=resratio)
         self.make_graph()
 
-    def init_group(self, view):
+    def init_group(self, view, idat):
         if view == 'blocs':
             if self.blocs is None:
                 return None
@@ -711,7 +762,7 @@ class GraphPage:
         for b, ps in relev.items():
             dat[b] = {}
             for p in ps:
-                for x, ys in self.dat[p].items():
+                for x, ys in idat[p].items():
                     if x in dat[b].keys():
                         for i, y in enumerate(ys):
                             if y is None:
@@ -746,21 +797,36 @@ class GraphPage:
             x_min = -date_kit.date_dif(Date(end_date.year - self.minx, end_date.month, end_date.day), today)
         title = "Opinion Polling for " + self.choice
 
-        if self.view == 'blocs':
-            dat = self.graph_blocs_dat
-            points = self.blocs_dat
-        elif self.view == 'gov':
-            dat = self.graph_gov_dat
-            points = self.gov_dat
+        if self.metric == 'seats':
+            if self.view == 'blocs':
+                dat = self.seats_graph_blocs_dat
+                points = self.seats_blocs_dat
+            elif self.view == 'gov':
+                dat = self.seats_graph_gov_dat
+                points = self.seats_gov_dat
+            else:
+                dat = self.seats_graph_dat
+                points = self.seats_dat
+            y_title = "Number of Seats"
+            intg = True
         else:
-            dat = self.graph_dat
-            points = self.dat
+            if self.view == 'blocs':
+                dat = self.graph_blocs_dat
+                points = self.blocs_dat
+            elif self.view == 'gov':
+                dat = self.graph_gov_dat
+                points = self.gov_dat
+            else:
+                dat = self.graph_dat
+                points = self.dat
+            y_title = "Support (%)"
+            intg = False
         y_max = self.dat_ymax(points)
 
         graph = GraphDisplay(screen_center, (screen_width, screen_height), dat, x_title=None,
-                             y_title="Support (%)", title=title, step=1, align=CENTER, colours=self.col,
+                             y_title=y_title, title=title, step=1, align=CENTER, colours=self.col,
                              initial_date=today, leader=True, y_min=0, y_max=y_max, x_max=x_max, x_min=x_min,
-                             dat_points=points, vlines=self.vlines)
+                             dat_points=points, vlines=self.vlines, intg=intg)
         with lock:
             if self.graph is not None:
                 self.graph.hide()
@@ -768,15 +834,44 @@ class GraphPage:
             self.graph.catch(pygame.mouse.get_pos())
             self.graph.show()
 
-    def change_view(self, view):
-        self.view = view
-        if self.view == 'blocs' and self.graph_blocs_dat is None:
-            self.graph_blocs_dat = self.init_graph_data(self.blocs_dat, resratio=self.low_res)
-        elif self.view == 'gov' and self.graph_gov_dat is None:
-            self.graph_gov_dat = self.init_graph_data(self.gov_dat, resratio=self.low_res)
+    def change_view_or_metric(self):
+        if self.metric == 'seats':
+            if self.seats_dat is None:
+                self.seats_dat = self.init_seats_dat()
+            if self.view == 'blocs' and self.seats_graph_blocs_dat is None:
+                if self.seats_blocs_dat is None:
+                    self.seats_blocs_dat = filter_nils(self.init_group(self.view, self.seats_dat), self.view)
+                self.seats_graph_blocs_dat = self.init_graph_data(self.seats_blocs_dat, resratio=self.low_res)
+            elif self.view == 'gov' and self.seats_graph_gov_dat is None:
+                if self.seats_gov_dat is None:
+                    self.seats_gov_dat = filter_nils(self.init_group(self.view, self.seats_dat), self.view)
+                self.seats_graph_gov_dat = self.init_graph_data(self.seats_gov_dat, resratio=self.low_res)
+            elif self.view == 'parties' and self.seats_graph_dat is None:
+                self.seats_graph_dat = self.init_graph_data(self.seats_dat, resratio=self.low_res)
+        else:
+            if self.dat is None:
+                self.dat = filter_nils(self.init_dat(), 'parties')
+            if self.view == 'blocs' and self.graph_blocs_dat is None:
+                if self.blocs_dat is None:
+                    self.blocs_dat = filter_nils(self.init_group(self.view, self.dat), self.view)
+                self.graph_blocs_dat = self.init_graph_data(self.blocs_dat, resratio=self.low_res)
+            elif self.view == 'gov' and self.graph_gov_dat is None:
+                if self.gov_dat is None:
+                    self.gov_dat = filter_nils(self.init_group(self.view, self.dat), self.view)
+                self.graph_gov_dat = self.init_graph_data(self.gov_dat, resratio=self.low_res)
+            elif self.view == 'parties' and self.graph_dat is None:
+                self.graph_dat = self.init_graph_data(self.dat, resratio=self.low_res)
         self.make_graph()
         thread = threading.Thread(target=self.improve_res, args=(self.high_res,))
         thread.start()
+
+    def change_view(self, view):
+        self.view = view
+        self.change_view_or_metric()
+
+    def change_metric(self, metric):
+        self.metric = metric
+        self.change_view_or_metric()
 
     def change_spread(self, button):
         if button == self.up_spread:
@@ -904,6 +999,22 @@ def update_data(sel="All"):
                 dest = 'test_data/' + tag.lower() + '_polling.txt'
             thread = threading.Thread(target=update_dat, args=(dest, url, tag))
             thread.start()
+
+
+def process_riding_data(dat):
+    total_votes = {'LIB': 0, 'CON': 0, 'NDP': 0, 'BQ': 0, 'GRN': 0, 'PPC': 0, 'IND': 0}
+    all_shares = {}
+    for region in dat:
+        for riding in dat[region]:
+            totloc = 0
+            for party in total_votes:
+                v = riding[party]
+                total_votes[party] += v
+                totloc += v
+            all_shares[riding['name']] = {p: riding[p] / totloc for p in total_votes}
+    tot = sum(total_votes.values())
+    total_share = {p: total_votes[p] / tot for p in total_votes}
+    return total_share, all_shares
 
 
 if __name__ == '__main__':
