@@ -28,6 +28,22 @@
 ! style="background:{{Conservative Party (Norway)/meta/color}};"|
 ! style="background:{{Progress Party (Norway)/meta/color}};"|
 |-
+|[http://www.pollofpolls.no/?cmd=Maling&gallupid=4389 Ipsos MMI]
+|28-30 Jun 2021
+|1,000
+|–
+|5.5
+|6.6
+|5.0
+|style="background:#F7BDC5;"| '''23.9'''
+|19.3
+|3.4
+|2.7
+|20.7
+|7.2
+|5.7{{efn|[[Democrats in Norway]] 3.1%}}
+| style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="2.8" | 3.2
+|-
 |[http://www.pollofpolls.no/?cmd=Maling&gallupid=4380 Norstat]
 |15-20 Jun 2021
 |930
@@ -380,7 +396,7 @@
 |3.0
 |style="background:{{Labour Party (Norway)/meta/color}};color:white;" data-sort-value="1.4"| 1.4
 |-
-|.7
+|Respons Analyse
 | data-sort-value="2021-04-12"| 7–12 Apr 2021
 |1,000
 |75.0

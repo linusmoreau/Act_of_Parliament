@@ -6,7 +6,7 @@
 ! rowspan="3"| Polling firm
 ! rowspan="3"| Fieldwork date
 ! rowspan="3"| Sample<br>size
-! rowspan="2" class="unsortable" style="width:50px;"| [[GERB]]
+! rowspan="2" class="unsortable" style="width:50px;"| [[GERB]]<br>[[Union of Democratic Forces (Bulgaria)|SDS]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[There Is Such a People|ITN]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[BSP for Bulgaria|BSPzB]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[Movement for Rights and Freedoms|DPS]]

@@ -26,7 +26,7 @@
 |-
 |
 | data-sort-value="2021-03-07" | 3 July 2021
-|colspan=10 |'''Former Prime Minister [[Donald Tusk]] nominated as the new PO leader, following [[Borys Budka|Borys Budka's]] resignation'''
+|colspan=10 |'''[[Borys Budka|Borys Budka]] resignation as PO leader; [[Donald Tusk]] acting leader'''
 |-
 | style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1410648063052558337 IBRiS / "Wydarzenia" Polsat]
 | rowspan="2" data-sort-value="2021-06-30" | 30 Jun 2021

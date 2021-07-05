@@ -22,6 +22,19 @@
 ! style="background:{{The Left (Germany)/meta/color}};"|
 ! style="background:{{Alliance 90/The Greens/meta/color}};"|
 |-
+| [https://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2021-07-04"| 28 Jun–2 Jul 2021
+| 1,352
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 17
+| 10
+| 12
+| 7
+| 18
+| 8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
 | [https://www.wahlrecht.de/umfragen/dimap.htm Infratest dimap]
 | data-sort-value="2021-07-01"| 28–30 Jun 2021
 | 1,317
