@@ -204,23 +204,19 @@ def weighted_average(dat: Dict[float, List[float]], breadth: float, res: int, lo
     return ndat
 
 
-def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, res=None, loc=False,
+def weighted_averages(dat: Dict[str, Dict[float, List[float]]], breadth: int, resratio, loc=False,
                       start=None, end=None, limit=None) \
         -> Dict[str, Dict[float, List[float]]]:
     # Breadth is the x-distance considered in either direction
     ndat = {}
     line_end = max([max(d) for d in dat.values()])
     for line, points in dat.items():
-        if res is None:
-            inres = len(points)
-            if inres == 0:
-                inres = 1
-            elif inres < 50:
-                inres = 50
-        else:
-            inres = res
-        ndat[line] = weighted_average(points, breadth, inres, loc, start=start, end=end, limit=limit,
-                                      line_end=line_end)
+        inres = (max(points) - min(points)) // resratio
+        if inres == 0:
+            inres = 1
+        elif inres < 50:
+            inres = 50
+        ndat[line] = weighted_average(points, breadth, inres, loc, start=start, end=end, limit=limit, line_end=line_end)
     return ndat
 
 
