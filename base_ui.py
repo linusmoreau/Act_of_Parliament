@@ -148,10 +148,7 @@ class Widget:
                         self.tooltip_display.show()
                 else:
                     self.tooltip_display.update(mouse)
-                if Button.focus is not None:
-                    Button.focus.no_focus()
-                    Button.focus = None
-                Widget.new_cursor_type = 0
+                defocus_button()
                 return True
         return False
 
@@ -574,6 +571,13 @@ class Button(Widget):
             self.tooltip_display.hide()
             self.tooltip_display = None
         super().hide()
+
+
+def defocus_button():
+    if Button.focus is not None:
+        Button.focus.no_focus()
+        Button.focus = None
+    Widget.new_cursor_type = 0
 
 
 class CircleButton(Button):
@@ -1642,6 +1646,7 @@ class GraphDisplay(Widget):
                 if where < 0:
                     where = 0
                 self.moment(where / self.x_scale)
+                defocus_button()
                 return True
             else:
                 self.no_focus()
@@ -1940,7 +1945,7 @@ class GraphDisplay(Widget):
             if line in self.colours:
                 colour = list(self.colours[line])[:3] + [120]
             else:
-                colour = [0, 0, 0, 120]
+                colour = [120, 120, 120, 120]
             for x, ys in points.items():
                 for y in ys:
                     p = (round(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
