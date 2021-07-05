@@ -274,6 +274,25 @@ class CustomObject:
         raise ValueError("No identifier")
 
 
+def highest_quotient_method(votes: Dict[str, float], num: int, mult=1):
+    seats = {p: 0 for p in votes.keys()}
+    for i in range(num):
+        quotients = {votes[p] / (mult * seats[p] + 1): p for p in votes.keys()}
+        winner = quotients[max(quotients)]
+        seats[winner] += 1
+    return seats
+
+
+def huntingon_hill(votes: Dict[str, float], num: int):
+    seats = {p: 1 for p in votes.keys()}
+    for i in range(num - len(seats)):
+        quotients = {votes[p] / (seats[p] * (seats[p] + 1)) ** 0.5: p for p in votes.keys()}
+        winner = quotients[max(quotients)]
+        seats[winner] += 1
+    return seats
+
+
 if __name__ == '__main__':
-    seq = tuple(range(1, 90))
-    print(geothmetic_meandian(seq))
+    votes = {'S': 924_940, 'DPP': 741_746, 'V': 685_188, 'RG': 274_463, 'LA': 265_129, 'A': 168_788,
+             'SL': 161_009, 'SF': 147_578, 'C': 118_003}
+    print(huntingon_hill(votes, 175))
