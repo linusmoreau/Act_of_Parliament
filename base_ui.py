@@ -1671,27 +1671,28 @@ class GraphDisplay(Widget):
             place = small
         elif place > big:
             place = big
-        x = self.graph_rect.x + self.x_scale * place
-        y_vals = {}
-        for line in self.dat.keys():
-            val = self.get_val(line, place + self.x_min)
-            if val is not None:
-                y_vals[line] = val
-        if self.at_line is None:
-            Widget.change = True
-            surface = pygame.Surface((1, self.graph_rect.h))
-            surface.fill(black)
-            self.at_line = Widget((x, self.graph_rect.y), (1, self.graph_rect.h), surface=surface, default_alpha=50)
-            self.set_tool_tips(place, x, y_vals)
-            self.components.append(self.at_line)
-        else:
-            if self.at_line.rect.x != x:
+        if place >= 0:
+            x = self.graph_rect.x + self.x_scale * place
+            y_vals = {}
+            for line in self.dat.keys():
+                val = self.get_val(line, place + self.x_min)
+                if val is not None:
+                    y_vals[line] = val
+            if self.at_line is None:
                 Widget.change = True
-                self.at_line.rect.x = x
-                self.at_line.extensions.clear()
+                surface = pygame.Surface((1, self.graph_rect.h))
+                surface.fill(black)
+                self.at_line = Widget((x, self.graph_rect.y), (1, self.graph_rect.h), surface=surface, default_alpha=50)
                 self.set_tool_tips(place, x, y_vals)
-                if self.at_line not in self.components:
-                    self.components.append(self.at_line)
+                self.components.append(self.at_line)
+            else:
+                if self.at_line.rect.x != x:
+                    Widget.change = True
+                    self.at_line.rect.x = x
+                    self.at_line.extensions.clear()
+                    self.set_tool_tips(place, x, y_vals)
+                    if self.at_line not in self.components:
+                        self.components.append(self.at_line)
 
     def get_val(self, line, x):
         points = self.dat[line]
