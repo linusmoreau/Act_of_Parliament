@@ -542,6 +542,8 @@ def filter_nils(dat, view):
 
 class GraphPage:
     spread = 60
+    high_res = 5 / 2
+    low_res = 21
 
     def __init__(self, choice, view='parties', to_end_date=False):
         widgets.clear()
@@ -566,11 +568,13 @@ class GraphPage:
         self.blocs_dat = self.init_group('blocs')
         self.gov_dat = self.init_group('gov')
 
+        self.dat = filter_nils(self.dat, 'parties')
         self.blocs_dat = filter_nils(self.blocs_dat, 'blocs')
         self.gov_dat = filter_nils(self.gov_dat, 'gov')
-        self.dat = filter_nils(self.dat, 'parties')
 
-        self.graph_dat = self.init_graph_data(self.dat)
+        self.graph_dat = self.init_graph_data(self.dat, resratio=self.low_res)
+        self.graph_blocs_dat = None
+        self.graph_gov_dat = None
 
         height = screen_height / 12
         unit_size = height * 2 / 3
@@ -639,27 +643,27 @@ class GraphPage:
             end_button.select()
         end_button.show()
 
-        # self.spread_txt = Text(str(self.spread), (screen_rect.centerx, height * 2 / 3))
-        # self.spread_txt.show()
-        #
-        # area = (self.spread_txt.rect.h, self.spread_txt.rect.h)
-        # self.up_spread = Button((self.spread_txt.rect.right + area[0] / 2, height * 2 / 3), area, align=LEFT)
-        # self.up_spread.callback(self.change_spread, returns=True)
-        # img = Image(self.up_spread.rect.center,
-        #             (self.up_spread.rect.width * 3 / 4, self.up_spread.rect.height * 3 / 4),
-        #             "images/arrow.png")
-        # img.surface = pygame.transform.rotate(img.surface, 90)
-        # self.up_spread.components.append(img)
-        # self.up_spread.show()
-        #
-        # self.down_spread = Button((self.spread_txt.rect.left - area[0] / 2, height * 2 / 3), area, align=RIGHT)
-        # self.down_spread.callback(self.change_spread, returns=True)
-        # img = Image(self.down_spread.rect.center,
-        #             (self.down_spread.rect.width * 3 / 4, self.down_spread.rect.height * 3 / 4),
-        #             "images/arrow.png")
-        # img.surface = pygame.transform.rotate(img.surface, 270)
-        # self.down_spread.components.append(img)
-        # self.down_spread.show()
+        self.spread_txt = Text(str(self.spread), (screen_rect.centerx, height * 2 / 3))
+        self.spread_txt.show()
+
+        area = (self.spread_txt.rect.h, self.spread_txt.rect.h)
+        self.up_spread = Button((self.spread_txt.rect.right + area[0] / 2, height * 2 / 3), area, align=LEFT)
+        self.up_spread.callback(self.change_spread, returns=True)
+        img = Image(self.up_spread.rect.center,
+                    (self.up_spread.rect.width * 3 / 4, self.up_spread.rect.height * 3 / 4),
+                    "images/arrow.png")
+        img.surface = pygame.transform.rotate(img.surface, 90)
+        self.up_spread.components.append(img)
+        self.up_spread.show()
+
+        self.down_spread = Button((self.spread_txt.rect.left - area[0] / 2, height * 2 / 3), area, align=RIGHT)
+        self.down_spread.callback(self.change_spread, returns=True)
+        img = Image(self.down_spread.rect.center,
+                    (self.down_spread.rect.width * 3 / 4, self.down_spread.rect.height * 3 / 4),
+                    "images/arrow.png")
+        img.surface = pygame.transform.rotate(img.surface, 270)
+        self.down_spread.components.append(img)
+        self.down_spread.show()
 
         pinboard2 = types.SimpleNamespace()
         pinboard2.select_buttons = []
@@ -675,10 +679,22 @@ class GraphPage:
             pinboard2.select_buttons.append(b)
         self.make_graph()
 
-        pygame.display.update()
+        thread = threading.Thread(target=self.improve_res, args=(self.high_res,))
+        thread.start()
 
-        self.graph_blocs_dat = self.init_graph_data(self.blocs_dat)
-        self.graph_gov_dat = self.init_graph_data(self.gov_dat)
+    @staticmethod
+    def dat_ymax(dat):
+        ymax = max([max([max(ys) if len(ys) > 0 else 0 for ys in line.values()]) for line in dat.values()])
+        return int((ymax / 10) + 1.25) * 10
+
+    def improve_res(self, resratio):
+        if self.view == 'blocs':
+            self.graph_blocs_dat = self.init_graph_data(self.blocs_dat, resratio=resratio)
+        elif self.view == 'gov':
+            self.graph_gov_dat = self.init_graph_data(self.gov_dat, resratio=resratio)
+        else:
+            self.graph_dat = self.init_graph_data(self.dat, resratio=resratio)
+        self.make_graph()
 
     def init_group(self, view):
         if view == 'blocs':
@@ -707,12 +723,12 @@ class GraphPage:
                         dat[b][x] = list(map(lambda y: 0 if y is None else y, ys))
         return dat
 
-    def init_graph_data(self, dat):
+    def init_graph_data(self, dat, resratio=7):
         if dat is not None:
             start = min([min(d) for d in dat.values()])
             end = date_kit.date_dif(today, self.end_date)
             limit = 0
-            dat = weighted_averages(dat, self.spread, loc=True, start=start, end=end, limit=limit)
+            dat = weighted_averages(dat, self.spread, loc=True, resratio=resratio, start=start, end=end, limit=limit)
         return dat
 
     def make_graph(self):
@@ -739,34 +755,45 @@ class GraphPage:
         else:
             dat = self.graph_dat
             points = self.dat
+        y_max = self.dat_ymax(points)
 
-        if self.graph is not None:
-            self.graph.hide()
-        self.graph = GraphDisplay(screen_center, (screen_width, screen_height), dat, x_title=None,
-                                  y_title="Support (%)", title=title, step=1, align=CENTER, colours=self.col,
-                                  initial_date=today, leader=True, y_min=0, dat_points=points, x_max=x_max, x_min=x_min,
-                                  vlines=self.vlines)
-        self.graph.show()
+        graph = GraphDisplay(screen_center, (screen_width, screen_height), dat, x_title=None,
+                             y_title="Support (%)", title=title, step=1, align=CENTER, colours=self.col,
+                             initial_date=today, leader=True, y_min=0, y_max=y_max, x_max=x_max, x_min=x_min,
+                             dat_points=points, vlines=self.vlines)
+        with lock:
+            if self.graph is not None:
+                self.graph.hide()
+            self.graph = graph
+            self.graph.catch(pygame.mouse.get_pos())
+            self.graph.show()
 
     def change_view(self, view):
         self.view = view
+        if self.view == 'blocs' and self.graph_blocs_dat is None:
+            self.graph_blocs_dat = self.init_graph_data(self.blocs_dat, resratio=self.low_res)
+        elif self.view == 'gov' and self.graph_gov_dat is None:
+            self.graph_gov_dat = self.init_graph_data(self.gov_dat, resratio=self.low_res)
         self.make_graph()
+        thread = threading.Thread(target=self.improve_res, args=(self.high_res,))
+        thread.start()
 
-    # def change_spread(self, button):
-    #     if button == self.up_spread:
-    #         self.down_spread.enable()
-    #         self.spread *= 2
-    #         if self.spread >= 240:
-    #             self.spread = 240
-    #             self.up_spread.disable()
-    #     elif button == self.down_spread:
-    #         self.up_spread.enable()
-    #         self.spread //= 2
-    #         if self.spread <= 15:
-    #             self.spread = 15
-    #             self.down_spread.disable()
-    #     self.spread_txt.update(str(self.spread))
-    #     self.make_graph()
+    def change_spread(self, button):
+        if button == self.up_spread:
+            self.down_spread.enable()
+            self.spread += 10
+            if self.spread >= 360:
+                self.spread = 360
+                self.up_spread.disable()
+        elif button == self.down_spread:
+            self.up_spread.enable()
+            self.spread -= 10
+            if self.spread <= 10:
+                self.spread = 10
+                self.down_spread.disable()
+        self.spread_txt.update(str(self.spread))
+        self.graph_dat = self.init_graph_data(self.dat)
+        self.make_graph()
 
     def change_minx(self, minx):
         self.minx = minx
@@ -895,5 +922,6 @@ if __name__ == '__main__':
     }
     tod = str(datetime.date.today())
     today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
+    lock = threading.Lock()
     menu_page = MenuPage()
-    game_loop()
+    game_loop(lock)
