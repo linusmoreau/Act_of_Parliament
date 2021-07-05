@@ -1974,7 +1974,15 @@ def game_start():
     game_loop()
 
 
-def game_loop():
+def update_display(wids):
+    screen.blit(background, (0, 0))
+    for widget in wids:
+        widget.display()
+    pygame.display.update()
+    Widget.change = False
+
+
+def game_loop(lock):
     global background
 
     def get_all_wids():
@@ -2041,14 +2049,11 @@ def game_loop():
                 set_cursor(1)
 
         # display
-        all_wids = get_all_wids()
-        if Widget.change:
-            screen.blit(background, (0, 0))
-            for widget in all_wids:
-                widget.display()
-            pygame.display.update()
-            Widget.change = False
-        old_mouse = mouse
+        with lock:
+            all_wids = get_all_wids()
+            if Widget.change:
+                update_display(all_wids)
+            old_mouse = mouse
 
         frame += 1
         nt = time.time()
@@ -2057,7 +2062,6 @@ def game_loop():
             fps.update(str(round(frame / dif)) + ' ' + 'FPS', align=BOTTOMRIGHT, pos=screen_rect.bottomright)
             t = nt
             frame = 0
-
         clock.tick(60)
 
 
@@ -2076,5 +2080,6 @@ pages = {}
 background = make_background()
 
 if __name__ == "__main__":
-    game_loop()
+    lock = threading.Lock()
+    game_loop(lock)
     terminate()
