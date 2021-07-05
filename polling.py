@@ -166,7 +166,7 @@ def read_data(content, key, start, restart, date, choice, include=None):
                     else:
                         dat[p][end] = [share]
                 if "2019 Canadian federal election" in line:
-                    key = ['LIB', 'CON', 'NDP', 'BQ', 'GPC', 'PPC']
+                    key = ['LIB', 'CON', 'NDP', 'BQ', 'GRN', 'PPC']
                 i += 1
                 rot = None
                 continue
@@ -348,12 +348,12 @@ def choice_setting(choice):
         start = 26
         end_date = Date(2021, 10, 9)
     elif choice == 'Canada':
-        key = ['CON', 'LIB', 'NDP', 'BQ', 'GPC', 'PPC']
+        key = ['CON', 'LIB', 'NDP', 'BQ', 'GRN', 'PPC']
         col = {'CON': (100, 149, 237), 'LIB': (234, 109, 106), 'NDP': (244, 164, 96), 'BQ': (135, 206, 250),
-               'GPC': (153, 201, 85), 'PPC': (131, 120, 158),
+               'GRN': (153, 201, 85), 'PPC': (131, 120, 158),
                'Government': (234, 109, 106), 'Opposition': (100, 149, 237)}
-        gov = {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GPC', 'PPC']}
-        blocs = {'Progressive': ['LIB', 'NDP', 'BQ', 'GPC'], 'Conservative': ['CON', 'PPC']}
+        gov = {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GRN', 'PPC']}
+        blocs = {'Progressive': ['LIB', 'NDP', 'BQ', 'GRN'], 'Conservative': ['CON', 'PPC']}
         file_name = 'test_data/canada_polling.txt'
         start = 3
         vlines = {Date(2019, 10, 21): "General Election"}
