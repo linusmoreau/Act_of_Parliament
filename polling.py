@@ -705,7 +705,7 @@ class GraphPage:
 
     def init_seats_dat(self):
         if self.choice == 'Canada':
-            total_share, all_shares = process_riding_data(get_riding_data())
+            total_share, all_shares, rel_votes = process_riding_data(get_riding_data())
             xs = set()
             for party in self.dat:
                 xs.update(set(self.dat[party].keys()))
@@ -713,12 +713,19 @@ class GraphPage:
             for x in xs:
                 n = max([len(self.dat[p][x]) if x in self.dat[p] else 0 for p in self.dat])
                 for p in total_share:
-                    seats_dat[p][x] = [0 for _ in range(n)]
+                    if not (p == 'PPC' and x < min(self.dat[p])):
+                        seats_dat[p][x] = [0 for _ in range(n)]
                 for ridata in all_shares.values():
                     for i in range(n):
-                        ridat = {ridata[p] + self.dat[p][x][i] / 100 - total_share[p]
-                                 if p in self.dat and x in self.dat[p] and len(self.dat[p][x]) > i else ridata[p]: p
-                                 for p in ridata}
+                        ridat = {}
+                        for p in ridata:
+                            if p in self.dat and x in self.dat[p] and len(self.dat[p][x]) > i:
+                                k = ridata[p] + (self.dat[p][x][i] / 100 - total_share[p]) / rel_votes[p]
+                            elif x not in seats_dat[p]:
+                                continue
+                            else:
+                                k = ridata[p]
+                            ridat[k] = p
                         p = ridat[max(ridat)]
                         seats_dat[p][x][i] += 1
         else:
@@ -1002,7 +1009,9 @@ def update_data(sel="All"):
 
 
 def process_riding_data(dat):
-    total_votes = {'LIB': 0, 'CON': 0, 'NDP': 0, 'BQ': 0, 'GRN': 0, 'PPC': 0, 'IND': 0}
+    tags = ['LIB', 'CON', 'NDP', 'BQ', 'GRN', 'PPC', 'IND']
+    total_votes = {p: 0 for p in tags}
+    rel_votes = total_votes.copy()
     all_shares = {}
     for region in dat:
         for riding in dat[region]:
@@ -1012,9 +1021,13 @@ def process_riding_data(dat):
                 total_votes[party] += v
                 totloc += v
             all_shares[riding['name']] = {p: riding[p] / totloc for p in total_votes}
+            for party in rel_votes:
+                if riding[party] > 0:
+                    rel_votes[party] += totloc
     tot = sum(total_votes.values())
+    rel_votes = {p: rel_votes[p] / tot for p in rel_votes}
     total_share = {p: total_votes[p] / tot for p in total_votes}
-    return total_share, all_shares
+    return total_share, all_shares, rel_votes
 
 
 if __name__ == '__main__':
