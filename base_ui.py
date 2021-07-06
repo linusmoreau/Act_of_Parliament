@@ -1561,17 +1561,12 @@ class GraphDisplay(Widget):
         y_range = self.y_max - self.y_min
 
         # Determine magnitude of difference in the y-variable
-        self.y_mag = 0
-        size = y_range
-        if abs(size) > 10:
-            while abs(size) > 10:
-                self.y_mag += 1
-                size = size / 10.0
-        elif abs(size) < 1:
-            while abs(size) < 1:
-                self.y_mag -= 1
-                size = size * 10.0
+        self.y_mag = int(math.log10(y_range))
         self.y_step = 10 ** self.y_mag
+        if y_range / self.y_step < 3:
+            self.y_step /= 2
+            if self.y_step >= 1:
+                self.y_step = int(self.y_step)
 
         # Update extrema
         if y_min is None:
