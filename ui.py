@@ -1971,7 +1971,7 @@ def game_start():
     PageTitle()
     PageSettings()
     get_page('title')
-    game_loop()
+    game_loop(lock)
 
 
 def update_display(wids):
