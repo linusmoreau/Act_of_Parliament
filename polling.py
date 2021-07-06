@@ -9,6 +9,23 @@ from bs4 import BeautifulSoup
 from data import get_riding_data
 
 
+options = ['Austria', 'Brazil', 'Bulgaria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany',
+           'Hungary', 'Iceland', 'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain',
+           'Sweden', 'UK', 'New York']
+olddata = {
+    'Canada':   'test_data/old_canada_polling.txt',
+    'Denmark':  'test_data/old_denmark_polling.txt',
+    'Germany':  'test_data/old_germany_polling.txt',
+    'Ireland':  'test_data/old_ireland_polling.txt',
+    'Italy':    'test_data/old_italy_polling.txt',
+    'Norway':   'test_data/old_norway_polling.txt',
+    'Poland':   'test_data/old_poland_polling.txt',
+    'UK':       'test_data/old_uk_polling.txt'
+}
+tod = str(datetime.date.today())
+today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
+
+
 def read_data(content, key, start, restart, date, choice, include=None):
     def isrestart(line):
         if choice == 'Slovakia' and \
@@ -233,304 +250,339 @@ def read_data(content, key, start, restart, date, choice, include=None):
     return dat
 
 
-def choice_setting(choice):
-    restart = ['[http']
-    date = 1
-    end_date = None
-    blocs = None
-    gov = None
-    file_name = None
-    include = None
-    vlines = None
-    toggle_seats = False
-    if choice == 'Germany':
-        key = ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne']
-        col = {'CDU/CSU': (0, 0, 0), 'Gr\u00fcne': (100, 161, 45), 'SPD': (235, 0, 31), 'FDP': (255, 237, 0),
-               'AfD': (0, 158, 224), 'Linke': (190, 48, 117),
-               'Red-Red-Green': (190, 48, 117), 'Black-Yellow': (255, 237, 0), 'Jamaica': (118, 132, 15),
-               'Grand Coalition': (0, 0, 0), 'Traffic Light': (235, 0, 31), 'Black-Green': (100, 161, 45),
-               'Old Guard': (245, 118, 15),
-               'Government': (0, 0, 0), 'Opposition': (100, 161, 45)}
-        blocs = {'Red-Red-Green': ['Gr\u00fcne', 'SPD', 'Linke'],
-                 'Black-Yellow': ['CDU/CSU', 'FDP'],
-                 'Jamaica': ['CDU/CSU', 'FDP', 'Gr\u00fcne'],
-                 'Traffic Light': ['SPD', 'Gr\u00fcne', 'FDP'],
-                 'Grand Coalition': ['CDU/CSU', 'SPD'],
-                 'Black-Green': ['CDU/CSU', 'Gr\u00fcne'],
-                 'Old Guard': ['CDU/CSU', 'SPD', 'FDP']}
-        gov = {'Government': ['CDU/CSU', 'SPD'], 'Opposition': ['Gr\u00fcne', 'Linke', 'FDP', 'AfD']}
-        file_name = 'test_data/germany_polling.txt'
-        start = 4
-        end_date = Date(2021, 9, 26)
-        restart.append('election')
-    elif choice == 'Austria':
-        key = ['ÖVP', 'SPÖ', 'FPÖ', 'Gr\u00fcne', 'NEOS']
-        col = {'ÖVP': (99, 195, 208), 'SPÖ': (206, 0, 12), 'FPÖ': (0, 86, 162), 'Gr\u00fcne': (136, 182, 38),
-               'NEOS': (232, 65, 136),
-               'Government': (99, 195, 208), 'Opposition': (206, 0, 12),
-               'Progressive': (206, 0, 12), 'Conservative': (99, 195, 208)}
-        gov = {'Government': ['ÖVP', 'Gr\u00fcne'], 'Opposition': ['SPÖ', 'FPÖ', 'NEOS']}
-        blocs = {'Progressive': ['SPÖ', 'Gr\u00fcne', 'NEOS'], 'Conservative': ['ÖVP', 'FPÖ']}
-        file_name = 'test_data/austria_polling.txt'
-        start = 4
-        restart.append('election')
-        end_date = Date(2025, 1, 1)
-    elif choice == 'Poland':
-        key = ['United Right', 'Civic Coalition', 'The Left', 'Polish Coalition', 'Kukiz\'15', 'Confederation',
-               'Poland 2050']
-        col = {'United Right':  (38, 55, 120), 'Civic Coalition': (246, 143, 45), 'The Left': (172, 20, 90),
-               'Polish Coalition': (27, 177, 0), 'Kukiz\'15': (0, 0, 0), 'Confederation': (18, 39, 70),
-               'Poland 2050': (249, 192, 19),
-               'Government': (38, 55, 120), 'Opposition': (246, 143, 45),
-               'United Opposition': (246, 143, 45), 'Misc. Right': (18, 39, 70)}
-        gov = {'Government': ['United Right'],
-               'Opposition': ['Civic Coalition', 'The Left', 'Polish Coalition', 'Kukiz\'15', 'Confederation',
-                              'Poland 2050']}
-        blocs = {'United Right': ['United Right'],
-                 'United Opposition': ['Civic Coalition', 'The Left', 'Polish Coalition', 'Poland 2050'],
-                 'Misc. Right': ['Kukiz\'15', 'Confederation']}
-        file_name = 'test_data/poland_polling.txt'
-        start = 3
-        restart.append('election')
-        end_date = Date(2023, 11, 11)
-    elif choice == 'Slovakia':
-        key = ['OL\'aNO', 'SMER-SD', 'SR', 'L\'SNS', 'PS-SPOLU', 'PS-SPOLU', 'SaS', 'ZL\'', 'KDH',
-               'Magyar', 'Magyar', 'Magyar', 'Magyar', 'SNS', 'DV', 'HLAS-SD', 'REP']
-        col = {'OL\'aNO': (190, 214, 47), 'SMER-SD': (217, 39, 39), 'SR': (11, 76, 159), 'L\'SNS': (11, 87, 16),
-               'PS-SPOLU': (0, 188, 255), 'SaS': (166, 206, 58), 'ZL\'': (255, 187, 0), 'KDH': (253, 209, 88),
-               'Magyar': (39, 93, 51), 'SNS': (37, 58, 121), 'DV': (255, 0, 43), 'HLAS-SD': (180, 40, 70),
-               'REP': (220, 1, 22),
-               'Government': (190, 214, 47), 'Opposition': (180, 40, 70),
-               'Left': (180, 40, 70), 'Right': (190, 214, 47)}
-        gov = {'Government': ['OL\'aNO', 'SR', 'SaS', 'ZL\''],
-               'Opposition': ['SMER-SD', 'L\'SNS', 'PS-SPOLU', 'KDH', 'Magyar', 'SNS', 'DV', 'HLAS-SD', 'REP']}
-        blocs = {'Left': ['SMER-SD', 'PS-SPOLU', 'DV', 'HLAS-SD'],
-                 'Right': ['OL\'aNO', 'SR', 'L\'SNS', 'SaS', 'ZL\'', 'KDH', 'Magyar', 'SNS', 'REP']}
-        file_name = 'test_data/slovakia_polling.txt'
-        date = 0
-        start = 2
-        restart = ['Focus', 'AKO', '2020 elections']
-        end_date = Date(2024, 2, 24)
-    elif choice == 'Spain':
-        key = ['PSOE', 'PP', 'VOX', 'UP', 'Cs', 'ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+',
-               'PRC']
-        col = {'PSOE': (239, 28, 39), 'PP': (29, 132, 206), 'VOX': (99, 190, 33), 'UP': (123, 73, 119),
-               'Cs': (235, 97, 9), 'ERC': (255, 178, 50), 'MP': (15, 222, 196), 'JxCat': (0, 199, 174),
-               'PNV': (74, 174, 74), 'EHB': (181, 207, 24), 'CUP': (255, 237, 0), 'CC': (255, 215, 0),
-               'BNG': (173, 207, 239), 'NA+': (129, 157, 163), 'PRC': (194, 206, 12),
-               'Government': (239, 28, 39), 'Opposition': (29, 132, 206),
-               'Left': (239, 28, 39), 'Right': (29, 132, 206), 'Regionalist': (255, 178, 50)}
-        gov = {'Government': ['PSOE', 'UP', 'PNV', 'MP', 'BNG'],
-               'Opposition': ['PP', 'VOX', 'Cs', 'JxCat', 'CUP', 'CC', 'PRC']}
-        blocs = {'Left': ['PSOE', 'UP', 'MP'], 'Right': ['PP', 'VOX', 'Cs'],
-                 'Regionalist': ['ERC', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+', 'PRC']}
-        file_name = 'test_data/spain_polling.txt'
-        restart = ['http']
-        start = 4
-        restart.append('Spanish general election')
-        end_date = Date(2023, 12, 10)
-    elif choice == 'Peru':
-        key = ['Castillo', 'Fujimori']
-        col = {'Castillo': (192, 10, 10), 'Fujimori': (255, 128, 0)}
-        file_name = 'test_data/peru_polling.txt'
-        start = 3
-        restart = ['http']
-        end_date = Date(2021, 6, 6)
-    elif choice == 'Czechia':
-        key = ['ANO', 'SPOLU', 'SPOLU', 'SPOLU', 'Pirati+STAN', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD', 'T-S',
-               'T-S', 'Z', 'P']
-        col = {'ANO': (38, 16, 96), 'SPOLU': (35, 44, 119), 'Pirati+STAN': (0, 0, 0), 'SPD': (33, 117, 187),
-               'KSCM': (204, 0, 0), 'CSSD': (236, 88, 0), 'T-S': (0, 150, 130), 'Z': (96, 180, 76),
-               'P': (0, 51, 255),
-               'Government': (38, 16, 96), 'Opposition': (0, 0, 0)}
-        gov = {'Government': ['ANO', 'KSCM', 'CSSD'],
-               'Opposition': ['SPOLU', 'Pirati+STAN', 'SPD', 'T-S', 'Z', 'P']}
-        file_name = 'test_data/czechia_polling.txt'
-        start = 26
-        end_date = Date(2021, 10, 9)
-    elif choice == 'Canada':
-        key = ['CON', 'LIB', 'NDP', 'BQ', 'GRN', 'PPC']
-        col = {'CON': (100, 149, 237), 'LIB': (234, 109, 106), 'NDP': (244, 164, 96), 'BQ': (135, 206, 250),
+def choices_setup():
+    choices = {
+        'Austria': {
+            'key': ['ÖVP', 'SPÖ', 'FPÖ', 'Gr\u00fcne', 'NEOS'],
+            'col': {'ÖVP': (99, 195, 208), 'SPÖ': (206, 0, 12), 'FPÖ': (0, 86, 162), 'Gr\u00fcne': (136, 182, 38),
+                    'NEOS': (232, 65, 136)},
+            'gov': {'Government': ['ÖVP', 'Gr\u00fcne'], 'Opposition': ['SPÖ', 'FPÖ', 'NEOS']},
+            'blocs': {'Progressive': ['SPÖ', 'Gr\u00fcne', 'NEOS'], 'Conservative': ['ÖVP', 'FPÖ']},
+            'start': 4,
+            'end_date': Date(2025, 1, 1),
+            'restart': ['[http', 'election'],
+            'toggle_seats': False
+        },
+        'Brazil': {
+            'key': ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
+               'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck'],
+            'include': ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Gomes (PDT)', 'Doria (PSDB)'],
+            'col': {'Bolsanaro (PSL/APB)': (0, 140, 0), 'Lula (PT)': (204, 0, 0), 'Haddad (PT)': (204, 0, 0),
+               'Dino (PCdoB)': (163, 0, 0), 'Gomes (PDT)': (238, 100, 100), 'Boulos (PSOL)': (163, 0, 0),
+               'Doria (PSDB)': (0, 95, 164), 'Amoedo (NOVO)': (240, 118, 42), 'Silva (REDE)': (46, 139, 87),
+               'Moro': dark_grey, 'Huck': grey},
+            'start': 3,
+            'vlines': {Date(2021, 3, 8): "Lula cleared of charges"},
+            'end_date': Date(2022, 10, 2)
+        },
+        'Bulgaria': {
+            'key': ['GERB', 'ITN', 'BSPzB', 'DPS', 'DB', 'ISMV', 'BP', 'BP', 'BP', 'Revival', 'BL', 'RB', 'LSChSR'],
+            'col': {'GERB': (0, 86, 167), 'ITN': (75, 185, 222), 'BSPzB': (219, 15, 40), 'DPS': (0, 96, 170),
+               'DB': (0, 74, 128), 'ISMV': (91, 165, 70), 'BP': black, 'Revival': (192, 159, 98),
+               'BL': (243, 129, 20), 'RB': (43, 74, 153), 'LSChSR': (241, 25, 40)},
+            'blocs': {'Conservative': ['GERB', 'RB'], 'Socialist': ['BSPzB', 'LSChSR'], 'DPS': ['DPS'],
+                 'Nationalist': ['BP', 'Revival', 'BL'],
+                 'Populist': ['ITN', 'DB', 'ISMV']},
+            'start': 3,
+            'end_date': Date(2021, 7, 11),
+            'restart': ['[http', '2021 election']
+        },
+        'Canada': {
+            'key': ['CON', 'LIB', 'NDP', 'BQ', 'GRN', 'PPC'],
+            'col': {'CON': (100, 149, 237), 'LIB': (234, 109, 106), 'NDP': (244, 164, 96), 'BQ': (135, 206, 250),
                'GRN': (153, 201, 85), 'PPC': (131, 120, 158),
-               'Government': (234, 109, 106), 'Opposition': (100, 149, 237)}
-        gov = {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GRN', 'PPC']}
-        blocs = {'Progressive': ['LIB', 'NDP', 'BQ', 'GRN'], 'Conservative': ['CON', 'PPC']}
-        file_name = 'test_data/canada_polling.txt'
-        start = 3
-        vlines = {Date(2019, 10, 21): "General Election"}
-        end_date = Date(2023, 10, 16)
-        toggle_seats = True
-    elif choice == 'Italy':
-        key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV', 'CI']
-        col = {'M5S': (255, 235, 59), 'PD': (239, 28, 39), 'Lega': (0, 128, 0), 'FI': (0, 135, 220),
+               'Government': (234, 109, 106), 'Opposition': (100, 149, 237)},
+            'gov': {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GRN', 'PPC']},
+            'blocs': {'Progressive': ['LIB', 'NDP', 'BQ', 'GRN'], 'Conservative': ['CON', 'PPC']},
+            'start': 3,
+            'vlines': {Date(2019, 10, 21): "General Election"},
+            'end_date': Date(2023, 10, 16),
+            'toggle_seats': True
+        },
+        'Cyprus': {
+            'key': ['DISY', 'AKEL', 'DIKO', 'EDEK-SYPOL', 'KA', 'KOSP', 'ELAM', 'DIPA', 'Anex'],
+            'col': {'DISY': (21, 105, 199), 'AKEL': (179, 27, 27), 'DIKO': (255, 126, 0), 'EDEK-SYPOL': (22, 79, 70),
+               'KA': (0, 75, 145), 'KOSP': (127, 255, 0), 'ELAM': (0, 0, 0), 'DIPA': (255, 126, 0),
+               'Anex': (68, 36, 100)},
+            'date': 0,
+            'start': 1,
+            'end_date': Date(2021, 5, 30)
+        },
+        'Czechia': {
+            'key': ['ANO', 'SPOLU', 'SPOLU', 'SPOLU', 'Pirati+STAN', 'Pirati+STAN', 'SPD', 'KSCM', 'CSSD', 'T-S',
+                    'T-S', 'Z', 'P'],
+            'col': {'ANO': (38, 16, 96), 'SPOLU': (35, 44, 119), 'Pirati+STAN': (0, 0, 0), 'SPD': (33, 117, 187),
+                    'KSCM': (204, 0, 0), 'CSSD': (236, 88, 0), 'T-S': (0, 150, 130), 'Z': (96, 180, 76),
+                    'P': (0, 51, 255),
+                    'Government': (38, 16, 96), 'Opposition': (0, 0, 0)},
+            'gov': {'Government': ['ANO', 'KSCM', 'CSSD'],
+                    'Opposition': ['SPOLU', 'Pirati+STAN', 'SPD', 'T-S', 'Z', 'P']},
+            'start': 26,
+            'end_date': Date(2021, 10, 9)
+        },
+        'Denmark': {
+            'key': ['A', 'V', 'O', 'B', 'F', '\u00d8', 'C', '\u00c5', 'D', 'I', 'P', 'K', 'E', 'G'],
+            'col': {'A': (240, 77, 70), 'V': (0, 40, 131), 'O': (252, 208, 59), 'B': (229, 0, 125), 'F': (191, 3, 26),
+               '\u00d8': (208, 0, 77), 'C': (0, 73, 49), '\u00c5': (0, 255, 0), 'D': (0, 80, 91),
+               'I': (63, 178, 190),
+               'P': (1, 152, 225), 'K': (255, 165, 0), 'E': (0, 66, 36), 'G': (128, 165, 26),
+               'Red': (240, 77, 70), 'Blue': (0, 40, 131)},
+            'blocs': {'Red': ['A', 'B', 'F', '\u00d8', '\u00c5', 'G'],
+                      'Blue': ['V', 'O', 'C', 'D', 'I', 'P', 'K', 'E']},
+            'start': 3,
+            'restart': ['[http', 'election'],
+            'end_date': Date(2023, 6, 4),
+            'toggle_seats': True
+        },
+        'Finland': {
+            'key': ['SDP', 'PS', 'KOK', 'KESK', 'VIHR', 'VAS', 'SFP', 'KD', 'LIIK'],
+            'col': {'SDP': (245, 75, 75), 'PS': (255, 222, 85), 'KOK': (0, 98, 136), 'KESK': (52, 154, 43),
+               'VIHR': (97, 191, 26), 'VAS': (240, 10, 100), 'SFP': (255, 221, 147), 'KD': (2, 53, 164),
+               'LIIK': (180, 31, 121),
+               'Government': (245, 75, 75), 'Opposition': (255, 222, 85)},
+            'gov': {'Government': ['SDP', 'KESK', 'VIHR', 'VAS', 'SFP'], 'Opposition': ['KOK', 'PS', 'KD', 'LIIK']},
+            'start': 3,
+            'restart': ['http', 'election'],
+            'end_date': Date(2023, 4, 30)
+        },
+        'Germany': {
+            'key': ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne'],
+            'col': {'CDU/CSU': (0, 0, 0), 'Gr\u00fcne': (100, 161, 45), 'SPD': (235, 0, 31), 'FDP': (255, 237, 0),
+                    'AfD': (0, 158, 224), 'Linke': (190, 48, 117),
+                    'Red-Red-Green': (190, 48, 117), 'Black-Yellow': (255, 237, 0), 'Jamaica': (118, 132, 15),
+                    'Grand Coalition': (0, 0, 0), 'Traffic Light': (235, 0, 31), 'Black-Green': (100, 161, 45),
+                    'Old Guard': (245, 118, 15)},
+            'blocs': {'Red-Red-Green': ['Gr\u00fcne', 'SPD', 'Linke'],
+                      'Black-Yellow': ['CDU/CSU', 'FDP'],
+                      'Jamaica': ['CDU/CSU', 'FDP', 'Gr\u00fcne'],
+                      'Traffic Light': ['SPD', 'Gr\u00fcne', 'FDP'],
+                      'Grand Coalition': ['CDU/CSU', 'SPD'],
+                      'Black-Green': ['CDU/CSU', 'Gr\u00fcne'],
+                      'Old Guard': ['CDU/CSU', 'SPD', 'FDP']},
+            'gov': {'Government': ['CDU/CSU', 'SPD'], 'Opposition': ['Gr\u00fcne', 'Linke', 'FDP', 'AfD']},
+            'start': 4,
+            'end_date': Date(2021, 9, 26),
+            'restart': ['[http', 'election'],
+            'toggle_seats': True
+        },
+        'Hungary': {
+            'key': ['Fidesz', 'Jobbik', 'MSZP', 'Dialogue', 'DK', 'LMP', 'MM', 'MKKP', 'MHM'],
+            'col': {'Fidesz': (255, 106, 0), 'Jobbik': (0, 131, 113), 'MSZP': (204, 0, 0), 'Dialogue': (60, 179, 77),
+               'DK': (0, 103, 170), 'LMP': (54, 202, 139), 'MM': (142, 111, 206), 'MKKP': (128, 128, 128),
+               'MHM': (86, 130, 3),
+               'United Opposition': (32, 178, 170)},
+            'blocs': {'Fidesz': ['Fidesz'], 'United Opposition': ['Jobbik', 'MSZP', 'Dialogue', 'DK', 'LMP', 'MM']},
+            'date': 0,
+            'start': 2,
+            'end_date': Date(2022, 4, 8)
+        },
+        'Iceland': {
+            'key': ['D', 'V', 'S', 'M', 'B', 'P', 'F', 'C', 'J'],
+            'col': {'D': (0, 173, 239), 'V': (0, 184, 120), 'S': (234, 0, 56), 'M': (0, 33, 105), 'B': (160, 208, 103),
+               'P': (137, 110, 189), 'F': (255, 202, 62), 'C': (255, 125, 20), 'J': (239, 72, 57),
+               'Government': (0, 184, 120), 'Opposition': (234, 0, 56),
+               'Socialist': (234, 0, 56), 'Liberal': (160, 208, 103), 'Conservative': (0, 173, 239)},
+            'blocs': {'Socialist': ['V', 'S', 'J'], 'Liberal': ['B', 'M', 'C', 'P'], 'Conservative': ['D', 'F']},
+            'gov': {'Government': ['V', 'B', 'D'], 'Opposition': ['S', 'M', 'P', 'F', 'C', 'J']},
+            'start': 4,
+            'restart': ['[http', 'election'],
+            'end_date': Date(2021, 9, 25)
+        },
+        'Ireland': {
+            'key': ['SF', 'FF', 'FG', 'GP', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I'],
+            'col': {'SF': (50, 103, 96), 'FF': (102, 187, 102), 'FG': (102, 153, 255), 'GP': (34, 172, 111),
+               'Lab': (204, 0, 0), 'SD': (117, 47, 139), 'PBP/S': (142, 36, 32), 'Aon': (68, 83, 42), 'O/I': grey},
+            'blocs': {'Broad Left': ['SF', 'GP', 'Lab', 'SD', 'PBP/S'], 'Old Guard': ['FF', 'FG']},
+            'gov': {'Government': ['FF', 'FG', 'GP'], 'Opposition': ['SF', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I']},
+            'date': 0,
+            'start': 2,
+            'restart': ['Cite web', 'cite web', 'General election', 'cite news', 'Cite news'],
+            'vlines': {Date(2020, 2, 8): 'General Election'},
+            'end_date': Date(2025, 2, 20)
+        },
+        'Italy': {
+            'key': ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV', 'CI'],
+            'col': {'M5S': (255, 235, 59), 'PD': (239, 28, 39), 'Lega': (0, 128, 0), 'FI': (0, 135, 220),
                'FdI': (3, 56, 106), 'LeU': (199, 40, 55), '+Eu': (255, 215, 0), 'EV': (115, 193, 112),
                'C!': (229, 131, 33), 'A': (0, 57, 170), 'IV': (214, 65, 140), 'NcI': (31, 107, 184),
                'PaP': (160, 20, 46), 'Art.1': (210, 27, 48), 'SI': (239, 62, 62), 'CI': (49, 39, 131),
                'Left': (239, 28, 39), 'Right': (0, 128, 0),
-               'Government': (255, 235, 59), 'Opposition': (3, 56, 106)}
-        blocs = {'Left': ['PD', '+Eu', 'EV', 'LeU', 'IV', 'A', 'M5S', 'PaP', 'Art.1', 'SI'],
-                 'Right': ['Lega', 'FI', 'FdI', 'C!', 'NcI', 'CI']}
-        gov = {'Government': ['M5S', 'Lega', 'PD', 'FI', 'LeU', 'IV', 'Art.1'],
-               'Opposition': ['FdI', '+Eu', 'C!', 'A', 'SI', 'CI']}
-        file_name = 'test_data/italy_polling.txt'
-        date = 0
-        start = 2
-        end_date = Date(2023, 6, 1)
-    elif choice == 'Cyprus':
-        key = ['DISY', 'AKEL', 'DIKO', 'EDEK-SYPOL', 'KA', 'KOSP', 'ELAM', 'DIPA', 'Anex']
-        col = {'DISY': (21, 105, 199), 'AKEL': (179, 27, 27), 'DIKO': (255, 126, 0), 'EDEK-SYPOL': (22, 79, 70),
-               'KA': (0, 75, 145), 'KOSP': (127, 255, 0), 'ELAM': (0, 0, 0), 'DIPA': (255, 126, 0),
-               'Anex': (68, 36, 100)}
-        file_name = 'test_data/cyprus_polling.txt'
-        date = 0
-        start = 1
-        end_date = Date(2021, 5, 30)
-    elif choice == 'Denmark':
-        key = ['A', 'V', 'O', 'B', 'F', '\u00d8', 'C', '\u00c5', 'D', 'I', 'P', 'K', 'E', 'G']
-        col = {'A': (240, 77, 70), 'V': (0, 40, 131), 'O': (252, 208, 59), 'B': (229, 0, 125), 'F': (191, 3, 26),
-               '\u00d8': (208, 0, 77), 'C': (0, 73, 49), '\u00c5': (0, 255, 0), 'D': (0, 80, 91),
-               'I': (63, 178, 190),
-               'P': (1, 152, 225), 'K': (255, 165, 0), 'E': (0, 66, 36), 'G': (128, 165, 26),
-               'Red': (240, 77, 70), 'Blue': (0, 40, 131)}
-        blocs = {'Red': ['A', 'B', 'F', '\u00d8', '\u00c5', 'G'], 'Blue': ['V', 'O', 'C', 'D', 'I', 'P', 'K', 'E']}
-        file_name = 'test_data/denmark_polling.txt'
-        start = 3
-        restart.append('election')
-        end_date = Date(2023, 6, 4)
-    elif choice == 'Finland':
-        key = ['SDP', 'PS', 'KOK', 'KESK', 'VIHR', 'VAS', 'SFP', 'KD', 'LIIK']
-        col = {'SDP': (245, 75, 75), 'PS': (255, 222, 85), 'KOK': (0, 98, 136), 'KESK': (52, 154, 43),
-               'VIHR': (97, 191, 26), 'VAS': (240, 10, 100), 'SFP': (255, 221, 147), 'KD': (2, 53, 164),
-               'LIIK': (180, 31, 121),
-               'Government': (245, 75, 75), 'Opposition': (255, 222, 85)}
-        gov = {'Government': ['SDP', 'KESK', 'VIHR', 'VAS', 'SFP'], 'Opposition': ['KOK', 'PS', 'KD', 'LIIK']}
-        file_name = 'test_data/finland_polling.txt'
-        start = 3
-        restart = ['http', 'election']
-        end_date = Date(2023, 4, 30)
-    elif choice == 'Sweden':
-        key = ['V', 'S', 'MP', 'C', 'L', 'M', 'KD', 'SD']
-        col = {'V': (176, 0, 0), 'S': (237, 27, 52), 'MP': (43, 145, 44), 'C': (1, 106, 57), 'L': (0, 106, 179),
-               'M': (1, 156, 219), 'KD': (0, 70, 120), 'SD': (254, 223, 9),
-               'Red-Green': (237, 27, 52), 'Alliance': (245, 137, 28),
-               'Government': (237, 27, 52), 'Opposition': (245, 137, 28)}
-        blocs = {'Red-Green': ['S', 'V', 'MP'], 'Alliance': ['C', 'L', 'M', 'KD'], 'SD': ['SD']}
-        gov = {'Government': ['S', 'MP', 'V', 'C', 'L'], 'Opposition': ['M', 'KD', 'SD']}
-        file_name = 'test_data/sweden_polling.txt'
-        start = 3
-        restart = ['http', '2018 election']
-        end_date = Date(2022, 9, 11)
-    elif choice == 'Norway':
-        key = ['R', 'SV', 'MDG', 'Ap', 'Sp', 'V', 'KrF', 'H', 'FrP']
-        col = {'R': (231, 52, 69), 'SV': (188, 33, 73), 'MDG': (106, 147, 37), 'Ap': (227, 24, 54),
+               'Government': (255, 235, 59), 'Opposition': (3, 56, 106)},
+            'blocs': {'Left': ['PD', '+Eu', 'EV', 'LeU', 'IV', 'A', 'M5S', 'PaP', 'Art.1', 'SI'],
+                 'Right': ['Lega', 'FI', 'FdI', 'C!', 'NcI', 'CI']},
+            'gov': {'Government': ['M5S', 'Lega', 'PD', 'FI', 'LeU', 'IV', 'Art.1'],
+               'Opposition': ['FdI', '+Eu', 'C!', 'A', 'SI', 'CI']},
+            'date': 0,
+            'start': 2,
+            'end_date': Date(2023, 6, 1)
+        },
+        'New York': {
+            'key': ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
+               'Scott Stringer', 'Maya Wiley', 'Andrew Yang'],
+            'col': {'Eric Adams': (0, 0, 255), 'Shaun Donovan': (102, 0, 102), 'Kathryn Garcia': (255, 128, 0),
+               'Raymond McGuire': (0, 102, 0), 'Dianne Morales': (255, 153, 255),
+               'Scott Stringer': (120, 120, 255), 'Maya Wiley': red, 'Andrew Yang': yellow},
+            'file_name': 'test_data/new_york_city_polling.txt',
+            'start': 4,
+            'end_date': Date(2021, 6, 22)
+        },
+        'Norway': {
+            'key': ['R', 'SV', 'MDG', 'Ap', 'Sp', 'V', 'KrF', 'H', 'FrP'],
+            'col': {'R': (231, 52, 69), 'SV': (188, 33, 73), 'MDG': (106, 147, 37), 'Ap': (227, 24, 54),
                'Sp': (0, 133, 66),
                'V': (17, 100, 104), 'KrF': (254, 193, 30), 'H': (135, 173, 215), 'FrP': (2, 76, 147),
-               'Red-Green': (227, 24, 54), 'Blue': (135, 173, 215)}
-        blocs = {'Red-Green': ['R', 'SV', 'Ap', 'Sp'], 'Blue': ['V', 'KrF', 'H', 'FrP'], 'MDG': ['MDG']}
-        file_name = 'test_data/norway_polling.txt'
-        start = 4
-        restart.append('election')
-        end_date = Date(2021, 9, 13)
-    elif choice == 'Iceland':
-        key = ['D', 'V', 'S', 'M', 'B', 'P', 'F', 'C', 'J']
-        col = {'D': (0, 173, 239), 'V': (0, 184, 120), 'S': (234, 0, 56), 'M': (0, 33, 105), 'B': (160, 208, 103),
-               'P': (137, 110, 189), 'F': (255, 202, 62), 'C': (255, 125, 20), 'J': (239, 72, 57),
-               'Government': (0, 184, 120), 'Opposition': (234, 0, 56),
-               'Socialist': (234, 0, 56), 'Liberal': (160, 208, 103), 'Conservative': (0, 173, 239)}
-        blocs = {'Socialist': ['V', 'S', 'J'], 'Liberal': ['B', 'M', 'C', 'P'], 'Conservative': ['D', 'F']}
-        gov = {'Government': ['V', 'B', 'D'], 'Opposition': ['S', 'M', 'P', 'F', 'C', 'J']}
-
-        file_name = 'test_data/iceland_polling.txt'
-        start = 4
-        restart.append('election')
-        end_date = Date(2021, 9, 25)
-    elif choice == 'Portugal':
-        key = ['PS', 'PSD', 'BE', 'CDU', 'CDS-PP', 'PAN', 'Chega', 'IL', 'LIVRE']
-        col = {'PS': (255, 102, 255), 'PSD': (255, 153, 0), 'BE': (139, 0, 0), 'CDU': (255, 0, 0),
+               'Red-Green': (227, 24, 54), 'Blue': (135, 173, 215)},
+            'blocs': {'Red-Green': ['R', 'SV', 'Ap', 'Sp'], 'Blue': ['V', 'KrF', 'H', 'FrP']},
+            'start': 4,
+            'restart': ['[http', 'election'],
+            'end_date': Date(2021, 9, 13),
+            'toggle_seats': True
+        },
+        'Peru': {
+            'key': ['Castillo', 'Fujimori'],
+            'col': {'Castillo': (192, 10, 10), 'Fujimori': (255, 128, 0)},
+            'start': 3,
+            'restart': ['http'],
+            'end_date': Date(2021, 6, 6)
+        },
+        'Poland': {
+            'key': ['United Right', 'Civic Coalition', 'The Left', 'Polish Coalition', 'Kukiz\'15', 'Confederation',
+                    'Poland 2050'],
+            'col': {'United Right': (38, 55, 120), 'Civic Coalition': (246, 143, 45), 'The Left': (172, 20, 90),
+                    'Polish Coalition': (27, 177, 0), 'Kukiz\'15': (0, 0, 0), 'Confederation': (18, 39, 70),
+                    'Poland 2050': (249, 192, 19),
+                    'Government': (38, 55, 120), 'Opposition': (246, 143, 45),
+                    'United Opposition': (246, 143, 45), 'Misc. Right': (18, 39, 70)},
+            'gov': {'Government': ['United Right'],
+                    'Opposition': ['Civic Coalition', 'The Left', 'Polish Coalition', 'Kukiz\'15', 'Confederation',
+                                   'Poland 2050']},
+            'blocs': {'United Right': ['United Right'],
+                      'United Opposition': ['Civic Coalition', 'The Left', 'Polish Coalition', 'Poland 2050'],
+                      'Misc. Right': ['Kukiz\'15', 'Confederation']},
+            'start': 3,
+            'restart': ['[http', 'election'],
+            'end_date': Date(2023, 11, 11)
+        },
+        'Portugal': {
+            'key': ['PS', 'PSD', 'BE', 'CDU', 'CDS-PP', 'PAN', 'Chega', 'IL', 'LIVRE'],
+            'col': {'PS': (255, 102, 255), 'PSD': (255, 153, 0), 'BE': (139, 0, 0), 'CDU': (255, 0, 0),
                'CDS-PP': (0, 147, 221),
                'PAN': (0, 128, 128), 'Chega': (32, 32, 86), 'IL': (0, 173, 239), 'LIVRE': (143, 188, 143),
-               'Left': (255, 102, 255), 'Right': (255, 153, 0)}
-        blocs = {'Left': ['PS', 'BE', 'CDU', 'PAN', 'LIVRE'], 'Right': ['PSD', 'CDS-PP', 'Chega', 'IL']}
-        file_name = 'test_data/portugal_polling.txt'
-        start = 4
-        restart.append('election')
-        end_date = Date(2023, 10, 8)
-    elif choice == 'Hungary':
-        key = ['Fidesz', 'Jobbik', 'MSZP', 'Dialogue', 'DK', 'LMP', 'MM', 'MKKP', 'MHM']
-        col = {'Fidesz': (255, 106, 0), 'Jobbik': (0, 131, 113), 'MSZP': (204, 0, 0), 'Dialogue': (60, 179, 77),
-               'DK': (0, 103, 170), 'LMP': (54, 202, 139), 'MM': (142, 111, 206), 'MKKP': (128, 128, 128),
-               'MHM': (86, 130, 3),
-               'United Opposition': (32, 178, 170)}
-        blocs = {'Fidesz': ['Fidesz'], 'United Opposition': ['Jobbik', 'MSZP', 'Dialogue', 'DK', 'LMP', 'MM']}
-        date = 0
-        start = 2
-        end_date = Date(2022, 4, 8)
-    elif choice == 'Ireland':
-        key = ['SF', 'FF', 'FG', 'GP', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I']
-        col = {'SF': (50, 103, 96), 'FF': (102, 187, 102), 'FG': (102, 153, 255), 'GP': (34, 172, 111),
-               'Lab': (204, 0, 0), 'SD': (117, 47, 139), 'PBP/S': (142, 36, 32), 'Aon': (68, 83, 42), 'O/I': grey}
-        blocs = {'Broad Left': ['SF', 'GP', 'Lab', 'SD', 'PBP/S'], 'Old Guard': ['FF', 'FG']}
-        gov = {'Government': ['FF', 'FG', 'GP'], 'Opposition': ['SF', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I']}
-        date = 0
-        start = 2
-        restart = ['Cite web', 'cite web', 'General election', 'cite news', 'Cite news']
-        vlines = {Date(2020, 2, 8): 'General Election'}
-        end_date = Date(2025, 2, 20)
-    elif choice == 'Brazil':
-        key = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
-               'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck']
-        include = ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Gomes (PDT)', 'Doria (PSDB)']
-        col = {'Bolsanaro (PSL/APB)': (0, 140, 0), 'Lula (PT)': (204, 0, 0), 'Haddad (PT)': (204, 0, 0),
-               'Dino (PCdoB)': (163, 0, 0), 'Gomes (PDT)': (238, 100, 100), 'Boulos (PSOL)': (163, 0, 0),
-               'Doria (PSDB)': (0, 95, 164), 'Amoedo (NOVO)': (240, 118, 42), 'Silva (REDE)': (46, 139, 87),
-               'Moro': dark_grey, 'Huck': grey}
-        start = 3
-        vlines = {Date(2021, 3, 8): "Lula cleared of charges"}
-        end_date = Date(2022, 10, 2)
-    elif choice == 'Bulgaria':
-        key = ['GERB', 'ITN', 'BSPzB', 'DPS', 'DB', 'ISMV', 'BP', 'BP', 'BP', 'Revival', 'BL', 'RB', 'LSChSR']
-        col = {'GERB': (0, 86, 167), 'ITN': (75, 185, 222), 'BSPzB': (219, 15, 40), 'DPS': (0, 96, 170),
-               'DB': (0, 74, 128), 'ISMV': (91, 165, 70), 'BP': black, 'Revival': (192, 159, 98),
-               'BL': (243, 129, 20), 'RB': (43, 74, 153), 'LSChSR': (241, 25, 40)}
-        blocs = {'Conservative': ['GERB', 'RB'], 'Socialist': ['BSPzB', 'LSChSR'], 'DPS': ['DPS'],
-                 'Nationalist': ['BP', 'Revival', 'BL'],
-                 'Populist': ['ITN', 'DB', 'ISMV']}
-        start = 3
-        end_date = Date(2021, 7, 11)
-        restart.append('2021 election')
-    elif choice == 'UK':
-        key = ['Conservative', 'Labour', 'Lib Dem', 'SNP', 'Green']
-        col = {'Conservative': (0, 135, 220), 'Labour': (228, 0, 59), 'Lib Dem': (250, 166, 26),
-               'SNP': (253, 243, 142), 'Green': (106, 176, 35)}
-        date = 2
-        start = 5
-        vlines = {Date(2020, 4, 4): 'Starmer becomes Labour leader',
-                  Date(2021, 5, 6): 'Local elections'}
-        restart.append('2019 general election')
-        end_date = Date(2024, 5, 2)
-    elif choice == 'New York':
-        key = ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
-               'Scott Stringer', 'Maya Wiley', 'Andrew Yang']
-        col = {'Eric Adams': (0, 0, 255), 'Shaun Donovan': (102, 0, 102), 'Kathryn Garcia': (255, 128, 0),
-               'Raymond McGuire': (0, 102, 0), 'Dianne Morales': (255, 153, 255),
-               'Scott Stringer': (120, 120, 255), 'Maya Wiley': red, 'Andrew Yang': yellow}
-        file_name = 'test_data/new_york_city_polling.txt'
-        start = 4
-        end_date = Date(2021, 6, 22)
-    else:
-        raise ValueError("No such choice.")
-    if file_name is None:
-        file_name = 'test_data/' + choice.lower() + '_polling.txt'
-    if blocs is not None:
-        for line in blocs.keys():
-            if line not in col.keys():
-                col[line] = col[blocs[line][0]]
-    if gov is not None:
-        for line in gov.keys():
-            if line not in col.keys():
-                col[line] = col[gov[line][0]]
-    if vlines is not None:
-        vlines = {date_kit.date_dif(today, k): v for k, v in vlines.items()}
+               'Left': (255, 102, 255), 'Right': (255, 153, 0)},
+            'blocs': {'Left': ['PS', 'BE', 'CDU', 'PAN', 'LIVRE'], 'Right': ['PSD', 'CDS-PP', 'Chega', 'IL']},
+            'start': 4,
+            'restart': ['[http', 'election'],
+            'end_date': Date(2023, 10, 8)
+        },
+        'Slovakia': {
+            'key': [
+                'OL\'aNO', 'SMER-SD', 'SR', 'L\'SNS', 'PS-SPOLU', 'PS-SPOLU', 'SaS', 'ZL\'', 'KDH',
+                'Magyar', 'Magyar', 'Magyar', 'Magyar', 'SNS', 'DV', 'HLAS-SD', 'REP'],
+            'col': {'OL\'aNO': (190, 214, 47), 'SMER-SD': (217, 39, 39), 'SR': (11, 76, 159), 'L\'SNS': (11, 87, 16),
+                    'PS-SPOLU': (0, 188, 255), 'SaS': (166, 206, 58), 'ZL\'': (255, 187, 0), 'KDH': (253, 209, 88),
+                    'Magyar': (39, 93, 51), 'SNS': (37, 58, 121), 'DV': (255, 0, 43), 'HLAS-SD': (180, 40, 70),
+                    'REP': (220, 1, 22),
+                    'Government': (190, 214, 47), 'Opposition': (180, 40, 70),
+                    'Left': (180, 40, 70), 'Right': (190, 214, 47)},
+            'gov': {'Government': ['OL\'aNO', 'SR', 'SaS', 'ZL\''],
+                    'Opposition': ['SMER-SD', 'L\'SNS', 'PS-SPOLU', 'KDH', 'Magyar', 'SNS', 'DV', 'HLAS-SD', 'REP']},
+            'blocs': {'Left': ['SMER-SD', 'PS-SPOLU', 'DV', 'HLAS-SD'],
+                      'Right': ['OL\'aNO', 'SR', 'L\'SNS', 'SaS', 'ZL\'', 'KDH', 'Magyar', 'SNS', 'REP']},
+            'date': 0,
+            'start': 2,
+            'restart': ['Focus', 'AKO', '2020 elections'],
+            'end_date': Date(2024, 2, 24)
+        },
+        'Spain': {
+            'key': ['PSOE', 'PP', 'VOX', 'UP', 'Cs', 'ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+',
+                    'PRC'],
+            'col': {'PSOE': (239, 28, 39), 'PP': (29, 132, 206), 'VOX': (99, 190, 33), 'UP': (123, 73, 119),
+                    'Cs': (235, 97, 9), 'ERC': (255, 178, 50), 'MP': (15, 222, 196), 'JxCat': (0, 199, 174),
+                    'PNV': (74, 174, 74), 'EHB': (181, 207, 24), 'CUP': (255, 237, 0), 'CC': (255, 215, 0),
+                    'BNG': (173, 207, 239), 'NA+': (129, 157, 163), 'PRC': (194, 206, 12),
+                    'Government': (239, 28, 39), 'Opposition': (29, 132, 206),
+                    'Left': (239, 28, 39), 'Right': (29, 132, 206), 'Regionalist': (255, 178, 50)},
+            'gov': {'Government': ['PSOE', 'UP', 'PNV', 'MP', 'BNG'],
+                    'Opposition': ['PP', 'VOX', 'Cs', 'JxCat', 'CUP', 'CC', 'PRC']},
+            'blocs': {'Left': ['PSOE', 'UP', 'MP'], 'Right': ['PP', 'VOX', 'Cs'],
+                      'Regionalist': ['ERC', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+', 'PRC']},
+            'restart': ['http', 'Spanish general election'],
+            'start': 4,
+            'end_date': Date(2023, 12, 10),
+            'vlines': {Date(2021, 5, 4): 'Madrilenian', Date(2021, 2, 14): 'Catalan'}
+        },
+        'Sweden': {
+            'key': ['V', 'S', 'MP', 'C', 'L', 'M', 'KD', 'SD'],
+            'col': {'V': (176, 0, 0), 'S': (237, 27, 52), 'MP': (43, 145, 44), 'C': (1, 106, 57), 'L': (0, 106, 179),
+               'M': (1, 156, 219), 'KD': (0, 70, 120), 'SD': (254, 223, 9),
+               'Red-Green': (237, 27, 52), 'Alliance': (245, 137, 28),
+               'Government': (237, 27, 52), 'Opposition': (245, 137, 28)},
+            'blocs': {'Red-Green': ['S', 'V', 'MP'], 'Alliance': ['C', 'L', 'M', 'KD'], 'Right': ['M', 'L', 'KD', 'SD'],
+                 'Left': ['C', 'S', 'V', 'MP']},
+            'gov': {'Government': ['S', 'MP', 'V', 'C', 'L'], 'Opposition': ['M', 'KD', 'SD']},
+            'start': 3,
+            'restart': ['http', '2018 election'],
+            'end_date': Date(2022, 9, 11),
+            'toggle_seats': True
+        },
+        'UK': {
+            'key': ['Conservative', 'Labour', 'Lib Dem', 'SNP', 'Green'],
+            'col': {'Conservative': (0, 135, 220), 'Labour': (228, 0, 59), 'Lib Dem': (250, 166, 26),
+               'SNP': (253, 243, 142), 'Green': (106, 176, 35)},
+            'date': 2,
+            'start': 5,
+            'vlines': {Date(2020, 4, 4): 'Starmer becomes Labour leader',
+                  Date(2021, 5, 6): 'Local elections'},
+            'restart': ['[http', '2019 general election'],
+            'end_date': Date(2024, 5, 2)
+        }
+    }
+    for c, d in choices.items():
+        if 'restart' not in d:
+            d['restart'] = ['[http']
+        if 'date' not in d:
+            d['date'] = 1
+        if 'end_date' not in d:
+            d['end_date'] = None
+        if 'blocs' not in d:
+            d['blocs'] = None
+        elif d['blocs'] is not None:
+            for line in d['blocs'].keys():
+                if line not in d['col'].keys():
+                    d['col'][line] = d['col'][d['blocs'][line][0]]
+        if 'gov' not in d:
+            d['gov'] = None
+        elif d['gov'] is not None:
+            for line in d['gov'].keys():
+                if line not in d['col'].keys():
+                    d['col'][line] = d['col'][d['gov'][line][0]]
+        if 'file_name' not in d:
+            d['file_name'] = 'test_data/' + c.lower() + '_polling.txt'
+        if 'include' not in d:
+            d['include'] = None
+        if 'vlines' not in d:
+            d['vlines'] = None
+        elif d['vlines'] is not None:
+            d['vlines'] = {date_kit.date_dif(today, k): v for k, v in d['vlines'].items()}
+        if 'toggle_seats' not in d:
+            d['toggle_seats'] = False
+    return choices
+
+
+def choice_setting(c):
+    dat = choices[c]
+    file_name = dat['file_name']
+    key = dat['key']
+    col = dat['col']
+    blocs = dat['blocs']
+    gov = dat['gov']
+    start = dat['start']
+    restart = dat['restart']
+    date = dat['date']
+    end_date = dat['end_date']
+    include = dat['include']
+    vlines = dat['vlines']
+    toggle_seats = dat['toggle_seats']
     return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines, toggle_seats
 
 
@@ -567,8 +619,6 @@ class GraphPage:
         self.seats_dat = None
         self.seats_blocs_dat = None
         self.seats_gov_dat = None
-
-        self.dat = filter_nils(self.dat, 'parties')
 
         self.graph_dat = None
         self.graph_blocs_dat = None
@@ -704,16 +754,16 @@ class GraphPage:
         return read_data(content, self.key, self.start, self.restart, self.date, self.choice, self.include)
 
     def init_seats_dat(self):
+        xs = set()
+        for party in self.dat:
+            xs.update(set(self.dat[party].keys()))
         if self.choice == 'Canada':
             total_share, all_shares, rel_votes = process_riding_data(get_riding_data())
-            xs = set()
-            for party in self.dat:
-                xs.update(set(self.dat[party].keys()))
             seats_dat = {p: {} for p in total_share.keys()}
             for x in xs:
                 n = max([len(self.dat[p][x]) if x in self.dat[p] else 0 for p in self.dat])
                 for p in total_share:
-                    if not (p == 'PPC' and x < min(self.dat[p])):
+                    if p == 'IND' or not x < min(self.dat[p]):
                         seats_dat[p][x] = [0 for _ in range(n)]
                 for ridata in all_shares.values():
                     for i in range(n):
@@ -728,14 +778,59 @@ class GraphPage:
                             ridat[k] = p
                         p = ridat[max(ridat)]
                         seats_dat[p][x][i] += 1
+        elif self.choice in ['Sweden', 'Norway', 'Denmark', 'Germany']:
+            seats_dat = {p: {} for p in self.dat}
+            for x in xs:
+                n = max([len(self.dat[p][x]) if x in self.dat[p] else 0 for p in self.dat])
+                for p in self.dat:
+                    if len(self.dat[p][x]) > 0:
+                        seats_dat[p][x] = [0 for _ in range(n)]
+                for i in range(n):
+                    shares = {}
+                    if self.choice == 'Sweden':
+                        seats = 349
+                        divisor = 2
+                        bar = 0.2
+                        threshold = 4
+                    elif self.choice == 'Denmark':
+                        seats = 175
+                        divisor = 2
+                        bar = 0
+                        threshold = 2
+                    elif self.choice == 'Germany':
+                        seats = 598
+                        divisor = 2
+                        bar = 0
+                        threshold = 5
+                    else:
+                        seats = 169
+                        divisor = 2
+                        bar = 0.4
+                        threshold = 4
+                    for p in self.dat:
+                        if p in self.dat and x in self.dat[p] and len(self.dat[p][x]) > i and \
+                                self.dat[p][x][i] >= threshold:
+                            shares[p] = self.dat[p][x][i]
+                        elif x not in seats_dat[p]:
+                            continue
+                        else:
+                            shares[p] = 0
+                    seatdist = highest_quotient_method(shares, seats, divisor, bar)
+                    for p in seatdist:
+                        if x in seats_dat[p]:
+                            seats_dat[p][x][i] = seatdist[p]
         else:
             seats_dat = None
         return seats_dat
 
     @staticmethod
     def dat_ymax(dat):
-        ymax = max([max([max(ys) if len(ys) > 0 else 0 for ys in line.values()]) for line in dat.values()])
-        return round_up(ymax / 10 + 0.5) * 10
+        try:
+            ymax = max([max([max(ys) if len(ys) > 0 else 0 for ys in line.values() if line is not None])
+                        for line in dat.values()])
+            return ymax * 5 / 4
+        except AttributeError:
+            return False
 
     def improve_res(self, resratio):
         if self.metric == 'seats':
@@ -829,19 +924,21 @@ class GraphPage:
             y_title = "Support (%)"
             intg = False
         y_max = self.dat_ymax(points)
-
-        graph = GraphDisplay(screen_center, (screen_width, screen_height), dat, x_title=None,
-                             y_title=y_title, title=title, step=1, align=CENTER, colours=self.col,
-                             initial_date=today, leader=True, y_min=0, y_max=y_max, x_max=x_max, x_min=x_min,
-                             dat_points=points, vlines=self.vlines, intg=intg)
-        with lock:
-            if self.graph is not None:
-                self.graph.hide()
-            self.graph = graph
-            self.graph.catch(pygame.mouse.get_pos())
-            self.graph.show()
+        if y_max is not False:
+            graph = GraphDisplay(screen_center, (screen_width, screen_height), dat, x_title=None,
+                                 y_title=y_title, title=title, step=1, align=CENTER, colours=self.col,
+                                 initial_date=today, leader=True, y_min=0, y_max=y_max, x_max=x_max, x_min=x_min,
+                                 dat_points=points, vlines=self.vlines, intg=intg)
+            with lock:
+                if self.graph is not None:
+                    self.graph.hide()
+                self.graph = graph
+                self.graph.catch(pygame.mouse.get_pos())
+                self.graph.show()
 
     def change_view_or_metric(self):
+        if self.dat is None:
+            self.dat = filter_nils(self.init_dat(), 'parties')
         if self.metric == 'seats':
             if self.seats_dat is None:
                 self.seats_dat = self.init_seats_dat()
@@ -856,8 +953,6 @@ class GraphPage:
             elif self.view == 'parties' and self.seats_graph_dat is None:
                 self.seats_graph_dat = self.init_graph_data(self.seats_dat, resratio=self.low_res)
         else:
-            if self.dat is None:
-                self.dat = filter_nils(self.init_dat(), 'parties')
             if self.view == 'blocs' and self.graph_blocs_dat is None:
                 if self.blocs_dat is None:
                     self.blocs_dat = filter_nils(self.init_group(self.view, self.dat), self.view)
@@ -894,8 +989,13 @@ class GraphPage:
                 self.spread = 10
                 self.down_spread.disable()
         self.spread_txt.update(str(self.spread))
-        self.graph_dat = self.init_graph_data(self.dat)
-        self.make_graph()
+        self.graph_dat = None
+        self.graph_blocs_dat = None
+        self.graph_gov_dat = None
+        self.seats_graph_dat = None
+        self.seats_gov_dat = None
+        self.seats_blocs_dat = None
+        self.change_view_or_metric()
 
     def change_minx(self, minx):
         self.minx = minx
@@ -1031,21 +1131,7 @@ def process_riding_data(dat):
 
 
 if __name__ == '__main__':
-    options = ['Austria', 'Brazil', 'Bulgaria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany',
-               'Hungary', 'Iceland', 'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain',
-               'Sweden', 'UK', 'New York']
-    olddata = {
-        'Canada':   'test_data/old_canada_polling.txt',
-        'Denmark':  'test_data/old_denmark_polling.txt',
-        'Germany':  'test_data/old_germany_polling.txt',
-        'Ireland':  'test_data/old_ireland_polling.txt',
-        'Italy':    'test_data/old_italy_polling.txt',
-        'Norway':   'test_data/old_norway_polling.txt',
-        'Poland':   'test_data/old_poland_polling.txt',
-        'UK':       'test_data/old_uk_polling.txt'
-    }
-    tod = str(datetime.date.today())
-    today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
+    choices = choices_setup()
     lock = threading.Lock()
     menu_page = MenuPage()
     game_loop(lock)
