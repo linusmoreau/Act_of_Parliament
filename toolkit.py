@@ -274,10 +274,10 @@ class CustomObject:
         raise ValueError("No identifier")
 
 
-def highest_quotient_method(votes: Dict[str, float], num: int, mult=1):
+def highest_quotient_method(votes: Dict[str, float], num: int, mult=1, bar=0):
     seats = {p: 0 for p in votes.keys()}
     for i in range(num):
-        quotients = {votes[p] / (mult * seats[p] + 1): p for p in votes.keys()}
+        quotients = {votes[p] / (mult * seats[p] + 1 + (bar if seats[p] == 0 else 0)): p for p in votes.keys()}
         winner = quotients[max(quotients)]
         seats[winner] += 1
     return seats
