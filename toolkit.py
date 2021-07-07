@@ -274,7 +274,7 @@ class CustomObject:
         raise ValueError("No identifier")
 
 
-def highest_quotient_method(votes: Dict[str, float], num: int, mult=1, bar=0):
+def highest_averages_method(votes: Dict[str, float], num: int, mult=1, bar=0):
     seats = {p: 0 for p in votes.keys()}
     for i in range(num):
         quotients = {votes[p] / (mult * seats[p] + 1 + (bar if seats[p] == 0 else 0)): p for p in votes.keys()}
@@ -292,7 +292,25 @@ def huntingon_hill(votes: Dict[str, float], num: int):
     return seats
 
 
+def largest_remainder_method(votes: Dict[str, float], num: int):
+    quota = sum(votes.values()) / num
+    seats = {}
+    remains = {}
+    allocated = 0
+    for p in votes:
+        quotient = votes[p] / quota
+        auto = int(quotient)
+        remain = quotient - auto
+        seats[p] = auto
+        allocated += auto
+        remains[remain] = p
+    for a in range(num - allocated):
+        p = remains.pop(max(remains))
+        seats[p] += 1
+    return seats
+
+
 if __name__ == '__main__':
     votes = {'S': 924_940, 'DPP': 741_746, 'V': 685_188, 'RG': 274_463, 'LA': 265_129, 'A': 168_788,
              'SL': 161_009, 'SF': 147_578, 'C': 118_003}
-    print(huntingon_hill(votes, 175))
+    print(largest_remainder_method(votes, 175))
