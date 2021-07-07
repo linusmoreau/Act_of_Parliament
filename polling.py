@@ -123,8 +123,16 @@ def read_data(content, key, start, restart, date, choice, include=None):
                         except ValueError:
                             temp = temp + ' ' + year
                     elif len(temps) == 1:
-                        temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
-                               ' ' + temp + ' ' + year
+                        try:
+                            temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
+                                   ' ' + temp + ' ' + year
+                        except KeyError:
+                            if choice == 'Poland':
+                                rot = None
+                                i += 1
+                                continue
+                            else:
+                                raise KeyError('KeyError getting month length')
                     temp = temp.strip("'")
                 temp = temp.replace('X', '0')
                 end_date = date_kit.Date(text=temp, form='dmy')
