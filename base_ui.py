@@ -2269,6 +2269,8 @@ def set_press_colour(shade):
 
 def fade_colour(colour, amount=128):
     if colour not in faded_colours:
+        faded_colours[colour] = {}
+    if amount not in faded_colours[colour]:
         blanket = pygame.Surface((1, 1))
         blanket.fill(whitish)
         blanket.set_alpha(amount)
@@ -2276,8 +2278,8 @@ def fade_colour(colour, amount=128):
         paint.fill(colour)
         paint.blit(blanket, (0, 0))
         final = paint.get_at((0, 0))
-        faded_colours[colour] = final
-    return faded_colours[colour]
+        faded_colours[colour][amount] = final
+    return faded_colours[colour][amount]
 
 
 text_sizes = {}
