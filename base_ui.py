@@ -1973,15 +1973,24 @@ class GraphDisplay(Widget):
 
             for j in range(len(points) - 1):
                 pygame.draw.line(self.surface, line_colour, points[j], points[j + 1], 1)
-                offset = 1
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] - offset),
-                                   (points[j + 1][0], points[j + 1][1] - offset))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] + offset),
-                                   (points[j + 1][0], points[j + 1][1] + offset))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offset, points[j][1]),
-                                   (points[j + 1][0] - offset, points[j + 1][1]))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] + offset, points[j][1]),
-                                   (points[j + 1][0] + offset, points[j + 1][1]))
+                offsetx = 1
+                offsety = 1.25
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offsetx, points[j][1] - offsety),
+                                   (points[j + 1][0] - offsetx, points[j + 1][1] - offsety))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0] + offsetx, points[j][1] + offsety),
+                                   (points[j + 1][0] + offsetx, points[j + 1][1] + offsety))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offsetx, points[j][1] + offsety),
+                                   (points[j + 1][0] - offsetx, points[j + 1][1] + offsety))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0] + offsetx, points[j][1] - offsety),
+                                   (points[j + 1][0] + offsetx, points[j + 1][1] - offsety))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] - offsety),
+                                   (points[j + 1][0], points[j + 1][1] - offsety))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] + offsety),
+                                   (points[j + 1][0], points[j + 1][1] + offsety))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offsetx, points[j][1]),
+                                   (points[j + 1][0] - offsetx, points[j + 1][1]))
+                pygame.draw.aaline(self.surface, line_colour, (points[j][0] + offsetx, points[j][1]),
+                                   (points[j + 1][0] + offsetx, points[j + 1][1]))
 
             # pygame.draw.aalines(self.surface, line_colour, False, points)
             # pygame.draw.lines(self.surface, line_colour, False, points, 3)
