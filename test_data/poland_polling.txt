@@ -24,6 +24,19 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| [https://www.rmf24.pl/polityka/news-sondaz-dla-rmf-fm-zjednoczona-prawica-na-czele-koalicja-obyw,nId,5342628#crp_state=1 Opinia24 / RMF FM]
+| data-sort-value="2021-07-02" | 2-5 Jul 2021
+| 1000
+|style="background:#C0DBFC;" | '''29'''
+| 23
+| 8
+| 4
+| 1
+| 10
+| 17
+| 8
+|style="background:{{Law and Justice/meta/color}}; color:white;"| '''6''' 
+|-
 |
 | data-sort-value="2021-03-07" | 3 July 2021
 |colspan=10 |'''[[Borys Budka|Borys Budka]] resignation as PO leader; [[Donald Tusk]] acting leader'''

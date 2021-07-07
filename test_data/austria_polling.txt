@@ -21,6 +21,18 @@
 ! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
 ! style="background:{{Independent/meta/color}};"|
 |-
+| [https://www.puls24.at/news/politik/sonntagsfrage-oevp-stabil-voran-keine-mehrheit-fuer-rot-gruen-pink/238508 IFDD]
+| data-sort-value="2021-07-02"| 28 Jun – 2 Jul 2021
+| 806
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''33'''
+| <!-- Social Democratic Party --> | 24
+| <!-- Freedom Party --> | 18
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 1
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 9
+|-
 | [https://epaper.heute.at/#/documents/210702_HEU/4 Unique Research]
 | data-sort-value="2021-07-01"| 28 Jun – 1 Jul 2021
 | 800
@@ -44,6 +56,18 @@
 | <!-- NEOS--> | 12
 | <!-- Independent--> | 5
 | style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 12
+|-
+| [https://www.derstandard.at/story/2000127892913/parteitagsschlappe-beschaedigte-das-image-der-spoe Market]
+| data-sort-value="2021-06-30"| 29–30 Jun 2021
+| 820
+| Online & CAPI
+| <!-- People Party -->  style="background:#D2EDF1;"| '''31'''
+| <!-- Social Democratic Party --> | 26
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 13
+| <!-- NEOS--> | 11
+| <!-- Independent--> | 2
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 5
 |-
 | [https://image.kurier.at/images/cfs_616w/6146649/ogm_umfrage_27._6._online-01.png OGM]
 | data-sort-value="2021-06-24"| 22–24 Jun 2021

@@ -20,10 +20,36 @@
 ! data-sort-type="number" style="background:{{Scottish National Party/meta/color}};"|
 ! data-sort-type="number" style="background:{{Green Party of England and Wales/meta/color}};"|
 |-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-5-july-2021/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||5|Jul|2021}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''43%'''
+|34%
+|8%
+|4%
+|6%
+|{{Hidden|6%|[[Brexit Party|Reform UK]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%|headerstyle=font-weight:normal;line-height:9px;}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|9%
+|-
 | style="border-right-style:hidden;"|
 | style="border-right-style:hidden;"|
 | style="border-right-style:hidden;" {{opdrts||1|Jul|2021}}
 | colspan="9" style="font-weight:bold;"|[[2021 Batley and Spen by-election|Batley and Spen by-election]]<ref>{{Cite news|date=2021-07-02|title=Batley and Spen: Labour hold seat in by-election|language=en-GB|work=BBC News|url=https://www.bbc.co.uk/news/uk-politics-57691543|access-date=2021-07-02}}</ref>
+|-
+|[https://docs.cdn.yougov.com/y7uow6z2dq/TheTimes_VotingIntention_Track_210630_W_BPC.pdf YouGov]
+|''The Times''
+|{{opdrts|29|30|Jun|2021}}
+|GB
+|1,762
+|style="background:#BADEF5;"|'''42%'''
+|31%
+|10%
+|5%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Plaid Cymru]] on 1%<br/>[[Reform UK]] on 3%<br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|11%
 |-
 |[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-28-june-2021/ Redfield & Wilton Strategies]
 |N/A

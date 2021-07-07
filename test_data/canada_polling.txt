@@ -27,6 +27,10 @@
 ! style="background:{{Canadian party colour|CA|Green}}" data-sort-type="number"|
 ! style="background:{{Canadian party colour|CA|PPC}}" data-sort-type="number"|
 |-
+| [[Léger Marketing|Leger]] || {{dts|July 4, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/Legers-North-American-Tracker-July-5th-2021.pdf PDF] || 30 || {{Party shading/Liberal}}|'''33''' || 19 || 7 || 5 || 4 || 2 || ±2.52 pp || 1,518 || online || {{Party shading/Liberal}}|'''3'''
+|-
+| [[Abacus Data]] || {{dts|June 30, 2021}} || [https://abacusdata.ca/2021-liberals-ahead-conservatives-low/ HTML] || 25 || {{Party shading/Liberal}}|'''37''' || 20 || 7 || 6 || 3 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''12'''
+|-
 | [[Ipsos]] || {{dts|June 22, 2021}} || [https://www.ipsos.com/en-ca/news-polls/Liberals-Support-Plateaus-Back-Vaccination-Programme HTML] || 26 || {{Party shading/Liberal}}|'''38''' || 20 || 8 || 7 || 1 || 1 || ±2.9 pp || 1,501 || online/telephone || {{Party shading/Liberal}}|'''12'''
 |-
 | [[Abacus Data]] || {{dts|June 21, 2021}} || [https://abacusdata.ca/liberal-fortunes-improve-lead-by-10/ HTML] || 27 || {{Party shading/Liberal}}|'''37''' || 18 || 9 || 5 || 3 || 1 || ±2.2 pp || 2,070 || online || {{Party shading/Liberal}}|'''10'''

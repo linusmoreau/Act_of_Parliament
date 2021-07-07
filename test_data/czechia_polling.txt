@@ -167,6 +167,24 @@
 |'''24.5'''
 |{{No|'''61.0'''}}
 |-
+|[https://www.ipsos.com/sites/default/files/ct/news/documents/2021-07/Tiskov%C3%A1%20zpr%C3%A1va%20Ipsos_volebn%C3%AD%20model_2.7.%202021.pdf Ipsos]
+|2-6 Jun
+|1,040
+|64.0
+|{{Party shading/ANO 2011}}|'''23.5'''
+| colspan="3" |23.1
+| colspan="2" style="background:#d3d3d3;"|'''22.4'''
+|9.6
+|4.7
+|4.7
+| colspan="2" |3.4
+|1.9
+|5.6
+|1.0
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |0.4
+|'''28.2'''
+|{{No|'''59.8'''}}
+|-
 |[https://www.median.eu/cs/wp-content/uploads/2021/06/MEDIAN_volebni_model_2021_05.pdf Median]
 |1–31 May
 |1072
