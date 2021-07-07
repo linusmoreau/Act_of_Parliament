@@ -1972,8 +1972,8 @@ class GraphDisplay(Widget):
                 pp = p
 
             for j in range(len(points) - 1):
-                pygame.draw.line(self.surface, line_colour, points[j], points[j + 1], 1)
-                offsetx = 1
+                pygame.draw.aaline(self.surface, line_colour, points[j], points[j + 1], 1)
+                offsetx = 1.25
                 offsety = 1.25
                 pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offsetx, points[j][1] - offsety),
                                    (points[j + 1][0] - offsetx, points[j + 1][1] - offsety))
