@@ -96,6 +96,9 @@ class Date(CustomObject):
                 break
         return year, month, day
 
+    def numerate(self):
+        return self.day + self.month * 100 + self.year * 10000
+
 
 def get_month_number(month: str):
     month = month[0].upper() + month[1:].lower()
