@@ -256,9 +256,14 @@ def choices_setup():
             'start': 4,
             'end_date': Date(2025, 1, 1),
             'restart': ['[http', 'election'],
-            'toggle_seats': False,
+            'toggle_seats': True,
             'url': 'https://en.wikipedia.org/w/index.php?title='
                    'Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
+            'seats': 183,
+            'divisor': 1,
+            'bar': 0,
+            'threshold': 4,
+            'method': 'quotient'
         },
         'Brazil': {
             'key': ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
@@ -328,7 +333,13 @@ def choices_setup():
             'start': 26,
             'end_date': Date(2021, 10, 9),
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_2021_Czech_legislative_election&action=edit&section=3'
+                   'Opinion_polling_for_the_2021_Czech_legislative_election&action=edit&section=3',
+            'toggle_seats': True,
+            'seats': 200,
+            'divisor': 1,
+            'bar': 0,
+            'threshold': 5,
+            'method': 'quotient'
         },
         'Denmark': {
             'key': ['A', 'V', 'O', 'B', 'F', '\u00d8', 'C', '\u00c5', 'D', 'I', 'P', 'K', 'E', 'G'],
@@ -363,7 +374,13 @@ def choices_setup():
             'restart': ['http', 'election'],
             'end_date': Date(2023, 4, 30),
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_next_Finnish_parliamentary_election&action=edit&section=3'
+                   'Opinion_polling_for_the_next_Finnish_parliamentary_election&action=edit&section=3',
+            'toggle_seats': True,
+            'seats': 200,
+            'divisor': 1,
+            'bar': 0,
+            'threshold': 2,
+            'method': 'quotient'
         },
         'Germany': {
             'key': ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne'],
@@ -418,7 +435,13 @@ def choices_setup():
             'restart': ['[http', 'election'],
             'end_date': Date(2021, 9, 25),
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_next_Icelandic_parliamentary_election&action=edit&section=2'
+                   'Opinion_polling_for_the_next_Icelandic_parliamentary_election&action=edit&section=2',
+            'toggle_seats': True,
+            'divisor': 1,
+            'bar': 0,
+            'method': 'quotient',
+            'threshold': 5,
+            'seats': 63
         },
         'Ireland': {
             'key': ['SF', 'FF', 'FG', 'GP', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I'],
@@ -522,7 +545,13 @@ def choices_setup():
             'restart': ['[http', 'election'],
             'end_date': Date(2023, 10, 8),
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3'
+                   'Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3',
+            'toggle_seats': True,
+            'seats': 200,
+            'divisor': 1,
+            'bar': 0,
+            'threshold': 0,
+            'method': 'quotient'
         },
         'Slovakia': {
             'key': [
@@ -543,7 +572,13 @@ def choices_setup():
             'restart': ['Focus', 'AKO', '2020 elections'],
             'end_date': Date(2024, 2, 24),
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_next_Slovak_parliamentary_election&action=edit&section=1'
+                   'Opinion_polling_for_the_next_Slovak_parliamentary_election&action=edit&section=1',
+            'toggle_seats': True,
+            'seats': 150,
+            'divisor': 1,
+            'bar': 0,
+            'threshold': 5,
+            'method': 'quotient'
         },
         'Spain': {
             'key': ['PSOE', 'PP', 'VOX', 'UP', 'Cs', 'ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+',
