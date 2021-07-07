@@ -33,6 +33,19 @@
 |{{Hidden|6%|[[Brexit Party|Reform UK]] on 4%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%|headerstyle=font-weight:normal;line-height:9px;}}
 |style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|9%
 |-
+|[https://comresglobal.com/polls/westminster-voting-intention-6th-july-2021/ SavantaComRes]
+|N/A
+|{{opdrts|2|4|Jul|2021}}
+|UK
+|2,176
+|style="background:#BADEF5;"|'''41%'''
+|35%
+|8%
+|3%
+|4%
+|{{Hidden|9%|[[Brexit Party|Reform UK]] on 3%<br/>[[Plaid Cymru]] on 1%<br/>Other on 5%|headerstyle=font-weight:normal;line-height:9px;}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|6%
+|-
 | style="border-right-style:hidden;"|
 | style="border-right-style:hidden;"|
 | style="border-right-style:hidden;" {{opdrts||1|Jul|2021}}
@@ -64,7 +77,7 @@
 |{{Hidden|5%|[[Brexit Party|Reform UK]] on 3%<br/>[[Plaid Cymru]] on 0%<br/>Other on 2%|headerstyle=font-weight:normal;line-height:9px;}}
 |style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|7%
 |-
-|[https://comresglobal.com/polls/westminster-voting-intention-29th-june-2021/ Savanta ComRes]
+|[https://comresglobal.com/polls/westminster-voting-intention-29th-june-2021/ SavantaComRes]
 |N/A
 |{{opdrts|25|27|Jun|2021}}
 |GB
@@ -226,7 +239,7 @@
 |style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|7%
 |-
 |[https://deltapoll.co.uk/wp-content/uploads/2021/06/Deltapoll-MoS210612_vi.pdf Deltapoll]
-|''Mail on Sunday''
+|''The Mail on Sunday''
 |{{opdrts|10|12|Jun|2021}}
 |GB
 |1,608

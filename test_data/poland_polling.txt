@@ -24,10 +24,73 @@
 ! data-sort-type="number" style="height:1px; background:#122746;" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
 |-
+| [https://www.se.pl/wiadomosci/polityka/tusk-miazdzy-holownie-najnowszy-sondaz-partyjny-aa-85Ud-M79o-CQDZ.html Pollster / SE.pl]
+| data-sort-value="2021-07-07" | 6–7 Jul 2021
+| 1,049
+| style="background:#C0DBFC;" | '''35.25'''
+| 24.30
+| 6.45
+| 4.30
+| 2.60
+| 7.67
+| 18.75
+| 0.68
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.95'''
+|-
+| style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1412814122186641408 IBRiS / "Wydarzenia" Polsat]
+| rowspan="2" data-sort-value="2021-07-06" | 6 Jul 2021
+| rowspan="2" | 1,100
+| style="background:#C0DBFC;" | '''34.0'''
+| 20.0
+| 8.2
+| 5.3
+| 
+| 7.0
+| 15.5
+| 10.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.0'''
+|-
+| style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1412818492546498573 IBRiS / "Wydarzenia" Polsat]
+| style="background:#C0DBFC;" | '''29.5'''{{efn|name="pis-only"}}
+| 18.9
+| 8.2
+| 5.3
+| 
+| 7.8
+| 15.3
+| 15.0{{efn|[[United Poland]] – 0.9%, [[Agreement (political party)|Agreement]] – 1.2%, [[The Republicans (Poland)|The Republicans]] – 1.5%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10.6'''
+|-
+| style="letter-spacing: -1px;"| [https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8205066,najnowszy-sondaz-po-wyprzedza-polske-2050.html United Survey / DGP, RMF]
+| data-sort-value="2021-07-05" | 5 Jul 2021
+| 1,000
+| style="background:#C0DBFC;" | '''33.0'''
+| 18.6
+| 7.8
+| 6.0
+| 
+| 7.0
+| 16.6
+| 11.0
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''14.4'''
+|-
+| style="letter-spacing: -1px;"|  [https://wpolityce.pl/polityka/557805-sondaz-tusk-zwieksza-poparcie-dla-po-ale-holownia-walczy Social Changes / wPolityce.pl]
+| data-sort-value="2021-07-05" | 2–5 Jul 2021
+| 1,057
+| style="background:#C0DBFC;" | '''33'''
+| 21
+| 9
+| 2
+| 2
+| 8
+| 24
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''9'''
+|-
 | [https://www.rmf24.pl/polityka/news-sondaz-dla-rmf-fm-zjednoczona-prawica-na-czele-koalicja-obyw,nId,5342628#crp_state=1 Opinia24 / RMF FM]
-| data-sort-value="2021-07-02" | 2-5 Jul 2021
-| 1000
-|style="background:#C0DBFC;" | '''29'''
+| data-sort-value="2021-07-05" | 2–5 Jul 2021
+| 1,000
+| style="background:#C0DBFC;" | '''29'''
 | 23
 | 8
 | 4

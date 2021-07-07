@@ -43,6 +43,22 @@
 | 1.5
 | style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 8.4
 |-
+| [https://mmr.is/frettir/birtar-nieurstoeeur/881 MMR]
+| data-sort-value="2021-06-14"| 24 Jun–6 Jul 2021
+| 2,041
+| –
+| style="background:#C6ECFB;"| '''25.4'''
+| 11.9
+| 10.6
+| 6.6
+| 12.3
+| 12.2
+| 5.5
+| 9.1
+| 5.3
+| 1.2
+| style="background:{{Independence Party (Iceland)/meta/color}};color:#FFFFFF;"| 12.1
+|-
 |[https://mcusercontent.com/b494522e5c95c8b55040a753b/files/7bc1767c-9b95-6eaf-b5ab-1aca9bf76266/Puls_0721_Fylgi_flokka.pdf Gallup]
 |1–29 June 2021
 |8,120

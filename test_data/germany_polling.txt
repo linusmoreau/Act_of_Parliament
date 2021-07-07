@@ -23,6 +23,32 @@
 ! style="background:{{Alliance 90/The Greens/meta/color}};"|
 |-
 |[https://www.wahlrecht.de/umfragen/insa.htm INSA]
+|data-sort-value="2021-07-05"|2–5 Jul 2021
+|2,056
+|–
+|style="background:#D7D5D7;"|'''29'''
+|16.5
+|10
+|12.5
+|7
+|18
+|7
+|style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"|11
+|-
+|[https://www.wahlrecht.de/umfrage/forsa.htm Forsa]
+|data-sort-value="2021-07-07"|29 Jun–5 Jul 2021
+|2,505
+|22
+|style="background:#D7D5D7;"|'''30'''
+|15
+|10
+|11
+|7
+|19
+|8
+|style="background: {{CDU/CSU/meta/color}};color:#FFFFFF;"|11
+|-
+|[https://www.wahlrecht.de/umfragen/insa.htm INSA]
 |data-sort-value="2021-07-04"|28 Jun–2 Jul 2021
 |1,352
 |–
