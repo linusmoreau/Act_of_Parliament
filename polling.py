@@ -9,19 +9,6 @@ from bs4 import BeautifulSoup
 from data import get_riding_data
 
 
-options = ['Austria', 'Brazil', 'Bulgaria', 'Canada', 'Cyprus', 'Czechia', 'Denmark', 'Finland', 'Germany',
-           'Hungary', 'Iceland', 'Ireland', 'Italy', 'Norway', 'Peru', 'Poland', 'Portugal', 'Slovakia', 'Spain',
-           'Sweden', 'UK', 'New York']
-olddata = {
-    'Canada':   'test_data/old_canada_polling.txt',
-    'Denmark':  'test_data/old_denmark_polling.txt',
-    'Germany':  'test_data/old_germany_polling.txt',
-    'Ireland':  'test_data/old_ireland_polling.txt',
-    'Italy':    'test_data/old_italy_polling.txt',
-    'Norway':   'test_data/old_norway_polling.txt',
-    'Poland':   'test_data/old_poland_polling.txt',
-    'UK':       'test_data/old_uk_polling.txt'
-}
 tod = str(datetime.date.today())
 today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
 
@@ -261,49 +248,62 @@ def choices_setup():
             'start': 4,
             'end_date': Date(2025, 1, 1),
             'restart': ['[http', 'election'],
-            'toggle_seats': False
+            'toggle_seats': False,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
         },
         'Brazil': {
             'key': ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Haddad (PT)', 'Dino (PCdoB)', 'Gomes (PDT)', 'Boulos (PSOL)',
-               'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck'],
+                    'Doria (PSDB)', 'Amoedo (NOVO)', 'Silva (REDE)', 'Moro', 'Huck'],
             'include': ['Bolsanaro (PSL/APB)', 'Lula (PT)', 'Gomes (PDT)', 'Doria (PSDB)'],
             'col': {'Bolsanaro (PSL/APB)': (0, 140, 0), 'Lula (PT)': (204, 0, 0), 'Haddad (PT)': (204, 0, 0),
-               'Dino (PCdoB)': (163, 0, 0), 'Gomes (PDT)': (238, 100, 100), 'Boulos (PSOL)': (163, 0, 0),
-               'Doria (PSDB)': (0, 95, 164), 'Amoedo (NOVO)': (240, 118, 42), 'Silva (REDE)': (46, 139, 87),
-               'Moro': dark_grey, 'Huck': grey},
+                    'Dino (PCdoB)': (163, 0, 0), 'Gomes (PDT)': (238, 100, 100), 'Boulos (PSOL)': (163, 0, 0),
+                    'Doria (PSDB)': (0, 95, 164), 'Amoedo (NOVO)': (240, 118, 42), 'Silva (REDE)': (46, 139, 87),
+                    'Moro': dark_grey, 'Huck': grey},
             'start': 3,
             'vlines': {Date(2021, 3, 8): "Lula cleared of charges"},
-            'end_date': Date(2022, 10, 2)
+            'end_date': Date(2022, 10, 2),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2022_Brazilian_general_election&action=edit&section=3',
         },
         'Bulgaria': {
             'key': ['GERB', 'ITN', 'BSPzB', 'DPS', 'DB', 'ISMV', 'BP', 'BP', 'BP', 'Revival', 'BL', 'RB', 'LSChSR'],
             'col': {'GERB': (0, 86, 167), 'ITN': (75, 185, 222), 'BSPzB': (219, 15, 40), 'DPS': (0, 96, 170),
-               'DB': (0, 74, 128), 'ISMV': (91, 165, 70), 'BP': black, 'Revival': (192, 159, 98),
-               'BL': (243, 129, 20), 'RB': (43, 74, 153), 'LSChSR': (241, 25, 40)},
+                    'DB': (0, 74, 128), 'ISMV': (91, 165, 70), 'BP': black, 'Revival': (192, 159, 98),
+                    'BL': (243, 129, 20), 'RB': (43, 74, 153), 'LSChSR': (241, 25, 40)},
             'blocs': {'Conservative': ['GERB', 'RB'], 'Socialist': ['BSPzB', 'LSChSR'], 'DPS': ['DPS'],
-                 'Nationalist': ['BP', 'Revival', 'BL'],
-                 'Populist': ['ITN', 'DB', 'ISMV']},
+                      'Nationalist': ['BP', 'Revival', 'BL'],
+                      'Populist': ['ITN', 'DB', 'ISMV']},
             'start': 3,
             'end_date': Date(2021, 7, 11),
-            'restart': ['[http', '2021 election']
+            'restart': ['[http', '2021 election'],
+            'toggle_seats': True,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'July_2021_Bulgarian_parliamentary_election&action=edit&section=4',
+            'seats': 240,
+            'method': 'remainder',
+            'threshold': 4
         },
         'Canada': {
             'key': ['CON', 'LIB', 'NDP', 'BQ', 'GRN', 'PPC'],
             'col': {'CON': (100, 149, 237), 'LIB': (234, 109, 106), 'NDP': (244, 164, 96), 'BQ': (135, 206, 250),
-               'GRN': (153, 201, 85), 'PPC': (131, 120, 158),
-               'Government': (234, 109, 106), 'Opposition': (100, 149, 237)},
+                    'GRN': (153, 201, 85), 'PPC': (131, 120, 158),
+                    'Government': (234, 109, 106), 'Opposition': (100, 149, 237)},
             'gov': {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GRN', 'PPC']},
             'blocs': {'Progressive': ['LIB', 'NDP', 'BQ', 'GRN'], 'Conservative': ['CON', 'PPC']},
             'start': 3,
             'vlines': {Date(2019, 10, 21): "General Election"},
             'end_date': Date(2023, 10, 16),
-            'toggle_seats': True
+            'toggle_seats': True,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_44th_Canadian_federal_election&action=edit&section=1',
+            'old_data': 'test_data/old_canada_polling.txt'
         },
         'Cyprus': {
             'key': ['DISY', 'AKEL', 'DIKO', 'EDEK-SYPOL', 'KA', 'KOSP', 'ELAM', 'DIPA', 'Anex'],
             'col': {'DISY': (21, 105, 199), 'AKEL': (179, 27, 27), 'DIKO': (255, 126, 0), 'EDEK-SYPOL': (22, 79, 70),
-               'KA': (0, 75, 145), 'KOSP': (127, 255, 0), 'ELAM': (0, 0, 0), 'DIPA': (255, 126, 0),
-               'Anex': (68, 36, 100)},
+                    'KA': (0, 75, 145), 'KOSP': (127, 255, 0), 'ELAM': (0, 0, 0), 'DIPA': (255, 126, 0),
+                    'Anex': (68, 36, 100)},
             'date': 0,
             'start': 1,
             'end_date': Date(2021, 5, 30)
@@ -318,32 +318,44 @@ def choices_setup():
             'gov': {'Government': ['ANO', 'KSCM', 'CSSD'],
                     'Opposition': ['SPOLU', 'Pirati+STAN', 'SPD', 'T-S', 'Z', 'P']},
             'start': 26,
-            'end_date': Date(2021, 10, 9)
+            'end_date': Date(2021, 10, 9),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2021_Czech_legislative_election&action=edit&section=3'
         },
         'Denmark': {
             'key': ['A', 'V', 'O', 'B', 'F', '\u00d8', 'C', '\u00c5', 'D', 'I', 'P', 'K', 'E', 'G'],
             'col': {'A': (240, 77, 70), 'V': (0, 40, 131), 'O': (252, 208, 59), 'B': (229, 0, 125), 'F': (191, 3, 26),
-               '\u00d8': (208, 0, 77), 'C': (0, 73, 49), '\u00c5': (0, 255, 0), 'D': (0, 80, 91),
-               'I': (63, 178, 190),
-               'P': (1, 152, 225), 'K': (255, 165, 0), 'E': (0, 66, 36), 'G': (128, 165, 26),
-               'Red': (240, 77, 70), 'Blue': (0, 40, 131)},
+                    '\u00d8': (208, 0, 77), 'C': (0, 73, 49), '\u00c5': (0, 255, 0), 'D': (0, 80, 91),
+                    'I': (63, 178, 190),
+                    'P': (1, 152, 225), 'K': (255, 165, 0), 'E': (0, 66, 36), 'G': (128, 165, 26),
+                    'Red': (240, 77, 70), 'Blue': (0, 40, 131)},
             'blocs': {'Red': ['A', 'B', 'F', '\u00d8', '\u00c5', 'G'],
                       'Blue': ['V', 'O', 'C', 'D', 'I', 'P', 'K', 'E']},
             'start': 3,
             'restart': ['[http', 'election'],
             'end_date': Date(2023, 6, 4),
-            'toggle_seats': True
+            'toggle_seats': True,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Danish_general_election&action=edit&section=3',
+            'seats': 175,
+            'divisor': 2,
+            'bar': 0,
+            'threshold': 2,
+            'method': 'quotient',
+            'old_data': 'test_data/old_denmark_polling.txt'
         },
         'Finland': {
             'key': ['SDP', 'PS', 'KOK', 'KESK', 'VIHR', 'VAS', 'SFP', 'KD', 'LIIK'],
             'col': {'SDP': (245, 75, 75), 'PS': (255, 222, 85), 'KOK': (0, 98, 136), 'KESK': (52, 154, 43),
-               'VIHR': (97, 191, 26), 'VAS': (240, 10, 100), 'SFP': (255, 221, 147), 'KD': (2, 53, 164),
-               'LIIK': (180, 31, 121),
-               'Government': (245, 75, 75), 'Opposition': (255, 222, 85)},
+                    'VIHR': (97, 191, 26), 'VAS': (240, 10, 100), 'SFP': (255, 221, 147), 'KD': (2, 53, 164),
+                    'LIIK': (180, 31, 121),
+                    'Government': (245, 75, 75), 'Opposition': (255, 222, 85)},
             'gov': {'Government': ['SDP', 'KESK', 'VIHR', 'VAS', 'SFP'], 'Opposition': ['KOK', 'PS', 'KD', 'LIIK']},
             'start': 3,
             'restart': ['http', 'election'],
-            'end_date': Date(2023, 4, 30)
+            'end_date': Date(2023, 4, 30),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Finnish_parliamentary_election&action=edit&section=3'
         },
         'Germany': {
             'key': ['CDU/CSU', 'SPD', 'AfD', 'FDP', 'Linke', 'Gr\u00fcne'],
@@ -363,65 +375,82 @@ def choices_setup():
             'start': 4,
             'end_date': Date(2021, 9, 26),
             'restart': ['[http', 'election'],
-            'toggle_seats': True
+            'toggle_seats': True,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2021_German_federal_election&action=edit&section=3',
+            'seats': 175,
+            'divisor': 2,
+            'bar': 0,
+            'threshold': 2,
+            'method': 'quotient',
+            'old_data': 'test_data/old_germany_polling.txt'
         },
         'Hungary': {
             'key': ['Fidesz', 'Jobbik', 'MSZP', 'Dialogue', 'DK', 'LMP', 'MM', 'MKKP', 'MHM'],
             'col': {'Fidesz': (255, 106, 0), 'Jobbik': (0, 131, 113), 'MSZP': (204, 0, 0), 'Dialogue': (60, 179, 77),
-               'DK': (0, 103, 170), 'LMP': (54, 202, 139), 'MM': (142, 111, 206), 'MKKP': (128, 128, 128),
-               'MHM': (86, 130, 3),
-               'United Opposition': (32, 178, 170)},
+                    'DK': (0, 103, 170), 'LMP': (54, 202, 139), 'MM': (142, 111, 206), 'MKKP': (128, 128, 128),
+                    'MHM': (86, 130, 3),
+                    'United Opposition': (32, 178, 170)},
             'blocs': {'Fidesz': ['Fidesz'], 'United Opposition': ['Jobbik', 'MSZP', 'Dialogue', 'DK', 'LMP', 'MM']},
             'date': 0,
             'start': 2,
-            'end_date': Date(2022, 4, 8)
+            'end_date': Date(2022, 4, 8),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2022_Hungarian_parliamentary_election&action=edit&section=4'
         },
         'Iceland': {
             'key': ['D', 'V', 'S', 'M', 'B', 'P', 'F', 'C', 'J'],
             'col': {'D': (0, 173, 239), 'V': (0, 184, 120), 'S': (234, 0, 56), 'M': (0, 33, 105), 'B': (160, 208, 103),
-               'P': (137, 110, 189), 'F': (255, 202, 62), 'C': (255, 125, 20), 'J': (239, 72, 57),
-               'Government': (0, 184, 120), 'Opposition': (234, 0, 56),
-               'Socialist': (234, 0, 56), 'Liberal': (160, 208, 103), 'Conservative': (0, 173, 239)},
+                    'P': (137, 110, 189), 'F': (255, 202, 62), 'C': (255, 125, 20), 'J': (239, 72, 57),
+                    'Government': (0, 184, 120), 'Opposition': (234, 0, 56),
+                    'Socialist': (234, 0, 56), 'Liberal': (160, 208, 103), 'Conservative': (0, 173, 239)},
             'blocs': {'Socialist': ['V', 'S', 'J'], 'Liberal': ['B', 'M', 'C', 'P'], 'Conservative': ['D', 'F']},
             'gov': {'Government': ['V', 'B', 'D'], 'Opposition': ['S', 'M', 'P', 'F', 'C', 'J']},
             'start': 4,
             'restart': ['[http', 'election'],
-            'end_date': Date(2021, 9, 25)
+            'end_date': Date(2021, 9, 25),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Icelandic_parliamentary_election&action=edit&section=2'
         },
         'Ireland': {
             'key': ['SF', 'FF', 'FG', 'GP', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I'],
             'col': {'SF': (50, 103, 96), 'FF': (102, 187, 102), 'FG': (102, 153, 255), 'GP': (34, 172, 111),
-               'Lab': (204, 0, 0), 'SD': (117, 47, 139), 'PBP/S': (142, 36, 32), 'Aon': (68, 83, 42), 'O/I': grey},
+                    'Lab': (204, 0, 0), 'SD': (117, 47, 139), 'PBP/S': (142, 36, 32), 'Aon': (68, 83, 42), 'O/I': grey},
             'blocs': {'Broad Left': ['SF', 'GP', 'Lab', 'SD', 'PBP/S'], 'Old Guard': ['FF', 'FG']},
             'gov': {'Government': ['FF', 'FG', 'GP'], 'Opposition': ['SF', 'Lab', 'SD', 'PBP/S', 'Aon', 'O/I']},
             'date': 0,
             'start': 2,
             'restart': ['Cite web', 'cite web', 'General election', 'cite news', 'Cite news'],
             'vlines': {Date(2020, 2, 8): 'General Election'},
-            'end_date': Date(2025, 2, 20)
+            'end_date': Date(2025, 2, 20),
+            'old_data': 'test_data/old_ireland_polling.txt',
+            'url': 'https://en.wikipedia.org/w/index.php?title=Next_Irish_general_election&action=edit&section=3'
         },
         'Italy': {
             'key': ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV', 'CI'],
             'col': {'M5S': (255, 235, 59), 'PD': (239, 28, 39), 'Lega': (0, 128, 0), 'FI': (0, 135, 220),
-               'FdI': (3, 56, 106), 'LeU': (199, 40, 55), '+Eu': (255, 215, 0), 'EV': (115, 193, 112),
-               'C!': (229, 131, 33), 'A': (0, 57, 170), 'IV': (214, 65, 140), 'NcI': (31, 107, 184),
-               'PaP': (160, 20, 46), 'Art.1': (210, 27, 48), 'SI': (239, 62, 62), 'CI': (49, 39, 131),
-               'Left': (239, 28, 39), 'Right': (0, 128, 0),
-               'Government': (255, 235, 59), 'Opposition': (3, 56, 106)},
+                    'FdI': (3, 56, 106), 'LeU': (199, 40, 55), '+Eu': (255, 215, 0), 'EV': (115, 193, 112),
+                    'C!': (229, 131, 33), 'A': (0, 57, 170), 'IV': (214, 65, 140), 'NcI': (31, 107, 184),
+                    'PaP': (160, 20, 46), 'Art.1': (210, 27, 48), 'SI': (239, 62, 62), 'CI': (49, 39, 131),
+                    'Left': (239, 28, 39), 'Right': (0, 128, 0),
+                    'Government': (255, 235, 59), 'Opposition': (3, 56, 106)},
             'blocs': {'Left': ['PD', '+Eu', 'EV', 'LeU', 'IV', 'A', 'M5S', 'PaP', 'Art.1', 'SI'],
-                 'Right': ['Lega', 'FI', 'FdI', 'C!', 'NcI', 'CI']},
+                      'Right': ['Lega', 'FI', 'FdI', 'C!', 'NcI', 'CI']},
             'gov': {'Government': ['M5S', 'Lega', 'PD', 'FI', 'LeU', 'IV', 'Art.1'],
-               'Opposition': ['FdI', '+Eu', 'C!', 'A', 'SI', 'CI']},
+                    'Opposition': ['FdI', '+Eu', 'C!', 'A', 'SI', 'CI']},
             'date': 0,
             'start': 2,
-            'end_date': Date(2023, 6, 1)
+            'end_date': Date(2023, 6, 1),
+            'old_data': 'test_data/old_italy_polling.txt',
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Italian_general_election&action=edit&section=3'
         },
         'New York': {
             'key': ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
-               'Scott Stringer', 'Maya Wiley', 'Andrew Yang'],
+                    'Scott Stringer', 'Maya Wiley', 'Andrew Yang'],
             'col': {'Eric Adams': (0, 0, 255), 'Shaun Donovan': (102, 0, 102), 'Kathryn Garcia': (255, 128, 0),
-               'Raymond McGuire': (0, 102, 0), 'Dianne Morales': (255, 153, 255),
-               'Scott Stringer': (120, 120, 255), 'Maya Wiley': red, 'Andrew Yang': yellow},
+                    'Raymond McGuire': (0, 102, 0), 'Dianne Morales': (255, 153, 255),
+                    'Scott Stringer': (120, 120, 255), 'Maya Wiley': red, 'Andrew Yang': yellow},
             'file_name': 'test_data/new_york_city_polling.txt',
             'start': 4,
             'end_date': Date(2021, 6, 22)
@@ -429,14 +458,22 @@ def choices_setup():
         'Norway': {
             'key': ['R', 'SV', 'MDG', 'Ap', 'Sp', 'V', 'KrF', 'H', 'FrP'],
             'col': {'R': (231, 52, 69), 'SV': (188, 33, 73), 'MDG': (106, 147, 37), 'Ap': (227, 24, 54),
-               'Sp': (0, 133, 66),
-               'V': (17, 100, 104), 'KrF': (254, 193, 30), 'H': (135, 173, 215), 'FrP': (2, 76, 147),
-               'Red-Green': (227, 24, 54), 'Blue': (135, 173, 215)},
-            'blocs': {'Red-Green': ['R', 'SV', 'Ap', 'Sp'], 'Blue': ['V', 'KrF', 'H', 'FrP']},
+                    'Sp': (0, 133, 66),
+                    'V': (17, 100, 104), 'KrF': (254, 193, 30), 'H': (135, 173, 215), 'FrP': (2, 76, 147),
+                    'Red-Green': (227, 24, 54), 'Blue': (135, 173, 215)},
+            'blocs': {'Red-Green': ['R', 'SV', 'Ap', 'Sp'], 'Blue': ['V', 'KrF', 'H', 'FrP'], 'Green': ['MDG']},
             'start': 4,
             'restart': ['[http', 'election'],
             'end_date': Date(2021, 9, 13),
-            'toggle_seats': True
+            'toggle_seats': True,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2021_Norwegian_parliamentary_election&action=edit&section=3',
+            'seats': 169,
+            'divisor': 2,
+            'bar': 0.4,
+            'threshold': 4,
+            'method': 'quotient',
+            'old_data': 'test_data/old_norway_polling.txt'
         },
         'Peru': {
             'key': ['Castillo', 'Fujimori'],
@@ -461,18 +498,23 @@ def choices_setup():
                       'Misc. Right': ['Kukiz\'15', 'Confederation']},
             'start': 3,
             'restart': ['[http', 'election'],
-            'end_date': Date(2023, 11, 11)
+            'end_date': Date(2023, 11, 11),
+            'old_data': 'test_data/old_poland_polling.txt',
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Polish_parliamentary_election&action=edit&section=3'
         },
         'Portugal': {
             'key': ['PS', 'PSD', 'BE', 'CDU', 'CDS-PP', 'PAN', 'Chega', 'IL', 'LIVRE'],
             'col': {'PS': (255, 102, 255), 'PSD': (255, 153, 0), 'BE': (139, 0, 0), 'CDU': (255, 0, 0),
-               'CDS-PP': (0, 147, 221),
-               'PAN': (0, 128, 128), 'Chega': (32, 32, 86), 'IL': (0, 173, 239), 'LIVRE': (143, 188, 143),
-               'Left': (255, 102, 255), 'Right': (255, 153, 0)},
+                    'CDS-PP': (0, 147, 221),
+                    'PAN': (0, 128, 128), 'Chega': (32, 32, 86), 'IL': (0, 173, 239), 'LIVRE': (143, 188, 143),
+                    'Left': (255, 102, 255), 'Right': (255, 153, 0)},
             'blocs': {'Left': ['PS', 'BE', 'CDU', 'PAN', 'LIVRE'], 'Right': ['PSD', 'CDS-PP', 'Chega', 'IL']},
             'start': 4,
             'restart': ['[http', 'election'],
-            'end_date': Date(2023, 10, 8)
+            'end_date': Date(2023, 10, 8),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3'
         },
         'Slovakia': {
             'key': [
@@ -491,7 +533,9 @@ def choices_setup():
             'date': 0,
             'start': 2,
             'restart': ['Focus', 'AKO', '2020 elections'],
-            'end_date': Date(2024, 2, 24)
+            'end_date': Date(2024, 2, 24),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Slovak_parliamentary_election&action=edit&section=1'
         },
         'Spain': {
             'key': ['PSOE', 'PP', 'VOX', 'UP', 'Cs', 'ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+',
@@ -509,32 +553,44 @@ def choices_setup():
             'restart': ['http', 'Spanish general election'],
             'start': 4,
             'end_date': Date(2023, 12, 10),
-            'vlines': {Date(2021, 5, 4): 'Madrilenian', Date(2021, 2, 14): 'Catalan'}
+            'vlines': {Date(2021, 5, 4): 'Madrilenian', Date(2021, 2, 14): 'Catalan'},
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Spanish_general_election&action=edit&section=4'
         },
         'Sweden': {
             'key': ['V', 'S', 'MP', 'C', 'L', 'M', 'KD', 'SD'],
             'col': {'V': (176, 0, 0), 'S': (237, 27, 52), 'MP': (43, 145, 44), 'C': (1, 106, 57), 'L': (0, 106, 179),
-               'M': (1, 156, 219), 'KD': (0, 70, 120), 'SD': (254, 223, 9),
-               'Red-Green': (237, 27, 52), 'Alliance': (245, 137, 28),
-               'Government': (237, 27, 52), 'Opposition': (245, 137, 28)},
+                    'M': (1, 156, 219), 'KD': (0, 70, 120), 'SD': (254, 223, 9),
+                    'Red-Green': (237, 27, 52), 'Alliance': (245, 137, 28),
+                    'Government': (237, 27, 52), 'Opposition': (245, 137, 28)},
             'blocs': {'Red-Green': ['S', 'V', 'MP'], 'Alliance': ['C', 'L', 'M', 'KD'], 'Right': ['M', 'L', 'KD', 'SD'],
-                 'Left': ['C', 'S', 'V', 'MP']},
+                      'Left': ['C', 'S', 'V', 'MP']},
             'gov': {'Government': ['S', 'MP', 'V', 'C', 'L'], 'Opposition': ['M', 'KD', 'SD']},
             'start': 3,
             'restart': ['http', '2018 election'],
             'end_date': Date(2022, 9, 11),
-            'toggle_seats': True
+            'toggle_seats': True,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
+            'seats': 349,
+            'divisor': 2,
+            'bar': 0.2,
+            'threshold': 4,
+            'method': 'quotient'
         },
         'UK': {
             'key': ['Conservative', 'Labour', 'Lib Dem', 'SNP', 'Green'],
             'col': {'Conservative': (0, 135, 220), 'Labour': (228, 0, 59), 'Lib Dem': (250, 166, 26),
-               'SNP': (253, 243, 142), 'Green': (106, 176, 35)},
+                    'SNP': (253, 243, 142), 'Green': (106, 176, 35)},
             'date': 2,
             'start': 5,
             'vlines': {Date(2020, 4, 4): 'Starmer becomes Labour leader',
-                  Date(2021, 5, 6): 'Local elections'},
+                       Date(2021, 5, 6): 'Local elections'},
             'restart': ['[http', '2019 general election'],
-            'end_date': Date(2024, 5, 2)
+            'end_date': Date(2024, 5, 2),
+            'old_data': 'test_data/old_uk_polling.txt',
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_United_Kingdom_general_election&action=edit&section=3'
         }
     }
     for c, d in choices.items():
@@ -590,13 +646,13 @@ def filter_nils(dat, view):
     if dat is not None:
         for line, vals in dat.items():
             for x, ys in vals.items():
-                dat[line][x] = list(filter(lambda x: x is not None and (x != 0 or view == 'parties'), ys))
+                dat[line][x] = list(filter(lambda x: x is not None, ys))
     return dat
 
 
 class GraphPage:
     spread = 60
-    high_res = 5 / 2
+    high_res = 3
     low_res = 21
 
     def __init__(self, choice, view='parties', metric='percentage', to_end_date=False):
@@ -748,8 +804,8 @@ class GraphPage:
     def init_dat(self):
         with open(self.file_name, 'r', encoding='utf-8') as f:
             content = f.readlines()
-        if self.choice in olddata:
-            with open(olddata[self.choice], 'r', encoding='utf-8') as f:
+        if 'old_data' in choices[self.choice]:
+            with open(choices[self.choice]['old_data'], 'r', encoding='utf-8') as f:
                 content.extend(f.readlines())
         return read_data(content, self.key, self.start, self.restart, self.date, self.choice, self.include)
 
@@ -778,7 +834,7 @@ class GraphPage:
                             ridat[k] = p
                         p = ridat[max(ridat)]
                         seats_dat[p][x][i] += 1
-        elif self.choice in ['Sweden', 'Norway', 'Denmark', 'Germany']:
+        elif choices[self.choice]['toggle_seats']:
             seats_dat = {p: {} for p in self.dat}
             for x in xs:
                 n = max([len(self.dat[p][x]) if x in self.dat[p] else 0 for p in self.dat])
@@ -787,35 +843,19 @@ class GraphPage:
                         seats_dat[p][x] = [0 for _ in range(n)]
                 for i in range(n):
                     shares = {}
-                    if self.choice == 'Sweden':
-                        seats = 349
-                        divisor = 2
-                        bar = 0.2
-                        threshold = 4
-                    elif self.choice == 'Denmark':
-                        seats = 175
-                        divisor = 2
-                        bar = 0
-                        threshold = 2
-                    elif self.choice == 'Germany':
-                        seats = 598
-                        divisor = 2
-                        bar = 0
-                        threshold = 5
-                    else:
-                        seats = 169
-                        divisor = 2
-                        bar = 0.4
-                        threshold = 4
+                    inf = choices[self.choice]
                     for p in self.dat:
                         if p in self.dat and x in self.dat[p] and len(self.dat[p][x]) > i and \
-                                self.dat[p][x][i] >= threshold:
+                                self.dat[p][x][i] >= inf['threshold']:
                             shares[p] = self.dat[p][x][i]
                         elif x not in seats_dat[p]:
                             continue
                         else:
                             shares[p] = 0
-                    seatdist = highest_quotient_method(shares, seats, divisor, bar)
+                    if inf['method'] == 'quotient':
+                        seatdist = highest_averages_method(shares, inf['seats'], inf['divisor'], inf['bar'])
+                    else:
+                        seatdist = largest_remainder_method(shares, inf['seats'])
                     for p in seatdist:
                         if x in seats_dat[p]:
                             seats_dat[p][x][i] = seatdist[p]
@@ -854,12 +894,12 @@ class GraphPage:
             if self.blocs is None:
                 return None
             else:
-                relev = self.blocs
+                relev: Dict = self.blocs
         else:
             if self.gov is None:
                 return None
             else:
-                relev = self.gov
+                relev: Dict = self.gov
         dat = {}
         for b, ps in relev.items():
             dat[b] = {}
@@ -868,10 +908,12 @@ class GraphPage:
                     if x in dat[b].keys():
                         for i, y in enumerate(ys):
                             if y is None:
-                                count = 0
+                                continue
                             else:
-                                count = y
-                            dat[b][x][i] += count
+                                try:
+                                    dat[b][x][i] += y
+                                except IndexError:
+                                    dat[b][x].append(y)
                     else:
                         dat[b][x] = list(map(lambda y: 0 if y is None else y, ys))
         return dat
@@ -1008,7 +1050,7 @@ class GraphPage:
 
 class MenuPage:
 
-    def __init__(self):
+    def __init__(self, options):
         button_size = 64
         self.display = ScrollButtonDisplay(screen_center, (300, screen_height * 4 / 5), button_size * len(options),
                                            CENTER, button_size=button_size)
@@ -1058,54 +1100,13 @@ def update_data(sel="All"):
         with open(dest, 'wb') as f:
             f.write(final)
 
-    urls = {
-        'Austria':  'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Austrian_legislative_election&action=edit&section=3',
-        'Brazil':   'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_2022_Brazilian_general_election&action=edit&section=3',
-        'Bulgaria': 'https://en.wikipedia.org/w/index.php?title='
-                    'July_2021_Bulgarian_parliamentary_election&action=edit&section=4',
-        'Canada':   'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_44th_Canadian_federal_election&action=edit&section=1',
-        'Czechia':  'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_2021_Czech_legislative_election&action=edit&section=3',
-        'Denmark':  'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Danish_general_election&action=edit&section=3',
-        'Germany':  'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_2021_German_federal_election&action=edit&section=3',
-        'Hungary':  'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_2022_Hungarian_parliamentary_election&action=edit&section=4',
-        'Iceland':  'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Icelandic_parliamentary_election&action=edit&section=2',
-        'Ireland':  'https://en.wikipedia.org/w/index.php?title=Next_Irish_general_election&action=edit&section=3',
-        'Italy':    'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Italian_general_election&action=edit&section=3',
-        'Norway':   'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_2021_Norwegian_parliamentary_election&action=edit&section=3',
-        'Poland':   'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Polish_parliamentary_election&action=edit&section=3',
-        'Portugal': 'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Portuguese_legislative_election&action=edit&section=3',
-        'Slovakia': 'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Slovak_parliamentary_election&action=edit&section=1',
-        'Spain':    'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_Spanish_general_election&action=edit&section=4',
-        'Sweden':   'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
-        'UK':       'https://en.wikipedia.org/w/index.php?title='
-                    'Opinion_polling_for_the_next_United_Kingdom_general_election&action=edit&section=3'
-    }
-    files = {
-        'New York': 'test_data/new_york_city_polling.txt'
-    }
     if sel == 'All':
-        for tag, url in urls.items():
-            if tag in files:
-                dest = files[tag]
-            else:
-                dest = 'test_data/' + tag.lower() + '_polling.txt'
-            thread = threading.Thread(target=update_dat, args=(dest, url, tag))
-            thread.start()
+        for tag in choices:
+            if 'url' in choices[tag]:
+                url = choices[tag]['url']
+                dest = choices[tag]['file_name']
+                thread = threading.Thread(target=update_dat, args=(dest, url, tag))
+                thread.start()
 
 
 def process_riding_data(dat):
@@ -1130,8 +1131,30 @@ def process_riding_data(dat):
     return total_share, all_shares, rel_votes
 
 
+def sort_choices(choices):
+    def sorter(c):
+        return choices[c]['end_date'].numerate()
+
+    order = []
+    prevs = []
+    nones = []
+    for c in choices:
+        if choices[c]['end_date'] is None:
+            nones.append(c)
+        else:
+            num = sorter(c)
+            if num < today.numerate():
+                prevs.append(c)
+            else:
+                order.append(c)
+    order.sort(key=sorter)
+    prevs.sort(key=sorter, reverse=True)
+    nones.sort()
+    return order + prevs + nones
+
+
 if __name__ == '__main__':
     choices = choices_setup()
     lock = threading.Lock()
-    menu_page = MenuPage()
+    menu_page = MenuPage(sort_choices(choices))
     game_loop(lock)
