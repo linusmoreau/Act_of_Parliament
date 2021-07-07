@@ -378,10 +378,10 @@ def choices_setup():
             'toggle_seats': True,
             'url': 'https://en.wikipedia.org/w/index.php?title='
                    'Opinion_polling_for_the_2021_German_federal_election&action=edit&section=3',
-            'seats': 175,
+            'seats': 598,
             'divisor': 2,
             'bar': 0,
-            'threshold': 2,
+            'threshold': 5,
             'method': 'quotient',
             'old_data': 'test_data/old_germany_polling.txt'
         },
