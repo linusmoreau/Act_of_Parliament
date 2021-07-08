@@ -254,7 +254,7 @@ def choices_setup():
             'gov': {'Government': ['ÖVP', 'Gr\u00fcne'], 'Opposition': ['SPÖ', 'FPÖ', 'NEOS']},
             'blocs': {'Progressive': ['SPÖ', 'Gr\u00fcne', 'NEOS'], 'Conservative': ['ÖVP', 'FPÖ']},
             'start': 4,
-            'end_date': Date(2025, 1, 1),
+            'end_date': Date(2024, 9, 29),
             'restart': ['[http', 'election'],
             'toggle_seats': True,
             'url': 'https://en.wikipedia.org/w/index.php?title='
