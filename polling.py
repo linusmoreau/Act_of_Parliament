@@ -1109,9 +1109,17 @@ class MenuPage:
                 b.components.append(img)
             except FileNotFoundError:
                 pass
-            label = Text(entry.upper(), (b.rect.centerx + b.rect.w / 16, b.rect.centery), 24, align=RIGHT,
+            label = Text(entry.upper(), (b.rect.centerx + b.rect.w / 16, b.rect.centery + b.rect.h / 12), 24,
+                         align=BOTTOMRIGHT,
                          background_colour=self.display.colour)
             b.components.append(label)
+            txt = None
+            if 'end_date' in choices[entry]:
+                txt = str(choices[entry]['end_date'])
+            if txt is None:
+                txt = 'TBD'
+            date = Text(txt, label.rect.bottomright, align=TOPRIGHT, background_colour=self.display.colour)
+            b.components.append(date)
             buttons.append(b)
         self.display.add_select_buttons(buttons)
 
