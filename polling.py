@@ -870,7 +870,16 @@ class GraphPage:
                         ridat = {}
                         for p in ridata:
                             if p in self.dat and x in self.dat[p] and len(self.dat[p][x]) > i:
-                                k = ridata[p] + (self.dat[p][x][i] / 100 - total_share[p]) / rel_votes[p]
+                                # option A (apply swing proportionally to existing support)
+                                new = self.dat[p][x][i] / 100
+                                old = total_share[p]
+                                ratio = new / old
+                                a = ridata[p] * ratio
+                                # option B (apply the set percentage swing to every district equally)
+                                b = ridata[p] + (self.dat[p][x][i] / 100 - total_share[p]) / rel_votes[p]
+                                # option C (use the average of the two)
+                                c = (a + b) / 2
+                                k = c
                             elif x not in seats_dat[p]:
                                 continue
                             else:
