@@ -833,9 +833,10 @@ class GraphPage:
         pinboard2.select_buttons = []
         timescales = [1, 2, 5, 10, -1]
         for i, s in enumerate(timescales):
-            b = SelectButton((screen_width - (9 + 3/2 * i) * unit_size, height * 2 / 3),
-                             (unit_size, unit_size), label='MAX' if s == -1 else str(s),
-                             align=CENTER, parent=pinboard2, deselectable=False, exclusive=True)
+            b = SelectButton((screen_width - (9 + i) * unit_size, height * 2 / 3),
+                             (unit_size * 2 / 3, unit_size * 2 / 3), label='MAX' if s == -1 else str(s),
+                             align=CENTER, parent=pinboard2, deselectable=False, exclusive=True,
+                             label_size=int(BASE_FONT_SIZE * 3 / 4) if s == -1 else BASE_FONT_SIZE)
             b.callback(functools.partial(self.change_minx, s))
             if s == -1:
                 b.select()
