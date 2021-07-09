@@ -28,6 +28,23 @@
 ! data-sort-type="number" style="background:{{Christian Democrats (Finland)/meta/color}};" |
 ! data-sort-type="number" style="background:{{Movement Now/meta/color}};" |
 |-
+| Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-12011522|title=Ylen eduskuntavaalimittaus: kokoomus ja SDP kärjessä, perussuomalaiset kolmosena – kuntavaalit piristivät hieman keskustaa|first=Jyrki|last=Hara|website=Yle Uutiset|language=fi|access-date=8 July 2021|date=8 July 2021}}</ref>
+| data-sort-value="2021-07-06"| 14 Jun 2020–6 Jul 2021
+| 2,634
+| 19.6
+| 17.8
+| style="background:#D9E9F4"|'''19.8'''
+| 13.5
+| 10.4
+| 8.0
+| 4.5
+| 3.3
+| 1.9
+| 1.2
+| style="background:{{National Coalition Party/meta/color}};color:#FFFFFF;" data-sort-value="-0.2"| 0.2
+| {{#expr:19.6+13.5+10.4+8.0+4.5}}
+| {{#expr:17.8+19.8+3.3+1.9}}
+|-
 | Kantar TNS<ref>{{Cite web|url=https://www.hs.fi/politiikka/art-2000007975313.html|title=Perussuomalaiset yhä suosituin puolue: ”Lähtökohdat kuntavaalimenestykselle ovat ehkä puolueen historian parhaat”|first=Marjukka|last=Liiten|website=Helsingin Sanomat |date=14 May 2021|access-date=17 May 2021}}</ref>
 | data-sort-value="2021-5-7"| 12 Apr–7 May 2021
 | 2,456

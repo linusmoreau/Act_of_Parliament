@@ -5,7 +5,7 @@
 ! style="width:120px;" rowspan="2"|Fieldwork date
 ! style="width:120px;" rowspan="2"|Polling firm
 ! style="width:60px;" rowspan="2"|Sample<br/>size
-! style="width:65px;"| [[File:Fidesz_2015.svg|27px|link=Fidesz]] [[File:KDNP.png|17px|link=Christian Democratic People's Party (Hungary)|KDNP]]
+! style="width:65px;"| [[File:Fidesz_2015.svg|27px|link=Fidesz]] 
 ! style="width:35px;"| [[File:Jobbik logo with text.svg|55px|link=Jobbik]]
 ! style="width:35px;"| [[File:Flag_of_the_Hungarian_Socialist_Party.svg|35px|link=MSZP]]
 ! style="width:35px;"| [[File:Logo_of_the_Dialogue_for_Hungary.svg|30px|link=Dialogue for Hungary|P]]

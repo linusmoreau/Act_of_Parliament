@@ -29,7 +29,11 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|July 4, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/Legers-North-American-Tracker-July-5th-2021.pdf PDF] || 30 || {{Party shading/Liberal}}|'''33''' || 19 || 7 || 5 || 4 || 2 || ±2.52 pp || 1,518 || online || {{Party shading/Liberal}}|'''3'''
 |-
+| [[Nanos Research]] || {{dts|July 2, 2021}} || [https://www.ctvnews.ca/politics/economy-not-the-pandemic-top-influencing-issue-for-canadian-voters-nanos-survey-1.5500607 HTML] || 23.6 || {{Party shading/Liberal}}|'''38.1''' || 20.4 || 5.1 || 7.5 || 4.3 || {{n/a}} || ±3.0 pp || 1,005 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''14.5'''
+|-
 | [[Abacus Data]] || {{dts|June 30, 2021}} || [https://abacusdata.ca/2021-liberals-ahead-conservatives-low/ HTML] || 25 || {{Party shading/Liberal}}|'''37''' || 20 || 7 || 6 || 3 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''12'''
+|-
+| [[Nanos Research]] || {{dts|June 25, 2021}} || [https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 24.7 || {{Party shading/Liberal}}|'''37.1''' || 19.3 || 5.8 || 7.3 || 4.1 || {{n/a}} || ±3.0 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.4'''
 |-
 | [[Ipsos]] || {{dts|June 22, 2021}} || [https://www.ipsos.com/en-ca/news-polls/Liberals-Support-Plateaus-Back-Vaccination-Programme HTML] || 26 || {{Party shading/Liberal}}|'''38''' || 20 || 8 || 7 || 1 || 1 || ±2.9 pp || 1,501 || online/telephone || {{Party shading/Liberal}}|'''12'''
 |-
@@ -37,7 +41,7 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|June 20, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Legers-North-American-Tracker-June-21st-2021.pdf PDF] || 30 || {{Party shading/Liberal}}|'''34''' || 20 || 8 || 5 || {{n/a}} || 4 || ±2.49 pp || 1,542 || online || {{Party shading/Liberal}}|'''4'''
 |-
-| [[Nanos Research]] || {{dts|June 18, 2021}} || [https://nationalpost.com/opinion/john-ivison-with-conservatives-down-in-the-polls-erin-otoole-faced-with-a-brave-choice/ HTML] || 25.3 || {{Party shading/Liberal}}|'''37.4''' || 18.0 ||  {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.1'''
+| [[Nanos Research]] || {{dts|June 18, 2021}} || [https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 25.4 || {{Party shading/Liberal}}|'''37.4''' || 18.2 ||  7.0 || 6.5 || 4.2 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.0'''
 |-
 | [[Abacus Data]] || {{dts|June 16, 2021}} || [https://abacusdata.ca/liberals-lead-by-5-ndp-gaining/ HTML] || 29 || {{Party shading/Liberal}}|'''34''' || 21 || 8 || 6 || 1 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''5'''
 |-

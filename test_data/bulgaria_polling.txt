@@ -6,7 +6,7 @@
 ! rowspan="3"| Polling firm
 ! rowspan="3"| Fieldwork date
 ! rowspan="3"| Sample<br>size
-! rowspan="2" class="unsortable" style="width:50px;"| [[GERB]]<br>[[Union of Democratic Forces (Bulgaria)|SDS]]
+! rowspan="2" class="unsortable" style="width:50px;"| [[GERB]]–[[Union of Democratic Forces (Bulgaria)|SDS]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[There Is Such a People|ITN]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[BSP for Bulgaria|BSPzB]]
 ! rowspan="2" class="unsortable" style="width:50px;"| [[Movement for Rights and Freedoms|DPS]]
@@ -38,8 +38,127 @@
 ! class="unsortable" style="background:{{Republicans for Bulgaria/meta/color}}"|
 ! class="unsortable" style="background:{{Left Union for a Clean and Holy Republic/meta/color}}"|
 |-
+|[https://alpharesearch.bg/post/981-elektoralni-naglasi-na-finala-na-predizbornata-kampania.html Alpha Research]
+| data-sort-value="2021-07-07"|4–7 July 2021
+|1013
+|21.5%
+| style="background:#CCE6FF"| '''21.8%'''
+|16.4%
+|11.1%
+|12%
+|5.4%
+| colspan="3" |3.8%
+|3.2%
+|1.2%
+| -
+|0.5%
+|3.1%
+| style="background:{{There_Are_Such_People/meta/color}}; color:white;"| 0.3%
+|-
+|[https://rctrend.bg/project/%d0%bd%d0%b0%d0%b3%d0%bb%d0%b0%d1%81%d0%b8-%d0%bd%d0%b0-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%82%d0%b5-%d1%81%d0%bf%d1%80%d1%8f%d0%bc%d0%be-%d0%bf%d1%80%d0%b5%d0%b4%d1%81%d1%82%d0%be%d1%8f-7/ Trend]
+|3-7 July 2021
+|1002
+|20.5%
+| style="background:#CCE6FF"| '''21.3%'''
+|15.9%
+|11.3%
+|12.4%
+|5.1%
+| colspan="3" |3.9%
+|3.1%
+|1.6%
+| -
+|0.8%
+|4.1%
+| style="background:{{There_Are_Such_People/meta/color}}; color:white;"| 0.8%
+|-
+|[https://www.gallup-international.bg/44881/current-electoral-snapshot-2/ Gallup]
+| data-sort-value="2021-07-07"|30 Jun–7 Jul 2021
+|1010
+|20.3%
+| style="background:#CCE6FF"| '''21.3%'''
+|15.9%
+|11.5%
+|12.2%
+|6.1%
+| colspan="3" |4%
+|3.1%
+|2.5%
+| -
+|1%
+|2.1%
+| style="background:{{There_Are_Such_People/meta/color}}; color:white;"| 1%
+|-
+|[https://www.facebook.com/sovaharris/photos/pcb.4155728104546679/4155727471213409 Sova Harris]
+| data-sort-value="2021-07-06"|2–6 July 2021
+|1000
+| style="background:#CCE6FF"| '''22.6%'''
+|22.1%
+|16%
+|10.9%
+|10.6%
+|5.3%
+| colspan="3" |4.5%
+| -
+| -
+| -
+| -
+|8%
+| style="background:{{GERB/meta/color}}; color:white;"| 0.5%
+|-
+|[https://exacta.bg/?page_id=42 Exacta]
+| data-sort-value="2021-07-05"|1–5 July 2021
+|1005
+| style="background:#CCE6FF"| '''21.4%'''
+|20.8%
+|15.8%
+|11.2%
+|12.8%
+|4.8%
+| colspan="3" |4%
+|2.8%
+|1.8%
+| -
+| -
+|4.6%
+| style="background:{{GERB/meta/color}}; color:white;"| 0.6%
+|-
+|[https://offnews.bg/analizi/mediana-izbiratelite-na-gerb-sa-namaleli-no-silno-mobilizirani-za-vo-754864.html Mediana]
+| data-sort-value="2021-07-02"|{{nowrap|26 June–2 July 2021}}
+|920
+| style="background:#CCE6FF"| '''22.5%'''
+|21.7%
+|20.6%
+|11.1%
+|10%
+|5.1%
+| colspan="3" |4.8%
+|2.2%
+| -
+| -
+| -
+|2%
+| style="background:{{GERB/meta/color}}; color:white;"| 0.8%
+|-
+|[https://www.nasoca.bg/obschestveni-naglasi-na-blgarite-km-predsrochnite-parlamentarni-izbori-na-11-yuli-2021 Nasoca]
+| data-sort-value="2021-06-30"|23–30 Jun 2021
+|1025
+| style="background:#CCE6FF"| '''21.4%'''
+|20.5%
+|15.8%
+|10.5%
+|11.3%
+|5.3%
+| colspan="3" |4.4%
+|2.3%
+|2.1%
+| -
+| -
+|6.4%
+| style="background:{{GERB/meta/color}}; color:white;"| 0.9%
+|-
 | [https://blitz.bg/izbori-2021/goreshcho-prouchvane-za-rezultatite-ot-izborite-broeni-dni-predi-vota-tablitsi_news825734.html Specter]
-| data-sort-value="2021-06-27"| 24–27 June 2021
+| data-sort-value="2021-06-27"| 24–27 Jun 2021
 | 703
 | style="background:#CCE6FF"| '''21.4%'''
 | 19.7%
@@ -55,25 +174,25 @@
 | 6.4%
 | style="background:{{GERB/meta/color}}; color:white;"| 1.7%
 |-
-| [https://novini.bg/bylgariya/izbori/668133 Barometer]
-| data-sort-value="2021-06-23"| 18–23 June 2021
-| 860
-| style="background:#CCE6FF"| '''22.5%'''
-| 18.2%
-| 17.1%
-| 11.6%
-| 9.1%
-| 4.3%
-| colspan="3" | 6.4%
-| 1.4%
-| –
-| 1.2%
-| 1.9%
-| 6.2%
-| style="background:{{GERB/meta/color}}; color:white;"| 4.3%
+|[https://www.marketlinks.bg/storage/INFOGRAPHIC%20NRS%20Politics%2006.2021.pdf Market links]
+| data-sort-value="2021-06-25"|18–25 Jun 2021
+|626
+| style="background:#CCE6FF"| '''21.8%'''
+|20.8%
+|18.7%
+|10.5%
+|13.8%
+|6%
+| colspan="3" |3.2%
+|2.7%
+|1.4%
+| -
+| -
+|1.1%
+| style="background:{{GERB/meta/color}}; color:white;"| 1%
 |-
 | [https://rctrend.bg/project/209520/ Trend]
-| data-sort-value="2021-06-18"| 11–18 June 2021
+| data-sort-value="2021-06-18"| 11–18 Jun 2021
 | 1,003
 | style="background:#CCE6FF"| '''21.7%'''
 | 20.2%
@@ -90,7 +209,7 @@
 | style="background:{{GERB/meta/color}}; color:white;"| 1.5%
 |-
 | [https://www.facebook.com/sovaharris/photos/pcb.4101030563349767/4101029686683188 Sova Harris]
-| data-sort-value="2021-06-15"| 10–15 June 2021
+| data-sort-value="2021-06-15"| 10–15 Jun 2021
 | 1,000
 | style="background:#CCE6FF"| '''22.4%'''
 | 21.7%
@@ -107,10 +226,10 @@
 | style="background:{{GERB/meta/color}}; color:white;"| 0.7%
 |-
 | [http://www.mediana.bg/download-analysis/PRESS_062021.doc Mediana]
-| data-sort-value="2021-06-15"| 10–15 June 2021
+| data-sort-value="2021-06-15"| 10–15 Jun 2021
 | 1,008
 | 21.4%
-| style="background:#CCE6FF"|'''24.0%'''
+| style="background:#CCE6FF"| '''24.0%'''
 | 21.3%
 | 11.2%
 | 7.2%
@@ -124,10 +243,10 @@
 | style="background:{{There_Are_Such_People/meta/color}}; color:white;"| 2.6%
 |-
 | [https://www.gallup-international.bg/44810/current-electoral-snapshot/ Gallup]
-| data-sort-value="2021-06-14"| 3–11 June 2021
+| data-sort-value="2021-06-14"| 3–11 Jun 2021
 | 1,012
 | 21.0%
-| style="background:#CCE6FF"|'''21.2%'''
+| style="background:#CCE6FF"| '''21.2%'''
 | 15.9%
 | 11.9%
 | 12.1%
@@ -174,40 +293,22 @@
 | 10.9%
 | style="background:{{GERB/meta/color}}; color:white;"| 2.1%
 |-
-| [https://trud.bg/барометър-българия-46-ото-народно-събрание-ще-е-също-така-фрагментирано-като-45-ото/ Barometer]
-| data-sort-value="2021-06-01"| 1–6 Jun 2021
-| 840
-| style="background:#CCE6FF"| '''24.1%'''
-| 17.1%
-| 16.9%
-| 11.3%
-| 8.9%
-| 4.1%
-| colspan="3" | 6.1%
-| 1.5%
-| –
-| 1.3%
-| 1.1%
-| 7.6%
-| style="background:{{GERB/meta/color}}; color:white;"| 7.0%
-|-
 | [https://www.marketlinks.bg/bg/news/elektoralnite-naglasi-sled-parlamentarnite-izbori-april-2021-86.html Market Links]
-| data-sort-value="2021-05-27"| 19–27 May 2021
+| data-sort-value="2021-05-27" | 19–27 May 2021
 | 676
-| style="background:#CCE6FF"| '''21.0%'''
-| 17.6%
-| 17.1%
-| 9.4%
-| 11.8%
-| 4.2%
-| 2.9%
-| colspan="2" | 1.2%
-| 1.8%
+| style="background:#CCE6FF" | '''23.7%'''
+| 19.8%
+| 19.3%
+| 10.6%
+| 13.3%
+| 4.77%
+| colspan="3" | 4.6%
+| 2%
 | –
 | –
 | –
-| 1.8%
-| style="background:{{GERB/meta/color}}; color:white;"| 3.4%
+| 2%
+| style="background:{{GERB/meta/color}}; color:white;" | 3.9%
 |-
 | [https://www.bgonair.bg/a/2-bulgaria/227787-kakvi-sa-prognozite-za-rezultatite-ot-izborite-na-11-yuli CAM]{{efn|Includes voter-only data.|name=voters|group=}}
 | data-sort-value="2021-05-21"| 14–21 May 2021
@@ -320,25 +421,25 @@
  | linewidth = 2
  | legend=Legend:
  | y1Title=GERB
- | y2Title=BSP
- | y3Title=ITN
+ | y2Title=ITN
+ | y3Title=BSP
  | y4Title=DPS
  | y5Title=DB
  | y6Title=ISMV
- | y7Title=VMRO/BP
+ | y7Title=BP
  | y8Title=Revival
  | y9Title=Bulgarian Summer
- | x = 2021/04/04, 2021/04/14, 2021/04/23, 2021/05/14, 2021/05/21, 2021/05/27, 2021/06/06, 2021/06/07, 2021/06/10, 2021/07/11, 2021/07/15, 2021/07/15, 2021/07/18, 2021/07/23, 2021/07/27, 
- | y1 = 25.8, 27.2, 23.2, 22.8, 23.8, 21.0, 24.1, 20.3, 21.0, 21.0, 21.4, 22.4, 21.7, 22.5, 21.4, 
- | y2 = 14.8, 13.8, 18.1, 16.1, 18.0, 17.1, 16.9, 14.4, 14.1, 15.9, 21.3, 18.7, 16.1, 17.1, 14.5, 
- | y3 = 17.4, 23.2, 22.3, 20.1, 20.9, 17.6, 17.1, 18.2, 19.4, 21.2, 24.0, 21.7, 20.2, 18.2, 19.7, 
- | y4 = 10.4, 10.4, 10.3, 11.2, 10.5, 9.4, 11.3, 9.9, 10.3, 11.9, 11.2, 11.4, 10.9, 11.6, 10.5, 
- | y5 = 9.3, 12.0, 13.1, 11.6, 11.4, 11.8, 8.9, 11.9, 11.5, 12.1, 7.2, 11.1, 11.2, 9.1, 12.2, 
- | y6 = 4.6, 4.3, 6.5, 5.6, 4.4, 4.2, 4.1, 5.3, 4.8, 5.8, 6.9, 5.4, 5.0, 4.3, 5.0, 
- | y7 = 5.9, , 3.3, 4.5, 3.7, 4.1, 6.1, 3.4, 4.8, 3.5, 5.1, 4.9, 3.9, 6.4, 5.2, 
- | y8 = 2.4, , 1.9, 2.6, 1.9, 1.8, 1.5, 2.8, 2.8, 2.7, 1.5, , 2.3, 1.4, 2.4, 
- | y9 = 2.9, , , 2.8, , , , 1.1, 0.9, 2.4, , , 1.9, , 0.9, 
- | colors = #0056A7, #D71921, #4BB9DE, #0060AA, #004A80, #4C813D, #000000, #C09F62, #F38114, 
+ | x = 2021/04/04, 2021/04/13, 2021/04/19, 2021/05/10, 2021/05/17, 2021/05/22, 2021/06/02, 2021/06/07, 2021/06/08, 2021/06/12, 2021/06/13, 2021/06/14, 2021/06/21, 2021/06/25, 2021/06/26, 2021/06/29, 2021/07/03, 2021/07/04, 2021/07/05, 2021/07/06, 2021/07/11
+ | y1 = 25.8, 27.2, 23.2, 22.8, 23.8, 23.7, 20.3, 21.0, 21.0, 21.4, 22.4, 21.7, 21.8, 21.4, 21.4, 22.5, 21.4, 22.6, 20.3, 20.5, 21.5
+ | y2 = 17.4, 23.2, 22.3, 20.1, 20.9, 19.8, 18.2, 19.4, 21.2, 24.0, 21.7, 20.2, 20.8, 19.7, 20.5, 21.7, 20.8, 22.1, 21.3, 21.3, 21.8
+ | y3 = 14.8, 13.8, 18.1, 16.1, 18.0, 19.3, 14.4, 14.1, 15.9, 21.3, 18.7, 16.1, 18.7, 14.5, 15.8, 20.6, 15.8, 16.0, 15.9, 15.9, 16.4 
+ | y4 = 10.4, 10.4, 10.3, 11.2, 10.5, 10.6, 9.9, 10.3, 11.9, 11.2, 11.4, 10.9, 10.5, 10.5, 10.5, 11.1, 11.2, 10.9, 11.5, 11.3, 11.1 
+ | y5 = 9.3, 12.0, 13.1, 11.6, 11.4, 13.3, 11.9, 11.5, 12.1, 7.2, 11.1, 11.2, 13.8, 12.2, 11.3, 10.0, 12.8, 10.6, 12.2, 12.4, 12.0 
+ | y6 = 4.6, 4.3, 6.5, 5.6, 4.4, 4.8, 5.3, 4.8, 5.8, 6.9, 5.4, 5.0, 6.0, 5.0, 5.3, 5.1, 4.8, 5.3, 6.1, 5.1, 5.4
+ | y7 = 5.9, , 3.3, 4.5, 3.7, 4.6, 3.4, 4.8, 3.5, 5.1, 4.9, 3.9, 3.2, 5.2, 4.4, 4.8, 4.0, 4.5, 4.0, 3.9, 3.8
+ | y8 = 2.4, , 1.9, 2.6, 1.9, 2, 2.8, 2.8, 2.7, 1.5, , 2.3, 2.7, 2.4, 2.3, 2.2, 2.8, , 3.1, 3.1, 3.2 
+ | y9 = 2.9, , , 2.8, , , 1.1, 0.9, 2.4, , , 1.9, 1.4, 0.9, 2.1, , 1.8, , 2.5, 1.6, 1.2
+ | colors = #0056A7, #4BB9DE, #D71921, #0060AA, #004A80, #4C813D, #01193B, #C09F62, #F38114, 
  | showSymbols = 1,1,1,1,1,1,1,1, 1
  | symbolsShape = circle
  | symbolsNoFill = false

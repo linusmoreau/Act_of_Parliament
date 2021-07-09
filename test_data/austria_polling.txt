@@ -21,6 +21,18 @@
 ! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
 ! style="background:{{Independent/meta/color}};"|
 |-
+| [https://epaper-oesterreich.at/issue.act?issueId=842006&issueMutation=CITYW&issueDate=20210709&region=WIEN Research Affairs]
+| data-sort-value="2021-07-08"| 5–8 Jul 2021
+| 1,000
+| Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''35'''
+| <!-- Social Democratic Party --> | 21
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 11
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 4
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 14
+|-
 | [https://www.puls24.at/news/politik/sonntagsfrage-oevp-stabil-voran-keine-mehrheit-fuer-rot-gruen-pink/238508 IFDD]
 | data-sort-value="2021-07-02"| 28 Jun – 2 Jul 2021
 | 806

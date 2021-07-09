@@ -41,7 +41,7 @@
 ! class="unsortable" style="background:#0033FF;" |
 |-
 |[https://www.median.eu/cs/wp-content/uploads/2021/07/Volby_2021_06_FINAL_v05.pdf Median]
-|1–30 June
+|1–30 Jun
 |1033
 |–
 |{{Party shading/ANO 2011}}|'''26.0'''
@@ -58,8 +58,44 @@
 |'''31.0'''
 |{{No|'''61.0'''}}
 |-
+|rowspan="2" |[https://www.stem.cz/volebni-preference-stem-cerven-2021/ STEM]
+|rowspan="2" |21 – 29 Jun
+|rowspan="2" |1010
+|rowspan="2" |60.0
+|{{Party shading/ANO 2011}}|'''27.0'''
+|10.9
+|3.2
+|3.0
+|15.5
+|8.7
+|11.1
+|5.6
+|5.4
+|0.8
+|1.6
+|1.6
+|5.0
+|0.6
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |11.5
+|'''32.4'''
+|{{No|'''67.0'''}}
+|-
+|{{Party shading/ANO 2011}}|'''26.7'''
+| colspan="3" |17.4
+| colspan="2" |24.1
+|10.9
+|5.5
+|5.5
+|colspan=2|2.6
+|1.6
+|5.1
+|0.6
+|style="background:{{ANO 2011/meta/color}};color:#FFFFFF;" |2.6
+|'''32.2'''
+|{{No|'''67.2'''}}
+|-
 |rowspan="2" |[https://ct24.ceskatelevize.cz/sites/default/files/2569764-trendy_ceska_2021_vlna_71_volebni_model.pdf Kantar CZ]
-|rowspan="2" |7 - 18 June
+|rowspan="2" |7 - 18 Jun
 |rowspan="2" |1200
 |rowspan="2" |77.0
 |{{Party shading/ANO 2011}}|'''20.0'''
@@ -96,7 +132,7 @@
 |{{No|'''70.5'''}}
 |-
 |[http://www.sanep.cz/pruzkumy/-1263/ Sanep]
-|10 - 15 June
+|10 - 15 Jun
 |1926
 |
 |22.3
@@ -173,7 +209,7 @@
 |64.0
 |{{Party shading/ANO 2011}}|'''23.5'''
 | colspan="3" |23.1
-| colspan="2" style="background:#d3d3d3;"|'''22.4'''
+| colspan="2" |22.4
 |9.6
 |4.7
 |4.7

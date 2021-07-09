@@ -27,6 +27,21 @@
 |-
 |Demoskop<ref>{{Cite news|title=Demoskop: V skapade kaos och gjorde succé
 |language=sv|url=https://www.aftonbladet.se/nyheter/a/gWVR8q/demoskop-v-skapade-kaos-och-gjorde-succe|access-date=2021-06-29}}</ref>
+|29 Jun-7 Jul 2021
+|3,267
+|9.4
+| style="background:#F9BDC5;" |'''25.2'''
+|3.5
+|10.4
+|3.5
+|21.7
+|6.1
+|19.3
+|0.9
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.5
+|-
+|Demoskop<ref>{{Cite news|title=Demoskop: V skapade kaos och gjorde succé
+|language=sv|url=https://www.aftonbladet.se/nyheter/a/gWVR8q/demoskop-v-skapade-kaos-och-gjorde-succe|access-date=2021-06-29}}</ref>
 |23-28 Jun 2021
 |2,148
 |11.3

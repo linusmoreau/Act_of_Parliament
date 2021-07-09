@@ -18,7 +18,7 @@ Poll results are listed in the table below in reverse chronological order, showi
 ! class="sortable" style="width:35px;"| [[File:Chega.png|30px|link=Chega (political party)|CH]]
 ! class="sortable" style="width:35px;"| [[File:Iniciativa Liberal logo 1.png|33px|link=Liberal Initiative (Portugal)|IL]]
 ! class="sortable" style="width:35px;"| [[File:Partido_LIVRE_logo.png|27px|link=LIVRE|L]]
-! class="unsortable" style="width:35px;" rowspan="2"| {{abbr|O|Other}}
+! class="unsortable" style="width:35px;" rowspan="2"| {{abbr|O|Others}}
 ! class="unsortable" style="width:30px;" rowspan="2"| Lead
 |-
 ! class="sortable" style="background:{{Socialist Party (Portugal)/meta/color}};"|
