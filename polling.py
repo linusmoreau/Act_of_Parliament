@@ -305,7 +305,10 @@ def choices_setup():
             'gov': {'Government': ['LIB'], 'Opposition': ['CON', 'NDP', 'BQ', 'GRN', 'PPC']},
             'blocs': {'Progressive': ['LIB', 'NDP', 'BQ', 'GRN'], 'Conservative': ['CON', 'PPC']},
             'start': 3,
-            'vlines': {Date(2019, 10, 21): "General Election"},
+            'vlines': {Date(2019, 10, 21): "General Election",
+                       Date(2020, 8, 24): "O'Toole elected Conservative leader",
+                       Date(2017, 10, 1): "Singh elected NDP leader",
+                       Date(2017, 5, 27): "Scheer elected Conservative leader"},
             'end_date': Date(2023, 10, 16),
             'toggle_seats': True,
             'url': 'https://en.wikipedia.org/w/index.php?title='
@@ -596,7 +599,7 @@ def choices_setup():
             'restart': ['http', 'Spanish general election'],
             'start': 4,
             'end_date': Date(2023, 12, 10),
-            'vlines': {Date(2021, 5, 4): 'Madrilenian', Date(2021, 2, 14): 'Catalan'},
+            'vlines': {Date(2021, 5, 4): 'Madrilenian election', Date(2021, 2, 14): 'Catalan election'},
             'url': 'https://en.wikipedia.org/w/index.php?title='
                    'Opinion_polling_for_the_next_Spanish_general_election&action=edit&section=4'
         },
