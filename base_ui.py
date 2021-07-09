@@ -1492,7 +1492,7 @@ class GraphDisplay(Widget):
 
     def __init__(self, position, area, dat, x_title=None, y_title=None, align=TOPLEFT,
                  x_min=None, x_max=None, y_min=None, y_max=None, leader=False, title=None, colours=None, istime=True,
-                 max_y_max=None, step=1, initial_date=None, dat_points=None, vlines=None, intg=False):
+                 max_y_max=None, step=1, initial_date=None, dat_points=None, vlines=None, vlines_width=150, intg=False):
         self.istime = istime
         if step != 1:
             self.dat = self.rescale(dat, step)
@@ -1525,6 +1525,7 @@ class GraphDisplay(Widget):
         self.tips_mem: Dict[str, Text] = {}
         self.line_tips_mem: Dict[str, Text] = {}
         self.vlines = vlines
+        self.vlines_width = vlines_width
         self.intg = intg
 
         self.top_margin = self.rect.h / 12
@@ -1563,7 +1564,7 @@ class GraphDisplay(Widget):
         # Determine magnitude of difference in the y-variable
         self.y_mag = int(math.log10(y_range))
         self.y_step = 10 ** self.y_mag
-        if y_range / self.y_step < 3:
+        while y_range / self.y_step < 6:
             self.y_step /= 2
             if self.y_step >= 1:
                 self.y_step = int(self.y_step)
@@ -1830,7 +1831,11 @@ class GraphDisplay(Widget):
             pygame.gfxdraw.line(self.surface,
                                 posx, round(self.top_margin + self.graph_rect.h),
                                 posx, round(self.top_margin), dark_grey)
-            t = Text(desc, (posx, self.top_margin), align=BOTTOM)
+            t = Text(desc, (posx, self.top_margin), align=BOTTOM, width=self.vlines_width,
+                     multiline=True, justify=RIGHT)
+            t.surface = pygame.transform.rotate(t.surface, 90)
+            t.rect = t.surface.get_rect()
+            t.rect.topright = posx, self.top_margin
             self.components.append(t)
 
     def sketch_axes(self):
