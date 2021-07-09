@@ -1107,6 +1107,7 @@ class MenuPage:
         button_size = 64
         self.display = ScrollButtonDisplay(screen_center, (300, screen_height * 4 / 5), button_size * len(options),
                                            CENTER, button_size=button_size)
+        background_colour = dark_grey
         buttons = []
         for i, entry in enumerate(options):
             b = Button((self.display.contain_rect.left, self.display.contain_rect.top + i * button_size),
@@ -1121,14 +1122,14 @@ class MenuPage:
                 pass
             label = Text(entry.upper(), (b.rect.centerx + b.rect.w / 16, b.rect.centery + b.rect.h / 12), 24,
                          align=BOTTOMRIGHT,
-                         background_colour=self.display.colour)
+                         background_colour=background_colour)
             b.components.append(label)
             txt = None
             if 'end_date' in choices[entry]:
                 txt = str(choices[entry]['end_date'])
             if txt is None:
                 txt = 'TBD'
-            date = Text(txt, label.rect.bottomright, align=TOPRIGHT, background_colour=self.display.colour)
+            date = Text(txt, label.rect.bottomright, align=TOPRIGHT, background_colour=background_colour)
             b.components.append(date)
             buttons.append(b)
         self.display.add_select_buttons(buttons)
