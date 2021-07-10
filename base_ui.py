@@ -634,7 +634,6 @@ class SelectButton(Button):
             self.release_funcs = {}
 
     def handle(self, event, mouse):
-        state = self.state
         if self.on_top(mouse):
             if self.state is not DISABLE_STATE:
                 for c in self.components:
@@ -1849,7 +1848,7 @@ class GraphDisplay(Widget):
             if mark == 0:
                 zero_loc = self.graph_rect.bottom - self.graph_rect.h / num * i
             y = self.graph_rect.bottom - (self.y_step * i * self.y_scale)
-            t = Text(str(mark) + ' ', (self.graph_rect.left, y), font_size=font_size, align=RIGHT)
+            t = Text(str(mark), (self.graph_rect.left - BASE_FONT_SIZE / 2, y), font_size=font_size, align=RIGHT)
             self.components.append(t)
             y -= self.rect.top
             pygame.draw.line(self.surface, light_grey, (self.left_margin, y),
