@@ -68,7 +68,7 @@ def read_data(content, key, start, restart, date, choice, include=None):
                         i += 1
                     if 'rowspan="2"' in prevline:
                         rot += 1
-                elif choice in ['Italy', 'Cyprus', 'Slovakia', 'Hungary', 'Ireland']:
+                elif choice in ['Italy', 'Cyprus', 'Slovakia', 'Hungary', 'Ireland', 'Russia']:
                     line = prevline
                     if line[0] == '!':
                         rot = None
@@ -185,6 +185,25 @@ def read_data(content, key, start, restart, date, choice, include=None):
             elif start <= rot < start + len(key):
                 p = rot - start
                 temp = line
+                if choice == 'Russia':
+                    if year == '2020':
+                        key = key[:4]
+                    temps = temp.strip().split('||')
+                    for p in range(len(temps)):
+                        if p >= len(key):
+                            break
+                        keep = temps[p].split('|')[-1]
+                        share = float(keep.strip('\'%'))
+                        if key[p] not in dat:
+                            dat[key[p]] = {}
+                        if end in dat[key[p]]:
+                            dat[key[p]][end].append(share)
+                        else:
+                            dat[key[p]][end] = [share]
+
+                    rot = None
+                    i += 1
+                    continue
                 if '{{efn' in temp:
                     temp = temp[:temp.find('{{efn')]
                 if choice in ['Spain', 'Portugal'] and '<br/>' in line:
@@ -365,6 +384,25 @@ def choices_setup():
             'threshold': 2,
             'method': 'quotient',
             'old_data': 'test_data/old_denmark_polling.txt'
+        },
+        'Estonia': {
+            'key': ['Reform', 'Centre', 'EKRE', 'Isamaa', 'SDE', 'E200', 'Green'],
+            'col': {'Reform': (255, 226, 0), 'Centre': (0, 117, 87), 'EKRE': (0, 99, 175), 'Isamaa': (0, 156, 226),
+                    'SDE': (225, 6, 0), 'E200': (6, 119, 141), 'Green': (128, 187, 61)},
+            'gov': {'Government': ['Reform', 'Centre'], 'Opposition': ['EKRE', 'Isamaa', 'SDE', 'E200', 'Green']},
+            'blocs': {'Liberal': ['Reform', 'Centre', 'E200', 'Green'], 'Nationalist': ['EKRE', 'Isamaa'],
+                      'Socialist': ['SDE']},
+            'start': 3,
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Estonian_parliamentary_election&action=edit&section=3',
+            'old_data': 'test_data/old_estonia_polling.txt',
+            'end_date': Date(2023, 3, 5),
+            'threshold': 5,
+            'method': 'quotient',
+            'bar': 0,
+            'divisor': 1,
+            'toggle_seats': True,
+            'seats': 101
         },
         'Finland': {
             'key': ['SDP', 'PS', 'KOK', 'KESK', 'VIHR', 'VAS', 'SFP', 'KD', 'LIIK'],
@@ -556,6 +594,18 @@ def choices_setup():
             'threshold': 0,
             'method': 'quotient'
         },
+        'Russia': {
+            'key': ['UR', 'CPRF', 'LDPR', 'SRZP', 'Yabloko', 'RPPSJ'],
+            'col': {'UR': (46, 78, 164), 'CPRF': (204, 17, 17), 'LDPR': (68, 136, 204), 'SRZP': (255, 192, 3),
+                    'Yabloko': (0, 162, 61), 'RPPSJ': (197, 32, 48)},
+            'date': 0,
+            'start': 1,
+            'end_date': Date(2021, 9, 19),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2021_Russian_legislative_election&action=edit&section=3',
+            'old_data': 'test_data/old_russia_polling.txt',
+            'vlines': {Date(2018, 6, 14): 'Retirement Age Increase Announced'}
+        },
         'Slovakia': {
             'key': [
                 'OL\'aNO', 'SMER-SD', 'SR', 'L\'SNS', 'PS-SPOLU', 'PS-SPOLU', 'SaS', 'ZL\'', 'KDH',
@@ -675,7 +725,7 @@ def choice_setting(c):
     dat = choices[c]
     file_name = dat['file_name']
     key = dat['key']
-    col = dat['col']
+    col = dat.get('col', None)
     blocs = dat['blocs']
     gov = dat['gov']
     start = dat['start']
@@ -688,7 +738,7 @@ def choice_setting(c):
     return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines, toggle_seats
 
 
-def filter_nils(dat, view):
+def filter_nils(dat):
     if dat is not None:
         for line, vals in dat.items():
             for x, ys in vals.items():
@@ -977,7 +1027,10 @@ class GraphPage:
     def init_graph_data(self, dat, resratio=7):
         if dat is not None:
             start = min([min(d) for d in dat.values()])
-            end = date_kit.date_dif(today, self.end_date)
+            if self.end_date is None:
+                end = 0
+            else:
+                end = date_kit.date_dif(today, self.end_date)
             limit = 0
             dat = weighted_averages(dat, self.spread, loc=True, resratio=resratio, start=start, end=end, limit=limit)
         return dat
@@ -1036,28 +1089,28 @@ class GraphPage:
 
     def change_view_or_metric(self):
         if self.dat is None:
-            self.dat = filter_nils(self.init_dat(), 'parties')
+            self.dat = filter_nils(self.init_dat())
         if self.metric == 'seats':
             if self.seats_dat is None:
                 self.seats_dat = self.init_seats_dat()
             if self.view == 'blocs' and self.seats_graph_blocs_dat is None:
                 if self.seats_blocs_dat is None:
-                    self.seats_blocs_dat = filter_nils(self.init_group(self.view, self.seats_dat), self.view)
+                    self.seats_blocs_dat = filter_nils(self.init_group(self.view, self.seats_dat))
                 self.seats_graph_blocs_dat = self.init_graph_data(self.seats_blocs_dat, resratio=self.low_res)
             elif self.view == 'gov' and self.seats_graph_gov_dat is None:
                 if self.seats_gov_dat is None:
-                    self.seats_gov_dat = filter_nils(self.init_group(self.view, self.seats_dat), self.view)
+                    self.seats_gov_dat = filter_nils(self.init_group(self.view, self.seats_dat))
                 self.seats_graph_gov_dat = self.init_graph_data(self.seats_gov_dat, resratio=self.low_res)
             elif self.view == 'parties' and self.seats_graph_dat is None:
                 self.seats_graph_dat = self.init_graph_data(self.seats_dat, resratio=self.low_res)
         else:
             if self.view == 'blocs' and self.graph_blocs_dat is None:
                 if self.blocs_dat is None:
-                    self.blocs_dat = filter_nils(self.init_group(self.view, self.dat), self.view)
+                    self.blocs_dat = filter_nils(self.init_group(self.view, self.dat))
                 self.graph_blocs_dat = self.init_graph_data(self.blocs_dat, resratio=self.low_res)
             elif self.view == 'gov' and self.graph_gov_dat is None:
                 if self.gov_dat is None:
-                    self.gov_dat = filter_nils(self.init_group(self.view, self.dat), self.view)
+                    self.gov_dat = filter_nils(self.init_group(self.view, self.dat))
                 self.graph_gov_dat = self.init_graph_data(self.gov_dat, resratio=self.low_res)
             elif self.view == 'parties' and self.graph_dat is None:
                 self.graph_dat = self.init_graph_data(self.dat, resratio=self.low_res)
@@ -1127,11 +1180,10 @@ class MenuPage:
                          align=BOTTOMRIGHT,
                          background_colour=background_colour)
             b.components.append(label)
-            txt = None
-            if 'end_date' in choices[entry]:
+            if choices[entry]['end_date'] is None:
+                txt = 'Unknown'
+            else:
                 txt = str(choices[entry]['end_date'])
-            if txt is None:
-                txt = 'TBD'
             date = Text(txt, label.rect.bottomright, align=TOPRIGHT, background_colour=background_colour)
             b.components.append(date)
             buttons.append(b)

@@ -1,0 +1,2204 @@
+===2020===
+{|class=wikitable style="font-size:95%; line-height:14px; text-align:center"
+!style=width:200px; rowspan=2|Date
+!style=width:150px; rowspan=2|Poll source
+! style="width:60px;"| [[United Russia|UR]]
+! style="width:60px;"| [[Communist Party of the Russian Federation|CPRF]]
+! style="width:60px;"| [[Liberal Democratic Party of Russia|LDPR]]
+! style="width:60px;"| [[A Just Russia|JR]]
+!style="width:60px;" rowspan=2|Other
+!style="width:60px;" rowspan=2|Undecided
+!style="width:60px;" rowspan=2|Abstention
+!style="width:60px;" rowspan="2"|Lead
+|-
+|bgcolor={{United Russia/meta/color}}|
+|bgcolor={{Communist Party of the Russian Federation/meta/color}}|
+|bgcolor={{Liberal Democratic Party of Russia/meta/color}}|
+|bgcolor={{A Just Russia/meta/color}}|
+|-
+|30 December
+|[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
+|style="background:#B3E0FF" |'''30.5%'''||'''13.0%'''||'''12.0%'''||'''7.3%'''||13.1%||12.6%||9.9%
+|style="background:#0C2C84; color:white;"|17.5%
+|-
+|20 December
+|[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
+|style="background:#B3E0FF" |'''31.1%'''||'''13.1%'''||'''11.7%'''||'''6.2%'''||12.8%||13.8%||9.7%
+|style="background:#0C2C84; color:white;"|18.0%
+|-
+|20 December
+|[https://media.fom.ru/fom-bd/d502020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''12%'''||'''6%'''||19%||14%||5%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|14 December
+|colspan=9|'''[[Vladimir Zhirinovsky]] is re-elected as the leader of the [[Liberal Democratic Party of Russia|Liberal Democratic Party]]'''
+|-
+|13 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''30.1%'''||'''13.4%'''||'''12.1%'''||'''7.0%'''||12.8%||13.3%||9.7%
+|style="background:#0C2C84; color:white;"|16.7%
+|-
+|13 December
+|[https://media.fom.ru/fom-bd/d502020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''12%'''||'''11%'''||'''5%'''||17%||15%||8%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|6 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''30.2%'''||'''13.2%'''||'''12.7%'''||'''6.4%'''||13.7%||13.3%||8.9%
+|style="background:#0C2C84; color:white;"|17.0%
+|-
+|6 December
+|[https://media.fom.ru/fom-bd/d492020.pdf FOM]
+|style="background:#B3E0FF" |'''28%'''||'''12%'''||'''10%'''||'''5%'''||15%||17%||10%
+|style="background:#0C2C84; color:white;"|16%
+|-
+|29 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''29.9%'''||'''13.2%'''||'''13.1%'''||'''6.6%'''||12.6%||13.2%||9.7%
+|style="background:#0C2C84; color:white;"|16.7%
+|-
+|29 November
+|[https://media.fom.ru/fom-bd/d482020.pdf FOM]
+|style="background:#B3E0FF" |'''29%'''||'''13%'''||'''10%'''||'''6%'''||16%||17%||7%
+|style="background:#0C2C84; color:white;"|16%
+|-
+|26 November
+|[https://www.levada.ru/2020/12/09/elektoralnyj-rejtingi-partij/ Levada Center]
+|style="background:#B3E0FF" |'''29%'''||'''7%'''||'''11%'''||'''5%'''||11%||12%||22%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|22 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''30.8%'''||'''13.0%'''||'''12.3%'''||'''6.8%'''||13.5%||12.7%||9.4%
+|style="background:#0C2C84; color:white;"|17.8%
+|-
+|22 November
+|[https://media.fom.ru/fom-bd/d472020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''13%'''||'''11%'''||'''6%'''||17%||16%||5%
+|style="background:#0C2C84; color:white;"|17%
+|-
+|15 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.0%'''||'''13.2%'''||'''11.7%'''||'''6.6%'''||13.0%||13.4%||9.3%
+|style="background:#0C2C84; color:white;"|17.8%
+|-
+|15 November
+|[https://media.fom.ru/fom-bd/d462020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''10%'''||'''6%'''||15%||19%||7%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|8 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.6%'''||'''12.9%'''||'''11.5%'''||'''6.5%'''||13.4%||12.4%||10.1%
+|style="background:#0C2C84; color:white;"|18.7%
+|-
+|8 November
+|[https://media.fom.ru/fom-bd/d452020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''12%'''||'''9%'''||'''5%'''||15%||18%||9%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|1 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.5%'''||'''13.0%'''||'''11.8%'''||'''6.4%'''||13.2%||12.9%||9.6%
+|style="background:#0C2C84; color:white;"|18.5%
+|-
+|1 November
+|[https://media.fom.ru/fom-bd/d442020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''13%'''||'''10%'''||'''6%'''||16%||16%||8%
+|style="background:#0C2C84; color:white;"|17%
+|-
+|25 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.3%'''||'''13.1%'''||'''11.8%'''||'''6.2%'''||13.9%||13.0%||9.2%
+|style="background:#0C2C84; color:white;"|18.2%
+|-
+|25 October
+|[https://media.fom.ru/fom-bd/d432020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''13%'''||'''11%'''||'''6%'''||16%||16%||6%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|18 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.8%'''||'''13.1%'''||'''11.4%'''||'''6.8%'''||12.7%||13.0%||9.8%
+|style="background:#0C2C84; color:white;"|18.7%
+|-
+|18 October
+|[https://media.fom.ru/fom-bd/d422020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''10%'''||'''5%'''||15%||18%||8%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|11 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.1%'''||'''12.7%'''||'''11.0%'''||'''6.9%'''||11.8%||12.7%||10.1%
+|style="background:#0C2C84; color:white;"|20.4%
+|-
+|11 October
+|[https://media.fom.ru/fom-bd/d412020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''11%'''||'''10%'''||'''5%'''||14%||18%||10%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|4 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''12.9%'''||'''11.2%'''||'''6.4%'''||12.8%||12.6%||9.7%
+|style="background:#0C2C84; color:white;"|20.1%
+|-
+|4 October
+|[https://media.fom.ru/fom-bd/d402020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''10%'''||'''5%'''||15%||17%||8%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|27 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.4%'''||'''13.3%'''||'''11.5%'''||'''6.7%'''||12.7%||13.0%||8.8%
+|style="background:#0C2C84; color:white;"|19.1%
+|-
+|27 September
+|[https://media.fom.ru/fom-bd/d392020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''13%'''||'''11%'''||'''6%'''||17%||16%||5%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|20 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.7%'''||'''14.1%'''||'''11.6%'''||'''6.7%'''||13.4%||11.7%||9.4%
+|style="background:#0C2C84; color:white;"|17.6%
+|-
+|20 September
+|[https://media.fom.ru/fom-bd/d382020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''13%'''||'''10%'''||'''5%'''||16%||17%||7%
+|style="background:#0C2C84; color:white;"|17%
+|-
+|rowspan=3|13 September
+|colspan=9|'''[[2020 Russian gubernatorial elections|Gubernatorial elections]] in 20 Federal Subjects (14 UR, 5 independent and 1 LDPR)'''
+|-
+|colspan=9|'''[[2020 Russian regional elections|Regional elections]] in 11 Federal Subjects (all won UR)'''
+|-
+|colspan=9|'''[[By-elections to the 7th Russian State Duma|By-elections]] in 4 constituencies (3 UR and 1 JR)'''
+|-
+|13 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.5%'''||'''13.5%'''||'''10.7%'''||'''6.0%'''||13.1%||14.1%||9.6%
+|style="background:#0C2C84; color:white;"|18.0%
+|-
+|13 September
+|[https://media.fom.ru/fom-bd/d37pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''12%'''||'''9%'''||'''5%'''||14%||19%||9%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|6 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.5%'''||'''12.8%'''||'''11.7%'''||'''6.4%'''||12.7%||14.0%||9.3%
+|style="background:#0C2C84; color:white;"|18.7%
+|-
+|6 September
+|[https://media.fom.ru/fom-bd/d36pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''9%'''||'''5%'''||13%||20%||9%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|30 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.6%'''||'''13.2%'''||'''11.5%'''||'''6.0%'''||12.5%||14.1%||9.3%
+|style="background:#0C2C84; color:white;"|18.4%
+|-
+|30 August
+|[https://media.fom.ru/fom-bd/d35pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''10%'''||'''5%'''||15%||19%||7%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|26 August
+|[https://www.levada.ru/2020/09/07/elektoralnye-rejtingi-partij-4/ Levada Center]
+|style="background:#B3E0FF" |'''31%'''||'''7%'''||'''11%'''||3%||10%||11%||22%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|23 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.7%'''||'''13.0%'''||'''12.2%'''||'''6.1%'''||12.3%||14.3%||8.8%
+|style="background:#0C2C84; color:white;"|18.7%
+|-
+|23 August
+|[https://media.fom.ru/fom-bd/d34pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''13%'''||'''10%'''||'''5%'''||18%||17%||5%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|16 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''30.5%'''||'''13.0%'''||'''11.4%'''||'''5.8%'''||12.8%||15.3%||9.6%
+|style="background:#0C2C84; color:white;"|17.5%
+|-
+|16 August
+|[https://media.fom.ru/fom-bd/d33pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''12%'''||'''10%'''||'''5%'''||17%||18%||7%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|9 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.9%'''||'''13.0%'''||'''11.4%'''||'''6.0%'''||11.8%||14.0%||10.4%
+|style="background:#0C2C84; color:white;"|18.9%
+|-
+|9 August
+|[https://media.fom.ru/fom-bd/d32pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''11%'''||'''11%'''||'''5%'''||14%||19%||9%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|2 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.6%'''||'''13.0%'''||'''11.8%'''||'''6.0%'''||12.2%||14.0%||9.7%
+|style="background:#0C2C84; color:white;"|18.6%
+|-
+|2 August
+|[https://media.fom.ru/fom-bd/d31pi.pdf FOM]
+|style="background:#B3E0FF" |'''29%'''||'''12%'''||'''12%'''||'''5%'''||15%||18%||7%
+|style="background:#0C2C84; color:white;"|17%
+|-
+|26 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.4%'''||'''13.0%'''||'''12.5%'''||'''5.6%'''||12.1%||13.8%||9.1%
+|style="background:#0C2C84; color:white;"|19.4%
+|-
+|26 July
+|[https://media.fom.ru/fom-bd/d30pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''13%'''||'''13%'''||'''6%'''||12%||20%||4%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|19 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.0%'''||'''12.6%'''||'''12.8%'''||'''5.8%'''||12.5%||14.3%||8.7%
+|style="background:#0C2C84; color:white;"|19.2%
+|-
+|19 July
+|[https://media.fom.ru/fom-bd/d29pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''12%'''||'''5%'''||10%||21%||6%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|12 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.9%'''||'''11.8%'''||'''11.2%'''||'''6.2%'''||12.3%||14.4%||8.8%
+|style="background:#0C2C84; color:white;"|22.1%
+|-
+|12 July
+|[https://media.fom.ru/fom-bd/d28pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''11%'''||'''9%'''||'''5%'''||13%||22%||8%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|5 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.3%'''||'''12.5%'''||'''10.3%'''||'''6.0%'''||12.7%||15.4%||8.6%
+|style="background:#0C2C84; color:white;"|20.8%
+|-
+|5 July
+|[https://media.fom.ru/fom-bd/d27pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''11%'''||'''10%'''||'''5%'''||9%||23%||7%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|1 July
+|colspan=10|'''[[2020 Russian constitutional referendum|Constitutional referendum]]: 78.5% of voters vote in favour amendments to the Constitution'''
+|-
+|28 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.1%'''||'''12.6%'''||'''10.5%'''||'''5.3%'''||11.9%||14.4%||7.9%
+|style="background:#0C2C84; color:white;"|23.5%
+|-
+|28 June
+|[https://media.fom.ru/fom-bd/d26pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''11%'''||'''6%'''||11%||20%||4%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|21 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.4%'''||'''13.0%'''||'''11.2%'''||'''6.2%'''||11.3%||15.0%||8.7%
+|style="background:#0C2C84; color:white;"|20.4%
+|-
+|21 June
+|[https://media.fom.ru/fom-bd/d25pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''10%'''||'''5%'''||14%||18%||5%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|14 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''13.1%'''||'''10.7%'''||'''5.8%'''||11.4%||15.6%||8.8%
+|style="background:#0C2C84; color:white;"|19.9%
+|-
+|14 June
+|[https://media.fom.ru/fom-bd/d24pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''13%'''||'''9%'''||4%||12%||20%||7%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|7 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.2%'''||'''14.3%'''||'''11.0%'''||'''5.9%'''||10.9%||15.2%||8.1%
+|style="background:#0C2C84; color:white;"|17.9%
+|-
+|7 June
+|[https://media.fom.ru/fom-bd/d23pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''9%'''||3%||13%||22%||9%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|31 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.4%'''||'''14.2%'''||'''11.1%'''||'''5.9%'''||11.6%||14.7%||8.0%
+|style="background:#0C2C84; color:white;"|19.2%
+|-
+|31 May
+|[https://media.fom.ru/fom-bd/d22pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''11%'''||'''10%'''||4%||14%||20%||8%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|24 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.9%'''||'''14.5%'''||'''11.5%'''||'''5.4%'''||10.7%||13.9%||8.1%
+|style="background:#0C2C84; color:white;"|19.4%
+|-
+|24 May
+|[https://media.fom.ru/fom-bd/d21pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||'''5%'''||15%||18%||5%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|17 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.8%'''||'''14.3%'''||'''10.7%'''||'''5.5%'''||10.9%||14.7%||8.7%
+|style="background:#0C2C84; color:white;"|19.5%
+|-
+|17 May
+|[https://media.fom.ru/fom-bd/d20pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''13%'''||'''10%'''||'''5%'''||14%||20%||7%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|10 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.8%'''||'''14.5%'''||'''9.9%'''||'''5.8%'''||10.2%||15.0%||9.1%
+|style="background:#0C2C84; color:white;"|19.3%
+|-
+|10 May
+|[https://media.fom.ru/fom-bd/d19pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''30%'''||'''12%'''||'''9%'''||4%||12%||22%||10%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|3 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.5%'''||'''13.9%'''||'''11.4%'''||'''5.8%'''||10.9%||15.0%||7.9%
+|style="background:#0C2C84; color:white;"|19.6%
+|-
+|26 April
+|[https://media.fom.ru/fom-bd/d17pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''10%'''||'''5%'''||14%||19%||5%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|26 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''13.7%'''||'''11.0%'''||'''5.9%'''||10.8%||15.4%||8.6%
+|style="background:#0C2C84; color:white;"|19.3%
+|-
+|26 April
+|[http://cipkr.ru/2020/04/28/koronavirus-samoizolyatsiya-i-obshhe-rossijskoe-golosovanie-po-popravkam-v-konstitutsiyu-doklad-tsipkr/ CIPKR]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''9%'''||4%||20%||11%||13%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|19 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.0%'''||'''14.1%'''||'''10.7%'''||'''5.7%'''||9.8%||15.8%||8.4%
+|style="background:#0C2C84; color:white;"|19.9%
+|-
+|19 April
+|[https://media.fom.ru/fom-bd/d16pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''9%'''||'''5%'''||12%||20%||8%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|12 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.3%'''||'''13.2%'''||'''10.3%'''||'''5.9%'''||9.6%||16.3%||8.7%
+|style="background:#0C2C84; color:white;"|21.1%
+|-
+|12 April
+|[https://media.fom.ru/fom-bd/d15pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''10%'''||'''8%'''||4%||10%||24%||9%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|5 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.0%'''||'''12.8%'''||'''9.6%'''||'''5.6%'''||10.1%||16.7%||7.8%
+|style="background:#0C2C84; color:white;"|23.2%
+|-
+|5 April
+|[https://media.fom.ru/fom-bd/d14pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''11%'''||'''8%'''||4%||12%||23%||7%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|2 April
+|[http://cipkr.ru/2020/04/28/koronavirus-samoizolyatsiya-i-obshhe-rossijskoe-golosovanie-po-popravkam-v-konstitutsiyu-doklad-tsipkr/ CIPKR]
+|style="background:#B3E0FF" |'''38%'''||'''11%'''||'''9%'''||4%||17%||12%||9%
+|style="background:#0C2C84; color:white;"|27%
+|-
+|29 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.7%'''||'''13.5%'''||'''10.9%'''||'''5.2%'''||10.3%||16.0%||7.7%
+|style="background:#0C2C84; color:white;"|21.2%
+|-
+|29 March
+|[https://media.fom.ru/fom-bd/d13pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''37%'''||'''12%'''||'''9%'''||4%||14%||19%||5%
+|style="background:#0C2C84; color:white;"|25%
+|-
+|22 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.5%'''||'''14.2%'''||'''11.5%'''||'''5.7%'''||10.8%||15.0%||8.4%
+|style="background:#0C2C84; color:white;"|18.3%
+|-
+|22 March
+|[https://media.fom.ru/fom-bd/d12pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''12%'''||'''5%'''||13%||colspan=2|23%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|15 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''13.6%'''||'''11.4%'''||'''6.1%'''||11.2%||14.1%||8.9%
+|style="background:#0C2C84; color:white;"|19.4%
+|-
+|15 March
+|[https://media.fom.ru/fom-bd/d11pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''9%'''||'''9%'''||4%||7%||20%||16%
+|style="background:#0C2C84; color:white;"|24%
+|-
+|10 March
+|colspan=9|'''President [[Vladimir Putin]] supported [[2020 amendments to the Constitution of Russia|the amendment to the Constitution]] to reset the terms of the President of Russia and plans to hold snap legislative election were scrapped'''
+|-
+|7 March
+|[http://cipkr.ru/2020/03/09/obshhestvennoe-vospriyatie-popravok-v-konstitutsiyu-ot-prezidenta-i-kprf-itogi-vserossijskogo-oprosa-tsipkrzidenta-i-kprf/ CIPKR]
+|style="background:#B3E0FF" |'''34%'''||'''16%'''||'''10%'''||'''5%'''||21%||7%||7%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|7 March
+|[https://media.fom.ru/fom-bd/d10pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''9%'''||'''10%'''||4%||7%||19%||17%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|7 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.9%'''||'''14.8%'''||'''11.4%'''||'''6.0%'''||10.6%||14.9%||8.1%
+|style="background:#0C2C84; color:white;"|18.1%
+|-
+|1 March
+|[https://media.fom.ru/fom-bd/d9pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''10%'''||'''10%'''||'''5%'''||8%||20%||14%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|1 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.3%'''||'''14.8%'''||'''11.4%'''||'''6.0%'''||11.6%||14.2%||8.1%
+|style="background:#0C2C84; color:white;"|17.5%
+|-
+|26 February
+|[https://www.levada.ru/2020/03/10/vozmozhnoe-golosovanie-za-partii-2/ Levada Centre]
+|style="background:#B3E0FF" |'''28'''||'''8%'''||'''10%'''||3%||11%||13%||23%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|23 February
+|[https://media.fom.ru/fom-bd/d8pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''11%'''||'''11%'''||'''5%'''||9%||20%||10%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|22 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''14.9%'''||'''12.2%'''||'''6.3%'''||10.8%||12.7%||8.6%
+|style="background:#0C2C84; color:white;"|18.1%
+|-
+|16 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.7%'''||'''14.8%'''||'''11.4%'''||'''6.4%'''||11.2%||12.9%||8.9%
+|style="background:#0C2C84; color:white;"|17.9%
+|-
+|16 February
+|[https://media.fom.ru/fom-bd/d7pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''10%'''||'''12%'''||'''5%'''||8%||20%||12%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|9 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.2%'''||'''14.5%'''||'''12.0%'''||'''6.0%'''||10.8%||13.3%||8.6%
+|style="background:#0C2C84; color:white;"|18.7%
+|-
+|9 February
+|[https://media.fom.ru/fom-bd/d6pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''11%'''||'''12%'''||4%||8%||20%||11%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|2 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.5%'''||'''14.8%'''||'''11.5%'''||'''6.6%'''||10.3%||13.3%||8.4%
+|style="background:#0C2C84; color:white;"|17.7%
+|-
+|2 February
+|[https://media.fom.ru/fom-bd/d5pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''11%'''||'''12%'''||4%||8%||21%||10%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|26 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.2%'''||'''15.5%'''||'''11.8%'''||'''6.3%'''||10.4%||12.7%||7.8%
+|style="background:#0C2C84; color:white;"|18.7%
+|-
+|26 January
+|[https://media.fom.ru/fom-bd/d4pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''11%'''||'''12%'''||'''5%'''||9%||19%||10%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|19 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.6%'''||'''15.1%'''||'''12.5%'''||'''6.1%'''||10.7%||13.0%||8.7%
+|style="background:#0C2C84; color:white;"|17.5%
+|-
+|19 January
+|[https://media.fom.ru/fom-bd/d3pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''12%'''||4%||10%||16%||12%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|16 January
+|colspan=9|'''[[Mikhail Mishustin]] approved as [[Prime Minister of Russia|Prime Minister]]'''
+|-
+|rowspan=2|15 January
+|colspan=9|'''[[Dmitry Medvedev]] resigned as [[Prime Minister of Russia|Prime Minister]]'''
+|-
+|colspan=9|'''President [[Vladimir Putin]] [[2020 Presidential Address to the Federal Assembly|announced]] a [[2020 amendments to the Constitution of Russia|constitutional reform]]'''
+|-
+|-
+|12 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.5%'''||'''14.5%'''||'''12.6%'''||'''5.9%'''||11.2%||12.7%||9.1%
+|style="background:#0C2C84; color:white;"|18.0%
+|-
+|12 January
+|[https://media.fom.ru/fom-bd/d2pi2020.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''13%'''||3%||10%||14%||13%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|style="background:#D5D5D5"|{{nowrap|''18 September 2016''}}
+|style="background:#D5D5D5"|{{nowrap|''[[2016 Russian legislative election|Election result]]''}}
+|style="background:#B3E0FF" |'''''54.20%'''''||style="background:#D5D5D5"|'''''13.34%'''''||style="background:#D5D5D5"|'''''13.14%'''''||style="background:#D5D5D5"|'''''6.22%'''''||style="background:#D5D5D5"|''11.23%''||style="background:#D5D5D5"| ||style="background:#D5D5D5"|
+|style="background:#0C2C84; color:white;"|''40.86%''
+|}
+===2019===
+{|class=wikitable style="font-size:95%; line-height:14px; text-align:center"
+!style=width:200px; rowspan=2|Date
+!style=width:150px; rowspan=2|Poll source
+! style="width:60px;"| [[United Russia|UR]]
+! style="width:60px;"| [[Communist Party of the Russian Federation|CPRF]]
+! style="width:60px;"| [[Liberal Democratic Party of Russia|LDPR]]
+! style="width:60px;"| [[A Just Russia|JR]]
+!style="width:60px;" rowspan=2|Other
+!style="width:60px;" rowspan=2|Undecided
+!style="width:60px;" rowspan=2|Abstention
+!style="width:60px;" rowspan="2"|Lead
+|-
+|bgcolor={{United Russia/meta/color}}|
+|bgcolor={{Communist Party of the Russian Federation/meta/color}}|
+|bgcolor={{Liberal Democratic Party of Russia/meta/color}}|
+|bgcolor={{A Just Russia/meta/color}}|
+|-
+|22 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''14.3%'''||'''12.8%'''||'''5.6%'''||10.8%||12.7%||9.2%
+|style="background:#0C2C84; color:white;"|18.7%
+|-
+|22 December
+|[https://media.fom.ru/fom-bd/d51pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''12%'''||4%||8%||15%||13%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|18 December
+|[https://www.levada.ru/2019/12/25/vozmozhnye-rezultaty-vyborov-v-gosdumu-2/ Levada Center]
+|style="background:#B3E0FF" |'''29%'''||'''9%'''||'''8%'''||3%||10%||14%||24%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|15 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''31.4%'''||'''15.6%'''||'''13.0%'''||'''6.0%'''||10.7%||12.7%||9.0%
+|style="background:#0C2C84; color:white;"|15.8%
+|-
+|15 December
+|[https://media.fom.ru/fom-bd/d50pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''12%'''||4%||9%||16%||14%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|8 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.3%'''||'''14.9%'''||'''12.8%'''||'''5.9%'''||10.6%||13.1%||8.9%
+|style="background:#0C2C84; color:white;"|17.4%
+|-
+|8 December
+|[https://media.fom.ru/fom-bd/d49pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''12%'''||4%||9%||16%||14%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|1 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.3%'''||'''15.6%'''||'''12.3%'''||'''5.8%'''||11.0%||11.8%||8.7%
+|style="background:#0C2C84; color:white;"|17.7%
+|-
+|1 December
+|[https://media.fom.ru/fom-bd/d48pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''12%'''||4%||8%||15%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|24 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.7%'''||'''15.4%'''||'''11.5%'''||'''5.6%'''||10.8%||12.8%||9.5%
+|style="background:#0C2C84; color:white;"|17.3%
+|-
+|24 November
+|[https://media.fom.ru/fom-bd/d47pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''12%'''||4%||9%||15%||12%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|17 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.6%'''||'''14.9%'''||'''12.1%'''||'''6.2%'''||10.1%||12.9%||9.6%
+|style="background:#0C2C84; color:white;"|17.7%
+|-
+|17 November
+|[https://media.fom.ru/fom-bd/d46pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''12%'''||4%||10%||16%||12%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|10 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''15.4%'''||'''12.0%'''||'''5.7%'''||10.9%||12.5%||9.0%
+|style="background:#0C2C84; color:white;"|17.6%
+|-
+|10 November
+|[https://media.fom.ru/fom-bd/d45pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''13%'''||'''11%'''||4%||9%||15%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|3 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.6%'''||'''15.4%'''||'''12.6%'''||'''6.0%'''||10.6%||12.6%||8.9%
+|style="background:#0C2C84; color:white;"|17.2%
+|-
+|3 November
+|[https://media.fom.ru/fom-bd/d44pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''13%'''||'''12%'''||4%||9%||15%||14%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|27 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.9%'''||'''15.4%'''||'''11.7%'''||'''5.6%'''||10.6%||12.6%||8.8%
+|style="background:#0C2C84; color:white;"|18.5%
+|-
+|27 October
+|[https://media.fom.ru/fom-bd/d43pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''13%'''||'''12%'''||4%||10%||16%||13%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|20 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.3%'''||'''14.8%'''||'''12.6%'''||'''6.0%'''||11.2%||11.9%||8.8%
+|style="background:#0C2C84; color:white;"|18.5%
+|-
+|20 October
+|[https://media.fom.ru/fom-bd/d42pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''13%'''||4%||9%||16%||12%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|13 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.7%'''||'''16.0%'''||'''12.9%'''||'''6.0%'''||10.5%||11.5%||8.0%
+|style="background:#0C2C84; color:white;"|17.8%
+|-
+|13 October
+|[https://media.fom.ru/fom-bd/d41pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''13%'''||4%||8%||16%||13%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|6 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.4%'''||'''15.6%'''||'''12.4%'''||'''6.6%'''||10.8%||11.1%||8.6%
+|style="background:#0C2C84; color:white;"|17.8%
+|-
+|6 October
+|[https://media.fom.ru/fom-bd/d40pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''13%'''||'''5%'''||9%||15%||14%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|29 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.5%'''||'''15.3%'''||'''13.0%'''||'''5.9%'''||10.7%||12.0%||9.0%
+|style="background:#0C2C84; color:white;"|17.2%
+|-
+|29 September
+|[https://media.fom.ru/fom-bd/d39pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''13%'''||'''13%'''||4%||8%||16%||14%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|22 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.7%'''||'''15.8%'''||'''11.9%'''||'''6.0%'''||10.6%||12.2%||8.3%
+|style="background:#0C2C84; color:white;"|17.9%
+|-
+|22 September
+|[https://media.fom.ru/fom-bd/d38pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''13%'''||4%||8%||16%||12%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|15 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.6%'''||'''16.2%'''||'''12.3%'''||'''5.9%'''||10.7%||11.8%||8.4%
+|style="background:#0C2C84; color:white;"|17.4%
+|-
+|15 September
+|[https://media.fom.ru/fom-bd/d37pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''13%'''||4%||8%||16%||12%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|8 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.2%'''||'''15.8%'''||'''12.6%'''||'''6.3%'''||10.5%||12.6%||8.5%
+|style="background:#0C2C84; color:white;"|16.4%
+|-
+|8 September
+|[https://media.fom.ru/fom-bd/d36pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''12%'''||4%||9%||17%||12%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|rowspan=3|8 September
+|colspan=9|'''[[2019 Russian gubernatorial elections|Gubernatorial elections]] in 16 Federal Subjects (all won UR)'''
+|-
+|colspan=9|'''[[2019 Russian regional elections|Regional elections]] in 13 Federal Subjects (12 UR and 1 LDPR)'''
+|-
+|colspan=9|'''[[By-elections to the 7th Russian State Duma|By-elections]] in 4 constituencies (3 UR and 1 LDPR)'''
+|-
+|25 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.6%'''||'''14.6%'''||'''12.8%'''||'''5.7%'''||10.6%||13.3%||8.7%
+|style="background:#0C2C84; color:white;"|18.0%
+|-
+|25 August
+|[https://media.fom.ru/fom-bd/d34pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''13%'''||4%||9%||15%||12%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|18 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.5%'''||'''15.5%'''||'''12.6%'''||'''5.4%'''||10.6%||13.3%||8.6%
+|style="background:#0C2C84; color:white;"|17.0%
+|-
+|18 August
+|[https://media.fom.ru/fom-bd/d33pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''14%'''||4%||9%||15%||12%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|11 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''15.6%'''||'''11.9%'''||'''5.6%'''||10.3%||13.7%||8.3%
+|style="background:#0C2C84; color:white;"|17.4%
+|-
+|11 August
+|[https://media.fom.ru/fom-bd/d32pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''10%'''||'''14%'''||4%||10%||16%||12%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|4 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.4%'''||'''15.1%'''||'''12.9%'''||'''6.2%'''||10.2%||13.5%||8.2%
+|style="background:#0C2C84; color:white;"|17.3%
+|-
+|4 August
+|[https://media.fom.ru/fom-bd/d31pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''11%'''||'''13%'''||4%||8%||16%||12%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|28 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.5%'''||'''15.5%'''||'''12.2%'''||'''5.8%'''||10.2%||13.2%||7.9%
+|style="background:#0C2C84; color:white;"|18.0%
+|-
+|28 July
+|[https://media.fom.ru/fom-bd/d30pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''12%'''||4%||8%||15%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|24 July
+|[https://www.levada.ru/2019/08/14/vozmozhnoe-golosovanie-za-partii/ Levada Center]
+|style="background:#B3E0FF" |'''28%'''||'''11%'''||'''10%'''||2%||10%||11%||27%
+|style="background:#0C2C84; color:white;"|17%
+|-
+|21 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.0%'''||'''14.7%'''||'''12.6%'''||'''6.1%'''||9.8%||14.0%||8.2%
+|style="background:#0C2C84; color:white;"|18.3%
+|-
+|21 July
+|[https://media.fom.ru/fom-bd/d29pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''12%'''||'''5%'''||7%||15%||13%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|14 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.3%'''||'''15.8%'''||'''13.2%'''||'''6.1%'''||10.1%||13.1%||8.0%
+|style="background:#0C2C84; color:white;"|16.5%
+|-
+|14 July
+|[https://media.fom.ru/fom-bd/d28pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''12%'''||4%||8%||16%||11%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|7 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.2%'''||'''15.3%'''||'''13.0%'''||'''6.0%'''||10.1%||13.7%||8.0%
+|style="background:#0C2C84; color:white;"|16.9%
+|-
+|7 July
+|[https://media.fom.ru/fom-bd/d27pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''12%'''||4%||10%||16%||11%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|30 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.6%'''||'''15.1%'''||'''12.0%'''||'''6.3%'''||9.8%||13.0%||8.6%
+|style="background:#0C2C84; color:white;"|18.5%
+|-
+|30 June
+|[https://media.fom.ru/fom-bd/d26pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''11%'''||'''13%'''||'''5%'''||9%||16%||12%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|23 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.3%'''||'''14.6%'''||'''12.5%'''||'''5.9%'''||9.5%||13.1%||8.6%
+|style="background:#0C2C84; color:white;"|19.7%
+|-
+|23 June
+|[https://media.fom.ru/fom-bd/d25pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''11%'''||'''13%'''||4%||7%||17%||12%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|16 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.9%'''||'''15.4%'''||'''12.0%'''||'''6.5%'''||10.0%||12.7%||7.9%
+|style="background:#0C2C84; color:white;"|18.5%
+|-
+|16 June
+|[https://media.fom.ru/fom-bd/d24pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''12%'''||4%||8%||16%||12%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|9 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.7%'''||'''15.8%'''||'''12.0%'''||'''5.8%'''||10.1%||12.7%||8.4%
+|style="background:#0C2C84; color:white;"|17.9%
+|-
+|9 June
+|[http://bd.fom.ru/pdf/d23pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''12%'''||4%||8%||16%||11%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|2 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.3%'''||'''14.8%'''||'''12.5%'''||'''6.2%'''||9.5%||13.0%||8.4%
+|style="background:#0C2C84; color:white;"|19.5%
+|-
+|2 June
+|[http://bd.fom.ru/pdf/d22pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''12%'''||4%||8%||16%||11%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|26 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.5%'''||'''15.1%'''||'''12.1%'''||'''5.6%'''||9.5%||13.1%||8.4%
+|style="background:#0C2C84; color:white;"|19.4%
+|-
+|26 May
+|[http://bd.fom.ru/pdf/d21pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''12%'''||4%||8%||16%||12%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|19 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.7%'''||'''15.3%'''||'''11.2%'''||'''5.7%'''||10.2%||13.3%||8.1%
+|style="background:#0C2C84; color:white;"|19.4%
+|-
+|19 May
+|[http://bd.fom.ru/pdf/d20pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''36%'''||'''13%'''||'''12%'''||4%||8%||16%||11%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|12 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.0%'''||'''14.7%'''||'''12.0%'''||'''6.1%'''||9.2%||13.5%||7.9%
+|style="background:#0C2C84; color:white;"|20.3%
+|-
+|12 May
+|[http://bd.fom.ru/pdf/d19pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''36%'''||'''13%'''||'''11%'''||3%||8%||15%||12%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|5 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.5%'''||'''15.3%'''||'''11.9%'''||'''6.2%'''||9.5%||12.9%||8.2%
+|style="background:#0C2C84; color:white;"|19.2%
+|-
+|29 April
+|[https://www.levada.ru/2019/05/31/moskvichi-o-vlasti-i-politikah-2/ Levada Center]
+|style="background:#B3E0FF" |'''32%'''||'''10%'''||'''10%'''||3%||14%||13%||20%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|28 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.0%'''||'''16.3%'''||'''12.9%'''||'''6.6%'''||9.1%||12.5%||6.9%
+|style="background:#0C2C84; color:white;"|17.7%
+|-
+|28 April
+|[http://bd.fom.ru/pdf/d17pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''12%'''||4%||8%||17%||12%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|21 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.6%'''||'''15.6%'''||'''11.8%'''||'''6.1%'''||10.0%||12.7%||7.9%
+|style="background:#0C2C84; color:white;"|19.0%
+|-
+|21 April
+|[http://bd.fom.ru/pdf/d16pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''12%'''||3%||7%||15%||12%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|14 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.1%'''||'''15.8%'''||'''12.0%'''||'''6.1%'''||9.7%||12.8%||7.4%
+|style="background:#0C2C84; color:white;"|19.3%
+|-
+|14 April
+|[http://bd.fom.ru/pdf/d15pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''12%'''||3%||10%||17%||11%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|7 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.5%'''||'''15.1%'''||'''11.5%'''||'''5.9%'''||9.5%||12.7%||8.5%
+|style="background:#0C2C84; color:white;"|20.4%
+|-
+|7 April
+|[http://bd.fom.ru/pdf/d14pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''13%'''||'''12%'''||3%||10%||17%||11%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|31 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.6%'''||'''15.0%'''||'''12.2%'''||'''6.1%'''||9.7%||12.6%||7.3%
+|style="background:#0C2C84; color:white;"|20.6%
+|-
+|31 March
+|[http://bd.fom.ru/pdf/d13pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''13%'''||'''12%'''||3%||10%||16%||12%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|24 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''37.1%'''||'''15.3%'''||'''10.8%'''||'''5.6%'''||8.4%||12.6%||8.6%
+|style="background:#0C2C84; color:white;"|21.8%
+|-
+|24 March
+|[http://bd.fom.ru/pdf/d12pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||4%||5%||16%||13%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|17 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.8%'''||'''16.5%'''||'''11.3%'''||'''6.6%'''||9.1%||12.3%||7.8%
+|style="background:#0C2C84; color:white;"|18.3%
+|-
+|17 March
+|[http://bd.fom.ru/pdf/d11pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''13%'''||'''11%'''||4%||5%||17%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|10 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.6%'''||'''16.1%'''||'''11.7%'''||'''5.5%'''||9.3%||12.9%||8.2%
+|style="background:#0C2C84; color:white;"|18.5%
+|-
+|10 March
+|[http://bd.fom.ru/pdf/d10pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''11%'''||4%||7%||17%||13%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|3 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.4%'''||'''15.3%'''||'''11.4%'''||'''6.1%'''||8.9%||12.9%||8.2%
+|style="background:#0C2C84; color:white;"|20.1%
+|-
+|3 March
+|[http://bd.fom.ru/pdf/d09pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''11%'''||4%||7%||17%||12%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|24 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.2%'''||'''14.9%'''||'''12.1%'''||'''5.3%'''||9.1%||13.5%||8.5%
+|style="background:#0C2C84; color:white;"|20.3%
+|-
+|24 February
+|[http://bd.fom.ru/pdf/d08pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||4%||7%||16%||13%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|17 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.2%'''||'''15.8%'''||'''12.7%'''||'''6.2%'''||9.1%||12.4%||9.1%
+|style="background:#0C2C84; color:white;"|17.4%
+|-
+|17 February
+|[http://bd.fom.ru/pdf/d07pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''13%'''||'''12%'''||4%||6%||17%||13%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|10 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.2%'''||'''16.0%'''||'''13.3%'''||'''5.9%'''||9.0%||12.6%||8.5%
+|style="background:#0C2C84; color:white;"|17.2%
+|-
+|10 February
+|[http://bd.fom.ru/pdf/d06pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''12%'''||4%||6%||17%||12%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|3 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.9%'''||'''15.9%'''||'''12.3%'''||'''6.3%'''||9.4%||12.5%||9.0%
+|style="background:#0C2C84; color:white;"|17.0%
+|-
+|3 February
+|[http://bd.fom.ru/pdf/d05pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''14%'''||'''12%'''||3%||5%||18%||14%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|27 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.3%'''||'''16.2%'''||'''13.4%'''||'''6.0%'''||9.2%||12.0%||9.2%
+|style="background:#0C2C84; color:white;"|16.1%
+|-
+|27 January
+|[http://bd.fom.ru/pdf/d04pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''11%'''||3%||5%||19%||14%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|20 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''32.7%'''||'''16.3%'''||'''12.0%'''||'''6.3%'''||9.7%||11.6%||10.0%
+|style="background:#0C2C84; color:white;"|16.4%
+|-
+|20 January
+|[http://bd.fom.ru/pdf/d03pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''11%'''||4%||5%||19%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|13 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.8%'''||'''16.3%'''||'''11.8%'''||'''6.0%'''||8.8%||12.6%||9.2%
+|style="background:#0C2C84; color:white;"|17.5%
+|-
+|13 January
+|[http://bd.fom.ru/pdf/d02pi2019.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''13%'''||3%||5%||18%||13%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|style="background:#D5D5D5"|{{nowrap|''18 September 2016''}}
+|style="background:#D5D5D5"|{{nowrap|''[[2016 Russian legislative election|Election result]]''}}
+|style="background:#B3E0FF" |'''''54.20%'''''||style="background:#D5D5D5"|'''''13.34%'''''||style="background:#D5D5D5"|'''''13.14%'''''||style="background:#D5D5D5"|'''''6.22%'''''||style="background:#D5D5D5"|''11.23%''||style="background:#D5D5D5"| ||style="background:#D5D5D5"|
+|style="background:#0C2C84; color:white;"|''40.86%''
+|}
+===2018===
+{|class=wikitable style="font-size:95%; line-height:14px; text-align:center"
+!style=width:200px; rowspan=2|Date
+!style=width:150px; rowspan=2|Poll source
+! style="width:60px;"| [[United Russia|UR]]
+! style="width:60px;"| [[Communist Party of the Russian Federation|CPRF]]
+! style="width:60px;"| [[Liberal Democratic Party of Russia|LDPR]]
+! style="width:60px;"| [[A Just Russia|JR]]
+!style="width:60px;" rowspan=2|Other
+!style="width:60px;" rowspan=2|Undecided
+!style="width:60px;" rowspan=2|Abstention
+!style="width:60px;" rowspan="2"|Lead
+|-
+|bgcolor={{United Russia/meta/color}}|
+|bgcolor={{Communist Party of the Russian Federation/meta/color}}|
+|bgcolor={{Liberal Democratic Party of Russia/meta/color}}|
+|bgcolor={{A Just Russia/meta/color}}|
+|-
+|29 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.6%'''||'''15.8%'''||'''12.1%'''||'''6.3%'''||9.4%||11.8%||7.5%
+|style="background:#0C2C84; color:white;"|19.8%
+|-
+|23 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.2%'''||'''15.5%'''||'''11.8%'''||'''6.5%'''||9.4%||12.1%||8.0%
+|style="background:#0C2C84; color:white;"|19.7%
+|-
+|23 December
+|[http://bd.fom.ru/pdf/d51pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||4%||5%||17%||13%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|22 December
+|[http://cipkr.ru/2018/12/26/rossijskoe-obshhestvo-v-novoj-politicheskoj-realnosti-itogi-2018-i-perspektivy-doklad-tsipkr/ CIPKR]
+|style="background:#B3E0FF" |'''33%'''||'''18%'''||'''10%'''||'''6%'''||18%||9%||6%
+|style="background:#0C2C84; color:white;"|15%
+|-
+|16 December
+|colspan=9|'''[[December 2018 Primorsky Krai gubernatorial election|Gubernatorial recall election in Primorsky Krai]] (won UR)'''
+|-
+|16 December
+|[http://bd.fom.ru/pdf/d50pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''14%'''||'''11%'''||3%||6%||18%||12%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|16 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.2%'''||'''15.5%'''||'''11.7%'''||'''5.5%'''||9.1%||11.8%||8.6%
+|style="background:#0C2C84; color:white;"|20.7%
+|-
+|9 December
+|[http://bd.fom.ru/pdf/d49pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''14%'''||'''10%'''||4%||6%||16%||14%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|9 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.6%'''||'''15.3%'''||'''11.1%'''||'''5.9%'''||8.2%||12.7%||8.7%
+|style="background:#0C2C84; color:white;"|21.3%
+|-
+|2 December
+|[http://bd.fom.ru/pdf/d48pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''14%'''||'''11%'''||3%||5%||17%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|2 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.4%'''||'''15.5%'''||'''10.9%'''||'''5.6%'''||9.4%||12.8%||8.8%
+|style="background:#0C2C84; color:white;"|19.9%
+|-
+|25 November
+|[http://bd.fom.ru/pdf/d47pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''14%'''||'''11%'''||3%||4%||16%||15%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|25 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''33.9%'''||'''16.7%'''||'''11.5%'''||'''6.1%'''||9.3%||12.3%||8.5%
+|style="background:#0C2C84; color:white;"|17.2%
+|-
+|18 November
+|[http://bd.fom.ru/pdf/d46pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''14%'''||'''12%'''||3%||3%||18%||14%
+|style="background:#0C2C84; color:white;"|18%
+|-
+|18 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.7%'''||'''16.4%'''||'''10.7%'''||'''5.6%'''||8.7%||12.2%||8.6%
+|style="background:#0C2C84; color:white;"|19.3%
+|-
+|11 November
+|[http://bd.fom.ru/pdf/d45pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||4%||6%||17%||13%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|11 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.7%'''||'''15.5%'''||'''10.9%'''||'''5.9%'''||8.3%||12.2%||8.7%
+|style="background:#0C2C84; color:white;"|21.2%
+|-
+|11 November
+|colspan=9|'''Second round of [[2018 Khakassia head election|gubernatorial election in Khakassia]] (won CPRF)'''
+|-
+|4 November
+|[http://bd.fom.ru/pdf/d44pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''12%'''||3%||3%||16%||13%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|28 October
+|[http://bd.fom.ru/pdf/d43pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''12%'''||4%||4%||16%||14%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|28 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.3%'''||'''16.1%'''||'''11.5%'''||'''5.5%'''||8.7%||12.3%||8.1%
+|style="background:#0C2C84; color:white;"|20.2%
+|-
+|28 October
+|colspan=9|'''[[Sergey Mironov]] is re-elected as the leader of [[A Just Russia]]'''
+|-
+|21 October
+|[http://bd.fom.ru/pdf/d42pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''12%'''||3%||4%||15%||14%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|21 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.7%'''||'''16.5%'''||'''11.6%'''||'''5.8%'''||8.3%||11.2%||8.5%
+|style="background:#0C2C84; color:white;"|20.2%
+|-
+|14 October
+|[http://bd.fom.ru/pdf/d41pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''14%'''||'''12%'''||4%||4%||16%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|14 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.7%'''||'''16.4%'''||'''11.4%'''||'''5.7%'''||8.4%||11.4%||8.4%
+|style="background:#0C2C84; color:white;"|20.3%
+|-
+|7 October
+|[http://bd.fom.ru/pdf/d40pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''13%'''||'''13%'''||3%||7%||16%||14%
+|style="background:#0C2C84; color:white;"|19%
+|-
+|7 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.9%'''||'''15.8%'''||'''12.6%'''||'''6.3%'''||8.4%||11.7%||8.8%
+|style="background:#0C2C84; color:white;"|19.1%
+|-
+|30 September
+|[http://bd.fom.ru/pdf/d39pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''31%'''||'''14%'''||'''14%'''||4%||6%||15%||14%
+|style="background:#0C2C84; color:white;"|17%
+|-
+|30 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.5%'''||'''17.6%'''||'''12.0%'''||'''6.1%'''||8.1%||12.2%||8.1%
+|style="background:#0C2C84; color:white;"|16.9%
+|-
+|23 September
+|[http://bd.fom.ru/pdf/d38pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''13%'''||'''13%'''||3%||4%||17%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|23 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.5%'''||'''17.5%'''||'''11.2%'''||'''5.6%'''||8.3%||11.8%||8.4%
+|style="background:#0C2C84; color:white;"|18.0%
+|-
+|23 September
+|colspan=9|'''Second round of gubernatorial elections in [[2018 Khabarovsk Krai gubernatorial election|Khabarovsk Krai]] and [[2018 Vladimir Oblast gubernatorial election|Vladimir Oblast]] (both won LDPR)'''
+|-
+|16 September
+|[http://bd.fom.ru/pdf/d37pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''12%'''||4%||4%||15%||14%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|16 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.6%'''||'''17.0%'''||'''10.8%'''||'''6.2%'''||8.3%||11.4%||8.5%
+|style="background:#0C2C84; color:white;"|19.6%
+|-
+|16 September
+|colspan=9|'''Second round of [[September 2018 Primorsky Krai gubernatorial election|gubernatorial election in Primorsky Krai]] (won UR, but result was annulled)'''
+|-
+|9 September
+|[http://bd.fom.ru/pdf/d36pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''13%'''||'''11%'''||3%||4%||17%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|9 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.3%'''||'''16.2%'''||'''11.2%'''||'''6.7%'''||7.8%||13.0%||8.5%
+|style="background:#0C2C84; color:white;"|19.2%
+|-
+|rowspan=3|9 September
+|colspan=9|'''[[2018 Russian gubernatorial elections|Gubernatorial elections]] in 26 Federal Subjects (20 UR, 1 CPRF and 1 JR)'''
+|-
+|colspan=9|'''[[2018 Russian regional elections|Regional elections]] in sixteen Federal Subjects (13 UR and 3 CPRF)'''
+|-
+|colspan=9|'''[[By-elections to the 7th Russian State Duma|By-elections]] in seven constituencies (5 UR, 1 CPRF and 1 LDPR)'''
+|-
+|2 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.3%'''||'''14.7%'''||'''11.3%'''||'''6.2%'''||8.3%||13.5%||8.3%
+|style="background:#0C2C84; color:white;"|21.6%
+|-
+|2 September
+|[http://bd.fom.ru/pdf/d35pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''11%'''||4%||3%||17%||12%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|30 August
+|[https://www.levada.ru/2018/09/17/partijnye-rejtingi/ Levada Center]
+|style="background:#B3E0FF" |'''28%'''||'''9%'''||'''11%'''||3%||9%||13%||22%
+|style="background:#0C2C84; color:white;"|17%
+|-
+|26 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.6%'''||'''14.9%'''||'''11.6%'''||'''6.4%'''||7.7%||13.5%||7.9%
+|style="background:#0C2C84; color:white;"|21.7%
+|-
+|26 August
+|[http://bd.fom.ru/pdf/d34pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''13%'''||'''11%'''||4%||4%||17%||13%
+|style="background:#0C2C84; color:white;"|21%
+|-
+|19 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''36.1%'''||'''15.3%'''||'''11.1%'''||'''5.9%'''||7.7%||13.5%||9.0%
+|style="background:#0C2C84; color:white;"|20.8%
+|-
+|19 August
+|[http://bd.fom.ru/pdf/d33pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''12%'''||'''12%'''||4%||3%||17%||14%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|12 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.3%'''||'''14.7%'''||'''11.4%'''||'''6.2%'''||7.8%||14.4%||9.0%
+|style="background:#0C2C84; color:white;"|20.6%
+|-
+|12 August
+|[http://bd.fom.ru/pdf/d32pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''34%'''||'''12%'''||'''12%'''||4%||4%||18%||13%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|9 August
+|[http://cipkr.ru/2018/08/09/pensionnaya-reforma-i-shansy-partij-na-regionalnyh-vyborah-9-sentyabrya-2018-goda-doklad-tsipkr-po-itogam-vserossijskogo-ekspress-oprosa-obshhestvennogo-mneniya/ CIPKR]
+|style="background:#B3E0FF" |'''25%'''||'''18%'''||'''13%'''||'''6%'''||17%||10%||8%
+|style="background:#0C2C84; color:white;"|7%
+|-
+|5 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''34.9%'''||'''15.8%'''||'''11.8%'''||'''6.3%'''||7.9%||13.4%||8.7%
+|style="background:#0C2C84; color:white;"|19.1%
+|-
+|5 August
+|[http://bd.fom.ru/pdf/d31pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''12%'''||3%||6%||16%||15%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|29 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''35.0%'''||'''15.6%'''||'''10.9%'''||'''6.2%'''||7.9%||14.2%||8.9%
+|style="background:#0C2C84; color:white;"|19.4%
+|-
+|29 July
+|[http://bd.fom.ru/pdf/d30pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||4%||3%||19%||13%
+|style="background:#0C2C84; color:white;"|20%
+|-
+|22 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''37.1%'''||'''15.5%'''||'''10.7%'''||'''5.8%'''||7.6%||13.2%||8.8%
+|style="background:#0C2C84; color:white;"|21.6%
+|-
+|22 July
+|[http://bd.fom.ru/pdf/d29pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''12%'''||3%||3%||16%||14%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|15 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''38.6%'''||'''14.4%'''||'''10.2%'''||'''6.0%'''||8.9%||13.1%||8.7%
+|style="background:#0C2C84; color:white;"|24.2%
+|-
+|15 July
+|[http://bd.fom.ru/pdf/d28pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''37%'''||'''12%'''||'''10%'''||4%||4%||16%||13%
+|style="background:#0C2C84; color:white;"|25%
+|-
+|8 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''38.8%'''||'''13.6%'''||'''10.3%'''||'''5.9%'''||8.2%||13.5%||8.6%
+|style="background:#0C2C84; color:white;"|25.2%
+|-
+|8 July
+|[http://bd.fom.ru/pdf/d27pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''36%'''||'''12%'''||'''11%'''||4%||6%||17%||13%
+|style="background:#0C2C84; color:white;"|24%
+|-
+|1 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''38.1%'''||'''14.5%'''||'''10.5%'''||'''5.7%'''||7.6%||13.5%||8.8%
+|style="background:#0C2C84; color:white;"|23.6%
+|-
+|1 July
+|[http://bd.fom.ru/pdf/d26pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''36%'''||'''13%'''||'''11%'''||4%||3%||16%||14%
+|style="background:#0C2C84; color:white;"|23%
+|-
+|24 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''38.7%'''||'''14.5%'''||'''10.3%'''||'''5.7%'''||8.1%||13.3%||8.3%
+|style="background:#0C2C84; color:white;"|24.2%
+|-
+|24 June
+|[http://bd.fom.ru/pdf/d25pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''35%'''||'''13%'''||'''11%'''||4%||5%||17%||13%
+|style="background:#0C2C84; color:white;"|22%
+|-
+|17 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''45.9%'''||'''11.8%'''||'''9.5%'''||4.9%||6.9%||13.1%||6.9%
+|style="background:#0C2C84; color:white;"|34.1%
+|-
+|17 June
+|[http://bd.fom.ru/pdf/d24pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''38%'''||'''12%'''||'''10%'''||4%||4%||17%||13%
+|style="background:#0C2C84; color:white;"|26%
+|-
+|-
+|14 June
+|colspan=9|'''[[Dmitry Medvedev]] announces government's intention to increase the retirement age (from 55/60 to 63/65)'''
+|-
+|10 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''47.8%'''||'''11.1%'''||'''8.3%'''||4.6%||7.0%||12.7%||7.6%
+|style="background:#0C2C84; color:white;"|36.7%
+|-
+|10 June
+|[http://bd.fom.ru/pdf/d24pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''45%'''||'''9%'''||'''8%'''||3%||5%||16%||12%
+|style="background:#0C2C84; color:white;"|36%
+|-
+|3 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.9%'''||'''10.8%'''||'''8.7%'''||4.9%||6.9%||11.8%||7.1%
+|style="background:#0C2C84; color:white;"|38.1%
+|-
+|3 June
+|[http://bd.fom.ru/pdf/d24pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''42%'''||'''10%'''||'''10%'''||3%||4%||16%||13%
+|style="background:#0C2C84; color:white;"|32%
+|-
+|27 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.3%'''||'''10.2%'''||'''8.6%'''||4.7%||6.6%||12.1%||7.6%
+|style="background:#0C2C84; color:white;"|39.1%
+|-
+|27 May
+|[http://bd.fom.ru/pdf/d21pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''46%'''||'''9%'''||'''9%'''||2%||3%||16%||11%
+|style="background:#0C2C84; color:white;"|37%
+|-
+|20 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.9%'''||'''10.8%'''||'''8.1%'''||4.8%||6.6%||11.5%||7.2%
+|style="background:#0C2C84; color:white;"|39.1%
+|-
+|20 May
+|[http://bd.fom.ru/pdf/d20pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''47%'''||'''10%'''||'''8%'''||4%||4%||15%||10%
+|style="background:#0C2C84; color:white;"|37%
+|-
+|13 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.9%'''||'''10.4%'''||'''7.7%'''||4.8%||6.5%||12.3%||7.2%
+|style="background:#0C2C84; color:white;"|39.5%
+|-
+|13 May
+|[http://bd.fom.ru/pdf/d20pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''46%'''||'''9%'''||'''9%'''||3%||5%||15%||11%
+|style="background:#0C2C84; color:white;"|37%
+|-
+|8 May
+|colspan=9|'''[[Dmitry Medvedev]] re-approved as [[Prime Minister of Russia|Prime Minister]]'''
+|-
+|6 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.7%'''||'''9.3%'''||'''7.8%'''||4.7%||6.5%||12.1%||7.9%
+|style="background:#0C2C84; color:white;"|41.4%
+|-
+|29 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.9%'''||'''9.7%'''||'''8.4%'''||3.4%||7.0%||13.0%||7.5%
+|style="background:#0C2C84; color:white;"|40.2%
+|-
+|22 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.4%'''||'''10.3%'''||'''8.2%'''||3.8%||6.6%||13.9%||7.2%
+|style="background:#0C2C84; color:white;"|39.1%
+|-
+|15 April
+|[http://bd.fom.ru/pdf/d15pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''47%'''||'''9%'''||'''8%'''||2%||3%||17%||11%
+|style="background:#0C2C84; color:white;"|38%
+|-
+|15 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.8%'''||'''10.7%'''||'''7.8%'''||2.9%||6.7%||14.8%||7.3%
+|style="background:#0C2C84; color:white;"|38.1%
+|-
+|8 April
+|[http://bd.fom.ru/pdf/d14pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''47%'''||'''9%'''||'''8%'''||2%||3%||16%||12%
+|style="background:#0C2C84; color:white;"|38%
+|-
+|8 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.5%'''||'''10.6%'''||'''7.9%'''||3.5%||7.1%||13.9%||6.7%
+|style="background:#0C2C84; color:white;"|38.9%
+|-
+|1 April
+|[http://bd.fom.ru/pdf/d13pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''47%'''||'''10%'''||'''7%'''||2%||4%||18%||9%
+|style="background:#0C2C84; color:white;"|37%
+|-
+|1 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.8%'''||'''10.7%'''||'''7.8%'''||3.5%||7.1%||12.8%||6.5%
+|style="background:#0C2C84; color:white;"|40.1%
+|-
+|25 March
+|[http://bd.fom.ru/pdf/d13pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''53%'''||'''9%'''||'''6%'''||1%||4%||17%||9%
+|style="background:#0C2C84; color:white;"|44%
+|-
+|25 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.5%'''||'''11.4%'''||'''7.8%'''||3.8%||6.6%||12.1%||6.1%
+|style="background:#0C2C84; color:white;"|39.7%
+|-
+|18 March
+|colspan=9|'''[[Vladimir Putin]] (independent, support by UR and JR) won the [[2018 Russian presidential election|presidential election]]'''
+|-
+|17 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.2%'''||'''8.5%'''||'''8.4%'''||3.1%||6.3%||15.2%||5.3%
+|style="background:#0C2C84; color:white;"|43.7%
+|-
+|11 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.4%'''||'''9.1%'''||'''8.3%'''||2.5%||5.6%||16.2%||6.2%
+|style="background:#0C2C84; color:white;"|42.3%
+|-
+|11 March
+|[http://bd.fom.ru/pdf/d10pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''50%'''||'''8%'''||'''8%'''||2%||4%||17%||8%
+|style="background:#0C2C84; color:white;"|42%
+|-
+|4 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.0%'''||'''9.4%'''||'''8.8%'''||2.7%||5.7%||14.8%||5.9%
+|style="background:#0C2C84; color:white;"|42.6%
+|-
+|4 March
+|[http://bd.fom.ru/pdf/d09pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''51%'''||'''8%'''||'''9%'''||2%||4%||17%||8%
+|style="background:#0C2C84; color:white;"|42%
+|-
+|25 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.6%'''||'''9.5%'''||'''10.1%'''||3.0%||5.4%||14.5%||6.0%
+|style="background:#0C2C84; color:white;"|41.2%
+|-
+|25 February
+|[http://bd.fom.ru/pdf/d09pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''49%'''||'''9%'''||'''10%'''||2%||4%||16%||7%
+|style="background:#0C2C84; color:white;"|39%
+|-
+|18-25 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.5%'''||'''10.1%'''||'''8.9%'''||3.8%||5.9%||14.8%||6.3%
+|style="background:#0C2C84; color:white;"|39.4%
+|-
+|18 February
+|[http://bd.fom.ru/pdf/d09pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''50%'''||'''9%'''||'''9%'''||2%||3%||15%||9%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|4–11 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.8%'''||'''9.6%'''||'''8.7%'''||3.2%||5.4%||15.1%||6.5%
+|style="background:#0C2C84; color:white;"|41.2%
+|-
+|10–11 February
+|[http://bd.fom.ru/pdf/d06pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''51%'''||'''8%'''||'''9%'''||3%||4%||16%||8%
+|style="background:#0C2C84; color:white;"|42%
+|-
+|28 January–4 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.0%'''||'''9.5%'''||'''10.4%'''||3.8%||5.6%||12.9%||7.1%
+|style="background:#0C2C84; color:white;"|39.6%
+|-
+|3–4 February
+|[http://bd.fom.ru/pdf/d04pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''51%'''||'''9%'''||'''9%'''||3%||6%||14%||7%
+|style="background:#0C2C84; color:white;"|42%
+|-
+|21–28 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.4%'''||'''10.0%'''||'''9.1%'''||4.2%||5.6%||14.1%||6.8%
+|style="background:#0C2C84; color:white;"|39.4%
+|-
+|27–28 January
+|[http://bd.fom.ru/pdf/d04pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''53%'''||'''8%'''||'''8%'''||2%||5%||15%||8%
+|style="background:#0C2C84; color:white;"|45%
+|-
+|20–21 January
+|[http://bd.fom.ru/pdf/d03pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''50%'''||'''8%'''||'''8%'''||2%||4%||16%||9%
+|style="background:#0C2C84; color:white;"|42%
+|-
+|14–21 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.3%'''||'''10.0%'''||'''8.7%'''||3.4%||5.8%||8.1%||10.7%
+|style="background:#0C2C84; color:white;"|42.3%
+|-
+|13–14 January
+|[http://bd.fom.ru/pdf/d02pi2018.pdf FOM]
+|style="background:#B3E0FF" |'''50%'''||'''9%'''||'''7%'''||3%||7%||16%||9%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|7–14 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''53.2%'''||'''10.5%'''||'''9.5%'''||3.8%||5.2%||7.7%||9.3%
+|style="background:#0C2C84; color:white;"|42.7%
+|-
+|style="background:#D5D5D5"|{{nowrap|''18 September 2016''}}
+|style="background:#D5D5D5"|{{nowrap|''[[2016 Russian legislative election|Election result]]''}}
+|style="background:#B3E0FF" |'''''54.20%'''''||style="background:#D5D5D5"|'''''13.34%'''''||style="background:#D5D5D5"|'''''13.14%'''''||style="background:#D5D5D5"|'''''6.22%'''''||style="background:#D5D5D5"|''11.23%''||style="background:#D5D5D5"| ||style="background:#D5D5D5"|
+|style="background:#0C2C84; color:white;"|''40.86%''
+|}
+===2017===
+{|class=wikitable style="font-size:95%; line-height:14px; text-align:center"
+!style=width:200px; rowspan=2|Date
+!style=width:150px; rowspan=2|Poll source
+!style=width:60px|[[United Russia|UR]]
+!style=width:60px|[[Communist Party of the Russian Federation|CPRF]]
+!style=width:60px|[[Liberal Democratic Party of Russia|LDPR]]
+!style=width:60px|[[A Just Russia|JR]]
+!style="width:60px;" rowspan=2|Other
+!style="width:60px;" rowspan=2|Undecided
+!style="width:60px;" rowspan=2|Abstention
+!style="width:60px;" rowspan="2"|Lead
+|-
+|bgcolor={{United Russia/meta/color}}|
+|bgcolor={{Communist Party of the Russian Federation/meta/color}}|
+|bgcolor={{Liberal Democratic Party of Russia/meta/color}}|
+|bgcolor={{A Just Russia/meta/color}}|
+|-
+|24–29 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.6%'''||'''11.0%'''||'''10.2%'''||4.3%||5.0%||7.6%||9.3%
+|style="background:#0C2C84; color:white;"|41.9%
+|-
+|25 December
+|colspan=9|'''[[A Just Russia]] supports Putin's presidential bid'''
+|-
+|17–24 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.3%'''||'''9.2%'''||'''10.4%'''||4.6%||5.9%||7.1%||9.7%
+|style="background:#0C2C84; color:white;"|41.9%
+|-
+|23–24 December
+|[http://bd.fom.ru/pdf/d51pi2017.pdf FOM]
+|style="background:#B3E0FF" |'''51%'''||'''8%'''||'''9%'''||3%||5%||15%||8%
+|style="background:#0C2C84; color:white;"|42%
+|-
+|rowspan=2|23 December
+|colspan=9|'''[[United Russia]] supports Putin's presidential bid'''
+|-
+|colspan=9|'''[[Pavel Grudinin]] nominated as presidential candidate from the [[Communist Party of the Russian Federation|Communist Party]]'''
+|-
+|20 December
+|colspan=9|'''[[Vladimir Zhirinovsky]] nominated as presidential candidate from the [[Liberal Democratic Party of Russia|Liberal Democratic Party]]'''
+|-
+|16–17 December
+|[http://bd.fom.ru/pdf/d50oi2017.pdf FOM]
+|style="background:#B3E0FF" |'''51%'''||'''7%'''||'''10%'''||3%||6%||14%||8%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|10–17 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''54.4%'''||'''8.5%'''||'''9.2%'''||3.9%||5.8%||6.7%||10.6%
+|style="background:#0C2C84; color:white;"|45.2%
+|-
+|14 December
+|colspan=9|'''[[Vladimir Putin]] said that he will run for president as [[Independent politician|independent]] candidate'''
+|-
+|3–11 December
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''8%'''||'''10%'''||2%||4%||13%||8%
+|style="background:#0C2C84; color:white;"|40%
+|-
+|3–10 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''53.8%'''||'''7.6%'''||'''10.0%'''||4.3%||5.5%||6.3%||11.1%
+|style="background:#0C2C84; color:white;"|43.8%
+|-
+|8 December
+|[http://cipkr.ru/2017/12/08/kprf-i-massovoe-soznanie-problemy-liderskogo-potentsiala-poisk-obraza-partii-i-partijnye-perspektivy/ CIPKR]
+|style="background:#B3E0FF" |'''44%'''||'''11%'''||'''9%'''||4%||2%||15%||10%
+|style="background:#0C2C84; color:white;"|33%
+|-
+|1–5 December
+|[https://www.levada.ru/2017/12/12/elektoralnye-rejtingi-partij-3/ Levada Centre]
+|style="background:#B3E0FF" |'''37%'''||'''9%'''||'''10%'''||3%||7%||17%||12%
+|style="background:#0C2C84; color:white;"|27%
+|-
+|27 November–3 December
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''51%'''||'''8%'''||'''9%'''||3%||3%||13%||9%
+|style="background:#0C2C84; color:white;"|42%
+|-
+|26 November–3 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.2%'''||'''9.4%'''||'''10.1%'''||4.6%||5.5%||6.4%||11.0%
+|style="background:#0C2C84; color:white;"|42.1%
+|-
+|17–27 November
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''8%'''||'''9%'''||3%||6%||14%||9%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|19–26 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.3%'''||'''8.6%'''||'''10.4%'''||4.9%||6.5%||5.6%||10.9%
+|style="background:#0C2C84; color:white;"|41.9%
+|-
+|12–19 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.1%'''||'''9.6%'''||'''9.4%'''||4.2%||5.1%||6.9%||11.8%
+|style="background:#0C2C84; color:white;"|42.5%
+|-
+|14–17 November
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''9%'''||'''9%'''||3%||4%||13%||10%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|5–12 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.1%'''||'''9.2%'''||'''9.5%'''||'''5.3%'''||5.5%||6.8%||10.7%
+|style="background:#0C2C84; color:white;"|42.6%
+|-
+|3–14 November
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''9%'''||'''9%'''||3%||5%||13%||9%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|29 October–5 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''53.4%'''||'''8.2%'''||'''10.0%'''||'''5.1%'''||5.2%||6.2%||10.9%
+|style="background:#0C2C84; color:white;"|43.4%
+|-
+|30 October–3 November
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''8%'''||'''9%'''||4%||5%||13%||9%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|22–29 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.8%'''||'''9.0%'''||'''10.1%'''||'''5.0%'''||5.5%||6.5%||11.1%
+|style="background:#0C2C84; color:white;"|41.7%
+|-
+|20–30 October
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''7%'''||'''10%'''||'''5%'''||5%||12%||10%
+|style="background:#0C2C84; color:white;"|40%
+|-
+|15–22 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.0%'''||'''9.2%'''||'''9.7%'''||4.4%||6.2%||6.3%||11.4%
+|style="background:#0C2C84; color:white;"|42.3%
+|-
+|13–20 October
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''8%'''||'''11%'''||4%||4%||12%||10%
+|style="background:#0C2C84; color:white;"|38%
+|-
+|8-15 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.8%'''||'''8.7%'''||'''10.1%'''||'''5.0%'''||5.3%||7.1%||12.2%
+|style="background:#0C2C84; color:white;"|40.7%
+|-
+|6–13 October
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''9%'''||'''11%'''||4%||3%||12%||9%
+|style="background:#0C2C84; color:white;"|38%
+|-
+|1–8 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.7%'''||'''9.4%'''||'''9.8%'''||4.6%||5.9%||6.3%||12.5%
+|style="background:#0C2C84; color:white;"|40.9%
+|-
+|3–6 October
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''9%'''||'''10%'''||4%||6%||12%||9%
+|style="background:#0C2C84; color:white;"|40%
+|-
+|27 September–3 October
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''50%'''||'''8%'''||'''9%'''||4%||5%||13%||9%
+|style="background:#0C2C84; color:white;"|41%
+|-
+|24 September–1 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.0%'''||'''8.9%'''||'''9.2%'''||'''5.5%'''||6.5%||5.9%||11.6%
+|style="background:#0C2C84; color:white;"|41.8%
+|-
+|18–27 September
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''9%'''||'''10%'''||4%||4%||14%||9%
+|style="background:#0C2C84; color:white;"|39%
+|-
+|17–24 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.7%'''||'''9.1%'''||'''9.4%'''||'''5.2%'''||5.5%||6.0%||12.2%
+|style="background:#0C2C84; color:white;"|42.3%
+|-
+|8–18 September
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''9%'''||'''11%'''||4%||4%||12%||9%
+|style="background:#0C2C84; color:white;"|40%
+|-
+|10–17 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.9%'''||'''8.6%'''||'''9.5%'''||3.8%||5.8%||5.4%||12.7%
+|style="background:#0C2C84; color:white;"|43.4%
+|-
+|rowspan=3|10 September
+|colspan=9|'''[[2017 Russian gubernatorial elections|Gubernatorial elections]] in 17 Federal Subjects (all won UR)'''
+|-
+|colspan=9|'''[[2017 Russian regional elections|Regional elections]] in six Federal Subjects (all won UR)'''
+|-
+|colspan=9|'''[[By-elections to the 7th Russian State Duma|By-elections]] in [[2017 Bryansk's Constituency by-election|Bryansk]] (won LDPR) and [[2017 Kingisepp's Constituency by-election|Kingisepp]] (won UR) constituencies'''
+|-
+|3–10 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''52.1%'''||'''9.0%'''||'''10.0%'''||4.5%||5.5%||7.3%||10.8%
+|style="background:#0C2C84; color:white;"|42.1%
+|-
+|29 August–8 September
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''8%'''||'''11%'''||4%||5%||12%||10%
+|style="background:#0C2C84; color:white;"|38%
+|-
+|27 August–3 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.6%'''||'''9.1%'''||'''9.3%'''||4.6%||5.3%||7.5%||11.8%
+|style="background:#0C2C84; color:white;"|42.3%
+|-
+|20–29 August
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''7%'''||'''11%'''||3%||7%||13%||10%
+|style="background:#0C2C84; color:white;"|38%
+|-
+|20–27 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.2%'''||'''9.2%'''||'''10.8%'''||'''5.5%'''||6.0%||6.8%||11.7%
+|style="background:#0C2C84; color:white;"|38.4%
+|-
+|13–20 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.0%'''||'''9.4%'''||'''10.8%'''||4.4%||6.3%||6.9%||10.6%
+|style="background:#0C2C84; color:white;"|40.0%
+|-
+|13–20 August
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''7%'''||'''12%'''||4%||4%||12%||10%
+|style="background:#0C2C84; color:white;"|37%
+|-
+|6–13 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.9%'''||'''8.6%'''||'''10.9%'''||4.9%||5.5%||7.2%||10.8%
+|style="background:#0C2C84; color:white;"|40.0%
+|-
+|30 July–6 August
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.9%'''||'''8.3%'''||'''11.5%'''||'''5.4%'''||5.4%||5.3%||11.0%
+|style="background:#0C2C84; color:white;"|40.4%
+|-
+|23–30 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.3%'''||'''9.1%'''||'''11.1%'''||'''5.0%'''||6.2%||6.3%||10.9%
+|style="background:#0C2C84; color:white;"|39.2%
+|-
+|23–28 July
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''46%'''||'''9%'''||'''11%'''||4%||4%||14%||9%
+|style="background:#0C2C84; color:white;"|35%
+|-
+|16–23 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.2%'''||'''9.6%'''||'''11.7%'''||'''5.5%'''||6.4%||6.3%||10.4%
+|style="background:#0C2C84; color:white;"|37.5%
+|-
+|14–23 July
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''46%'''||'''8%'''||'''10%'''||4%||6%||14%||10%
+|style="background:#0C2C84; color:white;"|36%
+|-
+|9–16 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.6%'''||'''8.7%'''||'''10.6%'''||'''5.2%'''||5.1%||5.9%||12.3%
+|style="background:#0C2C84; color:white;"|40.0%
+|-
+|7–14 July
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''47%'''||'''8%'''||'''11%'''||4%||5%||13%||10%
+|style="background:#0C2C84; color:white;"|36%
+|-
+|2–9 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''47.9%'''||'''9.9%'''||'''11.0%'''||'''5.7%'''||5.1%||7.0%||12.5%
+|style="background:#0C2C84; color:white;"|36.9%
+|-
+|1–7 July
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''48%'''||'''8%'''||'''11%'''||4%||5%||12%||10%
+|style="background:#0C2C84; color:white;"|37%
+|-
+|25 June–2 July
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''47.8%'''||'''9.8%'''||'''12.1%'''||4.8%||5.4%||6.0%||13.2%
+|style="background:#0C2C84; color:white;"|35.7%
+|-
+|23 June–1 July
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''49%'''||'''8%'''||'''11%'''||4%||5%||12%||9%
+|style="background:#0C2C84; color:white;"|38%
+|-
+|23–26 June
+|[https://www.levada.ru/2017/07/06/16281/ Levada Centre]
+|style="background:#B3E0FF" |'''39%'''||'''8%'''||'''8%'''||2%||8%||22%||16%
+|style="background:#0C2C84; color:white;"|31%
+|-
+|18–25 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''47.4%'''||'''10.6%'''||'''11.7%'''||4.9%||6.3%||6.5%||11.6%
+|style="background:#0C2C84; color:white;"|35.7%
+|-
+|18–23 June
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''48%'''||'''7%'''||'''12%'''||4%||5%||12%||10%
+|style="background:#0C2C84; color:white;"|36%
+|-
+|12–18 June
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''48%'''||'''8%'''||'''12%'''||4%||4%||11%||11%
+|style="background:#0C2C84; color:white;"|36%
+|-
+|11–18 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.9%'''||'''8.9%'''||'''10.1%'''||4.9%||6.4%||5.8%||11.5%
+|style="background:#0C2C84; color:white;"|40.8%
+|-
+|5–12 June
+|[http://fom.ru/Politika/10949 FOM]
+|style="background:#B3E0FF" |'''47%'''||'''9%'''||'''12%'''||4%||3%||11%||11%
+|style="background:#0C2C84; color:white;"|35%
+|-
+|4–11 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.8%'''||'''9.2%'''||'''12.8%'''||'''5.6%'''||5.6%||5.2%||11.5%
+|style="background:#0C2C84; color:white;"|36.0%
+|-
+|28 May–4 June
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.4%'''||'''9.5%'''||'''12.0%'''||4.4%||6.4%||5.9%||12.4%
+|style="background:#0C2C84; color:white;"|36.4%
+|-
+|21–28 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''47.6%'''||'''9.4%'''||'''12.6%'''||'''5.3%'''||6.5%||6.1%||11.7%
+|style="background:#0C2C84; color:white;"|35.0%
+|-
+|26 May
+|colspan=9|'''[[Gennady Zyuganov]] is re-elected as the leader of the [[Communist Party of the Russian Federation|Communist Party]]'''
+|-
+|14–21 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''47.6%'''||'''10.7%'''||'''12.5%'''||'''5.0%'''||6.0%||5.7%||11.5%
+|style="background:#0C2C84; color:white;"|35.1%
+|-
+|7–14 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.4%'''||'''9.3%'''||'''12.8%'''||'''5.4%'''||4.6%||6.2%||11.4%
+|style="background:#0C2C84; color:white;"|37.1%
+|-
+|30 April–7 May
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.3%'''||'''10.5%'''||'''12.1%'''||'''5.0%'''||5.5%||5.7%||11.1%
+|style="background:#0C2C84; color:white;"|37.2%
+|-
+|23–30 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.1%'''||'''10.2%'''||'''12.0%'''||'''5.4%'''||6.0%||5.9%||11.5%
+|style="background:#0C2C84; color:white;"|36.1%
+|-
+|16–23 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''47.7%'''||'''11.0%'''||'''12.4%'''||'''5.1%'''||5.7%||6.0%||11.0%
+|style="background:#0C2C84; color:white;"|35.5%
+|-
+|9–16 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.0%'''||'''10.6%'''||'''12.6%'''||'''5.4%'''||5.3%||5.8%||11.5%
+|style="background:#0C2C84; color:white;"|35.4%
+|-
+|2–9 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.3%'''||'''9.5%'''||'''12.6%'''||4.8%||5.8%||5.4%||11.8%
+|style="background:#0C2C84; color:white;"|36.7%
+|-
+|26 March–2 April
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.0%'''||'''9.3%'''||'''14.4%'''||4.8%||5.0%||5.7%||11.0%
+|style="background:#0C2C84; color:white;"|34.6%
+|-
+|19–26 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.7%'''||'''9.3%'''||'''12.9%'''||'''5.1%'''||5.6%||5.1%||11.3%
+|style="background:#0C2C84; color:white;"|36.8%
+|-
+|12–19 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.4%'''||'''9.3%'''||'''13.0%'''||4.6%||5.1%||4.7%||10.6%
+|style="background:#0C2C84; color:white;"|38.4%
+|-
+|5–12 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.1%'''||'''9.4%'''||'''12.5%'''||'''5.6%'''||7.0%||4.3%||10.3%
+|style="background:#0C2C84; color:white;"|37.6%
+|-
+|26 February–5 March
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.9%'''||'''10.2%'''||'''11.5%'''||'''6.1%'''||5.8%||4.8%||10.8%
+|style="background:#0C2C84; color:white;"|38.4%
+|-
+|19–26 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''51.1%'''||'''9.4%'''||'''12.5%'''||'''5.1%'''||5.3%||4.4%||11.3%
+|style="background:#0C2C84; color:white;"|38.6%
+|-
+|12–19 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.3%'''||'''8.8%'''||'''13.3%'''||'''5.2%'''||6.4%||4.6%||10.7%
+|style="background:#0C2C84; color:white;"|37.0%
+|-
+|5–12 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.8%'''||'''10.2%'''||'''12.0%'''||'''5.9%'''||6.0%||4.7%||10.5%
+|style="background:#0C2C84; color:white;"|37.8%
+|-
+|29 January–5 February
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.7%'''||'''10.9%'''||'''12.9%'''||'''5.2%'''||5.1%||4.4%||11.9%
+|style="background:#0C2C84; color:white;"|35.8%
+|-
+|4 February
+|colspan=9|'''[[Vladimir Zhirinovsky]] is re-elected as the leader of the [[Liberal Democratic Party of Russia|Liberal Democratic Party]]'''
+|-
+|22–29 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.7%'''||'''10.0%'''||'''11.8%'''||4.7%||6.4%||4.7%||10.8%
+|style="background:#0C2C84; color:white;"|38.9%
+|-
+|22 January
+|colspan=9|'''[[Dmitry Medvedev]] is re-elected as the leader of [[United Russia]]'''
+|-
+|15–22 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''50.8%'''||'''10.4%'''||'''13.0%'''||'''5.1%'''||4.4%||4.6%||10.8%
+|style="background:#0C2C84; color:white;"|37.8%
+|-
+|8–15 January
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''49.3%'''||'''10.5%'''||'''13.7%'''||'''5.2%'''||5.3%||4.0%||11.3%
+|style="background:#0C2C84; color:white;"|35.6%
+|-
+|style="background:#D5D5D5"|{{nowrap|''18 September 2016''}}
+|style="background:#D5D5D5"|{{nowrap|''[[2016 Russian legislative election|Election result]]''}}
+|style="background:#B3E0FF" |'''''54.20%'''''||style="background:#D5D5D5"|'''''13.34%'''''||style="background:#D5D5D5"|'''''13.14%'''''||style="background:#D5D5D5"|'''''6.22%'''''||style="background:#D5D5D5"|''11.23%''||style="background:#D5D5D5"| ||style="background:#D5D5D5"|
+|style="background:#0C2C84; color:white;"|''40.86%''
+|}
+===2016===
+{|class=wikitable style="font-size:95%; line-height:14px; text-align:center"
+!style=width:200px; rowspan=2|Date
+!style=width:150px; rowspan=2|Poll source
+!style=width:60px|[[United Russia|UR]]
+!style=width:60px|[[Communist Party of the Russian Federation|CPRF]]
+!style=width:60px|[[Liberal Democratic Party of Russia|LDPR]]
+!style=width:60px|[[A Just Russia|JR]]
+!style="width:60px;" rowspan=2|Other
+!style="width:60px;" rowspan=2|Undecided
+!style="width:60px;" rowspan=2|Abstention
+!style="width:60px;" rowspan="2"|Lead
+|-
+|bgcolor={{United Russia/meta/color}}|
+|bgcolor={{Communist Party of the Russian Federation/meta/color}}|
+|bgcolor={{Liberal Democratic Party of Russia/meta/color}}|
+|bgcolor={{A Just Russia/meta/color}}|
+|-
+|18–25 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.0%'''||'''8.8%'''||'''12.1%'''||'''6.5%'''||5.6%||5.3%||13.0%
+|style="background:#0C2C84; color:white;"|35.9%
+|-
+|11–18 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''48.0%'''||'''8.2%'''||'''12.0%'''||4.9%||6.0%||5.2%||14.3%
+|style="background:#0C2C84; color:white;"|36.0%
+|-
+|4–11 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''46.9%'''||'''9.4%'''||'''12.0%'''||'''6.2%'''||6.2%||5.3%||13.3%
+|style="background:#0C2C84; color:white;"|34.9%
+|-
+|27 November–4 December
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''45.1%'''||'''8.8%'''||'''13.1%'''||'''7.8%'''||6.1%||4.4%||13.8%
+|style="background:#0C2C84; color:white;"|32.0%
+|-
+|20–27 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''46.8%'''||'''8.9%'''||'''13.0%'''||'''5.3%'''||5.3%||5.0%||14.9%
+|style="background:#0C2C84; color:white;"|33.8%
+|-
+|13–20 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''43.2%'''||'''8.8%'''||'''15.1%'''||'''5.9%'''||6.2%||4.1%||15.5%
+|style="background:#0C2C84; color:white;"|28.1%
+|-
+|6–13 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''45.1%'''||'''9.2%'''||'''14.3%'''||'''5.3%'''||7.0%||5.3%||12.9%
+|style="background:#0C2C84; color:white;"|30.8%
+|-
+|30 October–6 November
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''44.9%'''||'''9.4%'''||'''12.6%'''||'''6.8%'''||6.4%||3.9%||14.9%
+|style="background:#0C2C84; color:white;"|32.3%
+|-
+|23–30 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''44.4%'''||'''11.0%'''||'''12.2%'''||'''6.1%'''||7.0%||4.9%||13.5%
+|style="background:#0C2C84; color:white;"|32.2%
+|-
+|16–23 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''41.5%'''||'''10.4%'''||'''13.8%'''||'''6.8%'''||7.4%||4.0%||13.9%
+|style="background:#0C2C84; color:white;"|27.7%
+|-
+|9–16 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''44.7%'''||'''8.8%'''||'''13.8%'''||'''5.9%'''||7.0%||4.5%||14.2%
+|style="background:#0C2C84; color:white;"|30.9%
+|-
+|2–9 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''44.6%'''||'''8.4%'''||'''13.7%'''||'''6.3%'''||8.2%||3.8%||13.7%
+|style="background:#0C2C84; color:white;"|30.9%
+|-
+|25 September–2 October
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''43.5%'''||'''8.9%'''||'''15.0%'''||'''5.8%'''||7.4%||3.9%||13.8%
+|style="background:#0C2C84; color:white;"|28.5%
+|-
+|18–25 September
+|[https://wciom.ru/news/ratings/elektoralnyj_rejting_politicheskix_partij/ WCIOM]
+|style="background:#B3E0FF" |'''43.1%'''||'''10.0%'''||'''15.7%'''||'''5.0%'''||8.7%||2.9%||13.8%
+|style="background:#0C2C84; color:white;"|27.4%
+|-
+|style="background:#D5D5D5"|{{nowrap|''18 September''}}
+|style="background:#D5D5D5"|{{nowrap|''[[2016 Russian legislative election|Election result]]''}}
+|style="background:#B3E0FF" |'''''54.20%'''''||style="background:#D5D5D5"|'''''13.34%'''''||style="background:#D5D5D5"|'''''13.14%'''''||style="background:#D5D5D5"|'''''6.22%'''''||style="background:#D5D5D5"|''11.23%''||style="background:#D5D5D5"| ||style="background:#D5D5D5"|
+|style="background:#0C2C84; color:white;"|''40.86%''
+|}
