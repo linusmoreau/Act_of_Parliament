@@ -1,0 +1,196 @@
+===Party vote===
+The following are opinion polls conducted for the legislative elections, measuring estimated percentage of the vote. Parties in bold successfully pass the electoral threshold to win national list seats, highlighted party is in the lead.
+{| class="wikitable" style="text-align:center;font-size:95%;line-height:14px;"
+! style="width:99px;" rowspan=2 | Polling Firm/Link
+! style="width:150px;" rowspan=2 | Last date<br />of polling
+! class="unsortable" |[[Homeland Union|TS-LKD]]
+! class="unsortable" |[[Lithuanian Farmers and Greens Union|LVŽS]]
+! class="unsortable" |[[Labour Party (Lithuania)|DP]]  
+! class="unsortable" |[[Social Democratic Party of Lithuania|LSDP]]
+! class="unsortable" |[[Freedom Party (Lithuania)|Laisves]]
+! class="unsortable" |[[Liberal Movement (Lithuania)|LRLS]]
+! class="unsortable" |[[Electoral Action of Poles in Lithuania – Christian Families Alliance|LLRA]]
+! class="unsortable" |[[Social Democratic Labour Party of Lithuania|LSDDP]]
+! class="unsortable" |[[Lithuanian Centre Party|LCP]]
+! class="unsortable" |[[Freedom and Justice|LT]]
+! class="unsortable" rowspan=2| Lead
+|-
+|style="background:{{Homeland Union – Lithuanian Christian Democrats/meta/color}}" <!-- TS-KD -->|
+|style="background:{{Lithuanian Farmers and Greens Union/meta/color}}" <!-- Lithuanian Farmers and Greens Union -->|
+|style="background:{{Labour Party (Lithuania)/meta/color}}" <!-- Labour Party --> |
+|style="background:{{Social Democratic Party of Lithuania/meta/color}}" <!-- Social Democratic Party of Lithuania --> |
+|style="background:#E3006B; width:40px;" <!-- Laisves --> |
+| style="background:{{Liberal Movement (Lithuania)/meta/color}}" <!-- LRLS--> |
+| style="background:{{Electoral Action of Poles in Lithuania/meta/color}}" <!-- Electoral Action of Poles in Lithuania --> |
+| style="background:#c1272d" <!-- LSDDP --> |
+| style="background:#009C3D" <!-- Centre Party -->|
+| style="background:{{Freedom and Justice/meta/color}}" <!-- Freedom and Justice --> |
+|-
+|[https://www.lrytas.lt/lietuvosdiena/aktualijos/2021/06/26/news/reitinguose-audros-konservatoriai-nubloksti-socialdemokratai-pakyleti-prastos-zinios-ir-i-simonytei-19876804/ Vilmorus]
+|9-18 June 2021
+|<!-- TS-KD --> |'''20.2'''
+|style="background:#6EF380" Lithuanian Farmers and Greens Union --> |'''25.9'''
+|<!-- Labour Party --> |'''8.9'''
+|<!-- Social Democratic Party of Lithuania --> |'''22.8'''
+|<!-- Laisves--> |'''5.0'''
+|<!-- LRLS--> |'''10.3'''
+|<!-- Electoral Action of Poles in Lithuania--> |1.4
+|<!-- LSDDP--> |3.4
+|<!-- Lithuanian Centre Party--> |-
+|<!-- Freedom and Justice --> |-
+| style="background:#6EF380" |5.7
+|-
+|[https://kauno.diena.lt/naujienos/lietuva/politika/partiju-reitinguose-permainos-konservatoriai-uzleido-lyderiu-pozicijas-ekspertai-izvelgia-rizikas-1032835/ Baltijos tyrimai]
+|20 May-2 June 2021
+|<!-- TS-KD --> |'''17.3'''
+|style="background:#6EF380" Lithuanian Farmers and Greens Union --> |'''22.0'''
+|<!-- Labour Party --> |'''11.9'''
+|<!-- Social Democratic Party of Lithuania --> |'''20.0'''
+|<!-- Laisves--> |'''5.4'''
+|<!-- LRLS--> |'''12.9'''
+|<!-- Electoral Action of Poles in Lithuania--> 4.9
+|<!-- LSDDP--> |-
+|<!-- Lithuanian Centre Party--> |-
+|<!-- Freedom and Justice --> |'''5.1'''
+| style="background:#6EF380" |2.0
+|-
+|[https://twitter.com/EuropeElects/status/1405917462051405826?s=20 Spinter tyrimai]
+|18-28 May 2021
+|style="background:#A7F2ED" <!-- TS-KD --> |'''23.0'''
+|<!-- Lithuanian Farmers and Greens Union --> |'''22.0'''
+|<!-- Labour Party --> |'''7.6'''
+|<!-- Social Democratic Party of Lithuania --> |'''10.9'''
+|<!-- Laisves--> |'''8.6'''
+|<!-- LRLS--> |'''12.6'''
+|<!-- Electoral Action of Poles in Lithuania--> |2.7
+| -
+| -
+|<!-- Freedom and Justice --> |-
+| style="background:#A7F2ED" |1.0
+|-
+|[https://twitter.com/EuropeElects/status/1399327914982887425?s=20/ Vilmorus]
+|11-21 May 2021
+|<!-- TS-KD --> |'''24.5'''
+|style="background:#6EF380" <!-- Lithuanian Farmers and Greens Union --> |'''26.8'''
+|<!-- Labour Party --> |'''7.3'''
+|<!-- Social Democratic Party of Lithuania --> |'''16.9'''
+|<!-- Laisves--> |'''5.8'''
+|<!-- LRLS--> |'''10.2'''
+|<!-- Electoral Action of Poles in Lithuania--> |2.1
+|<!-- LSDDP--> |'''5.1'''
+|<!-- Lithuanian Centre Party--> |-
+|<!-- Freedom and Justice --> |-
+| style="background:#6EF380" |2.3
+|-
+|[https://twitter.com/EuropeElects/status/1391991009031118850?s=20 Spinter tyrimai]
+|19-28 April 2021
+|style="background:#A7F2ED" <!-- TS-KD --> |'''23.7'''
+|<!-- Lithuanian Farmers and Greens Union --> |'''23.1'''
+|<!-- Labour Party --> |'''7.4'''
+|<!-- Social Democratic Party of Lithuania --> |'''8.2'''
+|<!-- Laisves--> |'''9.0'''
+|<!-- LRLS--> |'''12.5'''
+|<!-- Electoral Action of Poles in Lithuania--> |3.6
+| -
+| -
+|<!-- Freedom and Justice --> |-
+| style="background:#A7F2ED" |0.6
+|-
+|[https://www.lrytas.lt/lietuvosdiena/aktualijos/2021/04/24/news/reitingai-ryskus-g-nausedos-krytis-ir-rinkeju-signalai-ministru-kabinetui-19128393/ Vilmorus]
+|8-17 April 2021
+|style="background:#A7F2ED" <!-- TS-KD --> |'''29.2'''
+|<!-- Lithuanian Farmers and Greens Union --> |'''26.5'''
+|<!-- Labour Party --> |'''6.7'''
+|<!-- Social Democratic Party of Lithuania --> |'''11.7'''
+|<!-- Laisves--> |'''6.9'''
+|<!-- LRLS--> |'''9.1'''
+|<!-- Electoral Action of Poles in Lithuania--> |1.0
+|<!-- LSDDP--> |'''7.0'''
+|<!-- Lithuanian Centre Party--> |-
+|<!-- Freedom and Justice --> |-
+| style="background:#A7F2ED" |2.7
+|-
+|[https://twitter.com/EuropeElects/status/1382312752446910465 Spinter tyrimai]
+|17-23 March 2021
+|style="background:#A7F2ED" <!-- TS-KD --> |'''23.5'''
+|<!-- Lithuanian Farmers and Greens Union --> |'''21.1'''
+|<!-- Labour Party --> |'''7.4'''
+|<!-- Social Democratic Party of Lithuania --> |'''8.6'''
+|<!-- Laisves--> |'''9.8'''
+|<!-- LRLS--> |'''12.8'''
+|<!-- Electoral Action of Poles in Lithuania--> |3.9
+| -
+| -
+|<!-- Freedom and Justice --> |3.0
+| style="background:#A7F2ED" |2.4
+|-
+|[https://www.delfi.lt/news/daily/lithuania/naujausi-reitingai-uz-karantina-baudzia-simonyte-intriga-kelia-skvernelio-pozicija.d?id=86680545 Spinter tyrimai]
+|17-26 February 2021
+|style="background:#A7F2ED" <!-- TS-KD --> |'''25.6'''
+|<!-- Lithuanian Farmers and Greens Union --> |'''18.3'''
+|<!-- Labour Party --> |'''5.8'''
+|<!-- Social Democratic Party of Lithuania --> |'''6.5'''
+|<!-- Laisves--> |'''11.8'''
+|<!-- LRLS--> |'''12.9'''
+|<!-- Electoral Action of Poles in Lithuania--> |4.5
+| -
+| -
+|<!-- Freedom and Justice --> |4.3
+| style="background:#A7F2ED" |7.3
+|-
+|[https://www.delfi.lt/news/daily/lithuania/naujausi-reitingai-siuncia-signalus-visoms-partijoms-dideja-atotrukis-tarp-valstieciu-ir-konservatoriu.d?id=86436355 Spinter tyrimai]
+|18-27 January 2021
+|style="background:#A7F2ED" <!-- TS-KD --> |'''27.2'''
+|<!-- Lithuanian Farmers and Greens Union --> |'''16.1'''
+|<!-- Labour Party --> |'''6'''
+|<!-- Social Democratic Party of Lithuania --> |'''8.5'''
+|<!-- Laisves--> |'''11.8'''
+|<!-- LRLS--> |'''12.6'''
+|<!-- Electoral Action of Poles in Lithuania--> |4.2
+|| -
+|| -
+|<!-- Freedom and Justice --> |2.4
+| style="background:#A7F2ED" |11.1
+|-
+|[https://www.delfi.lt/news/daily/lithuania/naujausi-reitingai-ispudingas-pasitikejimas-simonyte-ir-laisves-partijos-suolis.d?id=86186429 Spinter tyrimai]
+|10-20 December 2020
+|style="background:#A7F2ED" <!-- TS-KD --> |'''23.3'''
+|<!-- Lithuanian Farmers and Greens Union -->|'''19.7'''
+|<!-- Labour Party --> |'''8.1'''
+|<!-- Social Democratic Party of Lithuania --> |'''7.8'''
+|<!-- Laisves--> |'''11.7'''
+|<!-- LRLS--> |'''12.1'''
+|<!-- Electoral Action of Poles in Lithuania--> |4.6
+||-
+||-
+||-
+|style="background:#A7F2ED" |3.6
+|-
+|[https://www.delfi.lt/news/daily/lithuania/pirmieji-partiniai-reitingai-po-seimo-rinkimu-ts-lkd-startavo-kaip-ir-2008-m-vadovaujant-kubiliui.d?id=85986993 Baltijos tyrimai]
+| 6–30 November 2020
+|style="background:#A7F2ED" <!-- TS-KD --> |'''22.7'''
+|<!-- Lithuanian Farmers and Greens Union -->|'''19'''
+|<!-- Labour Party --> |'''10.5'''
+|<!-- Social Democratic Party of Lithuania --> |'''9.4'''
+|<!-- Laisves--> |'''11.3'''
+|<!-- LRLS--> |'''12.9'''
+|<!-- Electoral Action of Poles in Lithuania--> |4.7
+|<!-- LSDDP--> |1.9
+|<!-- Lithuanian Centre Party--> |2.5
+|<!-- Freedom and Justice --> |4.2
+|style="background:#A7F2ED" |3.7
+|-
+!
+! 2020 Elections
+|style="background:#A7F2ED" <!-- TS-KD --> |'''25.77'''
+|<!-- Lithuanian Farmers and Greens Union -->|'''18.07'''
+|<!-- Labour Party --> |'''9.77'''
+|<!-- Social Democratic Party of Lithuania --> |'''9.59'''
+|<!-- Laisves--> |'''9.45'''
+|<!-- LRLS--> |'''7.05'''
+|<!-- Electoral Action of Poles in Lithuania--> |4.97
+|<!-- LSDDP--> |3.28
+|<!-- Lithuanian Centre Party--> |2.36
+|<!-- Freedom and Justice --> |2.06
+|style="background:#A7F2ED" |7.7
+|}

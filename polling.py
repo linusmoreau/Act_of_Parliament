@@ -517,6 +517,21 @@ def choices_setup():
             'url': 'https://en.wikipedia.org/w/index.php?title='
                    'Opinion_polling_for_the_next_Italian_general_election&action=edit&section=3'
         },
+        'Lithuania': {
+            'key': ['TS-LKD', 'LVZS', 'DP', 'LSDP', 'Laisves', 'LRLS', 'LLRA', 'LSDDP', 'LCP', 'LT'],
+            'col': {'TS-LKD': (0, 165, 155), 'LVZS': (0, 144, 53), 'DP': (29, 87, 140), 'LSDP': (225, 5, 20),
+                    'Laisves': (227, 0, 107), 'LRLS': (244, 129, 0), 'LLRA': (120, 19, 35), 'LSDDP': (193, 39, 45),
+                    'LCP': (0, 156, 61), 'LT': (251, 186, 0)},
+            'gov': {'Government': ['TS-LKD', 'Laisves', 'LRLS'],
+                    'Opposition': ['LVZS', 'DP', 'LSDP', 'LLRA', 'LSDDP', 'LCP', 'LT']},
+            'blocs': {'Conservative': ['TS-LKD', 'LVZS', 'LCP', 'LLRA'], 'Liberal': ['LRLS', 'DP', 'Laisves', 'LT'],
+                      'Socialist': ['LSDP', 'LSDDP']},
+            'date': 1,
+            'start': 2,
+            'end_date': Date(2024, 10, 6),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   '2024_Lithuanian_parliamentary_election&action=edit&section=3'
+        },
         'New York': {
             'key': ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
                     'Scott Stringer', 'Maya Wiley', 'Andrew Yang'],
