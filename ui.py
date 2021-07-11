@@ -16,6 +16,8 @@ MENU_WIDTH = screen_width / 4
 if not os.path.isdir("saves"):
     os.makedirs("saves")
 
+lock = threading.Lock()
+
 
 class Music:
     channel = None
@@ -2080,6 +2082,5 @@ pages = {}
 background = make_background()
 
 if __name__ == "__main__":
-    lock = threading.Lock()
     game_loop(lock)
     terminate()
