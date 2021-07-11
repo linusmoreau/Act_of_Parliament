@@ -8,10 +8,13 @@ def round_up(num):
 
 def largest_in_dictionary(d):
     keys = list(d)
-    biggest = keys[0]
-    thics = [biggest]
-    for key in d:
-        if d[key] > d[biggest]:
+    biggest = None
+    thics = []
+    for key in keys:
+        if biggest is None:
+            thics.append(key)
+            biggest = key
+        elif d[key] > d[biggest]:
             biggest = key
             thics = [biggest]
         elif d[key] == d[biggest]:
