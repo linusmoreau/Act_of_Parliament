@@ -32,6 +32,41 @@
 ! style="background:{{Italia Viva/meta/color}};"|
 ! style="background:{{Coraggio Italia/meta/color}};"|
 |-
+|8–9 Jul
+|[https://www.dire.it/10-07-2021/652913-monitor-italia-fdi-primo-partito-insieme-alla-lega-e-il-preferito-dei-diciottenni/ Tecnè]
+|1,000
+|15.1
+|19.6
+|20.4
+|9.1
+|style="background:#E5E7FF;" |'''20.6'''
+|1.7
+|1.9
+|1.6
+|1.6
+|3.2
+|2.0
+|0.9
+|2.3
+|style="background:#03386A; color:white;"|0.2
+|-
+|7–8 Jul
+|[https://www.termometropolitico.it/1596295_sondaggi-tp-ddl-zan-proposta-renzi-piace-solo-all89-degli-italiani.html Termometro Politico]
+|2,700
+|15.5
+|19.4
+|style="background:#D2EED9;" |'''21.4'''
+|5.8
+|20.0
+|colspan="2"|3.5
+|1.6
+|1.7
+|3.0
+|3.1
+|
+|5.0
+|style="background:#008000; color:white;" |1.4
+|-
 |30 Jun–5 Jul
 |[https://tg.la7.it/sondaggi/il-sondaggio-politico-del-5-luglio-2021-05-07-2021-162447&#x20;SWG SWG]
 |1,200

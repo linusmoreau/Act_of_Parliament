@@ -203,6 +203,24 @@
 |'''24.5'''
 |{{No|'''61.0'''}}
 |-
+|[https://www.phoenixresearch.cz/dnld/Phoenixresearch-preference-a-potencial-CR-6-2021-(LQ).pdf Phoenix Research]
+|1–10 Jun
+|1,099
+|{{N/A}}
+|20.2
+| colspan="3" |15.9
+| colspan="2" style="background:#d3d3d3;"|'''24.2'''
+|12.1
+|4.5
+|5.1
+|colspan="2"|3.0
+|1.2
+|4.2
+|4.7{{efn|Alliance for Future ([[Civic Democratic Alliance (2016)|ODA]]–[[Agrarian Democratic Party|ADS]]–[[Order of the Nation (political party)|ŘN]]–[[Democratic Party of Greens|DSZ]]) 1.7%}}
+|style="background:#000000;color:#FFFFFF;" |4.0
+|'''25.3'''
+|{{No|'''56.7'''}}
+|-
 |[https://www.ipsos.com/sites/default/files/ct/news/documents/2021-07/Tiskov%C3%A1%20zpr%C3%A1va%20Ipsos_volebn%C3%AD%20model_2.7.%202021.pdf Ipsos]
 |2-6 Jun
 |1,040

@@ -33,7 +33,7 @@
 |-
 | [[Abacus Data]] || {{dts|June 30, 2021}} || [https://abacusdata.ca/2021-liberals-ahead-conservatives-low/ HTML] || 25 || {{Party shading/Liberal}}|'''37''' || 20 || 7 || 6 || 3 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''12'''
 |-
-| [[Nanos Research]] || {{dts|June 25, 2021}} || [https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 24.7 || {{Party shading/Liberal}}|'''37.1''' || 19.3 || 5.8 || 7.3 || 4.1 || {{n/a}} || ±3.0 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.4'''
+| [[Nanos Research]] || {{dts|June 25, 2021}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 24.7 || {{Party shading/Liberal}}|'''37.1''' || 19.3 || 5.8 || 7.3 || 4.1 || {{n/a}} || ±3.0 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.4'''
 |-
 | [[Ipsos]] || {{dts|June 22, 2021}} || [https://www.ipsos.com/en-ca/news-polls/Liberals-Support-Plateaus-Back-Vaccination-Programme HTML] || 26 || {{Party shading/Liberal}}|'''38''' || 20 || 8 || 7 || 1 || 1 || ±2.9 pp || 1,501 || online/telephone || {{Party shading/Liberal}}|'''12'''
 |-
@@ -41,7 +41,7 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|June 20, 2021}} || [https://2g2ckk18vixp3neolz4b6605-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Legers-North-American-Tracker-June-21st-2021.pdf PDF] || 30 || {{Party shading/Liberal}}|'''34''' || 20 || 8 || 5 || {{n/a}} || 4 || ±2.49 pp || 1,542 || online || {{Party shading/Liberal}}|'''4'''
 |-
-| [[Nanos Research]] || {{dts|June 18, 2021}} || [https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 25.4 || {{Party shading/Liberal}}|'''37.4''' || 18.2 ||  7.0 || 6.5 || 4.2 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.0'''
+| [[Nanos Research]] || {{dts|June 18, 2021}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 25.4 || {{Party shading/Liberal}}|'''37.4''' || 18.2 ||  7.0 || 6.5 || 4.2 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''12.0'''
 |-
 | [[Abacus Data]] || {{dts|June 16, 2021}} || [https://abacusdata.ca/liberals-lead-by-5-ndp-gaining/ HTML] || 29 || {{Party shading/Liberal}}|'''34''' || 21 || 8 || 6 || 1 || 1 || ±2.6 pp || 1,500 || online || {{Party shading/Liberal}}|'''5'''
 |-
@@ -387,23 +387,43 @@
 |-
 | [[Léger Marketing|Leger]] || {{dts|April 12, 2020}} || [https://leger360.com/wp-content/uploads/2020/04/COVID-19-Tracking-Study-April-14-2020.pdf PDF] || 28 || {{Party shading/Liberal}}|'''39''' || 18 || 6 || 8 || {{n/a}} || 2 || ±2.52 pp || 1,508 || online || {{Party shading/Liberal}}|'''11'''
 |-
+| [[Nanos Research]] ||{{dts|April 10, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 28.4 || {{Party shading/Liberal}}|'''38.1''' || 15.7  || 8.1  || 6.7 || 2.0 || {{n/a}} || ±3.1 pp || 1,000 (1/4)  || telephone/online (rolling) || {{Party shading/Liberal}}|'''9.7'''
+|-
+| [[Nanos Research]] ||{{dts|April 3, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 29.1 || {{Party shading/Liberal}}|'''38.9''' || 14.8  || 8.4  || 6.5 || 1.1 || {{n/a}} || ±3.1 pp || 1,000 (1/4)  || telephone/online (rolling) || {{Party shading/Liberal}}|'''9.8'''
+|-
 | Innovative Research || {{dts|April 2, 2020}} || [https://innovativeresearch.ca/wp-content/uploads/2020/04/INNOVATIVE-Research-COVID-19-Polling-Week-3-20200403.pdf PDF] {{ref label|decided voters|6|6}} || 27 || {{Party shading/Liberal}}|'''40''' || 15 || 8 || 7 || 2 || 1 || {{n/a}} || 2,059 || online || {{Party shading/Liberal}}|'''13'''
+|-
+| [[Nanos Research]] ||{{dts|March 27, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 30.9  || {{Party shading/Liberal}}|'''36.1''' || 16.6  || 7.0  || 7.0 || 0.8 || {{n/a}} || ±3.1 pp || 1,000 (1/4)  || telephone/online (rolling) || {{Party shading/Liberal}}|'''5.2'''
 |-
 | [[Ekos Research Associates|EKOS]] || {{dts|March 26, 2020}} || [http://www.ekospolitics.com/index.php/2020/03/covid-19-produces-pervasive-and-strong-anxiety/ HTML] || 28.6 || {{Party shading/Liberal}}|'''40.4''' || 12.2 || 8.6 || 5.9 || 2.2 || 2.1 || ±2.0 pp || 2,304 || IVR || {{Party shading/Liberal}}|'''11.8'''
 |-
+| [[Nanos Research]] ||{{dts|March 20, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 32.5  || {{Party shading/Liberal}}|'''34.8''' || 17.4  || 6.0  || 7.0 || 1.3 || {{n/a}} || ±3.1 pp || 1,000 (1/4)  || telephone/online (rolling) || {{Party shading/Liberal}}|'''2.3'''
+|-
 | [[Mainstreet Research]] || {{dts|March 17, 2020}} || [https://www.mainstreetresearch.ca/57-of-canadian-support-federal-government-action-during-covid-19-pandemic/ HTML] || 32.2 ||{{Party shading/Liberal}}| '''38.6''' || 11.1 || 8.8 || 5.7 || 1.7 || 1.9 || ±2.4 pp || 1,665 || IVR || {{Party shading/Liberal}} | '''6.4'''
+|-
+| [[Nanos Research]] ||{{dts|March 13, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 29.5 || {{Party shading/Liberal}}|'''37.0''' || 17.6  || 5.9  || 7.4 || 1.8 || {{n/a}} || ±3.1 pp || 1,000 (1/4)  || telephone/online (rolling) || {{Party shading/Liberal}}|'''7.5'''
+|-
+| [[Nanos Research]] ||{{dts|March 6, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 32.4 || {{Party shading/Liberal}}|'''34.8''' || 17.1  || 5.8  || 7.4 || 1.8 || {{n/a}} || ±3.1 pp || 1,000 (1/4)  || telephone/online (rolling) || {{Party shading/Liberal}}|'''2.4'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|March 2, 2020}} || [https://leger360.com/wp-content/uploads/2020/03/Federal-politics-March-4-2020-VF-updated.pdf PDF] || 30 || {{Party shading/Liberal}} | '''32''' || 20 || 8 || 8 || {{n/a}} || 2 || ±2.50 pp || 1,540 || online || {{Party shading/Liberal}} | '''2'''
 |-
 | [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|February 28, 2020 }} || [http://angusreid.org/wp-content/uploads/2020/03/2020.03.02_Federal-1.pdf PDF] || {{Party shading/Conservative (Canada)}}|'''34''' || 26 || 21 || 9 || 7 || {{n/a}} || 3 || ±1.4 pp || 5,043 || online || {{Party shading/Conservative (Canada)}}|'''8'''
 |-
+| [[Nanos Research]] ||{{dts|February 28, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 35.1 || {{Party shading/Liberal}}|'''35.3''' || 15.0  || 5.9  || 6.5 || 1.6 || {{n/a}} || ±3.1 pp || 1,000 (1/4)  || telephone/online (rolling) || {{Party shading/Liberal}}|'''0.2'''
+|-
 | Campaign Research || {{dts|February 26, 2020 }} || [https://www.campaignresearch.com/single-post/National-Protests-Wesuweten-CGL-Study HTML] || {{Party shading/Conservative (Canada)}}|'''30''' || {{Party shading/Liberal}}|'''30''' || 19 || 8 || 11 || {{n/a}} || 3 || ±2.5 pp || 1,606 || online || '''0'''
 |-
-| [[Nanos Research]] ||{{dts|February 21, 2020}} || [https://twitter.com/niknanos/status/1232341729908531200 HTML] || {{Party shading/Conservative (Canada)}}|'''36.2''' || 33.0 || 15.4 || 6.8 ||6.6 || 1.4 || {{n/a}} ||±3.1 pp ||1,038 ||telephone (rolling) ||{{Party shading/Conservative (Canada)}}|'''3.2'''
+| [[Nanos Research]] ||{{dts|February 21, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || {{Party shading/Conservative (Canada)}}|'''36.2''' || 33.0 || 15.4 || 6.8 ||6.6 || 1.4 || {{n/a}} ||±3.1 pp ||1,000 (1/4)  ||telephone (rolling) ||{{Party shading/Conservative (Canada)}}|'''3.2'''
+|-
+| [[Nanos Research]] ||{{dts|February 14, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || {{Party shading/Conservative (Canada)}}|'''36.1''' || 32.7 || 15.5  || 7.1 || 7.0 || 1.1 || {{n/a}} ||±3.1 pp ||1,000 (1/4) ||telephone (rolling) ||{{Party shading/Conservative (Canada)}}|'''3.4'''
+|-
+| [[Nanos Research]] ||{{dts|February 7, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || {{Party shading/Conservative (Canada)}}|'''35.5''' || 33.4 || 13.7  || 7.8 || 8 || 1.0 || {{n/a}} ||±3.1 pp ||1,000 (1/4) ||telephone (rolling) ||{{Party shading/Conservative (Canada)}}|'''1.1'''
+|-
+| [[Nanos Research]] || {{dts|January 31, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 33.1 || {{Party shading/Liberal}}|'''33.2''' || 16.4 || 7.7 || 7.9 || 1.1  || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''0.1'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|January 30, 2020}} || [https://leger360.com/wp-content/uploads/2020/01/Politique-fédérale-1-fevrier-2020.pdf PDF] || 32 || {{Party shading/Liberal}} | '''34''' || 19 || 7 || 7 || {{n/a}} || 1 || ±2.53 pp || 1,501 || online || {{Party shading/Liberal}} | '''2'''
 |-
-| [[Nanos Research]] ||{{dts|January 24, 2020}} || [https://twitter.com/niknanos/status/1232341729908531200 HTML] || 31.0 || {{Party shading/Liberal}} | '''33.8''' || 16.7 || 8.3 || 8.9 || 0.9 || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) ||{{Party shading/Liberal}} | '''2.8'''
+| [[Nanos Research]] ||{{dts|January 24, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 31.0 || {{Party shading/Liberal}} | '''33.8''' || 16.7 || 8.3 || 8.9 || 0.9 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) ||{{Party shading/Liberal}} | '''2.8'''
 |-
 | [[Léger Marketing|Leger]] || {{dts|January 21, 2020}} || [https://leger360.com/wp-content/uploads/2020/01/Federal-politics-January-22-2020.pdf PDF] || {{Party shading/Conservative (Canada)}}| '''32''' || 31 || 19 || 8 || 8 || {{n/a}} || 2 || ±2.49 pp || 1,552 || online || {{Party shading/Conservative (Canada)}} | '''1'''
 |-
@@ -411,23 +431,45 @@
 |-
 | [[Mainstreet Research]] || {{dts|January 17, 2020}} || [https://www.mainstreetresearch.ca/liberals-enter-majority-territory-mckay-most-preferred-among-canadians-as-conservative-leader/ HTML] || 32.4 ||{{Party shading/Liberal}}| '''39.8''' || 10.6 || 6.6 || 5.4 || 2.8 || 2.4 || ±2.55 pp || 1,470 || IVR || {{Party shading/Liberal}} | '''7.4'''
 |-
+| [[Nanos Research]] || {{dts|January 17, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 30.8 || {{Party shading/Liberal}}|'''34.1''' || 16.4 || 8.1 || 8.6 || 1.2  || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''3.3'''
+|-
+| [[Nanos Research]] || {{dts|January 10, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 31.5 || {{Party shading/Liberal}}|'''32.2''' || 17.8 || 8.1 || 8.1 || 1.7 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''0.7'''
+|-
 | [[Léger Marketing|Leger]] || {{dts|January 7, 2020}} || [https://leger360.com/wp-content/uploads/2020/01/Federal-politics-January-07-2020.pdf PDF] || 31 || {{Party shading/Liberal}}|'''34''' || 18 || 7 || 8 || {{n/a}} || 2 || ±2.49 pp || 1,554 || online ||{{Party shading/Liberal}}|'''3'''
+|-
+| [[Nanos Research]] || {{dts|January 3, 2020}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 31.3 || {{Party shading/Liberal}}|'''33.7''' || 17.0 || 7.1 || 8.8 || 1.4 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''2.4'''
+|-
+| [[Nanos Research]] || {{dts|December 27, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 31.4 || {{Party shading/Liberal}}|'''34.7''' || 16.4 || 6.3 || 8.8 || 1.7 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''3.3'''
+|-
+| [[Nanos Research]] || {{dts|December 20, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 29.6 || {{Party shading/Liberal}}|'''34.7''' || 17.7 || 6.0 || 9.8 || 1.4 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''5.1'''
 |-
 | [[Abacus Data]] || {{dts|December 16, 2019}} || [https://abacusdata.ca/canadianpoliticsas2019endspollingabacusdata/ HTML] || 30 || {{Party shading/Liberal}}|'''33''' || 18 || 7 || 8 || 2 || 2 || ±2.1 pp || 1,500 || online ||{{Party shading/Liberal}}|'''3'''
 |-
 | [[Angus Reid (market research)#The Angus Reid Institute|Angus Reid]] || {{dts|December 15, 2019}} || [http://angusreid.org/wp-content/uploads/2019/12/2019.12.16_federal_issues.pdf PDF] || {{Party shading/Conservative (Canada)}}|'''33''' || 30 || 19 || 8 || 7 || {{n/a}} || 3 || ±2.0 pp || 2,011 || online || {{Party shading/Conservative (Canada)}}|'''3'''
 |-
+| [[Nanos Research]] || {{dts|December 13, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 30.5 || {{Party shading/Liberal}}|'''33.8''' || 18.7 || 5.0 || 10.2 || 0.9 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''3.3'''
+|-
 |style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|December 12, 2019}}''' || colspan="12"| '''[[Andrew Scheer]] announces his intention to resign as the leader of the [[Conservative Party of Canada|Conservative Party]]'''
 |-
 | [[Ekos Research Associates|EKOS]] || {{dts|December 10, 2019}} || [https://www.ekospolitics.com/wp-content/uploads/full_report_december_12_2019.pdf PDF] || 29.6 || {{Party shading/Liberal}}|'''31.1''' || 16.8 || 5.8 || 9.8 || 4.2 || 2.7 || ±2.0 pp || 2,339 || IVR || {{Party shading/Liberal}}|'''1.5'''
 |-
+| [[Nanos Research]] || {{dts|December 6, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 31.0 || {{Party shading/Liberal}}|'''33.6''' || 17.5 || 6.7 || 9.8 || 0.6 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''2.6'''
+|-
+| [[Nanos Research]] || {{dts|November 29, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 31.3 || {{Party shading/Liberal}}|'''34.1''' || 17.1 || 6.4 || 9.5 || 0.8 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''2.8'''
+|-
 | [[Léger Marketing|Leger]] || {{dts|November 25, 2019}} || [https://leger360.com/wp-content/uploads/2019/12/Federal-politics-November-28-2019.pdf PDF] || 30 || {{Party shading/Liberal}}|'''32''' || 19 || 7 || 7 || 3 || 1 || ±1.78 pp || 3,040 || online || {{Party shading/Liberal}}|'''2'''
 |-
-| [[Nanos Research]] || {{dts|November 22, 2019}} || [https://www.hilltimes.com/2019/12/02/change-from-a-celebrity-to-a-humble-leader-right-approach-for-trudeau-but-unclear-if-its-an-actual-conversion-or-just-a-different-role-for-now/226649 HTML] || 30.9 || {{Party shading/Liberal}}|'''33.6''' || 17.2 || {{n/a}} || 9.2 || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 (3/4) || telephone (rolling) ||{{Party shading/Liberal}} | '''2.7'''
+| [[Nanos Research]] || {{dts|November 22, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 30.9 || {{Party shading/Liberal}}|'''33.7''' || 17.2 || 6.8 || 9.3 || 1.4 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''2.8'''
+|-
+| [[Nanos Research]] || {{dts|November 15, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 30.8 || {{Party shading/Liberal}}|'''32.8''' || 19.0 || 7.6 || 7.3 || 1.90 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''2.0'''
+|-
+| [[Nanos Research]] || {{dts|November 8, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || 31.3 || {{Party shading/Liberal}}|'''31.8''' || 19.9 || 6.9 || 7.6 || 2.10 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Liberal}}|'''0.5'''
 |-
 |style="border-right-style:hidden;" | || style="border-right-style:hidden;" | '''{{dts|November 4, 2019}}''' || colspan="12"| '''[[Jo-Ann Roberts]] is named interim leader of the Green Party'''
 |-
-| [[Nanos Research]] || {{dts|November 1, 2019}} || [https://www.ctvnews.ca/politics/no-honeymoon-period-for-liberals-who-remain-deadlocked-with-conservatives-after-election-nanos-1.4671649 HTML] || {{Party shading/Conservative (Canada)}}|'''32.5''' || 31.1 || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) || {{Party shading/Conservative (Canada)}}|'''1.4'''
+| [[Nanos Research]] || {{dts|November 1, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || {{Party shading/Conservative (Canada)}}|'''32.5''' || 31.1 || 19.0 || 6.7 || 8.5 || 1.80 || {{n/a}} || ±3.1 pp || 1,000 (1/4) || telephone (rolling) || {{Party shading/Conservative (Canada)}}|'''1.4'''
+|-
+| [[Nanos Research]] || {{dts|October 25, 2019}} || [https://web.archive.org/web/20210709152857/https://www.theglobeandmail.com/opinion/article-data-dive-with-nik-nanos-is-now-the-right-time-for-an-election/ HTML] || {{Party shading/Conservative (Canada)}}|'''32.5''' || 31.7 || 20.8 || 7.2 || 6.0 || 1.50 || {{n/a}} || ±3.1 pp || 1,000 || telephone (rolling) || {{Party shading/Conservative (Canada)}}|'''0.8'''
 |-
 ! colspan="14" |
 |-

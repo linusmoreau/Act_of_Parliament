@@ -1,18 +1,18 @@
 == Poll results ==
 {{For|the events during those years|2019 in Austria|2020 in Austria}}
-{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
-|- style="height:40px;"
+{| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
+|-
 ! rowspan="2"| Polling firm
 ! rowspan="2"| Fieldwork date
 ! rowspan="2"| Sample<br>size
 ! rowspan="2"| Method
-! class="unsortable" style="width:60px;"| [[Austrian People's Party|ÖVP]]
-! class="unsortable" style="width:60px;"| [[Social Democratic Party of Austria|SPÖ]]
-! class="unsortable" style="width:60px;"| [[Freedom Party of Austria|FPÖ]]
-! class="unsortable" style="width:60px;"| [[The Greens – The Green Alternative|Grüne]]
-! class="unsortable" style="width:60px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
-! class="unsortable" style="width:60px;"| Others
-! rowspan="2" class="unsortable" style="width:60px;" | Lead
+! class="unsortable" style="width:50px;"| [[Austrian People's Party|ÖVP]]
+! class="unsortable" style="width:50px;"| [[Social Democratic Party of Austria|SPÖ]]
+! class="unsortable" style="width:50px;"| [[Freedom Party of Austria|FPÖ]]
+! class="unsortable" style="width:50px;"| [[The Greens – The Green Alternative|Grüne]]
+! class="unsortable" style="width:50px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
+! class="unsortable" style="width:50px;"| Others
+! rowspan="2" class="unsortable" style="width:50px;" | Lead
 |-
 ! style="background:{{Austrian People's Party (2017)/meta/color}};"|
 ! style="background:{{Social Democratic Party of Austria/meta/color}};"|
@@ -20,6 +20,18 @@
 ! style="background:{{The Greens – The Green Alternative/meta/color}};"|
 ! style="background:{{NEOS – The New Austria and Liberal Forum/meta/color}};"|
 ! style="background:{{Independent/meta/color}};"|
+|-
+| [https://www.profil.at/oesterreich/umfrage-oevp-stabilisiert-oppositionsparteien-spoe-und-fpoe-schwaecheln/401439283 Unique Research]
+| data-sort-value="2021-07-08"| 5–8 Jul 2021
+| 800
+| Phone & Online
+| <!-- People Party -->  style="background:#D2EDF1;"| '''34'''
+| <!-- Social Democratic Party --> | 22
+| <!-- Freedom Party --> | 17
+| <!-- Greens --> | 12
+| <!-- NEOS--> | 12
+| <!-- Independent--> | 3
+| style="background:{{Austrian People's Party (2017)/meta/color}};color:#FFFFFF;"| 12
 |-
 | [https://epaper-oesterreich.at/issue.act?issueId=842006&issueMutation=CITYW&issueDate=20210709&region=WIEN Research Affairs]
 | data-sort-value="2021-07-08"| 5–8 Jul 2021
@@ -1140,19 +1152,19 @@
 
 === By state ===
 '''Vienna'''
-{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
-|- style="height:40px;"
+{| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
+|- 
 ! rowspan="2"| Polling firm
 ! rowspan="2"| Fieldwork date
 ! rowspan="2"| Sample<br>size
 ! rowspan="2"| Method
-! class="unsortable" style="width:60px;"| [[Social Democratic Party of Austria|SPÖ]]
-! class="unsortable" style="width:60px;"| [[Austrian People's Party|ÖVP]]
-! class="unsortable" style="width:60px;"| [[The Greens – The Green Alternative|Grüne]]
-! class="unsortable" style="width:60px;"| [[Freedom Party of Austria|FPÖ]]
-! class="unsortable" style="width:60px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
-! class="unsortable" style="width:60px;"| Others
-! rowspan="2" class="unsortable" style="width:60px;" | Lead
+! class="unsortable" style="width:50px;"| [[Social Democratic Party of Austria|SPÖ]]
+! class="unsortable" style="width:50px;"| [[Austrian People's Party|ÖVP]]
+! class="unsortable" style="width:50px;"| [[The Greens – The Green Alternative|Grüne]]
+! class="unsortable" style="width:50px;"| [[Freedom Party of Austria|FPÖ]]
+! class="unsortable" style="width:50px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
+! class="unsortable" style="width:50px;"| Others
+! rowspan="2" class="unsortable" style="width:50px;" | Lead
 |-
 ! style="background:{{Social Democratic Party of Austria/meta/color}};"|
 ! style="background:{{Austrian People's Party (2017)/meta/color}};"|
@@ -1187,19 +1199,19 @@
 |}
 
 '''Tyrol'''
-{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:14px;"
-|- style="height:40px;"
+{| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
+|- 
 ! rowspan="2"| Polling firm
 ! rowspan="2"| Fieldwork date
 ! rowspan="2"| Sample<br>size
 ! rowspan="2"| Method
-! class="unsortable" style="width:60px;"| [[Austrian People's Party|ÖVP]]
-! class="unsortable" style="width:60px;"| [[The Greens – The Green Alternative|Grüne]]
-! class="unsortable" style="width:60px;"| [[Freedom Party of Austria|FPÖ]]
-! class="unsortable" style="width:60px;"| [[Social Democratic Party of Austria|SPÖ]]
-! class="unsortable" style="width:60px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
-! class="unsortable" style="width:60px;"| Others
-! rowspan="2" class="unsortable" style="width:60px;" | Lead
+! class="unsortable" style="width:50px;"| [[Austrian People's Party|ÖVP]]
+! class="unsortable" style="width:50px;"| [[The Greens – The Green Alternative|Grüne]]
+! class="unsortable" style="width:50px;"| [[Freedom Party of Austria|FPÖ]]
+! class="unsortable" style="width:50px;"| [[Social Democratic Party of Austria|SPÖ]]
+! class="unsortable" style="width:50px;"| [[NEOS – The New Austria and Liberal Forum|NEOS]]
+! class="unsortable" style="width:50px;"| Others
+! rowspan="2" class="unsortable" style="width:50px;" | Lead
 |-
 ! style="background:{{Austrian People's Party (2017)/meta/color}};"|
 ! style="background:{{The Greens – The Green Alternative/meta/color}};"|

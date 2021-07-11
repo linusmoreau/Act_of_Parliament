@@ -20,6 +20,19 @@
 ! data-sort-type="number" style="background:{{Scottish National Party/meta/color}};"|
 ! data-sort-type="number" style="background:{{Green Party of England and Wales/meta/color}};"|
 |-
+|[https://twitter.com/OpiniumResearch/status/1413936059528880128/ Opinium]
+|?
+|{{opdrts|8|9|Jul|2021}}
+|GB
+|?
+|style="background:#BADEF5;"|'''43%'''
+|35%
+|6%
+|5%
+|6%
+|{{Hidden|5%|[[Plaid Cymru]] on 2%<br/>Other on 3%|headerstyle=font-weight:normal;line-height:9px;}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|8%
+|-
 |[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-5-july-2021/ Redfield & Wilton Strategies]
 |N/A
 |{{opdrts||5|Jul|2021}}

@@ -31,6 +31,22 @@ Poll results are listed in the table below in reverse chronological order, showi
 ! class="sortable" style="background:#00ADEF;"|
 ! class="sortable" style="background:darkseagreen;"|
 |-
+|[https://sol.sapo.pt/artigo/740324/sondagem-ps-mais-primeiro-e-chega-destaca-se-em-terceiro Eurosondagem]
+|5–8 Jul 2021
+|1,022
+|?
+|{{Party shading/PS}} |'''40.8'''
+|27.3
+|5.2
+|5.2
+|2.2
+|2.1
+|9.0
+|2.5
+| –
+|5.7
+| style="background:{{Socialist Party (Portugal)/meta/color}}; color:white;" |13.5
+|-
 |[https://expresso.pt/politica/2021-06-21-Sondagem-legislativas.-PS-na-frente-mas-com-pior-resultado-desde-marco-de-2020-Chega-esta-no-3.-lugar-com-10-d170d338 Intercampus]
 | data-sort-value="2019-10-03" | 8–16 Jun 2021
 | 608
