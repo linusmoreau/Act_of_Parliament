@@ -13,7 +13,7 @@ tod = str(datetime.date.today())
 today = Date(int(tod[:4]), int(tod[5:7]), int(tod[8:]))
 
 
-def read_data(content, key, start, restart, date, choice, include=None):
+def read_data(content, key, start, restart, date, choice, include=None, zeros=None):
     def isrestart(line):
         if choice == 'Slovakia' and \
                 'url=https://sava.sk/en/clenstvo/zoznam-clenov/|access-date=2021-03-27|language=en-US}}' in line:
@@ -186,8 +186,8 @@ def read_data(content, key, start, restart, date, choice, include=None):
                 p = rot - start
                 temp = line
                 if choice == 'Russia':
-                    if year == '2020':
-                        key = key[:4]
+                    # if year == '2020':
+                    #     key = key[:4]
                     temps = temp.strip().split('||')
                     for p in range(len(temps)):
                         if p >= len(key):
@@ -259,6 +259,12 @@ def read_data(content, key, start, restart, date, choice, include=None):
         i += 1
         prevline = line
 
+    if zeros is not None:
+        for p in include:
+            for x in dat[p]:
+                normalize = [sum([dat[zero][x][i] if len(dat[zero][x]) > i else 0 for zero in zeros])
+                             for i in range(len(dat[p][x]))]
+                dat[p][x] = list(map(lambda i, y: y / (1 - normalize[i] / 100), range(len(dat[p][x])), dat[p][x]))
     if include is not None:
         dat = {k: v for (k, v) in dat.items() if k in include}
     return dat
@@ -610,16 +616,18 @@ def choices_setup():
             'method': 'quotient'
         },
         'Russia': {
-            'key': ['UR', 'CPRF', 'LDPR', 'SRZP', 'Yabloko', 'RPPSJ'],
+            'key': ['UR', 'CPRF', 'LDPR', 'SRZP', 'Others', 'Undecided', 'Abstention'],
             'col': {'UR': (46, 78, 164), 'CPRF': (204, 17, 17), 'LDPR': (68, 136, 204), 'SRZP': (255, 192, 3),
                     'Yabloko': (0, 162, 61), 'RPPSJ': (197, 32, 48)},
+            'include': ['UR', 'CPRF', 'LDPR', 'SRZP'],
+            'zeros': ['Undecided', 'Abstention'],
             'date': 0,
             'start': 1,
             'end_date': Date(2021, 9, 19),
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_2021_Russian_legislative_election&action=edit&section=3',
+                   'Opinion_polling_for_the_2021_Russian_legislative_election&action=edit&section=4',
             'old_data': 'test_data/old_russia_polling.txt',
-            'vlines': {Date(2018, 6, 14): 'Retirement Age Increase Announced'}
+            'vlines': {Date(2018, 6, 14): 'Retirement Age Increase Announced'},
         },
         'Slovakia': {
             'key': [
@@ -731,6 +739,8 @@ def choices_setup():
             d['vlines'] = None
         elif d['vlines'] is not None:
             d['vlines'] = {date_kit.date_dif(today, k): v for k, v in d['vlines'].items()}
+        if 'zeros' not in d:
+            d['zeros'] = None
         if 'toggle_seats' not in d:
             d['toggle_seats'] = False
     return choices
@@ -750,7 +760,8 @@ def choice_setting(c):
     include = dat['include']
     vlines = dat['vlines']
     toggle_seats = dat['toggle_seats']
-    return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines, toggle_seats
+    zeros = dat['zeros']
+    return file_name, key, col, blocs, gov, start, restart, date, end_date, include, vlines, toggle_seats, zeros
 
 
 def filter_nils(dat):
@@ -776,7 +787,7 @@ class GraphPage:
         self.minx = -1
         self.spread = GraphPage.spread
         self.file_name, self.key, self.col, self.blocs, self.gov, self.start, self.restart, self.date, \
-            self.end_date, self.include, self.vlines, toggle_seats = choice_setting(self.choice)
+            self.end_date, self.include, self.vlines, toggle_seats, self.zeros = choice_setting(self.choice)
 
         self.to_end_date = to_end_date
 
@@ -919,7 +930,7 @@ class GraphPage:
         if 'old_data' in choices[self.choice]:
             with open(choices[self.choice]['old_data'], 'r', encoding='utf-8') as f:
                 content.extend(f.readlines())
-        return read_data(content, self.key, self.start, self.restart, self.date, self.choice, self.include)
+        return read_data(content, self.key, self.start, self.restart, self.date, self.choice, self.include, self.zeros)
 
     def init_seats_dat(self):
         xs = set()
@@ -1176,8 +1187,9 @@ class MenuPage:
 
     def __init__(self, options):
         button_size = 64
-        self.display = ScrollButtonDisplay(screen_center, (300, screen_height * 4 / 5), button_size * len(options),
-                                           CENTER, button_size=button_size)
+        self.display = ScrollButtonDisplay((screen_rect.centerx, screen_rect.top + screen_height / 16),
+                                           (300, screen_height * 3 / 4), button_size * len(options),
+                                           align=TOP, button_size=button_size)
         background_colour = dark_grey
         buttons = []
         for i, entry in enumerate(options):
@@ -1204,7 +1216,7 @@ class MenuPage:
             buttons.append(b)
         self.display.add_select_buttons(buttons)
 
-        self.update_b = Button((screen_rect.centerx / 2, screen_rect.centery), align=CENTER, label='Update Data')
+        self.update_b = Button((screen_rect.centerx, screen_height * 7 / 8), align=CENTER, label='Update Data')
         self.update_b.callback(update_data)
 
         self.show()
