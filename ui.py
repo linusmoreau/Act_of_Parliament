@@ -1464,7 +1464,7 @@ class PageStatistics(PageListBase):
 
     parameters = {
         "party_support": {"x_min": None, "x_max": None, "y_min": 0, "y_max": None,
-                          "y_title": "Support (%)", "leader": True, "time": True}
+                          "y_title": "Support (%)", "leader": True, "istime": True}
     }
 
     def __init__(self):
