@@ -1176,7 +1176,7 @@ class Text(Widget):
                 style = pygame.font.SysFont(features["font"], self.font_size,
                                             bold=features["bold"], italic=features["italic"])
                 style.set_underline(features["underline"])
-                surf = style.render(texts[text_point].strip(), True, features["colour"], self.background_colour)
+                surf = style.render(texts[text_point], True, features["colour"], self.background_colour)
                 widths.append(surf.get_width())
                 surfaces.append(surf)
                 text_point += 1
@@ -1260,7 +1260,7 @@ class Text(Widget):
                             if not in_command:
                                 if line[i] == ' ':
                                     newline = line[i + 1:]
-                                    line = line[:i + 1]
+                                    line = line[:i]
                                     break
                             if i > 0:
                                 if line[i - 1] + line[i] == "/>":
