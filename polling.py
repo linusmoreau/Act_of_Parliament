@@ -93,6 +93,8 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     m = temp[-2]
                     d = temp[-3]
                     temp = d + ' ' + m + ' ' + y
+                elif choice == 'Bulgaria' and 'Exit polls' in line:
+                    temp = '11 07 2021'
                 else:
                     dates = line.split('|')[-1]
                     if '-' in dates:
