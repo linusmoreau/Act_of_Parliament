@@ -22,6 +22,40 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
         else:
             return sum(map(lambda r: r in line, restart))
 
+    def isdate(line):
+        try:
+            dates = line.split('|')[-1]
+            if '-' in dates:
+                s = dates.split('-')
+            elif '–' in dates:
+                s = dates.split('–')
+            elif '−' in dates:
+                s = dates.split('−')
+            else:
+                s = dates.split('â€“')
+            temp = s[-1].strip()
+            temps = temp.strip().split()
+            if len(temps) == 2:
+                try:
+                    y = int(temps[-1])
+                    m = temps[0]
+                    temp = str(date_kit.get_month_length(date_kit.get_month_number(m), y)) + ' ' + temp
+                except ValueError:
+                    temp = temp + ' ' + year
+            elif len(temps) == 1:
+                try:
+                    temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
+                           ' ' + temp + ' ' + year
+                except KeyError:
+                    return None
+            temp = temp.strip("'")
+            temp = temp.replace('X', '0')
+            end_date = date_kit.Date(text=temp, form='dmy')
+            end = date_kit.date_dif(today, end_date)
+            return end
+        except:
+            return None
+
     dat: Dict[str, Dict[int, List[float]]] = {}
     rot = None
     end = 0
@@ -53,6 +87,13 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
             if '|8 February 2020' in line:
                 key = ['FG', 'FF', 'SF', 'Lab', 'PBP/S', 'SD', 'GP', 'O/I', 'O/I', 'O/I']
                 flag = True
+        elif choice == 'Slovenia':
+            a = isdate(line)
+            if a is not None:
+                end = a
+                rot = 0
+                i += 1
+                continue
         if isrestart(line):
             rot = 0
         if rot is not None:
@@ -209,8 +250,8 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     continue
                 if '{{efn' in temp:
                     temp = temp[:temp.find('{{efn')]
-                if choice in ['Spain', 'Portugal'] and '<br/>' in line:
-                    temp = temp[:temp.find('<br/>')]
+                if choice in ['Spain', 'Portugal', 'Slovenia'] and '<br' in line:
+                    temp = temp[:temp.find('<br')]
                 elif choice == 'Ireland' and '<ref' in line:
                     temp = temp[:temp.find('<ref')]
                 temp = temp.split('|')[-1].strip()
@@ -222,8 +263,9 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     share = None
                 else:
                     try:
-                        share = float(temp.strip().strip("'%"))
+                        share = float(temp.strip().strip("'%!"))
                     except ValueError:
+                        # print(temp)
                         share = None
                 if key[p] not in dat:
                     dat[key[p]] = {}
@@ -262,12 +304,22 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
         i += 1
         prevline = line
 
+    if choice == 'Slovenia':
+        for p in include:
+            for x in dat[p]:
+                normalize = [sum([dat[zero][x][i] if len(dat[zero][x]) > i and dat[zero][x][i] is not None else 0
+                                  for zero in key])
+                             for i in range(len(dat[p][x]))]
+                dat[p][x] = list(map(lambda i, y: (y if y is not None else 0) / (normalize[i] / 100)
+                                     if normalize[i] != 0 else 0, range(len(dat[p][x])), dat[p][x]))
     if zeros is not None:
         for p in include:
             for x in dat[p]:
-                normalize = [sum([dat[zero][x][i] if len(dat[zero][x]) > i else 0 for zero in zeros])
+                normalize = [sum([dat[zero][x][i] if len(dat[zero][x]) > i and dat[zero][x][i] is not None else 0
+                                  for zero in zeros])
                              for i in range(len(dat[p][x]))]
-                dat[p][x] = list(map(lambda i, y: y / (1 - normalize[i] / 100), range(len(dat[p][x])), dat[p][x]))
+                dat[p][x] = list(map(lambda i, y: (y if y is not None else 0) / (1 - normalize[i] / 100),
+                                     range(len(dat[p][x])), dat[p][x]))
     if include is not None:
         dat = {k: v for (k, v) in dat.items() if k in include}
     return dat
@@ -658,6 +710,32 @@ def choices_setup():
             'bar': 0,
             'threshold': 5,
             'method': 'quotient'
+        },
+        'Slovenia': {
+            'key': ['SDS', 'LMS', 'SD', 'SMC', 'Left', 'NSi', 'SAB', 'DeSUS', 'SNS', 'SLS', 'PPS', 'DD', 'ACZS',
+                    'Other'],
+            'include': ['SDS', 'LMS', 'SD', 'SMC', 'Left', 'NSi', 'SAB', 'DeSUS', 'SNS', 'SLS', 'PPS', 'DD', 'ACZS'],
+            'col': {'SDS': (252, 220, 0), 'LMS': (0, 90, 171), 'SD': (227, 0, 15), 'SMC': (0, 0, 153),
+                    'Left': (255, 55, 50), 'NSi': (0, 154, 199), 'SAB': (0, 169, 225), 'DeSUS': (141, 198, 63),
+                    'SNS': (34, 31, 31), 'SLS': (116, 202, 55), 'PPS': (210, 105, 30), 'DD': (129, 215, 66),
+                    'ACZS': (106, 179, 46)},
+            'gov': {'Government': ['SDS', 'SMC', 'NSi'],
+                    'Opposition': ['LMS', 'SD', 'Left', 'SAB', 'DeSUS', 'SNS', 'SLS', 'PPS', 'DD', 'ACZS']},
+            'blocs': {'Conservative': ['SDS', 'NSi', 'SNS', 'SLS'],
+                      'Liberal': ['LMS', 'SMC', 'SAB', 'DeSUS', 'PPS', 'DD', 'ACZS'],
+                      'Socialist': ['SD', 'Left']},
+            'date': -1,
+            'start': 2,
+            'end_date': Date(2022, 6, 5),
+            'restart': [],
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Slovenian_parliamentary_election&action=edit&section=3',
+            'toggle_seats': True,
+            'seats': 88,
+            'divisor': 1,
+            'threshold': 4,
+            'bar': 0,
+            'method': 'quotient',
         },
         'Spain': {
             'key': ['PSOE', 'PP', 'VOX', 'UP', 'Cs', 'ERC', 'MP', 'JxCat', 'PNV', 'EHB', 'CUP', 'CC', 'BNG', 'NA+',

@@ -1,0 +1,3142 @@
+== Poll results ==
+Poll results are listed in the table in reverse chronological order, showing the most recent first. The highest figure in each survey is displayed in bold, and the background shaded in the leading party's colour. In the case of a tie, no figure is shaded. When available, seat projections for 88 out of 90 seats (without seats reserved for minorities) are displayed below the percentages in a smaller font. 46 seats are required for an [[absolute majority]] in the [[National Assembly (Slovenia)|National Assembly]]. The dates of when the poll was conducted are given when available, otherwise, the date of publication is listed.
+
+{| class="wikitable sortable" style="text-align:center;font-size:95%;line-height:16px"
+|-
+! rowspan="2" style="width:120px;"|Date
+! rowspan="2"|Polling firm/Publisher(s)
+! rowspan="2" style="width:50px;" class="unsortable"|Sample size
+! style="width:35px;" class="unsortable"| [[Slovenian Democratic Party|SDS]]
+! style="width:35px;" class="unsortable"| [[List of Marjan Šarec|LMŠ]]
+! style="width:35px;" class="unsortable"| [[Social Democrats (Slovenia)|SD]]
+! style="width:35px;" class="unsortable"| [[Modern Centre Party|SMC]]
+! style="width:35px;" class="unsortable"| [[The Left (Slovenia)|The Left]]
+! style="width:35px;" class="unsortable"| [[New Slovenia|NSi]]
+! style="width:35px;" class="unsortable"| [[Party of Alenka Bratušek|SAB]]
+! style="width:35px;" class="unsortable"| [[Democratic Party of Pensioners of Slovenia|DeSUS]]
+! style="width:35px;" class="unsortable"| [[Slovenian National Party|SNS]]
+! style="width:35px;" class="unsortable"| [[Slovenian People's Party|SLS]]
+! style="width:35px;" class="unsortable"| [[Pirate Party (Slovenia)|PPS]]
+! style="width:35px;" class="unsortable"| [[Good State (Slovenia)|DD]]
+! style="width:35px;" class="unsortable"| [[Andrej Čuš and Greens of Slovenia|AČZS]]
+! rowspan="2" style="width:35px;" class="unsortable"| Other
+! rowspan="2" style="width:35px;" class="unsortable"| None
+! rowspan="2" style="width:35px;" class="unsortable"| Und.
+! rowspan="2" style="width:35px;" class="unsortable"| Abst.
+! rowspan="2" style="width:35px;" class="unsortable"| Lead
+! class="unsortable" rowspan="2"| Source
+|-
+! class="unsortable" style="background:{{Slovenian Democratic Party/meta/color}}; width:30px;" |
+! class="unsortable" style="background:{{List of Marjan Šarec/meta/color}}; width:30px"|
+! class="unsortable" style="background:{{Social Democrats (Slovenia)/meta/color}}; width:30px;"|
+! class="unsortable" style="background:{{Modern Centre Party/meta/color}}; width:30px;"|
+! class="unsortable" style="background:{{United Left (Slovenia)/meta/color}}; width:30px;"|
+! class="unsortable" style="background:{{New Slovenia/meta/color}}; width:30px;"|
+! class="unsortable" style="background:{{Alliance of Alenka Bratušek/meta/color}}; width:30px"|
+! class="unsortable" style="background:{{Democratic Party of Pensioners of Slovenia/meta/color}}; width:30px;"|
+! class="unsortable" style="background:{{Slovenian National Party/meta/color}}; width:30px"|
+! class="unsortable" style="background:{{Slovenian People's Party/meta/color}}; width:30px;"|
+! class="unsortable" style="background: #D2691E; width:30px"|
+! class="unsortable" style="background: #81d742; width:30px"|
+! class="unsortable" style="background: #6ab32e; width:30px"|
+|-
+|27 Jun 2021
+|Mediana/POPTV
+|713
+| style="background:#FFFFBF" " |'''18.9'''
+|8.4
+|9.5
+|–
+|9.4
+|4.9
+|3.2
+|2.1
+|–
+|1.6
+|2.6
+|–
+|1.7
+|–
+|12.0
+|18.2
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |9.4
+|<ref>{{Cite web|title=Vlada nekoliko popravila vtis, še vedno pa jo podpira manj kot tretjina vprašanih|url=https://www.24ur.com/novice/slovenija/mediana-junij.html|access-date=2021-06-27|website=www.24ur.com|language=sl}}</ref>
+|-
+|15–18 Jun 2021
+|Parsifal/Nova24TV
+|708
+| style="background:#FFFFBF" " |'''18.8'''
+|11.6
+|10.8
+|0.9
+|5.3
+|3.7
+|1.7
+|3.8
+|1.5
+|0.8{{efn|name=PoS|as [[Let's Connect Slovenia]]}}
+|1.9
+|1.6
+|{{efn|name=PoS}}
+|2.7{{efn|Our Country 1.5%, Green Action Party 0.4%}}
+|10.9
+|13.9
+|10.1
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.2
+|<ref>{{Cite web|title=(Javnomnenjska anketa) Vstop Vesela v politiko bo drobil glasove na levici – tudi njihov domet je omejen!|url=https://demokracija.si/fokus/javnomnenjska-anketa-vstop-vesela-v-politiko-bo-drobil-glasove-na-levici-tudi-njihov-domet-je-omejen/|access-date=2021-06-25|website=www.demokracija.si}}</ref>
+|-
+|15–17 Jun 2021
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''19.1'''<br />{{font|size=75%|font=Verdana|text=29}}
+|8.8<br />{{font|size=75%|font=Verdana|text=14}}
+|12.0<br />{{font|size=75%|font=Verdana|text=19}}
+|0.6<br />{{font|size=75%|font=Verdana|text=0}}
+|6.9<br />{{font|size=75%|font=Verdana|text=11}}
+|6.5<br />{{font|size=75%|font=Verdana|text=10}}
+|3.4<br />{{font|size=75%|font=Verdana|text=5}}
+|0.9<br />{{font|size=75%|font=Verdana|text=0}}
+|1.1<br />{{font|size=75%|font=Verdana|text=0}}
+|2.3<br />{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|0.8
+|6.9
+|30.5
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.1
+|<ref>{{Cite web|title=Da Slovenija v 30 letih ni upravičila pričakovanj, meni 62 odstotkov vprašanih|url=https://www.rtvslo.si/slovenija/da-slovenija-v-30-letih-ni-upravicila-pricakovanj-meni-62-odstotkov-vprasanih/585109|website=rtvslo.si|language=sl}}</ref>
+|-
+|10–15 Jun 2021
+|Episcenter/Domovina
+|800
+| style="background:#FFFFBF" " |'''22'''
+|20
+|17
+|–
+|10
+|10
+|5
+|<1
+|<1
+|2{{efn|name=PoS}}
+|3
+|2
+|{{efn|name=PoS}}
+|4{{efn|Green Action Party 2%, Our Country 1%}}
+|–
+|5
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |2
+|<ref>{{Cite web|title=Anketa: LMŠ in SD blizu SDS-u, preko praga šest strank|url=https://www.domovina.je/anketa-lms-in-sd-blizu-sds-u-preko-praga-sest-strank/|access-date=2021-06-25|website=www.domovina.je}}</ref>
+|-
+|7–10 Jun 2021
+|Mediana/Delo
+|710
+| style="background:#FFFFBF" " |'''17.3'''
+|9.7
+|10.8
+|0.5
+|8.6
+|3.5
+|2.3
+|2.7
+|1.7
+|1.6
+|1.9
+|2.0
+|1.7
+|2.3
+|8.4
+|19.6
+|4.0
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.5
+|<ref>{{Cite web|title=Anketa: Najvišje ostaja SDS, sledijo SD, LMŠ in Levica|url=https://www.rtvslo.si/slovenija/anketa-najvisje-ostaja-sds-sledijo-sd-lms-in-levica/584192|website=rtvslo.si|language=sl}}</ref><ref>{{Cite web|title=Anketa Dela: podpora vladi se je odbila od dna, spodbudni rezultati za neparlamentarne stranke|url=https://www.domovina.je/anketa-dela-podpora-vladi-se-je-odbila-od-dna-spodbudni-rezultati-za-neparlamentarne-stranke/|website=domovina.je|language=sl}}</ref>
+|-
+|24–26 May 2021
+|Parsifal/Planet TV
+|752
+| style="background:#FFFFBF" " |'''18.0'''
+|9.4
+|8.9
+|1.0
+|4.8
+|4.7
+|1.5
+|2.3
+|1.8
+|1.7{{efn|name=PoS|as Let's Connect Slovenia}}
+|1.5
+|0.2
+|{{efn|name=PoS}}
+|3.9{{efn|Our Country 1.7%, Green Action Party 0.7%}}
+|8.8
+|19.4
+|12.4
+| style="background:{{Slovenian Democratic Party/meta/color}}" |8.6
+|<ref>{{Cite web|title=Planet TV: LMŠ pred SD, v DZ tudi Aleksandra Pivec|url=https://siol.net/novice/slovenija/planet-tv-lms-pred-sd-v-dz-tudi-aleksandra-pivec-553402|access-date=2021-05-31|website=www.siol.net}}</ref>
+|-
+|24 May 2021{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|–
+| style="background:#FFFFBF" " |'''18.2'''
+|9.0
+|10.0
+|0.8
+|8.4
+|4.5
+|2.7
+|2.5
+|1.4
+|2.2
+|1.5
+|1.1
+|1.8
+|3.1
+|10.0
+|20.4
+|2.7
+| style="background:{{Slovenian Democratic Party/meta/color}}" |8.2
+|<ref>{{Cite web|title=Anketa POP TV bolj optimistična za DeSUS in z dobrimi obeti za Povežimo Slovenijo|url=https://www.domovina.je/anketa-pop-tv-bolj-optimisticna-za-desus-in-zelo-optimisticna-za-projekt-povezimo-slovenijo/|access-date=2021-05-24|website=www.domovina.je}}</ref>
+|-
+|11–13 May 2021
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''18.0'''<br />{{font|size=75%|font=Verdana|text=28}}
+|8.2<br />{{font|size=75%|font=Verdana|text=13}}
+|13.1<br />{{font|size=75%|font=Verdana|text=20}}
+|0.6<br />{{font|size=75%|font=Verdana|text=0}}
+|7.3<br />{{font|size=75%|font=Verdana|text=11}}
+|7.3<br />{{font|size=75%|font=Verdana|text=11}}
+|3.6<br />{{font|size=75%|font=Verdana|text=5}}
+|0.5<br />{{font|size=75%|font=Verdana|text=0}}
+|1.0<br />{{font|size=75%|font=Verdana|text=0}}
+|1.9<br />{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|1.0
+|4.4
+|32.9
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |4.9
+|<ref>{{Cite web|title=Anketa: Parlamentarni prag bi prestopilo le šest strank|url=https://reporter.si/clanek/slovenija/anketa-parlamentarni-prag-bi-prestopilo-le-sest-strank-874160|website=reporter.si|language=sl}}</ref>
+|-
+|10–13 May 2021
+|Parsifal/Nova24TV
+|762
+| style="background:#FFFFBF" " |'''21.0'''
+|7.9
+|11.5
+|0.7
+|5.0
+|4.6
+|0.9
+|2.3
+|1.7
+|3.9{{efn|name=NLS}}
+|1.9
+|1.2
+|–
+|2.8{{efn|Our Country 1.7%}}
+|10.6
+|16.0
+|8.1
+| style="background:{{Slovenian Democratic Party/meta/color}}" |9.5
+|<ref>{{Cite web|title=(Javnomnenjska raziskava) Stranka SDS vodilna, prav tako je podpora pričela naraščati vladi!|url=https://demokracija.si/fokus/javnomnenjska-raziskava-stranka-sds-vodilna-prav-tako-je-podpora-pricela-narascati-vladi/|website=demokracija.si|language=sl}}</ref>
+|-
+|3–5 May 2021
+|Mediana/Delo
+|712
+| style="background:#FFFFBF" " |'''17.4'''
+|7.0
+|12.2
+|1.0
+|7.6
+|4.4
+|3.4
+|1.2
+|2.0
+|3.0
+|1.4
+|1.5
+|1.3
+|–
+|12.6
+|18.3
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |5.2
+|<ref>{{Cite web|title=Anketa izmerila višjo podporo vladi. SDS vodi med strankami.|url=https://www.rtvslo.si/slovenija/anketa-izmerila-visjo-podporo-vladi-sds-vodi-med-strankami/579661|website=rtvslo.si|language=sl}}</ref>
+|-
+|26 Apr 2021{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|714
+| style="background:#FFFFBF" " |'''17.6'''
+|8.5
+|10.8
+|0.6
+|7.9
+|5.1
+|4.3
+|1.1
+|1.4
+|0.8
+|2.3
+|1.1
+|2.0
+|1.4
+|11.1
+|21.2
+|2.8
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.8
+|<ref>{{Cite web|title=Koga “visoko ceni” anketa POP TV in kaj kaže primerjava petih aprilskih javnomnenjskih poizvedb|url=https://www.domovina.je/koga-visoko-ceni-anketa-pop-tv-in-kaj-kaze-primerjava-petih-aprilskih-javnomnenjskih-raziskav/|access-date=2021-04-26|website=www.domovina.je}}</ref>
+|-
+|13–15 Apr 2021
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''19.0'''
+|10.1
+|13.2
+|0.3
+|6.9
+|7.4
+|3.6
+|0.3
+|0.2
+|1.2
+|–
+|–
+|–
+|–
+|7.4
+|28.7
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.8
+|<ref>{{Cite web|title=Anketa: V vodstvu SDS, NSi je prehitela Levico|url=https://reporter.si/clanek/slovenija/anketa-v-vodstvu-sds-nsi-je-prehitela-levico-866795|website=reporter.si|language=sl}}</ref>
+|-
+|12–14 Apr 2021
+|Parsifal/Nova24TV
+|762
+| style="background:#FFFFBF" " |'''20.0'''
+|10.8
+|11.3
+|0.7
+|6.4
+|4.1
+|2.6
+|1.6
+|2.3
+|2.6{{efn|name=NLS}}
+|0.8
+|0.1
+|–
+|0.6
+|9.3
+|17.3
+|9.4
+| style="background:{{Slovenian Democratic Party/meta/color}}" |8.7
+|<ref>{{Cite web|title=[Javnomnenjska anketa] Medijski napadi in strategija rušenja s strani opozicije ne moreta zamajati stranke SDS, ki bi prepričljivo zmagala na volitvah|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-medijski-napadi-in-strategija-rusenja-s-strani-opozicije-ne-moreta-zamajati-stranke-sds-ki-bi-prepricljivo-zmagala-na-volitvah/|website=nova24tv.si|language=sl}}</ref>
+|-
+|6–8 Apr 2021
+|Mediana/Delo
+|701
+| style="background:#FFFFBF" " |'''15.6'''
+|7.5
+|12.4
+|0.5
+|8.4
+|5.8
+|2.4
+|2.6
+|1.9
+|1.4
+|1.6
+|0.6
+|2.4
+|–
+|14.8
+|16.1
+|4.1
+| style="background:{{Slovenian Democratic Party/meta/color}}" |3.2
+|<ref>{{Cite web|title=Anketa: v vodstvu SDS, a SD se ji je približala na dobre tri odstotke|url=https://reporter.si/clanek/slovenija/anketa-v-vodstvu-sds-a-sd-se-ji-je-priblizala-na-dobre-tri-odstotke-865023|website=reporter.si|language=sl}}</ref>
+|-
+|29 Mar 2021{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|713
+| style="background:#FFFFBF" " |'''18.7'''
+|9.6
+|10.9
+|0.7
+|8.3
+|4.6
+|2.8
+|1.4
+|2.3
+|1.5
+|0.8
+|1.8
+|1.9
+|2.3
+|11.9
+|16.5
+|4.2
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.8
+|<ref>{{Cite web|title=Koga “visoko ceni” anketa POP TV in kaj kaže primerjava petih aprilskih javnomnenjskih poizvedb|url=https://www.domovina.je/koga-visoko-ceni-anketa-pop-tv-in-kaj-kaze-primerjava-petih-aprilskih-javnomnenjskih-raziskav/|access-date=2021-04-26|website=www.domovina.je}}</ref>
+|-
+|18–25 Mar 2021
+|Episcenter/Domovina
+|1,350
+| style="background:#FFFFBF" " |'''24'''<br />{{font|size=75%|font=Verdana|text=27}}
+|17<br />{{font|size=75%|font=Verdana|text=19}}
+|19<br />{{font|size=75%|font=Verdana|text=22}}
+|1<br />{{font|size=75%|font=Verdana|text=0}}
+|10<br />{{font|size=75%|font=Verdana|text=10}}
+|9<br />{{font|size=75%|font=Verdana|text=10}}
+|3<br />{{font|size=75%|font=Verdana|text=0}}
+|1<br />{{font|size=75%|font=Verdana|text=0}}
+|2<br />{{font|size=75%|font=Verdana|text=0}}
+|2<br />{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|3<br />{{font|size=75%|font=Verdana|text=0}}
+|4
+|–
+|5
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |5
+|<ref>{{Cite web|title=Anketa: SDS in NSi bi zbrali več poslancev, kot jih imata sedaj, v parlamentu bi bilo le pet strank|url=https://www.domovina.je/anketa-sds-in-nsi-bi-zbrali-vec/|access-date=2021-04-26|website=www.domovina.je}}</ref>
+|-
+|8–12 Mar 2021
+|Mediana/Delo
+|703
+| style="background:#FFFFBF" " |'''16.4'''
+|8.8
+|10.4
+|0.8
+|9.0
+|4.5
+|2.2
+|2.3
+|2.1
+|2.2
+|1.2
+|1.2
+|1.9
+|–
+|10.7
+|20.8
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.0
+|<ref>{{Cite web|title=Anketi: Najnižja podpora vladi do zdaj|url=https://www.rtvslo.si/slovenija/anketi-najnizja-podpora-vladi-do-zdaj/573050|website=rtvslo.si|language=sl}}</ref>
+|-
+|9–11 Mar 2021
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''18.9'''
+|8.8
+|12.9
+|0.9
+|7.7
+|4.2
+|3.8
+|3.1
+|1.7
+|1.9
+|–
+|–
+|–
+|–
+|8.2
+|30.3
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.0
+|<ref>{{Cite web|title=Anketi: Najnižja podpora vladi do zdaj|url=https://www.rtvslo.si/slovenija/anketi-najnizja-podpora-vladi-do-zdaj/573050|website=rtvslo.si|language=sl}}</ref>
+|-
+|1–4 Mar 2021
+|Parsifal/Nova24TV
+|717
+| style="background:#FFFFBF" " |'''19.0'''
+|8.2
+|12.1
+|1.2
+|6.6
+|4.6
+|2.4
+|2.1
+|3.4
+|1.4{{efn|name=NLS}}
+|1.4
+|1.9
+|–
+|1.9
+|8.3
+|16.8
+|8.7
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.9
+|<ref>{{Cite web|title=[Javnomnenjska anketa] Tudi medijski napadi iz tujine stranke SDS niso zamajali v javnem mnenju – ta še vedno prepričljivo na prvem mestu
+|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-tudi-medijski-napadi-iz-tujine-stranke-sds-niso-zamajali-v-javnem-mnenju-ta-se-vedno-prepricljivo-na-prvem-mestu/|website=nova24tv.si|language=sl}}</ref>
+|-
+|1 Mar 2021{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|710
+| style="background:#FFFFBF" " |'''18.2'''
+|7.9
+|11.0
+|0.8
+|8.2
+|4.3
+|3.9
+|1.2
+|2.3
+|2.6
+|2.0
+|1.6
+|1.4
+|0.7
+|11.4
+|17.8
+|3.9
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.2
+|<ref>{{Cite web|title=Po anketi POP TV vlada že drugi mesec bolje. Stranki iz Povežimo Slovenijo skupaj sežeta v parlament|url=https://www.domovina.je/anketa-pop-tv-vlada-ze-drugi-mesec-bolje-stranki-iz-povezimo-slovenijo-skupaj-v-parlamentu/|access-date=2021-03-07|website=www.domovina.je}}</ref>
+|-
+|9–11 Feb 2021
+|Mediana/Delo
+|712
+| style="background:#FFFFBF" " |'''17.2'''
+|7.1
+|9.5
+|1.1
+|10.0
+|4.7
+|3.4
+|2.1
+|2.3
+|0.8
+|2.0
+|1.2
+|1.7
+|–
+|11.5
+|22.6
+|0.8
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.2
+|<ref>{{Cite web|title=Vox populi: Ljudmila Novak z vrha lestvice priljubljenosti izrinila Boruta Pahorja|url=https://www.rtvslo.si/slovenija/vox-populi-ljudmila-novak-z-vrha-lestvice-priljubljenosti-izrinila-boruta-pahorja/569622|website=rtvslo.si|language=sl}}</ref>
+|-
+|9–11 Feb 2021
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''17.1'''
+|10.2
+|13.1
+|1.0
+|8.8
+|4.2
+|3.1
+|3.1
+|1.2
+|2.1
+|–
+|–
+|–
+|–
+|8.7
+|27.2
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.0
+|<ref>{{Cite web|title=Ljudmila Novak z vrha lestvice priljubljenosti izrinila predsednika republike|url=https://www.primorske.si/slovenija/ljudmila-novak-z-vrha-lestvice-priljubljenosti-izr|website=primorske.si|language=sl}}</ref>
+|-
+|25–28 Jan 2021
+|Parsifal/Nova24TV
+|732
+| style="background:#FFFFBF" " |'''23.5'''
+|7.7
+|8.1
+|0.7
+|7.7
+|3.6
+|1.9
+|3.6
+|1.5
+|2.5{{efn|name=NLS}}
+|2.1
+|0.8
+|–
+|0.9
+|6.5
+|18.7
+|10.0
+| style="background:{{Slovenian Democratic Party/meta/color}}" |15.4
+|<ref>{{Cite web|title=
+Parsifal: Javnomnenjska anketa - SDS bi volilo toliko volivcev kot vse štiri stranke koalicije KUL skupaj!
+|url=https://vfokusu.si/post/580559/parsifal-javnomnenjska-anketa-sds-bi-volilo-toliko-volivcev-kot-vse-stiri-stranke-koalicije-kul-skupaj|website=vfokusu.si|language=sl}}</ref>
+|-
+|25 Jan 2021{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|710
+| style="background:#FFFFBF" " |'''16.9'''
+|8.8
+|9.0
+|1.4
+|6.9
+|5.0
+|4.1
+|2.5
+|2.4
+|1.9
+|1.7
+|1.1
+|1.8
+|1.2
+|6.6
+|25.4
+|2.7
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.9
+|<ref>{{Cite web|title=Anketa POP TV z nekaj boljšimi rezultati za vlado, ne pa tudi za Erjavca|url=https://www.domovina.je/anketa-pop-tv-z-nekaj-boljsimi-rezultati-za-vlado-rejting-erjavca-usmiljenja-vreden/|access-date=2021-01-28|website=www.domovina.je}}</ref>
+|-
+|12–14 Jan 2021
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''19.9'''
+|10.7
+|12.6
+|0.7
+|10.1
+|4.9
+|3.0
+|3.2
+|1.2
+|1.1
+|–
+|–
+|–
+|1.0
+|7.1
+|24.7
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.3
+|<ref>{{Cite web|title=Vox populi: Trendi rasti na strani Levice, SD in SAB|url=https://www.dnevnik.si/1042947393/slovenija/vox-populi-trendi-rasti-na-strani-levice-sd-in-sab|website=dnevnik.si|language=sl}}</ref>
+|-
+|4–7 Jan 2021
+|Mediana/Delo
+|709
+| style="background:#FFFFBF" " |'''13.7'''
+|7.5
+|8.5
+|1.1
+|9.6
+|4.8
+|3.1
+|2.1
+|2.0
+|1.5
+|1.8
+|1.4
+|1.7
+|–
+|13.3
+|22.5
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |4.1
+|<ref>{{Cite web|title=Po Delovi anketi Levica že druga, Erjavec prikovan na dno|url=https://www.domovina.je/po-delovi-anketi-levica-ze-druga-erjavec-prikovan-na-dno/|access-date=2021-01-15|website=domovina.je|language=sl}}</ref>
+|-
+|28 Dec 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|712
+| style="background:#FFFFBF" " |'''17.3'''
+|7.3
+|10.2
+|0.9
+|8.4
+|5.6
+|2.3
+|1.7
+|1.3
+|1.5
+|1.8
+|1.1
+|1.2
+|1.3
+|10.3
+|23.0
+|3.9
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.1
+|<ref>{{Cite web|url=https://reporter.si/clanek/slovenija/anketa-vlado-podpira-manj-kot-tretjina-vprasanih-po-vrnitvi-erjavca-strmoglavila-podpora-desus-837177|website=reporter.si|language=sl|access-date=2021-01-15|title=Anketa: Vlado podpira manj kot tretjina vprašanih, po vrnitvi Erjavca strmoglavila podpora DeSUS}}</ref>
+|-
+|21–23 Dec 2020
+|Parsifal/Nova24TV
+|757
+| style="background:#FFFFBF" " |'''20.9'''
+|9.9
+|8.0
+|1.2
+|7.2
+|2.6
+|2.4
+|6.4
+|1.4
+|1.1{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|2.1
+|0.6
+|–
+|0.8
+|6.3
+|14.7
+|14.3
+| style="background:{{Slovenian Democratic Party/meta/color}}"|11.0
+|<ref name="parsifal122620">{{Cite web|date=2020-12-26|title=[Javnomnenjska anketa] Erjavčev izstop iz koalicije se že pozna na nižji podpori DeSUS, SDS močno vodi!|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-volivci-odlocno-ne-odobravajo-samovolje-karla-erjavca-ko-je-desus-popeljal-iz-koalicije-je-podpora-stranki-mocno-padla/|access-date=2020-12-27|website=nova24tv.si|language=sl-SI}}</ref>
+|-
+|15–17 Dec 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''20.6'''
+|11.7
+|11.8
+|0.1
+|9.1
+|3.8
+|2.9
+|3.7
+|2.0
+|2.2
+|–
+|–
+|–
+|1.8
+|6.9
+|23.5
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |8.8
+|<ref>{{Cite web|title=Vox populi: Podpora vladi Janeza Janše ostaja na nizki ravni|url=https://www.dnevnik.si/1042945823/slovenija/vox-populi-podpora-vladi-janeza-janse-ostaja-na-nizki-ravni|access-date=2020-12-22|website=dnevnik.si|language=sl}}</ref>
+|-
+|7–9 Dec 2020
+|Mediana/Delo
+|711
+| style="background:#FFFFBF" " |'''16.9'''
+|10.1
+|7.7
+|1.0
+|9.4
+|4.5
+|3.2
+|3.6
+|2.3
+|0.7
+|2.1
+|0.8
+|1.0
+|1.7
+|–
+|35.0
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |6.7
+|<ref>{{Cite web|title=Anketa Mediane: SD zdrsnil z drugega na četrto mesto|url=https://www.rtvslo.si/slovenija/anketa-mediane-sd-zdrsnil-z-drugega-na-cetrto-mesto/545678|access-date=2020-12-15|website=slovenskenovice.si|language=sl}}</ref>
+|-
+|7–9 Dec 2020
+|Parsifal/Nova24TV
+|727
+| style="background:#FFFFBF" " |'''17.4'''
+|10.8
+|7.3
+|0.5
+|5.6
+|5.2
+|2.4
+|7.1
+|1.3
+|2.5{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|1.1
+|1.3
+|–
+|0.3
+|9.9
+|13.6
+|13.7
+| style="background:{{Slovenian Democratic Party/meta/color}}"|6.6
+|<ref name="parsifal122620" /><ref>{{Cite web|date=2020-12-12|title=[Javnomnenjska anketa] Aktualna koalicija z več kot 50-odstotno podporo! Po zaslugi poslancev DeSUS pa se je podpora upokojenski stranki kar  podvojila!|url=https://nova24tv.si/slovenija/politika/ljavnomnenjska-anketa-aktualna-koalicija-s-50-odstotno-podporo-po-pestrem-dogajanju-v-desus-u-pa-se-je-njihova-podpora-kar-podvojila/|access-date=2020-12-16|website=nova24tv.si|language=sl-SI}}</ref>
+|-
+|23 Nov 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|711
+| style="background:#FFFFBF" " |'''16.5'''
+|10.8
+|11.0
+|0.7
+|8.7
+|4.3
+|2.0
+|3.9
+|2.6
+|1.4
+|1.4
+|1.7
+|1.0
+|0.8
+|14.4
+|12.8
+|2.5
+| style="background:{{Slovenian Democratic Party/meta/color}}" |5.5
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana_4.html|website=24ur.com|language=sl|access-date=2020-11-23|title=Dela vlade ne podpira skoraj 55 odstotkov vprašanih, največja 'stranka' neopredeljeni}}</ref>
+|-
+|10–12 Nov 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''20.4'''
+|12.7
+|12.6
+|0.2
+|8.2
+|4.6
+|3.3
+|2.5
+|2.0
+|1.4
+|–
+|–
+|–
+|1.7
+|–
+|23.9
+|6.7
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.7
+|<ref>{{Cite web|title=AKTUALNA VPRAŠANJA – NOV 2020|url=http://ninamedia.si/arhivi/745|access-date=2020-11-16|website=ninamedia.si|language=sl}}</ref>
+|-
+|2–5 Nov 2020
+|Mediana/Delo
+|720
+| style="background:#FFFFBF" " |'''19.6'''
+|9.9
+|11.7
+|0.5
+|8.5
+|5.9
+|0.8
+|3.9
+|3.0
+|1.1
+|2.2
+|1.2
+|{{TBA}}
+|{{TBA}}
+|{{TBA}}
+|18.6
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |7.9
+|<ref>{{Cite web|title=Anketa Dela: Vlada z najvišjo oceno od aprila|url=https://www.slovenskenovice.si/novice/slovenija/anketa-dela-vlada-z-najvisjo-oceno-od-aprila-368638|access-date=2020-11-10|website=slovenskenovice.si|language=sl}}</ref>
+|-
+|2–4 Nov 2020
+|Parsifal/Nova24TV
+|704
+| style="background:#FFFFBF" " |'''21.3'''
+|10.1
+|11.1
+|0.5
+|5.9
+|4.2
+|2.4
+|4.7
+|2.0
+|1.0{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|1.6
+|0.4
+|–
+|0.6
+|6.1
+|18.5
+|9.5
+| style="background:{{Slovenian Democratic Party/meta/color}}"|10.2
+|<ref>{{Cite web|date=2020-11-08|title=[Javnomnenjska anketa] Če bi bile volitve zdaj, bi koalicijske stranke brez težav sestavile še močnejšo vlado!|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-ce-bi-bile-volitve-zdaj-bi-koalicijske-stranke-brez-tezav-sestavila-se-mocnejso-vlado/|access-date=2020-11-08|website=nova24tv.si|language=sl-SI}}</ref>
+|-
+|26 Oct 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|{{n/a}}
+| style="background:#FFFFBF" " |'''16.1'''
+|9.1
+|11.2
+|1.1
+|7.8
+|5.0
+|3.2
+|1.7
+|3.5
+|1.1
+|2.6
+|0.4
+|0.8
+|0.9
+|8.3
+|19.8
+|5.7
+| style="background:{{Slovenian Democratic Party/meta/color}}" |4.9
+|<ref>{{Cite web|url=https://www.domovina.je/anketa-pop-tv-vladne-stranke-bolje-kot-prejsnji-mesec-a-z-manj-zaupanja-pri-nevolivcih/|website=domovina.je|language=sl|access-date=2020-11-08|title=Anketa POP TV: vladne stranke bolje kot prejšnji mesec, a z manj zaupanja pri nevolivcih}}</ref>
+|-
+|13–15 Oct 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''21.1'''
+|13.1
+|12.8
+|0.8
+|8.0
+|6.2
+|3.2
+|1.2
+|2.1
+|2.3
+|–
+|–
+|–
+|1.1
+|–
+|19.3
+|8.3
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.0
+|<ref>{{Cite web|url=http://ninamedia.si/arhivi/736|title=AKTUALNA VPRAŠANJA – OKT 2020|date=2020-10-20|website=www.ninamedia.si|language=sl-si|access-date=2020-11-08}}</ref>
+|-
+|1–8 Oct 2020
+|Mediana/Delo
+|712
+| style="background:#FFFFBF" " |'''18.7'''
+|10.4
+|9.3
+|0.7
+|7.9
+|4.9
+|2.9
+|2.8
+|1.3
+|1.4
+|1.3
+|1.5
+|0.7
+|0.3
+|–
+|35.7
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |8.3
+|<ref>{{Cite web|title=Anketa: Vladne stranke bi dobile manj glasov od opozicije|url=https://www.rtvslo.si/slovenija/anketa-vladne-stranke-bi-dobile-manj-glasov-od-opozicije/538924|access-date=2020-10-16|website=RTVSLO.si|language=sl}}</ref>
+|-
+|28 Sep 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|713
+| style="background:#FFFFBF" " |'''16.1'''
+|11.5
+|9.3
+|0.3
+|5.9
+|5.3
+|2.3
+|1.0
+|3.1
+|1.7
+|1.2
+|1.5
+|1.0
+|0.5
+|12.1
+|23.0
+|4.0
+| style="background:{{Slovenian Democratic Party/meta/color}}" |4.6
+|<ref>{{Cite web|url=https://www.domovina.je/anketa-pop-tv-desus-prakticno-izbrisan-porast-neopredeljenih/|website=domovina.je|language=sl|access-date=2020-10-17|title=Anketa POP TV: DeSUS praktično izbrisan, porast neopredeljenih}}</ref>
+|-
+|18 Sep 2020{{efn|name=date|Publication date}}
+|Parsifal/Nova24TV
+|701
+| style="background:#FFFFBF" " |'''22.7'''
+|10.0
+|11.6
+|0.5
+|5.3
+|3.0
+|2.4
+|3.6
+|2.3
+|1.3{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|1.5
+|1.3
+|–
+|1.0
+|8.8
+|14.6
+|10.1
+| style="background:{{Slovenian Democratic Party/meta/color}}"|11.1
+|<ref>{{Cite web|date=2020-09-18|title=[Javnomnenjska anketa] Podpora SDS v nebo! Hujskaštvo se levičarjem ni obrestovalo!|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-vladi-podpora-narasca-sds-z-rekordno-prednostjo-pred-hujskaskimi-levimi-strankami-opozicije/|access-date=2020-10-17|website=nova24tv.si|language=sl-SI}}</ref>
+|-
+|15–17 Sep 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''22.1'''
+|9.0
+|13.6
+|0.4
+|7.2
+|5.1
+|1.9
+|1.3
+|1.6
+|1.7
+|–
+|–
+|–
+|1.9
+|–
+|24.4
+|9.9
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.5
+|<ref>{{Cite web|url=http://ninamedia.si/arhivi/726|title=AKTUALNA VPRAŠANJA – SEP 2020|date=2020-09-21|website=www.ninamedia.si|language=sl-si|access-date=2020-09-26}}</ref>
+|-
+|7–10 Sep 2020
+|Mediana/Delo
+|724
+| style="background:#FFFFBF" " |'''19.0'''
+|8.0
+|9.9
+|1.6
+|6.2
+|3.2
+|3.1
+|3.0
+|1.5
+|2.0
+|1.4
+|1.3
+|1.3
+|–
+|–
+|23.3
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}" |9.1
+|<ref>{{Cite web|title=Anketa: SDS povečal prednost pred drugimi strankami|url=https://www.rtvslo.si/slovenija/anketa-sds-povecal-prednost-pred-drugimi-strankami/536082|access-date=2020-09-14|website=RTVSLO.si|language=sl}}</ref>
+|-
+|24 Aug 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|714
+| style="background:#FFFFBF" " |'''18.2'''
+|9.5
+|9.5
+|1.1
+|8.0
+|4.5
+|1.7
+|3.7
+|3.0
+|1.9
+|1.2
+|1.2
+|1.1
+|–
+|14.5
+|15.3
+|4.7
+| style="background:{{Slovenian Democratic Party/meta/color}}" |8.7
+|<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/vladi-podpora-padla-koalicijskim-strankam-narasla/534106|website=RTVSLO|language=sl|access-date=2020-08-24|title=Vladi podpora padla, koalicijskim strankam narasla}}</ref>
+|-
+|18–24 Aug 2020
+|Parsifal/Nova24TV
+|801
+| style="background:#FFFFBF" " |'''20.9'''
+|10.2
+|11.9
+|1.1
+|6.8
+|3.1
+|1.4
+|2.6
+|2.1
+|2.0{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|1.5
+|0.9
+|–
+|1.7
+|7.9
+|12.7
+|13.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|9.0
+|<ref>{{Cite web|date=2020-08-29|title=Anketa Parsifal: Če bi bile državnozborske volitve to nedeljo, bi bila zmagovalka volitev SDS!|url=https://www.demokracija.si/fokus/anketa-parsifal-ce-bi-bile-drzavnozborske-volitve-to-nedeljo-bi-bila-zmagovalka-volitev-sds.html|access-date=2020-09-15|website=demokracija.si|language=sl-SI}}</ref>
+|-
+|11–13 Aug 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''23.2'''
+|9.4
+|13.9
+|0.1
+|6.6
+|5.7
+|1.0
+|1.8
+|2.1
+|0.3
+|–
+|–
+|–
+|0.5
+|–
+|25.9
+|9.3
+| style="background:{{Slovenian Democratic Party/meta/color}}"|9.3
+|<ref>{{Cite web|url=https://www.domovina.je/v-anketi-ninamedie-aleksandra-pivec-zaradi-svojih-grehov-padla-globoko-pod-zorana-jankovica/|title=V anketi Ninamedie Aleksandra Pivec zaradi svojih “grehov” padla globoko pod Zorana Jankovića|date=2020-08-17|website=www.domovina.je|language=sl-si|access-date=2020-08-17}}</ref>
+|-
+|3–6 Aug 2020
+|Mediana/Delo
+|715
+| style="background:#FFFFBF" " |'''19.5'''
+|9.7
+|11.2
+|1.4
+|7.1
+|5.0
+|1.9
+|1.5
+|1.6
+|1.2
+|2.4
+|0.8
+|1.1
+|
+|12.7
+|18.9
+|
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.3
+|<ref>{{Cite web|url=http://www.times.si/slovenija/anketa-sds-najbolj-priljubljena-stranka-sd-prehitel-lms--a506e4334f90a18122063185dd6ad3b01964dde6.html|website=times.si|language=sl|access-date=2020-08-10|title=Anketa: SDS najbolj priljubljena stranka, SD prehitel LMŠ}}</ref>
+|-
+|26 Jul 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|{{n/a}}
+| style="background:#FFFFBF" " |'''17.4'''
+|8.1
+|12.3
+|0.4
+|9.2
+|3.8
+|2.4
+|2.3
+|2.1
+|2.3
+|1.5
+|1.3
+|1.4
+|0.0
+|11.3
+|19.1
+|4.0
+| style="background:{{Slovenian Democratic Party/meta/color}}"|5.1
+|<ref>{{Cite web|url=https://www.domovina.je/anketa-pop-tv-izmerila-koliko-so-uspeli-skodovati-jansi-in-zaveznikom/|website=domovina.je|language=sl|access-date=2020-07-27|title=Anketa POP TV izmerila, koliko so uspeli škodovati Janši in zaveznikom}}</ref>
+|-
+|14–16 Jul 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''22.7'''<br />{{font|size=75%|font=Verdana|text=32}}
+|10.8<br/>{{font|size=75%|font=Verdana|text=15}}
+|14.7<br/>{{font|size=75%|font=Verdana|text=21}}
+|0.3<br/>{{font|size=75%|font=Verdana|text=0}}
+|6.7<br/>{{font|size=75%|font=Verdana|text=10}}
+|4.3<br/>{{font|size=75%|font=Verdana|text=6}}
+|1.4<br/>{{font|size=75%|font=Verdana|text=0}}
+|2.8<br/>{{font|size=75%|font=Verdana|text=4}}
+|0.5<br/>{{font|size=75%|font=Verdana|text=0}}
+|1.8<br/>{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|–
+|–
+|24.2
+|9.5
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.0
+|<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/vox-populi-sds-pred-vsemi-sledijo-sd-lms-in-levica/531251|title=Vox populi: SDS pred vsemi, sledijo SD, LMŠ in Levica
+|date=2020-07-20|website=www.rtvslo.si|language=sl-si|access-date=2020-07-26}}</ref>
+|-
+|6–9 Jul 2020
+|Mediana/Delo
+|725
+| style="background:#FFFFBF" " |'''18.5'''
+|12.5
+|11.7
+|2.0
+|6.6
+|4.3
+|1.6
+|2.6
+|2.8
+|1.7
+|2.4
+|0.5
+|0.8
+|
+|9.6
+|18.3
+|
+| style="background:{{Slovenian Democratic Party/meta/color}}"|6.0
+|<ref>{{Cite web|url=https://reporter.si/clanek/slovenija/anketa-polovica-koalicije-pod-volilnim-pragom-793699|website=reporter.si|language=sl|access-date=2020-07-13|title=Anketa: polovica koalicije pod volilnim pragom}}</ref>
+|-
+|29 Jun–2 Jul 2020
+|Parsifal/Nova24TV
+|715
+| style="background:#FFFFBF" " |'''22.4'''
+|14.9
+|11.9
+|0.4
+|6.5
+|3.8
+|0.9
+|4.1
+|3.1
+|1.8{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|1.9
+|0.4
+|–
+|0.2
+|5.8
+|12.3
+|9.9
+| style="background:{{Slovenian Democratic Party/meta/color}}"|7.5
+|<ref>{{Cite web|date=2020-06-19|title=[Javnomnenjska anketa] Izrazito veliko energije in naporov na čedalje bolj radikalizirani levi strani političnega prostora gre zaenkrat v prazno|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-roncevic-izrazito-veliko-energije-in-naporov-na-cedalje-bolj-radikalizirani-levi-strani-politicnega-prostora-gre-zaenkrat-v-prazno-sds-ostaja-v-vodstvu-sd-s-fajonovo-se-v/|access-date=2020-07-07|website=nova24tv.si|language=sl-SI}}</ref>
+|-
+|28 Jun 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|717
+| style="background:#FFFFBF" " |'''16.8'''
+|10.3
+|8.3
+|1.1
+|8.9
+|4.8
+|1.8
+|4.5
+|3.7
+|2.0
+|1.6
+|0.6
+|1.0
+|
+|8.9
+|21.1
+|2.6
+| style="background:{{Slovenian Democratic Party/meta/color}}"|6.5
+|<ref>{{Cite web|url=https://reporter.si/clanek/slovenija/anketa-mediane-podpora-padla-tako-sds-kot-lms-789749|website=reporter.si|language=sl|access-date=2020-06-29|title=Anketa Mediane: Podpora padla tako SDS kot LMŠ}}</ref>
+|-
+|15-17 Jun 2020
+|Parsifal/Nova24TV
+|723
+| style="background:#FFFFBF" " |'''22.3'''
+|12.5
+|9.2
+|1.1
+|5.9
+|5.4
+|1.5
+|4.1
+|1.4
+|2.9{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|0.3
+|1.7
+|–
+|0.7
+|8.5
+|14.6
+|7.2
+| style="background:{{Slovenian Democratic Party/meta/color}}"|10.3
+|<ref>{{Cite web|date=2020-06-19|title=[Javnomnenjska anketa] Več kot polovica vprašanih proti predčasnim volitvam! Desna sredina med volivci, ki bi se zagotovo udeležili volitev, uživa večino! {{!}} Nova24TV|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-vec-kot-polovica-vprasanih-proti-predcasnim-volitvam-desna-sredina-med-volivci-ki-bi-se-zagotovo-udelezili-volitev-uziva-vecino/|access-date=2020-06-21|website=nova24tv.si|language=sl-SI}}</ref>
+|-
+|9-11 Jun 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''22.7'''<br />{{font|size=75%|font=Verdana|text=31}}
+|10.9<br/>{{font|size=75%|font=Verdana|text=15}}
+|15.2<br/>{{font|size=75%|font=Verdana|text=21}}
+|0.3<br/>{{font|size=75%|font=Verdana|text=0}}
+|8.2<br/>{{font|size=75%|font=Verdana|text=12}}
+|3.9<br/>{{font|size=75%|font=Verdana|text=5}}
+|1.3<br/>{{font|size=75%|font=Verdana|text=0}}
+|2.9<br/>{{font|size=75%|font=Verdana|text=4}}
+|1.4<br/>{{font|size=75%|font=Verdana|text=0}}
+|1.1<br/>{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|0.6
+|–
+|22.6
+|8.9
+| style="background:{{Slovenian Democratic Party/meta/color}}"|7.5
+|<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/anketa-sds-najbolj-priljubljena-stranka-sd-prehitel-lms/527212|title=Anketa: SDS najbolj priljubljena stranka, SD prehitel LMŠ
+|date=2020-06-15|website=www.rtvslo.si|language=sl-si|access-date=2020-06-15}}</ref>
+|-
+|1-4 Jun 2020
+|Mediana/Delo
+|726
+| style="background:#FFFFBF" " |'''18.8'''
+|11.8
+|9.9
+|1.1
+|7.1
+|3.5
+|1.6
+|2.3
+|2.0
+|1.4
+|0.7
+|1.5
+|0.2
+|1.4
+|14.8
+|22.0
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|7.0
+|<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/anketa-podpora-sds-u-raste/526498|title=Anketa: Podpora SDS-u raste
+|website=rtvslo.si|language=sl|access-date=2020-06-09}}</ref>
+|-
+|20-22 May 2020
+|Parsifal/Nova24TV
+|701
+| style="background:#FFFFBF" " |'''22.7'''
+|15.7
+|7.0
+|0.3
+|6.3
+|2.8
+|1.7
+|4.3
+|2.9
+|2.0{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|0.5
+|0.2
+|–
+|1.3
+|8.9
+|14.1
+|9.3
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.0
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/l-javnomnenjska-anketa-sds-se-vedno-na-vrhu/ |title=[Javnomnenjska anketa] Podpora raste kar trem koalicijskim strankam – pobirati se je pričela tudi Počivalškova SMC!|website=nova24tv.si|access-date=2020-05-25}}</ref>
+|-
+|18-21 May 2020
+|Mediana/POPTV
+|718
+| style="background:#FFFFBF" " |'''18.5'''
+|14.0
+|6.6
+|0.2
+|7.3
+|3.7
+|2.4
+|2.6
+|2.4
+|1.2
+|2.6
+|1.5
+|0.3
+|1.8
+|11.6
+|19.6
+|3.3
+| style="background:{{Slovenian Democratic Party/meta/color}}"|4.5
+|<ref>{{Cite web|url=https://novice.svet24.si/clanek/novice/slovenija/5ecb53b4f1c78/piratska-stranka-s-13-krat-visjo-podporo-kot-vladna-smc|title=Piratska stranka s 13-krat višjo podporo kot vladna SMC|last=|first=|date=|website=|url-status=live|archive-url=|archive-date=|access-date=}}</ref>
+|-
+|12-13 May 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''22.1'''<br />{{font|size=75%|font=Verdana|text=34}}
+|12.2<br/>{{font|size=75%|font=Verdana|text=19}}
+|8.2<br/>{{font|size=75%|font=Verdana|text=13}}
+|0.3<br/>{{font|size=75%|font=Verdana|text=0}}
+|6.1<br/>{{font|size=75%|font=Verdana|text=10}}
+|4.1<br/>{{font|size=75%|font=Verdana|text=6}}
+|1.1<br/>{{font|size=75%|font=Verdana|text=0}}
+|3.7<br/>{{font|size=75%|font=Verdana|text=6}}
+|1.8<br/>{{font|size=75%|font=Verdana|text=0}}
+|1.8<br/>{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|0.8
+|–
+| 27.8
+|9.8
+| style="background:{{Slovenian Democratic Party/meta/color}}"|9.9
+|<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/vox-populi-sds-ohranja-izrazito-prednost-pred-konkurenco/524249|title=Vox populi: SDS ohranja izrazito prednost pred konkurenco
+|date=2020-04-20|website=www.rtvslo.si|language=sl-si|access-date=2020-05-18}}</ref><ref>{{Cite web|title=Aktualna vprašanja – maj 2020 – Ninamedia|url=http://ninamedia.si/arhivi/700|language=sl-SI|access-date=2020-05-18}}</ref>
+|-
+|6-8 May 2020
+|Parsifal/Nova24TV{{efn|name=decided|Poll numbers are given based on decided voters.}}
+|776
+| style="background:#FFFFBF" " |'''30.6'''
+|17.9
+|12.8
+|0.2
+|9.5
+|6.2
+|3.7
+|6.4
+|5.8
+|2.8{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|3.4
+|0.8
+|–
+|–
+|–
+|–
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|19.8
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-sds-z-najvisjo-podporo-sarceva-lms-vztrajno-pada/ |title=[Javnomnenjska anketa] SDS z najvišjo podporo, Šarčeva LMŠ vztrajno pada!|website=nova24tv.si|access-date=2020-05-18}}</ref>
+|-
+|4-8 May 2020
+|Mediana/Delo
+|712
+| style="background:#FFFFBF" " |'''16.3'''
+|14.0
+|8.4
+|2.3
+|7.9
+|5.3
+|0.9
+|3.4
+|1.8
+|0.2
+|–
+|–
+|–
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+| style="background:{{Slovenian Democratic Party/meta/color}}"|2.3
+|<ref>{{Cite web|url=https://www.slovenskenovice.si/novice/slovenija/padec-za-vlado-in-sds-smc-z-visjo-podporo-307916|title=Padec za vlado in SDS, SMC z višjo podporo
+|website=slovenskenovice.si|language=sl|access-date=2020-05-18}}</ref><ref>{{Cite web|url=https://www.domovina.je/anketa-dela-rejting-vlade-utrpel-nekaj-skode-a-podpora-trem-koalicijskim-partnerjem-navzgor/|title=Anketa Dela: rejting vlade utrpel nekaj škode, a podpora trem koalicijskim partnerjem navzgor
+|website=domovina.je|language=sl|access-date=2020-05-18}}</ref>
+|-
+|26 Apr 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|741
+| style="background:#FFFFBF" " |'''19.3'''
+|11.9
+|6.8
+|0.9
+|7.8
+|4.0
+|3.1
+|5.2
+|2.8
+|1.0
+|1.7
+|0.9
+|0.9
+|0.6
+|0.0
+|20.2
+|10.9
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.2
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana_2.html|title=Sedem odstotkov več ljudi nasprotuje vladi, odstotek podpore ostaja enak|last=|first=|date=|website=|url-status=live|archive-url=|archive-date=|access-date=}}</ref>
+|-
+|14-16 Apr 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''22.5'''<br />{{font|size=75%|font=Verdana|text=34}}
+|9.8<br/>{{font|size=75%|font=Verdana|text=15}}
+|8.9<br/>{{font|size=75%|font=Verdana|text=14}}
+|1.0<br/>{{font|size=75%|font=Verdana|text=0}}
+|6.2<br/>{{font|size=75%|font=Verdana|text=9}}
+|4.8<br/>{{font|size=75%|font=Verdana|text=7}}
+|0.76<br/>{{font|size=75%|font=Verdana|text=0}}
+|2.6<br/>{{font|size=75%|font=Verdana|text=4}}
+|3.5<br/>{{font|size=75%|font=Verdana|text=5}}
+|0.6<br/>{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|0.8
+|–
+|28.4
+|10.5
+| style="background:{{Slovenian Democratic Party/meta/color}}"|12.7
+|<ref>{{Cite web|url=https://www.vecer.com/infografika-javnomnenjska-raziskava-lista-marjana-sarca-obcutno-navzdol-10159254|title=(INFOGRAFIKA) Javnomnenjska raziskava: Lista Marjana Šarca občutno navzdol|date=2020-04-20|website=www.vecer.com|language=sl-si|access-date=2020-04-21}}</ref>
+|-
+|6-9 Apr 2020
+|Mediana/Delo
+|724
+| style="background:#FFFFBF" " |'''18.7'''
+|11.5
+|8.7
+|0.8
+|6.6
+|3.9
+|2.6
+|3.1
+|3.2
+|1.5
+|2.2
+|1.1
+|1.1
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+| style="background:{{Slovenian Democratic Party/meta/color}}"|7.2
+|<ref>{{Cite web|url=https://siol.net/novice/slovenija/janez-jansa-casovnica-za-protikorona-pakete-bo-uresnicena-523044|title=Janez Janša: Časovnica za protikorona pakete bo uresničena|website=siol.net|language=sl|access-date=2020-04-14}}</ref>
+|-
+|10-19 Mar 2020
+|Mediana/POPTV
+|{{n/a}}
+| style="background:#FFFFBF" " |'''20.0'''
+|13.2
+|7.3
+|0.8
+|8.8
+|3.8
+|0.9
+|2.5
+|3.6
+|1.8
+|1.1
+|1.2
+|1.2
+|0.3
+|1.3
+|18.9
+|11.1
+| style="background:{{Slovenian Democratic Party/meta/color}}"|6.8
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/vladi-manj-kot-polovicna-podpora-sds-povecuje-prednost.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2020-04-15}}</ref>
+|-
+|10-12 Mar 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''23.5'''<br />{{font|size=75%|font=Verdana|text=31}}
+| 15.0<br/>{{font|size=75%|font=Verdana|text=20}}
+|9.3<br/>{{font|size=75%|font=Verdana|text=12}}
+|0.5<br/>{{font|size=75%|font=Verdana|text=0}}
+|6.4<br/>{{font|size=75%|font=Verdana|text=9}}
+|6.3<br/>{{font|size=75%|font=Verdana|text=8}}
+|0.7<br/>{{font|size=75%|font=Verdana|text=0}}
+|2.6<br/>{{font|size=75%|font=Verdana|text=4}}
+|2.8<br/>{{font|size=75%|font=Verdana|text=4}}
+|1.0<br/>{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|0.6
+|–
+|23.9
+|7.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.5
+|<ref>{{Cite web|url=https://www.vecer.com/smc-desus-in-nsi-brez-nagrade-za-vstop-v-vlado-10142199|title=Večer - SMC, Desus in NSi brez nagrade za vstop v vlado|date=2020-03-16|website=www.vecer.com|language=sl-si|access-date=2020-04-15}}</ref>
+|-
+|25 Feb-5 Mar 2020
+|Mediana/Delo
+|777
+| style="background:#FFFFBF" " |'''19.6'''
+|13.8
+|6.7
+|2.5
+|7.0
+|5.0
+|1.2
+|3.0
+|2.5
+|1.9
+|1.8
+|1.3
+|1.4
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+| style="background:{{Slovenian Democratic Party/meta/color}}"|5.8
+|<ref>{{Cite web|url=https://www.delo.si/novice/slovenija/partnericam-nove-koalicije-se-je-podpora-povecala-286548.html|title=SDS daleč odskočila od LMŠ|website=delo.si|language=sl|access-date=2020-03-09}}</ref>
+|-
+|27-28 Feb 2020
+|Parsifal/Nova24TV
+|744
+| style="background:#FFFFBF" " |'''20.4'''
+|13.2
+|7.8
+|2.2
+|4.7
+|5.5
+|1.6
+|4.1
+|3.2
+|2.8{{efn|name=NLS|with [[New People's Party of Slovenia|NLS]].}}
+|0.7
+|0.1
+|–
+|1.4
+|5.5
+|15.6
+|11.3
+| style="background:{{Slovenian Democratic Party/meta/color}}"|7.2
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-sds-cetrti-teden-po-odstopu-vlade-se-povecala-razdaljo-do-drugouvrscene-lms/ |title=Javnomnenjska anketa: SDS četrti teden po odstopu vlade še povečala razdaljo do drugouvrščene LMŠ|website=nova24tv.si|access-date=2020-03-06}}</ref>
+|-
+|23 Feb 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|767
+| style="background:#FFFFBF" " |'''18.2'''
+|13.4
+|6.1
+|2.8
+|7.3
+|4.3
+|0.6
+|3.2
+|4.0
+|0.6
+|1.3
+|1.5
+|0.3
+|1.9
+|1.1
+|20.7
+|6.0
+| style="background:{{Slovenian Democratic Party/meta/color}}"|4.8
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/sds-lms-mediana.html|title=SDS se je zavihtel na prvo mesto, podpora LMŠ padla|website=www.24ur.com|access-date=2020-02-24}}</ref>
+|-
+|19-20 Feb 2020
+|Parsifal/Nova24TV
+|720
+| style="background:#FFFFBF" " |'''22.4'''
+|16.2
+|5.3
+|2.5
+|5.4
+|3.6
+|0.9
+|4.1
+|3.0
+|2.3{{efn|name=NLS}}
+|1.3
+|0.5
+|–
+|0.8
+|6.8
+|14.0
+|11.0
+| style="background:{{Slovenian Democratic Party/meta/color}}"|6.2
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/sds-se-ze-3-teden-vzpenja-zastoji-pri-oblikovanju-nove-koalicije-koristijo-lms/ |title=Anketa: SDS se že 3. teden vzpenja, zastoji pri oblikovanju nove koalicije koristijo LMŠ|website=nova24tv.si|access-date=2020-02-23}}</ref>
+|-
+|12-13 Feb 2020
+|Parsifal/Nova24TV
+|723
+| style="background:#FFFFBF" " |'''20.1'''
+|12.8
+|6.5
+|3.2
+|4.9
+|5.2
+|1.2
+|3.9
+|3.0
+|2.3{{efn|name=NLS}}
+|0.1
+|0.7
+|–
+|1.4
+|8.1
+|17.0
+|9.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|7.3
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/ekskluzivno-javnomnenjska-anketa-skok-podpore-sds-in-vsem-strankam-ki-sodelujejo-v-pogovorih-razvojne-koalicije/|title=[Ekskluzivno] Javnomnenjska anketa: LMŠ v prostem padu! Skok podpore SDS in vsem strankam, ki sodelujejo v pogovorih nove razvojne koalicije!|website=nova24tv.si|access-date=2020-02-17}}</ref>
+|-
+|11-13 Feb 2020
+|Ninamedia/Dnevnik/Večer
+|700
+| style="background:#FFFFBF" " |'''19.6'''<br />{{font|size=75%|font=Verdana|text=28}}
+|17.1<br/>{{font|size=75%|font=Verdana|text=25}}
+|8.2<br/>{{font|size=75%|font=Verdana|text=12}}
+|2.0<br/>{{font|size=75%|font=Verdana|text=0}}
+|5.3<br/>{{font|size=75%|font=Verdana|text=8}}
+|5.2<br/>{{font|size=75%|font=Verdana|text=7}}
+|1.0<br/>{{font|size=75%|font=Verdana|text=0}}
+|2.9<br/>{{font|size=75%|font=Verdana|text=4}}
+|2.5<br/>{{font|size=75%|font=Verdana|text=4}}
+|2.3<br/>{{font|size=75%|font=Verdana|text=0}}
+|–
+|–
+|–
+|0.8
+|–
+|24.9
+|8.2
+| style="background:{{Slovenian Democratic Party/meta/color}}"|2.5
+|<ref>{{Cite web|url=https://www.vecer.com/velika-vecina-za-takojsen-razpis-volitev-10130082|title=Vox populi: Krepka večina za takojšen razpis volitev|website=vecer.si|language=sl|access-date=2020-02-17}}</ref>
+|-
+|3-5 Feb 2020
+|Parsifal/Nova24TV
+|702
+| style="background:#FFFFBF" " |'''18.3'''
+|17.2
+|6.5
+|2.0
+|5.2
+|4.4
+|2.0
+|4.0
+|5.4
+|3.0{{efn|name=NLS}}
+|1.8
+|0.5
+|–
+|1.4
+|6.6
+|15.6
+|6.1
+| style="background:{{Slovenian Democratic Party/meta/color}}"|1.1
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/javnomnenjska-anketa-janez-jansa-je-najbolj-primeren-kandidat-za-mandatarja-za-sestavo-vlade-na-volitvah-pa-bi-zmagala-sds/|title=Javnomnenjska anketa: Janez Janša je najbolj primeren kandidat za mandatarja za sestavo vlade, na volitvah pa bi zmagala SDS|website=nova24tv.si|access-date=2020-02-07}}</ref>
+|-
+|28 Jan-03 Feb 2020
+|Mediana/Delo
+|777
+| style="background:#FFFFBF" " |'''18.2'''
+|16.3
+|7.9
+|2.5
+|7.9
+|4.1
+|2.0
+|2.2
+|3.6
+|1.9
+|1.3
+|0.9
+|1
+|0.9
+|11.7
+|14.5
+|1.6
+| style="background:{{Slovenian Democratic Party/meta/color}}"|1.9
+|<ref>{{Cite web|url=https://www.delo.si/novice/slovenija/koga-bi-volili-ce-bi-bile-volitve-jutri-276106.html|title=Koga bi volili, če bi bile volitve jutri ...|website=delo.si|access-date=2020-02-06}}</ref>
+|-
+|27-29 Jan 2020
+|Parsifal/Nova24TV
+|952
+| style="background:#FFFFBF" " |'''17.4'''
+|17.3
+|6.7
+|1.8
+|4.6
+|3.1
+|2.2
+|3.7
+|3.7
+|2.0
+|–
+|–
+|–
+|1.2
+|5.7
+|19.0
+|11.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|0.1
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/anketa-na-predcasnih-volitvah-bi-prepricljivo-zmagala-sds/|title=Anketa: Na predčasnih volitvah bi prepričljivo zmagala SDS|website=nova24tv.si|access-date=2020-02-03}}</ref>
+|-
+|26 Jan 2020{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|767
+|14.1
+| style="background:#9BC4E2"|'''15.1'''
+|7.2
+|1.5
+|7.2
+|6.2
+|1.8
+|4.1
+|2.6
+|1.3
+|1.4
+|0.9
+|0.6
+|0.6
+|10.0
+|22.8
+|1.9
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.0
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/le-odstotna-tocka-loci-vodilni-lms-in-sds-podpora-vladi-zrasla.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2020-01-28}}</ref>
+|-
+|14–16 Jan 2020
+|Ninamedia/Dnevnik/Večer
+|700
+|16.9
+| style="background:#9BC4E2"|'''19.4'''
+|8.1
+|0.3
+|6.0
+|6.5
+|0.8
+|2.9
+|2.3
+|2.4
+|–
+|–
+|–
+|0.9
+|–
+|23.7
+|9.8
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|2.5
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/anketa-najvisjo-podporo-med-strankami-ima-spet-lms/512133|title=Anketa: Najvišjo podporo med strankami ima spet LMŠ|website=rtvslo.si|language=sl|access-date=2020-01-20}}</ref>
+|-
+|13–16 Jan 2020
+|Parsifal/Nova24TV
+|924
+| style="background:#FFFFBF" |'''23.0'''
+|19.3
+|6.5
+|0.7
+|9.2
+|6.9
+|2.8
+|3.8
+|3.3
+|2.1
+|–
+|–
+|–
+|2.5
+|2.8
+|17.0
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|3.7
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/l-anketa-ce-bi-bile-volitve-to-nedeljo-bi-slavila-opozicijska-sds-v-primerjavi-s-prejsnjim-merjenjem-ji-podpora-narasca-in-je-se-vedno-pred-vladajoco-lms/|title=Anketa: Če bi bile volitve bi slavila stranka SDS – podpora ji narašča in je pred vladajočo LMŠ! Politični analitik Tomšič: "To ni nič nenavadnega, stranki LMŠ še dobro kaže" {{!}} Nova24TV|date=2020-01-17|website=nova24tv.si|language=sl-SI|access-date=2020-01-28}}</ref>
+|-
+|3–9 Jan 2020
+|Mediana/Delo
+|723
+|13.3
+| style="background:#9BC4E2"|'''14.0'''
+|6.0
+|1.7
+|7.0
+|6.9
+|2.0
+|3.0
+|3.3
+|1.2
+|1.1
+|0.9
+|1.3
+|1.0
+|10.2
+|24.5
+|0.6
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|0.7
+|<ref name=autogenerated3>{{Cite web|url=https://insajder.com/slovenija/sds-v-anketi-znova-prehitela-lms-ocena-uspesnosti-vlade-pa-se-naprej-pada|title=SDS v anketi znova prehitela LMŠ, ocena uspešnosti vlade pa še naprej pada|date=2019-12-09|website=Insajder.com - Objektivno. Odkrito. Točno.|language=sl|access-date=2019-12-15}}</ref>
+|-
+|22 Dec 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|726
+|12.7
+| style="background:#9BC4E2"|'''13.1'''
+|6.7
+|1.9
+|8.9
+|5.3
+|2.6
+|3.4
+|2.1
+|0.9
+|2.0
+|1.0
+|0.6
+|0.8
+|25.5
+|11.5
+|1.0
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|0.4
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/sarceva-lms-znova-prehitela-jansevo-sds.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2020-01-28}}</ref>
+|-
+|10–12 Dec 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|16.6
+| style="background:#9BC4E2"|'''20.2'''
+|9.7
+|0.2
+|6.5
+|5.3
+|0.7
+|3.1
+|2.5
+|2.8
+|–
+|–
+|–
+|0.9
+|–
+|23.1
+|8.3
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|3.6
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/vox-populi-decembra-ponovno-visja-podpora-vladi/509285|title=vox-populi-decembra-ponovno-visja-podpora-vladi|last=|first=|date=|website=|url-status=live|archive-url=|archive-date=|access-date=}}</ref>
+|-
+|2–5 Dec 2019
+|Parsifal/Nova24TV
+|906
+| style="background:#FFFFBF" |'''17.6'''
+|16.6
+|7.5
+|0.7
+|7.0
+|4.2
+|1.8
+|4.6
+|4.3
+|3.0
+|–
+|–
+|–
+|1.4
+|10.8
+|14.1
+|10.8
+| style="background:{{Slovenian Democratic Party/meta/color}}"|1.0
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/sds-v-parsifalovi-decembrski-javnomnenjski-raziskavi-vodi-pred-lms-vlado-marjana-sarca-podpira-manj-kot-polovica-vprasanih/|title=SDS v Parsifalovi decembrski javnomnenjski raziskavi vodi pred LMŠ, vlado Marjana Šarca podpira manj kot polovica vprašanih|date=2019-12-08|website=Nova24TV|language=sl-SI|access-date=2019-12-15}}</ref>
+|-
+|26 Nov–5 Dec 2019
+|Mediana/Delo
+|732
+| style="background:#FFFFBF" |'''16.3'''
+|16.1
+|6.3
+|0.9
+|8.4
+|4.9
+|1.8
+|3.4
+|2.3
+|1.4
+|2.1
+|–
+|–
+|4.0
+|10.9
+|17.8
+|3.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|0.2
+|<ref name=autogenerated3 />
+|-
+|24 Nov 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|732
+|13.8
+| style="background:#9BC4E2"|'''15.4'''
+|9.5
+|1.3
+|8.8
+|3.6
+|1.3
+|1.5
+|3.6
+|1.0
+|2.4
+|1.3
+|0.9
+|0.8
+|21.1
+|9.9
+|3.5
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.6
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/vroca-politicna-jesen-sds-spet-na-vrhu.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2020-01-28}}</ref>
+|-
+|data-sort-value="2019-11-14"|12–14 Nov 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|13.5
+| style="background:#9BC4E2"|'''21.3'''
+|7.1
+|0.6
+|6.6
+|7.4
+|0.9
+|3.2
+|1.1
+|1.7
+|–
+|–
+|–
+|1.0
+|–
+|24.1
+|11.4
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|7.8
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/vox-populi-nsi-prehitel-sd-podpora-vladi-pada/505202|title=Vox populi: NSi prehitel SD. Podpora vladi pada.|website=rtvslo.si|language=sl|access-date=2019-11-18}}</ref>
+|-
+|4–7 Nov 2019
+|Parsifal/Nova24TV
+|705
+|24.8
+| style="background:#9BC4E2"|'''25.9'''
+|6.6
+|1.9
+|8.9
+|3.5
+|1.2
+|2.1
+|2.1
+|3.6
+|–
+|–
+|–
+|2.7
+|2.3
+|14.4
+|–
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.1
+|<ref>{{Cite web|url=https://nova24tv.si/slovenija/politika/zgodilo-se-je-prvic-v-tem-mandatu-vecina-slovencev-ne-podpira-vlade-marjana-sarca-kaze-najnovejsa-javnomnenjska-raziskava/|title=Zgodilo se je – Prvič v tem mandatu večina Slovencev ne podpira Vlade Marjana Šarca, kaže najnovejša javnomnenjska raziskava {{!}} Nova24TV|date=2019-11-10|website=nova24tv.si|language=sl-SI|access-date=2020-01-28}}</ref>
+|-
+|data-sort-value="2019-11-07"|28 Oct–7 Nov 2019
+|Mediana/Delo
+|735
+|15.2
+| style="background:#9BC4E2"|'''15.4'''
+|6.0
+|1.9
+|11.2
+|5.9
+|2.3
+|2.2
+|3.2
+|1.0
+|1.0
+|0.8
+|1.2
+|0.1
+|11.6
+|18.0
+|0.4
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|0.2
+|<ref>{{Cite web|url=https://www.delo.si/novice/slovenija/levici-se-je-podpora-podvojila-lms-in-sds-skoraj-izenaceni-247202.html|title=Levici se je podpora podvojila, LMŠ in SDS skoraj izenačeni|website=delo.si|language=sl|access-date=2019-11-11}}</ref>
+|-
+|25 Oct 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|726
+|15.7
+| style="background:#9BC4E2"|'''15.8'''
+|5.4
+|1.8
+|7.2
+|5.0
+|2.0
+|2.8
+|3.0
+|0.9
+|1.1
+|0.8
+|0.5
+|1.2
+|13.6
+|20.7
+|2.4
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|0.1
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana-9.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2020-01-28}}</ref>
+|-
+|data-sort-value="2019-10-17"|15–17 Oct 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|14.7
+| style="background:#9BC4E2"|'''20.1'''
+|10.4
+|1.3
+|6.2
+|5.2
+|1.0
+|3.4
+|0.9
+|1.8
+|–
+|–
+|–
+|0.2
+|–
+|19.8
+|15.0
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|5.4
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/vox-populi-izrazit-padec-podpore-vladi/502708|title=Vox populi: Izrazit padec podpore vladi|website=rtvslo.si|language=sl|access-date=2019-10-21}}</ref>
+|-
+|data-sort-value="2019-10-10"|2–10 Oct 2019
+|Mediana/Delo
+|736
+|15.7
+| style="background:#9BC4E2"|'''16.8'''
+|6.0
+|0.4
+|5.3
+|4.7
+|2.2
+|3.9
+|3.7
+|1.8
+|1.5
+|1.3
+|1.6
+|0.9
+|9.1
+|21.7
+|1.1
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.1
+|<ref>{{Cite web|url=https://www.delo.si/novice/slovenija/le-odstotna-tocka-loci-vodilni-stranki-237619.html|title=Le odstotna točka loči vodilni stranki|website=delo.si|language=sl|access-date=2019-10-14}}</ref>
+|-
+|22 Sep 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|715
+|14.9
+| style="background:#9BC4E2"|'''16.1'''
+|7.0
+|0.4
+|7.5
+|5.3
+|1.6
+|2.2
+|2.9
+|2.5
+|0.8
+|0.9
+|1.1
+|0.3
+|12.4
+|20.8
+|
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.2
+|<ref name=autogenerated1>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana-7.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2020-01-28}}</ref>
+|-
+|data-sort-value="2019-09-12"|10–12 Sep 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|15.5
+| style="background:#9BC4E2"|'''23.3'''
+|9.8
+|0.9
+|6.9
+|4.7
+|1.9
+|3.1
+|2.1
+|3.0
+|–
+|–
+|–
+|1.1
+|–
+|17.9
+|9.7
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|7.8
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/anketa-volivci-se-vedno-naklonjeni-lms-ju-in-vladi/499628|title=Anketa: Volivci še vedno naklonjeni LMŠ-ju in vladi|website=rtvslo.si|language=sl|access-date=2019-08-19}}</ref>
+|-
+|28 Aug–5 Sep 2019
+|Mediana/Delo
+|726
+|14.7
+| style="background:#9BC4E2"|'''18.9'''
+|6.4
+|1.5
+|6.4
+|5.1
+|2.1
+|2.3
+|2.9
+|1.9
+|0.6
+|0.5
+|0.7
+|0.7
+|11.4
+|19.8
+|–
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|4.2
+|<ref name=autogenerated4>{{Cite web|url=https://www.delo.si/novice/slovenija/lms-se-je-utrdila-v-vodstvu-225020.html|title=FOTO:LMŠ se je utrdila v vodstvu|last=Hočevar|first=Barbara|date=2019-09-09|website=www.delo.si|language=sl-si|access-date=2020-01-28}}</ref>
+|-
+|-
+|data-sort-value="2019-09-17"|25 Aug 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|722
+|15.6
+| style="background:#9BC4E2"|'''18.8'''
+|6.9
+|1.8
+|4.8
+|4.0
+|2.4
+|2.9
+|2.3
+|2.0
+|1.7
+|0.8
+|0.8
+|1.1
+|10.2
+|20.3
+|0.7
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|3.2
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/sarceva-vlada-izgubila-nekaj-podpore-stranka-lms-pa-je-povecala-prednost.html|title=Šarčeva vlada izgubila nekaj podpore, stranka LMŠ pa je povečala prednost|website=24ur.com|language=sl|access-date=2019-08-26}}</ref>
+|-
+|data-sort-value="2019-08-14"|12–14 Aug 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|15.5
+| style="background:#9BC4E2"|'''22.2'''
+|10.0
+|0.5
+|6.2
+|3.6
+|2.4
+|3.3
+|1.8
+|1.5
+|–
+|–
+|–
+|0.6
+|–
+|23.3
+|9.0
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|6.7
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/vox-populi-vecina-meni-da-vlada-dela-dobro/497260|title=Vox populi: Večina meni, da vlada dela dobro|website=rtvslo.si|language=sl|access-date=2019-08-19}}</ref>
+|-
+|data-sort-value="2019-08-08"|31 Jul–8 Aug 2019
+|Mediana/Delo
+|736
+|14.2
+| style="background:#9BC4E2"|'''16.8'''
+|7.2
+|2.9
+|6.5
+|6.7
+|1.8
+|2.2
+|3.3
+|2.3
+|1.2
+|1.7
+|1.4
+|0.6
+|10.9
+|17.0
+|0.9
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|2.6
+|<ref>{{Cite web|url=https://www.delo.si/novice/slovenija/slabse-za-vlado-in-parlament-ki-sta-na-pocitnicah-216169.html|title=Vladajoči LMŠ podpora spet zrasla, Desusu padla|website=delo.si|language=sl|access-date=2019-08-14}}</ref>
+|-
+|28 Jul 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|718
+|18.2
+| style="background:#9BC4E2"|'''19.2'''
+|7.5
+|1.0
+|6.1
+|4.2
+|1.7
+|3.1
+|3.3
+|1.0
+|2.3
+|0.2
+|1.1
+|0.7
+|11.5
+|16.0
+|
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.0
+|<ref name=autogenerated1 />
+|-
+|data-sort-value="2019-07-11"|9–11 Jul 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|17.7
+| style="background:#9BC4E2"|'''21.2'''
+|10.0
+|1.0
+|6.1
+|5.4
+|1.1
+|3.4
+|1.9
+|1.6
+|–
+|–
+|–
+|1.1
+|–
+|20.7
+|8.9
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|3.3
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/vox-populi-na-vrhu-lms-pred-sds-om-in-sd-jem-vecina-meni-da-vlada-dela-dobro/494480|title=Vox populi: Na vrhu LMŠ pred SDS-om in SD-jem; večina meni, da vlada dela dobro|website=rtvslo.si|language=sl|access-date=2019-07-15}}</ref>
+|-
+|3–11 Jul 2019
+|Mediana/Delo
+|715
+|14.3
+| style="background:#9BC4E2"|'''14.6'''
+|7.8
+|1.5
+|7.7
+|5.3
+|1.9
+|3.3
+|3.6
+|1.4
+|1.2
+|1.2
+|0.4
+|0.4
+|11.5
+|19.2
+|–
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|0.3
+|<ref>{{Cite web|url=https://siol.net/novice/slovenija/anketa-marjan-sarec-in-janez-jansa-si-delita-prvo-mesto-502547|title=Anketa: Marjan Šarec in Janez Janša si delita prvo mesto|website=siol.net|language=sl|access-date=2020-01-28}}</ref><ref name=autogenerated4 />
+|-
+|data-sort-value="2019-06-24"|24 Jun 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|718
+|15.0
+| style="background:#9BC4E2"|'''16.6'''
+|7.6
+|1.2
+|5.8
+|5.9
+|2.0
+|2.4
+|2.9
+|2.0
+|1.7
+|0.7
+|1.4
+|0.1
+|12.0
+|19.3
+|0.5
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.6
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana-6.html|title=LMŠ še vedno v vodstvu, SDS tesno za petami|website=www.24ur.com|language=sl|access-date=2019-06-24}}</ref>
+|-
+|data-sort-value="2019-06-13"|11–13 Jun 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|18.1
+| style="background:#9BC4E2"|'''24.0'''
+|9.8
+|0.6
+|6.1
+|6.5
+|1.3
+|3.3
+|1.7
+|1.6
+|–
+|–
+|–
+|2.8
+|–
+|18.9
+|–
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|5.9
+|<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/podpora-vladi-60-odstotna/492194|title=Podpora vladi 60-odstotna|website=rtvslo.si|language=sl|access-date=2019-06-17}}</ref>
+|-
+|14–23 May 2019
+|Mediana/POPTV
+|735
+|14.2
+| style="background:#9BC4E2"|'''16.8'''
+|8.7
+|1.2
+|6.2
+|6.1
+|2.2
+|3.5
+|4.0
+|2.1
+|2.5
+|1.1
+|0.4
+|1.0
+|9.7
+|16.3
+|–
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|2.6
+|<ref>{{Cite web|url=https://www.24ur.com/novice/eu-volitve/mediana.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2020-01-28}}</ref>
+|-
+|14–16 May 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|17.2
+| style="background:#9BC4E2"|'''23.3'''
+|11.0
+|0.3
+|6.1
+|4.5
+|1.5
+|3.1
+|1.7
+|2.3
+|–
+|–
+|–
+|1.8
+|–
+|20.2
+|7.0
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|6.1
+|<ref>{{Cite web|url=http://ninamedia.si/arhivi/619|title=Aktualna vprašanja – maj 2019 – Ninamedia|language=sl-SI|access-date=2020-01-28}}</ref>
+|-
+|data-sort-value="2019-04-28"|28 Apr 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|714
+|14.3
+| style="background:#9BC4E2"|'''17.2'''
+|6.4
+|3.5
+|5.9
+|5.5
+|1.3
+|2.4
+|3.9
+|1.5
+|2.1
+|1.0
+|0.4
+|1.7
+|11.6
+|18.3
+|0.4
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|2.9
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana-5.html|title=Podpora vladi se je okrepila, Šarec prehitel Pahorja|website=www.24ur.com|language=sl|access-date=2019-04-29}}</ref>
+|-
+|data-sort-value="2019-04-11"|9–11 Apr 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|14.2
+| style="background:#9BC4E2"|'''26.2'''
+|9.6
+|0.5
+|6.4
+|7.1
+|1.9
+|3.1
+|1.5
+|0.6
+|–
+|–
+|–
+|0.5
+|–
+|20.5
+|7.9
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|12.0||<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/vox-populi-podpora-vladi-se-vedno-visoka/485460/|title=Vox populi: Podpora vladi še vedno visoka|date=2019-04-05|website=MMC RTVSLO|language=sl-SI|access-date=2019-04-05}}</ref>
+|-
+|data-sort-value="2019-04-04"|1–4 Apr 2019
+|Parsifal/Nova24TV
+|702
+| style="background:#FFFFBF" |'''18.9'''
+|16.8
+|7.1
+|1.8
+|4.7
+|5.0
+|2.1
+|3.0
+|4.2
+|3.3
+|–
+|–
+|–
+|1.4
+|4.8
+|18.1
+|8.7
+| style="background:{{Slovenian Democratic Party/meta/color}}"|2.1||<ref>{{Cite web|url=http://nova24tv.si/slovenija/ekskluzivno-javnomnenjska-anketa-sarcev-baloncek-pocil-podpora-lms-med-volivci-strmo-padla/|title=[Ekskluzivno] Javnomnenjska anketa: Šarčev balonček je počil, podpora LMŠ in vladi med volivci strmo padla!|date=2019-04-05|website=Nova24TV|language=sl-SI|access-date=2019-04-05}}</ref>
+|-
+|data-sort-value="2019-03-24"|24 Mar 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|792
+|15.9
+| style="background:#9BC4E2"|'''16.6'''
+|5.7
+|3.2
+|6.5
+|6.6
+|3.5
+|3.3
+|2.8
+|1.6
+|1.7
+|0.9
+|1.2
+|0.1
+|9.8
+|17.2
+|0.7
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|0.7
+|<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/sarceva-lms-izgubila-kar-petino-podpore.html|title=Šarčeva LMŠ izgubila kar petino podpore|website=www.24ur.com|language=sl|access-date=2019-03-29}}</ref>
+|-
+|data-sort-value="2019-03-07"|12–14 Mar 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|13.7
+| style="background:#9BC4E2"|'''28.0'''
+|8.1
+|0.4
+|6.2
+|8.2
+|1.9
+|3.1
+|2.4
+|1.7
+|–
+|–
+|–
+|1.0
+|–
+|20.1
+|5.4
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|14.3||<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/vox-populi-sarceva-vlada-ima-nekoliko-nizjo-a-se-vedno-visoko-podporo/482903|title=Vox populi: Šarčeva vlada ima nekoliko nižjo podporo, a še vedno visoko podporo|website=www.rtvslo.si|access-date=2019-03-18}}</ref><ref>{{Cite web|url=http://ninamedia.si/arhivi/603|title=Aktualna vprašanja – marec 2019 – Ninamedia|language=sl-SI|access-date=2019-03-18}}</ref>
+|-
+|data-sort-value="2019-03-07"|26 Feb-7 Mar 2019
+|Mediana/Delo
+|729
+|16.0
+| style="background:#9BC4E2"|'''19.4'''
+|6.7
+|0.8
+|8.1
+|6.8
+|1.5
+|2.8
+|2.1
+|1.9
+|1.1
+|1.1
+|0.2
+|0.4
+|10.0
+|18.3
+|0.8
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|3.4||<ref>{{Cite web|url=https://stari.rtvslo.si/slovenija/anketa-podpora-lms-ju-nekoliko-upadla-smc-pod-odstotkom/482307|title=Anketa: Podpora LMŠ-ju nekoliko upadla, SMC pod odstotkom|website=www.rtvslo.si|access-date=2019-03-11}}</ref>
+|-
+|data-sort-value="2019-02-24"|24 Feb 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|707
+|16.1
+| style="background:#9BC4E2"|'''20.6'''
+|5.4
+|2.5
+|6.7
+|4.8
+|3.3
+|3.3
+|2.5
+|2.9
+|0.8
+|0.5
+|0.5
+|0.6
+|8.2
+|17.4
+|1.4
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|4.5||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana-4.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2019-02-14"|12–14 Feb 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|11.6
+| style="background:#9BC4E2"|'''31.3'''
+|8.9
+|2.7
+|6.2
+|3.9
+|2.9
+|2.9
+|2.5
+|2.5
+|–
+|–
+|–
+|0.7
+|–
+|19.7
+|4.2
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|19.7||<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/vox-populi-vlada-ima-70-odstotno-podporo-lms-pa-vec-kot-31-odstotno/480364|title=Vlada ima 70 odstotno podporo, LMŠ pa več kot 31|website=www.rtvslo.si|language=sl|access-date=2019-02-18}}</ref><ref>{{Cite web|url=http://ninamedia.si/arhivi/593|title=Aktualna vprašanja – februar 2019 – Ninamedia|language=sl-SI|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2019-02-14"|11–14 Feb 2019
+|Parsifal/Nova24TV
+|712
+| style="background:#FFFFBF" |'''18.2'''
+|13.1
+|12.6
+|4.7
+|3.7
+|5.6
+|4.2
+|3.7
+|2.3
+|10.7
+|–
+|–
+|–
+|–
+|1.4
+|15.9
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|5.1||<ref>{{Cite web|url=http://nova24tv.si/slovenija/politika/javnomnenjska-anketa-evropskih-volitev-se-bo-udelezila-slaba-tretjina-volivcev-najvec-bi-jih-volilo-kandidate-stranke-sds/|title=Javnomnenjska anketa: Evropskih volitev se bo udeležila slaba tretjina volivcev, največ bi jih volilo stranko SDS|date=2019-02-15|website=Nova24TV|language=sl-SI|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2019-02-06"|29 Jan-6 Feb 2019
+|Mediana/Delo
+|731
+|15.1
+| style="background:#9BC4E2"|'''22.4'''
+|5.8
+|2.7
+|5.9
+|5.2
+|2.4
+|1.7
+|2.6
+|1.4
+|2.7
+|1.2
+|1.3
+|1.1
+|11.8
+|14.3
+|–
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|7.3||<ref>{{Cite web|url=https://www.delo.si/novice/slovenija/lms-z-najvisjo-podporo-doslej-sarec-prehitel-pahorja-148237.html|title=FOTO:LMŠ z najvišjo podporo doslej, Šarec prehitel Pahorja|last=Hočevar|first=Barbara|date=2019-02-11|website=www.delo.si|language=sl-si|access-date=2019-03-06}}</ref><ref>{{Cite web|url=https://www.rtvslo.si/slovenija/anketa-lms-prehitel-sds-sarec-bolj-priljubljen-od-pahorja/479751|title=LMŠ prehitel SDS, Šarec pa Pahorja|website=www.rtvslo.si|language=sl|access-date=2019-02-11}}</ref>
+|-
+|data-sort-value="2019-01-27"|27 Jan 2019{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|707
+| style="background:#FFFFBF" |'''16.6'''
+|16.0
+|9.2
+|1.7
+|7.6
+|3.2
+|1.9
+|2.4
+|3.8
+|4.0
+|2.5
+|0.5
+|1.0
+|0.2
+|8.4
+|17.5
+|0.3
+| style="background:{{Slovenian Democratic Party/meta/color}}"|0.6||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/vrnitev-sls-marjana-podobnika-za-cerarjevo-smc-pa-le-malo-podpore.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2019-01-14"|14 Jan 2019{{efn|name=date|Publication date}}
+|Parsifal/Nova24TV
+|{{n/a}}
+| style="background:#FFFFBF" |'''18.1'''
+|16.4
+|7.4
+|1.9
+|4.6
+|4.2
+|1.6
+|4.1
+|2.2
+|2.6
+|0.9
+|0.8
+|–
+|0.5
+|13.1
+|18.0
+|3.2
+| style="background:{{Slovenian Democratic Party/meta/color}}"|1.7||<ref>{{Cite web|url=http://nova24tv.si/slovenija/politika/javnomnenjska-anketa-sarcu-se-lahko-smeji-koalicijskima-partnerjema-sab-in-smc-je-pobral-vecino-glasov/|title=Javnomnenjska anketa: Šarcu se lahko smeji, koalicijskima partnerjema SAB in SMC je pobral večino glasov|date=2019-01-14|website=Nova24TV|language=sl-SI|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2019-01-10"|8–10 Jan 2019
+|Ninamedia/RTVSLO/Dnevnik
+|700
+|16.9
+| style="background:#9BC4E2"|'''18.0'''
+|11.7
+|3.1
+|7.1
+|4.1
+|2.5
+|2.9
+|1.7
+|3.1
+|–
+|–
+|–
+|0.1
+|–
+|21.8
+|7.0
+| style="background:{{List of Marjan Šarec/meta/color}}; color:white"|1.1||<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/vox-populi-sarec-po-priljubljenosti-prehitel-pahorja-lms-pa-sds/477864|title=Šarec po priljubljenosti prehitel Pahorja, LMŠ pa SDS|website=www.rtvslo.si|language=sl|access-date=2019-01-20}}</ref><ref>{{Cite web|url=http://ninamedia.si/arhivi/586|title=Aktualna vprašanja – januar 2019 – Ninamedia|language=sl-SI|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2019-01-10"|3–10 Jan 2019
+|Mediana/Delo
+|743
+| style="background:#FFFFBF" |'''16.2'''
+|13.9
+|6.5
+|3.7
+|6.8
+|5.4
+|3.4
+|2.0
+|4.1
+|3.0
+|1.1
+|0.7
+|1.3
+|0.7
+|7.1
+|21.2
+|0.1
+| style="background:{{Slovenian Democratic Party/meta/color}}"|2.3||<ref name=autogenerated2>{{Cite web|url=https://www.delo.si/novice/slovenija/lms-se-je-odlepila-od-partneric-136649.html|title=FOTO:LMŠ se je odlepila od partneric|last=Hočevar|first=Barbara|date=2019-01-14|website=www.delo.si|language=sl-si|access-date=2019-03-06}}</ref><ref>{{Cite web|url=https://www.rtvslo.si/slovenija/anketa-sds-se-vodi-vzpenja-se-lms/477204|title=Anketa: SDS še vodi, vzpenja se LMŠ|website=RTVSLO.si|language=sl|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2018-12-23"|23 Dec 2018{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|707
+| style="background:#FFFFBF" |'''17.5'''
+|10.7
+|9.0
+|3.8
+|8.9
+|5.2
+|2.1
+|4.5
+|3.7
+|2.0
+|1.0
+|1.0
+|0.6
+|0.7
+|9.1
+|17.7
+|0.5
+| style="background:{{Slovenian Democratic Party/meta/color}}"|6.7||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/po-stotih-dneh-na-oblasti-rekordna-podpora-sarcevi-vladi.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2018-12-13"|11–13 Dec 2018
+|Ninamedia/RTVSLO/Dnevnik
+|700
+| style="background:#FFFFBF" |'''18.7'''
+|12.8
+|12.3
+|3.1
+|6.9
+|5.9
+|2.4
+|3.0
+|2.4
+|–
+|–
+|–
+|–
+|3.2
+|–
+|20.8
+|8.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|5.9||<ref>{{Cite web|url=http://ninamedia.si/arhivi/567|title=Aktualna vprašanja – december 2018 – Ninamedia|language=sl-SI|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2018-12-06"|26 Nov-6 Dec 2018
+|Mediana/Delo
+|717
+| style="background:#FFFFBF" |'''18.1'''
+|8.5
+|10.5
+|4.9
+|6.7
+|4.2
+|2.2
+|3.5
+|3.2
+|5.5
+|1.2
+|1.2
+|1.1
+|1.6
+|7.8
+|15.8
+|1.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|7.6||<ref>{{Cite web|url=https://www.rtvslo.si/slovenija/anketa-sds-ostaja-na-vrhu-vladi-najboljsa-ocena-do-zdaj/474320|title=Anketa: SDS ostaja na vrhu, vladi najboljša ocena do zdaj|website=RTVSLO.si|language=sl|access-date=2019-03-06}}</ref><ref name=autogenerated2 />
+|-
+|data-sort-value="2018-11-22"|13–22 Nov 2018
+|Mediana/POPTV/Delo
+|714
+| style="background:#FFFFBF" |'''18.3'''
+|7.0
+|8.9
+|3.7
+|6.1
+|5.5
+|3.2
+|3.4
+|3.8
+|3.8
+|2.0
+|0.6
+|1.1
+|0.8
+|9.4
+|16.7
+|0.9
+| style="background:{{Slovenian Democratic Party/meta/color}}"|9.4||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/sarec-in-vlada-ta-mesec-z-rekordno-podporo.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|language=sl|access-date=2018-12-02}}</ref><ref>{{Cite web|url=https://www.rtvslo.si/slovenija/sds-u-anketa-kaze-dvakrat-visjo-podporo-kot-drugim-strankam/472922|title=SDS-u anketa kaže dvakrat višjo podporo kot drugim strankam|website=RTVSLO.si|language=sl|access-date=2019-03-06}}</ref>
+|-
+|data-sort-value="2018-11-20"|19–20 Nov 2018
+|Ninamedia/RTVSLO/Dnevnik
+|700
+| style="background:#FFFFBF" |'''18.0'''
+|12.2
+|14.7
+|5.0
+|8.1
+|6.2
+|2.3
+|3.7
+|3.7
+|–
+|–
+|–
+|–
+|2.1
+|–
+|17.
+|6.4
+| style="background:{{Slovenian Democratic Party/meta/color}}"|5.8||<ref>{{Cite web|url=http://www.rtvslo.si/news-in-english/vox-pop-assessment-of-government-s-work-improves/472558|title=Vox pop: Assessment of government's work improves :: Prvi interaktivni multimedijski portal, MMC RTV Slovenija|website=www.rtvslo.si|access-date=2018-12-02}}</ref><ref>{{Cite news|url=http://www.rtvslo.si/slovenija/vox-populi-ocena-dela-vlade-se-je-obcutno-popravila/472523|title=Vox populi: Ocena dela vlade se je občutno popravila|work=Prvi interaktivni multimedijski portal, MMC RTV Slovenija|access-date=2018-12-02}}</ref><ref>{{Cite web|url=http://ninamedia.si/arhivi/554|title=Aktualna vprašanja – november 2018 – Ninamedia|website=ninamedia.si|language=sl-SI|access-date=2018-12-02}}</ref>
+|-
+|data-sort-value="2018-10-28"|28 Oct 2018{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|725
+| style="background:#FFFFBF" |'''19.5'''
+|8.5
+|7.2
+|3.1
+|6.2
+|5.1
+|3.1
+|3.3
+|2.5
+|2.5
+|0.9
+|1.1
+|0.5
+|0.5
+|8.8
+|23.3
+|0.6
+| style="background:{{Slovenian Democratic Party/meta/color}}"|11.0||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/na-vrhu-se-vedno-sds-in-pahor-v-zaledju-zanimive-rosade.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|language=sl|access-date=2018-12-02}}</ref>
+|-
+|data-sort-value="2018-10-14"|14 Oct 2018{{efn|name=date|Publication date}}
+|Ninamedia/RTVSLO/Dnevnik
+|700
+| style="background:#FFFFBF" |'''16.8'''
+|13.8
+|12.2
+|4.1
+|7.3
+|4.9
+|2.9
+|3.9
+|1.8
+|–
+|–
+|–
+|–
+|3.2
+|–
+|19.9
+|9.2
+| style="background:{{Slovenian Democratic Party/meta/color}}"|3.0||<ref>{{Cite news|url=http://www.rtvslo.si/slovenija/vox-populi-na-vrhu-ostaja-sds-a-lms-in-sd-sta-vse-blizje/468833|title=Vox populi: Na vrhu ostaja SDS, a LMŠ in SD sta vse bližje|work=Prvi interaktivni multimedijski portal, MMC RTV Slovenija|access-date=2018-12-02}}</ref><ref name=autogenerated5>{{Cite web|url=http://ninamedia.si/arhivi/536|title=Aktualna vprašanja – september 2018 – Ninamedia|website=ninamedia.si|language=sl-SI|access-date=2018-12-02}}</ref>
+|-
+|data-sort-value="2018-10-11"|3–11 Oct 2018
+|Mediana/Delo
+|725
+| style="background:#FFFFBF" |'''18.6'''
+|8.9
+|7.0
+|4.8
+|5.0
+|4.9
+|3.7
+|2.2
+|3.2
+|–
+|–
+|–
+|–
+|–
+|–
+|–
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|9.7||<ref>{{Cite news|url=https://www.zurnal24.si/slovenija/jansa-po-anketi-dela-pritisnil-na-plin-317541|title=Delo: Janša je z razlogom lahko nasmejan|access-date=2018-12-02|language=hr}}</ref>
+|-
+|data-sort-value="2018-09-23"|23 Sep 2018{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|705
+| style="background:#FFFFBF" |'''18.3'''
+|7.7
+|8.1
+|3.7
+|6.1
+|5.4
+|4.3
+|3.0
+|2.6
+|1.0
+|1.2
+|0.8
+|0.6
+|0.9
+|10.8
+|22.5
+|0.5
+| style="background:{{Slovenian Democratic Party/meta/color}}"|10.2||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/mediana-3.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|language=sl|access-date=2018-12-02}}</ref>
+|-
+|data-sort-value="2018-09-13"|11–13 Sep 2018
+|Ninamedia/RTVSLO
+|700
+| style="background:#FFFFBF" |'''23.7'''
+|10.2
+|9.8
+|7.1
+|6.2
+|6.1
+|3.7
+|3.0
+|2.4
+|–
+|–
+|–
+|–
+|1.1
+|–
+|19.9
+|6.8
+| style="background:{{Slovenian Democratic Party/meta/color}}"|13.5||<ref>{{Cite news|url=http://www.rtvslo.si/slovenija/vox-populi-sds-na-vrhu-smc-podporo-podvojil/466103|title=Vox populi: SDS na vrhu, SMC podporo podvojil|work=Prvi interaktivni multimedijski portal, MMC RTV Slovenija|access-date=2018-12-02}}</ref><ref name=autogenerated5 />
+|-
+|data-sort-value="2018-09-06"|30 Aug-6 Sep 2018
+|Mediana/Delo
+|715
+| style="background:#FFFFBF" |'''17.9'''
+|7.2
+|6.6
+|4.4
+|6.9
+|4.7
+|3.2
+|4.0
+|3.2
+|3.0
+|–
+|–
+|–
+|–
+|14.6
+|18.5
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|10.7||<ref>{{Cite news|url=https://www.rtvslo.si/slovenija/anketa-sds-trdno-v-vodstvu-lms-ju-podpora-prepolovljena/465491|title=Anketa: SDS trdno v vodstvu, LMŠ-ju podpora prepolovljena|work=Prvi interaktivni multimedijski portal, MMC RTV Slovenija|access-date=2018-09-14}}</ref>
+|-
+|data-sort-value="2018-08-26"|26 Aug 2018{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|712
+| style="background:#FFFFBF" |'''20.9'''
+|9.1
+|6.9
+|4.3
+|6.4
+|4.4
+|3.2
+|1.9
+|3.1
+|0.7
+|1.8
+|1.0
+|0.6
+|0.6
+|12.4
+|19.8
+|0.6
+| style="background:{{Slovenian Democratic Party/meta/color}}"|11.8||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/javno-mnenje-najvisjo-podporo-med-strankami-uziva-sds-med-politiki-pahor.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|language=sl|access-date=2018-08-26}}</ref>
+|-
+|data-sort-value="2018-08-15"|13–15 Aug 2018
+|Ninamedia/RTVSLO/Dnevnik
+|700
+| style="background:#FFFFBF" |'''24.0'''
+|10.1
+|10.1
+|3.1
+|6.8
+|4.8
+|1.7
+|3.2
+|2.3
+|–
+|–
+|–
+|–
+|2.3
+|–
+|19.7
+|11.7
+| style="background:{{Slovenian Democratic Party/meta/color}}"|12.9||<ref>{{Cite news|url=http://www.rtvslo.si/slovenija/vox-populi-sds-se-naprej-vodi-sab-in-sns-bi-izpadla-iz-parlamenta/463586|title=Vox populi: SDS še naprej vodi, SAB in SNS bi izpadla iz parlamenta|work=Prvi interaktivni multimedijski portal, MMC RTV Slovenija|access-date=2018-08-20}}</ref><ref>{{Cite web|url=http://ninamedia.si/arhivi/529|title=Aktualna vprašanja – avgust 2018 – Ninamedia|website=ninamedia.si|language=sl-SI|access-date=2018-09-14}}</ref>
+|-
+|data-sort-value="2018-07-29"|29 Jul 2018{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|730
+| style="background:#FFFFBF" |'''20.0'''
+|10.4
+|7.0
+|4.8
+|7.4
+|5.1
+|3.8
+|1.7
+|4.1
+|1.1
+|1.3
+|0.8
+|0.5
+|0.9
+|9.4
+|18.1
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|9.6||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/najvisjo-podporo-po-javnomnenjskih-raziskavah-ima-sds-sledi-lms.html|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|language=sl|access-date=2018-07-30}}</ref>
+|-
+|data-sort-value="2018-07-12"|10–12 Jul 2018
+|Ninamedia/RTVSLO/Dnevnik
+|700
+| style="background:#FFFFBF" |'''25.3'''
+|10.7
+|8.8
+|8.9
+|7.6
+|4.8
+|3.0
+|3.1
+|2.2
+|–
+|–
+|–
+|–
+|2.6
+|–
+|13.6
+|9.5
+| style="background:{{Slovenian Democratic Party/meta/color}}"|14.6||<ref>{{Cite news|url=http://www.rtvslo.si/slovenija/anketa-sds-trdno-na-prvem-mestu-nsi-ju-zrasla-podpora/460783|title=Anketa: SDS trdno na prvem mestu, NSi-ju zrasla podpora|work=Prvi interaktivni multimedijski portal, MMC RTV Slovenija|access-date=2018-07-15}}</ref><ref>{{Cite news|url=https://www.dnevnik.si/1042833043|title=Vox populi: Janševa SDS še pridobiva|work=Dnevnik|access-date=2018-07-16}}</ref><ref>{{Cite web|url=http://ninamedia.si/arhivi/519|title=Aktualna vprašanja – julij 2018 – Ninamedia|website=ninamedia.si|language=sl-SI|access-date=2018-09-14}}</ref>
+|-
+|data-sort-value="2018-06-23"|23 Jun 2018{{efn|name=date|Publication date}}
+|Mediana/POPTV
+|743
+| style="background:#FFFFBF" |'''24.7'''
+|10.1
+|8.2
+|5.6
+|8.4
+|4.6
+|3.5
+|2.7
+|3.8
+|2.0
+|0.9
+|0.9
+|0.6
+|1.0
+|6.4
+|13.3
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|14.6||<ref>{{Cite web|url=https://www.24ur.com/novice/slovenija/javno-mnenje-janseva-sds-naskok-pred-sarcevo-listo-po-volitvah-povecala-za-kar-deset-odstotnih-tock.html?q=mediana|title=Vsak dan prvi - 24ur.com|website=www.24ur.com|language=sl|access-date=2018-06-23}}</ref>
+|-
+|data-sort-value="2018-06-20"|18–20 Jun 2018
+|Parsifal/Nova24TV
+|611
+| style="background:#FFFFBF" |'''21.5'''
+|12.7
+|9.3
+|4.3
+|9.9
+|4.2
+|5.8
+|3.2
+|4.2
+|–
+|–
+|–
+|–
+|–
+|–
+|–
+|–
+| style="background:{{Slovenian Democratic Party/meta/color}}"|8.8||<ref>{{Cite news|url=http://nova24tv.si/slovenija/politika/javnomnenjska-raziskava-sds-po-volitvah-priljubljenost-raste-prihodnost-erjavcevega-desusa-mocno-pod-vprasajem/|title=Javnomnenjska raziskava: SDS po volitvah priljubljenost raste, prihodnost Erjavčevega Desusa močno pod vprašajem {{!}} Nova24TV|date=2018-06-24|work=Nova24TV|access-date=2018-07-15|language=sl-SI}}</ref>
+|-
+|data-sort-value="2018-06-14"|12–14 Jun 2018
+|Ninamedia/RTVSLO/Dnevnik
+|700
+| style="background:#FFFFBF" |'''25.1'''
+|11.6
+|9.2
+|9.2
+|8.8
+|3.2
+|3.8
+|3.1
+|3.4
+|–
+|–
+|–
+|–
+|4.3
+|–
+|14.3
+|3.9
+| style="background:{{Slovenian Democratic Party/meta/color}}"|13.5||<ref>{{Cite news|url=http://www.rtvslo.si/slovenija/vox-populi-se-vedno-vodi-sds-pred-lms-jem-podpora-vladi-zrasla/458299|title=Vox populi: Še vedno vodi SDS pred LMŠ-jem, podpora vladi zrasla|work=Prvi interaktivni multimedijski portal, MMC RTV Slovenija|access-date=2018-06-17}}</ref><ref>{{Cite web|url=http://ninamedia.si/arhivi/515|title=Aktualna vprašanja – junij 2018 – Ninamedia|website=ninamedia.si|language=sl-SI|access-date=2018-07-15}}</ref>
+|-
+|data-sort-value="2018-06-06"|5–6 Jun 2018
+|Parsifal/Nova24TV
+|690
+| style="background:#FFFFBF" |'''23.0'''
+|12.2
+|8.8
+|5.5
+|7.5
+|4.3
+|3.5
+|1.2
+|3.4
+|–
+|–
+|–
+|–
+|4.2
+|2.4
+|7.0
+|17.1
+| style="background:{{Slovenian Democratic Party/meta/color}}"|10.8||<ref>{{Cite news|url=http://nova24tv.si/slovenija/politika/javnomnenjska-raziskava-janez-jansa-s-prepricljivo-podporo-pri-sestavljanju-vlade-raste-tudi-javnomnenjska-podpora-sds-levici-in-smc-pada/|title=Javnomnenjska raziskava: Janez Janša s prepričljivo podporo pri sestavljanju vlade; raste tudi javnomnenjska podpora SDS, Levici in SMC pada {{!}} Nova24TV|date=2018-06-07|work=Nova24TV|access-date=2018-06-17|language=sl-SI}}</ref>
+|-
+! rowspan="2" data-sort-value="2018-06-03"|3 Jun 2018
+! rowspan="2"|[http://volitve.gov.si/dz2018/#/rezultati Election results]
+!891,097
+! style="background:#FFFFBF" |24.9
+!12.6
+!9.9
+!9.8
+!9.3
+!7.2
+!5.1
+!4.9
+!4.2
+!2.6
+!2.2
+!1.5
+!1.1
+!4.7
+!colspan="3"|(47.4)
+! style="background:{{Slovenian Democratic Party/meta/color}}"|12.3
+!<ref>{{cite news|url=http://volitve.gov.si/dz2018/#/rezultati|title=Slovenian Government website – Election results}}</ref>
+|- style="font-size:90%;"
+!88
+! style="background:#FFFFBF" |25
+!13
+!10
+!10
+!9
+!7
+!5
+!5
+!4
+!–
+!–
+!–
+!–
+!–
+! colspan="5" |–
+|}
+{{notelist}}
