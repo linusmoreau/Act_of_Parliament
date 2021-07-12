@@ -12,6 +12,7 @@ from typing import Dict, List, Union, Optional
 
 # todo add negative vs. positive parliamentarism (does the government need to win an investiture vote)
 # todo make a placeholder party containing Independents make more sense
+# todo change opinion from (-200, 0) to (-100, 100)
 
 
 class Encoder(json.JSONEncoder):
@@ -189,30 +190,23 @@ class Person(CustomObject):
         if titles is None:
             self.titles = []
 
-        self.opinions: Dict[str, Dict[Union[str, int], List[OpinionModifier]]] = {}
+        self.opinions: Dict[str, Dict[Union[str, int], int]]
         # str: opinion type (e.g. person, party, org, etc.)
         # Union(str, int): identifier for object of the opinion (person, org, etc.)
-        # OpinionModifier: information about how opinion is changed
-        # print(opinions)
+        # int: overall opinion
         if opinions is not None:
-            for subj, spec in opinions.items():
-                layer1 = {}
-                for obj, oms in spec.items():
-                    layer2 = []
-                    for om in oms:
-                        if not isinstance(om, OpinionModifier):
-                            del om['type']
-                            layer2.append(OpinionModifier(**om))
-                        else:
-                            layer2.append(om)
-                    layer1[obj] = layer2
-                self.opinions[subj] = layer1
+            for t in opinions:
+                if t == 'persons':
+                    opinions[t] = {int(k): v for k, v in opinions[t].items()}
+            self.opinions = opinions
+        else:
+            self.opinions = {}
 
         self.supports = supports
         self.best_opinion = best_opinion
         self.voted = voted
 
-        # todo this age generator will need a rework at some point to include population growth and underaged people
+        # todo this age generator will need a rework at some point to include simulated growth and underaged people
         if birthdate is None:
             if age is None:
                 while True:
@@ -277,30 +271,25 @@ class Person(CustomObject):
         self.age = date_kit.age(self.birthdate, data.game_state["date"])
         self.consider_party(random.choice(list(parties.keys())))
 
-    def add_opinion(self, obj_type: str, obj_tag: Union[str, int], opinion: OpinionModifier):
+    def add_opinion(self, obj_type: str, obj_tag: Union[str, int], opinion: int):
         if obj_type not in self.opinions:
             self.opinions[obj_type] = {}
         if obj_tag not in self.opinions[obj_type]:
-            self.opinions[obj_type][obj_tag] = []
-        self.opinions[obj_type][obj_tag].append(opinion)
+            self.opinions[obj_type][obj_tag] = 0
+        self.opinions[obj_type][obj_tag] += opinion
 
     def consider_party(self, party: str):
         issue = random.choice(list(self.values.keys()))
+        # todo change what effect is applied
         effect = int(round(-abs(self.values[issue] - parties[party].values[issue]) * self.values_importance[issue]))
-        opinion = OpinionModifier(tag='policy', effect=effect, date=data.game_state['date'])
-        self.add_opinion('parties', party, opinion)
+        self.add_opinion('parties', party, effect)
 
     def consider_parties(self, ballot: List[str]):
         # ballot is the tags (strings) of what parties are available in the region
         opinion_of_parties = {}
         for p in ballot:
-            # party_opinion = 0
-            # for issue in self.values:
-            #     policy_opinion = -abs(self.values[issue] - parties[p].values[issue]) * self.values_importance[issue]
-            #     party_opinion += policy_opinion
-            # party_opinion = party_opinion / len(self.values)
             if 'parties' in self.opinions and p in self.opinions['parties']:
-                party_opinion = sum([modifier.get_effect() for modifier in self.opinions['parties'][p]])
+                party_opinion = self.opinions['parties'][p]
             else:
                 party_opinion = 0
             opinion_of_parties[p] = party_opinion
@@ -510,9 +499,9 @@ class Party(CustomObject):
 
 class Region(CustomObject):
 
-    def __init__(self, tag, population, loaded=False, **kwargs):
+    def __init__(self, tag: str, population: int, loaded: bool = False, **kwargs):
         self.tag = tag
-        self.population = int(population)
+        self.population = population
         self.name = kwargs.get("name", "Province Name")
         self.demo = kwargs.get("language_demo", {"english": 1})
         self.simulated = int(population / data.settings['scale'])
@@ -569,12 +558,12 @@ class Region(CustomObject):
 
 class Riding(CustomObject):
 
-    def __init__(self, region, tag, name, population, ballot, incumbent, loaded=False, **kwargs):
+    def __init__(self, region, tag, name, simulated: int, ballot, incumbent, loaded=False, **kwargs):
         self.region = region
         self.tag = tag
         self.name = name
         self.ballot = ballot
-        self.population = population    # number of simulated persons
+        self.simulated = simulated    # number of simulated persons
         self.incumbent = incumbent
 
         self.persons = []
@@ -603,23 +592,26 @@ class Riding(CustomObject):
 
     def gen_population(self, dat):
         d = data.settings['individual_differential']
-        tot = sum([dat[p] for p in self.ballot])
-        ratios = list(map(lambda p: dat[p] / tot, self.ballot))
-        for i, p in enumerate(self.ballot):
+        votes = {p: dat[p] for p in self.ballot}
+        indivs = toolkit.largest_remainder_method(votes, self.simulated)
+        for p in indivs:
             vals = parties[p].values
-            for a in range(round(ratios[i] * self.population)):
+            for a in range(indivs[p]):
                 values, values_importance, radicalism = self.gen_beliefs(vals, d)
                 peep = Person(self.region, self.tag, values, values_importance, radicalism)
-                opinion = OpinionModifier(tag='voted', effect=100, date=data.game_state['date'])
-                peep.add_opinion('parties', p, opinion)
-        self.population = len(self.persons)
+                self.set_initial_opinions(peep, p)
 
     def set_mp(self):
         d = 10
         p = parties[self.incumbent]
         vals = p.values
         values, values_importance, radicalism = self.gen_beliefs(vals, d)
-        ParliamentMember(self.region, self.tag, values, values_importance, radicalism, p)
+        peep = ParliamentMember(self.region, self.tag, values, values_importance, radicalism, p)
+        self.set_initial_opinions(peep, p.tag)
+
+    @staticmethod
+    def set_initial_opinions(person: Person, party: str):
+        person.add_opinion('parties', party, 100)
 
     @staticmethod
     def gen_beliefs(base, d):
