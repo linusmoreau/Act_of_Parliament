@@ -3,7 +3,7 @@
   "volume": 30,
   "graphics": 0,
   "turn_length": 7,
-  "scale": 5000,
+  "scale": 1000,
   "private_orders_length": 10,
   "private_orders_per_turn": 1,
   "government_orders_per_turn": 1,

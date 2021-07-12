@@ -1,7 +1,7 @@
 import json
 import csv
 import date_kit
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Any
 
 
 credit: str
@@ -64,7 +64,7 @@ def init():
     poll_types = ["party_support"]
 
     try:
-        f = open('settings.json', 'r')
+        f = open('data/settings.json', 'r')
     except FileNotFoundError:
         raise FileNotFoundError('Could not find settings.json file.')
     else:
@@ -125,7 +125,7 @@ def get_riding_data():
     try:
         with open('data/ridings.csv', 'r') as f:
             doc = csv.reader(f)
-            dat = {}
+            dat: Dict[str, List[Dict[str, Any]]] = {}
             region = None
             for i, row in enumerate(doc):
                 if i == 0:
@@ -146,6 +146,6 @@ def get_riding_data():
                                 v = int(v)
                         riding[k] = v
                     dat[region].append(riding)
+            return dat
     except FileNotFoundError:
         raise FileNotFoundError('Could not find ridings.csv in data folder')
-    return dat
