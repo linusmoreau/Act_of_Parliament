@@ -4,6 +4,7 @@ import date_kit
 import types
 import datetime
 import urllib.request
+import urllib.error
 import threading
 from bs4 import BeautifulSoup
 from data import get_riding_data
@@ -1229,20 +1230,23 @@ class MenuPage:
 
 def update_data(sel="All"):
     def update_dat(dest, url, tag):
-        content = urllib.request.urlopen(url)
-        read_content = content.read()
-        soup = BeautifulSoup(read_content, 'html.parser')
-        content = soup.find_all('textarea')
-        if tag == 'New York':
-            text = content[0].text
-            text = text[text.find('=== First-past-the-post polls ==='):
-                        text.find('!scope="row"| [https://www.filesforprogress.org/datasets/2020/1/'
-                                  'dfp_poll_january_ny.pdf Data for Progress (D)]')]
-        else:
-            text = content[0].text
-        final = text.encode('utf-8')
-        with open(dest, 'wb') as f:
-            f.write(final)
+        try:
+            content = urllib.request.urlopen(url)
+            read_content = content.read()
+            soup = BeautifulSoup(read_content, 'html.parser')
+            content = soup.find_all('textarea')
+            if tag == 'New York':
+                text = content[0].text
+                text = text[text.find('=== First-past-the-post polls ==='):
+                            text.find('!scope="row"| [https://www.filesforprogress.org/datasets/2020/1/'
+                                      'dfp_poll_january_ny.pdf Data for Progress (D)]')]
+            else:
+                text = content[0].text
+            final = text.encode('utf-8')
+            with open(dest, 'wb') as f:
+                f.write(final)
+        except urllib.error.URLError:
+            print('Failed to load for ' + tag + ' from ' + url)
 
     if sel == 'All':
         for tag in choices:
