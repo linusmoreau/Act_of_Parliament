@@ -1949,8 +1949,8 @@ class GraphDisplay(Widget):
                 for y in ys:
                     p = (round(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
                          round(self.rect.h - ((y - self.y_min) * self.y_scale + self.bottom_margin)))
-                    if self.graph_rect.x <= p[0] <= self.graph_rect.x + self.graph_rect.w and \
-                            self.graph_rect.y <= p[1] <= self.graph_rect.y + self.graph_rect.h:
+                    if self.left_margin <= p[0] <= self.left_margin + self.graph_rect.w and \
+                            self.top_margin <= p[1] <= self.top_margin + self.graph_rect.h:
                         pygame.gfxdraw.filled_circle(self.surface, p[0], p[1], 2, colour)
                         pygame.gfxdraw.aacircle(self.surface, p[0], p[1], 2, colour)
 
@@ -1966,8 +1966,8 @@ class GraphDisplay(Widget):
             for x in sorted(self.dat[line].keys()):
                 p = (round(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
                      round(self.rect.h - ((self.dat[line][x] - self.y_min) * self.y_scale + self.bottom_margin)))
-                if self.graph_rect.x <= p[0] <= self.graph_rect.x + self.graph_rect.w and \
-                        self.graph_rect.y <= p[1] <= self.graph_rect.y + self.graph_rect.h:
+                if self.left_margin <= p[0] <= self.left_margin + self.graph_rect.w and \
+                        self.top_margin <= p[1] <= self.top_margin + self.graph_rect.h:
                     if len(points) == 0 and pp is not None:
                         np = (round(self.graph_rect.x),
                               p[1] + round((pp[1] - p[1]) / (pp[0] - p[0]) * (self.graph_rect.x - p[0])))
