@@ -62,13 +62,14 @@ def get_population(name: str, populations):
                 return 0
 
 
-populations = load_populations()
-groupings = load_groupings()
-ideological_pops = {}
-for col, attr in groupings['groups'].items():
-    ideological_pops[attr['label']] = sum([get_population(name, populations) for name in attr['paths']])
-order = sorted(list(ideological_pops.keys()), key=lambda n: ideological_pops[n], reverse=True)
-print()
-print('Ideologies'.rjust(24), 'Population'.rjust(16))
-for ideology in order:
-    print(ideology.rjust(24), str(ideological_pops[ideology]).rjust(16))
+if __name__ == '__main__':
+    populations = load_populations()
+    groupings = load_groupings()
+    ideological_pops = {}
+    for col, attr in groupings['groups'].items():
+        ideological_pops[attr['label']] = sum([get_population(name, populations) for name in attr['paths']])
+    order = sorted(list(ideological_pops.keys()), key=lambda n: ideological_pops[n], reverse=True)
+    print()
+    print('Ideologies'.rjust(24), 'Population'.rjust(16))
+    for ideology in order:
+        print(ideology.rjust(24), str(ideological_pops[ideology]).rjust(16))
