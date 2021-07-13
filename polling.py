@@ -110,7 +110,7 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                         i += 1
                     if 'rowspan="2"' in prevline:
                         rot += 1
-                elif choice in ['Italy', 'Cyprus', 'Slovakia', 'Hungary', 'Ireland', 'Russia']:
+                elif choice in ['Italy', 'Cyprus', 'Slovakia', 'Hungary', 'Ireland', 'Russia', 'Japan', 'Ontario']:
                     line = prevline
                     if line[0] == '!':
                         rot = None
@@ -179,7 +179,10 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                                 raise KeyError('KeyError getting month length')
                     temp = temp.strip("'")
                 temp = temp.replace('X', '0')
-                end_date = date_kit.Date(text=temp, form='dmy')
+                if choice == 'Ontario':
+                    end_date = date_kit.Date(text=temp, form='mdy')
+                else:
+                    end_date = date_kit.Date(text=temp, form='dmy')
                 end = date_kit.date_dif(today, end_date)
                 if choice == "Italy":
                     if end_date.__repr__() == "2019-04-09":
@@ -195,6 +198,14 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     elif 'https://www.termometropolitico.it/1595537_sondaggi-tp-un-italiano-su-due-non-vuole-draghi-' \
                          'al-quirinale.html' in nline:
                         key = ['M5S', 'PD', 'Lega', 'FI', 'FdI', 'Art.1', 'SI', '+Eu', 'EV', 'A', 'IV']
+                elif choice == 'Japan':
+                    if end_date.__repr__() == '2020-12-27' or \
+                            end_date.__repr__() == '2020-07-19' or \
+                            end_date.__repr__() == '2020-06-14':
+                        key = ['LDP', 'CDP', 'NKP', 'JCP', 'Ishin', 'DPP', 'SDP', 'Reiwa', 'Kibo', 'NHK', 'Other',
+                               'None']
+                    else:
+                        key = ['LDP', 'CDP', 'NKP', 'JCP', 'Ishin', 'DPP', 'SDP', 'Reiwa', 'NHK', 'Other', 'None']
             elif rot == 0 and choice == 'Canada':
                 parts = line.split('||')
                 temp = parts[date].split('|')[-1].strip().strip('}')
@@ -254,6 +265,8 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     temp = temp[:temp.find('<br')]
                 elif choice == 'Ireland' and '<ref' in line:
                     temp = temp[:temp.find('<ref')]
+                if choice == 'Japan':
+                    temp = temp.split(' ')[-1]
                 temp = temp.split('|')[-1].strip()
                 if choice == 'Cyprus' and temp == '-' and p == 4:
                     i += 1
@@ -578,6 +591,22 @@ def choices_setup():
             'url': 'https://en.wikipedia.org/w/index.php?title='
                    'Opinion_polling_for_the_next_Italian_general_election&action=edit&section=3'
         },
+        'Japan': {
+            'key': ['LDP', 'CDP', 'NKP', 'JCP', 'Ishin', 'DPP', 'SDP', 'Reiwa', 'NHK', 'Other', 'None'],
+            'include': ['LDP', 'CDP', 'NKP', 'JCP', 'Ishin', 'DPP', 'SDP', 'Reiwa', 'NHK'],
+            'gov': {'Government': ['LDP'],
+                    'Opposition': ['CDP', 'NKP', 'JCP', 'Ishin', 'DPP', 'SDP', 'Reiwa', 'NHK']},
+            'zeros': ['None'],
+            'col': {'LDP': (60, 163, 36), 'CDP': (24, 69, 137), 'NKP': (245, 88, 129), 'JCP': (219, 0, 28),
+                    'Ishin': (184, 206, 67), 'DPP': (255, 215, 0), 'SDP': (28, 169, 233), 'Reiwa': (237, 0, 140),
+                    'NHK': (248, 234, 13)},
+            'date': 0,
+            'start': 1,
+            'end_date': Date(2021, 10, 22),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_2021_Japanese_general_election&action=edit&section=9',
+            'old_data': 'test_data/old_japan_polling.txt'
+        },
         'Lithuania': {
             'key': ['TS-LKD', 'LVZS', 'DP', 'LSDP', 'Laisves', 'LRLS', 'LLRA', 'LSDDP', 'LCP', 'LT'],
             'col': {'TS-LKD': (0, 165, 155), 'LVZS': (0, 144, 53), 'DP': (29, 87, 140), 'LSDP': (225, 5, 20),
@@ -622,6 +651,14 @@ def choices_setup():
             'threshold': 4,
             'method': 'quotient',
             'old_data': 'test_data/old_norway_polling.txt'
+        },
+        'Ontario': {
+            'key': ['PC', 'NDP', 'Liberal', 'Green'],
+            'col': {'PC': (153, 153, 255), 'NDP': (244, 164, 96), 'Liberal': (234, 109, 106), 'Green': (153, 201, 85)},
+            'start': 1,
+            'date': 0,
+            'end_date': Date(2022, 6, 2),
+            'url': 'https://en.wikipedia.org/w/index.php?title=43rd_Ontario_general_election&action=edit&section=9'
         },
         'Peru': {
             'key': ['Castillo', 'Fujimori'],
