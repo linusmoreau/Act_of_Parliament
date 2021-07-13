@@ -21,8 +21,34 @@
 ! data-sort-type="number" style="height:1px; background:#ac145a;" |
 ! data-sort-type="number" style="height:1px; background:{{Polish People's Party/meta/color}};" |
 ! data-sort-type="number" style="height:1px; background:{{Kukiz'15/meta/color}};" |
-! data-sort-type="number" style="height:1px; background:#122746;" |
+! data-sort-type="number" style="height:1px; background:{{Confederation Liberty and Independence/meta/color}};" |
 ! data-sort-type="number" style="height:1px; background:#F9C013;" |
+|-
+| [https://fakty.tvn24.pl/fakty-po-poludniu,96/koalicja-obywatelska-wyprzedzila-polske-2050-sondaz-kantar-dla-faktow-tvn-i-tvn24,1068570.html Kantar / TVN]
+| data-sort-value="2021-07-11" | 9–11 Jul 2021
+| 1,000
+| style="background:#C0DBFC;" | '''29'''
+| 24
+| 7
+| 3
+| 1
+| 7
+| 15
+| 14{{efn| others 1%, don't know 13%}}
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''5'''
+|-
+| [https://www.polsatnews.pl/wiadomosc/2021-07-12/sondaz-cbos-wyrazna-przewaga-pis-ko-zyskuje-wyborcow/ CBOS]
+| data-sort-value="2021-07-11" | 1–11 Jul 2021
+| 1,166
+| style="background:#C0DBFC;" | '''36'''
+| 16
+| 5
+| 3
+| 1
+| 5
+| 13
+| 21
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''20'''
 |-
 | [https://www.se.pl/wiadomosci/polityka/tusk-miazdzy-holownie-najnowszy-sondaz-partyjny-aa-85Ud-M79o-CQDZ.html Pollster / SE.pl]
 | data-sort-value="2021-07-07" | 6–7 Jul 2021
@@ -84,7 +110,7 @@
 | 3
 | 8.2
 | 19.1
-| 12.1
+| 12.1{{efn| others 0.5%, don't know 11.6%}}
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''11.5'''
 |-
 | style="letter-spacing: -1px;"| [https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8205066,najnowszy-sondaz-po-wyprzedza-polske-2050.html United Survey / DGP, RMF]
@@ -127,7 +153,7 @@
 |style="background:{{Law and Justice/meta/color}}; color:white;"| '''6''' 
 |-
 |
-| data-sort-value="2021-03-07" | 3 July 2021
+| data-sort-value="2021-07-03" | 3 Jul 2021
 |colspan=10 |'''[[Borys Budka|Borys Budka]] resignation as PO leader; [[Donald Tusk]] acting leader'''
 |-
 | style="letter-spacing: -1px;"| [https://twitter.com/IBRiS_PL/status/1410648063052558337 IBRiS / "Wydarzenia" Polsat]
@@ -155,7 +181,7 @@
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''12.9''' 
 |-
 | style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/556979-sondaz-pis-zwieksza-przewage-w-gore-konfederacja-i-lewica Social Changes / wPolityce.pl]
-| data-sort-value="2021-06-25" | 25–28 Jun 2021
+| data-sort-value="2021-06-28" | 25–28 Jun 2021
 | 1,082
 | style="background:#C0DBFC;" | '''34'''
 | 17
@@ -217,7 +243,7 @@
 | style="background:{{Law and Justice/meta/color}}; color:white;"| '''9''' 
 |-
 | [https://wiadomosci.dziennik.pl/polityka/artykuly/8197534,koalicja-obywatelska-zjednoczona-prawica-sondaz.html Research Partner]
-| data-sort-value="2021-06-22" | 18–21 Jun 2021
+| data-sort-value="2021-06-21" | 18–21 Jun 2021
 | 1,048
 | style="background:#C0DBFC;" | '''31.2'''
 | 17.4

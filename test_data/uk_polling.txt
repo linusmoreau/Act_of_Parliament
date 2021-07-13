@@ -20,11 +20,37 @@
 ! data-sort-type="number" style="background:{{Scottish National Party/meta/color}};"|
 ! data-sort-type="number" style="background:{{Green Party of England and Wales/meta/color}};"|
 |-
-|[https://twitter.com/OpiniumResearch/status/1413936059528880128/ Opinium]
-|?
+|[https://www.survation.com/conservative-lead-jumps-to-11-points/ Survation]
+|N/A
+|{{opdrts|5|13|Jul|2021}}
+|UK
+|2,119
+|style="background:#BADEF5;"|'''43%'''
+|32%
+|9%
+|5%
+|6%
+|{{Hidden|6%|Other on 6%|headerstyle=font-weight:normal;line-height:9px;}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|11%
+|-
+|[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-12-july-2021/ Redfield & Wilton Strategies]
+|N/A
+|{{opdrts||12|Jul|2021}}
+|GB
+|2,000
+|style="background:#BADEF5;"|'''41%'''
+|33%
+|12%
+|4%
+|6%
+|{{Hidden|4%|[[Brexit Party|Reform UK]] on 3%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%|headerstyle=font-weight:normal;line-height:9px;}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|8%
+|-
+|[https://www.opinium.com/wp-content/uploads/2021/07/VI-08-07-21-Observer-Tables.xlsx Opinium]
+|''The Observer''
 |{{opdrts|8|9|Jul|2021}}
 |GB
-|?
+|2,001
 |style="background:#BADEF5;"|'''43%'''
 |35%
 |6%
@@ -32,6 +58,19 @@
 |6%
 |{{Hidden|5%|[[Plaid Cymru]] on 2%<br/>Other on 3%|headerstyle=font-weight:normal;line-height:9px;}}
 |style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|8%
+|-
+|[https://docs.cdn.yougov.com/zv2xt75u7m/TheTimes_VotingIntention_Track_210708_W.pdf YouGov]
+|''The Times''
+|{{opdrts|7|8|Jul|2021}}
+|GB
+|2,054
+|style="background:#BADEF5;"|'''42%'''
+|30%
+|9%
+|5%
+|7%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Plaid Cymru]] on 1%<br/>[[Reform UK]] on 2%<br/>Other on 3%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|12%
 |-
 |[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-5-july-2021/ Redfield & Wilton Strategies]
 |N/A

@@ -1,0 +1,276 @@
+=== 2020 ===
+{| class="wikitable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:38px;"
+! class="unsortable" rowspan="2" width=100px | Fieldwork date
+! class="unsortable" rowspan="2" width=155px | Polling firm
+! class="unsortable" width=38px | [[Liberal Democratic Party (Japan)|LDP]]
+! class="unsortable" width=38px | [[Constitutional Democratic Party of Japan|CDP]]
+! class="unsortable" width=38px | [[Komeito|NKP]]
+! class="unsortable" width=38px | [[Japanese Communist Party|JCP]]
+! class="unsortable" width=38px | [[Nippon Ishin no Kai|Ishin]]
+! class="unsortable" width=38px | [[Democratic Party for the People|DPP]]
+! class="unsortable" width=38px | [[Social Democratic Party (Japan)|SDP]]
+! class="unsortable" width=38px | [[Reiwa Shinsengumi|Reiwa]]
+! class="unsortable" width=38px | [[Kibō no Tō|Kibō]]
+! class="unsortable" width=38px | [[The Party to Protect the People from NHK|N-Koku]]
+! rowspan="2" class="unsortable" width="38px" | {{abbr|Oth.|Others}}/<br />{{abbr|WV|Won't vote}}
+! class="unsortable" width=38px rowspan=2 | {{abbr|Und.|Undecided}}/<br />{{abbr|no ans.|no answer}}
+! class="unsortable" width=38px rowspan=2 | Lead
+|-
+| style="background-color: {{Liberal Democratic Party (Japan)/meta/color}}" |
+| style="background-color: {{Constitutional Democratic Party of Japan/meta/color}}" |
+| style="background-color: {{New Komeito Party/meta/color}}" |
+| style="background-color: {{Japanese Communist Party/meta/color}}" |
+| style="background-color: {{Nippon Ishin no Kai/meta/color}}" |
+| style="background-color: {{Democratic Party for the People/meta/color}}" |
+| style="background-color: {{Social Democratic Party (Japan)/meta/color}}" |
+| style="background-color: {{Reiwa Shinsengumi/meta/color}}" |
+| style="background-color: {{Kibō no Tō/meta/color}}" |
+| style="background-color: {{The Party to Protect the People from NHK/meta/color}}" |
+|-
+|25-27 Dec
+|[https://vdata.nikkei.com/newsgraphics/cabinet-approval-rating/ Nikkei]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''41'''
+|12
+|3
+|4
+|8
+|1
+|{{n/a}}
+|1
+| rowspan="13" <!--Kibō--> {{n/a}}
+|1
+|{{n/a}}
+|29
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''29'''
+|-
+| 4-6 Dec
+| [https://www.yomiuri.co.jp/election/yoron-chosa/20201206-OYT1T50157/ Yomiuri-NNN]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''49'''
+|9
+|4
+|2
+|7
+|1
+|1
+|1
+|1
+|1
+|24
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''40'''
+|-
+|27-29 Nov
+|[https://vdata.nikkei.com/newsgraphics/cabinet-approval-rating/ Nikkei]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''48'''
+|10
+|4
+|3
+|7
+|2
+|1
+|2
+|1
+|{{n/a}}
+|22
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''38'''
+|-
+| 14-15 Nov
+| [https://www.asahi.com/articles/ASNCJ5WYMNCJUZPS008.html Asahi Shimbun]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''45'''
+|12
+|6
+|4
+|6
+|1
+|1
+|1
+|1
+|2
+|21
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''33'''
+|-
+| 14-15 Nov
+| [https://www.tv-asahi.co.jp/hst2020/poll/202011/ ANN]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''40.9'''
+|10.4
+|3.8
+|3.5
+|3.8
+|0.6
+|1
+|0.6
+|0.2
+|1.6
+|33.6
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''30.5'''
+|-
+| 6-8 Nov
+| [https://www.yomiuri.co.jp/election/yoron-chosa/20201109-OYT1T50174/ Yomiuri-NNN]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''54'''
+|8
+|5
+|4
+|6
+|1
+|0
+|1
+|1
+|0
+|20
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''46'''
+|-
+| 17-18 Oct
+| [https://www.asahi.com/articles/ASNBL77D9NBLUZPS006.html Asahi Shimbun]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''46'''
+|12
+|5
+|4
+|9
+|2
+|1
+|2
+|1
+|1
+|17
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''34'''
+|-
+| 16–18 Oct
+| [https://www.yomiuri.co.jp/election/yoron-chosa/20201018-OYT1T50156/ Yomiuri Shimbun]
+| {{Party shading/Liberal Democratic Party (Japan)}} |<!--LDP--> '''47'''
+|<!--CDP--> 11
+|<!--Komei--> 5
+|<!--JCP--> 3
+|<!--Ishin--> 6
+|<!--DPFP--> 1
+|<!--SDP--> 1
+|<!--Reiwa--> 2
+|<!--N-Koku--> 1
+|<!--Other--> 1
+|<!--Und.--> 14
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''36'''
+|-
+| 17–18 Oct
+| [https://www.tv-asahi.co.jp/hst/poll/202010/ ANN]
+| {{Party shading/Liberal Democratic Party (Japan)}} |<!--LDP--> '''40.1'''
+|<!--CDP--> 9.3
+|<!--Komei--> 4.2
+|<!--JCP--> 3.8
+|<!--Ishin--> 3.8
+|<!--DPFP--> 0.7
+|<!--SDP--> 0.3
+|<!--Reiwa--> 0.5
+|<!--N-Koku--> 0.1
+|<!--Other--> 2.0
+|<!--Und.--> 35.2
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''30.8'''
+|-
+| 19-20 Sep
+| [https://www.yomiuri.co.jp/election/yoron-chosa/20200920-OYT1T50175/ Yomiuri-NNN]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''55'''
+|8
+|6
+|3
+|6
+|1
+|0
+|1
+|0
+|<!--Kibō--> {{n/a}}
+|20
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''47'''
+|-
+| 19–20 Sep
+| [https://www.tv-asahi.co.jp/hst2020/poll/202009/ ANN]
+| {{Party shading/Liberal Democratic Party (Japan)}} |<!--LDP--> '''45.1'''
+|<!--CDP--> 11.9
+|<!--Komei--> 4.3
+|<!--JCP--> 3.0
+|<!--Ishin--> 2.9
+|<!--DPFP--> 0.8
+|<!--SDP--> 0.3
+|<!--Reiwa--> 0.2
+|<!--N-Koku--> 0
+|<!--Other--> 3.5
+|<!--Und.--> 28
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''33.2'''
+|-
+|16-17 Sep
+|[https://vdata.nikkei.com/newsgraphics/cabinet-approval-rating/ Nikkei]
+| {{Party shading/Liberal Democratic Party (Japan)}} | '''54'''
+|10
+|4
+|2
+|6
+|1
+|1
+|2
+|1
+|{{n/a}}
+|18
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''44'''
+|-
+| 16–17 Sep
+| [https://www.asahi.com/articles/ASN9K7X97N9KUZPS008.html?iref=pc_extlink Asahi Shimbun]
+| {{Party shading/Liberal Democratic Party (Japan)}} |<!--LDP--> '''48'''
+|<!--CDP--> 12
+|<!--Komei--> 6
+|<!--JCP--> 4
+|<!--Ishin--> 8
+|<!--DPFP--> 1
+|<!--SDP--> 1
+|<!--Reiwa--> 2
+|<!--N-Koku--> 1
+|<!--Other--> 1.0
+|<!--Und.--> 15
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''36'''
+|-
+! 16 Sep
+! colspan="14" | [[Yoshihide Suga]] assumes office as the Prime Minister.
+|-
+| 18–19 Jul
+| [https://www.asahi.com/articles/ASN7M7DVTN7MUZPS003.html Asahi Shimbun]
+| {{Party shading/Liberal Democratic Party (Japan)}} |<!--LDP--> '''35'''
+|<!--CDP--> 13
+|<!--Komei--> 6
+|<!--JCP--> 5
+|<!--Ishin--> 10
+|<!--DPFP--> 3
+|<!--SDP--> 2
+|<!--Reiwa--> 2
+|<!--Kibō--> 1
+|<!--N-Koku--> 2
+|<!--Other--> 3
+|<!--Und.--> 18
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''22'''
+|-
+|13-14 Jun
+|[https://go2senkyo.com/articles/2020/06/17/52737.html go2senkyo]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''30.6'''
+|18.4
+|5.3
+|7.8
+|12.5
+|2.2
+|1.6
+|3.1
+| rowspan="2" <!--Kibō--> {{n/a}}
+|0.6
+|{{n/a}}
+|17.8
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''12.2'''
+|-
+|4 Mar - 13 Apr
+|[https://www.asahi.com/articles/ASN527DP1N4HUZPS005.html Asahi]
+| {{Party shading/Liberal Democratic Party (Japan)}} |'''44'''
+|17
+|6
+|6
+|8
+|3
+|2
+|3
+|2
+|2
+|7
+| style="background:{{Liberal Democratic Party (Japan)/meta/color}}; color:white" | '''27'''
+|}

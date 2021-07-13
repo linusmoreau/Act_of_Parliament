@@ -40,6 +40,20 @@
 |0.9
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.5
 |-
+|Sentio<ref>{{Cite news|title=Efter regeringskrisen: SD urstarka i Sentios julimätning|language=sv|url=https://nyheteridag.se/plus/efter-regeringskrisen-sd-urstarka-i-sentios-julimatning/|access-date=2021-07-12}}</ref>
+|2-5 Jul 2021
+|–
+|10.3
+| style="background:#F9BDC5;" |'''23.8'''
+|4.3
+|6.3
+|4.3
+|21.0
+|6.1
+|21.9
+|–{{efn|[[Feminist Initiative (Sweden)|FI]]: 0.3 [[Alternative for Sweden|AfS]]: 0.5 [[Citizens' Coalition|MED]]: 0.0 [[Pirate Party (Sweden)|PP]]: 0.7}}
+|style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |1.9
+|-
 |Demoskop<ref>{{Cite news|title=Demoskop: V skapade kaos och gjorde succé
 |language=sv|url=https://www.aftonbladet.se/nyheter/a/gWVR8q/demoskop-v-skapade-kaos-och-gjorde-succe|access-date=2021-06-29}}</ref>
 |23-28 Jun 2021
