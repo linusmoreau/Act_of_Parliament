@@ -94,6 +94,12 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                 rot = 0
                 i += 1
                 continue
+        elif choice == 'Netherlands':
+            if '{{For|events during those years|2020 in the Netherlands|2019 in the Netherlands|' \
+                   '2018 in the Netherlands|2017 in the Netherlands}}' in line:
+                key = ['VVD', 'PVV', 'CDA', 'D66', 'GL', 'SP', 'PvdA', 'CU', 'PvdD', '50+', 'SGP', 'DENK', 'FVD',
+                       'JA21', 'Volt', 'BIJ1', 'BBB', 'Others']
+                start = 2
         if isrestart(line):
             rot = 0
         if rot is not None:
@@ -277,6 +283,8 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                 else:
                     try:
                         share = float(temp.strip().strip("'%!"))
+                        if choice == 'Netherlands':
+                            share *= 2 / 3
                     except ValueError:
                         # print(temp)
                         share = None
@@ -621,6 +629,40 @@ def choices_setup():
             'end_date': Date(2024, 10, 6),
             'url': 'https://en.wikipedia.org/w/index.php?title='
                    '2024_Lithuanian_parliamentary_election&action=edit&section=3'
+        },
+        'Netherlands': {
+            'key': ['VVD', 'D66', 'PVV', 'CDA', 'SP', 'PvdA', 'GL', 'FVD', 'PvdD', 'CU', 'Volt', 'JA21', 'SGP', 'DENK',
+                    '50+', 'BBB', 'BIJ1', 'Others'],
+            'col': {'VVD': (10, 44, 202), 'D66': (0, 174, 65), 'PVV': (1, 39, 88), 'CDA': (44, 200, 77),
+                    'SP': (246, 0, 0), 'PvdA': (223, 17, 26), 'GL': (131, 189, 0), 'FVD': (132, 24, 24),
+                    'PvdD': (0, 107, 45), 'CU': (0, 167, 235), 'Volt': (88, 44, 131), 'JA21': (36, 43, 87),
+                    'SGP': (234, 91, 11), 'DENK': (0, 183, 178), '50+': (146, 16, 125), 'BBB': (148, 193, 31),
+                    'BIJ1': (253, 253, 0)},
+            'include': ['VVD', 'D66', 'PVV', 'CDA', 'SP', 'PvdA', 'GL', 'FVD', 'PvdD', 'CU', 'Volt', 'JA21', 'SGP',
+                        'DENK', '50+', 'BBB', 'BIJ1'],
+            'gov': {'Government': ['VVD', 'D66', 'CDA', 'CU'],
+                    'Opposition': ['PVV', 'SP', 'PvdA', 'GL', 'FVD', 'PvdD', 'Volt', 'JA21', 'SGP', 'DENK', '50+',
+                                   'BBB', 'BIJ1']},
+            'blocs': {'Nationalist': ['PVV', 'FVD', 'JA21'],
+                      'Confessional': ['CDA', 'CU', 'SGP'],
+                      'Left': ['SP', 'PvdA', 'GL', 'PvdD', 'BIJ1', 'DENK'],
+                      'VVD': ['VVD'],
+                      'Liberal': ['D66', 'Volt'],
+                      'Agrarian': ['BBB'],
+                      'Pensioners': ['50+']},
+            'date': 1,
+            'start': 3,
+            'vlines': {Date(2021, 3, 17): 'General Election'},
+            'restart': ['[http', '2017 election', '2021 election'],
+            'url': 'https://en.wikipedia.org/w/index.php?title=Next_Dutch_general_election&action=edit&section=3',
+            'old_data': 'test_data/old_netherlands_polling.txt',
+            'toggle_seats': True,
+            'method': 'quotient',
+            'bar': 0,
+            'divisor': 1,
+            'seats': 150,
+            'threshold': 0,
+            'end_date': Date(2025, 3, 17)
         },
         'New York': {
             'key': ['Eric Adams', 'Shaun Donovan', 'Kathryn Garcia', 'Raymond McGuire', 'Dianne Morales',
@@ -1306,7 +1348,7 @@ class MenuPage:
     def __init__(self, options):
         button_size = 64
         self.display = ScrollButtonDisplay((screen_rect.centerx, screen_rect.top + screen_height / 16),
-                                           (300, screen_height * 3 / 4), button_size * len(options),
+                                           (400, screen_height * 3 / 4), button_size * len(options),
                                            align=TOP, button_size=button_size)
         background_colour = dark_grey
         buttons = []

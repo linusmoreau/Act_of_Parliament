@@ -1,0 +1,6557 @@
+=== Seats ===
+{{For|events during those years|2020 in the Netherlands|2019 in the Netherlands|2018 in the Netherlands|2017 in the Netherlands}}
+There are 150 seats in total. Parties are denoted with en dashes if no indication is given of their level in polls.
+
+{| class="wikitable sortable mw-datatable" style="text-align:center;font-size:90%;line-height:14px;"
+|- style="height:40px;"
+! style="width:85px;" rowspan="2"| Polling firm
+! style="width:60px;" rowspan="2"| Date
+! class="unsortable" style="width:40px;"| [[People's Party for Freedom and Democracy|VVD]]
+! class="unsortable" style="width:40px;"| [[Party for Freedom|PVV]]
+! class="unsortable" style="width:40px;"| [[Christian Democratic Appeal|CDA]]
+! class="unsortable" style="width:40px;"| [[Democrats 66|D66]]
+! class="unsortable" style="width:40px;"| [[GroenLinks|GL]]
+! class="unsortable" style="width:40px;"| [[Socialist Party (Netherlands)|SP]]
+! class="unsortable" style="width:40px;"| [[Labour Party (Netherlands)|PvdA]]
+! class="unsortable" style="width:40px;"| [[Christian Union (Netherlands)|CU]]
+! class="unsortable" style="width:40px;"| [[Party for the Animals|PvdD]]
+! class="unsortable" style="width:40px;"| [[50PLUS|50+]]
+! class="unsortable" style="width:40px;"| [[Reformed Political Party|SGP]]
+! class="unsortable" style="width:40px;"| [[DENK (political party)|DENK]]
+! class="unsortable" style="width:40px;"| [[Forum for Democracy|FVD]]
+! class="unsortable" style="width:40px;"| [[JA21]]
+! class="unsortable" style="width:40px;"| [[Volt Netherlands|Volt]]
+! class="unsortable" style="width:40px;"| [[BIJ1]]
+! class="unsortable" style="width:40px;"| [[Farmer–Citizen Movement|BBB]]
+! class="unsortable" style="width:40px;" rowspan="2"| Others
+! style="width:30px;" rowspan="2"| Lead
+|-
+! style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};"|
+! style="background:{{Party for Freedom/meta/color}};"|
+! style="background:{{Christian Democratic Appeal (2021)/meta/color}};"|
+! style="background:{{Democrats 66/meta/color}};"|
+! style="background:{{GroenLinks/meta/color}};"|
+! style="background:{{Socialist Party (Netherlands)/meta/color}};"|
+! style="background:{{Labour Party (Netherlands)/meta/color}};"|
+! style="background:{{Christian Union (Netherlands)/meta/color}};"|
+! style="background:{{Party for the Animals/meta/color}};"|
+! style="background:{{50PLUS/meta/color}};"|
+! style="background:{{Reformed Political Party/meta/color}};"|
+! style="background:{{Denk (political party)/meta/color}};"|
+! style="background:{{Forum for Democracy (Netherlands)/meta/color}};"|
+! style="background:{{JA21/meta/color}};"|
+! style="background:{{Volt Netherlands/meta/color}};"|
+! style="background:{{BIJ1/meta/color}};"|
+! style="background:{{Farmer–Citizen Movement/meta/color}};"|
+|-
+| style="background:#E9E9E9" | [[2017 Dutch general election|2017 election]]
+| style="background:#E9E9E9" | 15 Mar 2017
+| style="background:#CED7FD;" | '''33'''
+| style="background:#E9E9E9" | '''20'''
+| style="background:#E9E9E9" | '''19'''
+| style="background:#E9E9E9" | '''19'''
+| style="background:#E9E9E9" | '''14'''
+| style="background:#E9E9E9" | '''14'''
+| style="background:#E9E9E9" | '''9'''
+| style="background:#E9E9E9" | '''5'''
+| style="background:#E9E9E9" | '''5'''
+| style="background:#E9E9E9" | '''4'''
+| style="background:#E9E9E9" | '''3'''
+| style="background:#E9E9E9" | '''3'''
+| style="background:#E9E9E9" | '''2'''
+| style="background:#E9E9E9" |
+| style="background:#E9E9E9" |
+| style="background:#E9E9E9" | '''0'''
+| style="background:#E9E9E9" |
+| style="background:#E9E9E9" | '''0'''
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;"| 13
+|- style="font-weight:bold;"
+|style="background:#E9E9E9;"|[https://www.youtube.com/watch?v=dmdBZP5N6Mc Kiesraad]
+|style="background:#F0F8FF;" | {{nowrap|17 Mar 2021}}
+|style="background:#CED7FD;" | 34
+|style="background:#F0F8FF;" | 17
+|style="background:#F0F8FF;" | 15
+|style="background:#F0F8FF;" | 24
+|style="background:#F0F8FF;" | 8
+|style="background:#F0F8FF;" | 9
+|style="background:#F0F8FF;" | 9
+|style="background:#F0F8FF;" | 5
+|style="background:#F0F8FF;" | 6
+|style="background:#F0F8FF;" | 1
+|style="background:#F0F8FF;" | 3
+|style="background:#F0F8FF;" | 3
+|style="background:#F0F8FF;" | 8
+|style="background:#F0F8FF;" | 3
+|style="background:#F0F8FF;" | 3
+|style="background:#F0F8FF;" | 1
+|style="background:#F0F8FF;" | 1
+|style="background:#F0F8FF;" | 0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |10
+|- style="font-weight:bold;"
+|-
+|[https://www.maurice.nl/peilingen/2021/03/16/prognose-tk2021-lage-opkomst-versplintering-zet-verder-door/ Peil.nl]
+|16 Mar 2021
+|style="background:#CED7FD;" | '''32'''
+|22
+|17
+|19
+|8
+|11
+|10
+|6
+|6
+|0
+|3
+|2
+|6
+|3
+|3
+|1
+|1
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |10
+|-
+| {{nowrap|[https://www.ioresearch.nl/actueel/io-slotpeiling-vvd-gaat-met-ruime-voorsprong-verkiezingen-in/ I&O Research]}}
+| 16 Mar 2021
+| style="background:#CED7FD;" |'''33'''
+| 19
+| 17
+| 19
+| 11
+| 10
+| 11
+| 6
+| 5
+| 1
+| 3
+| 2
+| 5
+| 2
+| 4
+| 1
+|1
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+|[https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/d66-stijgt-flink-vvd-verliest-fors-maar-blijft-de-grootse-in-laatste-peiling-voor-tweede-kamerverkiezingen/ Ipsos]
+|16 Mar 2021
+|style="background:#CED7FD;" | '''35'''
+|19
+|17
+|19
+|11
+|11
+|11
+|6
+|6
+|0
+|3
+|2
+|5
+|2
+|2
+|0
+|1
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |16
+|-
+|[https://www.tns-nipo.com/nieuws/persberichten/vvd-daalt-naar-36-zetels Kantar Public]
+|16 Mar 2021
+| style="background:#CED7FD;" |'''36'''
+|18
+|15
+|17
+|9
+|12
+|12
+|6
+|6
+|1
+|3
+|2
+|5
+|2
+|3
+|1
+|1
+|1{{efn|[[Splinter (political party)|Splinter]] with 1 seat|name="CO5"|group=}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |18
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-15-maart-vvd-levert-in-d66-stijgt-door-en-nieuwe-partijen-maken-kans/ I&O Research]
+| 15 Mar 2021
+| style="background:#CED7FD;" |'''33'''
+| 20
+| 16
+| 19
+| 11
+| 10
+| 11
+| 6
+| 5
+| 1
+| 3
+| 2
+| 5
+| 2
+| 4
+|1
+|1
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+|[https://www.maurice.nl/peilingen/2021/03/14/de-stemming-14-3-2021-d66-komt-sterk-op/ Peil.nl]
+|14 Mar 2021
+|style="background:#CED7FD;" | '''31'''
+|24
+|18
+|17
+|8
+|10
+|11
+|6
+|6
+|1
+|3
+|2
+|6
+|3
+|3
+|1
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |7
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/128 Ipsos]
+|9 Mar 2021
+|style="background:#CED7FD;" | '''39'''
+|21
+|17
+|14
+|12
+|10
+|11
+|6
+|6
+|2
+|3
+|2
+|4
+|2
+|1
+|
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |18
+|-
+|[https://www.tns-nipo.com/nieuws/persberichten/vvd-blijft-de-grootste,-cda-en-de-rest-volgen-op-g Kantar Public]
+|8 Mar 2021
+| style="background:#CED7FD;" |'''40'''
+|17
+|19
+|15
+|11
+|12
+|13
+|6
+|6
+|3
+|2
+|1
+|3
+|1
+|1
+|
+|
+|0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |21
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-8-maart-vvd-levert-gestaag-in-d66-groeit-langzaam/ I&O Research]
+| 8 Mar 2021
+| style="background:#CED7FD;" |'''36'''
+| 19
+| 15
+| 16
+| 11
+| 10
+| 13
+| 6
+| 5
+| 2
+| 4
+| 3
+| 4
+| 2
+| 3
+|1
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 17
+|-
+| [https://www.maurice.nl/peilingen/2021/03/07/de-stemming-7-3-2021-lage-opkomst-zal-uitslag-van-verkiezingen-beinvloeden/ Peil.nl]
+| 7 Mar 2021
+| style="background:#CED7FD;" |'''32'''
+| 24
+| 17
+| 14
+| 9
+| 9
+| 12
+| 7
+| 7
+| 2
+| 3
+| 2
+| 5
+| 3
+| 2
+|1
+|
+| 1{{efn|[[Code Orange (political party)|Code Orange]] with 1 seat|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-opnieuw-licht-verlies-voor-vvd-maar-gat-met-pvv-en-cda-aanzienlijk/ I&O Research]
+| 2 Mar 2021
+| style="background:#CED7FD;" |'''37'''
+| 19
+| 17
+| 15
+| 12
+| 9
+| 13
+| 5
+| 6
+| 2
+| 4
+| 2
+| 5
+| 2
+| 2
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 20
+|-
+|[https://www.ipsos.com/nl-nl/politieke-barometer Ipsos]
+|2 Mar 2021
+|style="background:#CED7FD;" | '''38'''
+|21
+|18
+|14
+|13
+|10
+|12
+|5
+|6
+|1
+|3
+|3
+|4
+|1
+|1
+|
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |17
+|-
+|[https://www.maurice.nl/peilingen/2021/02/28/de-stemming-van-28-2-2021komt-de-lont-nog-in-het-kruitvat/ Peil.nl]
+|28 Feb 2021
+|style="background:#CED7FD;" | '''33'''
+|24
+|19
+|13
+|9
+|9
+|12
+|7
+|7
+|2
+|3
+|2
+|4
+|3
+|1
+|1
+|
+|1{{efn|[[Code Orange (political party)|Code Orange]] with 1 seat|name="CO1"}}
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |9
+|-
+|[https://www.tns-nipo.com/nieuws/persberichten/vvd-blijft-grootste,-volt-voor-het-eerst-een-zetel Kantar Public]
+|25 Feb 2021
+|style="background:#CED7FD;" | '''40'''
+|17
+|17
+|15
+|12
+|10
+|13
+|7
+|6
+|4
+|2
+|2
+|3
+|1
+|1
+|
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |23
+|-
+|[https://maurice.nl/peilingen/2021/02/21/de-stemming-van-21-2-2021-grote-stabiliteit-ondanks-forse-verschuivingen/ Peil.nl]
+|21 Feb 2021
+|style="background:#CED7FD;" | '''34'''
+|23
+|18
+|13
+|9
+|9
+|13
+|7
+|7
+|2
+|3
+|2
+|4
+|3
+|1
+|1
+|
+|1{{efn|[[Code Orange (political party)|Code Orange]] with 1 seat|name="CO1"}}
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |11
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/126 Ipsos]
+|16 Feb 2021
+|style="background:#CED7FD;" | '''38'''
+|22
+|20
+|15
+|11
+|10
+|12
+|6
+|7
+|1
+|2
+|2
+|3
+|1
+|
+|
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |16
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-vvd-verliest-zetels-ja21-naar-3-zetels/ I&O Research]
+| 15 Feb 2021
+| style="background:#CED7FD;" |'''39'''
+| 19
+| 18
+| 14
+| 12
+| 10
+| 13
+| 5
+| 5
+| 1
+| 3
+| 3
+| 4
+| 3
+| 1
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 20
+|-
+|[https://www.maurice.nl/peilingen/2021/02/14/de-stemming-van-14-2-en-de-toenemende-kans-op-lagere-opkomst/ Peil.nl]
+|14 Feb 2021
+|style="background:#CED7FD;" | '''35'''
+|24
+|18
+|13
+|9
+|9
+|13
+|7
+|7
+|1
+|3
+|2
+|4
+|3
+|1
+|
+|
+|1{{efn|[[Code Orange (political party)|Code Orange]] with 1 seat|name="CO1"}}
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |11
+|-
+|[https://www.maurice.nl/peilingen/2021/02/07/de-stemming-van-7-2-2021-en-de-naderende-verkiezingen/ Peil.nl]
+|7 Feb 2021
+|style="background:#CED7FD;" | '''35'''
+|24
+|18
+|13
+|9
+|9
+|13
+|7
+|7
+|1
+|3
+|2
+|5
+|3
+|1
+|
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |11
+|-
+| [https://www.ioresearch.nl/wp-content/uploads/2021/02/ieno-research-volkskrant-kiezersonderzoek-tk2021-13februari-def.pdf I&O Research]
+| 2 Feb 2021
+| style="background:#CED7FD;" |'''43'''
+| 19
+| 19
+| 12
+| 11
+| 11
+| 13
+| 7
+| 5
+| 1
+| 3
+| 2
+| 3
+| 1
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 24
+|-
+|[https://www.maurice.nl/peilingen/2021/01/31/de-stemming-van-31-1-2021-en-de-rellen-rond-de-avondklok/ Peil.nl]
+|31 Jan 2021
+|style="background:#CED7FD;" | '''35'''
+|24
+|19
+|11
+|9
+|10
+|12
+|7
+|7
+|1
+|3
+|3
+|4
+|3
+|1
+|1
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |11
+|-
+| [https://www.tns-nipo.com/nieuws/persberichten/toeslagenaffaire-deert-de-vvd-niet Kantar Public]
+| 28 Jan 2021
+| style="background:#CED7FD;" | '''42'''
+| 17
+| 18
+| 14
+| 13
+| 11
+| 12
+| 5
+| 5
+| 3
+| 3
+| 3
+| 3
+| 1
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 25
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/125/ Ipsos]
+|26 Jan 2021
+|style="background:#CED7FD;" | '''40'''
+|20
+|20
+|15
+|12
+|9
+|12
+|6
+|6
+|1
+|2
+|2
+|3
+|2
+|
+|
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |20
+|-
+| [https://www.ioresearch.nl/actueel/i-potentie-voor-ploumen/ I&O Research]
+| 25 Jan 2021
+| style="background:#CED7FD;" |'''42'''
+| 19
+| 17
+| 14
+| 13
+| 11
+| 12
+| 7
+| 4
+| 1
+| 3
+| 1
+| 4
+|2
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 23
+|-
+|[https://www.maurice.nl/peilingen/2021/01/24/de-stemming-van-24-januari-2021/ Peil.nl]
+|24 Jan 2021
+|style="background:#CED7FD;" | '''35'''
+|24
+|19
+|12
+|9
+|10
+|11
+|7
+|8
+|1
+|3
+|3
+|4
+|3
+|
+|1
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |11
+|-
+|[https://www.maurice.nl/peilingen/2021/01/17/de-stemming-van-17-1-2021-na-de-aardbeving-op-het-binnenhof/ Peil.nl]
+|17 Jan 2021
+|style="background:#CED7FD;" | '''35'''
+|25
+|17
+|14
+|10
+|10
+|10
+|7
+|7
+|1
+|3
+|3
+|4
+|3
+|
+|1
+|
+|0
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |10
+|- style="background:#EFEFEF"
+| style="border-right-style:hidden;" |
+| style="border-right-style:hidden;" | 15 Jan 2021
+| colspan="19" |'''Prime Minister [[Mark Rutte]] and [[Third Rutte cabinet|his cabinet]] resign over the [[Dutch childcare benefits scandal|child welfare scandal]]'''<ref>{{Cite news|date=2021-01-15|title=Dutch government resigns over child welfare fraud scandal|language=en-US|work=CNN|url=https://www.cnn.com/2021/01/15/europe/netherlands-government-resigns-scandal-intl/index.html|access-date=2021-01-15}}</ref>
+|-
+| [https://www.tns-nipo.com/nieuws/persberichten/pvda-en-christenunie-leveren-zetels-in,-rutte-s-vv?utm_source=LinkedIn&utm_medium=social&utm_campaign=Politiekwk3 Kantar Public]
+| 15 Jan 2021
+| style="background:#CED7FD;" | '''43'''
+| 21
+| 17
+| 13
+| 12
+| 11
+| 10
+| 6
+| 4
+| 2
+| 3
+| 2
+| 4
+|2
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 22
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-vvd-blijft-de-grootste-pvda-en-pvv-leveren-in-ja21-komt-op-2-zetels/ I&O Research]
+| 11 Jan 2021
+| style="background:#CED7FD;" |'''43'''
+| 20
+| 18
+| 13
+| 13
+| 10
+| 11
+| 7
+| 4
+| 1
+| 3
+| 1
+| 4
+|2
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 23
+|-
+|[https://www.maurice.nl/peilingen/2021/01/10/de-stemming-van-10-1-2021/ Peil.nl]
+|10 Jan 2021
+| style="background:#CED7FD;" | '''33'''
+|25
+|18
+|13
+|10
+|9
+|11
+|8
+|7
+|1
+|4
+|3
+|4
+|3
+|
+|1
+|
+|0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |8
+|-
+|[https://www.maurice.nl/peilingen/2021/01/03/de-stemming-van-3-1-2021/ Peil.nl]
+|3 Jan 2021
+| style="background:#CED7FD;" | '''33'''
+|25
+|18
+|13
+|10
+|9
+|12
+|8
+|6
+|1
+|4
+|3
+|4
+|2
+|
+|1
+|
+|1{{efn|[[Code Orange (political party)|Code Orange]] with 1 seat|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" |8
+|-
+| [https://www.tns-nipo.com/nieuws/persberichten/vvd-blijft-veruit-de-grootste-partij,-ja21-krijgt?utm_source=LinkedIn&utm_medium=social&utm_campaign=politiekepeilingenwk52 Kantar Public]
+| 23 Dec 2020
+| style="background:#CED7FD;" | '''43'''
+| 19
+| 17
+| 15
+| 10
+| 9
+| 14
+| 10
+| 5
+| 1
+| 2
+| 2
+| 2
+|1
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 24
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/124 Ipsos]
+|22 Dec 2020
+| style="background:#CED7FD;" | '''42'''
+|22
+|21
+|13
+|11
+|10
+|12
+|5
+|5
+|1
+|2
+|2
+|3
+|0
+|
+|
+|
+|0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;"| 20
+|-
+| [https://www.maurice.nl/peilingen/2020/12/20/de-stemming-van-20-12-2020/ Peil.nl]
+| 20 Dec 2020
+| style="background:#CED7FD;" |'''34'''
+| 26
+| 19
+| 12
+| 10
+| 9
+| 13
+| 7
+| 6
+| 1
+| 4
+| 3
+| 4
+|1
+|
+|
+|
+| 1{{efn|[[Code Orange (political party)|Code Orange]] with 1 seat|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+|
+| 18 Dec 2020
+| colspan="19" |'''33 members of the States-Provincial, 3 MEPs and 8 members of the Senate split from [[Forum for Democracy]], forming [[JA21]]<ref>{{cite web |title=Joost Eerdmans wil Tweede Kamer in met nieuwe partij: 'JA21' |url=https://www.rijnmond.nl/nieuws/202239/Joost-Eerdmans-wil-Tweede-Kamer-in-met-nieuwe-partij-JA21 |website=Rijnmond |access-date=14 March 2021 |archive-url=https://web.archive.org/web/20201218101201/https://www.rijnmond.nl/nieuws/202239/Joost-Eerdmans-wil-Tweede-Kamer-in-met-nieuwe-partij-JA21 |archive-date=18 December 2021 |language=Dutch |date=18 December 2021 |url-status=live}}</ref>'''
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-wopke-effect-cda-groeit-naar-19-zetels/ I&O Research]
+| 15 Dec 2020
+| style="background:#CED7FD;" |'''43'''
+| 22
+| 19
+| 13
+| 12
+| 9
+| 13
+| 6
+| 4
+| 1
+| 3
+| 1
+| 4
+|0
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 21
+|-
+| [https://www.maurice.nl/peilingen/2020/12/13/de-stemming-13-12-2020/ Peil.nl]
+| 13 Dec 2020
+| style="background:#CED7FD;" |'''34'''
+| 28
+| 16
+| 12
+| 11
+| 9
+| 14
+| 7
+| 6
+| 1
+| 4
+| 3
+| 4
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.maurice.nl/peilingen/2020/12/06/de-stemming-5-12-2020/ Peil.nl]
+| 5 Dec 2020
+| style="background:#CED7FD;" |'''36'''
+| 27
+| 14
+| 13
+| 11
+| 9
+| 13
+| 7
+| 6
+| 2
+| 4
+| 3
+| 4
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.maurice.nl/peilingen/2020/11/27/de-stemming-27-11-2020/ Peil.nl]
+| 27 Nov 2020
+| style="background:#CED7FD;" |'''36'''
+| 28
+| 14
+| 13
+| 11
+| 10
+| 13
+| 7
+| 6
+| 2
+| 3
+| 3
+| 3
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/123?percentage=1 Ipsos]
+|25 Nov 2020
+| style="background:#CED7FD;" | '''39'''
+|20
+|18
+|15
+|12
+|10
+|14
+|6
+|5
+|1
+|3
+|1
+|6
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;"| 19
+|-
+| [https://www.maurice.nl/peilingen/2020/11/22/wat-zal-tk2021-ons-brengen/ Peil.nl]
+| 22 Nov 2020
+| style="background:#CED7FD;" |'''36'''
+| 24
+| 13
+| 13
+| 12
+| 10
+| 13
+| 7
+| 6
+| 1
+| 3
+| 3
+| 8
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-vvd-groeit-door-pvv-vergroot-voorsprong-op-achtervolgers/ I&O Research]
+| 19 Nov 2020
+| style="background:#CED7FD;" |'''44'''
+| 21
+| 13
+| 13
+| 13
+| 10
+| 13
+| 7
+| 4
+| 1
+| 3
+| 2
+| 6
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 23
+|-
+| [https://www.tns-nipo.com/nieuws/persberichten/partijen-weten-geen-vuist-te-maken-tegen-vv Kantar Public]
+| 16 Nov 2020
+| style="background:#CED7FD;" | '''43'''
+| 20
+| 14
+| 11
+| 13
+| 10
+| 15
+| 6
+| 4
+| 3
+| 3
+| 2
+| 5
+|
+|
+|
+|
+| 1 {{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 23
+|-
+| [https://www.maurice.nl/peilingen/2020/11/15/de-stemming-15-11-2020/ Peil.nl]
+| 15 Nov 2020
+| style="background:#CED7FD;" |'''35'''
+| 24
+| 13
+| 12
+| 13
+| 11
+| 13
+| 7
+| 5
+| 1
+| 4
+| 3
+| 8
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.maurice.nl/peilingen/2020/11/08/ook-nederland-kent-een-sterke-polarisatie-in-het-electoraat/ Peil.nl]
+| 8 Nov 2020
+| style="background:#CED7FD;" |'''35'''
+| 24
+| 13
+| 12
+| 13
+| 11
+| 13
+| 7
+| 5
+| 1
+| 4
+| 3
+| 8
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+|-
+| [https://www.maurice.nl/peilingen/2020/11/01/de-stemmming-1-11-2020/ Peil.nl]
+| 1 Nov 2020
+| style="background:#CED7FD;" |'''35'''
+| 24
+| 13
+| 12
+| 13
+| 11
+| 13
+| 7
+| 5
+| 1
+| 4
+| 3
+| 8
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/122?percentage=1 Ipsos]
+|27 Oct 2020
+| style="background:#CED7FD;" | '''42'''
+|20
+|17
+|13
+|14
+|10
+|13
+|6
+|5
+|1
+|3
+|1
+|5
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;"| 22
+|-
+| [https://www.maurice.nl/peilingen/2020/10/18/de-stemming-18-10-2020/ Peil.nl]
+| 18 Oct 2020
+| style="background:#CED7FD;" |'''33'''
+| 24
+| 13
+| 12
+| 12
+| 11
+| 14
+| 6
+| 5
+| 2
+| 4
+| 3
+| 10
+|
+|
+|
+|
+| 1{{efn|name="CO1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.ioresearch.nl/wp-content/uploads/2020/10/IO-Research-zetelpeiling-oktober.pdf I&O Research]
+| 12 Oct 2020
+| style="background:#CED7FD;" |'''42'''
+| 19
+| 14
+| 14
+| 14
+| 9
+| 13
+| 7
+| 5
+| 1
+| 3
+| 2
+| 7
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 23
+|-
+|[https://www.maurice.nl/peilingen/2020/10/11/de-stemming-11-10-2020/ Peil.nl]
+| 11 Oct 2020
+| style="background:#CED7FD;" |'''33'''
+| 23
+| 13
+| 13
+| 11
+| 12
+| 16
+| 6
+| 5
+| 2
+| 4
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+|[https://www.maurice.nl/peilingen/2020/10/04/de-stemming-4-10-2020/ Peil.nl]
+| 4 Oct 2020
+| style="background:#CED7FD;" |'''33'''
+| 23
+| 13
+| 13
+| 11
+| 12
+| 16
+| 6
+| 5
+| 2
+| 4
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://twitter.com/swsjoerdsma/status/1315991954874920961 Kantar Public]
+| 29 Sep 2020
+| style="background:#CED7FD;" | '''39'''
+| 26
+| 11
+| 14
+| 14
+| 10
+| 11
+| 8
+| 3
+| 2
+| 3
+| 3
+| 6
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/121 Ipsos]
+| 29 Sep 2020
+| style="background:#CED7FD;" |'''40'''
+| 20
+| 17
+| 13
+| 12
+| 10
+| 13
+| 6
+| 6
+| 2
+| 3
+| 1
+| 7
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 20
+|-
+|[https://www.maurice.nl/peilingen/2020/09/27/de-stemming-27-09-2020/ Peil.nl]
+| 27 Sep 2020
+| style="background:#CED7FD;" |'''33'''
+| 23
+| 13
+| 13
+| 11
+| 12
+| 16
+| 6
+| 5
+| 2
+| 4
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+|[https://www.maurice.nl/peilingen/2020/09/20/de-stemming-20-09-2020/ Peil.nl]
+| 20 Sep 2020
+| style="background:#CED7FD;" |'''33'''
+| 23
+| 13
+| 13
+| 11
+| 12
+| 16
+| 6
+| 5
+| 2
+| 4
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+|[https://www.ioresearch.nl/actueel/io-zetelpeiling-vvd-de-grootste-pvv-op-winst/ I&O Research]
+| 8 Sep 2020
+| style="background:#CED7FD;" |'''40'''
+| 19
+| 13
+| 13
+| 15
+| 10
+| 13
+| 7
+| 4
+| 2
+| 3
+| 1
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 21
+|-
+|[https://www.maurice.nl/peilingen/2020/09/06/de-stemming-6-09-2020/ Peil.nl]
+| 6 Sep 2020
+| style="background:#CED7FD;" |'''32'''
+| 24
+| 13
+| 14
+| 11
+| 12
+| 14
+| 7
+| 6
+| 1
+| 4
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/120 Ipsos]
+| 1 Sep 2020
+| style="background:#CED7FD;" |'''37'''
+| 18
+| 16
+| 15
+| 13
+| 11
+| 14
+| 7
+| 5
+| 1
+| 3
+| 1
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 19
+|-
+|[https://www.maurice.nl/peilingen/2020/08/30/de-stemming-30-8-2020/ Peil.nl]
+| 30 Aug 2020
+| style="background:#CED7FD;" |'''31'''
+| 23
+| 14
+| 14
+| 12
+| 12
+| 15
+| 6
+| 6
+| 1
+| 4
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+|[https://www.maurice.nl/peilingen/2020/08/23/de-stemming-van-23-8-2020/ Peil.nl]
+| 23 Aug 2020
+| style="background:#CED7FD;" |'''32'''
+| 21
+| 15
+| 12
+| 12
+| 12
+| 16
+| 6
+| 6
+| 1
+| 3
+| 2
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+|[https://www.maurice.nl/peilingen/2020/08/16/de-stemming-van-16-8-2020/ Peil.nl]
+| 16 Aug 2020
+| style="background:#CED7FD;" |'''35'''
+| 18
+| 16
+| 13
+| 12
+| 11
+| 16
+| 7
+| 5
+| 1
+| 3
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 17
+|-
+|[https://twitter.com/EenVandaag/status/1288068193542705153 Ipsos]
+|28 Jul 2020
+| style="background:#CED7FD;" |'''39'''
+|15
+|17
+|13
+|13
+|11
+|13
+|6
+|6
+|2
+|3
+|1
+|10
+|
+|
+|
+|
+|1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 22
+|-
+|[https://www.maurice.nl/peilingen/2020/07/26/de-stemming-van-26-7-2020/ Peil.nl]
+| 26 Jul 2020
+| style="background:#CED7FD;" |'''35'''
+| 19
+| 17
+| 14
+| 12
+| 10
+| 15
+| 7
+| 5
+| 0
+| 3
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+|[https://www.maurice.nl/peilingen/2020/07/19/de-stemming-van-19-7-2020/ Peil.nl]
+| 19 Jul 2020
+| style="background:#CED7FD;" |'''33'''
+| 18
+| 17
+| 14
+| 12
+| 10
+| 15
+| 7
+| 5
+| 1
+| 4
+| 1
+| 12
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [https://twitter.com/EuropeElects/status/1281517479613825024 Kantar Public]
+| 26 Jun 2020
+| style="background:#CED7FD;" | '''40'''
+| 15
+| 14
+| 12
+| 15
+| 12
+| 12
+| 5
+| 4
+| 2
+| 3
+| 2
+| 13
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 25
+|-
+|[https://www.ioresearch.nl/wp-content/uploads/2020/07/IO-Research-politieke-peiling-juli-DEF-1.pdf/ I&O Research]
+| 8 Jul 2020
+| style="background:#CED7FD;" |'''39'''
+| 16
+| 17
+| 14
+| 16
+| 9
+| 12
+| 7
+| 4
+| 0
+| 4
+| 0
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 22
+|-
+|[https://www.maurice.nl/peilingen/2020/07/05/de-stemming-van-5-7-2020/ Peil.nl]
+| 5 Jul 2020
+| style="background:#CED7FD;" |'''33'''
+| 18
+| 19
+| 12
+| 12
+| 10
+| 16
+| 7
+| 5
+| 1
+| 4
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+|[https://twitter.com/EenVandaag/status/1277920189909209089 Ipsos]
+|30 Jun 2020
+| style="background:#CED7FD;" |'''41'''
+|16
+|16
+|14
+|13
+|10
+|12
+|7
+|5
+|1
+|3
+|2
+|9
+|
+|
+|
+|
+|1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 25
+|-
+|[https://www.maurice.nl/peilingen/2020/06/28/de-stemming-van-28-06-2020/ Peil.nl]
+| 28 Jun 2020
+| style="background:#CED7FD;" |'''33'''
+| 18
+| 19
+| 12
+| 12
+| 10
+| 16
+| 7
+| 5
+| 1
+| 4
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+|[https://www.maurice.nl/peilingen/2020/06/21/de-stemming-van-21-6-2020/ Peil.nl]
+| 21 Jun 2020
+| style="background:#CED7FD;" |'''33'''
+| 18
+| 18
+| 10
+| 12
+| 10
+| 18
+| 7
+| 5
+| 2
+| 4
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+|[https://www.ioresearch.nl/actueel/io-zetelpeiling-gat-tussen-vvd-en-achtervolgers-wordt-groter/ I&O Research]
+| 9 Jun 2020
+| style="background:#CED7FD;" |'''45'''
+| 15
+| 14
+| 11
+| 15
+| 10
+| 13
+| 7
+| 4
+| 1
+| 4
+| 0
+| 11
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 30
+|-
+|[https://www.maurice.nl/peilingen/2020/05/31/de-stemming-van-31-mei-2020/ Peil.nl]
+| 31 May 2020
+| style="background:#CED7FD;" |'''35'''
+| 18
+| 16
+| 10
+| 12
+| 10
+| 19
+| 7
+| 5
+| 1
+| 4
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+|[https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/en-weer-stijgt-de-vvd-17-zetels-erbij-in-3-maanden/ Ipsos]
+|26 May 2020
+| style="background:#CED7FD;" |'''44'''
+|14
+|14
+|10
+|15
+|9
+|13
+|6
+|5
+|2
+|3
+|2
+|12
+|
+|
+|
+|
+|1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 29
+|-
+|[https://www.maurice.nl/peilingen/2020/05/17/de-stemming-van-17-mei-2020// Peil.nl]
+| 17 May 2020
+| style="background:#CED7FD;" |'''32'''
+| 18
+| 17
+| 10
+| 13
+| 10
+| 19
+| 8
+| 5
+| 1
+| 4
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+|[https://www.ioresearch.nl/actueel/i-economie-wordt-belangrijker/ I&O Research]
+|15 May 2020
+|style="background:#CED7FD;" |'''43'''
+|13
+|13
+|8
+|16
+|11
+|15
+|7
+|5
+|1
+|4
+|1
+|12
+|
+|
+|
+|
+|1{{efn|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 27
+|-
+|[https://www.maurice.nl/peilingen/2020/05/10/de-stemming-van-10-mei-2020/ Peil.nl]
+| 10 May 2020
+| style="background:#CED7FD;" |'''32'''
+| 18
+| 17
+| 10
+| 13
+| 10
+| 19
+| 8
+| 5
+| 1
+| 4
+| 1
+| 11
+|
+|
+|
+|
+| 1{{efn|[[Group Otten|GO]]/[[Party for the Future|PvdT]] with 1 seat|name="PvdT"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+<!-- Shades of parties leading
+|style="background:#;" |
+VVD  : #D8DBE8
+PVV  : #D8E8F3
+PvdA : #F8C1BE
+FvD  : #DBBDBD
+-->|-
+|-
+| [https://www.maurice.nl/peilingen/2020/05/03/de-stemming-van-3-mei-2020/ Peil.nl]
+| 3 May 2020
+|style="background:#CED7FD;" | '''31'''
+| 18
+| 16
+| 10
+| 12
+| 10
+| 18
+| 8
+| 5
+| 6
+| 4
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;"| 13
+|- style="background:#EFEFEF"
+| style="border-right-style:hidden;" |
+| style="border-right-style:hidden;" | 3 May 2020
+| colspan="19" |'''[[Henk Krol]] splits from [[50PLUS]], forming the Group Krol-[[Femke Merel van Kooten|van Kooten]] (Party for the Future)'''
+|-
+| [https://depeiling.eenvandaag.nl/zetelverdeling/116/ Ipsos]
+| 26 Apr 2020
+| style="background:#CED7FD;" | '''39'''
+| 14
+| 14
+| 12
+| 13
+| 8
+| 15
+| 7
+| 5
+| 8
+| 3
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 24
+|-
+| [https://www.maurice.nl/peilingen/2020/04/26/de-stemming-van-26-4-2020/ Peil.nl]
+| 26 Apr 2020
+| style="background:#CED7FD;" | '''30'''
+| 17
+| 15
+| 11
+| 11
+| 9
+| 18
+| 8
+| 5
+| 8
+| 4
+| 2
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://depeiling.eenvandaag.nl/zetelverdeling/115 Ipsos]
+| 31 Mar 2020
+| style="background:#CED7FD;" | '''35'''
+| 15
+| 14
+| 13
+| 14
+| 7
+| 15
+| 6
+| 6
+| 10
+| 3
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 20
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-vvd-wint-9-zetels-dankzij-aanpak-coronacrisis/ I&O Research]
+| 30 Mar 2020
+| style="background:#CED7FD;" | '''36'''
+| 15
+| 14
+| 9
+| 16
+| 9
+| 14
+| 7
+| 6
+| 7
+| 4
+| 1
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 21
+|-
+| [https://www.ioresearch.nl/wp-content/uploads/2020/03/IO-Research-zetelpeiling-maart-2020-.pdf I&O Research]
+| 13 Mar 2020
+| style="background:#CED7FD;" | '''27'''
+| 17
+| 14
+| 10
+| 17
+| 9
+| 14
+| 6
+| 6
+| 10
+| 4
+| 1
+| 15
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+|[https://www.maurice.nl/peilingen/2020/03/07/de-stemming-van-8-maart-2020/ Peil.nl]
+|8 Mar 2020
+| style="background:#CED7FD;" | '''20'''
+|19
+|13
+|14
+|12
+|10
+|17
+|6
+|6
+|10
+|4
+|3
+|16
+|
+|
+|
+|
+|0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 1
+|-
+|[https://www.maurice.nl/peilingen/2020/03/01/de-stemming-van-1-maart-2020/ Peil.nl]
+|1 Mar 2020
+| style="background:#CED7FD;" | '''20'''
+|19
+|13
+|14
+|12
+|10
+|17
+|6
+|6
+|10
+|4
+|3
+|16
+|
+|
+|
+|
+|0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 1
+|-
+| [https://depeiling.eenvandaag.nl/zetelverdeling/114/ Ipsos]
+| 25 Feb 2020
+| style="background:#CED7FD;" | '''27'''
+| 18
+| 14
+| 13
+| 15
+| 7
+| 14
+| 6
+| 6
+| 10
+| 3
+| 2
+| 15
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+|[https://www.maurice.nl/peilingen/2020/02/23/de-stemming-van-23-februari-2020/ Peil.nl]
+|23 Feb 2020
+| style="background:#CED7FD;" | '''20'''
+|19
+|13
+|14
+|12
+|10
+|17
+|6
+|6
+|10
+|4
+|3
+|16
+|
+|
+|
+|
+|0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 1
+|-
+|[https://www.maurice.nl/peilingen/2020/02/15/de-stemming-van-16-februari-2020/ Peil.nl]
+|16 Feb 2020
+| style="background:#CED7FD;" | '''20'''
+|19
+|14
+|13
+|12
+|9
+|18
+|6
+|6
+|9
+|4
+|3
+|16
+|
+|
+|
+|
+|1
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 1
+|-
+|[https://www.maurice.nl/peilingen/2020/02/08/de-stemming-van-9-februari-2020/ Peil.nl]
+|9 Feb 2020
+| style="background:#CED7FD;" | '''20'''
+|19
+|14
+|13
+|12
+|9
+|18
+|6
+|6
+|9
+|4
+|3
+|16
+|
+|
+|
+|
+|1
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 1
+|-
+|[https://www.maurice.nl/peilingen/2020/02/02/de-stemming-van-2-februari-2020/ Peil.nl]
+|2 Feb 2020
+| style="background:#CED7FD;" | '''19'''
+| style="background:#CDE2FE"|'''19'''
+|14
+|13
+|12
+|9
+|18
+|6
+|6
+|9
+|4
+|3
+|17
+|
+|
+|
+|
+|1
+|Tie
+|-
+| [http://depeiling.eenvandaag.nl/zetelverdeling/113/ Ipsos]
+| 28 Jan 2020
+| style="background:#CED7FD;" | '''28'''
+| 16
+| 14
+| 13
+| 15
+| 8
+| 14
+| 6
+| 6
+| 9
+| 3
+| 2
+| 16
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://web.archive.org/web/20200126125055/https://www.maurice.nl/2020/01/26/de-stemming-van-26-1-2020/ Peil.nl]
+| 26 Jan 2020
+| style="background:#CED7FD;" | '''19'''
+| style="background:#CDE2FE"| '''19'''
+| 14
+| 13
+| 12
+| 9
+| 18
+| 6
+| 6
+| 9
+| 4
+| 3
+| 17
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| Tie
+|-
+| [https://www.maurice.nl/2020/01/18/de-stemming-van-19-januari-2020/ Peil.nl]
+| 19 Jan 2020
+| style="background:#CED7FD;" | '''19'''
+| style="background:#CDE2FE"|'''19'''
+| 14
+| 13
+| 12
+| 9
+| 18
+| 6
+| 6
+| 9
+| 4
+| 3
+| 17
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| Tie
+|-
+| [https://www.ioresearch.nl/wp-content/uploads/2020/01/IO-Research-ZETELPEILING-januari-2020-1.pdf I&O Research]
+| 17 Jan 2020
+| style="background:#CED7FD;" | '''27'''
+| 16
+| 15
+| 11
+| 18
+| 9
+| 13
+| 9
+| 5
+| 8
+| 4
+| 1
+| 14
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.maurice.nl/2020/01/09/peiling-12-januari-2020/ Peil.nl]
+| 12 Jan 2020
+| style="background:#CED7FD;" | '''19'''
+| style="background:#CDE2FE"|'''19'''
+| 14
+| 13
+| 12
+| 9
+| 18
+| 6
+| 6
+| 9
+| 4
+| 3
+| 17
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| Tie
+|-
+| [https://depeiling.eenvandaag.nl/zetelverdeling/112 Ipsos]
+| 24 Dec 2019
+| style="background:#CED7FD;" | '''27'''
+| 17
+| 17
+| 11
+| 16
+| 8
+| 15
+| 6
+| 5
+| 9
+| 3
+| 2
+| 14
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-12-22+sdr.pdf Peil.nl]
+| 22 Dec 2019
+| style="background:#CED7FD;" | '''19'''
+| style="background:#CDE2FE"| '''19'''
+| 15
+| 12
+| 12
+| 9
+| style="background:#FBD0D2"| '''19'''
+| 7
+| 6
+| 7
+| 3
+| 3
+| 18
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| Tie
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-12-16+hdf.pdf Peil.nl]
+| 15 Dec 2019
+| style="background:#CED7FD;" | '''19'''
+| style="background:#CDE2FE"| '''19'''
+| 15
+| 12
+| 12
+| 9
+| style="background:#FBD0D2"| '''19'''
+| 7
+| 6
+| 7
+| 3
+| 3
+| 18
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| Tie
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-12-08+hrs.pdf Peil.nl]
+| 8 Dec 2019
+| style="background:#CED7FD;" | '''19'''
+| style="background:#CDE2FE"|'''19'''
+| 16
+| 12
+| 13
+| 9
+| style="background:#FBD0D2"|'''19'''
+| 7
+| 5
+| 7
+| 2
+| 3
+| 18
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| Tie
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-12-01+dfg.pdf Peil.nl]
+| 1 Dec 2019
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 15
+| 12
+| 13
+| 9
+| 19
+| 7
+| 5
+| 7
+| 2
+| 3
+| 17
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 3
+|-
+| [https://depeiling.eenvandaag.nl/zetelverdeling/111 Ipsos]
+| 26 Nov 2019
+| style="background:#CED7FD;" | '''27'''
+| 18
+| 18
+| 12
+| 16
+| 8
+| 13
+| 5
+| 6
+| 8
+| 3
+| 2
+| 14
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-11-24+hgf.pdf Peil.nl]
+| 24 Nov 2019
+| style="background:#CED7FD;" | '''24'''
+| 18
+| 14
+| 13
+| 13
+| 8
+| 20
+| 6
+| 4
+| 7
+| 2
+| 3
+| 17
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-11-17+dsf.pdf Peil.nl]
+| 17 Nov 2019
+| style="background:#CED7FD;" | '''24'''
+| 18
+| 14
+| 13
+| 13
+| 8
+| 20
+| 6
+| 4
+| 7
+| 2
+| 3
+| 17
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.ioresearch.nl/actueel/io-zetelpeiling-regeringspartijen-verantwoordelijk-voor-stikstofcrisis/ I&O Research]
+| 15 Nov 2019
+| style="background:#CED7FD;" | '''26'''
+| 18
+| 15
+| 11
+| 18
+| 10
+| 15
+| 7
+| 5
+| 6
+| 4
+| 1
+| 14
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [http://origin.tns-global.com/Multimedia/NL/politiekepeilingen/#/pages/peilingen Kantar Public]
+| 15 Nov 2019
+| style="background:#CED7FD;" | '''30'''
+| 18
+| 12
+| 10
+| 17
+| 9
+| 16
+| 8
+| 7
+| 6
+| 4
+| 1
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-11-10+rth.pdf Peil.nl]
+| 10 Nov 2019
+| style="background:#CED7FD;" | '''26'''
+| 18
+| 14
+| 13
+| 12
+| 9
+| 20
+| 6
+| 4
+| 7
+| 2
+| 3
+| 15
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+|[https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-11-3+dsf.pdf Peil.nl]
+| 3 Nov 2019
+| style="background:#CED7FD;" |'''27'''
+| 17
+| 15
+| 13
+| 12
+| 9
+| 20
+| 6
+| 4
+| 7
+| 2
+| 3
+| 14
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+|[https://depeiling.eenvandaag.nl/zetelverdeling/110 Ipsos]
+| 29 Oct 2019
+| style="background:#CED7FD;" |'''34'''
+| 16
+| 15
+| 14
+| 14
+| 8
+| 15
+| 7
+| 4
+| 6
+| 3
+| 2
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 18
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-10-27+can.pdf Peil.nl]
+| 27 Oct 2019
+| style="background:#CED7FD;" | '''27'''
+| 17
+| 15
+| 13
+| 12
+| 9
+| 20
+| 6
+| 4
+| 7
+| 2
+| 3
+| 14
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-10-20+swg.pdf Peil.nl]
+| 20 Oct 2019
+| style="background:#CED7FD;" | '''27'''
+| 17
+| 15
+| 13
+| 12
+| 9
+| 20
+| 6
+| 4
+| 7
+| 2
+| 3
+| 14
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20ZETELPEILING%2018%20oktober%202019_def2.pdf I&O Research]
+| 18 Oct 2019
+| style="background:#CED7FD;" | '''30'''
+| 15
+| 16
+| 11
+| 16
+| 7
+| 16
+| 8
+| 6
+| 7
+| 4
+| 2
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [http://origin.tns-global.com/Multimedia/NL/politiekepeilingen/#/pages/peilingen Kantar Public]
+| 15 Oct 2019
+| style="background:#CED7FD;" | '''31'''
+| 15
+| 12
+| 11
+| 16
+| 7
+| 16
+| 8
+| 6
+| 9
+| 3
+| 3
+| 13
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-10-13+hjr.pdf Peil.nl]
+| 13 Oct 2019
+| style="background:#CED7FD;" | '''28'''
+| 15
+| 16
+| 12
+| 12
+| 9
+| 20
+| 6
+| 7
+| 6
+| 2
+| 3
+| 13
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-10-06+glk.pdf Peil.nl]
+| 6 Oct 2019
+| style="background:#CED7FD;" | '''28'''
+| 15
+| 16
+| 12
+| 12
+| 9
+| 20
+| 6
+| 7
+| 6
+| 2
+| 3
+| 13
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-09-29+ggs.pdf Peil.nl]
+| 29 Sep 2019
+| style="background:#CED7FD;" | '''28'''
+| 15
+| 16
+| 11
+| 13
+| 9
+| 20
+| 6
+| 7
+| 6
+| 2
+| 3
+| 13
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [http://depeiling.eenvandaag.nl/zetelverdeling/109 Ipsos]
+| 24 Sep 2019
+| style="background:#CED7FD;" | '''33'''
+| 17
+| 15
+| 15
+| 14
+| 9
+| 13
+| 7
+| 6
+| 5
+| 3
+| 2
+| 11
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-09-22+jkr.pdf Peil.nl]
+| 22 Sep 2019
+| style="background:#CED7FD;" | '''28'''
+| 15
+| 16
+| 11
+| 13
+| 9
+| 20
+| 6
+| 7
+| 6
+| 2
+| 3
+| 13
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [http://origin.tns-global.com/Multimedia/NL/politiekepeilingen/#/pages/peilingen Kantar Public]
+| 15 Sep 2019
+| style="background:#CED7FD;" | '''26'''
+| 15
+| 14
+| 12
+| 18
+| 10
+| 13
+| 8
+| 7
+| 9
+| 4
+| 1
+| 13
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-09-15+dgt.pdf Peil.nl]
+| 15 Sep 2019
+| style="background:#CED7FD;" | '''28'''
+| 14
+| 16
+| 11
+| 14
+| 9
+| 19
+| 6
+| 7
+| 6
+| 2
+| 3
+| 14
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-09-08+klr.pdf Peil.nl]
+| 8 Sep 2019
+| style="background:#CED7FD;" | '''28'''
+| 14
+| 16
+| 11
+| 14
+| 9
+| 19
+| 6
+| 7
+| 6
+| 2
+| 3
+| 14
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20ZETELPEILING%20plus%20FORUM%206%20september%202019%20.pdf I&O Research]
+| 4 Sep 2019
+| style="background:#CED7FD;" | '''32'''
+| 13
+| 15
+| 11
+| 17
+| 9
+| 16
+| 8
+| 6
+| 7
+| 4
+| 1
+| 11
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [https://www.ipsos.com/nl-nl/politieke-barometer Ipsos]
+| 4 Sep 2019
+| style="background:#CED7FD;" | '''33'''
+| 15
+| 16
+| 13
+| 14
+| 9
+| 14
+| 7
+| 8
+| 5
+| 3
+| 2
+| 11
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 17
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-09-01+dgs.pdf Peil.nl]
+| 1 Sep 2019
+| style="background:#CED7FD;" | '''27'''
+| 13
+| 16
+| 11
+| 15
+| 8
+| 19
+| 6
+| 7
+| 6
+| 2
+| 3
+| 16
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-08-25+fga.pdf Peil.nl]
+| 25 Aug 2019
+| style="background:#CED7FD;" | '''27'''
+| 13
+| 16
+| 11
+| 15
+| 8
+| 19
+| 6
+| 7
+| 6
+| 2
+| 3
+| 16
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-08-04+las.pdf Peil.nl]
+| 4 Aug 2019
+| style="background:#CED7FD;" | '''27'''
+| 11
+| 16
+| 10
+| 15
+| 7
+| 19
+| 6
+| 7
+| 5
+| 2
+| 3
+| 20
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.ipsos.com/nl-nl/politieke-barometer Ipsos]
+| 31 Jul 2019
+| style="background:#CED7FD;" |'''32'''
+| 11
+| 15
+| 13
+| 16
+| 8
+| 14
+| 7
+| 6
+| 6
+| 3
+| 1
+| 18
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [https://europeelects.eu/european-union/netherlands/ Peil.nl]
+| 29 Jul 2019
+| style="background:#CED7FD;" |'''27'''
+| 11
+| 16
+| 10
+| 15
+| 7
+| 19
+| 6
+| 7
+| 5
+| 2
+| 3
+| 20
+|
+|
+|
+|
+| 2
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20%20juli%202019%2C%20Klimaat%2C%20Democratie%20en%20Pensioen.pdf I&O Research]
+| 10 Jul 2019
+| style="background:#CED7FD;" | '''29'''
+| 9
+| 15
+| 10
+| 19
+| 8
+| 15
+| 6
+| 6
+| 5
+| 3
+| 2
+| 23
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-07-07+wds.pdf Peil.nl]
+| 7 Jul 2019
+| style="background:#CED7FD;" | '''26'''
+| 9
+| 15
+| 9
+| 15
+| 7
+| 19
+| 7
+| 8
+| 5
+| 2
+| 4
+| 22
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-07-01+gla.pdf Peil.nl]
+| 1 Jul 2019
+| style="background:#CED7FD;" | '''26'''
+| 9
+| 15
+| 10
+| 15
+| 7
+| 19
+| 7
+| 7
+| 5
+| 2
+| 4
+| 22
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [http://depeiling.eenvandaag.nl/?peilingId=106&tileId=1 Ipsos]
+| 24 Jun 2019
+| style="background:#CED7FD;" | '''31'''
+| 11
+| 13
+| 11
+| 17
+| 9
+| 14
+| 6
+| 6
+| 6
+| 3
+| 2
+| 21
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-06-23+frd.pdf Peil.nl]
+| 23 Jun 2019
+| style="background:#CED7FD;" | '''27'''
+| 9
+| 15
+| 10
+| 14
+| 7
+| 19
+| 7
+| 8
+| 5
+| 2
+| 4
+| 21
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-06-16+fsa.pdf Peil.nl]
+| 16 Jun 2019
+| style="background:#CED7FD;" | '''27'''
+| 9
+| 15
+| 10
+| 14
+| 7
+| 19
+| 7
+| 8
+| 5
+| 2
+| 4
+| 21
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-06-09+zdf.pdf Peil.nl]
+| 9 Jun 2019
+| style="background:#CED7FD;" | '''27'''
+| 8
+| 15
+| 10
+| 14
+| 8
+| 18
+| 7
+| 8
+| 5
+| 2
+| 4
+| 22
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-06-02+bri.pdf Peil.nl]
+| 2 Jun 2019
+| style="background:#CED7FD;" | '''27'''
+| 8
+| 15
+| 10
+| 14
+| 8
+| 18
+| 7
+| 8
+| 5
+| 2
+| 4
+| 22
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-05-26+epe.pdf Peil.nl]
+| 26 May 2019
+| style="background:#CED7FD;" | '''25'''
+| 8
+| 15
+| 10
+| 16
+| 8
+| 16
+| 7
+| 8
+| 5
+| 2
+| 4
+| 24
+|
+|
+|
+|
+| 2{{efn|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 1
+|-
+| [http://depeiling.eenvandaag.nl/?peilingId=105&tileId=1 Ipsos]
+| 21 May 2019
+| style="background:#CED7FD;" | '''29'''
+| 12
+| 15
+| 13
+| 16
+| 9
+| 11
+| 6
+| 5
+| 6
+| 3
+| 3
+| 22
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-05-19+epv.pdf Peil.nl]
+| 19 May 2019
+| 25
+| 8
+| 15
+| 11
+| 15
+| 8
+| 15
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" |'''27'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-2" | 2
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20TK%20en%20EP%20mei%202019%20v2.pdf I&O Research]
+| 14 May 2019
+| style="background:#CED7FD;" |'''26'''
+| 13
+| 14
+| 10
+| 18
+| 10
+| 12
+| 7
+| 6
+| 5
+| 4
+| 3
+| 22
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-05-12+rdf.pdf Peil.nl]
+| 12 May 2019
+| 24
+| 9
+| 15
+| 11
+| 16
+| 8
+| 15
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" |'''26'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-2" | 2
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-05-05+bev.pdf Peil.nl]
+| 5 May 2019
+| 23
+| 9
+| 14
+| 11
+| 17
+| 9
+| 14
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" | '''27'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-4" | 4
+|-
+| [https://www.ipsos.com/nl-nl/politieke-barometer Ipsos]
+| 29 Apr 2019
+| style="background:#CED7FD;" |'''27'''
+| 14
+| 14
+| 11
+| 14
+| 10
+| 10
+| 6
+| 8
+| 5
+| 3
+| 3
+| 25
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 2
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-04-28+grf.pdf Peil.nl]
+| 28 Apr 2019
+| 22
+| 9
+| 15
+| 11
+| 18
+| 9
+| 14
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" |'''26'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-4" | 4
+|-
+| [http://www.kantar.com/public/nl/news-events/news/zetelpeiling:-forum-voor-democratie-ook-de-grootste-in-tweede-kamer Kantar Public]
+| 25 Apr 2019
+| 27
+| 11
+| 11
+| 10
+| 19
+| 8
+| 12
+| 8
+| 6
+| 6
+| 2
+| 2
+| style="background:#DBBDBD;" | '''28'''
+|
+|
+|
+|
+| –
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-1" | 1
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Peiling%20april%202019_1.pdf I&O Research]
+| 24 Apr 2019
+| style="background:#CED7FD;" |'''27'''
+| 11
+| 12
+| 13
+| 20
+| 10
+| 11
+| 5
+| 5
+| 6
+| 4
+| 2
+| 24
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 3
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=Paasrapportage+met+3D-grafieken.pdf Peil.nl]<!-- https://twitter.com/mauricedehond/status/1121690354137194501 -->
+| 21 Apr 2019
+| 22
+| 8
+| 15
+| 11
+| 18
+| 9
+| 13
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" |'''28'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-6" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-04-14.pdf Peil.nl]
+| 14 Apr 2019
+| 22
+| 8
+| 15
+| 11
+| 18
+| 9
+| 13
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" | '''28'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-6" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-04-07+djf.pdf Peil.nl]
+| 7 Apr 2019
+| 22
+| 8
+| 15
+| 11
+| 18
+| 9
+| 13
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" | '''28'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-6" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-03-31+rfa.pdf Peil.nl]
+| 31 Mar 2019
+| 23
+| 9
+| 14
+| 11
+| 18
+| 9
+| 13
+| 7
+| 8
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" | '''27'''
+|
+|
+|
+|
+| 1{{efn|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-4" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-03-24.pdf Peil.nl]
+| 24 Mar 2019
+| 23
+| 10
+| 14
+| 12
+| 18
+| 9
+| 13
+| 7
+| 7
+| 4
+| 2
+| 4
+| style="background:#DBBDBD;" | '''26'''
+|
+|
+|
+|
+| 1{{efn|Allied local parties (Code Orange and [[Independent Senate Group|OSF]]) with 1 seat|name="lokale1"}}
+| style="background:{{Forum for Democracy (Netherlands)/meta/color}};color:#FFFFFF;" data-sort-value="-3" | 3
+|-
+| [https://www.ipsos.com/nl-nl/politieke-barometer Ipsos]
+| 21 Mar 2019
+| style="background:#CED7FD;" |'''26'''
+| 19
+| 14
+| 13
+| 15
+| 10
+| 9
+| 7
+| 7
+| 7
+| 3
+| 3
+| 17
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Peiling%20april%202019_1.pdf I&O Research]
+| 18 Mar 2019
+| style="background:#CED7FD;" | '''23'''
+| 15
+| 15
+| 11
+| 19
+| 12
+| 11
+| 7
+| 7
+| 5
+| 3
+| 2
+| 20
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 3
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-03-16+hgd.pdf Peil.nl]
+| 16 Mar 2019
+| style="background:#CED7FD;" | '''22'''
+| 15
+| 10
+| 11
+| 17
+| 12
+| 12
+| 7
+| 7
+| 5
+| 3
+| 7
+| 20
+|
+|
+|
+|
+| 2{{efn|Allied local parties (Code Orange and [[Independent Senate Group|OSF]]) with 2 seats|name="lokale2"}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 2
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Peiling%20maart%202019.pdf I&O Research]
+| 12 Mar 2019
+| style="background:#CED7FD;" | '''24'''
+| 15
+| 15
+| 11
+| 18
+| 15
+| 10
+| 8
+| 5
+| 5
+| 3
+| 3
+| 18
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-03-10+ddf.pdf Peil.nl]
+| 10 Mar 2019
+| style="background:#CED7FD;" | '''23'''
+| 15
+| 9
+| 9
+| 18
+| 11
+| 13
+| 7
+| 8
+| 5
+| 3
+| 7
+| 19
+|
+|
+|
+|
+| 3{{efn|Allied local parties (Code Orange and [[Independent Senate Group|OSF]]) with 3 seats}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-03-03+mar.pdf Peil.nl]
+| 3 Mar 2019
+| style="background:#CED7FD;" | '''23'''
+| 17
+| 10
+| 9
+| 18
+| 12
+| 14
+| 7
+| 8
+| 5
+| 3
+| 7
+| 17
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Peiling%20februari%202019_def.pdf I&O Research]
+| 26 Feb 2019
+| style="background:#CED7FD;" | '''23'''
+| 17
+| 12
+| 11
+| 20
+| 14
+| 10
+| 7
+| 7
+| 6
+| 4
+| 3
+| 16
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 3
+|-
+| [http://depeiling.eenvandaag.nl/zetelverdeling/101 Ipsos]
+| 24 Feb 2019
+| style="background:#CED7FD;" | '''28'''
+| 19
+| 13
+| 14
+| 17
+| 11
+| 9
+| 7
+| 6
+| 6
+| 3
+| 3
+| 14
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-02-24+gfs.pdf Peil.nl]
+| 24 Feb 2019
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 9
+| 9
+| 18
+| 12
+| 14
+| 7
+| 8
+| 5
+| 3
+| 7
+| 18
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-02-17+wdf.pdf Peil.nl]
+| 17 Feb 2019
+| style="background:#CED7FD;" | '''23'''
+| 18
+| 10
+| 10
+| 17
+| 12
+| 14
+| 7
+| 7
+| 5
+| 3
+| 7
+| 17
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [http://origin.tns-global.com/Multimedia/NL/politiekepeilingen/#/pages/peilingen Kantar Public]
+| 12 Feb 2019
+| style="background:#CED7FD;" | '''28'''
+| 18
+| 14
+| 14
+| 17
+| 13
+| 9
+| 8
+| 4
+| 6
+| 3
+| 2
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-02-10+rgh.pdf Peil.nl]
+| 10 Feb 2019
+| style="background:#CED7FD;" | '''23'''
+| 18
+| 10
+| 10
+| 17
+| 12
+| 14
+| 7
+| 7
+| 5
+| 3
+| 7
+| 17
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-02-03+fws.pdf Peil.nl]
+| 3 Feb 2019
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 10
+| 10
+| 17
+| 13
+| 15
+| 6
+| 8
+| 4
+| 3
+| 7
+| 17
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/steun-voor-klimaatdoelen-brokkelt-af/ Ipsos]
+| 28 Jan 2019
+| style="background:#CED7FD;" | '''27'''
+| 20
+| 14
+| 13
+| 18
+| 12
+| 9
+| 7
+| 7
+| 5
+| 3
+| 3
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-01-27+dsa.pdf Peil.nl]
+| 27 Jan 2019
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 10
+| 10
+| 17
+| 13
+| 15
+| 6
+| 8
+| 4
+| 3
+| 7
+| 17
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Peiling%20januari%202019.pdf I&O Research]
+| 22 Jan 2019
+| style="background:#CED7FD;" | '''25'''
+| 18
+| 15
+| 11
+| 18
+| 13
+| 11
+| 7
+| 6
+| 4
+| 4
+| 2
+| 16
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-01-20+srw.pdf Peil.nl]
+| 20 Jan 2019
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 10
+| 10
+| 17
+| 13
+| 15
+| 6
+| 8
+| 4
+| 3
+| 7
+| 17
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2019-01-13+gdr.pdf Peil.nl]
+| 13 Jan 2019
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 11
+| 10
+| 17
+| 12
+| 15
+| 7
+| 8
+| 4
+| 3
+| 7
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [http://origin.tns-global.com/Multimedia/NL/politiekepeilingen/#/pages/peilingen Kantar Public]
+| 12 Jan 2019
+| style="background:#CED7FD;" | '''28'''
+| 17
+| 16
+| 15
+| 19
+| 12
+| 10
+| 7
+| 5
+| 4
+| 3
+| 3
+| 12
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://depeiling.eenvandaag.nl/?peilingId=99&tileId=1 Ipsos]
+| 17 Dec 2018
+| style="background:#CED7FD;" | '''29'''
+| 19
+| 15
+| 14
+| 16
+| 12
+| 9
+| 7
+| 8
+| 5
+| 3
+| 3
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-12-16+dfg.pdf Peil.nl]
+| 16 Dec 2018
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 11
+| 10
+| 17
+| 12
+| 15
+| 7
+| 8
+| 4
+| 3
+| 7
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-forum-voor-democratie-stijgende-lij/ Kantar Public]
+| 11 Dec 2018
+| style="background:#CED7FD;" | '''30'''
+| 20
+| 13
+| 12
+| 16
+| 15
+| 9
+| 9
+| 5
+| 3
+| 3
+| 2
+| 13
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-12-09+rts.pdf Peil.nl]
+| 9 Dec 2018
+| style="background:#CED7FD;" | '''22'''
+| 18
+| 11
+| 10
+| 17
+| 12
+| 15
+| 7
+| 8
+| 4
+| 3
+| 7
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-12-02+erd.pdf Peil.nl]
+| 2 Dec 2018
+| style="background:#CED7FD;" | '''23'''
+| 19
+| 11
+| 10
+| 17
+| 12
+| 15
+| 7
+| 8
+| 4
+| 3
+| 7
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Peiling%20november%202018_def.pdf I&O Research]
+| 27 Nov 2018
+| style="background:#CED7FD;" | '''27'''
+| 18
+| 15
+| 12
+| 19
+| 15
+| 10
+| 6
+| 5
+| 4
+| 4
+| 3
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/achterban-eens-met-opstappen-vakbonden-bij-pensioenoverleg/ Ipsos]
+| 26 Nov 2018
+| style="background:#CED7FD;" | '''29'''
+| 21
+| 15
+| 12
+| 17
+| 12
+| 10
+| 6
+| 7
+| 5
+| 3
+| 3
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-11-25+fsd.pdf Peil.nl]
+| 25 Nov 2018
+| style="background:#CED7FD;" | '''23'''
+| 20
+| 11
+| 10
+| 17
+| 13
+| 15
+| 6
+| 8
+| 5
+| 3
+| 7
+| 12
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 3
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-11-18+ksa.pdf Peil.nl]
+| 18 Nov 2018
+| style="background:#CED7FD;" | '''24'''
+| 19
+| 11
+| 10
+| 16
+| 14
+| 15
+| 5
+| 8
+| 5
+| 3
+| 7
+| 13
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-11-11+dns.pdf Peil.nl]
+| 11 Nov 2018
+| style="background:#CED7FD;" | '''24'''
+| 19
+| 11
+| 10
+| 16
+| 14
+| 15
+| 5
+| 8
+| 5
+| 3
+| 7
+| 13
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-11-4+rdg.pdf Peil.nl]
+| 4 Nov 2018
+| style="background:#CED7FD;" | '''24'''
+| 19
+| 11
+| 10
+| 16
+| 14
+| 15
+| 5
+| 8
+| 5
+| 3
+| 7
+| 13
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/nieuwe-partijleider-jetten-levert-d66-in-peiling-nog-geen-zetels-op/ Ipsos]
+| 29 Oct 2018
+| style="background:#CED7FD;" | '''31'''
+| 22
+| 15
+| 13
+| 16
+| 11
+| 10
+| 6
+| 6
+| 6
+| 3
+| 2
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-11-4+rdg.pdf Peil.nl]
+| 28 Oct 2018
+| style="background:#CED7FD;" | '''24'''
+| 18
+| 11
+| 9
+| 18
+| 13
+| 14
+| 6
+| 8
+| 5
+| 3
+| 7
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-10-21+fdr.pdf Peil.nl]
+| 21 Oct 2018
+| style="background:#CED7FD;" | '''24'''
+| 18
+| 11
+| 9
+| 18
+| 13
+| 14
+| 6
+| 8
+| 5
+| 3
+| 7
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-10-14+ggr.pdf Peil.nl]
+| 14 Oct 2018
+| style="background:#CED7FD;" | '''24'''
+| 18
+| 11
+| 9
+| 18
+| 13
+| 14
+| 6
+| 8
+| 5
+| 3
+| 7
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-10-07+rjf.pdf Peil.nl]
+| 7 Oct 2018
+| style="background:#CED7FD;" | '''24'''
+| 18
+| 11
+| 9
+| 18
+| 13
+| 14
+| 6
+| 8
+| 5
+| 3
+| 7
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-09-30+fes.pdf Peil.nl]
+| 30 Sep 2018
+| style="background:#CED7FD;" | '''26'''
+| 18
+| 11
+| 9
+| 18
+| 13
+| 13
+| 6
+| 8
+| 5
+| 3
+| 7
+| 13
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/pvv-loopt-uit-na-prinsjesdag-vvd-blijft-grootste/ Ipsos]
+| 23 Sep 2018
+| style="background:#CED7FD;" | '''31'''
+| 20
+| 16
+| 13
+| 17
+| 12
+| 8
+| 6
+| 8
+| 5
+| 3
+| 2
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-09-23+dsf.pdf Peil.nl]
+| 23 Sep 2018
+| style="background:#CED7FD;" | '''26'''
+| 17
+| 11
+| 10
+| 18
+| 12
+| 13
+| 6
+| 8
+| 5
+| 3
+| 7
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-coalitie-op-fors-verlies/ Kantar Public]
+| 16 Sep 2018
+| style="background:#CED7FD;" | '''27'''
+| 20
+| 14
+| 12
+| 19
+| 14
+| 10
+| 9
+| 6
+| 5
+| 3
+| 2
+| 9
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-09-16+daw.pdf Peil.nl]
+| 16 Sep 2018
+| style="background:#CED7FD;" | '''26'''
+| 15
+| 11
+| 10
+| 18
+| 13
+| 12
+| 6
+| 8
+| 5
+| 3
+| 7
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Prinsjesdagpeiling%202018_DEF_1.pdf I&O Research]
+| 11 Sep 2018
+| style="background:#CED7FD;" | '''26'''
+| 15
+| 15
+| 13
+| 19
+| 14
+| 11
+| 7
+| 6
+| 5
+| 4
+| 3
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-09-09+sdf.pdf Peil.nl]
+| 9 Sep 2018
+| style="background:#CED7FD;" | '''27'''
+| 16
+| 11
+| 11
+| 17
+| 12
+| 12
+| 6
+| 8
+| 5
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/coalitiekiezers-zien-weinig-terug-in-ruil-voor-afschaffen-dividendbelasting/ Ipsos]
+| 3 Sep 2018
+| style="background:#CED7FD;" | '''32'''
+| 18
+| 17
+| 13
+| 16
+| 14
+| 8
+| 6
+| 7
+| 5
+| 3
+| 2
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-09-02+drs.pdf Peil.nl]
+| 2 Sep 2018
+| style="background:#CED7FD;" | '''29'''
+| 16
+| 11
+| 12
+| 16
+| 12
+| 11
+| 6
+| 7
+| 5
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-08-26+als.pdf Peil.nl]
+| 26 Aug 2018
+| style="background:#CED7FD;" | '''29'''
+| 16
+| 11
+| 12
+| 16
+| 12
+| 11
+| 6
+| 7
+| 5
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-08-19+bdb.pdf Peil.nl]
+| 19 Aug 2018
+| style="background:#CED7FD;" | '''29'''
+| 15
+| 12
+| 13
+| 16
+| 12
+| 11
+| 6
+| 7
+| 5
+| 3
+| 6
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/meerderheid-kiezers-keurt-uitspraken-blok-af/ Ipsos]
+| 30 Jul 2018
+| style="background:#CED7FD;" | '''33'''
+| 18
+| 16
+| 14
+| 15
+| 12
+| 7
+| 6
+| 8
+| 6
+| 3
+| 3
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-07-08+rts.pdf Peil.nl]
+| 8 Jul 2018
+| style="background:#CED7FD;" | '''30'''
+| 15
+| 12
+| 13
+| 17
+| 11
+| 10
+| 6
+| 7
+| 5
+| 3
+| 6
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-07-01+gfd.pdf Peil.nl]
+| 1 Jul 2018
+| style="background:#CED7FD;" | '''28'''
+| 15
+| 12
+| 13
+| 17
+| 10
+| 11
+| 6
+| 7
+| 6
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Prinsjesdagpeiling%202018_DEF_1.pdf I&O Research]
+| 29 Jun 2018
+| style="background:#CED7FD;" | '''27'''
+| 16
+| 16
+| 14
+| 19
+| 11
+| 11
+| 7
+| 6
+| 6
+| 3
+| 3
+| 11
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/groenlinks-leden-voelen-niets-voor-gezamenlijke-linkse-lijst/ Ipsos]
+| 25 Jun 2018
+| style="background:#CED7FD;" | '''32'''
+| 17
+| 17
+| 15
+| 16
+| 11
+| 8
+| 6
+| 7
+| 5
+| 3
+| 4
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-06-24.pdf Peil.nl]
+| 24 Jun 2018
+| style="background:#CED7FD;" | '''27'''
+| 14
+| 12
+| 13
+| 17
+| 11
+| 11
+| 6
+| 8
+| 6
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-06-17+dsw.pdf Peil.nl]
+| 17 Jun 2018
+| style="background:#CED7FD;" | '''27'''
+| 14
+| 12
+| 13
+| 16
+| 12
+| 11
+| 6
+| 8
+| 6
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-coalitie-op-fors-verlies/ Kantar Public]
+| 13 Jun 2018
+| style="background:#CED7FD;" | '''32'''
+| 21
+| 15
+| 14
+| 15
+| 11
+| 10
+| 8
+| 5
+| 6
+| 2
+| 2
+| 9
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-10-fde.pdf Peil.nl]
+| 10 Jun 2018
+| style="background:#CED7FD;" | '''27'''
+| 14
+| 12
+| 13
+| 16
+| 12
+| 11
+| 6
+| 8
+| 6
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-06-03+dds.pdf Peil.nl]
+| 3 Jun 2018
+| style="background:#CED7FD;" | '''26'''
+| 14
+| 12
+| 13
+| 16
+| 13
+| 11
+| 6
+| 8
+| 6
+| 3
+| 6
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/sp-leden-meer-aandacht-voor-klimaat-en-integratie/ Ipsos]
+| 28 May 2018
+| style="background:#CED7FD;" | '''32'''
+| 16
+| 17
+| 15
+| 18
+| 11
+| 8
+| 6
+| 7
+| 5
+| 3
+| 3
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-05-27.pdf Peil.nl]
+| 27 May 2018
+| style="background:#CED7FD;" | '''26'''
+| 13
+| 13
+| 12
+| 17
+| 13
+| 12
+| 6
+| 8
+| 6
+| 3
+| 5
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-20-05.pdf Peil.nl]
+| 20 May 2018
+| style="background:#CED7FD;" | '''25'''
+| 13
+| 13
+| 12
+| 17
+| 14
+| 12
+| 5
+| 8
+| 7
+| 3
+| 5
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-05-13+drg.pdf Peil.nl]
+| 13 May 2018
+| style="background:#CED7FD;" | '''25'''
+| 13
+| 13
+| 12
+| 17
+| 14
+| 12
+| 5
+| 8
+| 7
+| 3
+| 5
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-05-06+for.pdf Peil.nl]
+| 6 May 2018
+| style="background:#CED7FD;" | '''24'''
+| 13
+| 13
+| 12
+| 17
+| 15
+| 12
+| 5
+| 8
+| 7
+| 3
+| 5
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-04-29+klm.pdf Peil.nl]
+| 29 Apr 2018
+| style="background:#CED7FD;" | '''24'''
+| 13
+| 13
+| 12
+| 17
+| 15
+| 12
+| 5
+| 8
+| 7
+| 3
+| 5
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/groenlinks-wint-vier-zetels/ Ipsos]
+| 23 Apr 2018
+| style="background:#CED7FD;" | '''33'''
+| 14
+| 15
+| 14
+| 18
+| 12
+| 8
+| 7
+| 7
+| 6
+| 3
+| 3
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-04-22+dde.pdf Peil.nl]
+| 22 Apr 2018
+| style="background:#CED7FD;" | '''25'''
+| 12
+| 15
+| 13
+| 16
+| 14
+| 11
+| 6
+| 8
+| 7
+| 3
+| 5
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-04-15.pdf Peil.nl]
+| 15 Apr 2018
+| style="background:#CED7FD;" | '''25'''
+| 12
+| 15
+| 13
+| 16
+| 14
+| 11
+| 6
+| 8
+| 7
+| 3
+| 5
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-04-08+dsw.pdf Peil.nl]
+| 8 Apr 2018
+| style="background:#CED7FD;" | '''25'''
+| 12
+| 15
+| 13
+| 16
+| 14
+| 11
+| 6
+| 8
+| 7
+| 3
+| 5
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-04-01+apr.pdf Peil.nl]
+| 1 Apr 2018
+| style="background:#CED7FD;" | '''24'''
+| 11
+| 15
+| 13
+| 16
+| 14
+| 12
+| 6
+| 8
+| 7
+| 3
+| 5
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=De+historische+uitslag+van+21+maart+2018b.pdf Peil.nl]
+| 25 Mar 2018
+| style="background:#CED7FD;" | '''24'''
+| 11
+| 15
+| 13
+| 16
+| 14
+| 12
+| 6
+| 8
+| 7
+| 3
+| 5
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/referendum-voorstanders-lopen-uit/ Ipsos]
+| 19 Mar 2018
+| style="background:#CED7FD;" | '''32'''
+| 16
+| 16
+| 16
+| 14
+| 13
+| 8
+| 6
+| 7
+| 7
+| 3
+| 3
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-03-18+erd.pdf Peil.nl]
+| 18 Mar 2018
+| style="background:#CED7FD;" | '''26'''
+| 12
+| 14
+| 13
+| 14
+| 15
+| 12
+| 7
+| 7
+| 7
+| 3
+| 4
+| 16
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20Prinsjesdagpeiling%202018_DEF_1.pdf I&O Research]
+| 12 Mar 2018
+| style="background:#CED7FD;" | '''27'''
+| 16
+| 16
+| 16
+| 16
+| 13
+| 12
+| 7
+| 5
+| 6
+| 3
+| 3
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-03-11+jef.pdf Peil.nl]
+| 11 Mar 2018
+| style="background:#CED7FD;" | '''25'''
+| 13
+| 14
+| 14
+| 14
+| 16
+| 12
+| 7
+| 7
+| 7
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-gemeenteraadsverkiezingen/ Kantar Public]
+| 4 Mar 2018
+| style="background:#CED7FD;" | '''30'''
+| 16
+| 15
+| 15
+| 16
+| 16
+| 9
+| 6
+| 6
+| 6
+| 3
+| 3
+| 9
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-3-04+hrg.pdf Peil.nl]
+| 4 Mar 2018
+| style="background:#CED7FD;" | '''26'''
+| 14
+| 13
+| 13
+| 14
+| 16
+| 12
+| 7
+| 7
+| 7
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/politieke-gebeurtenissen-geen-invloed-op-stemvoorkeur/ Ipsos]
+| 26 Feb 2018
+| style="background:#CED7FD;" | '''31'''
+| 15
+| 15
+| 16
+| 14
+| 13
+| 8
+| 5
+| 8
+| 6
+| 3
+| 4
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-02-25+gpt.pdf Peil.nl]
+| 25 Feb 2018
+| style="background:#CED7FD;" | '''26'''
+| 14
+| 13
+| 13
+| 14
+| 16
+| 12
+| 7
+| 7
+| 7
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-02-18.pdf Peil.nl]
+| 18 Feb 2018
+| style="background:#CED7FD;" | '''27'''
+| 14
+| 14
+| 14
+| 14
+| 15
+| 12
+| 6
+| 7
+| 6
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-02-11+fsj.pdf Peil.nl]
+| 11 Feb 2018
+| style="background:#CED7FD;" | '''27'''
+| 15
+| 15
+| 16
+| 14
+| 14
+| 12
+| 5
+| 7
+| 5
+| 3
+| 3
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20peiling%20TK%20en%20sleepwet_def.pdf I&O Research]
+| 6 Feb 2018
+| style="background:#CED7FD;" | '''29'''
+| 16
+| 14
+| 18
+| 16
+| 12
+| 10
+| 6
+| 6
+| 5
+| 3
+| 2
+| 13
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-04-02+drh.pdf Peil.nl]
+| 4 Feb 2018
+| style="background:#CED7FD;" | '''27'''
+| 15
+| 14
+| 16
+| 13
+| 14
+| 13
+| 5
+| 7
+| 5
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/sp-profiteert-van-komst-marijnissen/ Ipsos]
+| 29 Jan 2018
+| style="background:#CED7FD;" | '''31'''
+| 16
+| 15
+| 16
+| 14
+| 13
+| 9
+| 5
+| 7
+| 5
+| 3
+| 4
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-fvd-voegt-zich-bij-rijtje-middelgro/ Kantar Public]
+| 28 Jan 2018
+| style="background:#CED7FD;" | '''28'''
+| 18
+| 14
+| 17
+| 16
+| 15
+| 11
+| 6
+| 4
+| 4
+| 3
+| 2
+| 12
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-01-28+gdr.pdf Peil.nl]
+| 28 Jan 2018
+| style="background:#CED7FD;" | '''27'''
+| 15
+| 14
+| 16
+| 13
+| 14
+| 13
+| 5
+| 7
+| 5
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-01-21.pdf Peil.nl]
+| 21 Jan 2018
+| style="background:#CED7FD;" | '''27'''
+| 15
+| 14
+| 16
+| 13
+| 14
+| 13
+| 5
+| 7
+| 5
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2018-01-14.pdf Peil.nl]
+| 14 Jan 2018
+| style="background:#CED7FD;" | '''27'''
+| 14
+| 14
+| 15
+| 14
+| 14
+| 14
+| 5
+| 7
+| 5
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-12-24+jrk.pdf Peil.nl]
+| 24 Dec 2017
+| style="background:#CED7FD;" | '''27'''
+| 14
+| 14
+| 15
+| 14
+| 14
+| 14
+| 5
+| 7
+| 5
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/kleine-verschuivingen-in-de-stemming-d66-en-pvv-verliezen-sp-wint/ GfK]
+| 18 Dec 2017
+| style="background:#CED7FD;" | '''29'''
+| 21
+| 15
+| 15
+| 13
+| 15
+| 11
+| 6
+| 5
+| 5
+| 3
+| 2
+| 10
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.ipsos.com/nl-nl/politieke-barometer Ipsos]
+| 18 Dec 2017
+| style="background:#CED7FD;" | '''31'''
+| 18
+| 14
+| 16
+| 13
+| 12
+| 10
+| 6
+| 6
+| 5
+| 3
+| 4
+| 12
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-12-17+djw.pdf Peil.nl]
+| 17 Dec 2017
+| style="background:#CED7FD;" | '''25'''
+| 14
+| 14
+| 17
+| 13
+| 14
+| 15
+| 5
+| 7
+| 5
+| 3
+| 3
+| 15
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-12-10+fgd.pdf Peil.nl]
+| 10 Dec 2017
+| style="background:#CED7FD;" | '''26'''
+| 15
+| 14
+| 16
+| 13
+| 13
+| 15
+| 6
+| 7
+| 5
+| 3
+| 3
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-12-3+ccc.pdf Peil.nl]
+| 3 Dec 2017
+| style="background:#CED7FD;" | '''26'''
+| 15
+| 14
+| 16
+| 13
+| 13
+| 15
+| 6
+| 7
+| 5
+| 3
+| 3
+| 14
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 30 Nov 2017
+| style="background:#CED7FD;" | '''31'''
+| 19
+| 14
+| 18
+| 15
+| 9
+| 10
+| 6
+| 6
+| 5
+| 3
+| 3
+| 11
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://eenvandaag.avrotros.nl/item/draagvlak-coalitie-daalt-naar-66-zetels/ GfK]
+| 27 Nov 2017
+| style="background:#CED7FD;" | '''28'''
+| 23
+| 14
+| 18
+| 13
+| 13
+| 11
+| 6
+| 4
+| 7
+| 3
+| 1
+| 9
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 5
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-11-26+ddr.pdf Peil.nl]
+| 26 Nov 2017
+| style="background:#CED7FD;" | '''28'''
+| 15
+| 15
+| 16
+| 13
+| 12
+| 14
+| 6
+| 7
+| 6
+| 3
+| 3
+| 12
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-11-19+jrx.pdf Peil.nl]
+| 19 Nov 2017
+| style="background:#CED7FD;" | '''28'''
+| 16
+| 15
+| 17
+| 14
+| 13
+| 13
+| 5
+| 6
+| 5
+| 3
+| 3
+| 12
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-11-12+hrf.pdf Peil.nl]
+| 12 Nov 2017
+| style="background:#CED7FD;" | '''28'''
+| 16
+| 15
+| 17
+| 14
+| 13
+| 13
+| 5
+| 6
+| 5
+| 3
+| 3
+| 12
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-11-05+klg.pdf Peil.nl]
+| 5 Nov 2017
+| style="background:#CED7FD;" | '''29'''
+| 16
+| 16
+| 18
+| 13
+| 12
+| 13
+| 5
+| 6
+| 5
+| 3
+| 3
+| 11
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 2 Nov 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 15
+| 18
+| 15
+| 9
+| 8
+| 6
+| 6
+| 6
+| 3
+| 4
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/geen-begrip-voor-bumas-uitslag-negeren/ GfK]
+| 31 Oct 2017
+| style="background:#CED7FD;" | '''30'''
+| 21
+| 16
+| 17
+| 13
+| 12
+| 12
+| 6
+| 6
+| 4
+| 3
+| 2
+| 8
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20politieke%20peiling%20eind%20okt%202017_def.pdf I&O Research]
+| 30 Oct 2017
+| style="background:#CED7FD;" | '''30'''
+| 18
+| 15
+| 18
+| 16
+| 11
+| 10
+| 6
+| 5
+| 5
+| 3
+| 2
+| 11
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-10-29+gds.pdf Peil.nl]
+| 29 Oct 2017
+| style="background:#CED7FD;" | '''29'''
+| 17
+| 16
+| 18
+| 14
+| 11
+| 12
+| 5
+| 6
+| 5
+| 3
+| 3
+| 11
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-lauwe-reacties-op-rutte-iii/ Kantar Public]
+| 15 Oct 2017
+| style="background:#CED7FD;" | '''29'''
+| 21
+| 15
+| 17
+| 15
+| 12
+| 10
+| 6
+| 6
+| 5
+| 3
+| 2
+| 9
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-10-15+rdf.pdf Peil.nl]
+| 15 Oct 2017
+| style="background:#CED7FD;" | '''29'''
+| 18
+| 16
+| 18
+| 14
+| 11
+| 12
+| 5
+| 6
+| 5
+| 3
+| 3
+| 10
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20politieke%20peiling%20eind%20okt%202017_def.pdf I&O Research]
+| 11 Oct 2017
+| style="background:#CED7FD;" | '''30'''
+| 19
+| 15
+| 18
+| 16
+| 10
+| 9
+| 6
+| 6
+| 6
+| 3
+| 2
+| 10
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 5 Oct 2017
+| style="background:#CED7FD;" | '''34'''
+| 18
+| 15
+| 20
+| 15
+| 9
+| 7
+| 5
+| 7
+| 5
+| 2
+| 4
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-10-01+frs.pdf Peil.nl]
+| 1 Oct 2017
+| style="background:#CED7FD;" | '''31'''
+| 18
+| 15
+| 19
+| 14
+| 11
+| 12
+| 5
+| 6
+| 4
+| 3
+| 3
+| 9
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/verhoudingen-gelijk-na-prinsjesdag/ GfK]
+| 25 Sep 2017
+| style="background:#CED7FD;" | '''29'''
+| 23
+| 16
+| 17
+| 15
+| 12
+| 10
+| 6
+| 6
+| 5
+| 4
+| 1
+| 6
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 6
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-09-24+gsw.pdf Peil.nl]
+| 24 Sep 2017
+| style="background:#CED7FD;" | '''31'''
+| 18
+| 16
+| 19
+| 14
+| 11
+| 12
+| 5
+| 6
+| 4
+| 3
+| 3
+| 8
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-09-17+dsw.pdf Peil.nl]
+| 17 Sep 2017
+| style="background:#CED7FD;" | '''31'''
+| 18
+| 16
+| 19
+| 14
+| 11
+| 12
+| 5
+| 6
+| 4
+| 3
+| 3
+| 8
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 14 Sep 2017
+| style="background:#CED7FD;" | '''35'''
+| 19
+| 16
+| 19
+| 13
+| 9
+| 8
+| 6
+| 6
+| 5
+| 3
+| 3
+| 8
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+| [https://ioresearch.nl/Portals/0/I%26O%20Research%20politieke%20peiling%20sept%202017_def.pdf I&O Research]
+| 11 Sep 2017
+| style="background:#CED7FD;" | '''30'''
+| 20
+| 16
+| 18
+| 15
+| 12
+| 9
+| 6
+| 6
+| 4
+| 3
+| 2
+| 9
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=10-9-2017+gts.pdf Peil.nl]
+| 10 Sep 2017
+| style="background:#CED7FD;" | '''31'''
+| 18
+| 16
+| 19
+| 14
+| 11
+| 12
+| 5
+| 6
+| 4
+| 3
+| 3
+| 8
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/forum-voor-democratie-sinds-maart-meer-dan-verdubbeld/ GfK]
+| 4 Sep 2017
+| style="background:#CED7FD;" | '''30'''
+| 23
+| 16
+| 19
+| 14
+| 11
+| 9
+| 7
+| 6
+| 5
+| 3
+| 2
+| 5
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-09-03+kga.pdf Peil.nl]
+| 3 Sep 2017
+| style="background:#CED7FD;" | '''31'''
+| 19
+| 17
+| 18
+| 13
+| 12
+| 12
+| 5
+| 6
+| 4
+| 3
+| 3
+| 7
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-lauwe-reacties-op-rutte-iii/ Kantar Public]
+| 31 Aug 2017
+| style="background:#CED7FD;" | '''31'''
+| 22
+| 16
+| 18
+| 16
+| 11
+| 9
+| 5
+| 5
+| 4
+| 3
+| 2
+| 8
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 9
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-08-27+bdl.pdf Peil.nl]
+| 27 Aug 2017
+| style="background:#CED7FD;" | '''31'''
+| 20
+| 17
+| 18
+| 13
+| 12
+| 11
+| 5
+| 6
+| 4
+| 3
+| 3
+| 7
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-08-20+kkl.pdf Peil.nl]
+| 20 Aug 2017
+| style="background:#CED7FD;" | '''31'''
+| 20
+| 17
+| 18
+| 13
+| 12
+| 11
+| 5
+| 6
+| 4
+| 3
+| 3
+| 7
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 10 Aug 2017
+| style="background:#CED7FD;" | '''35'''
+| 21
+| 16
+| 20
+| 13
+| 9
+| 7
+| 6
+| 7
+| 3
+| 2
+| 4
+| 7
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-07-30+hgg.pdf Peil.nl]
+| 30 Jul 2017
+| style="background:#CED7FD;" | '''32'''
+| 21
+| 16
+| 20
+| 13
+| 11
+| 11
+| 5
+| 5
+| 4
+| 3
+| 3
+| 6
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 11
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/vvd-kiezers-meest-wispelturig/ GfK]
+| 24 Jul 2017
+| style="background:#CED7FD;" | '''30'''
+| 26
+| 17
+| 18
+| 12
+| 13
+| 10
+| 5
+| 5
+| 4
+| 3
+| 2
+| 5
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 4
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-07-16+sdx.pdf Peil.nl]
+| 16 Jul 2017
+| style="background:#CED7FD;" | '''33'''
+| 21
+| 16
+| 20
+| 13
+| 11
+| 11
+| 5
+| 5
+| 3
+| 3
+| 3
+| 6
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 13 Jul 2017
+| style="background:#CED7FD;" | '''36'''
+| 19
+| 16
+| 21
+| 14
+| 9
+| 8
+| 6
+| 6
+| 4
+| 2
+| 4
+| 5
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 15
+|-
+| [http://www.nipo.nl/nieuws/persberichten/in-de-peiling-lauwe-reacties-op-rutte-iii/ Kantar Public]
+| 12 Jul 2017
+| style="background:#CED7FD;" | '''31'''
+| 23
+| 16
+| 19
+| 17
+| 13
+| 9
+| 5
+| 5
+| 3
+| 3
+| 2
+| 4
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-07-02+jdg2.pdf Peil.nl]
+| 2 Jul 2017
+| style="background:#CED7FD;" | '''33'''
+| 21
+| 16
+| 20
+| 13
+| 11
+| 12
+| 5
+| 5
+| 3
+| 3
+| 3
+| 5
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 29 Jun 2017
+| style="background:#CED7FD;" | '''36'''
+| 20
+| 17
+| 20
+| 16
+| 7
+| 8
+| 6
+| 5
+| 3
+| 2
+| 4
+| 6
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+| [https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/d66-en-cu-stemmers-liever-impasse-dan-toegeven/ GfK]
+| 26 Jun 2017
+| style="background:#CED7FD;" | '''34'''
+| 24
+| 17
+| 18
+| 14
+| 12
+| 10
+| 5
+| 4
+| 5
+| 2
+| 2
+| 3
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [http://www.ioresearch.nl/Portals/0/PDF/I%26O%20Research%20politieke%20peiling%20juni%202017_def.pdf I&O Research]
+| 18 Jun 2017
+| style="background:#CED7FD;" | '''31'''
+| 23
+| 16
+| 19
+| 15
+| 12
+| 10
+| 6
+| 5
+| 4
+| 3
+| 2
+| 4
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 8
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-06-18+xcd.pdf Peil.nl]
+| 18 Jun 2017
+| style="background:#CED7FD;" | '''33'''
+| 21
+| 17
+| 20
+| 14
+| 11
+| 10
+| 5
+| 5
+| 3
+| 3
+| 3
+| 5
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 15 Jun 2017
+| style="background:#CED7FD;" | '''37'''
+| 19
+| 18
+| 21
+| 14
+| 9
+| 9
+| 6
+| 5
+| 3
+| 2
+| 3
+| 4
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-06-04+kxa.pdf Peil.nl]
+| 4 Jun 2017
+| style="background:#CED7FD;" | '''33'''
+| 20
+| 17
+| 20
+| 14
+| 12
+| 10
+| 5
+| 5
+| 4
+| 3
+| 3
+| 4
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 13
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 1 Jun 2017
+| style="background:#CED7FD;" | '''37'''
+| 19
+| 18
+| 20
+| 15
+| 9
+| 7
+| 6
+| 5
+| 4
+| 2
+| 3
+| 5
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 17
+|-
+| [https://eenvandaag.avrotros.nl/item/pvda-achterban-diep-verdeeld-over-onderhandelen/ GfK]
+| 29 May 2017
+| style="background:#CED7FD;" | '''30'''
+| 23
+| 18
+| 18
+| 15
+| 13
+| 10
+| 5
+| 5
+| 4
+| 3
+| 2
+| 3
+|
+|
+|
+|
+| 1{{efn|[[Pirate Party (Netherlands)|PP]] with 1 seat}}
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 7
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-05-21+cdb.pdf Peil.nl]
+| 21 May 2017
+| style="background:#CED7FD;" | '''32'''
+| 20
+| 18
+| 19
+| 14
+| 13
+| 9
+| 5
+| 5
+| 5
+| 3
+| 3
+| 4
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 19 May 2017
+| style="background:#CED7FD;" | '''37'''
+| 20
+| 16
+| 21
+| 14
+| 9
+| 7
+| 6
+| 5
+| 3
+| 3
+| 4
+| 5
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-05-14+abd.pdf Peil.nl]
+| 14 May 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 18
+| 20
+| 14
+| 13
+| 9
+| 5
+| 5
+| 5
+| 3
+| 3
+| 4
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-05-07+adb.pdf Peil.nl]
+| 7 May 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 18
+| 20
+| 14
+| 13
+| 9
+| 5
+| 5
+| 5
+| 3
+| 3
+| 4
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 4 May 2017
+| style="background:#CED7FD;" | '''37'''
+| 21
+| 17
+| 21
+| 15
+| 8
+| 7
+| 6
+| 5
+| 3
+| 3
+| 3
+| 4
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 16
+|-
+| [http://stemming.eenvandaag.nl/zetelverdeling/78 GfK]
+| 24 Apr 2017
+| style="background:#CED7FD;" | '''32'''
+| 22
+| 19
+| 19
+| 14
+| 14
+| 8
+| 5
+| 5
+| 4
+| 3
+| 2
+| 3
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 10
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-04-23+ade.pdf Peil.nl]
+| 23 Apr 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 18
+| 20
+| 14
+| 13
+| 9
+| 5
+| 5
+| 5
+| 3
+| 3
+| 4
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 20 Apr 2017
+| style="background:#CED7FD;" | '''38'''
+| 19
+| 17
+| 20
+| 16
+| 9
+| 6
+| 5
+| 6
+| 3
+| 3
+| 3
+| 5
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 18
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-04-16bbc.pdf Peil.nl]
+| 16 Apr 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 18
+| 20
+| 14
+| 13
+| 9
+| 5
+| 5
+| 5
+| 3
+| 3
+| 4
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-04-09adge.pdf Peil.nl]
+| 9 Apr 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 19
+| 20
+| 14
+| 14
+| 9
+| 5
+| 5
+| 4
+| 3
+| 3
+| 3
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [http://www.ipsos-nederland.nl/ipsos-politieke-barometer/barometer-van-deze-week/de-peiling-in-detail/ Ipsos]
+| 6 Apr 2017
+| style="background:#CED7FD;" | '''34'''
+| 20
+| 18
+| 20
+| 15
+| 11
+| 8
+| 5
+| 5
+| 4
+| 4
+| 3
+| 3
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 14
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-04-02d.pdf Peil.nl]
+| 2 Apr 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 19
+| 20
+| 14
+| 14
+| 9
+| 5
+| 5
+| 4
+| 3
+| 3
+| 3
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| [https://www.noties.nl/v/get.php?a=peil.nl&s=weekpoll&f=2017-maart-26.pdf Peil.nl]
+| 26 Mar 2017
+| style="background:#CED7FD;" | '''32'''
+| 19
+| 19
+| 20
+| 14
+| 14
+| 9
+| 5
+| 5
+| 4
+| 3
+| 3
+| 3
+|
+|
+|
+|
+| –
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;" | 12
+|-
+| style="background:#E9E9E9" | [[2017 Dutch general election|2017 election]]
+| style="background:#E9E9E9" | 15 Mar 2017
+| style="background:#CED7FD;" | '''33'''
+| 20
+| 19
+| 19
+| 14
+| 14
+| 9
+| 5
+| 5
+| 4
+| 3
+| 3
+| 2
+|
+|
+|
+|
+| 0
+| style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;"| 13
+|}
