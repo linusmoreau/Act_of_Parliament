@@ -1788,7 +1788,7 @@ class GraphDisplay(Widget):
             if line in self.colours:
                 colour = fade_colour(self.colours[line])
             else:
-                colour = white
+                colour = grey
             lead = Text(line + ' +' + dif, (x, y_pos), align=TOP, colour=black, background_colour=colour,
                         solid_background=True, margin=2)
             lead.surface.set_alpha(200)
@@ -1944,7 +1944,7 @@ class GraphDisplay(Widget):
             if line in self.colours:
                 colour = list(self.colours[line])[:3] + [120]
             else:
-                colour = [120, 120, 120, 120]
+                colour = list(grey) + [120]
             for x, ys in points.items():
                 for y in ys:
                     p = (round(self.graph_rect.w + self.left_margin - ((self.x_max - x) * self.x_scale)),
@@ -2010,7 +2010,7 @@ class GraphDisplay(Widget):
             if line in self.colours:
                 colour = fade_colour(self.colours[line])
             else:
-                colour = whitish
+                colour = grey
             x = 10
             y = full.rect.h - self.bottom_margin
             note = Text(line, (x, y), colour=black, background_colour=colour, solid_background=True, align=LEFT,
