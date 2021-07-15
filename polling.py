@@ -1084,6 +1084,8 @@ class GraphPage:
 
         self.change_view(view='parties')
 
+        remove_from_update(self.choice)
+
     def init_dat(self):
         with open(self.file_name, 'r', encoding='utf-8') as f:
             content = f.readlines()
@@ -1347,11 +1349,11 @@ class MenuPage:
 
     def __init__(self, options):
         button_size = 64
+        self.notices = {}
         self.display = ScrollButtonDisplay((screen_rect.centerx, screen_rect.top + screen_height / 16),
                                            (400, screen_height * 3 / 4), button_size * len(options),
                                            align=TOP, button_size=button_size)
         background_colour = dark_grey
-        buttons = []
         for i, entry in enumerate(options):
             b = Button((self.display.contain_rect.left, self.display.contain_rect.top + i * button_size),
                        (self.display.contain_rect.w, button_size), parent=self.display)
@@ -1373,8 +1375,8 @@ class MenuPage:
                 txt = str(choices[entry]['end_date'])
             date = Text(txt, label.rect.bottomright, align=TOPRIGHT, background_colour=background_colour)
             b.components.append(date)
-            buttons.append(b)
-        self.display.add_select_buttons(buttons)
+            self.display.components.append(b)
+            self.display.button_tags[entry] = b
 
         self.update_b = Button((screen_rect.centerx, screen_height * 7 / 8), align=CENTER, label='Update Data')
         self.update_b.callback(update_data)
@@ -1385,6 +1387,34 @@ class MenuPage:
         widgets.clear()
         self.display.show()
         self.update_b.show()
+        self.update_notices()
+
+    def update_notices(self):
+        for tag in updated:
+            if tag not in self.notices:
+                b = self.display.button_tags[tag]
+                img_path = 'images/exclamation.png'
+                img = Image((b.rect.left, b.rect.centery), (b.rect.h * 2 / 3, b.rect.h / 2),
+                            img_path, align=LEFT)
+                self.notices[tag] = img
+                b.components.append(img)
+
+
+def remove_from_update(tag):
+    if tag in updated:
+        updated.remove(tag)
+        menu_page.display.button_tags[tag].components.remove(menu_page.notices[tag])
+        menu_page.notices.pop(tag)
+        update_save()
+
+
+def update_save():
+    s = ''
+    for tag in updated:
+        s += tag + ','
+    s = s[:-1]
+    with open(save_loc, 'w') as f:
+        f.write(s)
 
 
 def update_data(sel="All"):
@@ -1394,26 +1424,36 @@ def update_data(sel="All"):
             read_content = content.read()
             soup = BeautifulSoup(read_content, 'html.parser')
             content = soup.find_all('textarea')
+            text = content[0].text
             if tag == 'New York':
-                text = content[0].text
                 text = text[text.find('=== First-past-the-post polls ==='):
                             text.find('!scope="row"| [https://www.filesforprogress.org/datasets/2020/1/'
                                       'dfp_poll_january_ny.pdf Data for Progress (D)]')]
-            else:
-                text = content[0].text
             final = text.encode('utf-8')
-            with open(dest, 'wb') as f:
-                f.write(final)
+            with open(dest, 'rb') as rf:
+                old_text = rf.read()
+                if old_text != final and tag not in updated:
+                    updated.append(tag)
+            with open(dest, 'wb') as wf:
+                wf.write(final)
+            menu_page.update_notices()
         except urllib.error.URLError:
             print('Failed to load for ' + tag + ' from ' + url)
 
     if sel == 'All':
+        threads = []
+        old_updated = updated.copy()
         for tag in choices:
             if 'url' in choices[tag]:
                 url = choices[tag]['url']
                 dest = choices[tag]['file_name']
                 thread = threading.Thread(target=update_dat, args=(dest, url, tag))
+                threads.append(thread)
                 thread.start()
+        for thread in threads:
+            thread.join()
+        if updated != old_updated:
+            update_save()
 
 
 def process_riding_data(dat):
@@ -1461,7 +1501,17 @@ def sort_choices(choices):
 
 
 if __name__ == '__main__':
+    save_loc = 'test_data/updated.txt'
+    updated: List
+    try:
+        with open(save_loc, 'r') as f:
+            updated = f.read().split(',')
+            if updated == ['']:
+                updated = []
+    except FileNotFoundError:
+        updated = []
     choices = choices_setup()
     lock = threading.Lock()
-    menu_page = MenuPage(sort_choices(choices))
+    order = sort_choices(choices)
+    menu_page = MenuPage(order)
     game_loop(lock)
