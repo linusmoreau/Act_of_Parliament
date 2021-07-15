@@ -1449,7 +1449,6 @@ def update_data(sel="All"):
                     updated.append(tag)
             with open(dest, 'wb') as wf:
                 wf.write(final)
-            menu_page.update_notices()
         except urllib.error.URLError:
             print('Failed to load for ' + tag + ' from ' + url)
 
@@ -1467,6 +1466,7 @@ def update_data(sel="All"):
             thread.join()
         if updated != old_updated:
             update_save()
+        menu_page.update_notices()
 
 
 def process_riding_data(dat):
