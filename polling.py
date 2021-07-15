@@ -267,7 +267,7 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     continue
                 if '{{efn' in temp:
                     temp = temp[:temp.find('{{efn')]
-                if choice in ['Spain', 'Portugal', 'Slovenia'] and '<br' in line:
+                if '<br' in line:
                     temp = temp[:temp.find('<br')]
                 elif choice == 'Ireland' and '<ref' in line:
                     temp = temp[:temp.find('<ref')]
@@ -533,6 +533,19 @@ def choices_setup():
             'method': 'quotient',
             'old_data': 'test_data/old_germany_polling.txt'
         },
+        'Greece': {
+            'key': ['ND', 'Syriza', 'KINAL', 'KKE', 'EL', 'MeRA25', 'XA'],
+            'col': {'ND': (27, 92, 199), 'Syriza': (238, 128, 143), 'KINAL': (45, 144, 45), 'KKE': (227, 3, 1),
+                    'EL': (84, 147, 206), 'MeRA25': (195, 52, 29), 'XA': (0, 2, 45)},
+            'gov': {'Government': ['ND'], 'Opposition': ['Syriza', 'KINAL', 'KKE', 'EL', 'MeRA25', 'XA']},
+            'blocs': {'Right': ['ND', 'EL', 'XA'], 'Left': ['Syriza', 'KINAL', 'KKE', 'MeRA25']},
+            'end_date': Date(2023, 7, 7),
+            'date': 1,
+            'start': 3,
+            'restart': ['http', '2019 legislative election'],
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   'Opinion_polling_for_the_next_Greek_legislative_election&action=edit&section=3'
+        },
         'Hungary': {
             'key': ['Fidesz', 'Jobbik', 'MSZP', 'Dialogue', 'DK', 'LMP', 'MM', 'MKKP', 'MHM'],
             'col': {'Fidesz': (255, 106, 0), 'Jobbik': (0, 131, 113), 'MSZP': (204, 0, 0), 'Dialogue': (60, 179, 77),
@@ -646,8 +659,7 @@ def choices_setup():
             'blocs': {'Nationalist': ['PVV', 'FVD', 'JA21'],
                       'Confessional': ['CDA', 'CU', 'SGP'],
                       'Left': ['SP', 'PvdA', 'GL', 'PvdD', 'BIJ1', 'DENK'],
-                      'VVD': ['VVD'],
-                      'Liberal': ['D66', 'Volt'],
+                      'Liberal': ['VVD', 'D66', 'Volt'],
                       'Agrarian': ['BBB'],
                       'Pensioners': ['50+']},
             'date': 1,
