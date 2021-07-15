@@ -1468,12 +1468,9 @@ class ScrollButtonDisplay(ScrollDisplayBase):
         self.button_size = button_size
 
         self.select_buttons = []
-        self.button_tags = {}
+        self.button_tags: Dict[str, Button] = {}
 
         self.draw_borders()
-
-    def add_select_buttons(self, buttons):
-        self.components.extend(buttons)
 
 
 class ScrollDisplay(ScrollDisplayBase):
@@ -1976,30 +1973,16 @@ class GraphDisplay(Widget):
                 pp = p
 
             for j in range(len(points) - 1):
-                pygame.draw.aaline(self.surface, line_colour, points[j], points[j + 1], 1)
-                offsetx = 1.25
-                offsety = 1.25
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offsetx, points[j][1] - offsety),
-                                   (points[j + 1][0] - offsetx, points[j + 1][1] - offsety))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] + offsetx, points[j][1] + offsety),
-                                   (points[j + 1][0] + offsetx, points[j + 1][1] + offsety))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offsetx, points[j][1] + offsety),
-                                   (points[j + 1][0] - offsetx, points[j + 1][1] + offsety))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] + offsetx, points[j][1] - offsety),
-                                   (points[j + 1][0] + offsetx, points[j + 1][1] - offsety))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] - offsety),
-                                   (points[j + 1][0], points[j + 1][1] - offsety))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0], points[j][1] + offsety),
-                                   (points[j + 1][0], points[j + 1][1] + offsety))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] - offsetx, points[j][1]),
-                                   (points[j + 1][0] - offsetx, points[j + 1][1]))
-                pygame.draw.aaline(self.surface, line_colour, (points[j][0] + offsetx, points[j][1]),
-                                   (points[j + 1][0] + offsetx, points[j + 1][1]))
-
-            # pygame.draw.aalines(self.surface, line_colour, False, points)
-            # pygame.draw.lines(self.surface, line_colour, False, points, 3)
-
-        # self.legend(order)
+                pygame.draw.aaline(self.surface, line_colour, points[j], points[j + 1])
+                radial_offset = 1.3
+                num = 5
+                for a in range(num):
+                    angle = a * 2 * math.pi / num
+                    x_offset = radial_offset * math.cos(angle)
+                    y_offset = radial_offset * math.sin(angle)
+                    pygame.draw.aaline(self.surface, line_colour,
+                                       (points[j][0] + x_offset, points[j][1] + y_offset),
+                                       (points[j + 1][0] + x_offset, points[j + 1][1] + y_offset))
 
     def legend(self, order):
         notes = []
