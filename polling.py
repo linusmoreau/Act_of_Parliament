@@ -1396,10 +1396,11 @@ class MenuPage:
         self.show()
 
     def show(self):
-        widgets.clear()
-        self.display.show()
-        self.update_b.show()
-        self.update_notices()
+        if threading.active_count() == 1:
+            widgets.clear()
+            self.display.show()
+            self.update_b.show()
+            self.update_notices()
 
     def update_notices(self):
         for tag in updated:
