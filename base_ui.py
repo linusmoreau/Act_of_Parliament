@@ -1725,7 +1725,7 @@ class GraphDisplay(Widget):
                 orig_colour = self.colours[line]
                 colour = tuple(fade_colour(orig_colour))[:3]
             else:
-                colour = white
+                colour = grey
                 orig_colour = colour
             if not self.intg and 2 - self.y_mag != 0:
                 txt = str(round(y_val, 2 - self.y_mag))
