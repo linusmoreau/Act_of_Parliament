@@ -24,6 +24,8 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
 
     def isdate(line):
         try:
+            if '{{efn' in line:
+                line = line[:line.find('{{efn')]
             dates = line.split('|')[-1]
             if '-' in dates:
                 s = dates.split('-')
@@ -94,6 +96,9 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                 rot = 0
                 i += 1
                 continue
+            else:
+                if prevline is not None and '||' in prevline:
+                    rot += 1
         elif choice == 'Netherlands':
             if '{{For|events during those years|2020 in the Netherlands|2019 in the Netherlands|' \
                    '2018 in the Netherlands|2017 in the Netherlands}}' in line:
@@ -212,6 +217,9 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                                'None']
                     else:
                         key = ['LDP', 'CDP', 'NKP', 'JCP', 'Ishin', 'DPP', 'SDP', 'Reiwa', 'NHK', 'Other', 'None']
+                elif choice == 'Russia':
+                    if end_date.year < 2021:
+                        key = ['UR', 'CPRF', 'LDPR', 'SRZP', 'Others', 'Undecided', 'Abstention']
             elif rot == 0 and choice == 'Canada':
                 parts = line.split('||')
                 temp = parts[date].split('|')[-1].strip().strip('}')
@@ -247,21 +255,28 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                 p = rot - start
                 temp = line
                 if choice == 'Russia':
-                    # if year == '2020':
-                    #     key = key[:4]
+                    if '{{efn' in temp:
+                        loc = temp.find('{{efn')
+                        temp = temp[:loc] + temp[temp.find('}}') + 2:]
                     temps = temp.strip().split('||')
+                    if len(temps) < len(key):
+                        temps.extend(content[i + 1].strip().split('||'))
+                        temps.extend(content[i + 2].strip().split('||'))
                     for p in range(len(temps)):
                         if p >= len(key):
                             break
                         keep = temps[p].split('|')[-1]
-                        share = float(keep.strip('\'%'))
+                        try:
+                            share = float(keep.strip().strip('\'%'))
+                        except ValueError:
+                            print(keep.strip().strip('\'%'))
+                            share = None
                         if key[p] not in dat:
                             dat[key[p]] = {}
                         if end in dat[key[p]]:
                             dat[key[p]][end].append(share)
                         else:
                             dat[key[p]][end] = [share]
-
                     rot = None
                     i += 1
                     continue
@@ -658,7 +673,7 @@ def choices_setup():
                                    'BBB', 'BIJ1']},
             'blocs': {'Nationalist': ['PVV', 'FVD', 'JA21'],
                       'Confessional': ['CDA', 'CU', 'SGP'],
-                      'Left': ['SP', 'PvdA', 'GL', 'PvdD', 'BIJ1', 'DENK'],
+                      'Socialist': ['SP', 'PvdA', 'GL', 'PvdD', 'BIJ1', 'DENK'],
                       'Liberal': ['VVD', 'D66', 'Volt'],
                       'Agrarian': ['BBB'],
                       'Pensioners': ['50+']},
@@ -762,7 +777,7 @@ def choices_setup():
             'method': 'quotient'
         },
         'Russia': {
-            'key': ['UR', 'CPRF', 'LDPR', 'SRZP', 'Others', 'Undecided', 'Abstention'],
+            'key': ['UR', 'CPRF', 'LDPR', 'SRZP', 'Yabloko', 'RPPSJ', 'Others', 'Undecided', 'Abstention'],
             'col': {'UR': (46, 78, 164), 'CPRF': (204, 17, 17), 'LDPR': (68, 136, 204), 'SRZP': (255, 192, 3),
                     'Yabloko': (0, 162, 61), 'RPPSJ': (197, 32, 48)},
             'include': ['UR', 'CPRF', 'LDPR', 'SRZP'],
@@ -816,7 +831,7 @@ def choices_setup():
                       'Liberal': ['LMS', 'SMC', 'SAB', 'DeSUS', 'PPS', 'DD', 'ACZS'],
                       'Socialist': ['SD', 'Left']},
             'date': -1,
-            'start': 2,
+            'start': 3,
             'end_date': Date(2022, 6, 5),
             'restart': [],
             'url': 'https://en.wikipedia.org/w/index.php?title='
@@ -862,7 +877,7 @@ def choices_setup():
             'end_date': Date(2022, 9, 11),
             'toggle_seats': True,
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=4',
+                   'Opinion_polling_for_the_2022_Swedish_general_election&action=edit&section=3',
             'seats': 349,
             'divisor': 2,
             'bar': 0.2,
