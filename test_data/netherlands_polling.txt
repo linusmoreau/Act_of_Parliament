@@ -46,6 +46,29 @@ There are 150 seats in total. Parties are denoted with en dashes if no indicatio
 ! data-sort-type="number" style="background:{{Farmer–Citizen Movement/meta/color}};"|
 ! data-sort-type="number" style="background:{{BIJ1/meta/color}};"|
 |-
+|[https://www.ioresearch.nl/actueel/verlies-voor-cda-stijging-voor-pvv-en-bbb/ I&O Research]
+|data-sort-value="2021-06-10"|15 July 2021
+|1,824
+|style="background:#CED7FD;"|'''35'''
+|22
+|17
+|6
+|9
+|11
+|9
+|4
+|7
+|5
+|6
+|6
+|3
+|2
+|0
+|5
+|2
+|1{{efn|[[BVNL (political party)|Belang van Nederland]] with 1 seat|name="CO1"|group=}}
+|style="background:{{People's Party for Freedom and Democracy (2020)/meta/color}};color:#FFFFFF;"|13
+|-
 |[https://eenvandaag.avrotros.nl/panels/opiniepanel/alle-uitslagen/item/cda-zakt-nog-verder-weg-in-nieuwe-zetelpeiling-bij-de-verkiezingen-waren-het-15-zetels-nu-nog-9// Ipsos]
 |data-sort-value="2021-06-29"|29 June 2021
 |1,011

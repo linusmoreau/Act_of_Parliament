@@ -22,7 +22,33 @@
 ! data-sort-type="number" style="height:1px; background:{{Polish People's Party/meta/color}};" |
 ! data-sort-type="number" style="height:1px; background:{{Kukiz'15/meta/color}};" |
 ! data-sort-type="number" style="height:1px; background:{{Confederation Liberty and Independence/meta/color}};" |
-! data-sort-type="number" style="height:1px; background:#F9C013;" |
+! data-sort-type="number" style="height:1px; background:#F9C013;"|
+|-
+| [https://wiadomosci.radiozet.pl/Polska/Polityka/KO-rosnie-i-dogania-PiS.-Efekt-Tuska-widoczny-w-nowym-sondazu-Kantar Kantar]
+| data-sort-value="2021-07-14" | 9–14 Jul 2021
+| 969
+| style="background:#C0DBFC;" | '''30'''
+| 23
+| 5
+| 4
+| 2
+| 5
+| 15
+| 16
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''6'''
+|-
+| style="letter-spacing: -1px;"| [https://wpolityce.pl/polityka/558687-najnowszy-sondaz-po-z-tuskiem-zyskuje-ale-holownia-walczy Social Changes / wPolityce.pl]
+| data-sort-value="2021-07-12" | 9–12 Jul 2021
+| 1,062
+| style="background:#C0DBFC;" | '''34'''
+| 24
+| 9
+| 4
+| 1
+| 7
+| 20
+| 1
+| style="background:{{Law and Justice/meta/color}}; color:white;"| '''10'''
 |-
 | [https://fakty.tvn24.pl/fakty-po-poludniu,96/koalicja-obywatelska-wyprzedzila-polske-2050-sondaz-kantar-dla-faktow-tvn-i-tvn24,1068570.html Kantar / TVN]
 | data-sort-value="2021-07-11" | 9–11 Jul 2021

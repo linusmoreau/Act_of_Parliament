@@ -10,13 +10,13 @@
 ! class="unsortable" style="width:40px;" | [[Danish Social Liberal Party|B]]
 ! class="unsortable" style="width:40px;" | [[Socialist People's Party (Denmark)|F]]
 ! class="unsortable" style="width:40px;"| [[Red–Green Alliance (Denmark)|Ø]]
-! class="unsortable" style="width:40px;"| [[Conservative People's Party (Denmark)|C]]
+! class="unsortable" style="width:40px;"| [[The Conservative People's Party (Denmark)|C]]
 ! class="unsortable" style="width:40px;" | [[The Alternative (Denmark)|Å]]
-! class="unsortable" style="width:40px;" | [[The New Right (Denmark)|D]]
+! class="unsortable" style="width:40px;" | [[New Right (Denmark)|D]]
 ! class="unsortable" style="width:40px;"| [[Liberal Alliance (Denmark)|I]]
 ! class="unsortable" style="width:40px;" | [[Hard Line (political party)|P]]
 ! class="unsortable" style="width:40px;"| [[Christian Democrats (Denmark)|K]]
-! class="unsortable" style="width:40px;" | [[Klaus Riskær Pedersen (party)|E]]
+! class="unsortable" style="width:40px;" | [[The Citizen List|E]]
 ! class="unsortable" style="width:40px;" | [[Vegan Party|G]]
 ! class="unsortable" style="width:40px;" rowspan="2"| Others
 ! rowspan="2"| Lead
@@ -35,9 +35,9 @@
 ! data-sort-type="number" style="background:{{The New Right (Denmark)/meta/color}};" |
 ! data-sort-type="number" style="background:{{Liberal Alliance (Denmark)/meta/color}};" |
 ! data-sort-type="number" style="background:{{Hard Line (political party)/meta/color}};" |
-! data-sort-type="number" style="background:orange;"|
-! data-sort-type="number" style="background:{{Klaus Riskær Pedersen/meta/color}};" |
-! data-sort-type="number" style="background:#80a51a;" |
+! data-sort-type="number" style="background:{{Christian Democrats (Denmark)/meta/color}};"|
+! data-sort-type="number" style="background:{{The Citizen List/meta/color}};" |
+! data-sort-type="number" style="background:{{Vegan Party/meta/color}};" |
 ! data-sort-type="number" style="background:{{Social Democrats (Denmark)/meta/color}};"|
 ! data-sort-type="number" style="background:{{Venstre (Denmark)/meta/color}};"|
 |-

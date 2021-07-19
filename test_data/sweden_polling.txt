@@ -27,7 +27,7 @@
 |-
 |Demoskop<ref>{{Cite news|title=Demoskop: V skapade kaos och gjorde succé
 |language=sv|url=https://www.aftonbladet.se/nyheter/a/gWVR8q/demoskop-v-skapade-kaos-och-gjorde-succe|access-date=2021-06-29}}</ref>
-|29 Jun-7 Jul 2021
+|29 Jun–7 Jul 2021
 |3,267
 |9.4
 | style="background:#F9BDC5;" |'''25.2'''
@@ -41,7 +41,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.5
 |-
 |Sentio<ref>{{Cite news|title=Efter regeringskrisen: SD urstarka i Sentios julimätning|language=sv|url=https://nyheteridag.se/plus/efter-regeringskrisen-sd-urstarka-i-sentios-julimatning/|access-date=2021-07-12}}</ref>
-|2-5 Jul 2021
+|2–5 Jul 2021
 |–
 |10.3
 | style="background:#F9BDC5;" |'''23.8'''
@@ -56,7 +56,7 @@
 |-
 |Demoskop<ref>{{Cite news|title=Demoskop: V skapade kaos och gjorde succé
 |language=sv|url=https://www.aftonbladet.se/nyheter/a/gWVR8q/demoskop-v-skapade-kaos-och-gjorde-succe|access-date=2021-06-29}}</ref>
-|23-28 Jun 2021
+|23–28 Jun 2021
 |2,148
 |11.3
 | style="background:#F9BDC5;" |'''23.4'''
@@ -71,7 +71,7 @@
 |-
 |Novus<ref>{{Cite news|title=Novus SVT Väljarbarometer 29 juni 2021: SD & V ökar samt C tappar efter misstroendeomröstningen
 |language=sv|url=https://novus.se/valjarbarometer-arkiv/novus-svt-valjarbarometer-29-juni-2021-sd-v-okar-samt-c-tappar-efter-misstroendeomrostningen/|access-date=2021-06-29}}</ref>
-|21-27 Jun 2021
+|21–27 Jun 2021
 |2,408
 |11.5
 | style="background:#F9BDC5;" |'''25.5'''
@@ -86,7 +86,7 @@
 |-
 |Sentio<ref>{{Cite news|title=Löfvens katastrof: Högern drar ifrån i Sentios junimätning
 |language=sv|url=https://nyheteridag.se/plus/kris-for-lofven-nar-hogern-drar-ifran-i-sentios-junimatning/|access-date=2021-06-29}}</ref>
-|18-21 Jun 2021
+|18–21 Jun 2021
 |–
 |10.2
 | style="background:#F9BDC5;" |'''25.2'''
@@ -100,7 +100,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.0
 |-
 |Ipsos<ref>{{Cite news|title=DN/Ipsos: Högsta väljarstödet för V på 19 år|language=sv|url=https://www.expressen.se/nyheter/dnipsos-hogsta-valjarstodet-for-v-pa-19-ar/|access-date=2021-06-22}}</ref>
-|8-20 Jun 2021
+|8–20 Jun 2021
 |1,547
 |12
 | style="background:#F9BDC5;" |'''24'''
@@ -114,7 +114,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |2
 |-
 |Sifo<ref>{{Cite news|title=VÄLJARBAROMETERN JUNI 2021|language=sv|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-juni-2021/|access-date=2021-06-19}}</ref>
-|7-17 Jun 2021
+|7–17 Jun 2021
 |6,539
 |9.6
 | style="background:#F9BDC5;" |'''25.8'''
@@ -129,7 +129,7 @@
 |-
 |Novus<ref>{{Cite news|title=NOVUS/SVT VÄLJARBAROMETER
 |language=sv|url=https://novus.se/wp-content/uploads/2021/06/valjarbarometerjuni2021.pdf|access-date=2021-06-12}}</ref>
-|3 May-6 Jun 2021
+|3 May–6 Jun 2021
 |4,925
 |9.6
 | style="background:#F9BDC5;" |'''26.1'''
@@ -143,7 +143,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |3.5
 |-
 |Demoskop<ref>{{Cite news|title=Väljarbarometern,  juni 2021|language=sv|url=https://demoskop.se/valjarbarometern-juni-2021/|access-date=2021-06-12}}</ref>
-|26 May-2 Jun 2021
+|26 May–2 Jun 2021
 |2,730
 |8.5
 | style="background:#F9BDC5;" |'''24.2'''
@@ -157,7 +157,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |1.3
 |-
 |SCB<ref>{{Cite news|title=Partisympatiundersökningen maj 2021|language=sv|url=https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatiundersokningen-maj-2021/|access-date=2021-06-02}}</ref>
-|28 Apr-27 May 2021
+|28 Apr–27 May 2021
 |9,216
 |8.9
 | style="background:#F9BDC5;" |'''28.2'''
@@ -171,7 +171,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |5.8
 |-
 |Sentio<ref>{{Cite news|title=Kräftgång för M när L ökar i Sentios majmätning|language=sv|url=https://nyheteridag.se/plus/kraftgang-for-m-nar-l-okar-i-sentios-majmatning/|access-date=2021-06-02}}</ref>
-|21-24 May 2021
+|21–24 May 2021
 |–
 |10.3
 | style="background:#F9BDC5;" |'''25.5'''
@@ -185,7 +185,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.5
 |-
 |Ipsos<ref>https://www.ipsos.com/sites/default/files/ct/news/documents/2021-05/Vb_rapp_EXT_maj_2021.pdf</ref>
-|11-23 May 2021
+|11–23 May 2021
 |1,548
 |10
 | style="background:#F9BDC5;" |'''26'''
@@ -199,7 +199,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4
 |-
 |Sifo<ref>https://www.svd.se/svd-sifo-c-tar-s-valjare--hogsta-siffran-sedan-valet</ref>
-|3-13 May 2021
+|3–13 May 2021
 |8,964
 |9.6
 | style="background:#F9BDC5;" |'''26.9'''
@@ -241,7 +241,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.6
 |-
 |Sentio<ref>{{Cite news|title=M och SD jämnstora i nya Sentio: ”Väldigt viktigt vilket parti som blir störst”|language=sv|url=https://nyheteridag.se/plus/m-och-sd-jamnstora-i-nya-sentio-valdigt-viktigt-vilket-parti-som-blir-storst/|access-date=2021-04-29}}</ref>
-|23-26 Apr 2021
+|23–26 Apr 2021
 |–
 |10.2
 | style="background:#F9BDC5;" |'''25.4'''
@@ -255,7 +255,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4.0
 |-
 |Ipsos<ref>{{Cite news|date=2021-04-28|title=DN/Ipsos: Inget lyft för Liberalerna efter nya linjen|language=sv|url=https://www.dn.se/sverige/dn-ipsos-inget-lyft-for-liberalerna-efter-nya-linjen/|access-date=2021-04-28}}</ref>
-|13-25 Apr 2021
+|13–25 Apr 2021
 |2,055
 |10
 | style="background:#F9BDC5;" |'''26'''
@@ -269,7 +269,7 @@
 |style="background:{{Swedish Social Democratic Party/meta/color}};color:white;" |4
 |-
 |Sifo<ref>{{Cite news|date=2021-04-16|title=VÄLJARBAROMETERN APRIL 2021|language=sv|url=https://www.kantarsifo.se/rapporter-undersokningar/valjarbarometern-april-2021|access-date=2021-04-28}}</ref>
-|5-15 Apr 2021
+|5–15 Apr 2021
 |6,796
 |9.4
 | style="background:#F9BDC5;" |'''27.8'''

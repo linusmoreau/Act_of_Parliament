@@ -6,6 +6,8 @@
 ! style="width:60px;"| [[Communist Party of the Russian Federation|CPRF]]
 ! style="width:60px;"| [[Liberal Democratic Party of Russia|LDPR]]
 ! style="width:60px;"| [[A Just Russia — Patriots — For Truth|SRZP]]{{refn|group=a|name=SRPZP|A Just Russia (JR) before 22 February 2021}}
+![[Yabloko]]
+![[Russian Party of Pensioners for Social Justice|RPPSJ]]
 !style="width:60px;" rowspan=2|Other
 !style="width:60px;" rowspan=2|Undecided
 !style="width:60px;" rowspan=2|Abstention
@@ -15,283 +17,393 @@
 |bgcolor={{Communist Party of the Russian Federation/meta/color}}|
 |bgcolor={{Liberal Democratic Party of Russia/meta/color}}|
 |bgcolor={{A Just Russia/meta/color}}|
+|bgcolor={{Yabloko/meta/color}}|
+|bgcolor={{Russian Party of Pensioners for Social Justice/meta/color}}|
 |-
 |4 July
 |[https://media.fom.ru/fom-bd/d26pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''30%'''||'''11%'''||'''10%'''||'''7%'''||6%||17%||18%
+|style="background:#B3E0FF" |'''30%'''||'''11%'''||'''10%'''||'''7%'''||1%||1%||6%||17%||18%
 |style="background:#0C2C84; color:white;"|19%
 |-
 |4 July
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''28.7%'''||'''14.0%'''||'''10.9%'''||'''7.2%'''||13.0%||13.6%||10.7%
+|style="background:#B3E0FF" |'''28.7%'''||'''14.0%'''||'''10.9%'''||'''7.2%'''
+| -
+| -||13.0%||13.6%||10.7%
 |style="background:#0C2C84; color:white;"|14.7%
 |-
 |30 June
-|[https://kprf.ru/activity/elections/203652.html CIPKR]
-| style="background:#B3E0FF" |'''20%'''||'''13%'''||'''11%'''||'''7%'''||25%||10%||14%
-| style="background:#0C2C84; color:white;" |7%
+|[https://twitter.com/EuropeElects/status/1415950755584958465 CIPKR]
+| style="background:#B3E0FF" |'''25%'''||'''16%'''||'''14%'''||'''9%'''||''''5%'''||'''7%'''
+||12%||16%||2%
+| style="background:#0C2C84; color:white;" |9%
 |-
 |27 June
 |[https://media.fom.ru/fom-bd/d25pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''29%'''||'''13%'''||'''11%'''||'''8%'''||7%||16%||15%
-|style="background:#0C2C84; color:white;"|16%
+| style="background:#B3E0FF" |'''29%'''||'''13%'''||'''11%'''||'''8%'''||1%||1%||7%||16%||15%
+| style="background:#0C2C84; color:white;" |16%
 |-
 |27 June
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''28.7%'''||'''13.9%'''||'''10.7%'''||'''7.1%'''||13.4%||12.9%||11.2%
-|style="background:#0C2C84; color:white;"|14.8%
+| style="background:#B3E0FF" |'''28.7%'''||'''13.9%'''||'''10.7%'''||'''7.1%'''
+| -
+| -||13.4%||12.9%||11.2%
+| style="background:#0C2C84; color:white;" |14.8%
 |-
 |20 June
 |[https://media.fom.ru/fom-bd/d24pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''11%'''||'''8%'''||8%||17%||11%
-|style="background:#0C2C84; color:white;"|20%
+| style="background:#B3E0FF" |'''32%'''||'''12%'''||'''11%'''||'''8%'''
+|2%
+|1%||8%||17%||11%
+| style="background:#0C2C84; color:white;" |20%
 |-
 |20 June
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.4%'''||'''11.9%'''||'''10.0%'''||'''7.8%'''||13.3%||13.7%||10.7%
-|style="background:#0C2C84; color:white;"|18.5%
+| style="background:#B3E0FF" |'''30.4%'''||'''11.9%'''||'''10.0%'''||'''7.8%'''
+| -
+| -||13.3%||13.7%||10.7%
+| style="background:#0C2C84; color:white;" |18.5%
 |-
 |13 June
 |[https://media.fom.ru/fom-bd/d23pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''11%'''||'''10%'''||'''7%'''||8%||17%||14%
-|style="background:#0C2C84; color:white;"|21%
+| style="background:#B3E0FF" |'''32%'''||'''11%'''||'''10%'''||'''7%'''
+|2%
+|1%||8%||17%||14%
+| style="background:#0C2C84; color:white;" |21%
 |-
 |13 June
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.5%'''||'''12.0%'''||'''10.4%'''||'''7.7%'''||13.0%||13.5%||10.7%
-|style="background:#0C2C84; color:white;"|18.5%
+| style="background:#B3E0FF" |'''30.5%'''||'''12.0%'''||'''10.4%'''||'''7.7%'''
+| -
+| -||13.0%||13.5%||10.7%
+| style="background:#0C2C84; color:white;" |18.5%
 |-
 |6 June
 |[https://media.fom.ru/fom-bd/d22pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''10%'''||'''10%'''||'''6%'''||7%||16%||17%
-|style="background:#0C2C84; color:white;"|21%
+| style="background:#B3E0FF" |'''31%'''||'''10%'''||'''10%'''||'''6%'''
+|1%
+|1%||7%||16%||17%
+| style="background:#0C2C84; color:white;" |21%
 |-
 |6 June
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.6%'''||'''12.7%'''||'''10.8%'''||'''7.6%'''||13.1%||12.9%||10.0%
-|style="background:#0C2C84; color:white;"|17.9%
+| style="background:#B3E0FF" |'''30.6%'''||'''12.7%'''||'''10.8%'''||'''7.6%'''
+| -
+| -||13.1%||12.9%||10%
+| style="background:#0C2C84; color:white;" |17.9%
+|-
+|31 May 
+|[https://twitter.com/EuropeElects/status/1413508927795253253 CIPKR]
+| style="background:#B3E0FF" |'''31%'''||'''12%'''||'''10%'''||'''8%'''||2%||'''6%'''
+||24%||10%||10%
+| style="background:#0C2C84; color:white;" |16%
 |-
 |30 May
 |[https://media.fom.ru/fom-bd/d21pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''11%'''||'''11%'''||'''8%'''||6%||16%||14%
-|style="background:#0C2C84; color:white;"|21%
+| style="background:#B3E0FF" |'''32%'''||'''11%'''||'''11%'''||'''8%'''
+|1%
+|1%||6%||16%||14%
+| style="background:#0C2C84; color:white;" |21%
 |-
 |30 May
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.7%'''||'''13.2%'''||'''10.2%'''||'''7.3%'''||12.8%||14.1%||10.7%
-|style="background:#0C2C84; color:white;"|16.5%
+| style="background:#B3E0FF" |'''29.7%'''||'''13.2%'''||'''10.2%'''||'''7.3%'''
+| -
+| -||12.8%||14.1%||10.7%
+| style="background:#0C2C84; color:white;" |16.5%
 |-
 |23 May
 |[https://media.fom.ru/fom-bd/d20pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||'''8%'''||7%||17%||10%
-|style="background:#0C2C84; color:white;"|20%
+| style="background:#B3E0FF" |'''33%'''||'''13%'''||'''11%'''||'''8%'''
+|1%
+|1%||7%||17%||10%
+| style="background:#0C2C84; color:white;" |20%
 |-
 |23 May
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.5%'''||'''12.7%'''||'''10.2%'''||'''7.8%'''||13.4%||13.5%||10.7%
-|style="background:#0C2C84; color:white;"|16.8%
+| style="background:#B3E0FF" |'''29.5%'''||'''12.7%'''||'''10.2%'''||'''7.8%'''
+| -
+| -||13.4%||13.5%||10.7%
+| style="background:#0C2C84; color:white;" |16.8%
 |-
 |16 May
 |[https://media.fom.ru/fom-bd/d19pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''11%'''||'''7%'''||7%||17%||13%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''31%'''||'''12%'''||'''11%'''||'''7%'''
+|1%
+|1%||7%||17%||13%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |16 May
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.4%'''||'''12.1%'''||'''10.5%'''||'''7.7%'''||11.5%||14.9%||10.9%
-|style="background:#0C2C84; color:white;"|18.3%
+| style="background:#B3E0FF" |'''30.4%'''||'''12.1%'''||'''10.5%'''||'''7.7%'''
+| -
+| -||11.5%||14.9%||10.9%
+| style="background:#0C2C84; color:white;" |18.3%
 |-
 |8 May
 |[https://media.fom.ru/fom-bd/d18pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''30%'''||'''11%'''||'''11%'''||'''7%'''||7%||17%||16%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''30%'''||'''11%'''||'''11%'''||'''7%'''
+|1%
+|1%||7%||17%||16%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |8 May
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.6%'''||'''12.2%'''||'''10.7%'''||'''7.4%'''||13.1%||14.2%||10.6%
-|style="background:#0C2C84; color:white;"|17.4%
+| style="background:#B3E0FF" |'''29.6%'''||'''12.2%'''||'''10.7%'''||'''7.4%'''
+| -
+| -||13.1%||14.2%||10.6%
+| style="background:#0C2C84; color:white;" |17.4%
 |-
 |2 May
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.5%'''||'''12.2%'''||'''11.2%'''||'''7.1%'''||12.8%||13.9%||10.2%
-|style="background:#0C2C84; color:white;"|18.3%
+| style="background:#B3E0FF" |'''30.5%'''||'''12.2%'''||'''11.2%'''||'''7.1%'''
+| -
+| -||12.8%||13.9%||10.2%
+| style="background:#0C2C84; color:white;" |18.3%
 |-
 |25 April
 |[https://media.fom.ru/fom-bd/d18pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''33%'''||'''12%'''||'''10%'''||'''7%'''||6%||18%||13%
-|style="background:#0C2C84; color:white;"|21%
+| style="background:#B3E0FF" |'''33%'''||'''12%'''||'''10%'''||'''7%'''
+|1%
+|1%||6%||18%||13%
+| style="background:#0C2C84; color:white;" |21%
 |-
 |25 April
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.0%'''||'''12.2%'''||'''10.3%'''||'''7.4%'''||13.1%||14.9%||9.9%
-|style="background:#0C2C84; color:white;"|17.8%
+| style="background:#B3E0FF" |'''30.0%'''||'''12.2%'''||'''10.3%'''||'''7.4%'''
+| -
+| - ||13.1%||14.9%||9.9%
+| style="background:#0C2C84; color:white;" |17.8%
 |-
 |24 April
-|colspan=9|'''[[Gennady Zyuganov]] is re-elected as the leader of the [[Communist Party of the Russian Federation|Communist Party]]'''
+| colspan="11" |'''[[Gennady Zyuganov]] is re-elected as the leader of the [[Communist Party of the Russian Federation|Communist Party]]'''
 |-
 |18 April
 |[https://media.fom.ru/fom-bd/d15pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''13%'''||'''11%'''||'''8%'''||8%||18%||9%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''32%'''||'''13%'''||'''11%'''||'''8%'''
+|1%
+|1%||8%||18%||9%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |18 April
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.1%'''||'''12.9%'''||'''10.3%'''||'''7.6%'''||13.2%||14.4%||10.2%
-|style="background:#0C2C84; color:white;"|16.2%
+| style="background:#B3E0FF" |'''29.1%'''||'''12.9%'''||'''10.3%'''||'''7.6%'''
+| -
+| - ||13.2%||14.4%||10.2%
+| style="background:#0C2C84; color:white;" |16.2%
 |-
 |11 April
 |[https://media.fom.ru/fom-bd/d14pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''10%'''||'''7%'''||7%||17%||12%
-|style="background:#0C2C84; color:white;"|20%
+| style="background:#B3E0FF" |'''32%'''||'''12%'''||'''10%'''||'''7%'''
+|1%
+| 1%||7%||17%||12%
+| style="background:#0C2C84; color:white;" |20%
 |-
 |11 April
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.4%'''||'''13.0%'''||'''10.7%'''||'''7.7%'''||12.4%||14.5%||10.2%
-|style="background:#0C2C84; color:white;"|16.4%
+| style="background:#B3E0FF" |'''29.4%'''||'''13.0%'''||'''10.7%'''||'''7.7%'''
+| -
+| - ||12.4%||14.5%||10.2%
+| style="background:#0C2C84; color:white;" |16.4%
 |-
 |4 April
 |[https://media.fom.ru/fom-bd/d13pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''9%'''||'''7%'''||6%||16%||16%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''31%'''||'''12%'''||'''9%'''||'''7%'''
+|1%
+|1% ||6%||16%||16%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |4 April
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.2%'''||'''12.7%'''||'''10.2%'''||'''7.9%'''||13.2%||14.6%||10.2%
-|style="background:#0C2C84; color:white;"|16.5%
+| style="background:#B3E0FF" |'''29.2%'''||'''12.7%'''||'''10.2%'''||'''7.9%'''
+| -
+| - ||13.2%||14.6%||10.2%
+| style="background:#0C2C84; color:white;" |16.5%
 |-
 |28 March
 |[https://media.fom.ru/fom-bd/d12pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''11%'''||'''7%'''||7%||17%||13%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''31%'''||'''12%'''||'''11%'''||'''7%'''
+|1%
+|1% ||7%||17%||13%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |28 March
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.3%'''||'''12.4%'''||'''10.3%'''||'''6.9%'''||12.9%||15.0%||10.1%
-|style="background:#0C2C84; color:white;"|17.9%
+| style="background:#B3E0FF" |'''30.3%'''||'''12.4%'''||'''10.3%'''||'''6.9%'''
+| -
+| - ||12.9%||15.0%||10.1%
+| style="background:#0C2C84; color:white;" |17.9%
 |-
 |22 March
 |[https://www.vedomosti.ru/politics/articles/2021/03/23/862834-polgoda-viborov Insomar]
-|style="background:#B3E0FF" |'''33%'''||'''16%'''||'''9%'''||'''8%'''||9%||19%||15%
-|style="background:#0C2C84; color:white;"|17%
+| style="background:#B3E0FF" |'''33%'''||'''16%'''||'''9%'''||'''8%'''
+|4%
+|4% ||9%||19%||15%
+| style="background:#0C2C84; color:white;" |17%
 |-
 |21 March
 |[https://media.fom.ru/fom-bd/d11pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''11%'''||'''8%'''||8%||18%||10%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''31%'''||'''12%'''||'''11%'''||'''8%'''
+|1%
+|1% ||8%||18%||10%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |21 March
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.3%'''||'''12.6%'''||'''10.3%'''||'''8.0%'''||13.6%||14.7%||9.6%
-|style="background:#0C2C84; color:white;"|16.7%
+| style="background:#B3E0FF" |'''29.3%'''||'''12.6%'''||'''10.3%'''||'''8.0%'''
+| -
+| - ||13.6%||14.7%||9.6%
+| style="background:#0C2C84; color:white;" |16.7%
 |-
 |14 March
 |[https://media.fom.ru/fom-bd/d10pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''13%'''||'''10%'''||'''7%'''||8%||18%||12%
-|style="background:#0C2C84; color:white;"|18%
+| style="background:#B3E0FF" |'''31%'''||'''13%'''||'''10%'''||'''7%'''
+|1%
+|1% ||8%||18%||12%
+| style="background:#0C2C84; color:white;" |18%
 |-
 |14 March
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''28.7%'''||'''12.5%'''||'''10.8%'''||'''7.3%'''||14.4%||14.5%||10.1%
-|style="background:#0C2C84; color:white;"|16.2%
+| style="background:#B3E0FF" |'''28.7%'''||'''12.5%'''||'''10.8%'''||'''7.3%'''
+| -
+| - ||14.4%||14.5%||10.1%
+| style="background:#0C2C84; color:white;" |16.2%
 |-
 |7 March
 |[https://media.fom.ru/fom-bd/d10pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''12%'''||'''9%'''||'''6%'''||6%||17%||16%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''31%'''||'''12%'''||'''9%'''||'''6%'''
+|1%
+|1% ||6%||17%||16%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |7 March
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.3%'''||'''12.3%'''||'''10.8%'''||'''8.2%'''||12.2%||14.0%||10.2%
-|style="background:#0C2C84; color:white;"|18.0%
+| style="background:#B3E0FF" |'''30.3%'''||'''12.3%'''||'''10.8%'''||'''8.2%'''
+| -
+| - ||12.2%||14.0%||10.2%
+| style="background:#0C2C84; color:white;" |18.0%
 |-
 |28 February
 |[https://media.fom.ru/fom-bd/d08pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''9%'''||'''6%'''||7%||18%||15%
-|style="background:#0C2C84; color:white;"|20%
+| style="background:#B3E0FF" |'''32%'''||'''12%'''||'''9%'''||'''6%'''
+|1%
+|1% ||7%||18%||15%
+| style="background:#0C2C84; color:white;" |20%
 |-
 |28 February
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.4%'''||'''12.4%'''||'''10.1%'''||'''8.4%'''||12.9%||14.7%||10.3%
-|style="background:#0C2C84; color:white;"|17.0%
+| style="background:#B3E0FF" |'''29.4%'''||'''12.4%'''||'''10.1%'''||'''8.4%'''
+| -
+| - ||12.9%||14.7%||10.3%
+| style="background:#0C2C84; color:white;" |17.0%
 |-
 |24 February
 |[https://www.levada.ru/2021/03/11/elektoralnye-rejtingi-partij-5/ Levada Center]
-|style="background:#B3E0FF" |'''27%'''||'''10%'''||'''12%'''||'''5%'''||8%||15%||21%
-|style="background:#0C2C84; color:white;"|15%
+| style="background:#B3E0FF" |'''27%'''||'''10%'''||'''12%'''||'''5%'''
+|1%
+|1% ||8%||15%||21%
+| style="background:#0C2C84; color:white;" |15%
 |-
 |22 February
-|colspan=9|'''[[Sergey Mironov]] is elected as the leader of the [[A Just Russia — Patriots — For Truth]]'''
+| colspan="11" |'''[[Sergey Mironov]] is elected as the leader of the [[A Just Russia — Patriots — For Truth]]'''
 |-
 |21 February
 |[https://media.fom.ru/fom-bd/d07pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''30%'''||'''13%'''||'''10%'''||'''7%'''||7%||19%||11%
-|style="background:#0C2C84; color:white;"|17%
+| style="background:#B3E0FF" |'''30%'''||'''13%'''||'''10%'''||'''7%'''
+|2%
+|1% ||7%||19%||11%
+| style="background:#0C2C84; color:white;" |17%
 |-
 |21 February
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''29.8%'''||'''12.2%'''||'''10.2%'''||'''7.1%'''||13.7%||14.9%||10.2%
-|style="background:#0C2C84; color:white;"|17.6%
+| style="background:#B3E0FF" |'''29.8%'''||'''12.2%'''||'''10.2%'''||'''7.1%'''
+| -
+| - ||13.7%||14.9%||10.2%
+| style="background:#0C2C84; color:white;" |17.6%
 |-
 |14 February
 |[https://media.fom.ru/fom-bd/d06pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''30%'''||'''12%'''||'''10%'''||'''7%'''||8%||20%||11%
-|style="background:#0C2C84; color:white;"|18%
+| style="background:#B3E0FF" |'''30%'''||'''12%'''||'''10%'''||'''7%'''
+|2%
+|1% ||8%||20%||11%
+| style="background:#0C2C84; color:white;" |18%
 |-
 |14 February
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.2%'''||'''11.6%'''||'''10.8%'''||'''7.4%'''||12.3%||15.4%||10.1%
-|style="background:#0C2C84; color:white;"|18.6%
+| style="background:#B3E0FF" |'''30.2%'''||'''11.6%'''||'''10.8%'''||'''7.4%'''
+| -
+| - ||12.3%||15.4%||10.1%
+| style="background:#0C2C84; color:white;" |18.6%
 |-
 |7 February
 |[https://media.fom.ru/fom-bd/d05pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''29%'''||'''10%'''||'''9%'''||'''6%'''||7%||18%||18%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''29%'''||'''10%'''||'''9%'''||'''6%'''
+|1%
+|1% ||7%||18%||18%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |7 February
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''31.0%'''||'''11.1%'''||'''9.6%'''||'''6.6%'''||13.5%||16.2%||10.1%
-|style="background:#0C2C84; color:white;"|19.9%
+| style="background:#B3E0FF" |'''31.0%'''||'''11.1%'''||'''9.6%'''||'''6.6%'''
+| -
+| - ||13.5%||16.2%||10.1%
+| style="background:#0C2C84; color:white;" |19.9%
 |-
 |31 January
 |[https://media.fom.ru/fom-bd/d04pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''31%'''||'''10%'''||'''9%'''||'''7%'''||7%||20%||15%
-|style="background:#0C2C84; color:white;"|21%
+| style="background:#B3E0FF" |'''31%'''||'''10%'''||'''9%'''||'''7%'''
+|1%
+|1% ||7%||20%||15%
+| style="background:#0C2C84; color:white;" |21%
 |-
 |31 January
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.9%'''||'''11.2%'''||'''10.6%'''||'''6.2%'''||12.9%||15.9%||10.4%
-|style="background:#0C2C84; color:white;"|19.7%
+| style="background:#B3E0FF" |'''30.9%'''||'''11.2%'''||'''10.6%'''||'''6.2%'''
+| -
+| - ||12.9%||15.9%||10.4%
+| style="background:#0C2C84; color:white;" |19.7%
 |-
 |24 January
 |[https://media.fom.ru/fom-bd/d3pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''11%'''||'''11%'''||'''6%'''||7%||19%||12%
-|style="background:#0C2C84; color:white;"|21%
+| style="background:#B3E0FF" |'''32%'''||'''11%'''||'''11%'''||'''6%'''
+|1%
+|1% ||7%||19%||12%
+| style="background:#0C2C84; color:white;" |21%
 |-
 |24 January
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''30.6%'''||'''11.9%'''||'''10.9%'''||'''7.0%'''||12.7%||14.7%||10.5%
-|style="background:#0C2C84; color:white;"|18.7%
+| style="background:#B3E0FF" |'''30.6%'''||'''11.9%'''||'''10.9%'''||'''7.0%'''
+| -
+| - ||12.7%||14.7%||10.5%
+| style="background:#0C2C84; color:white;" |18.7%
 |-
 |20 January
-|colspan=9|'''[[Sergey Mironov]] announced the merger of [[A Just Russia]], [[Patriots of Russia]] and [[For Truth]] parties.'''
+| colspan="11" |'''[[Sergey Mironov]] announced the merger of [[A Just Russia]], [[Patriots of Russia]] and [[For Truth]] parties.'''
 |-
 |17 January
 |[https://media.fom.ru/fom-bd/d2pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''32%'''||'''12%'''||'''13%'''||'''5%'''||7%||18%||12%
-|style="background:#0C2C84; color:white;"|19%
+| style="background:#B3E0FF" |'''32%'''||'''12%'''||'''13%'''||'''5%'''
+|1%
+|1% ||7%||18%||12%
+| style="background:#0C2C84; color:white;" |19%
 |-
 |17 January
 |[https://wciom.ru/ratings/reiting-politicheskikh-partii/ WCIOM]
-|style="background:#B3E0FF" |'''31.0%'''||'''13.0%'''||'''11.9%'''||'''6.6%'''||13.2%||13.4%||9.4%
-|style="background:#0C2C84; color:white;"|18%
+| style="background:#B3E0FF" |'''31.0%'''||'''13.0%'''||'''11.9%'''||'''6.6%'''
+| -
+| - ||13.2%||13.4%||9.4%
+| style="background:#0C2C84; color:white;" |18%
 |-
 |10 January
 |[https://media.fom.ru/fom-bd/d1pi2021.pdf FOM]
-|style="background:#B3E0FF" |'''28%'''||'''12%'''||'''11%'''||4%||16%||17%||10%
-|style="background:#0C2C84; color:white;"|16%
+| style="background:#B3E0FF" |'''28%'''||'''12%'''||'''11%'''||4%
+| -
+| - ||16%||17%||10%
+| style="background:#0C2C84; color:white;" |16%
 |-
-|style="background:#D5D5D5"|{{nowrap|''18 September 2016''}}
-|style="background:#D5D5D5"|{{nowrap|''[[2016 Russian legislative election|Election result]]''}}
-|style="background:#B3E0FF" |'''''54.20%'''''||style="background:#D5D5D5"|'''''13.34%'''''||style="background:#D5D5D5"|'''''13.14%'''''||style="background:#D5D5D5"|'''''6.60%'''''{{refn|group=a|name=SRPZP2|Including the results of A Just Russia — 6.22% and Patriots of Russia — 0.38%}}||style="background:#D5D5D5"|''11.23%''||style="background:#D5D5D5"| ||style="background:#D5D5D5"|
-|style="background:#0C2C84; color:white;"|''40.86%''
+| style="background:#D5D5D5" |{{nowrap|''18 September 2016''}}
+| style="background:#D5D5D5" |{{nowrap|''[[2016 Russian legislative election|Election result]]''}}
+| style="background:#B3E0FF" |'''''54.20%'''''|| style="background:#D5D5D5" |'''''13.34%'''''|| style="background:#D5D5D5" |'''''13.14%'''''|| style="background:#D5D5D5" |'''''6.60%'''''{{refn|group=a|name=SRPZP2|Including the results of A Just Russia — 6.22% and Patriots of Russia — 0.38%}} || style="background:#D5D5D5" |''1.99%''|| style="background:#D5D5D5" |''1.73%'' || style="background:#D5D5D5" |''7.51%''|| style="background:#D5D5D5" | || style="background:#D5D5D5" |
+| style="background:#0C2C84; color:white;" |''40.86%''
 |}
+{{reflist|group=a}}

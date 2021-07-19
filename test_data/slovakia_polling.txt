@@ -3,7 +3,7 @@
 
 Poll results are listed in the tables below in reverse chronological order, showing the most recent first, and using the date the survey's fieldwork was done, as opposed to the date of publication. If such date is unknown, the date of publication is given instead. The highest percentage figure in each polling survey is displayed in bold, and the background shaded in the leading party's colour. In the instance that there is a tie, then no figure is shaded. The lead column on the right shows the percentage-point difference between the two parties with the highest figures. When a specific poll does not show a data figure for a party, the party's cell corresponding to that poll is shown empty. Agencies FOCUS and AKO can be considered as more trusted and reputable agencies because of their membership in the Slovak Association of Research Agencies<ref>{{Cite web|title=Zoznam členov|url=https://sava.sk/en/clenstvo/zoznam-clenov/|access-date=2021-03-27|language=en-US}}</ref> and European Society for Opinion and Marketing Research.<ref>{{Cite web|title=Member search - ESOMAR|url=https://www.esomar.org/community/our-community/member-search?go=search&newsearch=1&keywords=&country=Slovak+Republic&type=country|access-date=2021-03-27|website=www.esomar.org|language=en}}</ref> Note that although [[Direction – Social Democracy|SMER-SD]] is shown with a solid line on the graph, [[Voice – Social Democracy|HLAS-SD]], which split from SMER-SD, siphoned off a significant amount of the latter's support.
 
-'''Graph: Development of preferences of parliamentary parties and parties that exceed the threshold in the long run'''{{Opinion polling for the next Slovak parliamentary election}}
+{{Opinion polling for the next Slovak parliamentary election}}
 {{Slovak Government % Approval}}
 {|class="wikitable sortable" style="text-align:center; font-size:90%; line-height:14px;"
 |- style="font-size:95%";
@@ -54,8 +54,30 @@ Poll results are listed in the tables below in reverse chronological order, show
 !style="background:{{Voice – Social Democracy/meta/color}}; width:40px;"|
 !style="background:{{REPUBLIC (Slovakia)/meta/color}}; width:40px;"|
 |-
+|6–12 Jul 2021
+|AKO{{Ref|https://ako.sk/wp-content/uploads/2021/07/AKO_VOLEBNE_PREF_JUL_2021.pdf}}
+|1,000
+|8.8%
+|10.9%
+|7.8%
+|3.5%
+|8.4%
+|1.9%
+|13.8%
+|3.1%
+|6.2%
+|0.7%
+| colspan="3" | 4.3%
+|3.4%
+|1.9%
+| style="background:#f5a9ba" |'''20.8%'''
+|3.8%
+| style="background:#B42846; " | '''7.0%'''
+|-
+|data-sort-value="2021-04-01"|7 Jul 2021|| colspan="20" |Judgment of the [[Constitutional Court of Slovakia|Constitutional Court]] rejecting the realization of the opposition [[Slovak snap election referendum (2021)|snap election referendum]] due to unconstitutionality{{Ref|https://domov.sme.sk/c/22697129/referendum-predcasne-volby-ustavny-sud-rozhodnutie.html}}
+|-
 |7–11 Jun 2021
-|AKO
+|AKO{{Ref|https://ako.sk/wp-content/uploads/2021/06/ag.AKO_VOLEBNE_PREF_JUN-_2021.pdf}}
 |1,000
 |9.0%
 |10.6%
@@ -75,7 +97,7 @@ Poll results are listed in the tables below in reverse chronological order, show
 | style="background:#B42846; " | '''7.1%'''
 |-
 |2–9 Jun 2021
-|Focus
+|Focus{{Ref|https://www.focus-research.sk/files/n282_Volebne%20preferencie%20politickych%20stran_jun%202021.pdf}}
 |1,011
 |8.2%
 |12.0%
@@ -95,7 +117,7 @@ Poll results are listed in the tables below in reverse chronological order, show
 | style="background:#B42846; " | '''8.8%'''
 |-
 |data-sort-value="2021-05-19"|11–19 May 2021
-|Focus
+|Focus{{Ref|https://www.focus-research.sk/files/n281_Volebne%20preferencie%20politickych%20stran_maj%202021.pdf}}
 |1,008
 |8.8%
 |11.8%

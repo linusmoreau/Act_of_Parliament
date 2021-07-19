@@ -1,7 +1,7 @@
 ====Voting intention estimates====
 The table below lists nationwide voting intention estimates. Refusals are generally excluded from the party vote percentages, while question wording and the treatment of "don't know" responses and those not intending to vote may vary between polling organisations. When available, seat projections are displayed below the percentages in a smaller font. 176 seats are required for an [[absolute majority]] in the [[Congress of Deputies]].
 
-{| class="wikitable mw-datatable collapsible" style="text-align:center; font-size:95%; line-height:16px;"
+{| class="wikitable mw-datatable collapsible poll-results" style="text-align:center; font-size:95%; line-height:16px;"
 |- style="height:42px; background-color:#E9E9E9"
 ! style="width:250px;" rowspan="2"| Polling firm/Commissioner
 ! style="width:125px;" rowspan="2"| Fieldwork date
@@ -39,6 +39,90 @@ The table below lists nationwide voting intention estimates. Refusals are genera
 ! style="background:{{Galician Nationalist Bloc/meta/color}};"|
 ! style="background:{{Navarra Suma/meta/color}};"|
 ! style="background:{{Regionalist Party of Cantabria/meta/color}};"|
+|-
+| Data10/OKDiario<ref>{{cite web |title=Fracaso estrepitoso de la remodelación de Gobierno de Sánchez: PP y VOX confirman su mayoría absoluta |url=https://okdiario.com/espana/fracaso-estrepitoso-remodelacion-gobierno-sanchez-pp-vox-confirman-mayoria-absoluta-7532226 |language=es |work=OKDiario |date=18 July 2021}}</ref>
+| 16–17 Jul 2021
+| 1,000
+|?
+| 24.5<br/>{{font|size=75%|font=Verdana|text=97}}
+| {{Party shading/PP}}| '''30.3'''<br/>{{font|size=75%|font=Verdana|text=133}}
+| 15.4<br/>{{font|size=75%|font=Verdana|text=49}}
+| 9.0<br/>{{font|size=75%|font=Verdana|text=17}}
+| 2.3<br/>{{font|size=75%|font=Verdana|text=1}}
+| 3.4<br/>{{font|size=75%|font=Verdana|text=13}}
+| 4.9<br/>{{font|size=75%|font=Verdana|text=10}}
+| 2.3<br/>{{font|size=75%|font=Verdana|text=10}}
+| 1.7<br/>{{font|size=75%|font=Verdana|text=7}}
+| 1.1<br/>{{font|size=75%|font=Verdana|text=5}}
+| 0.8<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.5<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.6<br/>{{font|size=75%|font=Verdana|text=1}}
+| 0.4<br/>{{font|size=75%|font=Verdana|text=3}}
+| 0.3<br/>{{font|size=75%|font=Verdana|text=1}}
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 5.8
+|-
+| NC Report/La Razón<ref>{{cite web |title=Sánchez frena la caída tras la remodelación del Gobierno |url=https://www.larazon.es/espana/20210719/nxfzud36sfeibaeprsbcommxni.html |language=es |work=La Razón |date=19 July 2021}}</ref>
+| 16 Jul 2021
+| 1,000
+|?
+| 25.9<br/>{{font|size=75%|font=Verdana|text=101/103}}
+| {{Party shading/PP}}| '''29.8'''<br/>{{font|size=75%|font=Verdana|text=126/128}}
+| 15.3<br/>{{font|size=75%|font=Verdana|text=50/52}}
+| 9.2<br/>{{font|size=75%|font=Verdana|text=20/22}}
+| 2.7<br/>{{font|size=75%|font=Verdana|text=1}}
+| 3.3<br/>{{font|size=75%|font=Verdana|text=13}}
+| 3.7<br/>{{font|size=75%|font=Verdana|text=6}}
+| 2.4<br/>{{font|size=75%|font=Verdana|text=9}}
+| 1.6<br/>{{font|size=75%|font=Verdana|text=6}}
+| 1.2<br/>{{font|size=75%|font=Verdana|text=5}}
+| –
+| –
+| –
+| –
+| –
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 3.9
+|-
+| Invymark/laSexta<ref>{{cite web |title=Barómetro laSexta. El PSOE recorta distancias con el PP, que mantiene la mayor intención de voto |url=https://www.lasexta.com/noticias/nacional/barometro-lasexta-psoe-recorta-distancias-que-mantiene-mayor-intencion-voto_2021071860f419bedf51de0001def615.html |language=es |work=laSexta |date=19 July 2021}}</ref>
+| 12–16 Jul 2021
+|?
+|?
+| 26.2
+| {{Party shading/PP}}| '''28.0'''
+| 17.7
+| 9.3
+| 1.4
+| –
+| 4.5
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| style="background:{{People's Party (Spain)/meta/color}}; color:white;"| 1.8
+|-
+| GESOP/El Periódico<ref>{{cite web |title=Encuesta elecciones generales España: El nuevo Gobierno echa a andar con el PP pisándole los talones |url=https://www.elperiodico.com/es/politica/20210718/encuesta-elecciones-generales-espana-nuevo-gobierno-11919308 |language=es |work=El Periódico de Catalunya |date=18 July 2021}}</ref>
+| 14–15 Jul 2021
+| 802
+|?
+| {{Party shading/PSOE}}| '''27.3'''<br/>{{font|size=75%|font=Verdana|text=118/120}}
+| 26.0<br/>{{font|size=75%|font=Verdana|text=116/118}}
+| 13.1<br/>{{font|size=75%|font=Verdana|text=40/42}}
+| 10.0<br/>{{font|size=75%|font=Verdana|text=24/26}}
+| 3.9<br/>{{font|size=75%|font=Verdana|text=2/3}}
+| 3.4<br/>{{font|size=75%|font=Verdana|text=12/14}}
+| 3.8<br/>{{font|size=75%|font=Verdana|text=4/6}}
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| –
+| style="background:{{Spanish Socialist Workers' Party/meta/color}}; color:white;"| 1.3
 |-
 | ElectoPanel/Electomanía<ref>{{cite web |title=ElectoPanel (11J): subida del PSOE tras la remodelación ministerial |url=https://electomania.es/ep11jl21/ |language=es |work=Electomanía |date=11 July 2021}}</ref>
 | 8–10 Jul 2021

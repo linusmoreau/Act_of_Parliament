@@ -28,6 +28,22 @@
 ! style="background:#808080;"|
 ! style="background:#568203"|
 |-
+|30 June – 4 July 2021
+|[https://www.ideaintezet.hu/hu/hirek-aktualis/65/listak-versenyeben-a-biztos-szavazoknal-forditott-a-fidesz IDEA]
+|2000
+| style="background:#FFE5B4" |'''47'''
+|15
+|4
+|2
+|15
+|2
+|8
+|3
+|3
+|1
+| style="background:{{Fidesz/meta/color}}; color:white;" |32
+|46
+|-
 |27 May – 8 June 2021
 |[https://www.ideaintezet.hu/hu/hirek-aktualis/63/ellenzeki-vezetes-a-listak-versenyeben------2021--majus-junius/ IDEA]
 |2000

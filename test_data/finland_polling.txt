@@ -28,6 +28,10 @@
 ! data-sort-type="number" style="background:{{Christian Democrats (Finland)/meta/color}};" |
 ! data-sort-type="number" style="background:{{Movement Now/meta/color}};" |
 |-
+|
+| data-sort-value="2021-06-21" | 21 June 2021
+|colspan=10 |'''[[Jussi Halla-aho]] announced that he will retire from his position as a Finns party leader;'''
+|-
 | Taloustutkimus<ref>{{Cite web|url=https://yle.fi/uutiset/3-12011522|title=Ylen eduskuntavaalimittaus: kokoomus ja SDP kärjessä, perussuomalaiset kolmosena – kuntavaalit piristivät hieman keskustaa|first=Jyrki|last=Hara|website=Yle Uutiset|language=fi|access-date=8 July 2021|date=8 July 2021}}</ref>
 | data-sort-value="2021-07-06"| 14 Jun 2020–6 Jul 2021
 | 2,634

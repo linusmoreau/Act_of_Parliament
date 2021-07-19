@@ -22,6 +22,45 @@
 ! style="background:{{The Left (Germany)/meta/color}};"|
 ! style="background:{{Alliance 90/The Greens/meta/color}};"|
 |-
+| [https://www.wahlrecht.de/umfragen/insa.htm INSA]
+| data-sort-value="2021-07-18"| 12–16 Jul 2021
+| 1,354
+| –
+|style="background:#D7D5D7;"| '''28'''
+| 17
+| 11
+| 12
+| 7
+| 18
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [https://www.wahlrecht.de/umfragen/politbarometer.htm Forschungsgruppe Wahlen]
+| data-sort-value="2021-07-16"| 13–15 Jul 2021
+| 1,224
+| 27
+| style="background:#D7D5D7;"|'''30'''
+| 15
+| 10
+| 10
+| 7
+| 20
+| 8
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 10
+|-
+| [https://www.wahlrecht.de/umfragen/emnid.htm Kantar]
+| data-sort-value="2021-07-16"| 7–13 Jul 2021
+| 1,495
+| –
+| style="background:#D7D5D7;"| '''28'''
+| 15
+| 11
+| 11
+| 8
+| 20
+| 7
+| style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"| 8
+|-
 |[https://www.wahlrecht.de/umfragen/insa.htm INSA]
 |data-sort-value="2021-07-12"|9–12 Jul 2021
 |2,087
@@ -34,6 +73,19 @@
 |17
 |7.5
 |style="background:{{CDU/CSU/meta/color}};color:#FFFFFF;"|11
+|-
+|[https://www.wahlrecht.de/umfrage/forsa.htm Forsa]
+|data-sort-value="2021-07-14"|6–12 Jul 2021
+|2,502
+|22
+|style="background:#D7D5D7;"|'''30'''
+|15
+|9
+|12
+|7
+|19
+|8
+|style="background: {{CDU/CSU/meta/color}};color:#FFFFFF;"|11
 |-
 |[https://www.wahlrecht.de/umfragen/insa.htm INSA]
 |data-sort-value="2021-07-11"|5–9 Jul 2021

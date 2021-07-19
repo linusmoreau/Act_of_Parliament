@@ -30,7 +30,7 @@
 |9%
 |5%
 |6%
-|{{Hidden|6%|Other on 6%|headerstyle=font-weight:normal;line-height:9px;}}
+|{{Hidden|6%|[[Plaid Cymru]] on 1%<br/>Other on 5%|headerstyle=font-weight:normal;line-height:9px;}}
 |style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|11%
 |-
 |[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-12-july-2021/ Redfield & Wilton Strategies]
@@ -45,6 +45,33 @@
 |6%
 |{{Hidden|4%|[[Brexit Party|Reform UK]] on 3%<br/>[[Plaid Cymru]] on 0%<br/>Other on 1%|headerstyle=font-weight:normal;line-height:9px;}}
 |style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|8%
+|-
+|[https://www.kantar.com/uki/inspiration/politics/two-thirds-of-brits-think-some-restrictions-should-remain-after-19-july Kantar Public]
+|N/A
+|{{opdrts|7|12|Jul|2021}}
+|GB
+|1,057
+|style="background:#BADEF5;" |'''44%'''
+|31%
+|12%
+|6%
+|4%
+|{{hidden|headerstyle=font-weight:normal;line-height:10px;|4%|[[Reform UK]] on 1%<br/>[[UKIP]] on 1%<br/>[[Plaid Cymru]] on 1%<br/>Other on 1%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|13%
+|-
+|[https://twitter.com/savantacomres/status/1415292951387852800?s=21 SavantaComRes]
+|N/A
+|{{opdrts|9|11|Jul|2021}}
+|UK
+|2,137
+|style="background:#BADEF5;"|'''40%'''
+|35%
+|9%
+|4%
+|6%
+|7%
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|5%
+
 |-
 |[https://www.opinium.com/wp-content/uploads/2021/07/VI-08-07-21-Observer-Tables.xlsx Opinium]
 |''The Observer''
@@ -71,6 +98,19 @@
 |7%
 |{{hidden|headerstyle=font-weight:normal;line-height:9px;|6%|[[Plaid Cymru]] on 1%<br/>[[Reform UK]] on 2%<br/>Other on 3%}}
 |style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|12%
+|-
+|[https://www.ipsos.com/ipsos-mori/en-uk/public-satisfaction-johnson-and-his-government-falls-9-month-low Ipsos MORI] 
+|''Evening Standard''
+|{{opdrts|2|8|Jul|2021}}
+|GB
+|1,053
+|style="background:#BADEF5;"|'''40%'''
+|31%
+|13%
+|6%
+|6%
+|{{hidden|headerstyle=font-weight:normal;line-height:9px;|4%|[[Plaid Cymru]] on 1%<br/>[[UKIP]] on 1%<br/>[[Reform UK]] on 0% <br/>Other on 2%}}
+|style="background:{{Conservative Party (UK)/meta/color}};color:#FFFFFF;"|9%
 |-
 |[https://redfieldandwiltonstrategies.com/latest-gb-voting-intention-5-july-2021/ Redfield & Wilton Strategies]
 |N/A
