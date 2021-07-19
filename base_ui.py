@@ -1669,7 +1669,7 @@ class GraphDisplay(Widget):
         elif place > big:
             place = big
         if place >= 0:
-            x = self.graph_rect.x + self.x_scale * place
+            x = round(self.graph_rect.x + self.x_scale * place)
             y_vals = {}
             for line in self.dat.keys():
                 val = self.get_val(line, place + self.x_min)
@@ -1727,7 +1727,7 @@ class GraphDisplay(Widget):
             else:
                 colour = white
                 orig_colour = colour
-            if not self.intg:
+            if not self.intg and 2 - self.y_mag != 0:
                 txt = str(round(y_val, 2 - self.y_mag))
             else:
                 txt = str(int(round(y_val)))
@@ -1753,7 +1753,7 @@ class GraphDisplay(Widget):
             line_tip.surface.set_alpha(200)
             line_tips.append(line_tip)
 
-            s = Widget((round(x), round(y_pos)), (2 * r + 1, 2 * r + 1), align=CENTER)
+            s = Widget((x, round(y_pos)), (2 * r + 1, 2 * r + 1), align=CENTER)
             s.surface.fill(white)
             s.surface.set_colorkey(white)
             pygame.gfxdraw.aacircle(s.surface, r, r, r, orig_colour)
@@ -1778,7 +1778,7 @@ class GraphDisplay(Widget):
         y_pos = self.rect.y + self.top_margin + self.graph_rect.h / 24
         if self.leader and len(order) >= 2:
             line = order[-1]
-            if self.intg:
+            if self.intg or 2 - self.y_mag == 0:
                 dif = str(round(y_vals[line] - y_vals[order[-2]]))
             else:
                 dif = str(round(y_vals[line] - y_vals[order[-2]], 2 - self.y_mag))
