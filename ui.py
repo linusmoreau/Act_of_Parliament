@@ -1,13 +1,12 @@
 import logic
 import random
 import data
-import threading
-import time
 from base_ui import *
 from collections import OrderedDict
 
 display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
 MENU_WIDTH = screen_width / 4
+pygame.display.set_icon(pygame.transform.scale((pygame.image.load("images/ballot.png")), (32, 32)))
 
 # cursor_size = 20
 # point_pos = int(cursor_size / 3)
@@ -424,7 +423,7 @@ class LoadPopUp(PopUp):
         if type(self.scroll_list).__name__ == "ScrollButtonDisplay":
             for b in self.scroll_list.select_buttons:
                 if b.state == SELECT_STATE:
-                    LoadingScreen(functools.partial(self.loading, b.entry.name))
+                    LoadingScreen(background.copy(), functools.partial(self.loading, b.entry.name))
                     break
 
     def loading(self, name):
@@ -1571,7 +1570,7 @@ class PageTitle:
 
         buttons = ["new game", "load", "credits", "quit"]
         button_functions = {
-            "new game": functools.partial(LoadingScreen, set_up_new_game,
+            "new game": functools.partial(LoadingScreen, background.copy(), set_up_new_game,
                                           threading.Thread(target=logic.init_game, daemon=True)),
             "load": LoadPopUp,
             "credits": make_credits_pop_up,
@@ -1776,7 +1775,7 @@ class ToolBar(Widget):
         img = Image(self.turn_button.rect.center, (self.turn_button.rect.width, self.turn_button.rect.height),
                     "images/forward.png")
         self.turn_button.components.append(img)
-        self.turn_button.callback(functools.partial(LoadingScreen, end_turn,
+        self.turn_button.callback(functools.partial(LoadingScreen, background.copy(), end_turn,
                                   threading.Thread(target=logic.end_turn, daemon=True)))
         self.turn_button.set_tooltip("End Turn")
         self.components.append(self.turn_button)
@@ -1819,41 +1818,8 @@ class ToolBar(Widget):
         self.turn_txt.update("Turn: " + str(data.game_state["turn"]))
         self.date_txt.update(data.game_state["date"].__repr__())
         self.turn_button.reset_callbacks()
-        self.turn_button.callback(functools.partial(LoadingScreen, end_turn,
+        self.turn_button.callback(functools.partial(LoadingScreen, background.copy(), end_turn,
                                   threading.Thread(target=logic.end_turn, daemon=True)))
-
-
-class LoadingScreen(Widget):
-    alpha_rate = 20
-    instances = []
-
-    def __init__(self, func, thread=None):
-        self.func = func
-        self.thread = thread
-        if self.thread is not None:
-            self.thread.start()
-        super().__init__((0, 0), (screen_width, screen_height), surface=background.copy(), appearing=True)
-
-        # loading = Text("Loading...", screen_center, 20)
-        # self.surface.blit(loading.surface, loading.rect)
-        self.show()
-
-    def animate(self):
-        if self.surface.get_alpha() == 255:
-            if self.thread is not None:
-                self.thread.join()
-            self.func()
-            self.disappearing = True
-        super().animate()
-
-    def handle(self, event, mouse):
-        return True
-
-    def show(self):
-        LoadingScreen.instances.append(self)
-
-    def hide(self):
-        LoadingScreen.instances.remove(self)
 
 
 def make_background():
@@ -1959,112 +1925,20 @@ def return_to_menu():
     pages['title'].open_page()
 
 
-def terminate():
-    pygame.quit()
-    raise SystemExit
-
-
 def game_start():
+    def get_all_wids():
+        return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances
+
     data.init()
     logic.all_data.extend(data.containers)
     set_cursor(0)
     pygame.display.set_caption(data.game_title)
-    Music(list(data.soundtrack.keys()))
+    channel = Music(list(data.soundtrack.keys()))
     PageTitle()
     PageSettings()
     get_page('title')
-    game_loop(lock)
-
-
-def update_display(wids):
-    screen.blit(background, (0, 0))
-    for widget in wids:
-        widget.display()
-    pygame.display.update()
-    Widget.change = False
-
-
-def game_loop(lock):
-    global background
-
-    def get_all_wids():
-        return widgets + PopUp.instances + BaseToolTip.instances + LoadingScreen.instances + [fps]
-
-    background = make_background()
-
-    old_mouse = pygame.mouse.get_pos()
-    frame = 0
-    t = time.time()
-    fps = Text('', (0, 0), align=TOPLEFT)
-    while True:
-        mouse = pygame.mouse.get_pos()
-
-        # handle events
-        all_wids = get_all_wids()
-        for event in pygame.event.get():
-            try:
-                isdebug = data.settings['debug']
-            except AttributeError:
-                isdebug = True
-            if event.type == pygame.QUIT or \
-                    (event.type == pygame.KEYUP and event.key == pygame.K_ESCAPE and isdebug):
-                terminate()
-            elif event.type == pygame.USEREVENT:
-                Music.channel.new_track()
-            elif event.type == pygame.KEYDOWN and len(text_capture) > 0:
-                for i in range(len(text_capture)):
-                    if text_capture[-(i + 1)].handle(event, pygame.mouse.get_pos()):
-                        break
-            else:
-                for i in range(len(all_wids)):
-                    if len(all_wids) > i:
-                        w = all_wids[-(i + 1)]
-                        if w.handle(event, mouse):
-                            break
-
-        # animate
-        all_wids = get_all_wids()
-        for widget in all_wids:
-            widget.animate()
-
-        # catch mouse
-        all_wids = get_all_wids()
-        if mouse != old_mouse or Widget.change:
-            for i in range(len(all_wids)):
-                if len(all_wids) > i:
-                    w = all_wids[-(i + 1)]
-                    if w.catch(mouse):
-                        break
-            else:
-                for w in set(widgets):
-                    w.no_focus()
-                if Button.focus is not None:
-                    Button.focus.no_focus()
-                Widget.new_cursor_type = 0
-
-        # check cursor type
-        if Widget.cursor_type != Widget.new_cursor_type:
-            Widget.cursor_type = Widget.new_cursor_type
-            if Widget.cursor_type == 0:
-                set_cursor(0)
-            elif Widget.cursor_type == 1:
-                set_cursor(1)
-
-        # display
-        with lock:
-            all_wids = get_all_wids()
-            if Widget.change:
-                update_display(all_wids)
-            old_mouse = mouse
-
-        frame += 1
-        nt = time.time()
-        dif = nt - t
-        if dif >= 1:
-            fps.update(str(round(frame / dif)) + ' ' + 'FPS', align=BOTTOMRIGHT, pos=screen_rect.bottomright)
-            t = nt
-            frame = 0
-        clock.tick(60)
+    run_loop(lock, get_all_wids, background=make_background(),
+             fps=60, escape=data.settings['debug'], channel=channel)
 
 
 def get_page(page, loc=None):
@@ -2080,7 +1954,3 @@ current_page = None
 page_index = -1
 pages = {}
 background = make_background()
-
-if __name__ == "__main__":
-    game_loop(lock)
-    terminate()

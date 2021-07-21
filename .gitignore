@@ -3,6 +3,5 @@ __pycache__/
 build/
 dist/
 env/
-outdated/
 Act_of_Parliament.spec
 saves/
