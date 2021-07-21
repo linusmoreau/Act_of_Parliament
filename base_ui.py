@@ -1561,9 +1561,13 @@ class GraphDisplay(Widget):
         self.y_mag = int(math.log10(y_range))
         self.y_step = 10 ** self.y_mag
         while y_range / self.y_step < 6:
-            self.y_step /= 2
             if self.y_step >= 1:
-                self.y_step = int(self.y_step)
+                lcf = toolkit.least_prime_factor(self.y_step)
+                self.y_step //= lcf
+                if lcf >= 5:
+                    self.y_step *= 2
+            else:
+                self.y_step /= 2
 
         # Update extrema
         if y_min is None:
@@ -1983,6 +1987,18 @@ class GraphDisplay(Widget):
                     pygame.draw.aaline(self.surface, line_colour,
                                        (points[j][0] + x_offset, points[j][1] + y_offset),
                                        (points[j + 1][0] + x_offset, points[j + 1][1] + y_offset))
+                # if j < len(points) - 2:
+                #     x1 = (points[j][0] + points[j + 1][0]) / 2
+                #     x2 = (points[j + 1][0] + points[j + 2][0]) / 2
+                #     y1 = (points[j][1] + points[j + 1][1]) / 2
+                #     y2 = (points[j + 1][1] + points[j + 2][1]) / 2
+                #     for a in range(num):
+                #         angle = a * 2 * math.pi / num
+                #         x_offset = radial_offset * math.cos(angle)
+                #         y_offset = radial_offset * math.sin(angle)
+                #         pygame.draw.aaline(self.surface, line_colour,
+                #                            (x1 + x_offset, y1 + y_offset),
+                #                            (x2 + x_offset, y2 + y_offset))
 
     def legend(self, order):
         notes = []
