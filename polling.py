@@ -23,40 +23,40 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
             return sum(map(lambda r: r in line, restart))
 
     def isdate(line):
+        if '{{efn' in line:
+            line = line[:line.find('{{efn')]
+        dates = line.split('|')[-1]
+        if '-' in dates:
+            s = dates.split('-')
+        elif '–' in dates:
+            s = dates.split('–')
+        elif '−' in dates:
+            s = dates.split('−')
+        else:
+            s = dates.split('â€“')
+        temp = s[-1].strip()
+        temps = temp.strip().split()
+        if len(temps) == 2:
+            try:
+                y = int(temps[-1])
+                m = temps[0]
+                temp = str(date_kit.get_month_length(date_kit.get_month_number(m), y)) + ' ' + temp
+            except ValueError:
+                temp = temp + ' ' + year
+        elif len(temps) == 1:
+            try:
+                temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
+                       ' ' + temp + ' ' + year
+            except KeyError:
+                return None
+        temp = temp.strip("'")
+        temp = temp.replace('X', '0')
         try:
-            if '{{efn' in line:
-                line = line[:line.find('{{efn')]
-            dates = line.split('|')[-1]
-            if '-' in dates:
-                s = dates.split('-')
-            elif '–' in dates:
-                s = dates.split('–')
-            elif '−' in dates:
-                s = dates.split('−')
-            else:
-                s = dates.split('â€“')
-            temp = s[-1].strip()
-            temps = temp.strip().split()
-            if len(temps) == 2:
-                try:
-                    y = int(temps[-1])
-                    m = temps[0]
-                    temp = str(date_kit.get_month_length(date_kit.get_month_number(m), y)) + ' ' + temp
-                except ValueError:
-                    temp = temp + ' ' + year
-            elif len(temps) == 1:
-                try:
-                    temp = str(date_kit.get_month_length(date_kit.get_month_number(temps[0]), year)) + \
-                           ' ' + temp + ' ' + year
-                except KeyError:
-                    return None
-            temp = temp.strip("'")
-            temp = temp.replace('X', '0')
             end_date = date_kit.Date(text=temp, form='dmy')
-            end = date_kit.date_dif(today, end_date)
-            return end
-        except:
+        except ValueError:
             return None
+        end = date_kit.date_dif(today, end_date)
+        return end
 
     dat: Dict[str, Dict[int, List[float]]] = {}
     rot = None
@@ -121,12 +121,15 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                         i += 1
                     if 'rowspan="2"' in prevline:
                         rot += 1
-                elif choice in ['Italy', 'Cyprus', 'Slovakia', 'Hungary', 'Ireland', 'Russia', 'Japan', 'Ontario']:
+                elif choice in ['Italy', 'Cyprus', 'Slovakia', 'Hungary', 'Ireland', 'Russia', 'Japan', 'Ontario',
+                                'Latvia']:
                     line = prevline
                     if line[0] == '!':
                         rot = None
                         i += 1
                         continue
+                    elif '|' not in line:
+                        line = content[i - 2]
                 elif choice == "Poland":
                     if 'style=' in line:
                         rot = None
@@ -189,7 +192,7 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                             else:
                                 raise KeyError('KeyError getting month length')
                     temp = temp.strip("'")
-                temp = temp.replace('X', '0')
+                temp = temp.replace('X', '0').replace('[', '').replace(']', '')
                 if choice == 'Ontario':
                     end_date = date_kit.Date(text=temp, form='mdy')
                 else:
@@ -265,11 +268,10 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     for p in range(len(temps)):
                         if p >= len(key):
                             break
-                        keep = temps[p].split('|')[-1]
+                        keep = temps[p].split('|')[-1].strip().strip('\'%')
                         try:
-                            share = float(keep.strip().strip('\'%'))
+                            share = float(keep)
                         except ValueError:
-                            print(keep.strip().strip('\'%'))
                             share = None
                         if key[p] not in dat:
                             dat[key[p]] = {}
@@ -284,7 +286,7 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                     temp = temp[:temp.find('{{efn')]
                 if '<br' in line:
                     temp = temp[:temp.find('<br')]
-                elif choice == 'Ireland' and '<ref' in line:
+                if '<ref' in line:
                     temp = temp[:temp.find('<ref')]
                 if choice == 'Japan':
                     temp = temp.split(' ')[-1]
@@ -354,7 +356,7 @@ def read_data(content, key, start, restart, date, choice, include=None, zeros=No
                 normalize = [sum([dat[zero][x][i] if len(dat[zero][x]) > i and dat[zero][x][i] is not None else 0
                                   for zero in zeros])
                              for i in range(len(dat[p][x]))]
-                dat[p][x] = list(map(lambda i, y: (y if y is not None else 0) / (1 - normalize[i] / 100),
+                dat[p][x] = list(map(lambda i, y: (y / (1 - normalize[i] / 100)) if y is not None else None,
                                      range(len(dat[p][x])), dat[p][x]))
     if include is not None:
         dat = {k: v for (k, v) in dat.items() if k in include}
@@ -643,6 +645,31 @@ def choices_setup():
                    'Opinion_polling_for_the_2021_Japanese_general_election&action=edit&section=9',
             'old_data': 'test_data/old_japan_polling.txt'
         },
+        'Latvia': {
+            'key': ['SDPS', 'PCL', 'JKP', 'AP!', 'NA', 'ZZS', 'JV', 'LRA', 'LKS', 'PRO', 'LuK', 'Other', 'Undecided',
+                    'None'],
+            'include': ['SDPS', 'PCL', 'JKP', 'AP!', 'NA', 'ZZS', 'JV', 'LRA', 'LKS', 'PRO', 'LuK'],
+            'col': {'SDPS': (238, 34, 43), 'PCL': (0, 172, 180), 'JKP': (24, 41, 86), 'AP!': (255, 221, 0),
+                    'NA': (147, 35, 48), 'ZZS': (2, 114, 58), 'JV': (106, 182, 71), 'LRA': (14, 50, 103),
+                    'LKS': (53, 96, 169), 'PRO': (230, 70, 50), 'LuK': (36, 28, 36)},
+            'gov': {'Government': ['JKP', 'AP!', 'NA', 'JV'],
+                    'Opposition': ['SDPS', 'ZZS', 'PCL', 'LuK', 'PRO', 'LRA', 'LKS']},
+            'blocs': {'Conservative': ['JKP', 'NA', 'PCL', 'ZZS', 'JV', 'LuK'],
+                      'Socialist': ['SDPS', 'PRO', 'LKS'],
+                      'Liberal': ['LRA', 'AP!']},
+            'zeros': ['Undecided', 'None'],
+            'date': 0,
+            'start': 2,
+            'end_date': Date(2022, 9, 1),
+            'url': 'https://en.wikipedia.org/w/index.php?title='
+                   '2022_Latvian_parliamentary_election&action=edit&section=2',
+            'toggle_seats': True,
+            'seats': 100,
+            'divisor': 2,
+            'method': 'quotient',
+            'threshold': 5,
+            'bar': 0,
+        },
         'Lithuania': {
             'key': ['TS-LKD', 'LVZS', 'DP', 'LSDP', 'Laisves', 'LRLS', 'LLRA', 'LSDDP', 'LCP', 'LT'],
             'col': {'TS-LKD': (0, 165, 155), 'LVZS': (0, 144, 53), 'DP': (29, 87, 140), 'LSDP': (225, 5, 20),
@@ -755,7 +782,13 @@ def choices_setup():
             'end_date': Date(2023, 11, 11),
             'old_data': 'test_data/old_poland_polling.txt',
             'url': 'https://en.wikipedia.org/w/index.php?title='
-                   'Opinion_polling_for_the_next_Polish_parliamentary_election&action=edit&section=3'
+                   'Opinion_polling_for_the_next_Polish_parliamentary_election&action=edit&section=3',
+            'seats': 460,
+            'method': 'quotient',
+            'divisor': 1,
+            'threshold': 5,
+            'bar': 0,
+            'toggle_seats': True
         },
         'Portugal': {
             'key': ['PS', 'PSD', 'BE', 'CDU', 'CDS-PP', 'PAN', 'Chega', 'IL', 'LIVRE'],
@@ -953,9 +986,17 @@ def choice_setting(c):
 
 def filter_nils(dat):
     if dat is not None:
+        remove = {}
         for line, vals in dat.items():
             for x, ys in vals.items():
                 dat[line][x] = list(filter(lambda x: x is not None, ys))
+                if len(dat[line][x]) == 0:
+                    if line not in remove:
+                        remove[line] = []
+                    remove[line].append(x)
+        for line in remove:
+            for x in remove[line]:
+                dat[line].pop(x)
     return dat
 
 
@@ -1160,7 +1201,7 @@ class GraphPage:
             for x in xs:
                 n = max([len(self.dat[p][x]) if x in self.dat[p] else 0 for p in self.dat])
                 for p in self.dat:
-                    if len(self.dat[p][x]) > 0:
+                    if x in self.dat[p] and len(self.dat[p][x]) > 0:
                         seats_dat[p][x] = [0 for _ in range(n)]
                 for i in range(n):
                     shares = {}
@@ -1458,10 +1499,13 @@ def update_data(sel="All"):
                             text.find('!scope="row"| [https://www.filesforprogress.org/datasets/2020/1/'
                                       'dfp_poll_january_ny.pdf Data for Progress (D)]')]
             final = text.encode('utf-8')
-            with open(dest, 'rb') as rf:
-                old_text = rf.read()
-                if old_text != final and tag not in updated:
-                    updated.append(tag)
+            try:
+                with open(dest, 'rb') as rf:
+                    old_text = rf.read()
+                    if old_text != final and tag not in updated:
+                        updated.append(tag)
+            except FileNotFoundError:
+                updated.append(tag)
             with open(dest, 'wb') as wf:
                 wf.write(final)
         except urllib.error.URLError:
