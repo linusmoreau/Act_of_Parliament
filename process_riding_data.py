@@ -50,7 +50,7 @@ def write_to_file(data, candidates):
 
 
 if __name__ == '__main__':
-    with open('test_data/canada_2019_by_riding.txt', 'r', encoding='utf-8') as f:
+    with open('data/canada_2019_by_riding.txt', 'r', encoding='utf-8') as f:
         content = f.readlines()
     candidates = ['LIB', 'CON', 'NDP', 'BQ', 'GRN', 'PPC', 'IND']
     write_to_file(process_file(content, candidates), candidates)
