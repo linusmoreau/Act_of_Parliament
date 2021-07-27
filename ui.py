@@ -6,7 +6,6 @@ from collections import OrderedDict
 
 display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
 MENU_WIDTH = screen_width / 4
-pygame.display.set_icon(pygame.transform.scale((pygame.image.load("images/ballot.png")), (32, 32)))
 
 # cursor_size = 20
 # point_pos = int(cursor_size / 3)
@@ -1933,6 +1932,11 @@ def game_start():
     logic.all_data.extend(data.containers)
     set_cursor(0)
     pygame.display.set_caption(data.game_title)
+    icon = pygame.transform.scale((pygame.image.load("images/ballot.png")), (32, 32))
+    icon_surf = pygame.Surface((32, 32))
+    icon_surf.fill(white)
+    icon_surf.blit(icon, (0, 0), None)
+    pygame.display.set_icon(icon_surf)
     channel = Music(list(data.soundtrack.keys()))
     PageTitle()
     PageSettings()
