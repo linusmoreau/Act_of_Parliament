@@ -337,6 +337,7 @@ class SavePopUp(PopUp):
     def make_selection(self):
         with os.scandir('saves/') as entries:
             files = []
+            entry: os.DirEntry
             for entry in entries:
                 if not entry.name.startswith('.') and entry.is_file():
                     files.append(entry)
@@ -394,6 +395,7 @@ class LoadPopUp(PopUp):
     def make_selection(self):
         with os.scandir('saves/') as entries:
             files = []
+            entry: os.DirEntry
             for entry in entries:
                 if not entry.name.startswith('.') and entry.is_file():
                     files.append(entry)
