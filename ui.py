@@ -7,10 +7,6 @@ from collections import OrderedDict
 display_rect = pygame.Rect((0, screen_height / 12), (screen_width, screen_height * 11 / 12))
 MENU_WIDTH = screen_width / 4
 
-# cursor_size = 20
-# point_pos = int(cursor_size / 3)
-# hand_cursor = pygame.transform.scale(pygame.image.load("images/hand_cursor.png"), (cursor_size, cursor_size))
-
 if not os.path.isdir("saves"):
     os.makedirs("saves")
 
